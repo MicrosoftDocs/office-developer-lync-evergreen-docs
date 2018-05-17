@@ -1,0 +1,55 @@
+﻿---
+title: MessageSentEventArgs.Contents property  (Microsoft.Lync.Model.Conversation)
+TOCTitle: 'Contents property '
+ms:assetid: P:Microsoft.Lync.Model.Conversation.MessageSentEventArgs.Contents_DI_3_UC_OCS14MrefLyncWPF
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.lync.model.conversation.messagesenteventargs.contents_di_3_uc_ocs14mreflyncwpf(v=office.15)
+ms:contentKeyID: 48591737
+ms.date: 07/28/2014
+mtps_version: v=office.15
+f1_keywords:
+- Microsoft.Lync.Model.Conversation.MessageSentEventArgs.Contents
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+---
+
+# MessageSentEventArgs.Contents property
+
+Returns a dictionary which maps a content type of a message to the associated formatted text.
+
+**Namespace:**  [Microsoft.Lync.Model.Conversation](microsoft-lync-model-conversation-namespace_2.md)  
+**Assembly:**  Microsoft.Lync.Model (in Microsoft.Lync.Model.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public ReadOnly Property Contents As IDictionary(Of InstantMessageContentType, String)
+    Get
+'Usage
+Dim instance As MessageSentEventArgs
+Dim value As IDictionary(Of InstantMessageContentType, String)
+
+value = instance.Contents
+```
+
+``` csharp
+public IDictionary<InstantMessageContentType, string> Contents { get; }
+```
+
+#### Property value
+
+Type: [System.Collections.Generic.IDictionary](http://msdn2.microsoft.com/en-us/library/s4ys34ea)\<[InstantMessageContentType](instantmessagecontenttype-enumeration-microsoft-lync-model-conversation_2.md), [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)\>  
+
+## See also
+
+#### Reference
+
+[MessageSentEventArgs class](messagesenteventargs-class-microsoft-lync-model-conversation_2.md)
+
+[MessageSentEventArgs members](messagesenteventargs-members-microsoft-lync-model-conversation_2.md)
+
+[Microsoft.Lync.Model.Conversation namespace](microsoft-lync-model-conversation-namespace_2.md)
+

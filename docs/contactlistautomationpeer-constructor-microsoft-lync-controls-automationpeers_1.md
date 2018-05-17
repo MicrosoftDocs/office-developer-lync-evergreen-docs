@@ -1,0 +1,58 @@
+﻿---
+title: ContactListAutomationPeer constructor  (Microsoft.Lync.Controls.AutomationPeers)
+TOCTitle: 'ContactListAutomationPeer constructor '
+ms:assetid: M:Microsoft.Lync.Controls.AutomationPeers.ContactListAutomationPeer.#ctor(Microsoft.Lync.Controls.ContactList)_DI_3_UC_OCS14MrefLyncWPF
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.lync.controls.automationpeers.contactlistautomationpeer.contactlistautomationpeer(v=office.15)
+ms:contentKeyID: 48598261
+ms.date: 07/28/2014
+mtps_version: v=office.15
+f1_keywords:
+- Microsoft.Lync.Controls.AutomationPeers.ContactListAutomationPeer.ContactListAutomationPeer
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+---
+
+# ContactListAutomationPeer constructor
+
+ContactListAutomationPeer Constructor
+
+**Namespace:**  [Microsoft.Lync.Controls.AutomationPeers](microsoft-lync-controls-automationpeers-namespace_1.md)  
+**Assembly:**  Microsoft.Lync.Controls (in Microsoft.Lync.Controls.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Sub New ( _
+    control As ContactList _
+)
+'Usage
+Dim control As ContactList
+
+Dim instance As New ContactListAutomationPeer(control)
+```
+
+``` csharp
+public ContactListAutomationPeer(
+    ContactList control
+)
+```
+
+#### Parameters
+
+  - control  
+    Type: [Microsoft.Lync.Controls.ContactList](contactlist-class-microsoft-lync-controls_1.md)  
+
+## See also
+
+#### Reference
+
+[ContactListAutomationPeer class](contactlistautomationpeer-class-microsoft-lync-controls-automationpeers_1.md)
+
+[ContactListAutomationPeer members](contactlistautomationpeer-members-microsoft-lync-controls-automationpeers_1.md)
+
+[Microsoft.Lync.Controls.AutomationPeers namespace](microsoft-lync-controls-automationpeers-namespace_1.md)
+

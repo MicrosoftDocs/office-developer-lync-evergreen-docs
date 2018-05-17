@@ -1,0 +1,58 @@
+﻿---
+title: ContactList.Contacts property  (Microsoft.Lync.Controls)
+TOCTitle: 'Contacts property '
+ms:assetid: P:Microsoft.Lync.Controls.ContactList.Contacts_DI_3_UC_OCS14MrefLyncWPF
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.lync.controls.contactlist.contacts_di_3_uc_ocs14mreflyncwpf(v=office.15)
+ms:contentKeyID: 48593383
+ms.date: 07/28/2014
+mtps_version: v=office.15
+f1_keywords:
+- Microsoft.Lync.Controls.ContactList.Contacts
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+---
+
+# ContactList.Contacts property
+
+Reserved for internal use.
+
+**Namespace:**  [Microsoft.Lync.Controls](microsoft-lync-controls-namespace_1.md)  
+**Assembly:**  Microsoft.Lync.Controls (in Microsoft.Lync.Controls.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Property Contacts As IEnumerable
+    Get
+    Set
+'Usage
+Dim instance As ContactList
+Dim value As IEnumerable
+
+value = instance.Contacts
+
+instance.Contacts = value
+```
+
+``` csharp
+public IEnumerable Contacts { get; set; }
+```
+
+#### Property value
+
+Type: [System.Collections.IEnumerable](http://msdn2.microsoft.com/en-us/library/h1x9x1b1)  
+
+## See also
+
+#### Reference
+
+[ContactList class](contactlist-class-microsoft-lync-controls_1.md)
+
+[ContactList members](contactlist-members-microsoft-lync-controls_1.md)
+
+[Microsoft.Lync.Controls namespace](microsoft-lync-controls-namespace_1.md)
+

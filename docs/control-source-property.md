@@ -1,0 +1,98 @@
+﻿---
+title: Control Source property
+TOCTitle: Control Source property
+ms:assetid: 9e1486d8-450b-4bde-9ade-c83e8a83aa53
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933144(v=office.15)
+ms:contentKeyID: 50877280
+ms.date: 07/24/2014
+mtps_version: v=office.15
+---
+
+# Control Source property
+
+![Core concepts](images/JJ933133.mod_icon_CoreConcepts_long(Office.15).png "Core concepts")
+
+Learn about the **Source** property used on all Microsoft Lync 2013 Controls.
+
+
+_**Applies to:** Lync 2013 | Lync Server 2013_
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>In this article</strong><br />
+Source property overview<br />
+Valid types<br />
+Expected types of strings<br />
+Additional resources</p></td>
+</tr>
+</tbody>
+</table>
+
+
+## Source property overview
+
+Use the [Source](contactbase-source-property-microsoft-lync-controls_1.md) property to provide contact or group identity. With controls such as PresenceIndicator and ContactCard, the **Source** property identifies the contact to display. With controls such as StartAudioCallButton and StartVideoCallButton, the **Source** property identifies a contact to include in a conversation. The **Source** property is used by the following controls:
+
+  - [PresenceIndicator](presenceindicator-class-microsoft-lync-controls_1.md) control
+
+  - [ContactCard](contactcard-class-microsoft-lync-controls_1.md) control
+
+  - [StartInstantMessagingButton](startinstantmessagingbutton-class-microsoft-lync-controls_1.md) control
+
+  - [StartAudioCallButton](startaudiocallbutton-class-microsoft-lync-controls_1.md) control
+
+  - [SendEmailButton](sendemailbutton-class-microsoft-lync-controls_1.md) control
+
+  - [StartVideoCallButton](startvideocallbutton-class-microsoft-lync-controls_1.md) control
+
+  - [ScheduleMeetingButton](schedulemeetingbutton-class-microsoft-lync-controls_1.md) control
+
+  - [SendFileButton](sendfilebutton-class-microsoft-lync-controls.md) control
+
+  - [ShareDesktopButton](sharedesktopbutton-class-microsoft-lync-controls_1.md) control
+
+## Valid types
+
+The **Source** property has three valid types:
+
+  - [Contact](contact-class-microsoft-lync-model_2.md)
+
+  - [DistributionGroup](distributiongroup-class-microsoft-lync-model-group_2.md)
+
+  - [String](http://go.microsoft.com/fwlink/?linkid=131086%26clcid=0x409)
+
+## Expected types of strings
+
+The **Source** property expects the following types of localizable strings:
+
+  - SIP URI
+
+  - SMTP address
+
+  - E.164 phone number
+
+
+> [!TIP]
+> <P>Observe the following guidelines when using the <STRONG>Source</STRONG> property:</P>
+> <UL>
+> <LI>
+> <P>If the value is a string that does not contain the sip: prefix, the control performs a search, using the string specified as a search criteria, and loads the first contact in the result set matching the specified string. This behavior is not deterministic and yields the slowest performance.</P>
+> <LI>
+> <P>If the value is a SIP URI string qualified by the sip: prefix, the contact is loaded using an exact match of the specified URI. This behavior is deterministic and yields better performance.</P>
+> <LI>
+> <P>If the value is a <A href="contact-class-microsoft-lync-model_2.md">Contact</A> or <A href="distributiongroup-class-microsoft-lync-model-group_2.md">DistributionGroup</A> object, it is used without any changes. This behavior is deterministic and yields the best performance.</P></LI></UL>
+
+
+
+## Additional resources
+
+  - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
+
+  - [Lync Controls reference](lync-controls-reference.md)
+
+  - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
+

@@ -1,1 +1,3 @@
-# Welcome to officedocs-dev-lync-docs!
+﻿---
+redirect_url: 'lync-2013'
+---
