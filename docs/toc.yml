@@ -2960,6 +2960,8 @@
       href: https://msdn.microsoft.com/en-us/library/office/dn435962.aspx
     - name: VoiceXML API Class Library
       href: https://msdn.microsoft.com/en-us/library/office/dn435961.aspx
+  - name: Unified Communications Web API 1.0 reference
+    href: https://msdn.microsoft.com/en-us/library/office/dn324971.aspx  
   - name: Technical articles
     href: lync-2013-technical-articles.md
     items:
