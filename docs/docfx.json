@@ -21,8 +21,11 @@
     "resource": [
       {
         "files": [
-          "**/*.png",
-          "**/*.jpg"
+              "**/*.png",
+              "**/*.jpg",
+              "**/*.gif",
+              "**/*.bmp",
+              "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",
@@ -36,7 +39,12 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/lync/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
+	   "ms.suite": "office",
+	   "ms.prod" : "lync",
+	   "ms.author": "o365devx",
+	   "author": "o365devx"
     },
     "fileMetadata": {},
     "template": [],
