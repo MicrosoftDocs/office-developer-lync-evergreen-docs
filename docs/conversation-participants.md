@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversation participants
 TOCTitle: Conversation participants
 ms:assetid: a06cc993-fe0a-4ae5-8e35-b35a3ae4bb37
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about how Microsoft Lync 2013 SDK represents the people who are participating in a Microsoft Lync 2013 conversation.
 
+**Last modified:** December 11, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -33,14 +34,13 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Conversation participants
 
-People who are participating in Lync 2013 are represented by [Microsoft.Lync.Model.Conversation.Participant](participant-class-microsoft-lync-model-conversation_2.md) objects in a collection obtained by reading the [Conversation.Participants](conversation-participants-property-microsoft-lync-model-conversation_2.md) property of a **Conversation**. A **Participant** object encapsulates the state of individuals in conversations. For example, the video stream pinned state for a user is exposed by the **Participant** object. Person-specific operations such as admitting or denying meeting access from a meeting lobby are done in the context of an individual **Participant** object. The **Participant** object exposes its own complete set of conversation modalities that encapsulate the IM, audio/video, or sharing interactions between individual conversation participants.
+People who are participating in Lync 2013 are represented by [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/en-us/library/jj267311\(v=office.15\)) objects in a collection obtained by reading the [Conversation.Participants](https://msdn.microsoft.com/en-us/library/jj293292\(v=office.15\)) property of a **Conversation**. A **Participant** object encapsulates the state of individuals in conversations. For example, the video stream pinned state for a user is exposed by the **Participant** object. Person-specific operations such as admitting or denying meeting access from a meeting lobby are done in the context of an individual **Participant** object. The **Participant** object exposes its own complete set of conversation modalities that encapsulate the IM, audio/video, or sharing interactions between individual conversation participants.
 
 ### Inviting participants to a conversation
 
-You can invite a person to a conversation by getting his or her [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) object or the [Microsoft.Lync.Model.ContactEndpoint](contactendpoint-class-microsoft-lync-model_2.md) of a telephone number to be dialed. There is an overload of the **Conversation.AddParticipant** method that is appropriate for the kind of entity that you are adding to the conversation. **Participant** objects are created by the API platform when you call the [Conversation.AddParticipant](conversation-addparticipant-method-microsoft-lync-model-conversation_2.md) (Contact) method or the [Conversation.AddParticipant](conversation-addparticipant-method-microsoft-lync-model-conversation_2.md) (ContactEndpoint) method. After a person or telephone number is added to a conversation and the [Conversation.ParticipantAdded](conversation-participantadded-event-microsoft-lync-model-conversation_2.md) event is raised, you invite the person by sending an initial IM on the conversation [Microsoft.Lync.Model.Conversation.InstantMessageModality](instantmessagemodality-class-microsoft-lync-model-conversation_2.md) modality or dial the added telephone number by connecting the conversation [Microsoft.Lync.Model.Conversation.AudioVideo.AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md).
+You can invite a person to a conversation by getting his or her [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object or the [Microsoft.Lync.Model.ContactEndpoint](https://msdn.microsoft.com/en-us/library/jj276722\(v=office.15\)) of a telephone number to be dialed. There is an overload of the **Conversation.AddParticipant** method that is appropriate for the kind of entity that you are adding to the conversation. **Participant** objects are created by the API platform when you call the [Conversation.AddParticipant](https://msdn.microsoft.com/en-us/library/jj266479\(v=office.15\)) (Contact) method or the [Conversation.AddParticipant](https://msdn.microsoft.com/en-us/library/jj266479\(v=office.15\)) (ContactEndpoint) method. After a person or telephone number is added to a conversation and the [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event is raised, you invite the person by sending an initial IM on the conversation [Microsoft.Lync.Model.Conversation.InstantMessageModality](https://msdn.microsoft.com/en-us/library/jj266036\(v=office.15\)) modality or dial the added telephone number by connecting the conversation [Microsoft.Lync.Model.Conversation.AudioVideo.AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)).
 
 ## Additional resources
 

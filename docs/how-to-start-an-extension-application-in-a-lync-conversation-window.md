@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Start an extension application in a Lync conversation window'
 TOCTitle: 'How to: Start an extension application in a conversation window'
 ms:assetid: a31d8832-bfa4-4f2d-98ae-479dea5cd081
@@ -15,8 +15,9 @@ dev_langs:
 
 Learn how to set Microsoft Lync 2013 Conversation Window Extension (CWE) properties, set CWE size and hosting location at runtime, and then start an IM conversation.
 
+**Last modified:** June 02, 2015
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,7 +37,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -87,7 +87,6 @@ The prerequisites for starting an extension application in a Lync 2013 conversat
 </tbody>
 </table>
 
-
 ## Create a CWE application
 
 Create and install a simple HTML page to represent a context application packaged in a conversation. In a production environment, substitute an application install procedure that installs the application on the appropriate client computers. The context application must be installed and registered on each sending and receiving client computer. For more information, see the "Create a sample context application" section in [How to: Install a CWE application in Lync SDK](how-to-install-a-cwe-application-in-lync-sdk.md).
@@ -127,12 +126,23 @@ The following procedure shows how to create a WPF window that is used to start a
 
 5.  Add the following code to a click event handler for a command button in the WPF window.
     
-
-    > [!IMPORTANT]
-    > <P>If a default CWE application is registered on the local computer, it loads in an extension tab even if your code has loaded a different CWE application in another tab.</P>
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>If a default CWE application is registered on the local computer, it loads in an extension tab even if your code has loaded a different CWE application in another tab.</p></td>
+    </tr>
+    </tbody>
+    </table>
     
-    This example overrides the install-time registration CWE application by creating an [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](applicationregistration-class-microsoft-lync-model-extensibility_2.md) object, setting property values appropriately, and adding the registration.
+    This example overrides the install-time registration CWE application by creating an [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](https://msdn.microsoft.com/en-us/library/jj293820\(v=office.15\)) object, setting property values appropriately, and adding the registration.
     
     ``` 
                 string appId = "{FA44026B-CC48-42DA-AAA8-B849BCB43A21}";
@@ -158,12 +168,23 @@ The following procedure shows how to create a WPF window that is used to start a
                 }
     ```
     
-    The following example automates the start of a new Lync 2013 conversation window using runtime CWE application registration set in the previous example. After the conversation window is opened, the runtime registration override must be removed with a call to the [ApplicationRegistration.RemoveRegistration](applicationregistration-removeregistration-method-microsoft-lync-model-extensibility_2.md) method.
+    The following example automates the start of a new Lync 2013 conversation window using runtime CWE application registration set in the previous example. After the conversation window is opened, the runtime registration override must be removed with a call to the [ApplicationRegistration.RemoveRegistration](https://msdn.microsoft.com/en-us/library/jj276189\(v=office.15\)) method.
     
-
-    > [!TIP]
-    > <P>You must always set the <A href="automationmodalitysettings-enumeration-microsoft-lync-model-extensibility_2.md">AutomationModalitySettings</A><STRONG>.ApplicationId</STRONG> modality property before you can open a non-default CWE application. Only create an <STRONG>ApplicationRegistration</STRONG> object if you are overriding the install-time registration. If a default CWE application is registered on a computer, it starts for every new conversation, even if no application ID is set. A default CWE application cannot be overridden by a runtime <STRONG>ApplicationRegistration</STRONG> object.</P>
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>You must always set the <a href="https://msdn.microsoft.com/en-us/library/jj276319(v=office.15)">AutomationModalitySettings</a><strong>.ApplicationId</strong> modality property before you can open a non-default CWE application. Only create an <strong>ApplicationRegistration</strong> object if you are overriding the install-time registration. If a default CWE application is registered on a computer, it starts for every new conversation, even if no application ID is set. A default CWE application cannot be overridden by a runtime <strong>ApplicationRegistration</strong> object.</p></td>
+    </tr>
+    </tbody>
+    </table>
     
     ``` csharp
                 Dictionary<AutomationModalitySettings, object> modalitySettings = new Dictionary<AutomationModalitySettings, object>();
@@ -234,7 +255,7 @@ The following example declares a WPF window that starts a new IM conversation an
 </Window>
 ```
 
-The following example is the interaction logic for the previous window declaration. The example opens a starts a new conversation by opening a [Microsoft.Lync.Model.Extensibility.ConversationWindow](conversationwindow-class-microsoft-lync-model-extensibility_2.md) and then opening an extensibility pane with a CWE application that is loaded from its default host server or a server specified at runtime.
+The following example is the interaction logic for the previous window declaration. The example opens a starts a new conversation by opening a [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) and then opening an extensibility pane with a CWE application that is loaded from its default host server or a server specified at runtime.
 
 ``` csharp
 using System.Collections.Generic;

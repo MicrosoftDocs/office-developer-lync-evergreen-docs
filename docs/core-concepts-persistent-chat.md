@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Core concepts: Persistent Chat'
 TOCTitle: Persistent Chat
 ms:assetid: cfa8efab-8ac7-4c43-ae72-d1234a73b7df
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the foundational Microsoft Lync 2013 SDK objects that make up the programmable components of a Microsoft Lync 2013 Persistent Chat room.
 
+**Last modified:** April 16, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -38,16 +39,25 @@ Watch the video: What’s new with the Lync 2013 Persistent Chat API
 </tbody>
 </table>
 
-
 ## Persistent Chat overview
 
 Microsoft Lync 2013 implements a set of Persistent Chat features that replace the Group Chat client, which is part of Microsoft Lync Server 2010. Microsoft Lync 2013 SDK gives you programmatic access to those features through its API.
 
-
-> [!NOTE]
-> <P>There are two kinds of chat rooms. A regular chat room accepts messages posted by any member of the chat room. The auditorium chat room lets a presenter post messages to the room and other room participants can only read those messages.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>There are two kinds of chat rooms. A regular chat room accepts messages posted by any member of the chat room. The auditorium chat room lets a presenter post messages to the room and other room participants can only read those messages.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Persistent Chat API features
 
@@ -77,7 +87,7 @@ For information about the capabilities of an add-in, see <a href="chat-room-add-
 </tr>
 <tr class="even">
 <td><p>Followed room list</p></td>
-<td><p>Just like <a href="contact-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.Contact</a> represents a contact in the contact list and <a href="customgroup-class-microsoft-lync-model-group_2.md">Microsoft.Lync.Model.Group.CustomGroup</a> represent custom groups in the contact list, <a href="room-class-microsoft-lync-model-room_2.md">Microsoft.Lync.Model.Room.Room</a> represents a chat room in a contact list. A user automatically joins all chat rooms in the contact list when they sign in to Lync 2013. When joined to a chat room, room message alerts can be displayed according to the user’s preferences.</p></td>
+<td><p>Just like <a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Microsoft.Lync.Model.Contact</a> represents a contact in the contact list and <a href="https://msdn.microsoft.com/en-us/library/jj277245(v=office.15)">Microsoft.Lync.Model.Group.CustomGroup</a> represent custom groups in the contact list, <a href="https://msdn.microsoft.com/en-us/library/jj266467(v=office.15)">Microsoft.Lync.Model.Room.Room</a> represents a chat room in a contact list. A user automatically joins all chat rooms in the contact list when they sign in to Lync 2013. When joined to a chat room, room message alerts can be displayed according to the user’s preferences.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Chat room message posting</p></td>
@@ -93,7 +103,6 @@ For information about the capabilities of an add-in, see <a href="chat-room-add-
 </tr>
 </tbody>
 </table>
-
 
 ## In this section
 

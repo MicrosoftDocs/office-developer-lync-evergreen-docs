@@ -1,4 +1,4 @@
-﻿---
+---
 title: Send and update context in an existing conversation
 TOCTitle: Send and update context in an existing conversation
 ms:assetid: cb42a093-51ce-4526-be46-ca6f27d2a4ac
@@ -12,12 +12,13 @@ dev_langs:
 
 # Send and update context in an existing conversation
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn how to send and update data in existing conversations by using Microsoft Lync 2013 SDK methods.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -37,7 +38,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Context overview
 
 <table>
@@ -53,20 +53,19 @@ Additional resources</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="conversation-beginsendinitialcontext-method-microsoft-lync-model-conversation_2.md">BeginSendInitialContext(IEnumerable&lt;KeyValuePair&lt;ContextType, Object&gt;&gt;, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275891(v=office.15)">BeginSendInitialContext(IEnumerable&lt;KeyValuePair&lt;ContextType, Object&gt;&gt;, AsyncCallback, Object)</a></p></td>
 <td><p><strong>BeginSendInitialContext</strong> is the setup method. Call it first. This method can be used multiple times in a single conversation, for example, if there is a change in subject and additional data is needed. The data limit is 2,000 characters.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="conversation-beginsendcontextdata-method-microsoft-lync-model-conversation_2.md">BeginSendContextData(String, String, String, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj278336(v=office.15)">BeginSendContextData(String, String, String, AsyncCallback, Object)</a></p></td>
 <td><p>Use <strong>BeginSendContextData</strong> for more advanced scenarios, such as implementing a command and response protocol, or exchanging large amounts of data. It can only be used after a session is established. However, it can be used again in an existing conversation as often as needed. The data limit is 64,000 characters.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BeginStartConversation(String, Int32, AsyncCallback, Object)</strong></p></td>
-<td><p>Use the <strong>BeginStartConversation</strong> method and the values of the <a href="automationmodalitysettings-enumeration-microsoft-lync-model-extensibility_2.md">AutomationModalitySettings</a> enumerator to add rich context to Lync SDK conversations.</p></td>
+<td><p>Use the <strong>BeginStartConversation</strong> method and the values of the <a href="https://msdn.microsoft.com/en-us/library/jj276319(v=office.15)">AutomationModalitySettings</a> enumerator to add rich context to Lync SDK conversations.</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Send and update data in an existing conversation
 
@@ -99,7 +98,7 @@ Use the **OnInitialContextReceived** and **OnInitialContextSent** events on the 
 
 ## Add context to a conversation
 
-The following example shows how to use the **BeginStartConversation** method and the values of the [AutomationModalitySettings](automationmodalitysettings-enumeration-microsoft-lync-model-extensibility_2.md) enumerator to add rich context to Lync SDK conversations. Also, use the **Conversation.BeginSendInitialContext** method.
+The following example shows how to use the **BeginStartConversation** method and the values of the [AutomationModalitySettings](https://msdn.microsoft.com/en-us/library/jj276319\(v=office.15\)) enumerator to add rich context to Lync SDK conversations. Also, use the **Conversation.BeginSendInitialContext** method.
 
 ``` csharp
 Dictionary<AutomationModalitySettings, object> _ModalitySettings = new Dictionary<AutomationModalitySettings, object>(); 

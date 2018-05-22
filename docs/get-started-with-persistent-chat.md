@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get started with Persistent Chat
 TOCTitle: Persistent Chat
 ms:assetid: 98b3c720-5693-4354-bc96-0ef14f369151
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about the programming concepts and Microsoft Lync 2013 SDK object model that you use to add Lync 2013 Persistent Chat features to your application.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What is Persistent Chat?  
@@ -33,10 +34,9 @@ Additional resources
 </tbody>
 </table>
 
-
 ## What is Persistent Chat?
 
-The classes in the Persistent Chat [Microsoft.Lync.Model.Room](microsoft-lync-model-room-namespace_2.md) namespace are the building blocks for features that range from chat room activity feeds, through chat room extensions called "add-on" applications, and to complete Persistent Chat room client applications. You can get chat rooms, join chat rooms, read chat room messages, and post chat room messages. You can also catch posts from the local user before they are posted if you need to filter, format, or cancel them.
+The classes in the Persistent Chat [Microsoft.Lync.Model.Room](https://msdn.microsoft.com/en-us/library/jj277187\(v=office.15\)) namespace are the building blocks for features that range from chat room activity feeds, through chat room extensions called "add-on" applications, and to complete Persistent Chat room client applications. You can get chat rooms, join chat rooms, read chat room messages, and post chat room messages. You can also catch posts from the local user before they are posted if you need to filter, format, or cancel them.
 
 A chat room add-in allows you to create features such as a bot feed that automatically formats and posts messages to a chat room. It is also possible to create an add-in application that can read the complete history of posts in a room and parse the posts for interesting keywords and concepts.
 
@@ -85,7 +85,6 @@ To understand how to work with Persistent Chat, it is important to become famili
 </tbody>
 </table>
 
-
 ## What can you do with Persistent Chat?
 
 The following table lists basic tasks for working with Persistent Chat.
@@ -125,7 +124,6 @@ The following table lists basic tasks for working with Persistent Chat.
 </tbody>
 </table>
 
-
 ## Beyond the basics: Learn more about Persistent Chat
 
 The following table lists advanced concepts for working with Persistent Chat.
@@ -152,7 +150,6 @@ The following table lists advanced concepts for working with Persistent Chat.
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

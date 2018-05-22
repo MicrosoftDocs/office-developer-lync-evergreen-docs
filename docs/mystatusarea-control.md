@@ -1,4 +1,4 @@
-﻿---
+---
 title: MyStatusArea control
 TOCTitle: MyStatusArea control
 ms:assetid: bed55d63-05a6-42d0-8627-00aa2b05b7e6
@@ -16,8 +16,9 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 MyStatusArea control.
 
+**Last modified:** February 12, 2013
 
-_**Applies to:** Lync 2013_
+***Applies to:** Lync 2013*
 
 <table>
 <colgroup>
@@ -36,16 +37,15 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Control overview
 
-Use the [MyStatusArea](mystatusarea-class-microsoft-lync-controls_1.md) control in Microsoft Lync Control applications to display the note string, an availability icon/photo, a textblock with the user’s name, and a textblock with the user’s location. It also displays the MyNoteBox and MyPresenceChooser controls together. To display these in separate locations, use MyNoteBox and MyPresenceChooser as separate controls. Clicking the presence status box displays a list of presence options, for example "Be Right Back." Users can change their presence by selecting one of these. Users can also change their note string by typing in new text and pressing the **Enter** key.
+Use the [MyStatusArea](https://msdn.microsoft.com/en-us/library/hh363503\(v=office.15\)) control in Microsoft Lync Control applications to display the note string, an availability icon/photo, a textblock with the user’s name, and a textblock with the user’s location. It also displays the MyNoteBox and MyPresenceChooser controls together. To display these in separate locations, use MyNoteBox and MyPresenceChooser as separate controls. Clicking the presence status box displays a list of presence options, for example "Be Right Back." Users can change their presence by selecting one of these. Users can also change their note string by typing in new text and pressing the **Enter** key.
 
 ![MyStatusArea Control](images/JJ945575.MyStatusAreaControl(Office.15).png "MyStatusArea Control")
 
 ## Members
 
-Notable MyStatusArea control public properties and events relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](lync-2013-class-libraries-reference.md).
+Notable MyStatusArea control public properties and events relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](https://msdn.microsoft.com/en-us/library/jj933088\(v=office.15\)).
 
 <table>
 <colgroup>
@@ -60,19 +60,19 @@ Notable MyStatusArea control public properties and events relating to unified co
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="selfbase-displayname-property-microsoft-lync-controls_1.md">DisplayName</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363484(v=office.15)">DisplayName</a> property</p></td>
 <td><p>Gets the display name of the currently logged-in user.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="mystatusarea-location-property-microsoft-lync-controls_1.md">Location</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh378959(v=office.15)">Location</a> property</p></td>
 <td><p>Gets a string that shows the location of the currently signed-in user.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="selfbase-model-property-microsoft-lync-controls_1.md">Model</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363904(v=office.15)">Model</a> property</p></td>
 <td><p>Reserved for internal use. This property might appear in XAML text when editing templates. To preserve control functionality, it should remain unchanged.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="mystatusarea-availabilitystate-property-microsoft-lync-controls_1.md">AvailabilityState</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363918(v=office.15)">AvailabilityState</a> property</p></td>
 <td><p>Gets an enumeration value that represents the contact’s availability. The type is a ContactAvailability enumeration. Possible values:</p>
 <ul>
 <li><p>Invalid</p></li>
@@ -88,11 +88,11 @@ Notable MyStatusArea control public properties and events relating to unified co
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><a href="mystatusarea-personalnote-property-microsoft-lync-controls_1.md">PersonalNote</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345761(v=office.15)">PersonalNote</a> property</p></td>
 <td><p>Gets a string that shows the content of the note box for the signed-in user.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="mystatusarea-photodisplaymode-property-microsoft-lync-controls_1.md">PhotoDisplayMode</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345959(v=office.15)">PhotoDisplayMode</a> property</p></td>
 <td><p>Gets or sets an enumeration value that determines the presence photo display mode. The type is a PhotoDisplayMode enumeration. Possible values include:</p>
 <ul>
 <li><p>Hidden</p></li>
@@ -102,7 +102,6 @@ Notable MyStatusArea control public properties and events relating to unified co
 </tr>
 </tbody>
 </table>
-
 
 ## Code example
 

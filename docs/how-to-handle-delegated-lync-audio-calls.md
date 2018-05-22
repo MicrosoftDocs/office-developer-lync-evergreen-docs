@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Handle delegated Lync audio calls'
 TOCTitle: 'How to: Handle delegated Lync audio calls'
 ms:assetid: ab25f4fb-23fe-4ca2-9c27-9fbcf3203912
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to programmatically handle a delegated Microsoft Lync 2013 audio call by using Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -72,58 +72,57 @@ The prerequisites for handling delegated calls are as follows:
 </tbody>
 </table>
 
-
 ## Delegator event registration
 
-A [Microsoft.Lync.Model.DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md) representing a call delegator is added to the [LyncClient.DelegatorClients](lyncclient-delegatorclients-property-microsoft-lync-model_2.md) collection whenever a user delegates the local user to take incoming audio calls. To catch that event, you register for [LyncClient.DelegatorClientAdded](lyncclient-delegatorclientadded-event-microsoft-lync-model_2.md). When the call delegator removes the local user from the call delegate list, the [LyncClient.DelegatorClientRemoved](lyncclient-delegatorclientremoved-event-microsoft-lync-model_2.md) event is raised.
+A [Microsoft.Lync.Model.DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)) representing a call delegator is added to the [LyncClient.DelegatorClients](https://msdn.microsoft.com/en-us/library/jj277686\(v=office.15\)) collection whenever a user delegates the local user to take incoming audio calls. To catch that event, you register for [LyncClient.DelegatorClientAdded](https://msdn.microsoft.com/en-us/library/jj267354\(v=office.15\)). When the call delegator removes the local user from the call delegate list, the [LyncClient.DelegatorClientRemoved](https://msdn.microsoft.com/en-us/library/jj278340\(v=office.15\)) event is raised.
 
 ### To register for delegator events in a form load event handler
 
-1.  Get the [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) and ensure the [State](conversation-state-property-microsoft-lync-model-conversation_2.md) is [ConversationState](conversationstate-enumeration-microsoft-lync-model-conversation_2.md).**SignedIn**.
+1.  Get the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) and ensure the [State](https://msdn.microsoft.com/en-us/library/jj267978\(v=office.15\)) is [ConversationState](https://msdn.microsoft.com/en-us/library/jj277587\(v=office.15\)).**SignedIn**.
     
     For information about signing in to Microsoft Lync 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-2.  Register for [LyncClient.DelegatorClientAdded](lyncclient-delegatorclientadded-event-microsoft-lync-model_2.md) and [LyncClient.DelegatorClientRemoved](lyncclient-delegatorclientremoved-event-microsoft-lync-model_2.md) on [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md).
+2.  Register for [LyncClient.DelegatorClientAdded](https://msdn.microsoft.com/en-us/library/jj267354\(v=office.15\)) and [LyncClient.DelegatorClientRemoved](https://msdn.microsoft.com/en-us/library/jj278340\(v=office.15\)) on [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)).
 
-3.  Iterate on the collection of [Microsoft.Lync.Model.DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md) instances in the [DelegatorClients](lyncclient-delegatorclients-property-microsoft-lync-model_2.md) property:
+3.  Iterate on the collection of [Microsoft.Lync.Model.DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)) instances in the [DelegatorClients](https://msdn.microsoft.com/en-us/library/jj277686\(v=office.15\)) property:
     
-    1.  Register for the [ConversationManager.ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event on the [ConversationManager](client-conversationmanager-property-microsoft-lync-model_2.md) property of the [Microsoft.Lync.Model.DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md).
+    1.  Register for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event on the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)) property of the [Microsoft.Lync.Model.DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)).
     
-    2.  Register for the [ConversationManager.ConversationRemoved](conversationmanager-conversationremoved-event-microsoft-lync-model-conversation_2.md) event on the [ConversationManager](client-conversationmanager-property-microsoft-lync-model_2.md) property of the [Microsoft.Lync.Model.DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md).
+    2.  Register for the [ConversationManager.ConversationRemoved](https://msdn.microsoft.com/en-us/library/jj293976\(v=office.15\)) event on the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)) property of the [Microsoft.Lync.Model.DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)).
 
 ## Handle delegator events
 
-You register for delegate conversation events for each [DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md) instance in the [DelegatorClients](lyncclient-delegatorclients-property-microsoft-lync-model_2.md) collection after you have obtained a [LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance in your form **Load** event. In addition, you register and unregister for conversation events in the delegator event handlers.
+You register for delegate conversation events for each [DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)) instance in the [DelegatorClients](https://msdn.microsoft.com/en-us/library/jj277686\(v=office.15\)) collection after you have obtained a [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance in your form **Load** event. In addition, you register and unregister for conversation events in the delegator event handlers.
 
 ### To handle the delegator added and the delegator removed
 
-1.  Create a method to handle the [LyncClient.DelegatorClientAdded](lyncclient-delegatorclientadded-event-microsoft-lync-model_2.md) event.
+1.  Create a method to handle the [LyncClient.DelegatorClientAdded](https://msdn.microsoft.com/en-us/library/jj267354\(v=office.15\)) event.
     
-    The method signature is System.EventHandler\<[DelegatorClientCollectionEventArgs](delegatorclientcollectioneventargs-class-microsoft-lync-model_2.md)\>.
+    The method signature is System.EventHandler\<[DelegatorClientCollectionEventArgs](https://msdn.microsoft.com/en-us/library/jj275274\(v=office.15\))\>.
 
-2.  Create a method to handle the [LyncClient.DelegatorClientRemoved](lyncclient-delegatorclientremoved-event-microsoft-lync-model_2.md) event.
+2.  Create a method to handle the [LyncClient.DelegatorClientRemoved](https://msdn.microsoft.com/en-us/library/jj278340\(v=office.15\)) event.
     
-    The method signature is System.EventHandler\<[DelegatorClientCollectionEventArgs](delegatorclientcollectioneventargs-class-microsoft-lync-model_2.md)\>.
+    The method signature is System.EventHandler\<[DelegatorClientCollectionEventArgs](https://msdn.microsoft.com/en-us/library/jj275274\(v=office.15\))\>.
 
-3.  In the [DelegatorClientAdded](lyncclient-delegatorclientadded-event-microsoft-lync-model_2.md) event, register for the [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) and [ConversationRemoved](conversationmanager-conversationremoved-event-microsoft-lync-model-conversation_2.md) events on the [Client.ConversationManager](client-conversationmanager-property-microsoft-lync-model_2.md) property of the [DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md).
+3.  In the [DelegatorClientAdded](https://msdn.microsoft.com/en-us/library/jj267354\(v=office.15\)) event, register for the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) and [ConversationRemoved](https://msdn.microsoft.com/en-us/library/jj293976\(v=office.15\)) events on the [Client.ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)) property of the [DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)).
 
-4.  In the [DelegatorClientRemoved](lyncclient-delegatorclientremoved-event-microsoft-lync-model_2.md) event, unregister for the [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) and [ConversationRemoved](conversationmanager-conversationremoved-event-microsoft-lync-model-conversation_2.md) events on the [Client.ConversationManager](client-conversationmanager-property-microsoft-lync-model_2.md) property of the [DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md).
+4.  In the [DelegatorClientRemoved](https://msdn.microsoft.com/en-us/library/jj278340\(v=office.15\)) event, unregister for the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) and [ConversationRemoved](https://msdn.microsoft.com/en-us/library/jj293976\(v=office.15\)) events on the [Client.ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)) property of the [DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)).
 
 ## Get a delegator user name when a delegated call is added
 
-To give the local user the delegator name on an incoming delegated call, add code from the following procedure to your [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event handler. For more information about handing incoming calls, see [How to: Join a Lync conversation](how-to-join-a-lync-conversation.md).
+To give the local user the delegator name on an incoming delegated call, add code from the following procedure to your [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event handler. For more information about handing incoming calls, see [How to: Join a Lync conversation](how-to-join-a-lync-conversation.md).
 
 ### To get call a delegator’s name
 
-  - For each [DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md) instance in the [LyncClient.DelegatorClients](lyncclient-delegatorclients-property-microsoft-lync-model_2.md) property, get a [ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md) by reading the [ConversationManager](client-conversationmanager-property-microsoft-lync-model_2.md) property on [Microsoft.Lync.Model.DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md).
+  - For each [DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)) instance in the [LyncClient.DelegatorClients](https://msdn.microsoft.com/en-us/library/jj277686\(v=office.15\)) property, get a [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) by reading the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)) property on [Microsoft.Lync.Model.DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)).
     
-    1.  Compare the delegator client’s [ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md) to the source of the [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event:(ConversationManager)source.
+    1.  Compare the delegator client’s [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) to the source of the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event:(ConversationManager)source.
     
     2.  If the two **ConversationManager** instances are identical, the added conversation is a delegated conversation.
         
-        1.  Get the [Contact](contact-class-microsoft-lync-model_2.md) of the call delegator by calling into **GetContactByUri** and then passing the [Uri](client-uri-property-microsoft-lync-model_2.md) of the [Microsoft.Lync.Model.DelegatorClient](delegatorclient-class-microsoft-lync-model_2.md).
+        1.  Get the [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) of the call delegator by calling into **GetContactByUri** and then passing the [Uri](https://msdn.microsoft.com/en-us/library/jj293482\(v=office.15\)) of the [Microsoft.Lync.Model.DelegatorClient](https://msdn.microsoft.com/en-us/library/jj266028\(v=office.15\)).
         
-        2.  Call [GetContactInformation](contact-getcontactinformation-method-microsoft-lync-model_2.md), passing [ContactInformationType](contactinformationtype-enumeration-microsoft-lync-model_2.md).**DisplayName** to get the name of the call delegator.
+        2.  Call [GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)), passing [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\)).**DisplayName** to get the name of the call delegator.
         
         3.  Break out of the **foreach** loop.
 
@@ -194,7 +193,7 @@ The following example registers or unregisters for conversation events on a dele
 
 ### Get call delegator’s name
 
-The following example code should be added to your [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event handler.
+The following example code should be added to your [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event handler.
 
 ``` csharp
     //The call is a delegated call.

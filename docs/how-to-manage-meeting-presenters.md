@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Manage meeting presenters'
 TOCTitle: 'How to: Manage meeting presenters'
 ms:assetid: 12482075-3fe5-456d-8dd6-ce36e212aa2a
@@ -15,8 +15,9 @@ dev_langs:
 
 Learn how to programmatically promote participants to the presenter role in a Microsoft Lync 2013 meeting by using Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Prerequisites
 
 The prerequisites for promoting meeting participants to presenters are as follows:
@@ -52,13 +52,13 @@ To promote or demote a participant in a meeting, the local user must be a meetin
 
 ### To promote a participant to a presenter
 
-1.  Verify that the local user is a presenter in the meeting by reading the [ParticipantProperty](participantproperty-enumeration-microsoft-lync-model-conversation_2.md)**.IsPresenter** property on the [Conversation.SelfParticipant](conversation-selfparticipant-property-microsoft-lync-model-conversation_2.md) property. If the value is **true**, promote the selected participant.
+1.  Verify that the local user is a presenter in the meeting by reading the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property on the [Conversation.SelfParticipant](https://msdn.microsoft.com/en-us/library/jj266427\(v=office.15\)) property. If the value is **true**, promote the selected participant.
 
-2.  Get the [Microsoft.Lync.Model.Conversation.Participant](participant-class-microsoft-lync-model-conversation_2.md) object to be promoted and read the [ParticipantProperty](participantproperty-enumeration-microsoft-lync-model-conversation_2.md)**.IsPresenter** property.
+2.  Get the [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/en-us/library/jj267311\(v=office.15\)) object to be promoted and read the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property.
     
     If the participant is an attendee, the participant can be promoted.
 
-3.  Promote the presenter by setting the [ParticipantProperty](participantproperty-enumeration-microsoft-lync-model-conversation_2.md)**.IsPresenter** to true by calling the [Participant.BeginSetProperty](participant-beginsetproperty-method-microsoft-lync-model-conversation_2.md) method.
+3.  Promote the presenter by setting the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** to true by calling the [Participant.BeginSetProperty](https://msdn.microsoft.com/en-us/library/jj267268\(v=office.15\)) method.
     
     The following example verifies that the local participant is a presenter, gets a participant to be promoted, and then promotes the selected participant to a presenter.
     
@@ -100,13 +100,13 @@ To promote or demote a participant in a meeting, the local user must be a meetin
 
 ### To demote a presenter to attendee
 
-1.  Verify that the local user is a presenter in the meeting by reading the [Microsoft.Lync.Model.Conversation.ParticipantProperty](participantproperty-enumeration-microsoft-lync-model-conversation_2.md)**.IsPresenter** property on the [Conversation.SelfParticipant](conversation-selfparticipant-property-microsoft-lync-model-conversation_2.md) property. If the value is **true**, promote the selected participant.
+1.  Verify that the local user is a presenter in the meeting by reading the [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property on the [Conversation.SelfParticipant](https://msdn.microsoft.com/en-us/library/jj266427\(v=office.15\)) property. If the value is **true**, promote the selected participant.
 
-2.  Get the [Microsoft.Lync.Model.Conversation.Participant](participant-class-microsoft-lync-model-conversation_2.md) object to be promoted and read the [Microsoft.Lync.Model.Conversation.ParticipantProperty](participantproperty-enumeration-microsoft-lync-model-conversation_2.md)**.IsPresenter** property.
+2.  Get the [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/en-us/library/jj267311\(v=office.15\)) object to be promoted and read the [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property.
     
     If the participant is a presenter, the participant can be demoted to an attendee.
 
-3.  Demote the presenter by setting the [ParticipantProperty](participantproperty-enumeration-microsoft-lync-model-conversation_2.md)**.IsPresenter** property to **false** by calling the [Participant.BeginSetProperty](participant-beginsetproperty-method-microsoft-lync-model-conversation_2.md) method.
+3.  Demote the presenter by setting the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property to **false** by calling the [Participant.BeginSetProperty](https://msdn.microsoft.com/en-us/library/jj267268\(v=office.15\)) method.
     
     The following example verifies that the local participant is a presenter, gets a participant to be promoted, and then promotes the selected participant to presenter.
     

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Visual template editing for Lync Controls that use contentPresenters
 TOCTitle: Visual template editing for Lync Controls that use contentPresenters
 ms:assetid: 9a6a4191-0acd-4d66-85cc-3280027be11b
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Visual template editing for Lync Controls that use contentPresenters
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about editing visual templates for Microsoft Lync 2013 Controls that inherit the ContactPresenter control.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -31,10 +32,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Editing overview
 
-The procedure appearing in [Editing the template of a Lync Control](editing-the-template-of-a-lync-control.md) can be used to edit the templates of most Lync 2013 Controls. However, to customize Lync Controls that contain multiple levels of complexity, additional steps are required. For example, editing the template of the [ContactCard](contactcard-class-microsoft-lync-controls_1.md) control generates a complex set of templates.
+The procedure appearing in [Editing the template of a Lync Control](editing-the-template-of-a-lync-control.md) can be used to edit the templates of most Lync 2013 Controls. However, to customize Lync Controls that contain multiple levels of complexity, additional steps are required. For example, editing the template of the [ContactCard](https://msdn.microsoft.com/en-us/library/hh379168\(v=office.15\)) control generates a complex set of templates.
 
 ## In this section
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add a Silverlight application to Conversation Window Extension
 TOCTitle: Add a Silverlight application to Conversation Window Extension
 ms:assetid: 8116ceb5-788f-4a86-b326-3c671b33bfbc
@@ -12,12 +12,13 @@ dev_langs:
 
 # Add a Silverlight application to Conversation Window Extension
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about displaying Microsoft Silverlight applications in Lync 2013 CWE during Lync 2013 conversations.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Displaying a Silverlight application
 

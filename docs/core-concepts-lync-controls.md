@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Core concepts: Lync Controls'
 TOCTitle: Lync Controls
 ms:assetid: 1f73b58b-dfe3-49ea-8085-fda658904b36
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts that you need to know before you use Microsoft Lync 2013 Controls in a Silverlight or WPF window.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 ## In this section
 

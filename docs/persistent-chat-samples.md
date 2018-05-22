@@ -1,4 +1,4 @@
-﻿---
+---
 title: Persistent Chat samples
 TOCTitle: Persistent Chat samples
 ms:assetid: 9e7e8204-2a48-498e-9c0e-c0acc629a7c6
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Persistent Chat-related quick-start samples that are installed with Microsoft Lync 2013 SDK.
 
+**Last modified:** December 07, 2015
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -29,7 +30,6 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 </tr>
 </tbody>
 </table>
-
 
 ## Persistent Chat samples
 
@@ -79,7 +79,6 @@ The following sample applications demonstrate how to add chat room features to y
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

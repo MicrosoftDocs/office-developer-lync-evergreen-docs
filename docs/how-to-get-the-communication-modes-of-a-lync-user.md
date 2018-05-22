@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Get the communication modes of a Lync user'
 TOCTitle: 'How to: Get the communication modes of a Lync user'
 ms:assetid: eb736ac7-84f1-4633-b3d3-1aa114e2c735
@@ -15,8 +15,9 @@ dev_langs:
 
 Learn how use Microsoft Lync 2013 SDK to get the communication modalities that a Microsoft Lync 2013 user can use to participate in conversations.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -37,7 +38,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Prerequisites
 
 The prerequisites for getting the communication modes of a Lync user are as follows:
@@ -50,7 +50,7 @@ The prerequisites for getting the communication modes of a Lync user are as foll
 
 ### Core concepts to know
 
-Before you learn how to discover the modalities of a Lync 2013 user, you should be familiar with what a modality is and how to obtain a [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) that represents a Lync 2013 user.
+Before you learn how to discover the modalities of a Lync 2013 user, you should be familiar with what a modality is and how to obtain a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) that represents a Lync 2013 user.
 
 <table>
 <colgroup>
@@ -75,7 +75,6 @@ Before you learn how to discover the modalities of a Lync 2013 user, you should 
 </tbody>
 </table>
 
-
 ## Get the current communication capabilities of a Lync 2013 user
 
 When a user is not signed out of Lync 2013, the Lync 2013 client publishes communication capabilities in three formats on behalf of the user. These formats include the following:
@@ -90,14 +89,25 @@ The following procedures show how to get the first two formats.
 
 ### To get the capability summary
 
-1.  Get a [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) object by searching or obtaining the object from the user’s contact list.
+1.  Get a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object by searching or obtaining the object from the user’s contact list.
 
-2.  Call the [Contact.GetContactInformation](contact-getcontactinformation-method-microsoft-lync-model_2.md) method, passing the [ContactInformationType](contactinformationtype-enumeration-microsoft-lync-model_2.md)**.CapabilityString** enumerator.
+2.  Call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method, passing the [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\))**.CapabilityString** enumerator.
     
-
-    > [!IMPORTANT]
-    > <P>The summary string is not filled unless the communication capabilities of the user are in an exceptional state. For example, if the user is signed in to Lync on a mobile device, the user is IM capable but the capabilities summary is "Mobile."</P>
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The summary string is not filled unless the communication capabilities of the user are in an exceptional state. For example, if the user is signed in to Lync on a mobile device, the user is IM capable but the capabilities summary is &quot;Mobile.&quot;</p></td>
+    </tr>
+    </tbody>
+    </table>
     
     The following example calls the **GetContactInformation** method and adds the returned string value to a list on the WPF page.
     
@@ -107,30 +117,41 @@ The following procedures show how to get the first two formats.
 
 ### To get a detailed capability list
 
-1.  Get a [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) object by searching or obtaining the object from the user’s contact list.
+1.  Get a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object by searching or obtaining the object from the user’s contact list.
 
-2.  Call the [Contact.GetContactInformation](contact-getcontactinformation-method-microsoft-lync-model_2.md) method, passing the [ContactInformationType](contactinformationtype-enumeration-microsoft-lync-model_2.md)**.CapabilityDetails** enumerator.
+2.  Call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method, passing the [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\))**.CapabilityDetails** enumerator.
     
     A **List\<System.Object\>** is returned.
 
-3.  Iterate on the object list, casting each object to [Microsoft.Lync.Model.PresenceCapability](presencecapability-class-microsoft-lync-model_2.md).
+3.  Iterate on the object list, casting each object to [Microsoft.Lync.Model.PresenceCapability](https://msdn.microsoft.com/en-us/library/jj277156\(v=office.15\)).
 
 4.  For each **PresenceCapability** object, read the following properties:
     
-      - [PresenceCapability.Type](presencecapability-type-property-microsoft-lync-model_2.md)
+      - [PresenceCapability.Type](https://msdn.microsoft.com/en-us/library/jj267678\(v=office.15\))
     
-      - [PresenceCapability.Availability](presencecapability-availability-property-microsoft-lync-model_2.md)
+      - [PresenceCapability.Availability](https://msdn.microsoft.com/en-us/library/jj276568\(v=office.15\))
     
-      - [PresenceCapability.CanCapture](presencecapability-cancapture-property-microsoft-lync-model_2.md)
+      - [PresenceCapability.CanCapture](https://msdn.microsoft.com/en-us/library/jj277270\(v=office.15\))
     
-      - [PresenceCapability.CanRender](presencecapability-canrender-property-microsoft-lync-model_2.md)
+      - [PresenceCapability.CanRender](https://msdn.microsoft.com/en-us/library/jj276353\(v=office.15\))
     
     The following example iterates on the collection of **PresenceCapability** objects and reads each of the properties in the previous list. The property values are concatenated and added to a list on the WPF page UI.
     
-
-    > [!IMPORTANT]
-    > <P>The <A href="presencecapability-availability-property-microsoft-lync-model_2.md">PresenceCapability.Availability</A> property returns an integer value that corresponds to one of the enumerators of <A href="contactavailability-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ContactAvailability</A>. This example calls a helper method that converts the integer to the correct enumerator.</P>
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The <a href="https://msdn.microsoft.com/en-us/library/jj276568(v=office.15)">PresenceCapability.Availability</a> property returns an integer value that corresponds to one of the enumerators of <a href="https://msdn.microsoft.com/en-us/library/jj293978(v=office.15)">Microsoft.Lync.Model.ContactAvailability</a>. This example calls a helper method that converts the integer to the correct enumerator.</p></td>
+    </tr>
+    </tbody>
+    </table>
     
     ``` csharp
             /// <summary>
@@ -174,11 +195,11 @@ When a user’s availability changes or the user signs in to Lync 2013 from a de
 
 ### To get communication capability updates
 
-1.  Get a [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) object by searching or obtaining the object from the user’s contact list.
+1.  Get a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object by searching or obtaining the object from the user’s contact list.
 
-2.  Register for the [Contact.ContactInformationChanged](contact-contactinformationchanged-event-microsoft-lync-model_2.md) event on the contact.
+2.  Register for the [Contact.ContactInformationChanged](https://msdn.microsoft.com/en-us/library/jj275543\(v=office.15\)) event on the contact.
 
-3.  In the event handler, verify that the [ContactInformationType](contactinformationtype-enumeration-microsoft-lync-model_2.md)**.CapabilityString** or [Microsoft.Lync.Model.ContactInformationType](contactinformationtype-enumeration-microsoft-lync-model_2.md)**.CapabilityDetails** have changed.
+3.  In the event handler, verify that the [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\))**.CapabilityString** or [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\))**.CapabilityDetails** have changed.
 
 4.  If one of these contact information types has changed, get the new values and display them.
     
@@ -202,15 +223,25 @@ When a user’s availability changes or the user signs in to Lync 2013 from a de
             }
     ```
     
-
-    > [!NOTE]
-    > <P>The <STRONG>GetCapabilityString</STRONG> helper method is listed in the example in the next section.</P>
-
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The <strong>GetCapabilityString</strong> helper method is listed in the example in the next section.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
 ## Code examples: User capability page
 
-This example is a WPF window that hosts a [Microsoft.Lync.Controls.ContactList](contactlist-class-microsoft-lync-controls_1.md) control. When a user clicks a contact in the list, a WPF page is created and set as the content of the main window. The WPF page displays the details of the selected contact’s ability to communicate on all Lync 2013 conversation modalities.
+This example is a WPF window that hosts a [Microsoft.Lync.Controls.ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control. When a user clicks a contact in the list, a WPF page is created and set as the content of the main window. The WPF page displays the details of the selected contact’s ability to communicate on all Lync 2013 conversation modalities.
 
 The following example declares a WPF window that hosts the contact list control.
 

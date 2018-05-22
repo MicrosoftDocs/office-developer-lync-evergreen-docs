@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Install a CWE application in Lync SDK'
 TOCTitle: 'How to: Install a CWE application'
 ms:assetid: 8a524495-776b-461e-a6e4-03cdad90c239
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn how to create a registry (.reg) file that registers a Microsoft Lync 2013 Conversation Window Extension (CWE) on a computer so that the CWE can be opened in a Lync 2013 conversation window.
 
+**Last modified:** February 14, 2014
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,7 +33,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -115,7 +115,6 @@ The following procedure shows how to use registry entries to register the contex
     </tr>
     </tbody>
     </table>
-
 
 ## Code example: CWE registry file
 

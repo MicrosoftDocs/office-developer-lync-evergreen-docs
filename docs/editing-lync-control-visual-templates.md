@@ -1,4 +1,4 @@
-﻿---
+---
 title: Editing Lync Control visual templates
 TOCTitle: Editing Lync Control visual templates
 ms:assetid: a05042f0-7851-4b42-9b68-29be526774a2
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Editing Lync Control visual templates
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about the concept of customizing the visual template of Microsoft Lync 2013 Controls to provide a customized visual appearance in your application.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -29,7 +30,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Editing overview
 

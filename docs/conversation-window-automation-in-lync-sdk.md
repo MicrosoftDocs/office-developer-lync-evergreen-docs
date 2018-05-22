@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversation window automation in Lync SDK
 TOCTitle: Conversation window automation
 ms:assetid: fdbbd783-9d3a-4120-8932-8d48f5c854ae
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about Microsoft Lync 2013 conversation window automation in Microsoft Lync 2013 SDK and how conversation window automation lets you integrate Lync 2013 into an application with very little code and in a short time.
 
+**Last modified:** April 16, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -29,12 +30,11 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 What is conversation window automation?<br />
 Conversation window automation objects<br />
 Additional resources</p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-join-meeting-1f65c20a">Join meeting from lobby using the Automation class</a></p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## What is conversation window automation?
 
@@ -42,15 +42,25 @@ Conversation window automation is a feature that lets you programmatically start
 
 A conversation window can be made context-aware at the time it is started. That is, the conversation window can be extended to provide conversation participants with contextual information from the launching application. For example, if your application is an accounts payable (AP) system and you start a conversation window from within an AP screen for a given payable transaction, the details of the transaction can be shown in the conversation window so that users have context for conversing.
 
-
-> [!IMPORTANT]
-> <P>The mechanism that extends the conversation window with contextual information has two parts. The first part is the extension tabs on the conversation window UI that are built into the conversation window. The second part is a Silverlight browser extension application that you must write. This extension application is hosted in the conversation window on an extension tab. The extension application must be able to call into your application for context data and call into the Lync API for access to the object that encapsulates the conversation itself. For information about writing extension applications, see <A href="how-to-create-a-conversation-window-extension-application-in-lync-sdk.md">How to: Create a Conversation Window Extension application in Lync SDK</A>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The mechanism that extends the conversation window with contextual information has two parts. The first part is the extension tabs on the conversation window UI that are built into the conversation window. The second part is a Silverlight browser extension application that you must write. This extension application is hosted in the conversation window on an extension tab. The extension application must be able to call into your application for context data and call into the Lync API for access to the object that encapsulates the conversation itself. For information about writing extension applications, see <a href="how-to-create-a-conversation-window-extension-application-in-lync-sdk.md">How to: Create a Conversation Window Extension application in Lync SDK</a>.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Conversation window automation objects
 
-The [Microsoft.Lync.Model.Extensibility](microsoft-lync-model-extensibility-namespace_2.md) namespace contains the five classes and three enumerations that are responsible for exposing the automation feature. The [Automation](automation-class-microsoft-lync-model-extensibility_2.md) class is the entry point into the automation feature and provides the method that starts the conversation window and returns a reference to the new conversation window. The [ConversationWindow](conversationwindow-class-microsoft-lync-model-extensibility_2.md) class represents a started conversation window. The enumerations and other classes of the namespace support the conversation modality options and docking feature in automation.
+The [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/en-us/library/jj278382\(v=office.15\)) namespace contains the five classes and three enumerations that are responsible for exposing the automation feature. The [Automation](https://msdn.microsoft.com/en-us/library/jj293816\(v=office.15\)) class is the entry point into the automation feature and provides the method that starts the conversation window and returns a reference to the new conversation window. The [ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) class represents a started conversation window. The enumerations and other classes of the namespace support the conversation modality options and docking feature in automation.
 
 ## Additional resources
 

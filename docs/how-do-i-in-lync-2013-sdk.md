@@ -1,4 +1,4 @@
-﻿---
+---
 title: How do I in Lync 2013 SDK
 TOCTitle: How do I
 ms:assetid: 8a55ed45-0e48-4443-ac01-3dc80978df59
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about adding Microsoft Lync 2013 features to your application by using the API classes in Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -28,7 +29,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## How do I add SDK features to an application?
 
@@ -86,7 +86,6 @@ The topics in this section are grouped by Lync 2013 feature and should be review
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

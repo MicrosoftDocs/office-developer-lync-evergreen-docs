@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Filter an outgoing message from a local user to a chat room'
 TOCTitle: 'How to: Filter an outgoing message'
 ms:assetid: 4d753a01-94e0-4973-8a2c-641880f5550b
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to create a client-side ethical/security filter for messages that a Microsoft Lync 2013 is posting to a Lync 2013 Persistent Chat room.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -34,13 +35,12 @@ Register for room events<br />
 Handle the IsSendingMessage event<br />
 Code examples: Ethical message filter<br />
 Additional resources</p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-filter-room-c2544b54">Filter room messages before they are posted</a><br />
 </p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Filter overview
 
@@ -91,12 +91,11 @@ Understanding the following concepts is essential to adding Persistent Chat to a
 </tbody>
 </table>
 
-
 ## Initial application state
 
-Before you start the procedures in this topic, your application must declare and initialize a [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance and the client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
+Before you start the procedures in this topic, your application must declare and initialize a [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and the client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-You must also have an instance of [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) where the user has permission to read and post messages. For information about getting a room, see [How to: Find a chat room](how-to-find-a-chat-room.md). Your application must declare a button and a text box for rich-text format (RTF) content. The RTF text box accepts the message string to post and the button starts to post the message.
+You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) where the user has permission to read and post messages. For information about getting a room, see [How to: Find a chat room](how-to-find-a-chat-room.md). Your application must declare a button and a text box for rich-text format (RTF) content. The RTF text box accepts the message string to post and the button starts to post the message.
 
 ### Code example
 
@@ -132,7 +131,7 @@ The following example declares the class fields that are referenced later in thi
 
 ## Register for room events
 
-When you have obtained a [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) instance selected by a user, register for a set of room events so that you can receive a notification of a local user’s pending message post or messages posted to the room by other users.
+When you have obtained a [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) instance selected by a user, register for a set of room events so that you can receive a notification of a local user’s pending message post or messages posted to the room by other users.
 
 ### To register for room events
 
@@ -196,41 +195,61 @@ The following example registers for room events and reads room properties.
 
 ## Handle the IsSendingMessage event
 
-The outgoing message filtering logic is triggered in the [Room.IsSendingMessage](room-issendingmessage-event-microsoft-lync-model-room_2.md) event. Your filter logic can take one of three actions:
+The outgoing message filtering logic is triggered in the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event. Your filter logic can take one of three actions:
 
   - Post the pending message that has no changes to the message text.
 
   - Replace some or all of the text in the message string before posting the message. This replacement can range from applying the results of a spelling checker algorithm, applying company messaging policy, applying standard message formatting, or translating the string from one language to another by calling methods on the Bing Translation service.
     
-
-    > [!IMPORTANT]
-    > <P>The text changes should be made for the message text in both plain text and RTF formats. If the same text replacement is not made to both formats, the resulting message shows inconsistent text across the two formats.</P>
-
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The text changes should be made for the message text in both plain text and RTF formats. If the same text replacement is not made to both formats, the resulting message shows inconsistent text across the two formats.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
   - Cancel the message posting operation. In this case, no message is posted to the chat room.
     
-
-    > [!IMPORTANT]
-    > <P>The Lync 2013 API platform has a timeout mechanism that posts a pending room message after 4 seconds if the <A href="room-sendfilteredmessage-method-microsoft-lync-model-room_2.md">Room.SendFilteredMessage</A> is not called by your application. This means that if no filtering action is taken by your application within 4 seconds, the message is posted to the room.</P>
-
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The Lync 2013 API platform has a timeout mechanism that posts a pending room message after 4 seconds if the <a href="https://msdn.microsoft.com/en-us/library/jj265991(v=office.15)">Room.SendFilteredMessage</a> is not called by your application. This means that if no filtering action is taken by your application within 4 seconds, the message is posted to the room.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
 ### To filter a message
 
-1.  Get the [Microsoft.Lync.Model.Room.RoomMessage](roommessage-class-microsoft-lync-model-room_2.md) instance that encapsulates the pending message post.
+1.  Get the [Microsoft.Lync.Model.Room.RoomMessage](https://msdn.microsoft.com/en-us/library/jj276207\(v=office.15\)) instance that encapsulates the pending message post.
 
-2.  Get the plain-text message string and the RTF message string from the [RoomMessage.MessageDictionary](roommessage-messagedictionary-property-microsoft-lync-model-room_2.md) property.
+2.  Get the plain-text message string and the RTF message string from the [RoomMessage.MessageDictionary](https://msdn.microsoft.com/en-us/library/jj275293\(v=office.15\)) property.
 
 3.  Apply custom filtering logic to each string.
 
-4.  Replace the original strings in the [RoomMessage.MessageDictionary](roommessage-messagedictionary-property-microsoft-lync-model-room_2.md) with the updated message strings.
+4.  Replace the original strings in the [RoomMessage.MessageDictionary](https://msdn.microsoft.com/en-us/library/jj275293\(v=office.15\)) with the updated message strings.
 
-5.  Call the [Room.SendFilteredMessage](room-sendfilteredmessage-method-microsoft-lync-model-room_2.md) method with the enumeration of [Microsoft.Lync.Model.Room.RoomMessageFilteringAction](roommessagefilteringaction-enumeration-microsoft-lync-model-room_2.md) that applies your selected action.
+5.  Call the [Room.SendFilteredMessage](https://msdn.microsoft.com/en-us/library/jj265991\(v=office.15\)) method with the enumeration of [Microsoft.Lync.Model.Room.RoomMessageFilteringAction](https://msdn.microsoft.com/en-us/library/jj275314\(v=office.15\)) that applies your selected action.
 
 ### Code examples
 
-The following example filters a pending message in the [Room.IsSendingMessage](room-issendingmessage-event-microsoft-lync-model-room_2.md) event.
+The following example filters a pending message in the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event.
 
 ``` csharp
         private void room_IsSendingMessage(object sender, RoomMessageEventArgs e)
@@ -288,7 +307,7 @@ The following example filters a pending message in the [Room.IsSendingMessage](r
         }
 ```
 
-The following example takes the pending message text as a parameter, parses the message for custom content rules, makes corrections in the string, warns a user if corrections are made, and passes the updated string back to the [Room.IsSendingMessage](room-issendingmessage-event-microsoft-lync-model-room_2.md) event handler.
+The following example takes the pending message text as a parameter, parses the message for custom content rules, makes corrections in the string, warns a user if corrections are made, and passes the updated string back to the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event handler.
 
 ``` csharp
         /// <summary>

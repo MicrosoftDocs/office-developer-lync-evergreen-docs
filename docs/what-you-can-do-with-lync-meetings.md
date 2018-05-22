@@ -1,4 +1,4 @@
-﻿---
+---
 title: What you can do with Lync meetings
 TOCTitle: Lync meetings
 ms:assetid: 4da14eed-625a-4b32-bfed-9dbea9a8bf2b
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core Microsoft Lync 2013 meeting-related programming tasks you can do with the Microsoft Lync 2013 API. These tasks include defining a meeting access policy, managing the display of shared content and meeting video, assigning meeting presenters, and starting meet-now meetings.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -27,7 +28,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Core meeting tasks
 

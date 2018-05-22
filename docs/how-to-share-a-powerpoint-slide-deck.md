@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Share a PowerPoint slide deck'
 TOCTitle: 'How to: Share a PowerPoint slide deck'
 ms:assetid: 5b7e68e7-9c7a-49b2-9541-19813682cef9
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to programmatically share a PowerPoint slide deck session in a Lync 2013 conversation.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -43,16 +44,25 @@ Watch the video: Share PowerPoint slides in online meetings
 </tbody>
 </table>
 
-
 ## PowerPoint sharing overview
 
 Learn how to create a shareable object that represents a PowerPoint deck, upload the shareable object to a conversation content bin, share it in a conversation, and then scroll through the slides.
 
-
-> [!IMPORTANT]
-> <P>PowerPoint sharing is not supported in Lync UI suppression mode.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>PowerPoint sharing is not supported in Lync UI suppression mode.</p></td>
+</tr>
+</tbody>
+</table>
 
 The sample application shown in figure 1 is a Windows Forms application that implements the Lync 2013 API to let a user manage PowerPoint sharing in a conversation.
 
@@ -105,10 +115,9 @@ Understanding the following concepts is essential to using content sharing conve
 </tbody>
 </table>
 
-
 ## First steps
 
-Before the logic in this topic runs in your application, a conversation must be active and you have registered an event callback method for the **ContentSharingModalityActionAvailabilityChanged()** event. The [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](contentsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) is in a connected state. For information about starting a conversation that hosts content sharing, see [How to: Start a content sharing conversation](how-to-start-a-content-sharing-conversation.md).
+Before the logic in this topic runs in your application, a conversation must be active and you have registered an event callback method for the **ContentSharingModalityActionAvailabilityChanged()** event. The [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) is in a connected state. For information about starting a conversation that hosts content sharing, see [How to: Start a content sharing conversation](how-to-start-a-content-sharing-conversation.md).
 
 ### Code example: Namespace declarations
 
@@ -140,17 +149,17 @@ Add the following class field declarations to your application.
 
 ## Upload a PowerPoint deck to a conversation
 
-When the [ModalityAction](modalityaction-enumeration-microsoft-lync-model-conversation_2.md)**.CreateShareablePowerPointContent** action is available, you can create the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object that encapsulates the PowerPoint deck you upload.
+When the [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\))**.CreateShareablePowerPointContent** action is available, you can create the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object that encapsulates the PowerPoint deck you upload.
 
 ### To upload a PowerPoint deck
 
-1.  Verify that the **ShareableContent** object can be created by calling the [Modality.CanInvoke](modality-caninvoke-method-microsoft-lync-model-conversation_2.md) method.
+1.  Verify that the **ShareableContent** object can be created by calling the [Modality.CanInvoke](https://msdn.microsoft.com/en-us/library/jj267958\(v=office.15\)) method.
 
-2.  Create the **ShareableContent** object by calling the [ContentSharingModality.BeginCreateContentFromFile](contentsharingmodality-begincreatecontentfromfile-method-microsoft-lync-model-conversation-sharing_2.md) method.
+2.  Create the **ShareableContent** object by calling the [ContentSharingModality.BeginCreateContentFromFile](https://msdn.microsoft.com/en-us/library/jj277389\(v=office.15\)) method.
 
-3.  Upload the slide deck to the conversation by calling the [ShareableContent.Upload](shareablecontent-upload-method-microsoft-lync-model-conversation-sharing_2.md) method on the **ShareableContent** object.
+3.  Upload the slide deck to the conversation by calling the [ShareableContent.Upload](https://msdn.microsoft.com/en-us/library/jj278338\(v=office.15\)) method on the **ShareableContent** object.
 
-4.  Register for the [ShareableContent.ActionAvailabilityChanged](shareablecontent-actionavailabilitychanged-event-microsoft-lync-model-conversation-sharing_2.md) event on the **ShareableContent** object.
+4.  Register for the [ShareableContent.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj267657\(v=office.15\)) event on the **ShareableContent** object.
 
 ### Code example: Create and upload a PowerPoint deck
 
@@ -201,13 +210,23 @@ The following example finishes first three steps of the previous procedure. The 
         }
 ```
 
-The following example is invoked on the API platform thread when the **BeginCreateContentFromFile** operation is complete. The **\[T:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.EndCreateContentFromFile(System.IAsyncResult)\]** method is called and then the PowerPoint deck is uploaded with call to the [ShareableContent.Upload](shareablecontent-upload-method-microsoft-lync-model-conversation-sharing_2.md) method.
+The following example is invoked on the API platform thread when the **BeginCreateContentFromFile** operation is complete. The **\[T:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.EndCreateContentFromFile(System.IAsyncResult)\]** method is called and then the PowerPoint deck is uploaded with call to the [ShareableContent.Upload](https://msdn.microsoft.com/en-us/library/jj278338\(v=office.15\)) method.
 
-
-> [!IMPORTANT]
-> <P>The three exceptions that are in the following catch blocks are raised for conditions that you cannot test for before you call the <STRONG>Upload</STRONG> method. This is because other conversation participants might be uploading content to the common conversation content bin at the same time that the local user is uploading the PowerPoint deck. Another participant might have selected the same content title as selected by the local user or uploaded the maximum number of content bin items.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The three exceptions that are in the following catch blocks are raised for conditions that you cannot test for before you call the <strong>Upload</strong> method. This is because other conversation participants might be uploading content to the common conversation content bin at the same time that the local user is uploading the PowerPoint deck. Another participant might have selected the same content title as selected by the local user or uploaded the maximum number of content bin items.</p></td>
+</tr>
+</tbody>
+</table>
 
 ``` csharp
         /// <summary>
@@ -255,7 +274,7 @@ The following example registers event callback methods on the new **SharingModal
 
 ### Code example: Handle the ActionAvailabilityChanged event
 
-The following example enables or disables the content item sharing UI command buttons when the availability of actions on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object changes.
+The following example enables or disables the content item sharing UI command buttons when the availability of actions on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object changes.
 
 ``` csharp
         /// <summary>
@@ -300,15 +319,15 @@ The following example enables or disables the content item sharing UI command bu
 
 ## Share a PowerPoint deck
 
-To share a whiteboard, call the [ShareableContent.Present](shareablecontent-present-method-microsoft-lync-model-conversation-sharing_2.md) method on the content object that you want to share. If other content is being presented, it is displaced on the content sharing stage by the content sharing object on which you called the **Present** method.
+To share a whiteboard, call the [ShareableContent.Present](https://msdn.microsoft.com/en-us/library/jj276346\(v=office.15\)) method on the content object that you want to share. If other content is being presented, it is displaced on the content sharing stage by the content sharing object on which you called the **Present** method.
 
 ### To share a PowerPoint deck
 
-1.  Iterate on the [ContentSharingModality.ContentCollection](contentsharingmodality-contentcollection-property-microsoft-lync-model-conversation-sharing_2.md) property to find the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object whose [ShareableContent.Title](shareablecontent-title-property-microsoft-lync-model-conversation-sharing_2.md) property matches the title that you want to share.
+1.  Iterate on the [ContentSharingModality.ContentCollection](https://msdn.microsoft.com/en-us/library/jj267301\(v=office.15\)) property to find the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object whose [ShareableContent.Title](https://msdn.microsoft.com/en-us/library/jj293276\(v=office.15\)) property matches the title that you want to share.
 
-2.  Verify that the content can be presented by calling the [ShareableContent.CanInvoke](shareablecontent-caninvoke-method-microsoft-lync-model-conversation-sharing_2.md) method.
+2.  Verify that the content can be presented by calling the [ShareableContent.CanInvoke](https://msdn.microsoft.com/en-us/library/jj275741\(v=office.15\)) method.
 
-3.  Share the content by calling the [ShareableContent.Present](shareablecontent-present-method-microsoft-lync-model-conversation-sharing_2.md) method.
+3.  Share the content by calling the [ShareableContent.Present](https://msdn.microsoft.com/en-us/library/jj276346\(v=office.15\)) method.
 
 ### Code example: Content item
 
@@ -339,23 +358,33 @@ The following example presents the content item whose title is "Project Plan."
 
 ## Scroll through PowerPoint slides in a conversation
 
-Scrolling through an active PowerPoint presentation in a conversation involves making one of three synchronous method calls. To go back one slide in the deck, call the [PowerPointContent.GoBackward](powerpointcontent-gobackward-method-microsoft-lync-model-conversation-sharing_2.md) method. To go forward one slide, call the [PowerPointContent.GoForward](powerpointcontent-goforward-method-microsoft-lync-model-conversation-sharing_2.md) method. To return the view to meeting view mode, call the [PowerPointContent.SyncWithPresenter](powerpointcontent-syncwithpresenter-method-microsoft-lync-model-conversation-sharing_2.md) method. These two methods are exposed on a subclass of [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) so that you need to cast the **ShareableContent** object that encapsulates the active PowerPoint presentation into the [Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent](powerpointcontent-class-microsoft-lync-model-conversation-sharing_2.md) class before you can scroll through the slides.
+Scrolling through an active PowerPoint presentation in a conversation involves making one of three synchronous method calls. To go back one slide in the deck, call the [PowerPointContent.GoBackward](https://msdn.microsoft.com/en-us/library/jj293484\(v=office.15\)) method. To go forward one slide, call the [PowerPointContent.GoForward](https://msdn.microsoft.com/en-us/library/jj277967\(v=office.15\)) method. To return the view to meeting view mode, call the [PowerPointContent.SyncWithPresenter](https://msdn.microsoft.com/en-us/library/jj277002\(v=office.15\)) method. These two methods are exposed on a subclass of [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) so that you need to cast the **ShareableContent** object that encapsulates the active PowerPoint presentation into the [Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent](https://msdn.microsoft.com/en-us/library/jj277028\(v=office.15\)) class before you can scroll through the slides.
 
-
-> [!IMPORTANT]
-> <P>When the local user is a presenter in the conversation, scrolling behaves differently than when the user is an attendee. When a presenter is sharing a PowerPoint slide deck and scrolls the deck in either direction, it is scrolled for all conversation participants. If the local user is an attendee instead of a presenter, scrolling changes only the local view of the slide deck. When an attendee scrolls, the PowerPoint presentation is put into private viewing mode.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>When the local user is a presenter in the conversation, scrolling behaves differently than when the user is an attendee. When a presenter is sharing a PowerPoint slide deck and scrolls the deck in either direction, it is scrolled for all conversation participants. If the local user is an attendee instead of a presenter, scrolling changes only the local view of the slide deck. When an attendee scrolls, the PowerPoint presentation is put into private viewing mode.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### To scroll through PowerPoint slides
 
 1.  Get the active content sharing object on the sharing stage of the conversation.
 
-2.  Verify that the object is of type [ShareableContentType](shareablecontenttype-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.PowerPoint**.
+2.  Verify that the object is of type [ShareableContentType](https://msdn.microsoft.com/en-us/library/jj275743\(v=office.15\))**.PowerPoint**.
 
-3.  Cast the shareable content object to the [Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent](powerpointcontent-class-microsoft-lync-model-conversation-sharing_2.md) class.
+3.  Cast the shareable content object to the [Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent](https://msdn.microsoft.com/en-us/library/jj277028\(v=office.15\)) class.
 
-4.  Call the [PowerPointContent.GoForward](powerpointcontent-goforward-method-microsoft-lync-model-conversation-sharing_2.md), [PowerPointContent.GoBackward](powerpointcontent-gobackward-method-microsoft-lync-model-conversation-sharing_2.md), or [PowerPointContent.SyncWithPresenter](powerpointcontent-syncwithpresenter-method-microsoft-lync-model-conversation-sharing_2.md) method.
+4.  Call the [PowerPointContent.GoForward](https://msdn.microsoft.com/en-us/library/jj277967\(v=office.15\)), [PowerPointContent.GoBackward](https://msdn.microsoft.com/en-us/library/jj293484\(v=office.15\)), or [PowerPointContent.SyncWithPresenter](https://msdn.microsoft.com/en-us/library/jj277002\(v=office.15\)) method.
 
 ### Code example: Scroll backward and forward
 
@@ -415,42 +444,61 @@ Lync 2013 API conversation objects
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lyncclient-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.LyncClient</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj274980(v=office.15)">Microsoft.Lync.Model.LyncClient</a></p></td>
 <td><p>The client platform API entry point.</p></td>
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">ClientState</a><strong>.SignedIn</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">ClientState</a><strong>.SignedIn</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="conversation-class-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.Conversation</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj276988(v=office.15)">Microsoft.Lync.Model.Conversation.Conversation</a></p></td>
 <td><p>The content sharing conversation.</p></td>
-<td><p><a href="conversationstate-enumeration-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.ConversationState</a><strong>.Active</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277587(v=office.15)">Microsoft.Lync.Model.Conversation.ConversationState</a><strong>.Active</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="contentsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj266998(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality</a></p></td>
 <td><p>The conversation content sharing modality.</p>
 <div class="alert">
-
-> [!NOTE]
-> <P>Each participant in the active conversation exposes a collection of modalities that include a content sharing modality. Each of these content sharing modality objects is also connected.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Each participant in the active conversation exposes a collection of modalities that include a content sharing modality. Each of these content sharing modality objects is also connected.</p></td>
+</tr>
+</tbody>
+</table>
 </div></td>
-<td><p><a href="modalitystate-enumeration-microsoft-lync-model-conversation_2.md">ModalityState</a><strong>.Connected</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj293265(v=office.15)">ModalityState</a><strong>.Connected</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277217(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a></p></td>
 <td><p>The PowerPoint deck that is uploaded and shared in the conversation.</p></td>
-<td><p><a href="shareablecontentstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</a><strong>.Active</strong></p>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj267322(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</a><strong>.Active</strong></p>
 <div class="alert">
-
-> [!NOTE]
-> <P>If you are no longer sharing the PowerPoint deck, the status is <A href="shareablecontentstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</A><STRONG>.Online</STRONG>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>If you are no longer sharing the PowerPoint deck, the status is <a href="https://msdn.microsoft.com/en-us/library/jj267322(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</a><strong>.Online</strong>.</p></td>
+</tr>
+</tbody>
+</table>
 </div></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Code examples: Quick meeting console
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Establish trust on contextual conversation clients
 TOCTitle: Establish trust on contextual conversation clients
 ms:assetid: a96b244e-d4e0-4710-9527-a85fad9213da
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Establish trust on contextual conversation clients
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Trust in a Microsoft Lync Control application is determined by the source of the contextual information offered to the user. If context comes from an installed application, an offer of trust is present. If context comes from a URL, there is less trust.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,7 +33,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Not trusted - context provided by contextual link
 

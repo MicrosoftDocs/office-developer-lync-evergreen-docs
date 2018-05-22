@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get started with Lync Controls
 TOCTitle: Lync Controls
 ms:assetid: 5955a65f-3cdd-4a6f-b4f9-9b2b93c4d368
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn the core and advanced concepts about Microsoft Lync Controls and what you can do with them.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What are Lync Controls?  
@@ -33,7 +34,6 @@ Additional resources
 </tbody>
 </table>
 
-
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -48,7 +48,6 @@ Watch the video: Add Lync Controls to a Web Application
 </tr>
 </tbody>
 </table>
-
 
 ## What are Lync Controls?
 
@@ -107,7 +106,6 @@ To understand how to work with Lync Controls, it is important to become familiar
 </tbody>
 </table>
 
-
 ## What can you do with Lync Controls?
 
 With Microsoft Lync Controls, application developers can implement many of the features that are supported by Lync 2013. The following table lists basic tasks for working with Lync Controls.
@@ -134,11 +132,10 @@ With Microsoft Lync Controls, application developers can implement many of the f
 </tr>
 <tr class="odd">
 <td><p><a href="how-to-display-a-customized-list-of-team-contacts-in-lync-sdk.md">How to: Display a customized list of team contacts in Lync SDK</a></p></td>
-<td><p>Demonstrates how to use the <a href="customcontactlist-class-microsoft-lync-controls_1.md">CustomContactList</a> control in Microsoft Lync Controls applications to display an arbitrary customized list of contacts using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF). Each item in the contacts list is provided by a <a href="customcontactlistitem-class-microsoft-lync-controls_1.md">CustomContactListItem</a> control.</p></td>
+<td><p>Demonstrates how to use the <a href="https://msdn.microsoft.com/en-us/library/hh346321(v=office.15)">CustomContactList</a> control in Microsoft Lync Controls applications to display an arbitrary customized list of contacts using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF). Each item in the contacts list is provided by a <a href="https://msdn.microsoft.com/en-us/library/hh346017(v=office.15)">CustomContactListItem</a> control.</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Beyond the basics: Learn more about Lync Controls
 
@@ -166,7 +163,7 @@ The following table lists advanced concepts for working with Lync Controls.
 </tr>
 <tr class="odd">
 <td><p><a href="troubleshooting-lync-controls-applications.md">Troubleshooting Lync Controls applications</a></p></td>
-<td><p>Learn how to troubleshoot an application by using <a href="ucbase-class-microsoft-lync-controls_1.md">UCBase</a> class read-only properties to display Microsoft Lync Controls initialization errors at runtime.</p></td>
+<td><p>Learn how to troubleshoot an application by using <a href="https://msdn.microsoft.com/en-us/library/hh364242(v=office.15)">UCBase</a> class read-only properties to display Microsoft Lync Controls initialization errors at runtime.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="use-logging-in-lync-controls.md">Use logging in Lync Controls</a></p></td>
@@ -174,7 +171,6 @@ The following table lists advanced concepts for working with Lync Controls.
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

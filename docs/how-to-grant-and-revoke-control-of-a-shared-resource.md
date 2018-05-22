@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Grant and revoke control of a shared resource'
 TOCTitle: 'How to: Grant and revoke control of a shared resource'
 ms:assetid: 066aeac5-e5ba-439e-bc02-3f5cbcb37c25
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to grant and revoke control of a locally shared resource in a Lync 2013 conversation.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -38,7 +39,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Grant and revoke overview
 
@@ -96,36 +96,45 @@ Understanding the following concepts is essential to using resource sharing conv
 </tbody>
 </table>
 
-
 ## Initial application state
 
-Before your application runs the logic in this topic, a resource sharing conversation must be active with one or more participants in addition to the local user. The local user participation state must be [Microsoft.Lync.Model.Conversation.Sharing.ParticipationState](participationstate-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.Sharing** and a local sharable resource must be shared in the conversation. For information about reaching this starting application state, see [How to: Get a shareable resource and share it in a conversation](how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md).
+Before your application runs the logic in this topic, a resource sharing conversation must be active with one or more participants in addition to the local user. The local user participation state must be [Microsoft.Lync.Model.Conversation.Sharing.ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Sharing** and a local sharable resource must be shared in the conversation. For information about reaching this starting application state, see [How to: Get a shareable resource and share it in a conversation](how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md).
 
 ## Grant control of a shared resource
 
-You can only grant control of a resource that is shared locally and not controlled by another conversation participant. To simplify your code, track the availability of control actions on the [Modality.ActionAvailabilityChanged](modality-actionavailabilitychanged-event-microsoft-lync-model-conversation_2.md) event for all the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](applicationsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) objects in a conversation. For information about handling this event, see [How to: Get a shareable resource and share it in a conversation](how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md).
+You can only grant control of a resource that is shared locally and not controlled by another conversation participant. To simplify your code, track the availability of control actions on the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event for all the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) objects in a conversation. For information about handling this event, see [How to: Get a shareable resource and share it in a conversation](how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md).
 
-
-> [!NOTE]
-> <P>The participant who is sharing a local resource has the participation state of <A href="participationstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</A><STRONG>.Sharing</STRONG>. All other participants have the participation state of <A href="participationstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</A><STRONG>.Viewing</STRONG> unless they are requesting control of the shared resource. In this case, they are <STRONG>Sharing.ParticipationState.RequestingControl</STRONG>. When the sharing participant accepts a control request, the requesting participant is <A href="participationstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">ParticipationState</A><STRONG>.Controlling</STRONG>.</P>
-> <P>There can be only one <A href="participationstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">ParticipationState</A><STRONG>.Sharing</STRONG> participant at a time. There can be zero or one <A href="participationstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">ParticipationState</A><STRONG>.Controlling</STRONG> participant at a time. There can be many <A href="participationstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">ParticipationState</A><STRONG>.RequestingControl</STRONG> participants.</P>
-> <P>If there is no <A href="participationstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</A><STRONG>.Controlling</STRONG> participant, the resource is shared but not controlled.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The participant who is sharing a local resource has the participation state of <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Sharing</strong>. All other participants have the participation state of <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Viewing</strong> unless they are requesting control of the shared resource. In this case, they are <strong>Sharing.ParticipationState.RequestingControl</strong>. When the sharing participant accepts a control request, the requesting participant is <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">ParticipationState</a><strong>.Controlling</strong>.</p>
+<p>There can be only one <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">ParticipationState</a><strong>.Sharing</strong> participant at a time. There can be zero or one <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">ParticipationState</a><strong>.Controlling</strong> participant at a time. There can be many <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">ParticipationState</a><strong>.RequestingControl</strong> participants.</p>
+<p>If there is no <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Controlling</strong> participant, the resource is shared but not controlled.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Call the BeginGrantControl method
 
-Call the [ApplicationSharingModality.BeginGrantControl](applicationsharingmodality-begingrantcontrol-method-microsoft-lync-model-conversation-sharing_2.md) method on the application sharing modality of the conversation participant that is being granted control of the locally shared resource.
+Call the [ApplicationSharingModality.BeginGrantControl](https://msdn.microsoft.com/en-us/library/jj274501\(v=office.15\)) method on the application sharing modality of the conversation participant that is being granted control of the locally shared resource.
 
 ### ApplicationSharingModality events
 
-Two events are raised on the Conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](applicationsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) object when control of a resource has been granted. The [Modality.ActionAvailabilityChanged](modality-actionavailabilitychanged-event-microsoft-lync-model-conversation_2.md) event is raised twice to indicate that the Grant action is no longer available but the Revoke action is now available. The [ApplicationSharingModality.ControllerChanged](applicationsharingmodality-controllerchanged-event-microsoft-lync-model-conversation-sharing_2.md) event is raised to indicate that there is now a resource controller and provides a [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) object that represents the new controller.
+Two events are raised on the Conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object when control of a resource has been granted. The [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event is raised twice to indicate that the Grant action is no longer available but the Revoke action is now available. The [ApplicationSharingModality.ControllerChanged](https://msdn.microsoft.com/en-us/library/jj293289\(v=office.15\)) event is raised to indicate that there is now a resource controller and provides a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object that represents the new controller.
 
 ### ParticipationStateChanged events
 
-When the control granting operation is finished, the participant who is granted control is now a [ParticipationState](participationstate-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.Controlling** participant. The controlling participant is notified of this state change in the [ApplicationSharingModality.ParticipationStateChanged](applicationsharingmodality-participationstatechanged-event-microsoft-lync-model-conversation-sharing_2.md) event. The participation state of the sharing participant does not change.
+When the control granting operation is finished, the participant who is granted control is now a [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Controlling** participant. The controlling participant is notified of this state change in the [ApplicationSharingModality.ParticipationStateChanged](https://msdn.microsoft.com/en-us/library/jj293494\(v=office.15\)) event. The participation state of the sharing participant does not change.
 
-If the sharing participant revokes control of the shared resource, the controlling participant becomes a viewing participant and the [ApplicationSharingModality.ParticipationStateChanged](applicationsharingmodality-participationstatechanged-event-microsoft-lync-model-conversation-sharing_2.md) event is raised on that participant’s application sharing modality.
+If the sharing participant revokes control of the shared resource, the controlling participant becomes a viewing participant and the [ApplicationSharingModality.ParticipationStateChanged](https://msdn.microsoft.com/en-us/library/jj293494\(v=office.15\)) event is raised on that participant’s application sharing modality.
 
 ### Code example
 
@@ -133,7 +142,7 @@ The following example completes the following steps.
 
 1.  Obtains the SIP URI of the selected conversation participant from the UI list of participants.
 
-2.  Obtains a [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](applicationsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) object from a **Dictionary\<string,**[Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](applicationsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md)**\>**.
+2.  Obtains a [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object from a **Dictionary\<string,**[Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\))**\>**.
     
     The dictionary contains references to the application sharing modality objects of all participants. For a listing of the sample code that declares and fills this dictionary, see [How to: Start a resource sharing conversation](how-to-start-a-resource-sharing-conversation.md).
 
@@ -174,7 +183,7 @@ The following example completes the following steps.
         }
 ```
 
-The following example is invoked by the platform thread on completion of the asynchronous [ApplicationSharingModality.BeginGrantControl](applicationsharingmodality-begingrantcontrol-method-microsoft-lync-model-conversation-sharing_2.md).
+The following example is invoked by the platform thread on completion of the asynchronous [ApplicationSharingModality.BeginGrantControl](https://msdn.microsoft.com/en-us/library/jj274501\(v=office.15\)).
 
 ``` csharp
         /// <summary>
@@ -217,7 +226,7 @@ The following example is invoked by the platform thread on completion of the asy
 
 The following example handles the event raised when a conversation participant is granted control of the locally shared resource. It is important that you maintain a reference to the participant who is controlling a resource.
 
-When revoking control of the resource, you must call the [ApplicationSharingModality.BeginRevokeControl](applicationsharingmodality-beginrevokecontrol-method-microsoft-lync-model-conversation-sharing_2.md) method on the **ApplicationSharingModality** of that participant.
+When revoking control of the resource, you must call the [ApplicationSharingModality.BeginRevokeControl](https://msdn.microsoft.com/en-us/library/jj277377\(v=office.15\)) method on the **ApplicationSharingModality** of that participant.
 
             /// <summary>
             /// Handles the event raised when the participant that is controlling the shared conversation application resource
@@ -236,21 +245,31 @@ When revoking control of the resource, you must call the [ApplicationSharingModa
 
 ## Revoke control of a shared resource
 
-You can only revoke control of a resource that is owned and shared locally. Control of the resource must have been previously granted to another conversation participant. Call the [ApplicationSharingModality.BeginRevokeControl](applicationsharingmodality-beginrevokecontrol-method-microsoft-lync-model-conversation-sharing_2.md) method on the **ApplicationSharingModality** of the participant who is controlling the resource.
+You can only revoke control of a resource that is owned and shared locally. Control of the resource must have been previously granted to another conversation participant. Call the [ApplicationSharingModality.BeginRevokeControl](https://msdn.microsoft.com/en-us/library/jj277377\(v=office.15\)) method on the **ApplicationSharingModality** of the participant who is controlling the resource.
 
-
-> [!TIP]
-> <P>When your application accepts a control request of another user, control is automatically revoked from the current controlling user. You do not need to call the <A href="applicationsharingmodality-beginrevokecontrol-method-microsoft-lync-model-conversation-sharing_2.md">ApplicationSharingModality.BeginRevokeControl</A> method before accepting the new control request.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>When your application accepts a control request of another user, control is automatically revoked from the current controlling user. You do not need to call the <a href="https://msdn.microsoft.com/en-us/library/jj277377(v=office.15)">ApplicationSharingModality.BeginRevokeControl</a> method before accepting the new control request.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### ApplicationSharingModality events
 
-When control of the locally shared resource is revoked, the Grant action is available and the Revoke action is no longer available. Two [Modality.ActionAvailabilityChanged](modality-actionavailabilitychanged-event-microsoft-lync-model-conversation_2.md) events are raised. The first event shows the [ModalityActionAvailabilityChangedEventArgs.Action](modalityactionavailabilitychangedeventargs-action-property-microsoft-lync-model-conversation_2.md) property value of [ModalityAction](modalityaction-enumeration-microsoft-lync-model-conversation_2.md)**.GrantSharingControl** is available. The second event shows the [ModalityActionAvailabilityChangedEventArgs.Action](modalityactionavailabilitychangedeventargs-action-property-microsoft-lync-model-conversation_2.md) property value of [ModalityAction](modalityaction-enumeration-microsoft-lync-model-conversation_2.md)**.RevokeSharingControl** is not available.
+When control of the locally shared resource is revoked, the Grant action is available and the Revoke action is no longer available. Two [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) events are raised. The first event shows the [ModalityActionAvailabilityChangedEventArgs.Action](https://msdn.microsoft.com/en-us/library/jj276590\(v=office.15\)) property value of [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\))**.GrantSharingControl** is available. The second event shows the [ModalityActionAvailabilityChangedEventArgs.Action](https://msdn.microsoft.com/en-us/library/jj276590\(v=office.15\)) property value of [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\))**.RevokeSharingControl** is not available.
 
 ### Code example
 
-The following example revokes control of a locally owned and share resource that is controlled by a resource viewer. The **\_ResourceControllingContact** object is a class field of type [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md). It is filled in the previous example when the control of the resource changes as a result of a grant operation.
+The following example revokes control of a locally owned and share resource that is controlled by a resource viewer. The **\_ResourceControllingContact** object is a class field of type [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)). It is filled in the previous example when the control of the resource changes as a result of a grant operation.
 
 ``` csharp
         /// <summary>
@@ -277,7 +296,7 @@ The following example revokes control of a locally owned and share resource that
 
 ## Application state on completion of how-to tasks
 
-When your application has granted and revoked a locally shared resource, the resource is shown on the content stage of all participants with no participants in control. In addition, the [ModalityAction](modalityaction-enumeration-microsoft-lync-model-conversation_2.md)**.GrantSharingControl** action is available. You can now grant sharing control of the locally shared resource to another participant. The participants who are viewing the shared resource can request control of the resource. For information about accepting or declining a request to control a resource, see [How to: Accept or decline a request to control a shared resource](how-to-accept-or-decline-a-request-to-control-a-shared-resource.md).
+When your application has granted and revoked a locally shared resource, the resource is shown on the content stage of all participants with no participants in control. In addition, the [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\))**.GrantSharingControl** action is available. You can now grant sharing control of the locally shared resource to another participant. The participants who are viewing the shared resource can request control of the resource. For information about accepting or declining a request to control a resource, see [How to: Accept or decline a request to control a shared resource](how-to-accept-or-decline-a-request-to-control-a-shared-resource.md).
 
 ## Code examples: Resource sharing
 

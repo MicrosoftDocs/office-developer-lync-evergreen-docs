@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Beyond the basics: Lync contact lists'
 TOCTitle: Lync contact lists
 ms:assetid: 93390349-8874-4fce-8fdb-881435c35b77
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Beyond the basics: Lync contact lists
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about advanced features of Microsoft Lync 2013 SDK that you can use to give your custom Lync 2013 contact list capabilities such as contact searching and distribution group expansion.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Advanced contact list programming features
 

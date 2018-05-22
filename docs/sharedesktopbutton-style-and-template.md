@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShareDesktopButton style and template
 TOCTitle: ShareDesktopButton style and template
 ms:assetid: 4fffb5e9-2075-4fd8-a79c-cd340ac9d839
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # ShareDesktopButton style and template
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the style and template for the [ShareDesktopButton](sharedesktopbutton-class-microsoft-lync-controls_1.md) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the style and template for the [ShareDesktopButton](https://msdn.microsoft.com/en-us/library/hh363609\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
+**Last modified:** November 27, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 ShareDesktopButton parts  
@@ -51,7 +52,6 @@ The following table lists the named parts for the ShareDesktopButton control.
 </tr>
 </tbody>
 </table>
-
 
 ## Default style and template
 

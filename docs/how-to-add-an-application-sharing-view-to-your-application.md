@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Add an application sharing view to your application'
 TOCTitle: 'How to: Add an application sharing view to your application'
 ms:assetid: 581b2b2d-789f-459d-a8d0-263a9770d5b7
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn about how to add a Microsoft Lync 2013 API application sharing view object to your application to view shared applications in Microsoft Lync 2013 UI suppression mode.
 
+**Last modified:** July 19, 2013
 
-_**Applies to:** Lync 2013_
+***Applies to:** Lync 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 The application sharing view object gives your UI suppressed and Lync 2013 API-enabled application a sharing view feature with the same capabilities as the sharing stage in the Lync client. In order to use the application sharing view object, you need to create a container control in your window and then dock the application viewer into the container. As the shared application dimensions change, your container and the application sharing view need to react by re-dimensioning in turn.
 
@@ -92,7 +92,6 @@ The prerequisites for viewing a shared resource in UI suppression are as follows
 </tr>
 </tbody>
 </table>
-
 
 ## Application state declarations to support docking
 
@@ -155,24 +154,35 @@ Use the form load event to set values in the previously declared **ControlDimens
 
 The following tasks show you how to implement a visual shared resource viewer in your Lync 2013 API-enabled application
 
-You can get the viewer object at any time after you get the application sharing modality object from the conversation, but the viewer does not show content until the application sharing modality is connected. The code in the following task should be added in the [Modality.ModalityStateChanged](modality-modalitystatechanged-event-microsoft-lync-model-conversation_2.md) event handler for the application sharing modality.
+You can get the viewer object at any time after you get the application sharing modality object from the conversation, but the viewer does not show content until the application sharing modality is connected. The code in the following task should be added in the [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) event handler for the application sharing modality.
 
 ### Registering for application sharing modality state change events
 
-Register for the [Modality.ModalityStateChanged](modality-modalitystatechanged-event-microsoft-lync-model-conversation_2.md) event when the new conversation is started. The [ConversationManager.ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event is raised when a conversation is started.
+Register for the [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) event when the new conversation is started. The [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event is raised when a conversation is started.
 
 ### To register for the application sharing modality state change event
 
-1.  Register an event callback method for the [ConversationManager.ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event.
+1.  Register an event callback method for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
 
-2.  When a new conversation is added, register an event callback method for the [Modality.ModalityStateChanged](modality-modalitystatechanged-event-microsoft-lync-model-conversation_2.md) event.
+2.  When a new conversation is added, register an event callback method for the [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) event.
     
-    The following example handles the [ConversationManager.ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event.
+    The following example handles the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
     
-
-    > [!IMPORTANT]
-    > <P>This example shows only the code that you need for application sharing modality event handling. See <A href="how-to-start-a-resource-sharing-conversation.md">How to: Start a resource sharing conversation</A> for a more complete example of a <STRONG>ConversationAdded</STRONG> event handler.</P>
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>This example shows only the code that you need for application sharing modality event handling. See <a href="how-to-start-a-resource-sharing-conversation.md">How to: Start a resource sharing conversation</a> for a more complete example of a <strong>ConversationAdded</strong> event handler.</p></td>
+    </tr>
+    </tbody>
+    </table>
     
     ``` csharp
             void ConversationManager_ConversationAdded(object sender, ConversationManagerEventArgs e)
@@ -188,7 +198,7 @@ Register for the [Modality.ModalityStateChanged](modality-modalitystatechanged-e
 
 ### Handling application sharing modality state change events
 
-Create a container control and dock the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView](applicationsharingview-class-microsoft-lync-model-conversation-sharing_2.md) object when the conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](applicationsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) is connected in the conversation. You can dispose of the container control when the conversation application sharing modality is disconnected after a user closes the sharing stage or leaves the conversation.
+Create a container control and dock the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView](https://msdn.microsoft.com/en-us/library/dn378597\(v=office.15\)) object when the conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) is connected in the conversation. You can dispose of the container control when the conversation application sharing modality is disconnected after a user closes the sharing stage or leaves the conversation.
 
 ### To handle the application sharing modality state changed event
 
@@ -201,7 +211,7 @@ Create a container control and dock the [Microsoft.Lync.Model.Conversation.Shari
                 ApplicationSharingModality thisModality = (ApplicationSharingModality)sender;
     ```
 
-2.  Check to see if the new modality state is [Microsoft.Lync.Model.Conversation.ModalityState](modalitystate-enumeration-microsoft-lync-model-conversation_2.md)**.Connected**.
+2.  Check to see if the new modality state is [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Connected**.
     
     ``` csharp
                 if (e.NewState == ModalityState.Connected)
@@ -222,7 +232,7 @@ Create a container control and dock the [Microsoft.Lync.Model.Conversation.Shari
                         {
     ```
 
-5.  If the shared resource is not the self participant’s resource, then create a panel control and dock the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView](applicationsharingview-class-microsoft-lync-model-conversation-sharing_2.md).
+5.  If the shared resource is not the self participant’s resource, then create a panel control and dock the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView](https://msdn.microsoft.com/en-us/library/dn378597\(v=office.15\)).
     
     ``` csharp
     this.Invoke(new NoParamDelegate(DockAppShareView));
@@ -264,17 +274,17 @@ The following example shows the complete modality state changed event callback m
 
 ## Dock the viewer in your application window
 
-Showing the viewer in your application window involves getting the handle of the container control that you are docking the viewer into and then calling the [ApplicationSharingView.SetParent](applicationsharingview-setparent-method-microsoft-lync-model-conversation-sharing_2.md) method.
+Showing the viewer in your application window involves getting the handle of the container control that you are docking the viewer into and then calling the [ApplicationSharingView.SetParent](https://msdn.microsoft.com/en-us/library/dn378610\(v=office.15\)) method.
 
 ### To dock the viewer
 
-1.  Register for the [ApplicationSharingView.PropertyChanged](applicationsharingview-propertychanged-event-microsoft-lync-model-conversation-sharing_2.md) event.
+1.  Register for the [ApplicationSharingView.PropertyChanged](https://msdn.microsoft.com/en-us/library/dn378654\(v=office.15\)) event.
 
 2.  Get the **Handle** of the control that will contain the application sharing view. In the following example, a **Panel** control is created at run-time and then the parent window is resized to fit the panel.
 
-3.  Call the [ApplicationSharingView.SetParent](applicationsharingview-setparent-method-microsoft-lync-model-conversation-sharing_2.md) method.
+3.  Call the [ApplicationSharingView.SetParent](https://msdn.microsoft.com/en-us/library/dn378610\(v=office.15\)) method.
 
-The following example registers for the application sharing viewer events that an application uses to respond to viewer size changes and then docks the viewer by providing the handle of the parent container control to the viewer by calling the [ApplicationSharingView.SetParent](applicationsharingview-setparent-method-microsoft-lync-model-conversation-sharing_2.md) method.
+The following example registers for the application sharing viewer events that an application uses to respond to viewer size changes and then docks the viewer by providing the handle of the parent container control to the viewer by calling the [ApplicationSharingView.SetParent](https://msdn.microsoft.com/en-us/library/dn378610\(v=office.15\)) method.
 
 ``` csharp
         /// <summary>
@@ -341,11 +351,11 @@ The following example registers for the application sharing viewer events that a
         }
 ```
 
-The default mode of the viewer is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](applicationsharingviewdisplaymode-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.FitToParent**. In this mode, changes in the dimensions of the shared resource are handled by changing the resolution of the viewer without changing the dimensions of the viewer. If you are concerned that a user will not be able to read text in a shared resource at high resolution, you should set the display mode of the viewer to [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](applicationsharingviewdisplaymode-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.ActualSize**. In this mode, the original resolution of the shared resource is preserved when its dimensions change. The dimension changed is handled by resizing the viewer.
+The default mode of the viewer is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/en-us/library/dn378658\(v=office.15\))**.FitToParent**. In this mode, changes in the dimensions of the shared resource are handled by changing the resolution of the viewer without changing the dimensions of the viewer. If you are concerned that a user will not be able to read text in a shared resource at high resolution, you should set the display mode of the viewer to [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/en-us/library/dn378658\(v=office.15\))**.ActualSize**. In this mode, the original resolution of the shared resource is preserved when its dimensions change. The dimension changed is handled by resizing the viewer.
 
 ### To set the viewer mode
 
-1.  Get the user’s display mode choice and set the [ApplicationSharingView.DisplayMode](applicationsharingview-displaymode-property-microsoft-lync-model-conversation-sharing_2.md) property to the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](applicationsharingviewdisplaymode-enumeration-microsoft-lync-model-conversation-sharing_2.md) enumerator for the chosen mode.
+1.  Get the user’s display mode choice and set the [ApplicationSharingView.DisplayMode](https://msdn.microsoft.com/en-us/library/dn378627\(v=office.15\)) property to the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/en-us/library/dn378658\(v=office.15\)) enumerator for the chosen mode.
     
     ``` csharp
             /// <summary>
@@ -384,10 +394,21 @@ The default mode of the viewer is [Microsoft.Lync.Model.Conversation.Sharing.App
 
 2.  Re-sync the viewer.
     
-
-    > [!WARNING]
-    > <P>You cannot re-sync the viewer until you have docked it in a container. Trying to sync an un-docked view throws an exception.</P>
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Caution note" alt="Caution note" /><strong>Caution</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>You cannot re-sync the viewer until you have docked it in a container. Trying to sync an un-docked view throws an exception.</p></td>
+    </tr>
+    </tbody>
+    </table>
     
     ``` csharp
                 //If viewer has a parent window, then it can be resynched.
@@ -399,13 +420,13 @@ The default mode of the viewer is [Microsoft.Lync.Model.Conversation.Sharing.App
 
 ## Respond to changing application sharing view dimensions
 
-If the [ApplicationSharingView.DisplayMode](applicationsharingview-displaymode-property-microsoft-lync-model-conversation-sharing_2.md) property value is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](applicationsharingviewdisplaymode-enumeration-microsoft-lync-model-conversation-sharing_2.md)**. ActualSize**, the **ApplicationSharingView** dimensions are free to be resized as the shared application is resized. In order to keep the full application sharing view visible, resize the container control and application window to accommodate the new dimensions of the view.
+If the [ApplicationSharingView.DisplayMode](https://msdn.microsoft.com/en-us/library/dn378627\(v=office.15\)) property value is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/en-us/library/dn378658\(v=office.15\))**. ActualSize**, the **ApplicationSharingView** dimensions are free to be resized as the shared application is resized. In order to keep the full application sharing view visible, resize the container control and application window to accommodate the new dimensions of the view.
 
-The person who is sharing a resource such as Notepad.exe may use the mouse to drag a corner of the notepad to expand or shrink the notepad. When this happens, the viewer raises the [ApplicationSharingView.PropertyChanged](applicationsharingview-propertychanged-event-microsoft-lync-model-conversation-sharing_2.md) event. The changed properties of the viewer are the dimensional properties, height and width.
+The person who is sharing a resource such as Notepad.exe may use the mouse to drag a corner of the notepad to expand or shrink the notepad. When this happens, the viewer raises the [ApplicationSharingView.PropertyChanged](https://msdn.microsoft.com/en-us/library/dn378654\(v=office.15\)) event. The changed properties of the viewer are the dimensional properties, height and width.
 
 ### To respond to viewer dimension changes
 
-1.  Check the display mode of the viewer. If it is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](applicationsharingviewdisplaymode-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.FitToParent**, then you can return from the event callback method after setting the container and application window to their original dimensions.
+1.  Check the display mode of the viewer. If it is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/en-us/library/dn378658\(v=office.15\))**.FitToParent**, then you can return from the event callback method after setting the container and application window to their original dimensions.
     
     ``` csharp
                     //If user chose FitToParent, the parent container control is reset to original dimensions. 
@@ -417,7 +438,7 @@ The person who is sharing a resource such as Notepad.exe may use the mouse to dr
                     }
     ```
 
-2.  Check the view properties that are changed. If the properties are [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewProperty](applicationsharingviewproperty-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.Height** or [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewProperty](applicationsharingviewproperty-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.Width**, then the view dimensions have changed.
+2.  Check the view properties that are changed. If the properties are [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewProperty](https://msdn.microsoft.com/en-us/library/dn378657\(v=office.15\))**.Height** or [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewProperty](https://msdn.microsoft.com/en-us/library/dn378657\(v=office.15\))**.Width**, then the view dimensions have changed.
     
     ``` csharp
                 //If the changed viewer property is a dimension property then resize parent container control

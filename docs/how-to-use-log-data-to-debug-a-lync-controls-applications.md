@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Use log data to debug a Lync Controls applications'
 TOCTitle: 'How to: Use log data to debug a Lync Controls applications'
 ms:assetid: b495ddad-2ff9-4581-a680-24a760209dee
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to use log data to debug a Microsoft Windows Presentation Foundation (WPF) application that contains Microsoft Lync Controls. This topic builds on [How to: Add logging to a Lync Controls application](how-to-add-logging-to-a-lync-controls-application.md), which describes how to enable logging.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,7 +37,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Prerequisites
 
 For a list of prerequisites, see [How to: Create a Silverlight page that displays a Lync presence control](how-to-create-a-silverlight-page-that-displays-a-lync-presence-control.md).
@@ -51,7 +51,7 @@ Create a Lync WPF application with logging enabled and then add XAML code that c
     
     For more information, see [How to: Add logging to a Lync Controls application](how-to-add-logging-to-a-lync-controls-application.md).
 
-2.  In Page.xaml, add the following XAML, which sets the [Source](contactbase-source-property-microsoft-lync-controls_1.md) property to an invalid URI.
+2.  In Page.xaml, add the following XAML, which sets the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property to an invalid URI.
     
     ``` xaml
     <controls:StartInstantMessagingButton Source="sip:typo@contoso"/>

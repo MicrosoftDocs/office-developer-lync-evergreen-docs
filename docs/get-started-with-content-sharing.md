@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get started with content sharing
 TOCTitle: Content sharing
 ms:assetid: 6316a1ec-f4b3-4a4e-93c2-9bc9eee84c9c
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about the programming concepts and Microsoft Lync 2013 SDK object model for building an application that controls the content sharing stage in a Microsoft Lync 2013 conversation window.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What is content sharing?  
@@ -33,7 +34,6 @@ Additional resources
 </tbody>
 </table>
 
-
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -48,7 +48,6 @@ Watch the video: Share file attachments in online meetings
 </tr>
 </tbody>
 </table>
-
 
 ## What is content sharing?
 
@@ -95,7 +94,6 @@ To understand how to work with content sharing, it is important to become famili
 </tbody>
 </table>
 
-
 ## What can you do with content sharing?
 
 The following table lists basic tasks for working with content sharing.
@@ -135,7 +133,6 @@ The following table lists basic tasks for working with content sharing.
 </tbody>
 </table>
 
-
 ## Beyond the basics: Learn more about content sharing
 
 The following table lists advanced concepts for working with content sharing.
@@ -158,11 +155,10 @@ The following table lists advanced concepts for working with content sharing.
 </tr>
 <tr class="even">
 <td><p><a href="shareable-content-event-handling.md">Shareable content event handling</a></p></td>
-<td><p>Learn about making your Lync SDK-enabled application UI more responsive by handling events raised on the <a href="shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a> class.</p></td>
+<td><p>Learn about making your Lync SDK-enabled application UI more responsive by handling events raised on the <a href="https://msdn.microsoft.com/en-us/library/jj277217(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a> class.</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

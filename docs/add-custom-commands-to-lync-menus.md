@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add custom commands to Lync menus
 TOCTitle: Add custom commands to Lync menus
 ms:assetid: 111f20b1-07c8-452b-bb8d-4a52308311f5
@@ -12,12 +12,13 @@ dev_langs:
 
 # Add custom commands to Lync menus
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Use custom commands embedded in the Lync 2013 UI to launch applications on the Microsoft Windows desktop. Custom commands are menu items added by the developer to the Lync 2013 UI.
 
+**Last modified:** August 29, 2014
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Adding custom commands
 
@@ -107,7 +107,6 @@ Under each GUID subkey, add the entries described in the following table.
 </tbody>
 </table>
 
-
 For example, see the following Registry Editor (.reg) file results.
 
     Windows Registry Editor Version 5.00
@@ -166,7 +165,6 @@ The following table describes how to launch an application with a given **Extens
 </tr>
 </tbody>
 </table>
-
 
 ### Retrieving SIP URIs in the custom application
 

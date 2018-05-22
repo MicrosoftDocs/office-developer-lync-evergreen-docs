@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get started with Lync meetings
 TOCTitle: Lync meetings
 ms:assetid: 99fca176-e2b5-494a-8b2b-fa378d2b7a1e
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about the programming concepts and Microsoft Lync 2013 SDK object model that you use to add Lync 2013 meeting lifecycle management features to an application.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What is Microsoft Lync 2013 meeting lifecycle management?  
@@ -33,10 +34,9 @@ Additional resources
 </tbody>
 </table>
 
-
 ## What is Microsoft Lync 2013 meeting lifecycle management?
 
-The classes in the [Microsoft.Lync.Model.Conversation](microsoft-lync-model-conversation-namespace_2.md) and [Microsoft.Lync.Model.Conversation.Sharing](microsoft-lync-model-conversation-sharing-namespace_2.md) namespaces are the building blocks for features let you manage the lifecycle of an online Lync 2013 meeting. With these classes, you can start an online meeting, set the meeting access rule, invite participants, promote and demote participants, remove participants, control the content sharing stage of a meeting conversation window, and end meetings.
+The classes in the [Microsoft.Lync.Model.Conversation](https://msdn.microsoft.com/en-us/library/jj276168\(v=office.15\)) and [Microsoft.Lync.Model.Conversation.Sharing](https://msdn.microsoft.com/en-us/library/jj274504\(v=office.15\)) namespaces are the building blocks for features let you manage the lifecycle of an online Lync 2013 meeting. With these classes, you can start an online meeting, set the meeting access rule, invite participants, promote and demote participants, remove participants, control the content sharing stage of a meeting conversation window, and end meetings.
 
 ## Get started with Lync meetings
 
@@ -78,7 +78,6 @@ To understand how to work with Lync meetings, it is important to become familiar
 </tr>
 </tbody>
 </table>
-
 
 ## What can you do with Lync meetings?
 
@@ -135,7 +134,6 @@ The following table lists basic tasks for working with Lync meetings.
 </tbody>
 </table>
 
-
 ## Beyond the basics: Learn more about Lync meetings
 
 The following table lists advanced concepts for working with Lync meetings.
@@ -162,7 +160,6 @@ The following table lists advanced concepts for working with Lync meetings.
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

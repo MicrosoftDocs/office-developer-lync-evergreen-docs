@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Create a side-by-side endpoint in Lync SDK'
 TOCTitle: 'How to: Create a side-by-side endpoint'
 ms:assetid: 74f22eed-9dfb-47e5-9c34-997a08b94c2d
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to create a side-by-side Microsoft Lync 2013
 
+**Last modified:** June 04, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -33,7 +34,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -68,20 +68,29 @@ The following topic explains how side-by-side endpoints work in Lync 2013.
 </tbody>
 </table>
 
-
 ## Creating a side-by-side endpoint
 
-Creating a side-by-side endpoint is a one step process that involves calling the static [LyncClient.GetClient](lyncclient-getclient-method-microsoft-lync-model_2.md) method, except that you pass a boolean **true** value in the method if you want a side-by-side endpoint. If you do not provide an argument to this method, the default argument value of **false** is passed and a standard Lync endpoint is created.
+Creating a side-by-side endpoint is a one step process that involves calling the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/dn378084\(v=office.15\)) method, except that you pass a boolean **true** value in the method if you want a side-by-side endpoint. If you do not provide an argument to this method, the default argument value of **false** is passed and a standard Lync endpoint is created.
 
-
-> [!TIP]
-> <P>The <A href="lyncclient-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.LyncClient</A> object that is returned as a side-by-side endpoint has the same features and is programmed in the same way as a standard UI suppressed client endpoint. Be sure to initialize the endpoint and sign the user in just as you would do so with a standard UI suppressed endpoint.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The <a href="https://msdn.microsoft.com/en-us/library/jj274980(v=office.15)">Microsoft.Lync.Model.LyncClient</a> object that is returned as a side-by-side endpoint has the same features and is programmed in the same way as a standard UI suppressed client endpoint. Be sure to initialize the endpoint and sign the user in just as you would do so with a standard UI suppressed endpoint.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### To create a side-by-side endpoint
 
-  - Call the static [LyncClient.GetClient](lyncclient-getclient-method-microsoft-lync-model_2.md) method. An object of the [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) is returned.
+  - Call the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/dn378084\(v=office.15\)) method. An object of the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) is returned.
     
     ``` csharp
     //If sideBySide == false, a standard endpoint is created

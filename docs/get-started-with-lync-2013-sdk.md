@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get started with Lync 2013 SDK
 TOCTitle: Get started
 ms:assetid: e7cd673b-c786-4dbe-a6b4-940ffef372fd
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about getting started using Microsoft Lync 2013 SDK, the essential features of the SDK, and how you can use those features to give your application enhanced unified communication features that are supported by Microsoft Lync Server 2013.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What is Microsoft Lync 2013 SDK?  
@@ -32,7 +33,6 @@ Additional resources
 </tr>
 </tbody>
 </table>
-
 
 ## What is Microsoft Lync 2013 SDK?
 
@@ -54,11 +54,21 @@ The supported development environment for creating applications with Microsoft L
 
 Typical current hardware configurations with a minimum of 2 GB of RAM are recommended for the supported operating systems.
 
-
-> [!IMPORTANT]
-> <P>In the Microsoft Visual Studio development system, select <STRONG>Any CPU</STRONG> as your custom application build platform target to ensure your application runs on 32-bit and 64-bit operating systems. The default installation path for Lync SDK is the <EM>%root%</EM>\Program Files (x86) folder.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>In the Microsoft Visual Studio development system, select <strong>Any CPU</strong> as your custom application build platform target to ensure your application runs on 32-bit and 64-bit operating systems. The default installation path for Lync SDK is the <em>%root%</em>\Program Files (x86) folder.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Application development
 
@@ -127,14 +137,13 @@ Although an inexperienced programmer who understands basic .NET coding concepts 
 </tbody>
 </table>
 
-
 ## What can you do with Microsoft Lync 2013 SDK?
 
 Microsoft Lync 2013 SDK gives you the ability to add a wide range of Lync features to your Windows Forms, WPF, or Silverlight application. These features can be as simple as dropping a presence gumdrop onto an existing Silverlight application for showing the current presence of a user to complex tasks such as creating a full-featured Lync client as a stand-alone application or hosted within your application.
 
 If you want to add a set of Lync features to your WPF or Silverlight application and do not have the time to learn about the Lync 2013 API object model, you can use the suite of Microsoft Lync 2013 Controls to populate contact list and conversation features in your application. To do this, leverage your knowledge of XAML syntax and C\# to set control properties at either design or runtime. The Lync Controls requires that Microsoft Lync 2013 is installed and running on each computer that runs your application.
 
-You can also automate the starting of Lync 2013 conversations and docking Lync conversation windows within your application by using a few simple method calls from the [Microsoft.Lync.Model.Extensibility](microsoft-lync-model-extensibility-namespace_2.md) namespace. If you use this method to automate conversations, all you need is the SIP address of a Lync user to start a conversation, a container control in your application that hosts the docked conversation window, and a small amount of C\# code to manage docking the conversation window.
+You can also automate the starting of Lync 2013 conversations and docking Lync conversation windows within your application by using a few simple method calls from the [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/en-us/library/jj278382\(v=office.15\)) namespace. If you use this method to automate conversations, all you need is the SIP address of a Lync user to start a conversation, a container control in your application that hosts the docked conversation window, and a small amount of C\# code to manage docking the conversation window.
 
 If you want to extend the functionality of the Lync conversation window, you can use the full power of the Lync 2013 API object model to create conversation context-aware Silverlight applications that are hosted in an extension pane of the conversation window itself. The object model gives you read-write access to conversation modalities as well as the conversation participant list. Although the Conversation Window Extension (CWE) application is a Silverlight browser application, it has the practical complexity limitations that any browser application has when hosted in a Browser control on a form.
 
@@ -207,7 +216,6 @@ The following table lists basic tasks that are the building blocks of the previo
 </tbody>
 </table>
 
-
 ## Beyond the basics: Learn more about Microsoft Lync 2013 SDK
 
 Many of the same Lync options that can be set by the user can also be set by your application. The following table lists advanced concepts for setting many of these Lync options by using the Lync 2013 API.
@@ -246,7 +254,6 @@ Many of the same Lync options that can be set by the user can also be set by you
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

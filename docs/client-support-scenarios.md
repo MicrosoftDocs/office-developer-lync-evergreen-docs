@@ -1,4 +1,4 @@
-﻿---
+---
 title: Client support scenarios
 TOCTitle: Client support scenarios
 ms:assetid: 30a8f95e-a04f-4254-a256-b66ed86d7e51
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Client support scenarios
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about Microsoft Lync Server 2013-related products and technologies that support contextual conversation.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,7 +33,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Support matrix
 
@@ -69,7 +69,6 @@ The following table shows the support matrix between receiving devices and sendi
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Beyond the basics: Lync 2013 SDK'
 TOCTitle: Lync SDK
 ms:assetid: 855d0ddd-fbf4-4987-8482-1868e7be8e78
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Beyond the basics: Lync 2013 SDK
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about advanced concepts such as UI suppression, sign-in settings, and telephone number administration in Microsoft Lync 2013 SDK.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Advanced Lync SDK concepts
 

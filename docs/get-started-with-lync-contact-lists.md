@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get started with Lync contact lists
 TOCTitle: Lync contact lists
 ms:assetid: 3b289224-a055-4138-ba7c-f665920949d5
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn the programming concepts and Microsoft Lync 2013 SDK object model for building a Microsoft Lync 2013 contact list in an application UI.
 
+**Last modified:** December 07, 2015
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What is a Lync contact list?  
@@ -32,7 +33,6 @@ Additional resources
 </tr>
 </tbody>
 </table>
-
 
 ## What is a Lync contact list?
 
@@ -79,7 +79,6 @@ To understand how to work with Lync contact lists, it is important to become fam
 </tbody>
 </table>
 
-
 ## What can you do with a Lync contact list?
 
 The following table lists basic tasks for working with Lync contact lists.
@@ -110,7 +109,7 @@ The following table lists basic tasks for working with Lync contact lists.
 </tr>
 <tr class="even">
 <td><p><a href="how-to-display-a-contact-list.md">How to: Display a contact list</a></p></td>
-<td><p>Shows how to use members of the <a href="microsoft-lync-model-namespace.md">Microsoft.Lync.Model</a> namespace to provide contact presence and presence updates to build a custom Lync contact list UI.</p></td>
+<td><p>Shows how to use members of the <a href="https://msdn.microsoft.com/en-us/library/hh380319(v=office.15)">Microsoft.Lync.Model</a> namespace to provide contact presence and presence updates to build a custom Lync contact list UI.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/jj933159(v=office.15)">How to: Search for a contact or distribution group</a></p></td>
@@ -118,7 +117,6 @@ The following table lists basic tasks for working with Lync contact lists.
 </tr>
 </tbody>
 </table>
-
 
 ## Beyond the basics: Learn more about Lync contact lists
 
@@ -146,7 +144,6 @@ The following table lists advanced concepts for working with Lync contact lists.
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

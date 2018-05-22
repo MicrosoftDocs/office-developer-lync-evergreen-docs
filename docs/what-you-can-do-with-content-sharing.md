@@ -1,4 +1,4 @@
-﻿---
+---
 title: What you can do with content sharing
 TOCTitle: Content sharing
 ms:assetid: ef1e2eb6-15c9-4715-94ec-c7e2d3b8e175
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core content sharing tasks you can do with the Microsoft Lync 2013 API, including starting a content sharing conversation, adding a whiteboard and PowerPoint slide deck to the conversation, saving and clearing whiteboard annotations, and attaching native files to the conversation sharing stage.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -37,12 +38,11 @@ Watch the video: Share PowerPoint slides in online meetings
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-control-3b9df73f">Control PowerPoint and whiteboard sharing sessions from a WPF app</a></p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Core content sharing tasks
 

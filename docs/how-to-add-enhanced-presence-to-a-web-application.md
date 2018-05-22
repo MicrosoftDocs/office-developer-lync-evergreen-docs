@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Add enhanced presence to a Web application'
 TOCTitle: 'How to: Add enhanced presence to a Web application'
 ms:assetid: 5febdddb-c880-4a94-a197-f0c2a4380f83
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to add Microsoft Lync Controls to an existing HTML Web application using Microsoft Silverlight.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -39,7 +40,6 @@ Watch the video: Add Lync Controls to a Web Application
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -66,7 +66,7 @@ type="application/x-silverlight-2" >
 
 ## Create a Silverlight application
 
-Create a Silverlight application and add a [MyStatusArea](mystatusarea-class-microsoft-lync-controls_1.md) control to it. For more information, see [How to: Create a Silverlight page that displays a Lync presence control](how-to-create-a-silverlight-page-that-displays-a-lync-presence-control.md).
+Create a Silverlight application and add a [MyStatusArea](https://msdn.microsoft.com/en-us/library/hh363503\(v=office.15\)) control to it. For more information, see [How to: Create a Silverlight page that displays a Lync presence control](how-to-create-a-silverlight-page-that-displays-a-lync-presence-control.md).
 
 ## Embed the presence application in the HTML page
 

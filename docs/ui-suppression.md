@@ -1,4 +1,4 @@
-﻿---
+---
 title: UI suppression
 TOCTitle: UI suppression
 ms:assetid: ece4a03a-c397-485a-ad53-61ab649f3c6d
@@ -12,12 +12,13 @@ dev_langs:
 
 # UI suppression
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about the UI suppression operating mode in the Microsoft Lync 2013 client and the most common scenario that uses the Lync 2013 client in UI suppression mode.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## UI suppression overview
 
 An important feature of Lync 2013 is its ability to start up and run on a computer without showing a UI. When run in this mode, the Lync 2013 process still handles all of the contact and communication management that your application relies on, but leaves the UI responsibilities to your application. This is useful when you are required to embed communication features in your application without exposing the Microsoft brand associated with the Lync client. An additional requirement might be that your application must restrict a signed-in user to a subset of the features available on the Lync client. For example, you might want to restrict your user to communicating with a small set of other users in a predefined contact list that the user cannot add to. You might also want to restrict the conversation modalities that can be used in a conversation. For example, you might decide that a user should only make audio calls to a PSTN telephone number or a group of internal contacts.
@@ -50,7 +50,7 @@ Although the Lync 2013 client cannot be configured to disable items feature by f
 
 There are three methods to determine the current UI suppression mode:
 
-  - Check the [LyncClient.InSuppressedMode](lyncclient-insuppressedmode-property-microsoft-lync-model_2.md) property.
+  - Check the [LyncClient.InSuppressedMode](https://msdn.microsoft.com/en-us/library/jj275500\(v=office.15\)) property.
     
     ``` csharp
     if (LyncClient.GetClient().InSuppressedMode == true)
@@ -60,7 +60,7 @@ There are three methods to determine the current UI suppression mode:
     }
     ```
 
-  - Discover the value by trying to obtain an instance of the [Automation](automation-class-microsoft-lync-model-extensibility_2.md) class and catching the resulting exception that is raised if UI suppression is enabled.
+  - Discover the value by trying to obtain an instance of the [Automation](https://msdn.microsoft.com/en-us/library/jj293816\(v=office.15\)) class and catching the resulting exception that is raised if UI suppression is enabled.
 
   - Read the **\[HKEY\_CURRENT\_USER\]\\Software\\Microsoft\\Office\\15.0\\Lync\\UISuppressionMode** key in the local registry. If the value is dword:00000001, UI suppression is enabled.
 
@@ -99,7 +99,6 @@ You can set the Lync 2013 suppression mode when you install the Lync client. At 
 </tbody>
 </table>
 
-
 If you want to suppress the Lync UI after it is installed with the UI enabled, you must first uninstall Lync and then reinstall it with the /FullUisuppression command-line argument.
 
 ### Start Lync in UI suppression mode
@@ -112,9 +111,9 @@ Just as your application can start the Lync process, it can also stop the proces
 
 ### UI suppression limitations
 
-The running UI suppressed Lync process gives your application access to the same Lync client endpoint, SIP processing, and all media processing that an unsuppressed Lync client uses with the following limitations. The visible components of the SDK are not available except for the video window. Components such as the Microsoft Lync 2013 Controls for Silverlight browser or WPF applications and the meeting content and resource sharing modalities cannot be used in your application when UI suppression is enabled. In addition, you cannot use the objects in the [Microsoft.Lync.Model.Extensibility](microsoft-lync-model-extensibility-namespace_2.md) namespace to automate starting conversations or meetings.
+The running UI suppressed Lync process gives your application access to the same Lync client endpoint, SIP processing, and all media processing that an unsuppressed Lync client uses with the following limitations. The visible components of the SDK are not available except for the video window. Components such as the Microsoft Lync 2013 Controls for Silverlight browser or WPF applications and the meeting content and resource sharing modalities cannot be used in your application when UI suppression is enabled. In addition, you cannot use the objects in the [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/en-us/library/jj278382\(v=office.15\)) namespace to automate starting conversations or meetings.
 
-The [Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow](videowindow-class-microsoft-lync-model-conversation-audiovideo_2.md) is a special exception to the previously described rule. In this case, the **VideoWindow** is designed to replace the Lync video window that is lost when the Lync client UI is suppressed. If you implement the video window in your application, you can provide the full range of basic communication modes, from IM to audio/video and even Persistent Chat.
+The [Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow](https://msdn.microsoft.com/en-us/library/jj268233\(v=office.15\)) is a special exception to the previously described rule. In this case, the **VideoWindow** is designed to replace the Lync video window that is lost when the Lync client UI is suppressed. If you implement the video window in your application, you can provide the full range of basic communication modes, from IM to audio/video and even Persistent Chat.
 
 ## Lync-enabled kiosk application
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Start a Lync IM conversation'
 TOCTitle: 'How to: Start a Lync IM conversation'
 ms:assetid: 356b4dba-139f-48bf-a8d5-df445524d998
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to programmatically start a Microsoft Lync 2013 conversation, invite a user, and send the first instant messaging (IM) text.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -40,7 +41,6 @@ Watch the video: Start an IM conversation
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -83,7 +83,6 @@ The following topics describe the three components of a Lync 2013 conversation.
 </tbody>
 </table>
 
-
 ## IM conversation programming overview
 
 Conversations can only be started when the user is signed in to Lync 2013. Read about [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md) and be sure that your application logic provides this capability before adding an IM feature to your UI.
@@ -107,25 +106,35 @@ The following procedure obtains a conversations manager and adds the conversatio
 
 ### To start an IM conversation
 
-1.  Create a callback method that handles the [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event.
+1.  Create a callback method that handles the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
 
-2.  Create a callback method that handles the [ParticipantAdded](conversation-participantadded-event-microsoft-lync-model-conversation_2.md) event.
+2.  Create a callback method that handles the [ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event.
 
-3.  Get the [LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance and verify that the client is signed in to the server.
+3.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
     
     For information about signing in to Microsoft Lync Server 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-4.  Get the [ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md) class instance by reading the [ConversationManager](client-conversationmanager-property-microsoft-lync-model_2.md) property.
+4.  Get the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) class instance by reading the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)) property.
 
-5.  Register for the [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event.
+5.  Register for the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
 
-6.  Call [AddConversation](conversationmanager-addconversation-method-microsoft-lync-model-conversation_2.md).
+6.  Call [AddConversation](https://msdn.microsoft.com/en-us/library/jj276176\(v=office.15\)).
     
-
-    > [!IMPORTANT]
-    > <P>If you have a conference URL and intend to join the associated conference, call <A href="conversationmanager-joinconference-method-microsoft-lync-model-conversation_2.md">JoinConference</A> instead of <STRONG>AddConversation</STRONG>. An instance of <A href="conversation-class-microsoft-lync-model-conversation_2.md">Conversation</A> is returned.</P>
-
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>If you have a conference URL and intend to join the associated conference, call <a href="https://msdn.microsoft.com/en-us/library/jj276639(v=office.15)">JoinConference</a> instead of <strong>AddConversation</strong>. An instance of <a href="https://msdn.microsoft.com/en-us/library/jj276988(v=office.15)">Conversation</a> is returned.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
 ## Handle events
 
@@ -133,101 +142,141 @@ The next two procedures are examples of the steps to create event handlers for c
 
 ### Handle the ConversationAdded event
 
-Complete the following steps within a callback method that handles [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md).
+Complete the following steps within a callback method that handles [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)).
 
 ### To handle the ConversationAdded event
 
 1.  Check the modality state of the IM modality on the added conversation.
     
-    If the modality is [ModalityState](modalitystate-enumeration-microsoft-lync-model-conversation_2.md).**Notified**, the conversation was not started by the local user. For this procedure, handle the event for only the conversation added by the local user.
+    If the modality is [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\)).**Notified**, the conversation was not started by the local user. For this procedure, handle the event for only the conversation added by the local user.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The <a href="https://msdn.microsoft.com/en-us/library/jj266470(v=office.15)">ConversationAdded</a> event is raised when either a local user starts a conversation or a remote user invites the local user to a new conversation.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!TIP]
-    > <P>The <A href="conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md">ConversationAdded</A> event is raised when either a local user starts a conversation or a remote user invites the local user to a new conversation.</P>
+2.  Register for conversation state change events on the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance.
 
+3.  Call the [CanInvoke](https://msdn.microsoft.com/en-us/library/jj277273\(v=office.15\)) method and pass [ConversationAction](https://msdn.microsoft.com/en-us/library/jj276195\(v=office.15\)).**AddParticipant**. Continue the steps if a true value is returned.
 
-
-2.  Register for conversation state change events on the [Conversation](conversation-class-microsoft-lync-model-conversation_2.md) instance.
-
-3.  Call the [CanInvoke](conversation-caninvoke-method-microsoft-lync-model-conversation_2.md) method and pass [ConversationAction](conversationaction-enumeration-microsoft-lync-model-conversation_2.md).**AddParticipant**. Continue the steps if a true value is returned.
-
-4.  If you can add a participant, get a [Contact](contact-class-microsoft-lync-model_2.md) instance to add to the conversation by calling into [GetContactByUri](contactmanager-getcontactbyuri-method-microsoft-lync-model_2.md).
+4.  If you can add a participant, get a [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instance to add to the conversation by calling into [GetContactByUri](https://msdn.microsoft.com/en-us/library/jj274481\(v=office.15\)).
     
     A contact that resolves to the passed URI is returned.
 
-5.  Get the IM [Modality](modality-class-microsoft-lync-model-conversation_2.md) instance from the [Modalities](conversation-modalities-property-microsoft-lync-model-conversation_2.md) property of the [Conversation](conversation-class-microsoft-lync-model-conversation_2.md) instance in the data parameter of the [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event handler: data.Conversation.Modalities\[ModalityTypes.InstantMessagingModality\].
+5.  Get the IM [Modality](https://msdn.microsoft.com/en-us/library/jj274796\(v=office.15\)) instance from the [Modalities](https://msdn.microsoft.com/en-us/library/jj275560\(v=office.15\)) property of the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance in the data parameter of the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event handler: data.Conversation.Modalities\[ModalityTypes.InstantMessagingModality\].
 
 ### Handle the ParticipantAdded event
 
-Complete the following steps within a callback method that handles [ParticipantAdded](conversation-participantadded-event-microsoft-lync-model-conversation_2.md).
+Complete the following steps within a callback method that handles [ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)).
 
 ### To handle the ParticipantAdded event
 
-1.  Read the [IsSelf](participant-isself-property-microsoft-lync-model-conversation_2.md) property of the added participant exposed by [Participant](participantcollectionchangedeventargs-participant-property-microsoft-lync-model-conversation_2.md) property.
+1.  Read the [IsSelf](https://msdn.microsoft.com/en-us/library/jj267304\(v=office.15\)) property of the added participant exposed by [Participant](https://msdn.microsoft.com/en-us/library/jj293211\(v=office.15\)) property.
     
     The following steps should not be executed for the self-participant.
 
-2.  Get the remote participant [InstantMessageModality](instantmessagemodality-class-microsoft-lync-model-conversation_2.md) from [Participant](participantcollectionchangedeventargs-participant-property-microsoft-lync-model-conversation_2.md) by reading the [Modalities](participant-modalities-property-microsoft-lync-model-conversation_2.md) property collection and returning the [InstantMessageModality](instantmessagemodality-class-microsoft-lync-model-conversation_2.md).
+2.  Get the remote participant [InstantMessageModality](https://msdn.microsoft.com/en-us/library/jj266036\(v=office.15\)) from [Participant](https://msdn.microsoft.com/en-us/library/jj293211\(v=office.15\)) by reading the [Modalities](https://msdn.microsoft.com/en-us/library/jj267336\(v=office.15\)) property collection and returning the [InstantMessageModality](https://msdn.microsoft.com/en-us/library/jj266036\(v=office.15\)).
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The IM modality is auto-accepted at both the local and remote endpoints. You do not need to call <strong>Connect</strong> on this modality. The IM modality is ready to use when you obtain it from the conversation's modalities collection.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!TIP]
-    > <P>The IM modality is auto-accepted at both the local and remote endpoints. You do not need to call <STRONG>Connect</STRONG> on this modality. The IM modality is ready to use when you obtain it from the conversation's modalities collection.</P>
+3.  Cast the **Modality** class instance to the [InstantMessageModality](https://msdn.microsoft.com/en-us/library/jj266036\(v=office.15\)) class to obtain instant messaging receive features.
 
-
-
-3.  Cast the **Modality** class instance to the [InstantMessageModality](instantmessagemodality-class-microsoft-lync-model-conversation_2.md) class to obtain instant messaging receive features.
-
-4.  Register for [InstantMessageReceived](instantmessagemodality-instantmessagereceived-event-microsoft-lync-model-conversation_2.md) message received events to catch incoming instant messages from other participants.
+4.  Register for [InstantMessageReceived](https://msdn.microsoft.com/en-us/library/jj293201\(v=office.15\)) message received events to catch incoming instant messages from other participants.
 
 5.  Register for participant events on the remote participant.
 
 ## Send and receive messages
 
-As the previous figure illustrates, the procedure to send an IM message involve many more steps than those you execute to receive and render an instant message from a remote participant. In both cases, you use the [InstantMessageContentType](instantmessagecontenttype-enumeration-microsoft-lync-model-conversation_2.md) enumeration to either set the message format of a message you send or determine the message format of a message you receive. A sent or received message is encapsulated in a generic **IDictionary** that uses an enumerator of [InstantMessageContentType](instantmessagecontenttype-enumeration-microsoft-lync-model-conversation_2.md) as the key and a formatted message string as the value of the dictionary entry.
+As the previous figure illustrates, the procedure to send an IM message involve many more steps than those you execute to receive and render an instant message from a remote participant. In both cases, you use the [InstantMessageContentType](https://msdn.microsoft.com/en-us/library/jj293461\(v=office.15\)) enumeration to either set the message format of a message you send or determine the message format of a message you receive. A sent or received message is encapsulated in a generic **IDictionary** that uses an enumerator of [InstantMessageContentType](https://msdn.microsoft.com/en-us/library/jj293461\(v=office.15\)) as the key and a formatted message string as the value of the dictionary entry.
 
 ### Send a message
 
 Sending an instant message involves setting the local user’s composing state to typing, capturing and sending text, and setting the user’s composing state to idle. These actions are performed in this sequence and each depends on the completion of the previous step. You should use the **System.AsyncCallback** method you define for each operation to initiate the next operation in the sequence.
 
-
-> [!IMPORTANT]
-> <P>If you send IM text in a format not supported by the target IM client, a <A href="lyncclientexception-class-microsoft-lync-model_2.md">LyncClientException</A> is raised on your client. The exception message text is "Generic COM Exception. Code is 0x80EF019F." To avoid this exception, send text formatted as plain text. If you use any other formatting, you should enclose <A href="instantmessagemodality-endsendmessage-method-microsoft-lync-model-conversation_2.md">EndSendMessage</A> in an try/catch block that catches <A href="lyncclientexception-class-microsoft-lync-model_2.md">LyncClientException</A>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>If you send IM text in a format not supported by the target IM client, a <a href="https://msdn.microsoft.com/en-us/library/jj294075(v=office.15)">LyncClientException</a> is raised on your client. The exception message text is &quot;Generic COM Exception. Code is 0x80EF019F.&quot; To avoid this exception, send text formatted as plain text. If you use any other formatting, you should enclose <a href="https://msdn.microsoft.com/en-us/library/jj293829(v=office.15)">EndSendMessage</a> in an try/catch block that catches <a href="https://msdn.microsoft.com/en-us/library/jj294075(v=office.15)">LyncClientException</a>.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### To send a message
 
 1.  Verify that the conversation is active and the conversation IM modality is connected.
 
-2.  When the local user begins to type in the form entry control designated to accept message text, call into [CanInvoke](modality-caninvoke-method-microsoft-lync-model-conversation_2.md), passing [ModalityAction](modalityaction-enumeration-microsoft-lync-model-conversation_2.md). **SetIsTyping**. If you cannot set this property, skip the next step.
+2.  When the local user begins to type in the form entry control designated to accept message text, call into [CanInvoke](https://msdn.microsoft.com/en-us/library/jj267958\(v=office.15\)), passing [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\)). **SetIsTyping**. If you cannot set this property, skip the next step.
 
-3.  Call [BeginSetComposing](instantmessagemodality-beginsetcomposing-method-microsoft-lync-model-conversation_2.md) on the conversation IM modality and pass true as the first argument.
+3.  Call [BeginSetComposing](https://msdn.microsoft.com/en-us/library/jj274836\(v=office.15\)) on the conversation IM modality and pass true as the first argument.
 
 4.  In the callback invoked by the previous step or upon completion of typing in the form control, instantiate an instance of IDictionary\<InstantMessageContentType, string\> and add an entry containing a key as enumerator for the message text formatting and value as message text.
 
-5.  Call [BeginSendMessage](instantmessagemodality-beginsendmessage-method-microsoft-lync-model-conversation_2.md) and pass your message dictionary as the first argument and then pass a **System.AsyncCallback** method in the second argument.
+5.  Call [BeginSendMessage](https://msdn.microsoft.com/en-us/library/jj274588\(v=office.15\)) and pass your message dictionary as the first argument and then pass a **System.AsyncCallback** method in the second argument.
 
 6.  In the callback invoked after the previous step:
     
-    1.  Call [EndSendMessage](instantmessagemodality-endsendmessage-method-microsoft-lync-model-conversation_2.md). You must surround this call with a try/catch block, catching the [LyncClientException](lyncclientexception-class-microsoft-lync-model_2.md). A remote contact can change his or her availability to DND or offline at any time. Such an availability change causes this exception to be raised when your message cannot be delivered to the remote contact.
+    1.  Call [EndSendMessage](https://msdn.microsoft.com/en-us/library/jj293829\(v=office.15\)). You must surround this call with a try/catch block, catching the [LyncClientException](https://msdn.microsoft.com/en-us/library/jj294075\(v=office.15\)). A remote contact can change his or her availability to DND or offline at any time. Such an availability change causes this exception to be raised when your message cannot be delivered to the remote contact.
     
-    2.  Call [BeginSetComposing](instantmessagemodality-beginsetcomposing-method-microsoft-lync-model-conversation_2.md) on the conversation IM modality. Pass false as the first argument.
+    2.  Call [BeginSetComposing](https://msdn.microsoft.com/en-us/library/jj274836\(v=office.15\)) on the conversation IM modality. Pass false as the first argument.
 
 ### Receive a message
 
-The following procedure handles the [InstantMessageReceived](instantmessagemodality-instantmessagereceived-event-microsoft-lync-model-conversation_2.md) event by getting the message text formatting enumerator for the incoming message and parsing the message text according to the specified formatting.
+The following procedure handles the [InstantMessageReceived](https://msdn.microsoft.com/en-us/library/jj293201\(v=office.15\)) event by getting the message text formatting enumerator for the incoming message and parsing the message text according to the specified formatting.
 
 ### To receive a message
 
-1.  Get the message contents as IDictionary\<InstantMessageContentType,string\> by reading [Contents](messagesenteventargs-contents-property-microsoft-lync-model-conversation_2.md).
+1.  Get the message contents as IDictionary\<InstantMessageContentType,string\> by reading [Contents](https://msdn.microsoft.com/en-us/library/jj267964\(v=office.15\)).
 
-2.  A single message contains text in one of several formats enumerated by [InstantMessageContentType](instantmessagecontenttype-enumeration-microsoft-lync-model-conversation_2.md). For each format sent, an entry exists in the dictionary you get from the previous step. Iterate on the dictionary items and assemble a display string based on the format and contents of the dictionary.
+2.  A single message contains text in one of several formats enumerated by [InstantMessageContentType](https://msdn.microsoft.com/en-us/library/jj293461\(v=office.15\)). For each format sent, an entry exists in the dictionary you get from the previous step. Iterate on the dictionary items and assemble a display string based on the format and contents of the dictionary.
     
-
-    > [!IMPORTANT]
-    > <P>Lync 2013 formats IM text as <A href="instantmessagecontenttype-enumeration-microsoft-lync-model-conversation_2.md">InstantMessageContentType</A><STRONG>.Html</STRONG> or .<STRONG>Ink</STRONG>. Previous versions of the client format messages as .<STRONG>RichText</STRONG>. For the best interoperability experience, you should send messages in .<STRONG>PlainText</STRONG>.</P>
-
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>Lync 2013 formats IM text as <a href="https://msdn.microsoft.com/en-us/library/jj293461(v=office.15)">InstantMessageContentType</a><strong>.Html</strong> or .<strong>Ink</strong>. Previous versions of the client format messages as .<strong>RichText</strong>. For the best interoperability experience, you should send messages in .<strong>PlainText</strong>.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
 3.  Display the resulting string.
 
@@ -237,7 +286,7 @@ The procedure assumes that you have created a Windows.Forms object and populated
 
 ### Start a conversation
 
-The following example creates a new conversation by calling into [AddConversation](conversationmanager-addconversation-method-microsoft-lync-model-conversation_2.md) on [ConversationManager](client-conversationmanager-property-microsoft-lync-model_2.md).
+The following example creates a new conversation by calling into [AddConversation](https://msdn.microsoft.com/en-us/library/jj276176\(v=office.15\)) on [ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)).
 
 ``` csharp
         private string myRemoteParticipantUri;
@@ -255,7 +304,7 @@ The following example creates a new conversation by calling into [AddConversatio
 
 ### Register for conversation events
 
-The following example registers for [Conversation](conversation-class-microsoft-lync-model-conversation_2.md) events. The [Conversation](conversation-class-microsoft-lync-model-conversation_2.md) obtained from [Conversation](conversationmanagereventargs-conversation-property-microsoft-lync-model-conversation_2.md) is a reference to the new conversation. You can register for events on the **Conversation** using the [Conversation](conversationmanagereventargs-conversation-property-microsoft-lync-model-conversation_2.md) instance.
+The following example registers for [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) events. The [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) obtained from [Conversation](https://msdn.microsoft.com/en-us/library/jj276980\(v=office.15\)) is a reference to the new conversation. You can register for events on the **Conversation** using the [Conversation](https://msdn.microsoft.com/en-us/library/jj276980\(v=office.15\)) instance.
 
 ``` csharp
         /// Handles ConversationAdded state change event raised on ConversationsManager
@@ -275,7 +324,7 @@ The following example registers for [Conversation](conversation-class-microsoft-
 
 ### ParticipantAdded event
 
-The following example handles the [ParticipantAdded](conversation-participantadded-event-microsoft-lync-model-conversation_2.md) event. The example event handler gets the IM modality from the modality collection on the new participant and registers for messages received from the participant. [InstantMessageReceived](instantmessagemodality-instantmessagereceived-event-microsoft-lync-model-conversation_2.md) is raised on any participant when that participant sends a message.
+The following example handles the [ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event. The example event handler gets the IM modality from the modality collection on the new participant and registers for messages received from the participant. [InstantMessageReceived](https://msdn.microsoft.com/en-us/library/jj293201\(v=office.15\)) is raised on any participant when that participant sends a message.
 
 ``` csharp
         /// <summary>
@@ -299,13 +348,23 @@ The following example handles the [ParticipantAdded](conversation-participantadd
 
 ### User starts typing
 
-A user’s cursor has entered a text entry control and the example sets the [IsTyping](instantmessagemodality-istyping-property-microsoft-lync-model-conversation_2.md) property to true.
+A user’s cursor has entered a text entry control and the example sets the [IsTyping](https://msdn.microsoft.com/en-us/library/jj276342\(v=office.15\)) property to true.
 
-
-> [!IMPORTANT]
-> <P>The conversation IM modality must be used to set the typing property for the local user rather than the IM modality of the local participant.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The conversation IM modality must be used to set the typing property for the local user rather than the IM modality of the local participant.</p></td>
+</tr>
+</tbody>
+</table>
 
 ``` csharp
         private void txtMessage_Enter(object sender, EventArgs e)
@@ -319,13 +378,23 @@ A user’s cursor has entered a text entry control and the example sets the [IsT
 
 ### User completes typing
 
-A user’s cursor has left a text entry control and the example sets the [IsTyping](instantmessagemodality-istyping-property-microsoft-lync-model-conversation_2.md) property to false.
+A user’s cursor has left a text entry control and the example sets the [IsTyping](https://msdn.microsoft.com/en-us/library/jj276342\(v=office.15\)) property to false.
 
-
-> [!IMPORTANT]
-> <P>The conversation IM modality must be used to set the typing property for the local user rather than the IM modality of the local participant.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The conversation IM modality must be used to set the typing property for the local user rather than the IM modality of the local participant.</p></td>
+</tr>
+</tbody>
+</table>
 
 ``` csharp
         private void txtMessage_Leave(object sender, EventArgs e)
@@ -341,11 +410,21 @@ A user’s cursor has left a text entry control and the example sets the [IsTypi
 
 The following example sends the text content of a UI text box to a remote conversation participant.
 
-
-> [!IMPORTANT]
-> <P>The conversation IM modality must be used to send an instant message to other users instead of the local participant’s IM modality.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The conversation IM modality must be used to send an instant message to other users instead of the local participant’s IM modality.</p></td>
+</tr>
+</tbody>
+</table>
 
 ``` csharp
         private void SendMessage(string messageToSend)
@@ -371,7 +450,7 @@ The following example sends the text content of a UI text box to a remote conver
 
 ### SendMessage callback
 
-The following example callback method is invoked by [InstantMessageModality](instantmessagemodality-class-microsoft-lync-model-conversation_2.md) after [BeginSendMessage](instantmessagemodality-beginsendmessage-method-microsoft-lync-model-conversation_2.md) is complete. Verify the asynchronous operation results if you want to see whether the message was sent successfully.
+The following example callback method is invoked by [InstantMessageModality](https://msdn.microsoft.com/en-us/library/jj266036\(v=office.15\)) after [BeginSendMessage](https://msdn.microsoft.com/en-us/library/jj274588\(v=office.15\)) is complete. Verify the asynchronous operation results if you want to see whether the message was sent successfully.
 
 ``` csharp
         /// <summary>
@@ -414,7 +493,7 @@ The following example handles the event raised when a participant starts or stop
 
 ### InstantMessageModality MessageReceived event
 
-The following example handles the [InstantMessageReceived](instantmessagemodality-instantmessagereceived-event-microsoft-lync-model-conversation_2.md) and uses the **PlainText** enumerator. If this enumerator is used, message content is rendered as plain text regardless of how it was formatted by the sender. If the incoming message contains data that cannot be rendered as plain text, the data is not rendered.
+The following example handles the [InstantMessageReceived](https://msdn.microsoft.com/en-us/library/jj293201\(v=office.15\)) and uses the **PlainText** enumerator. If this enumerator is used, message content is rendered as plain text regardless of how it was formatted by the sender. If the incoming message contains data that cannot be rendered as plain text, the data is not rendered.
 
 ``` csharp
         /// <summary>

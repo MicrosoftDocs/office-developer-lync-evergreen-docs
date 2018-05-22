@@ -1,4 +1,4 @@
-﻿---
+---
 title: Retemplating the ContactList control
 TOCTitle: Retemplating the ContactList control
 ms:assetid: f2ed1b57-4adb-4cf1-a8fc-d04de46fc0c2
@@ -12,12 +12,13 @@ dev_langs:
 
 # Retemplating the ContactList control
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about visual template editing for individual parts of the ContactList control by using a step-by-step procedure to generate a visual template for a control part and adding elements to the template.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,10 +37,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## ContactList control overview
 
-Similar to the ContactCard control, there are several parts to a [ContactList](contactlist-class-microsoft-lync-controls_1.md) control that you can customize. The ContactList control includes two parts:
+Similar to the ContactCard control, there are several parts to a [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control that you can customize. The ContactList control includes two parts:
 
   - The tree view that presents the hierarchical display of groups and contacts.
 
@@ -53,7 +53,7 @@ To customize the template that is used to display top-level group nodes on the C
 
 ### To edit the ContactListGroupItem template
 
-1.  The template for a group-level node is applied to an internal control type called [ContactListGroupItem](contactlistgroupitem-class-microsoft-lync-controls_1.md). This control is not directly accessible from the ContactList template. To get a copy of the template for a ContactListGroupItem control, you must temporarily add an instance of ContactListGroupItem to your form, and then edit a copy of its template.
+1.  The template for a group-level node is applied to an internal control type called [ContactListGroupItem](https://msdn.microsoft.com/en-us/library/hh345694\(v=office.15\)). This control is not directly accessible from the ContactList template. To get a copy of the template for a ContactListGroupItem control, you must temporarily add an instance of ContactListGroupItem to your form, and then edit a copy of its template.
     
     ``` xaml
     <controls:ContactListGroupItem/> <!-- For temporary use -->
@@ -129,54 +129,53 @@ The following table identifies the templates that can be used to customize the a
 <tr class="odd">
 <td><p>Person</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="contactlist-personitemtemplate-property-microsoft-lync-controls_1.md">PersonItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh346461(v=office.15)">PersonItemTemplate</a></p></td>
 <td><p>PersonContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Person</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="contactlist-persontwolineitemtemplate-property-microsoft-lync-controls_1.md">PersonTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345827(v=office.15)">PersonTwoLineItemTemplate</a></p></td>
 <td><p>PersonContactItemDataTemplateTwoLines</p></td>
 </tr>
 <tr class="odd">
 <td><p>Telephone</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="contactlist-telephoneitemtemplate-property-microsoft-lync-controls_1.md">TelephoneItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363694(v=office.15)">TelephoneItemTemplate</a></p></td>
 <td><p>TelephoneContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Telephone</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="contactlist-telephonetwolineitemtemplate-property-microsoft-lync-controls_1.md">TelephoneTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363498(v=office.15)">TelephoneTwoLineItemTemplate</a></p></td>
 <td><p>TelephoneContactItemDataTemplateTwoLines</p></td>
 </tr>
 <tr class="odd">
 <td><p>Bot</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="contactlist-botitemtemplate-property-microsoft-lync-controls_1.md">BotItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363601(v=office.15)">BotItemTemplate</a></p></td>
 <td><p>BotContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Bot</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="contactlist-bottwolineitemtemplate-property-microsoft-lync-controls_1.md">BotTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345890(v=office.15)">BotTwoLineItemTemplate</a></p></td>
 <td><p>BotContactItemDataTemplateTwoLines</p></td>
 </tr>
 <tr class="odd">
 <td><p>Group</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="contactlist-groupitemtemplate-property-microsoft-lync-controls_1.md">GroupItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh346626(v=office.15)">GroupItemTemplate</a></p></td>
 <td><p>GroupContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Group</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="contactlist-grouptwolineitemtemplate-property-microsoft-lync-controls_1.md">GroupTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363757(v=office.15)">GroupTwoLineItemTemplate</a></p></td>
 <td><p>GroupContactItemDataTemplateTwoLines</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

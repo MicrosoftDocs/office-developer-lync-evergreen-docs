@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Create a chat room add-in'
 TOCTitle: 'How to: Create a chat room add-in'
 ms:assetid: d30b7a11-afae-4d3b-8f63-9eb79d246559
@@ -15,8 +15,9 @@ dev_langs:
 
 Learn how to create a chat room add-in that displays Microsoft Unified Communications Managed API (UCMA) bot messages and filters a local user’s messages before they are posted to the chat room.
 
+**Last modified:** June 07, 2013
 
-_**Applies to:** Lync 2013_
+***Applies to:** Lync 2013*
 
 <table>
 <colgroup>
@@ -35,13 +36,12 @@ Creating a Silverlight add-in<br />
 Getting the hosting chat room<br />
 Next steps<br />
 Additional resources</p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><br />
 <a href="http://code.msdn.microsoft.com/lync-2013-filter-room-c2544b54">Lync 2013: Filter room messages before they are posted</a></p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -98,17 +98,26 @@ Understanding the following concepts is essential to creating a chat room add-in
 </tbody>
 </table>
 
-
 ## Associate an add-in with a chat room
 
 Before your add-in can be opened in a chat window, you need to register the add-in with the Lync Server 2013. The add-in is opened in the persistent chat room window when a user double-clicks a persistent chat room from the contact list. You can also register a persistent chat room by using a server-side tool such as the [Group Chat Administration Tool](http://www.microsoft.com/downloads/details.aspx?familyid=a50cf7a4-6e8c-48a3-8c54-2449106f1627%26amp%3bdisplaylang=e%26displaylang=en). For information about associating an add-in with a chat room using the Microsoft Lync Server 2013 Persistent Chat SDK, see [ChatRoomManagementServices.BeginUpdateChatRoom](http://msdn.microsoft.com/en-us/library/microsoft.rtc.collaboration.persistentchat.management.chatroommanagementservices.beginupdatechatroom.aspx).
 
-
-> [!TIP]
-> <P>You should associate your new add-in with a private chat room so that you can test the add-in. When your add-in is ready for public use, associate it with a public chat room.</P>
-> <P>A private chat room is only visible to its members. This means that the private chat room cannot be found by using a chat room query to search for a chat room.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>You should associate your new add-in with a private chat room so that you can test the add-in. When your add-in is ready for public use, associate it with a public chat room.</p>
+<p>A private chat room is only visible to its members. This means that the private chat room cannot be found by using a chat room query to search for a chat room.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Creating a Silverlight add-in
 
@@ -132,19 +141,19 @@ The solution file is now ready to update. The MainPage.xaml file declares a user
 
 ## Getting the hosting chat room
 
-The hosting chat room is the entry point to all Lync functionality that you can code in an add-in. To get the room, call the [LyncClient.GetHostingRoom](lyncclient-gethostingroom-method-microsoft-lync-model.md) method. The best place to get the hosting chat room is in the add-in constructor.
+The hosting chat room is the entry point to all Lync functionality that you can code in an add-in. To get the room, call the [LyncClient.GetHostingRoom](https://msdn.microsoft.com/en-us/library/jj276700\(v=office.15\)) method. The best place to get the hosting chat room is in the add-in constructor.
 
 ### To get the hosting chat room
 
-1.  In the constructor for your page, add a try/catch block for the [Microsoft.Lync.Model.LyncClientException](lyncclientexception-class-microsoft-lync-model_2.md) class.
+1.  In the constructor for your page, add a try/catch block for the [Microsoft.Lync.Model.LyncClientException](https://msdn.microsoft.com/en-us/library/jj294075\(v=office.15\)) class.
 
-2.  Get the [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) object that encapsulates the hosting chat room by calling the static **\[M:Microsoft.Lync,Model.LyncClient.GetHostingRoom\]** method.
+2.  Get the [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) object that encapsulates the hosting chat room by calling the static **\[M:Microsoft.Lync,Model.LyncClient.GetHostingRoom\]** method.
 
-3.  Enable message filtering by calling the [Room.EnableOutgoingMessageFilter](room-enableoutgoingmessagefilter-method-microsoft-lync-model-room_4.md) method.
+3.  Enable message filtering by calling the [Room.EnableOutgoingMessageFilter](https://msdn.microsoft.com/en-us/library/jj275520\(v=office.15\)) method.
 
-4.  Register for the [Room.IsSendingMessage](room-issendingmessage-event-microsoft-lync-model-room_2.md) event so you can catch and filter messages before they are posted by the local user.
+4.  Register for the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event so you can catch and filter messages before they are posted by the local user.
 
-5.  Register for the [Room.MessagesReceived](room-messagesreceived-event-microsoft-lync-model-room_2.md) event so you can catch new messages after they are posted to the hosting chat room.
+5.  Register for the [Room.MessagesReceived](https://msdn.microsoft.com/en-us/library/jj277819\(v=office.15\)) event so you can catch new messages after they are posted to the hosting chat room.
 
 The following example gets the hosting room, enables outgoing message filtering, and registers for messaging events.
 

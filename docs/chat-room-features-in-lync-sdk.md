@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chat room features in Lync SDK
 TOCTitle: Chat room features
 ms:assetid: 332dedd9-d1bd-4f3b-9f40-56b271f1ddab
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Chat room features in Lync SDK
 
-![What's new topic](images/JJ933179.mod_icon_whatsnew_long(Office.15).png "What's new topic")
+![What's new topic](images/JJ937254.mod_icon_whatsnew_long(Office.15).png "What's new topic")
 
 Microsoft Lync 2013 SDK includes new Persistent Chat classes and shows how to use the new classes to add features to an application.
 
+**Last modified:** April 05, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Watch the video: What’s new with the Lync 2013 Persistent Chat API
 </tr>
 </tbody>
 </table>
-
 
 ## Persistent Chat features
 
@@ -69,7 +69,6 @@ Advanced features include access to a user’s followed room list, the ability t
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

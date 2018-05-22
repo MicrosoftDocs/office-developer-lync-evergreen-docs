@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Find a chat room'
 TOCTitle: 'How to: Find a chat room'
 ms:assetid: 5cfc6e70-e254-457f-aae7-42b781224c4f
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to query for a Microsoft Lync 2013 Persistent Chat room by using methods in Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,14 +36,13 @@ Application state after completing all tasks<br />
 Code examples: Persistent chat room query utility<br />
 Next steps<br />
 Additional resources</p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-display-a-list-192ef4d3">Display a list of persistent chat rooms that the user is following</a><br />
 <br />
 <a href="http://code.msdn.microsoft.com/lync-2013-query-for-a-cbc2e1f3">Query for a persistent chat room based on a partial name</a></p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -77,12 +77,11 @@ Understanding the following concept is essential to adding Persistent Chat to an
 </tbody>
 </table>
 
-
 ## Initial application state
 
-Before you start the procedures in this topic, you must declare and initialize an instance of [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) for the application and the client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
+Before you start the procedures in this topic, you must declare and initialize an instance of [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) for the application and the client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-In addition to the [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance, your application must declare a button, a text box, and a list. The text box accepts the title of the Persistent Chat room to query, the button starts the room query, and the list displays the results.
+In addition to the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance, your application must declare a button, a text box, and a list. The text box accepts the title of the Persistent Chat room to query, the button starts the room query, and the list displays the results.
 
 ### Code example
 
@@ -129,33 +128,43 @@ The following example declares the class fields that are referenced later in thi
 
 ## Get the room manager
 
-The [Microsoft.Lync.Model.Room.RoomManager](roommanager-class-microsoft-lync-model-room_2.md) class lets you query or search for a chat room and get the collection of rooms that a user is following. You get a **RoomManager** instance and register for events on it before you can do any of the following tasks.
+The [Microsoft.Lync.Model.Room.RoomManager](https://msdn.microsoft.com/en-us/library/jj277050\(v=office.15\)) class lets you query or search for a chat room and get the collection of rooms that a user is following. You get a **RoomManager** instance and register for events on it before you can do any of the following tasks.
 
 ### To get the room manager
 
-1.  Read the [Client.RoomManager](client-roommanager-property-microsoft-lync-model_2.md) property of the [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance.
+1.  Read the [Client.RoomManager](https://msdn.microsoft.com/en-us/library/jj276177\(v=office.15\)) property of the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance.
 
-2.  Register for the [Client.StateChanged](client-statechanged-event-microsoft-lync-model_2.md) event.
+2.  Register for the [Client.StateChanged](https://msdn.microsoft.com/en-us/library/jj276368\(v=office.15\)) event.
 
-3.  Register for the [LyncClient.ClientDisconnected](lyncclient-clientdisconnected-event-microsoft-lync-model_2.md) event.
+3.  Register for the [LyncClient.ClientDisconnected](https://msdn.microsoft.com/en-us/library/jj277818\(v=office.15\)) event.
 
-4.  Register for the [RoomManager.RoomManagerStateChanged](roommanager-roommanagerstatechanged-event-microsoft-lync-model-room_2.md) event.
+4.  Register for the [RoomManager.RoomManagerStateChanged](https://msdn.microsoft.com/en-us/library/jj274531\(v=office.15\)) event.
 
-5.  Register for the [RoomManager.FollowedRoomAdded](roommanager-followedroomadded-event-microsoft-lync-model-room_2.md) event.
+5.  Register for the [RoomManager.FollowedRoomAdded](https://msdn.microsoft.com/en-us/library/jj278058\(v=office.15\)) event.
 
-6.  Register for the [RoomManager.FollowedRoomRemoved](roommanager-followedroomremoved-event-microsoft-lync-model-room_2.md) event.
+6.  Register for the [RoomManager.FollowedRoomRemoved](https://msdn.microsoft.com/en-us/library/jj275522\(v=office.15\)) event.
 
-If the [Client.State](client-state-property-microsoft-lync-model_2.md) property returns the [ClientState](clientstate-enumeration-microsoft-lync-model_2.md)**.SignedIn** enumerator, then it calls the method described in the next section of this topic.
+If the [Client.State](https://msdn.microsoft.com/en-us/library/jj274837\(v=office.15\)) property returns the [ClientState](https://msdn.microsoft.com/en-us/library/jj275269\(v=office.15\))**.SignedIn** enumerator, then it calls the method described in the next section of this topic.
 
 ### Code example
 
-The following example gets the [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance and registers for events on the **LyncClient** and the **RoomManager**.
+The following example gets the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and registers for events on the **LyncClient** and the **RoomManager**.
 
-
-> [!NOTE]
-> <P>The code in this example assumes that a user has signed in to Microsoft Lync 2013. For more information, see <A href="how-to-sign-a-user-in-to-lync.md">How to: Sign a user in to Lync</A>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The code in this example assumes that a user has signed in to Microsoft Lync 2013. For more information, see <a href="how-to-sign-a-user-in-to-lync.md">How to: Sign a user in to Lync</a>.</p></td>
+</tr>
+</tbody>
+</table>
 
 ``` csharp
         /// <summary>
@@ -189,37 +198,57 @@ The following example gets the [Microsoft.Lync.Model.LyncClient](lyncclient-clas
 
 ## Get the chat rooms in a user’s contact list
 
-To get the chat rooms that a user has added to the local contact list, you must make sure that the Lync 2013 client is signed in and the room manager is enabled. If these two conditions are met, read the [RoomManager.FollowedRooms](roommanager-followedrooms-property-microsoft-lync-model-room_2.md) property that returns a list of the rooms that the user is following.
+To get the chat rooms that a user has added to the local contact list, you must make sure that the Lync 2013 client is signed in and the room manager is enabled. If these two conditions are met, read the [RoomManager.FollowedRooms](https://msdn.microsoft.com/en-us/library/jj276520\(v=office.15\)) property that returns a list of the rooms that the user is following.
 
 ### To get the user’s contact list chat rooms
 
 1.  Check the state of the room manager. Proceed if the room manager is enabled.
 
-2.  Check to see whether the [RoomManager.FollowedRooms](roommanager-followedrooms-property-microsoft-lync-model-room_2.md) property is null. If it is not null, proceed to the next step.
+2.  Check to see whether the [RoomManager.FollowedRooms](https://msdn.microsoft.com/en-us/library/jj276520\(v=office.15\)) property is null. If it is not null, proceed to the next step.
 
-3.  Run a foreach loop over the collection of [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) objects returned by the **FollowedRooms** property.
+3.  Run a foreach loop over the collection of [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) objects returned by the **FollowedRooms** property.
 
-4.  Read the [Room.Properties](room-properties-property-microsoft-lync-model-room_2.md) property enumerated by [RoomProperty](roomproperty-enumeration-microsoft-lync-model-room_2.md)**.Title**.
+4.  Read the [Room.Properties](https://msdn.microsoft.com/en-us/library/jj277330\(v=office.15\)) property enumerated by [RoomProperty](https://msdn.microsoft.com/en-us/library/jj293288\(v=office.15\))**.Title**.
 
 5.  Add each room title string to the UI list so that a user can select a followed room to join.
 
 6.  Add each room title and room to a dictionary where the room title is a key and the room is a value.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>You can skip this step if you intend to iterate over the whole list of rooms returned by <a href="https://msdn.microsoft.com/en-us/library/jj276520(v=office.15)">RoomManager.FollowedRooms</a> to find a room whose title matches the title that a user selects from the UI list. The number of followed rooms in the list can be large, depending on how many rooms a user has added to his or her contact list.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!TIP]
-    > <P>You can skip this step if you intend to iterate over the whole list of rooms returned by <A href="roommanager-followedrooms-property-microsoft-lync-model-room_2.md">RoomManager.FollowedRooms</A> to find a room whose title matches the title that a user selects from the UI list. The number of followed rooms in the list can be large, depending on how many rooms a user has added to his or her contact list.</P>
-
-
-
-
-> [!IMPORTANT]
-> <P>The user is automatically joined to any chat room that is in the contact list at the time that the user signs in to Lync 2013. This means that if the user is a room member, the user can catch chat room message sending events as soon as the <A href="client-state-property-microsoft-lync-model_2.md">Client.State</A> property returns <A href="clientstate-enumeration-microsoft-lync-model_2.md">ClientState</A><STRONG>.SignedIn</STRONG> and you have registered for the <A href="room-messagesreceived-event-microsoft-lync-model-room_2.md">Room.MessagesReceived</A> event on each followed room for which the user wants to receive a message notification.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The user is automatically joined to any chat room that is in the contact list at the time that the user signs in to Lync 2013. This means that if the user is a room member, the user can catch chat room message sending events as soon as the <a href="https://msdn.microsoft.com/en-us/library/jj274837(v=office.15)">Client.State</a> property returns <a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">ClientState</a><strong>.SignedIn</strong> and you have registered for the <a href="https://msdn.microsoft.com/en-us/library/jj277819(v=office.15)">Room.MessagesReceived</a> event on each followed room for which the user wants to receive a message notification.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Handle followed room collection events
 
-When the initial list of followed rooms is filled, you must handle two events on the room manager to keep the followed room list in synchronization with the user’s contact list. When the user adds a Persistent Chat room to the contact list, the [RoomManager.FollowedRoomAdded](roommanager-followedroomadded-event-microsoft-lync-model-room_2.md) event is raised. When the user removes a room from the contact list, the [RoomManager.FollowedRoomRemoved](roommanager-followedroomremoved-event-microsoft-lync-model-room_2.md) event is raised. To handle either event, call a helper method that clears the followed room list and then refills the list from the current collection of followed rooms.
+When the initial list of followed rooms is filled, you must handle two events on the room manager to keep the followed room list in synchronization with the user’s contact list. When the user adds a Persistent Chat room to the contact list, the [RoomManager.FollowedRoomAdded](https://msdn.microsoft.com/en-us/library/jj278058\(v=office.15\)) event is raised. When the user removes a room from the contact list, the [RoomManager.FollowedRoomRemoved](https://msdn.microsoft.com/en-us/library/jj275522\(v=office.15\)) event is raised. To handle either event, call a helper method that clears the followed room list and then refills the list from the current collection of followed rooms.
 
 ### Code example
 
@@ -265,7 +294,7 @@ The following example updates the application UI by using the current state of t
         }
 ```
 
-The following examples handle the [RoomManager.FollowedRoomAdded](roommanager-followedroomadded-event-microsoft-lync-model-room_2.md) and [RoomManager.FollowedRoomRemoved](roommanager-followedroomremoved-event-microsoft-lync-model-room_2.md) events.
+The following examples handle the [RoomManager.FollowedRoomAdded](https://msdn.microsoft.com/en-us/library/jj278058\(v=office.15\)) and [RoomManager.FollowedRoomRemoved](https://msdn.microsoft.com/en-us/library/jj275522\(v=office.15\)) events.
 
 ``` csharp
         /// <summary>
@@ -352,21 +381,31 @@ The next procedure assumes that a user wants to participate in a chat room that 
 
 1.  Clear the query results list from previous query results.
 
-2.  Call the [RoomManager.BeginQueryRooms](roommanager-beginqueryrooms-method-microsoft-lync-model-room_2.md) method and pass a full or partial room title to query for, the search mode, and a method to be called when the query is completed.
+2.  Call the [RoomManager.BeginQueryRooms](https://msdn.microsoft.com/en-us/library/jj277979\(v=office.15\)) method and pass a full or partial room title to query for, the search mode, and a method to be called when the query is completed.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The regular search mode searches room titles while the extended search mode searches among room titles and room descriptions.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!NOTE]
-    > <P>The regular search mode searches room titles while the extended search mode searches among room titles and room descriptions.</P>
-
-
-
-3.  Get the query results by calling the [RoomManager.EndQueryRooms](roommanager-endqueryrooms-method-microsoft-lync-model-room_2.md) method.
+3.  Get the query results by calling the [RoomManager.EndQueryRooms](https://msdn.microsoft.com/en-us/library/jj267955\(v=office.15\)) method.
     
     A list of rooms is returned from this method call.
 
 4.  Iterate on the room list and add the title of each room to the list that you added to your UI.
 
-5.  Add the title of a room and a reference to the room as a key/value pair to an IDictionary\<string, [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md)\> class field.
+5.  Add the title of a room and a reference to the room as a key/value pair to an IDictionary\<string, [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\))\> class field.
     
     When a user selects a room title from the list, you get the room out of the dictionary by getting the value by the title key string.
 
@@ -471,7 +510,7 @@ The following examples comply with the delegate signatures in the previous deleg
 
 ## Application state after completing all tasks
 
-The user has joined a chat room and can start to read messages posted to the chat room, post messages to the chat room, and see a roster of participants in the room. You can verify this state by reading the [Room.JoinedState](room-joinedstate-property-microsoft-lync-model-room_2.md) and [Room.Participants](room-participants-property-microsoft-lync-model-room_2.md) properties on the room obtained from the appropriate example dictionary. If the joined state is [RoomJoinState](roomjoinstate-enumeration-microsoft-lync-model-room_2.md)**.Success** and the **Participants** property returns a collection of [Microsoft.Lync.Model.Room.RoomUser](roomuser-class-microsoft-lync-model-room_2.md) instances, the user can participate in the room. You should now receive the events that you registered to receive for all chat rooms.
+The user has joined a chat room and can start to read messages posted to the chat room, post messages to the chat room, and see a roster of participants in the room. You can verify this state by reading the [Room.JoinedState](https://msdn.microsoft.com/en-us/library/jj267006\(v=office.15\)) and [Room.Participants](https://msdn.microsoft.com/en-us/library/jj293558\(v=office.15\)) properties on the room obtained from the appropriate example dictionary. If the joined state is [RoomJoinState](https://msdn.microsoft.com/en-us/library/jj276163\(v=office.15\))**.Success** and the **Participants** property returns a collection of [Microsoft.Lync.Model.Room.RoomUser](https://msdn.microsoft.com/en-us/library/jj293507\(v=office.15\)) instances, the user can participate in the room. You should now receive the events that you registered to receive for all chat rooms.
 
   - For information about displaying a chat room roster, see [How to: View chat room participants](how-to-view-chat-room-participants.md).
 

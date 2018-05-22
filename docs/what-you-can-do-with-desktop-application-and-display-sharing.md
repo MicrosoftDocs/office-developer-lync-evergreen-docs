@@ -1,4 +1,4 @@
-﻿---
+---
 title: What you can do with desktop, application, and display sharing
 TOCTitle: Desktop, application, and display sharing
 ms:assetid: 3e2f3277-1a31-453c-b18c-ef2ac14a596c
@@ -10,8 +10,9 @@ mtps_version: v=office.15
 
 # What you can do with desktop, application, and display sharing
 
+**Last modified:** July 19, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -25,13 +26,12 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 Core resource sharing tasks<br />
 In this section<br />
 Additional resources</p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-start-a-927aa595">Start a conversation and manage control of a shared resource</a><br />
 </p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Core resource sharing tasks
 

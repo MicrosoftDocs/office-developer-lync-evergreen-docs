@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get started with desktop, application, and display sharing
 TOCTitle: Desktop, application, and display sharing
 ms:assetid: fd565e29-da05-4cb5-9fd5-a786d3790e4e
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn the programming concepts and Microsoft Lync 2013 SDK object model for building an application that manages desktop, application, and display sharing in a Microsoft Lync 2013 conversation.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What are desktop, application, and display sharing?  
@@ -32,7 +33,6 @@ Additional resources
 </tr>
 </tbody>
 </table>
-
 
 ## What are desktop, application, and display sharing?
 
@@ -77,7 +77,6 @@ To understand how to work with resource sharing, it is important to become famil
 </tbody>
 </table>
 
-
 ## What can you do with desktop, application, and display sharing?
 
 The following table lists basic tasks for working with desktop, application, and display sharing.
@@ -117,7 +116,6 @@ The following table lists basic tasks for working with desktop, application, and
 </tbody>
 </table>
 
-
 ## Beyond the basics: Learn more about desktop, application, and display sharing
 
 The following table lists advanced concepts for working with desktop, application, and display sharing.
@@ -140,7 +138,6 @@ The following table lists advanced concepts for working with desktop, applicatio
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

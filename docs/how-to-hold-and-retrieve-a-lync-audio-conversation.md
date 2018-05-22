@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Hold and retrieve a Lync audio conversation'
 TOCTitle: 'How to: Hold and retrieve a Lync audio conversation'
 ms:assetid: b9befd44-6382-41eb-8e2d-41036940ddda
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to programmatically hold and retrieve a Microsoft Lync 2013 audio call by using Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,10 +37,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Audio conversation overview
 
-To hold or retrieve an audio conversation, you call methods on the audio/video modality from the [Conversation](conversation-class-microsoft-lync-model-conversation_2.md) class. If a conversation includes both the IM modality and audio/video modality, the conversation can still be held, forwarded, or transferred. These actions must be performed on the [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) instance of the conversation.
+To hold or retrieve an audio conversation, you call methods on the audio/video modality from the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) class. If a conversation includes both the IM modality and audio/video modality, the conversation can still be held, forwarded, or transferred. These actions must be performed on the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance of the conversation.
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ The prerequisites for holding and retrieving a call are as follows:
 <tbody>
 <tr class="odd">
 <td><p><a href="conversation-modalities.md">Conversation modalities</a></p></td>
-<td><p>Describes how the <a href="modality-class-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.Modality</a> class represents a mode of communication in a conversation.</p></td>
+<td><p>Describes how the <a href="https://msdn.microsoft.com/en-us/library/jj274796(v=office.15)">Microsoft.Lync.Model.Conversation.Modality</a> class represents a mode of communication in a conversation.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="conversation-participants.md">Conversation participants</a></p></td>
@@ -76,34 +76,33 @@ The prerequisites for holding and retrieving a call are as follows:
 </tbody>
 </table>
 
-
 ## Hold or retrieve an audio conversation
 
 ### To hold and retrieve an audio conversation
 
-1.  Get a connected instance of [Conversation](conversation-class-microsoft-lync-model-conversation_2.md).
+1.  Get a connected instance of [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)).
     
     For information about starting an audio conversation, see [How to: Start a Lync audio conversation](how-to-start-a-lync-audio-conversation.md).
 
-2.  Register for the [StateChanged](conversation-statechanged-event-microsoft-lync-model-conversation_2.md) event on the [Conversation](conversation-class-microsoft-lync-model-conversation_2.md) instance.
+2.  Register for the [StateChanged](https://msdn.microsoft.com/en-us/library/jj278070\(v=office.15\)) event on the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance.
 
-3.  Get the [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) instance from the collection of modalities on the [Conversation](conversation-class-microsoft-lync-model-conversation_2.md) instance.
+3.  Get the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance from the collection of modalities on the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance.
 
-4.  Read the [Modalities](conversation-modalities-property-microsoft-lync-model-conversation_2.md) property and use the [ModalityTypes](modalitytypes-enumeration-microsoft-lync-model-conversation_2.md).**AudioVideo** enumerator as an index to specify which modality to get.
+4.  Read the [Modalities](https://msdn.microsoft.com/en-us/library/jj275560\(v=office.15\)) property and use the [ModalityTypes](https://msdn.microsoft.com/en-us/library/jj274831\(v=office.15\)).**AudioVideo** enumerator as an index to specify which modality to get.
 
-5.  Register for the [ModalityStateChanged](modality-modalitystatechanged-event-microsoft-lync-model-conversation_2.md) and [ActionAvailabilityChanged](modality-actionavailabilitychanged-event-microsoft-lync-model-conversation_2.md) events on the [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) instance.
+5.  Register for the [ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) and [ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) events on the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance.
 
-6.  To hold a conversation, call into the [BeginHold](modality-beginhold-method-microsoft-lync-model-conversation_2.md) method on the [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) instance.
+6.  To hold a conversation, call into the [BeginHold](https://msdn.microsoft.com/en-us/library/jj293226\(v=office.15\)) method on the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance.
 
 7.  To catch the asynchronous result of the hold operation, pass a callback method in the first argument and a state object in the second argument. Otherwise, pass null values in both arguments.
 
-8.  Retrieve a conversation. If the state of the [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) instance is **ModalityState.Hold**, call **Retrieve** on the [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) instance using the same arguments.
+8.  Retrieve a conversation. If the state of the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance is **ModalityState.Hold**, call **Retrieve** on the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance using the same arguments.
 
 9.  To catch the asynchronous result of the retrieve operation, pass a callback method in the first argument and a state object in the second argument. Otherwise, pass null values in both arguments.
 
-10. Handle the [StateChanged](conversation-statechanged-event-microsoft-lync-model-conversation_2.md) event raised by the [Conversation](conversation-class-microsoft-lync-model-conversation_2.md) instance when the state of the conversation changes to [ConversationState](conversationstate-enumeration-microsoft-lync-model-conversation_2.md).**Inactive**.
+10. Handle the [StateChanged](https://msdn.microsoft.com/en-us/library/jj278070\(v=office.15\)) event raised by the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance when the state of the conversation changes to [ConversationState](https://msdn.microsoft.com/en-us/library/jj277587\(v=office.15\)).**Inactive**.
 
-11. Handle the [ModalityStateChanged](modality-modalitystatechanged-event-microsoft-lync-model-conversation_2.md) event raised by the [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) instance when the state of the modality changes to [ModalityState](modalitystate-enumeration-microsoft-lync-model-conversation_2.md).**OnHold**.
+11. Handle the [ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) event raised by the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance when the state of the modality changes to [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\)).**OnHold**.
 
 ## Code examples: Lync audio conversations
 
@@ -113,11 +112,21 @@ The examples in this section hold or retrieve a call and handle all related even
 
 The following example holds or retrieves a call.
 
-
-> [!NOTE]
-> <P>The example only illustrates the tasks needed to hold or retrieve a call. For an example of a complete event handler, see <A href="how-to-start-a-lync-audio-conversation.md">How to: Start a Lync audio conversation</A>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The example only illustrates the tasks needed to hold or retrieve a call. For an example of a complete event handler, see <a href="how-to-start-a-lync-audio-conversation.md">How to: Start a Lync audio conversation</a>.</p></td>
+</tr>
+</tbody>
+</table>
 
 ``` csharp
         /// <summary>

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Beyond the basics: Lync meetings'
 TOCTitle: Lync meetings
 ms:assetid: c6fa87ea-8c5a-4bbd-9ec0-acb36c792931
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Beyond the basics: Lync meetings
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about obtaining meeting admission keys for external access, managing the lobby of a meeting, and pinning or locking the video stream of a meeting participant.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Advanced meeting management
 

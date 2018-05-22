@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Display a customized list of team contacts in Lync SDK'
 TOCTitle: 'How to: Display a customized list of team contacts'
 ms:assetid: d827a477-b314-4365-881c-a94db022631c
@@ -12,10 +12,11 @@ dev_langs:
 
 # How to: Display a customized list of team contacts in Lync SDK
 
-Learn how to use the [CustomContactList](customcontactlist-class-microsoft-lync-controls_1.md) control in Microsoft Lync Control applications to display an arbitrary customized list of contacts, using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF). Each item in the contacts list is provided by a [CustomContactListItem](customcontactlistitem-class-microsoft-lync-controls_1.md) control.
+Learn how to use the [CustomContactList](https://msdn.microsoft.com/en-us/library/hh346321\(v=office.15\)) control in Microsoft Lync Control applications to display an arbitrary customized list of contacts, using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF). Each item in the contacts list is provided by a [CustomContactListItem](https://msdn.microsoft.com/en-us/library/hh346017\(v=office.15\)) control.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -31,12 +32,11 @@ Display a custom contact list on a Silverlight page<br />
 Create a WPF page<br />
 Code example: Custom contact group page<br />
 Additional resources</p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-customize-the-1ad7a5d3">Customize the contact list view in a WPF application</a></p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -78,7 +78,7 @@ The prerequisites for displaying a custom contact list are as follows:
     </StackPanel>
     ```
 
-3.  Edit the [Source](contactbase-source-property-microsoft-lync-controls_1.md) properties on the CustomContactListItem controls to provide valid values.
+3.  Edit the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) properties on the CustomContactListItem controls to provide valid values.
 
 4.  Build and run the application.
     
@@ -96,7 +96,7 @@ The prerequisites for displaying a custom contact list are as follows:
 
 ## Code example: Custom contact group page
 
-The following example declares a WPF page that contains a [Microsoft.Lync.Controls.CustomContactList](customcontactlist-class-microsoft-lync-controls_1.md) that includes several nested [Microsoft.Lync.Controls.CustomContactListItem](customcontactlistitem-class-microsoft-lync-controls_1.md) objects.
+The following example declares a WPF page that contains a [Microsoft.Lync.Controls.CustomContactList](https://msdn.microsoft.com/en-us/library/hh346321\(v=office.15\)) that includes several nested [Microsoft.Lync.Controls.CustomContactListItem](https://msdn.microsoft.com/en-us/library/hh346017\(v=office.15\)) objects.
 
 ``` xaml
 <Window x:Class="LyncWpfApplication2.Window1"

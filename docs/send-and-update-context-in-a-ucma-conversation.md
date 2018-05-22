@@ -1,4 +1,4 @@
-﻿---
+---
 title: Send and update context in a UCMA conversation
 TOCTitle: Send and update context in a UCMA conversation
 ms:assetid: 0cd96be2-6669-4c5c-9228-b7d982b89c2a
@@ -12,12 +12,13 @@ dev_langs:
 
 # Send and update context in a UCMA conversation
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn how to use Microsoft Lync 2013 SDK and Lync 2013 to participate in a Microsoft Unified Communications Managed API 4.0 conversation.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Context overview
 

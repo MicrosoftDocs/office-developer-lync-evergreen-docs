@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Core concepts: Lync conversations'
 TOCTitle: Lync conversations
 ms:assetid: 1c805dc1-5f85-4c8a-a0c3-a620433739db
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the foundational Microsoft Lync 2013 SDK objects that make up the programmable components of a Microsoft Lync 2013 conversation.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -31,7 +32,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Conversation overview
 

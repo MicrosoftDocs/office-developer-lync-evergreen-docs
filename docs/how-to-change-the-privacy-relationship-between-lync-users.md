@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Change the privacy relationship between Lync users'
 TOCTitle: 'How to: Change the privacy relationship between Lync users'
 ms:assetid: f2e80755-67a6-4ccc-91dd-7c5e4146fd95
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn about how to programmatically change the privacy relationship between two Microsoft Lync 2013 contacts by using Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -34,7 +35,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -121,36 +121,45 @@ The following table presents the publishable contact information types that are 
 </tbody>
 </table>
 
-
 ## Change the privacy relationship of a contact
 
 ### To change the privacy relationship of a contact
 
-1.  Get the [LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance and verify that the client state is signed in to the server.
+1.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and verify that the client state is signed in to the server.
     
     For information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-2.  Get the [Contact](contact-class-microsoft-lync-model_2.md) instance to be updated.
+2.  Get the [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instance to be updated.
     
     Any valid contact, regardless of its source, can be updated to change the privacy relationship setting. For information about getting the contacts in a user’s contact list, see [How to: Display a contact list](how-to-display-a-contact-list.md).
 
-3.  Call the [Contact.BeginChangeSetting](contact-beginchangesetting-method-microsoft-lync-model_2.md) method, specifying that the privacy relationship is to be set by setting the [ContactSetting](contactsetting-enumeration-microsoft-lync-model_2.md).**AccessLevel** and by an [AccessLevel](accesslevel-enumeration-microsoft-lync-model_2.md) enumerator representing the new privacy relationship.
+3.  Call the [Contact.BeginChangeSetting](https://msdn.microsoft.com/en-us/library/jj275533\(v=office.15\)) method, specifying that the privacy relationship is to be set by setting the [ContactSetting](https://msdn.microsoft.com/en-us/library/jj267670\(v=office.15\)).**AccessLevel** and by an [AccessLevel](https://msdn.microsoft.com/en-us/library/jj266987\(v=office.15\)) enumerator representing the new privacy relationship.
 
 4.  Catch the **System.IAsyncResult** returned from the call.
 
-5.  Call [Contact.EndChangeSetting](contact-endchangesetting-method-microsoft-lync-model_2.md) to complete the operation.
+5.  Call [Contact.EndChangeSetting](https://msdn.microsoft.com/en-us/library/jj266039\(v=office.15\)) to complete the operation.
     
-
-    > [!TIP]
-    > <P>If you do not want to block execution on your UI thread while the operation runs, pass a <STRONG>System.AsyncCallback</STRONG> method into <STRONG>BeginChangeSetting</STRONG> and make the <A href="contact-endchangesetting-method-microsoft-lync-model_2.md">EndChangeSetting</A> call inside the callback.</P>
-
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>If you do not want to block execution on your UI thread while the operation runs, pass a <strong>System.AsyncCallback</strong> method into <strong>BeginChangeSetting</strong> and make the <a href="https://msdn.microsoft.com/en-us/library/jj266039(v=office.15)">EndChangeSetting</a> call inside the callback.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
 ## Code example: Accepting parameters
 
-The following example accepts two string parameters representing the URI of a user and the new access level desired. The access level string is converted to an [AccessLevel](accesslevel-enumeration-microsoft-lync-model_2.md) enumerator before an instance of [Contact](contact-class-microsoft-lync-model_2.md) is obtained from [ContactManager](contactmanager-class-microsoft-lync-model_2.md) by calling into [GetContactByUri](contactmanager-getcontactbyuri-method-microsoft-lync-model_2.md).
+The following example accepts two string parameters representing the URI of a user and the new access level desired. The access level string is converted to an [AccessLevel](https://msdn.microsoft.com/en-us/library/jj266987\(v=office.15\)) enumerator before an instance of [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) is obtained from [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) by calling into [GetContactByUri](https://msdn.microsoft.com/en-us/library/jj274481\(v=office.15\)).
 
-The contact setting, [ContactSetting](contactsetting-enumeration-microsoft-lync-model_2.md).**AccessLevel**, is set by calling into [Contact.BeginChangeSetting](contact-beginchangesetting-method-microsoft-lync-model_2.md) and passing both an enumerator for the property to be updated and an enumerator for the new property value.
+The contact setting, [ContactSetting](https://msdn.microsoft.com/en-us/library/jj267670\(v=office.15\)).**AccessLevel**, is set by calling into [Contact.BeginChangeSetting](https://msdn.microsoft.com/en-us/library/jj275533\(v=office.15\)) and passing both an enumerator for the property to be updated and an enumerator for the new property value.
 
 ``` csharp
         /// <summary>

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Retemplating the ContactCard control
 TOCTitle: Retemplating the ContactCard control
 ms:assetid: bd545e3b-6ebe-420e-a0a2-c7a7003de68c
@@ -12,12 +12,13 @@ dev_langs:
 
 # Retemplating the ContactCard control
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about advanced visual template editing for Microsoft Lync 2013 Controls that inherit the ContactContactPresenter control.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,10 +37,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## ContactCard control overview
 
-If you follow the steps in [Editing the template of a Lync Control](editing-the-template-of-a-lync-control.md) to retemplate a PresenceIndicator control, but perform the operation on a [ContactCard](contactcard-class-microsoft-lync-controls_1.md) control, the operation generates new styles, templates, and other resources in your resource dictionary. The template for the ContactCard control can be found by searching for the following string.
+If you follow the steps in [Editing the template of a Lync Control](editing-the-template-of-a-lync-control.md) to retemplate a PresenceIndicator control, but perform the operation on a [ContactCard](https://msdn.microsoft.com/en-us/library/hh379168\(v=office.15\)) control, the operation generates new styles, templates, and other resources in your resource dictionary. The template for the ContactCard control can be found by searching for the following string.
 
 ``` xaml
     <ControlTemplate TargetType="{x:Type controls:ContactCard}">
@@ -49,7 +49,7 @@ This template includes four parts, arranged in a simple vertical StackPanel:
 
   - The ContactNote instance, which appears at the top of the Microsoft Lync 2013 Contact Card.
 
-  - A [ContactContentPresenter](contactcontentpresenter-class-microsoft-lync-controls_1.md) instance that handles the primary contact information area of the Contact Card. This area is the part of the Contact Card that shows the contact’s name, photo, and basic information.
+  - A [ContactContentPresenter](https://msdn.microsoft.com/en-us/library/hh346128\(v=office.15\)) instance that handles the primary contact information area of the Contact Card. This area is the part of the Contact Card that shows the contact’s name, photo, and basic information.
 
   - A small Grid that defines the toolbar appearing at the bottom of the Contact Card.
 
@@ -142,7 +142,6 @@ The following table summarizes the data templates that you can modify.
 </tr>
 </tbody>
 </table>
-
 
 In the next section of this topic, a new tab option is added to the details section of a Contact Card data template. You can customize the appearance of any section of the Contact Card by editing the appropriate data templates.
 

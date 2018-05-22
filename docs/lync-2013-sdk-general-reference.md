@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync 2013 SDK general reference
 TOCTitle: Lync 2013 SDK general reference
 ms:assetid: 0a6f5019-cffe-4e0c-aeae-22878f48e868
@@ -12,10 +12,11 @@ mtps_version: v=office.15
 
 Learn about how you use the Microsoft Lync 2013 SDK to create Microsoft Lync 2013 client conversation window extensions, add Lync features to your existing application, or create a custom client to substitute for a suppressed Lync 2013 user interface.
 
+**Last modified:** April 03, 2013
 
 ![Conceptual overview topic](images/JJ937254.mod_icon_badge_conoverview(Office.15).png "Conceptual overview topic")
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 Microsoft Lync 2013 SDK is designed for software developers who are building custom Microsoft Lync 2013 client applications. It is also used to embed client collaboration functionality in line-of-business (LOB) applications that interoperate with Lync 2013 and Microsoft Lync Server 2013. By using the Lync 2013 API, a developer can provide the client features of instant messaging (IM), voice, video, application sharing, and meeting session functionality in a custom client or LOB application.
 
@@ -48,7 +49,7 @@ You can download Microsoft Lync 2013 SDK from the [Microsoft Download Center](ht
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/JJ933179.mod_icon_whatsnew_long(Office.15).png" title="What&#39;s new topic" alt="What&#39;s new topic" /></p></td>
+<td><p><img src="images/JJ937254.mod_icon_whatsnew_long(Office.15).png" title="What&#39;s new topic" alt="What&#39;s new topic" /></p></td>
 <td><p><a href="what-s-new-in-lync-2013-sdk.md">What's new in Lync 2013 SDK</a><br />
 Learn about the new Microsoft Lync 2013 SDK features that give developers the ability to add advanced functionality to their applications.</p></td>
 </tr>
@@ -68,7 +69,7 @@ Learn about the concepts for adding Lync features to your application by using M
 Learn how to add Microsoft Lync 2013 features, such as Lync Controls and enhance presence, and to your application by using the API classes in Microsoft Lync 2013 SDK.</p></td>
 </tr>
 <tr class="odd">
-<td><p><img src="images/JJ945548.mod_icon_beyondbasics_long(Office.15).png" title="Beyond the basics topic" alt="Beyond the basics topic" /></p></td>
+<td><p><img src="images/JJ937254.mod_icon_beyondbasics_long(Office.15).png" title="Beyond the basics topic" alt="Beyond the basics topic" /></p></td>
 <td><p><a href="beyond-the-basics-in-lync-2013-sdk.md">Beyond the basics in Lync 2013 SDK</a><br />
 Learn about some of the advanced features of Microsoft Lync 2013 SDK that you can use to make your stand-alone Lync 2013 API-enabled application more flexible and robust.</p></td>
 </tr>

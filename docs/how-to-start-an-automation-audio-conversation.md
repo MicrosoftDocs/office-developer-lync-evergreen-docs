@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Start an automation audio conversation'
 TOCTitle: 'How to: Start an automation audio conversation'
 ms:assetid: 7d89f1a6-8b42-4532-96cf-b85a5c3c3009
@@ -15,8 +15,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to automate opening a new Microsoft Lync 2013 conversation window to host an audio conversation with another Lync 2013 client.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -63,17 +63,16 @@ The prerequisites for starting an automation audio conversation are as follows:
 <tbody>
 <tr class="odd">
 <td><p><a href="conversation-window-automation-in-lync-sdk.md">Conversation window automation in Lync SDK</a></p></td>
-<td><p>Describes the scope of automation through the <a href="microsoft-lync-model-extensibility-namespace_2.md">Microsoft.Lync.Model.Extensibility</a> namespace.</p></td>
+<td><p>Describes the scope of automation through the <a href="https://msdn.microsoft.com/en-us/library/jj278382(v=office.15)">Microsoft.Lync.Model.Extensibility</a> namespace.</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Create an audio conversation application
 
 Conversations can only be started when the user is signed in to Lync 2013. Read about [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md) and be sure that your application logic provides this capability before adding an audio conversation to your UI.
 
-To start an audio conversation, get a [Microsoft.Lync.Model.Extensibility.Automation](automation-class-microsoft-lync-model-extensibility_2.md) object, create IEnumerable objects to contain a URI or a phone number, set instances of [Microsoft.Lync.Model.Extensibility.AutomationModalities](automationmodalities-enumeration-microsoft-lync-model-extensibility_2.md) and [Microsoft.Lync.Model.Extensibility.AutomationModalitySettings](automationmodalitysettings-enumeration-microsoft-lync-model-extensibility_2.md), and then call the [Automation.BeginStartConversation](automation-beginstartconversation-method-microsoft-lync-model-extensibility_2.md) method.
+To start an audio conversation, get a [Microsoft.Lync.Model.Extensibility.Automation](https://msdn.microsoft.com/en-us/library/jj293816\(v=office.15\)) object, create IEnumerable objects to contain a URI or a phone number, set instances of [Microsoft.Lync.Model.Extensibility.AutomationModalities](https://msdn.microsoft.com/en-us/library/jj266471\(v=office.15\)) and [Microsoft.Lync.Model.Extensibility.AutomationModalitySettings](https://msdn.microsoft.com/en-us/library/jj276319\(v=office.15\)), and then call the [Automation.BeginStartConversation](https://msdn.microsoft.com/en-us/library/jj276136\(v=office.15\)) method.
 
 ### To create the audio conversation application
 

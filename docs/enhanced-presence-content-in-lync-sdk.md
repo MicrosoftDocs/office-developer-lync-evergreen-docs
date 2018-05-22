@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enhanced presence content in Lync SDK
 TOCTitle: Enhanced presence content
 ms:assetid: 813d89b3-950e-4a20-9659-9c0fb1c47785
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the components of Microsoft Lync 2013 enhanced presence and how it is implemented in Microsoft Lync 2013 SDK.
 
+**Last modified:** December 10, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -31,7 +32,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## What is enhanced presence?
 

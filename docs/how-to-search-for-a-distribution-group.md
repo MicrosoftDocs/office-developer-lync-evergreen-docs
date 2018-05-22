@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Search for a distribution group'
 TOCTitle: 'How to: Search for a distribution group'
 ms:assetid: 6648d555-1dee-4575-9df0-e533adf061b4
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn about searching for and expanding Exchange 2013 distribution groups by using the Microsoft Lync 2013 API.
 
+**Last modified:** June 06, 2013
 
-_**Applies to:** Lync 2013_
+***Applies to:** Lync 2013*
 
 <table>
 <colgroup>
@@ -35,16 +36,25 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
-Searching for groups is very similar to searching for contacts because you call the same two methods as in the previous section but you read the [SearchResults.Groups](searchresults-groups-property-microsoft-lync-model_2.md) property in the search results.
+Searching for groups is very similar to searching for contacts because you call the same two methods as in the previous section but you read the [SearchResults.Groups](https://msdn.microsoft.com/en-us/library/jj268253\(v=office.15\)) property in the search results.
 
 A distribution group can contain other distribution groups in addition to a collection of contacts. For this reason, you may consider using a recursion algorithm to successively expand and list nested groups and their members.
 
-
-> [!WARNING]
-> <P>A distribution group that contains a set of deeply nested distribution groups can quickly use up computer resources if automatically expanded to the deepest level. It is better to display the contacts in the top level distribution group plus the unexpanded distribution groups at that level. Let a user select an individual distribution group to expand to the next level and then display the users and groups at that level.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Caution note" alt="Caution note" /><strong>Caution</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>A distribution group that contains a set of deeply nested distribution groups can quickly use up computer resources if automatically expanded to the deepest level. It is better to display the contacts in the top level distribution group plus the unexpanded distribution groups at that level. Let a user select an individual distribution group to expand to the next level and then display the users and groups at that level.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Prerequisites
 
@@ -58,32 +68,53 @@ The prerequisites for searching for contacts and distribution groups are as foll
 
 ## Search for a distribution group
 
-Searching for groups is very similar to searching for contacts because you call the same two methods as in the previous section but you read the [SearchResults.Groups](searchresults-groups-property-microsoft-lync-model_2.md) property in the search results.
+Searching for groups is very similar to searching for contacts because you call the same two methods as in the previous section but you read the [SearchResults.Groups](https://msdn.microsoft.com/en-us/library/jj268253\(v=office.15\)) property in the search results.
 
 A distribution group can contain other distribution groups in addition to a collection of contacts. For this reason, you may consider using a recursion algorithm to successively expand and list nested groups and their members.
 
-
-> [!WARNING]
-> <P>A distribution group that contains a set of deeply nested distribution groups can quickly use up computer resources if automatically expanded to the deepest level. It is better to display the contacts in the top level distribution group plus the unexpanded distribution groups at that level. Let a user select an individual distribution group to expand to the next level and then display the users and groups at that level.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Caution note" alt="Caution note" /><strong>Caution</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>A distribution group that contains a set of deeply nested distribution groups can quickly use up computer resources if automatically expanded to the deepest level. It is better to display the contacts in the top level distribution group plus the unexpanded distribution groups at that level. Let a user select an individual distribution group to expand to the next level and then display the users and groups at that level.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### To search for a distribution group
 
 1.  Obtain the partial or full name of a distribution group as a string to be used as a search key.
 
-2.  Call the [ContactManager.BeginSearch](contactmanager-beginsearch-method-microsoft-lync-model_2.md) method.
+2.  Call the [ContactManager.BeginSearch](https://msdn.microsoft.com/en-us/library/jj278297\(v=office.15\)) method.
     
-
-    > [!TIP]
-    > <P>If you want to run an advanced group search, call the <A href="contactmanager-beginsearch-method-microsoft-lync-model_2.md">ContactManager.BeginSearch</A> method and specify the search provider and a set of distribution group property fields to search against.</P>
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>If you want to run an advanced group search, call the <a href="https://msdn.microsoft.com/en-us/library/jj278297(v=office.15)">ContactManager.BeginSearch</a> method and specify the search provider and a set of distribution group property fields to search against.</p></td>
+    </tr>
+    </tbody>
+    </table>
     
-    In either a lambda expression or a callback method passed in the second argument of **BeginSearch**, get the results of the search by calling the [ContactManager.EndSearch](contactmanager-endsearch-method-microsoft-lync-model_2.md) method. A [Microsoft.Lync.Model.SearchResults](searchresults-class-microsoft-lync-model_2.md) object is returned.
+    In either a lambda expression or a callback method passed in the second argument of **BeginSearch**, get the results of the search by calling the [ContactManager.EndSearch](https://msdn.microsoft.com/en-us/library/jj277082\(v=office.15\)) method. A [Microsoft.Lync.Model.SearchResults](https://msdn.microsoft.com/en-us/library/jj293514\(v=office.15\)) object is returned.
 
-3.  Read the [SearchResults.Groups](searchresults-groups-property-microsoft-lync-model_2.md)**Count** property, and then continue this procedure if the property value returns 1 or more distribution groups.
+3.  Read the [SearchResults.Groups](https://msdn.microsoft.com/en-us/library/jj268253\(v=office.15\))**Count** property, and then continue this procedure if the property value returns 1 or more distribution groups.
     
-    The following example iterates the group collection returned by the [SearchResults.Groups](searchresults-groups-property-microsoft-lync-model_2.md) property.
+    The following example iterates the group collection returned by the [SearchResults.Groups](https://msdn.microsoft.com/en-us/library/jj268253\(v=office.15\)) property.
     
     ``` csharp
             /// <summary>
@@ -129,19 +160,19 @@ A distribution group can contain other distribution groups in addition to a coll
 
 ### To expand a distribution group
 
-1.  Read the [DistributionGroup.IsExpanded](distributiongroup-isexpanded-property-microsoft-lync-model-group_2.md) property.
+1.  Read the [DistributionGroup.IsExpanded](https://msdn.microsoft.com/en-us/library/jj275697\(v=office.15\)) property.
     
     If the returned value is **false**, the distribution group must be expanded before you can access its contacts.
 
-2.  Call the [DistributionGroup.BeginExpand](distributiongroup-beginexpand-method-microsoft-lync-model-group_2.md) method.
+2.  Call the [DistributionGroup.BeginExpand](https://msdn.microsoft.com/en-us/library/jj274816\(v=office.15\)) method.
 
-3.  In the lambda expression or callback method passed in the first argument of the **BeginExpand** method, call the [DistributionGroup.EndExpand](distributiongroup-endexpand-method-microsoft-lync-model-group_2.md) method.
+3.  In the lambda expression or callback method passed in the first argument of the **BeginExpand** method, call the [DistributionGroup.EndExpand](https://msdn.microsoft.com/en-us/library/jj293275\(v=office.15\)) method.
 
-4.  Iterate on the distribution group as a [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) collection to get individual contacts.
+4.  Iterate on the distribution group as a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) collection to get individual contacts.
 
-5.  Read the **Count** property of the [DistributionGroup.NestedGroups](distributiongroup-nestedgroups-property-microsoft-lync-model-group_2.md) property.
+5.  Read the **Count** property of the [DistributionGroup.NestedGroups](https://msdn.microsoft.com/en-us/library/jj278008\(v=office.15\)) property.
 
-6.  If the count value returned in the previous step is greater than zero, iterate on the value returned by the [DistributionGroup.NestedGroups](distributiongroup-nestedgroups-property-microsoft-lync-model-group_2.md) to get the nested distribution groups.
+6.  If the count value returned in the previous step is greater than zero, iterate on the value returned by the [DistributionGroup.NestedGroups](https://msdn.microsoft.com/en-us/library/jj278008\(v=office.15\)) to get the nested distribution groups.
     
     The following example expands a distribution group if not already expanded, prints the display name of each group contact, and then recursively expands any nested distribution groups.
     

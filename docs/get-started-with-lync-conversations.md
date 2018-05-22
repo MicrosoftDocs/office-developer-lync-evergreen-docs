@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get started with Lync conversations
 TOCTitle: Lync conversations
 ms:assetid: db65193e-57ea-44a1-b949-06ae2b655d8b
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about programming Microsoft Lync 2013 conversations with Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What is a Lync 2013 conversation?  
@@ -32,7 +33,6 @@ Additional resources
 </tr>
 </tbody>
 </table>
-
 
 ## What is a Lync 2013 conversation?
 
@@ -68,19 +68,18 @@ To understand how to work with Lync 2013 conversations, it is important to becom
 <tbody>
 <tr class="odd">
 <td><p><a href="conversation-manager.md">Conversation manager</a></p></td>
-<td><p>Describes the role of the <a href="conversationmanager-class-microsoft-lync-model-conversation_2.md">ConversationManager</a> object in starting and joining conversations.</p></td>
+<td><p>Describes the role of the <a href="https://msdn.microsoft.com/en-us/library/jj266018(v=office.15)">ConversationManager</a> object in starting and joining conversations.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="conversation-modalities.md">Conversation modalities</a></p></td>
-<td><p>Describes how conversation modes are encapsulated by <a href="modality-class-microsoft-lync-model-conversation_2.md">Modality</a> objects.</p></td>
+<td><p>Describes how conversation modes are encapsulated by <a href="https://msdn.microsoft.com/en-us/library/jj274796(v=office.15)">Modality</a> objects.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="conversation-participants.md">Conversation participants</a></p></td>
-<td><p>Describes how <a href="participant-class-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.Participant</a> objects represent Lync 2013 users in a conversation.</p></td>
+<td><p>Describes how <a href="https://msdn.microsoft.com/en-us/library/jj267311(v=office.15)">Microsoft.Lync.Model.Conversation.Participant</a> objects represent Lync 2013 users in a conversation.</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## What can you do with Lync 2013 conversations?
 
@@ -134,7 +133,7 @@ The following table lists basic tasks for working with Lync 2013 conversations.
 </tr>
 <tr class="odd">
 <td><p><a href="how-to-start-a-lync-audio-conversation.md">How to: Start a Lync audio conversation</a></p></td>
-<td><p>Learn how to start an audio conversation. This process involves creating a conversation with a local and remote participant and connecting to the remote participant using the participant’s audio/video (AV) modality. To complete this process, you must handle state change events on both the client’s <a href="conversationmanager-class-microsoft-lync-model-conversation_2.md">ConversationManager</a> instance and the conversation itself.</p></td>
+<td><p>Learn how to start an audio conversation. This process involves creating a conversation with a local and remote participant and connecting to the remote participant using the participant’s audio/video (AV) modality. To complete this process, you must handle state change events on both the client’s <a href="https://msdn.microsoft.com/en-us/library/jj266018(v=office.15)">ConversationManager</a> instance and the conversation itself.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="how-to-park-and-unpark-a-lync-audio-conversation.md">How to: Park and unpark a Lync audio conversation</a></p></td>
@@ -158,7 +157,6 @@ The following table lists basic tasks for working with Lync 2013 conversations.
 </tr>
 </tbody>
 </table>
-
 
 ## Beyond the basics: Learn more about Lync 2013 conversations
 
@@ -196,7 +194,6 @@ The following table lists advanced concepts for working with Lync 2013 conversat
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

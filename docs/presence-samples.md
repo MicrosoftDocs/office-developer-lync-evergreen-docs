@@ -1,4 +1,4 @@
-﻿---
+---
 title: Presence samples
 TOCTitle: Presence samples
 ms:assetid: 87a76d00-13fb-462c-8d1c-2d68ad10807b
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the presence-related quick-start samples that are installed with Microsoft Lync 2013 SDK.
 
+**Last modified:** January 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -31,7 +32,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Presence samples
 
@@ -51,7 +51,7 @@ The quick-start samples in the following table show how to publish and get prese
 <tbody>
 <tr class="odd">
 <td><p>MyNotebox</p></td>
-<td><p>Populates a page with a <a href="mynotebox-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.MyNoteBox</a> control and displays the signed-in user’s display name and personal note in a text entry control.</p>
+<td><p>Populates a page with a <a href="https://msdn.microsoft.com/en-us/library/hh346137(v=office.15)">Microsoft.Lync.Controls.MyNoteBox</a> control and displays the signed-in user’s display name and personal note in a text entry control.</p>
 <ul>
 <li><p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\MyNoteBoxDesktop</p></li>
 <li><p>Silverlight sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\MyNoteBoxSilverlight</p></li>
@@ -64,7 +64,7 @@ The quick-start samples in the following table show how to publish and get prese
 </tr>
 <tr class="even">
 <td><p>MyPresenceChooser</p></td>
-<td><p>Populates a window with a <a href="mypresencechooser-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.MyPresenceChooser</a> control that lets a user choose a presence activity. The resulting availability state is displayed in a text block in the window.</p>
+<td><p>Populates a window with a <a href="https://msdn.microsoft.com/en-us/library/hh379434(v=office.15)">Microsoft.Lync.Controls.MyPresenceChooser</a> control that lets a user choose a presence activity. The resulting availability state is displayed in a text block in the window.</p>
 <ul>
 <li><p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\MyPresenceChooserDesktop</p></li>
 <li><p>Silverlight sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\MyPresenceChooserSilverlight</p></li>
@@ -77,7 +77,7 @@ The quick-start samples in the following table show how to publish and get prese
 </tr>
 <tr class="odd">
 <td><p>MyStatusArea</p></td>
-<td><p>Populates a window with a <a href="mystatusarea-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.MyStatusArea</a> control that lets a user choose a presence activity and enter a personal note. Three text blocks on the page are bound to <strong>MyStatusArea</strong> control properties for user display name, availability state, and personal note. The text value of these text blocks are automatically updated when the corresponding properties of the <strong>MyStatusControl</strong> change.</p>
+<td><p>Populates a window with a <a href="https://msdn.microsoft.com/en-us/library/hh363503(v=office.15)">Microsoft.Lync.Controls.MyStatusArea</a> control that lets a user choose a presence activity and enter a personal note. Three text blocks on the page are bound to <strong>MyStatusArea</strong> control properties for user display name, availability state, and personal note. The text value of these text blocks are automatically updated when the corresponding properties of the <strong>MyStatusControl</strong> change.</p>
 <ul>
 <li><p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\MyStatusAreaDesktop</p></li>
 <li><p>Silverlight sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\MyStatusAreaSilverlight</p></li>
@@ -90,7 +90,7 @@ The quick-start samples in the following table show how to publish and get prese
 </tr>
 <tr class="even">
 <td><p>PresenceIndicator</p></td>
-<td><p>Populates a list on a page with three <a href="presenceindicator-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.PresenceIndicator</a> instances. The user can hover a mouse pointer over any of the presence indicators to display a contact card a user. The <a href="contactbase-source-property-microsoft-lync-controls_1.md">ContactBase.Source</a> property for each control instance is set by the sample application.</p>
+<td><p>Populates a list on a page with three <a href="https://msdn.microsoft.com/en-us/library/hh345947(v=office.15)">Microsoft.Lync.Controls.PresenceIndicator</a> instances. The user can hover a mouse pointer over any of the presence indicators to display a contact card a user. The <a href="https://msdn.microsoft.com/en-us/library/hh363511(v=office.15)">ContactBase.Source</a> property for each control instance is set by the sample application.</p>
 <ul>
 <li><p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\PresenceIndicatorDesktop</p></li>
 <li><p>Silverlight sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\PresenceIndicatorSilverlight</p></li>
@@ -105,21 +105,20 @@ The quick-start samples in the following table show how to publish and get prese
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-use-the-lync-47ded7b4">Presence publication</a></p></td>
 <td><p>Retrieve and publish information of the Self contact (the currently signed-in user) by using classes, enumerations, events, and methods of the Lync 2013 API. It also shows how to sign in to Lync using the credentials of the active user. The sample uses the following classes and methods:</p>
 <ul>
-<li><p><a href="lyncclient-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.LyncClient</a> class</p></li>
-<li><p><a href="contact-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.Contact</a> class</p></li>
-<li><p><a href="self-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.Self</a> class</p></li>
-<li><p><a href="contactavailability-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ContactAvailability</a> enumeration</p></li>
-<li><p><a href="contact-contactinformationchanged-event-microsoft-lync-model_2.md">Contact.ContactInformationChanged</a> event</p></li>
-<li><p><a href="contact-getcontactinformation-method-microsoft-lync-model_2.md">Contact.GetContactInformation</a> method</p></li>
-<li><p><a href="self-beginpublishcontactinformation-method-microsoft-lync-model_2.md">Self.BeginPublishContactInformation</a> method</p></li>
-<li><p><a href="lyncclient-beginsignin-method-microsoft-lync-model_2.md">LyncClient.BeginSignIn</a> method</p></li>
-<li><p><a href="lyncclient-beginsignout-method-microsoft-lync-model_2.md">LyncClient.BeginSignOut</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj274980(v=office.15)">Microsoft.Lync.Model.LyncClient</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Microsoft.Lync.Model.Contact</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj277683(v=office.15)">Microsoft.Lync.Model.Self</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj293978(v=office.15)">Microsoft.Lync.Model.ContactAvailability</a> enumeration</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj275543(v=office.15)">Contact.ContactInformationChanged</a> event</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj294012(v=office.15)">Contact.GetContactInformation</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj278107(v=office.15)">Self.BeginPublishContactInformation</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj274512(v=office.15)">LyncClient.BeginSignIn</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj277581(v=office.15)">LyncClient.BeginSignOut</a> method</p></li>
 </ul>
 <p>Path: <em>%PROGRAMFILES(X86)%\</em>Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\PresencePublication</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Add logging to a Lync Controls application'
 TOCTitle: 'How to: Add logging to a Lync Controls application'
 ms:assetid: 6a7054ab-4de6-4e20-b9d6-e84fce14ee32
@@ -13,10 +13,11 @@ dev_langs:
 
 # How to: Add logging to a Lync Controls application
 
-Learn how to add logging to a Microsoft Windows Presentation Foundation (WPF) application that contains Microsoft Lync Controls. The application writes log entries to a file on the local computer when the Initialized event on the [PresenceIndicator](presenceindicator-class-microsoft-lync-controls_1.md) control occurs.
+Learn how to add logging to a Microsoft Windows Presentation Foundation (WPF) application that contains Microsoft Lync Controls. The application writes log entries to a file on the local computer when the Initialized event on the [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control occurs.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,12 +37,23 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
-
-> [!IMPORTANT]
-> <P>When logging is used in WPF or Microsoft Silverlight applications, personal information such as telephone numbers can appear in logs. To protect confidential information, ensure logs are written to secure locations.<BR><BR>In Silverlight applications, I/O operations typically are restricted to isolated storage and do not use the file system of the operating system. It is possible to work around this restriction by logging to a Web service or by using COM to access the local file system. For more information, see the MSDN articles <A href="http://go.microsoft.com/fwlink/?linkid=168185">Isolated Storage</A> and <A href="http://go.microsoft.com/fwlink/?linkid=168183">Isolated Storage In Silverlight 2</A>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>When logging is used in WPF or Microsoft Silverlight applications, personal information such as telephone numbers can appear in logs. To protect confidential information, ensure logs are written to secure locations.<br />
+<br />
+In Silverlight applications, I/O operations typically are restricted to isolated storage and do not use the file system of the operating system. It is possible to work around this restriction by logging to a Web service or by using COM to access the local file system. For more information, see the MSDN articles <a href="http://go.microsoft.com/fwlink/?linkid=168185">Isolated Storage</a> and <a href="http://go.microsoft.com/fwlink/?linkid=168183">Isolated Storage In Silverlight 2</a>.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Prerequisites
 

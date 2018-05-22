@@ -1,4 +1,4 @@
-﻿---
+---
 title: Retemplating the CustomContactList control
 TOCTitle: Retemplating the CustomContactList control
 ms:assetid: d8f509aa-7340-45de-8380-39e3df55501b
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Retemplating the CustomContactList control
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about visual template editing for individual parts of the CustomContactList control by using a step-by-step procedure to generate a visual template for a control part and adding elements to the template.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,10 +33,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## CustomContactList control overview
 
-The [CustomContactList](customcontactlist-class-microsoft-lync-controls_1.md) control uses different DataTemplate resources to control the appearance of people, telephone numbers, bots, and distribution lists. There are two data templates for each type of contact:
+The [CustomContactList](https://msdn.microsoft.com/en-us/library/hh346321\(v=office.15\)) control uses different DataTemplate resources to control the appearance of people, telephone numbers, bots, and distribution lists. There are two data templates for each type of contact:
 
   - Name View template
 
@@ -45,7 +45,7 @@ These views are sometimes referred to as OneLine and TwoLines view, respectively
 
 ### To customize the DataTemplate for one or more view
 
-1.  The template for a contact within the CustomContactList control is applied to a control called [CustomContactListItem](customcontactlistitem-class-microsoft-lync-controls_1.md). CustomContactListItem is not directly accessible from the CustomContactList template. To get a copy of the template for a CustomContactListItem, temporarily add an instance of CustomContactListItem to your form and then edit a copy of its template.
+1.  The template for a contact within the CustomContactList control is applied to a control called [CustomContactListItem](https://msdn.microsoft.com/en-us/library/hh346017\(v=office.15\)). CustomContactListItem is not directly accessible from the CustomContactList template. To get a copy of the template for a CustomContactListItem, temporarily add an instance of CustomContactListItem to your form and then edit a copy of its template.
     
         <controls:CustomContactListItem/> <!-- For temporary use -->
 
@@ -79,54 +79,53 @@ The following table lists the templates that can be used to customize the appear
 <tr class="odd">
 <td><p>Person</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="uclistbox-personitemtemplate-property-microsoft-lync-controls_1.md">PersonItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363472(v=office.15)">PersonItemTemplate</a></p></td>
 <td><p>PersonContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Person</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="customcontactlist-persontwolineitemtemplate-property-microsoft-lync-controls_1.md">PersonTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379568(v=office.15)">PersonTwoLineItemTemplate</a></p></td>
 <td><p>PersonContactItemDataTemplateTwoLines</p></td>
 </tr>
 <tr class="odd">
 <td><p>Telephone</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="uclistbox-telephoneitemtemplate-property-microsoft-lync-controls_1.md">TelephoneItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363420(v=office.15)">TelephoneItemTemplate</a></p></td>
 <td><p>TelephoneContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Telephone</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="customcontactlist-telephonetwolineitemtemplate-property-microsoft-lync-controls_1.md">TelephoneTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363486(v=office.15)">TelephoneTwoLineItemTemplate</a></p></td>
 <td><p>TelephoneContactItemDataTemplateTwoLines</p></td>
 </tr>
 <tr class="odd">
 <td><p>Bot</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="uclistbox-botitemtemplate-property-microsoft-lync-controls_1.md">BotItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363732(v=office.15)">BotItemTemplate</a></p></td>
 <td><p>BotContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Bot</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="customcontactlist-bottwolineitemtemplate-property-microsoft-lync-controls_1.md">BotTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363405(v=office.15)">BotTwoLineItemTemplate</a></p></td>
 <td><p>BotContactItemDataTemplateTwoLines</p></td>
 </tr>
 <tr class="odd">
 <td><p>Group</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="uclistbox-groupitemtemplate-property-microsoft-lync-controls_1.md">GroupItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379035(v=office.15)">GroupItemTemplate</a></p></td>
 <td><p>GroupContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Group</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="customcontactlist-grouptwolineitemtemplate-property-microsoft-lync-controls_1.md">GroupTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379585(v=office.15)">GroupTwoLineItemTemplate</a></p></td>
 <td><p>GroupContactItemDataTemplateTwoLines</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

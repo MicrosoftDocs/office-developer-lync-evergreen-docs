@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Beyond the basics: Lync conversations'
 TOCTitle: Lync conversations
 ms:assetid: b0d9e12e-87ec-4f91-952f-f376630d241b
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Beyond the basics: Lync conversations
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about extending the functionality of the Lync 2013 conversation window by creating hosted Silverlight browser applications that are powered by the Microsoft Lync 2013 SDK object model to tightly integrate the browser application with the hosting Lync conversation window.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Application development scenarios
 

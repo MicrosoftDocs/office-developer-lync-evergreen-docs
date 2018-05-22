@@ -1,4 +1,4 @@
-﻿---
+---
 title: Resource and content sharing samples
 TOCTitle: Resource and content sharing samples
 ms:assetid: fb44c4b7-23f1-4af9-991b-0be413915f5e
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the resource sharing and content sharing quick-start samples that are installed with Microsoft Lync 2013 SDK.
 
+**Last modified:** January 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,7 +33,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Resource sharing samples
 
@@ -57,7 +57,6 @@ The following sample application demonstrates how to share resources in a conver
 </tbody>
 </table>
 
-
 ## Content sharing samples
 
 The following sample application demonstrates how to share whiteboards, PowerPoint slide decks, and native file attachments in a conversation.
@@ -78,21 +77,20 @@ The following sample application demonstrates how to share whiteboards, PowerPoi
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-control-3b9df73f">ContentModalitySample</a></p></td>
 <td><p>Shows how to create a conversation and then share a whiteboard and a PowerPoint slide deck. If a PowerPoint slide deck is shared, the sample lets a user scroll forward and backward in the slide deck. The sample uses the following classes, methods, and enumerations:</p>
 <ul>
-<li><p><a href="lyncclient-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.LyncClient</a> class</p></li>
-<li><p><a href="conversation-class-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.Conversation</a> class</p></li>
-<li><p><a href="contentsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality</a> class</p></li>
-<li><p><a href="shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a> class</p></li>
-<li><p><a href="powerpointcontent-class-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent</a> class</p></li>
-<li><p><a href="shareablecontentstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</a> enumeration</p></li>
-<li><p><a href="contentsharingmodality-begincreatecontent-method-microsoft-lync-model-conversation-sharing_2.md">ContentSharingModality.BeginCreateContent</a> method</p></li>
-<li><p><a href="contentsharingmodality-begincreatecontentfromfile-method-microsoft-lync-model-conversation-sharing_2.md">ContentSharingModality.BeginCreateContentFromFile</a> method</p></li>
-<li><p><a href="shareablecontent-upload-method-microsoft-lync-model-conversation-sharing_2.md">ShareableContent.Upload</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj274980(v=office.15)">Microsoft.Lync.Model.LyncClient</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj276988(v=office.15)">Microsoft.Lync.Model.Conversation.Conversation</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266998(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj277217(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj277028(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj267322(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</a> enumeration</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj277556(v=office.15)">ContentSharingModality.BeginCreateContent</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj277389(v=office.15)">ContentSharingModality.BeginCreateContentFromFile</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj278338(v=office.15)">ShareableContent.Upload</a> method</p></li>
 </ul>
 <p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\ContentSharingModality</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

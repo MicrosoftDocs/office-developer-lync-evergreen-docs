@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync Controls reference
 TOCTitle: Lync Controls reference
 ms:assetid: 10ff2802-6006-49ef-bd11-d0b1416dc21d
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn how to use Microsoft Lync Controls to integrate Microsoft Lync 2013 features such as presence, instant messaging (IM) calls, voice calls, and search into applications.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Lync Controls overview
 

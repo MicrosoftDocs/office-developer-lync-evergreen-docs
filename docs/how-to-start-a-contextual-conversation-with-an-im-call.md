@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Start a contextual conversation with an IM call'
 TOCTitle: 'How to: Start a contextual conversation with an IM call'
 ms:assetid: dc333a91-1502-4be7-bc7f-18b489f2193c
@@ -12,10 +12,11 @@ dev_langs:
 
 # How to: Start a contextual conversation with an IM call
 
-Learn how to use the Microsoft Lync Control [ContextualInformation](contactbase-contextualinformation-property-microsoft-lync-controls_1.md) property to add the sender’s context to an instant messaging (IM) conversation, using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF).
+Learn how to use the Microsoft Lync Control [ContextualInformation](https://msdn.microsoft.com/en-us/library/hh363342\(v=office.15\)) property to add the sender’s context to an instant messaging (IM) conversation, using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF).
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -33,7 +34,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Contextual conversation overview
 
@@ -80,7 +80,7 @@ The following procedure works for Silverlight and WPF applications.
     </StackPanel>
     ```
 
-3.  Edit the [Source](contactbase-source-property-microsoft-lync-controls_1.md) property on the [StartInstantMessagingButton](startinstantmessagingbutton-class-microsoft-lync-controls_1.md) control to provide a valid value.
+3.  Edit the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property on the [StartInstantMessagingButton](https://msdn.microsoft.com/en-us/library/hh379340\(v=office.15\)) control to provide a valid value.
 
 4.  Install and register the application on the sending and receiving computers.
     

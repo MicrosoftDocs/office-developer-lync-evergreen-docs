@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Move or copy a contact between custom groups in Lync SDK'
 TOCTitle: 'How to: Move or copy a contact between custom groups'
 ms:assetid: f3a39bc2-0648-4eb0-8444-99ad8363a65a
@@ -15,14 +15,25 @@ dev_langs:
 
 Learn how to programmatically move or copy a Microsoft Lync 2013 contact from one Lync 2013 group to another in a user’s contact list.
 
+**Last modified:** July 01, 2013
 
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>You cannot move contacts out of a distribution group or copy contacts into a distribution group by using the Microsoft Lync 2013 API.</p></td>
+</tr>
+</tbody>
+</table>
 
-> [!IMPORTANT]
-> <P>You cannot move contacts out of a distribution group or copy contacts into a distribution group by using the Microsoft Lync 2013 API.</P>
-
-
-
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -38,12 +49,11 @@ Move a contact from one group to another group<br />
 Copy a contact from one group to another group<br />
 Code examples: My contact mover<br />
 Additional resources</p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-add-or-remove-f70ab894">Add or remove contacts from the &quot;Other Contacts&quot; group</a></p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -63,9 +73,9 @@ Contacts and groups are available when the user is signed in to Lync 2013. Read 
 
 1.  Get the name of the custom group to which the contact is to be moved.
 
-2.  Get the [Microsoft.Lync.Model.Group.Group](group-class-microsoft-lync-model-group_2.md) object from the groups collection returned by the [ContactManager.Groups](contactmanager-groups-property-microsoft-lync-model_2.md) property based on the group name.
+2.  Get the [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) object from the groups collection returned by the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property based on the group name.
 
-3.  Move the contact by specifying the target group and source group by calling the [Contact.BeginMoveToGroup](contact-beginmovetogroup-method-microsoft-lync-model_2.md) method.
+3.  Move the contact by specifying the target group and source group by calling the [Contact.BeginMoveToGroup](https://msdn.microsoft.com/en-us/library/jj294107\(v=office.15\)) method.
     
     The following example gets a group based on a group name and then moves a contact from a source group to the target group.
     
@@ -101,9 +111,9 @@ Contacts and groups are available when the user is signed in to Lync 2013. Read 
 
 1.  Get the name of the custom group to which the contact is to be copied.
 
-2.  Get the [Microsoft.Lync.Model.Group.Group](group-class-microsoft-lync-model-group_2.md) object from the groups collection returned by the [ContactManager.Groups](contactmanager-groups-property-microsoft-lync-model_2.md) property based on the group name.
+2.  Get the [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) object from the groups collection returned by the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property based on the group name.
 
-3.  Copy the contact by calling the [Group.BeginAddContact](group-beginaddcontact-method-microsoft-lync-model-group_2.md) method on the target group.
+3.  Copy the contact by calling the [Group.BeginAddContact](https://msdn.microsoft.com/en-us/library/jj275692\(v=office.15\)) method on the target group.
     
     The following example gets a group based on a group name and then moves a contact from a source group to the target group.
     

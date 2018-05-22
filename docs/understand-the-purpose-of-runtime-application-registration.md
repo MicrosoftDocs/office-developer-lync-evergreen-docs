@@ -1,4 +1,4 @@
-﻿---
+---
 title: Understand the purpose of runtime application registration
 TOCTitle: Understand the purpose of runtime application registration
 ms:assetid: e9be8236-03f7-4fc7-92d9-809377882cf4
@@ -12,12 +12,13 @@ dev_langs:
 
 # Understand the purpose of runtime application registration
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about the purpose of runtime registration of CWE applications in Microsoft Lync 2013 SDK.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -34,7 +35,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Overriding the install-time registration package
 
 The install-time registration package specifies the URL of the hosting IIS server or the UNC path of a network share that hosts the .xap and .html file of a CWE application. In addition, the package specifies the size of the CWE application window and the window title. You can override any of these properties at runtime to open a CWE application that is hosted at a different location, display a different CWE application title, or open with a different size. This is usually done when different versions of the CWE applications exist and are designed for different audiences.
@@ -43,7 +43,7 @@ For example, an external-facing CWE application can be designated as the default
 
 When the internal automation application starts a new conversation window, it can override the default registration package and load the full version of the CWE application.
 
-The following example overrides the default package by creating an instance of the [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](applicationregistration-class-microsoft-lync-model-extensibility_2.md) class, configures it with new values, and creates an in-memory registration for the CWE application. The in-memory registration is used when the conversation window opens the extensibility tab to host the CWE application.
+The following example overrides the default package by creating an instance of the [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](https://msdn.microsoft.com/en-us/library/jj293820\(v=office.15\)) class, configures it with new values, and creates an in-memory registration for the CWE application. The in-memory registration is used when the conversation window opens the extensibility tab to host the CWE application.
 
 ``` csharp
         // Perform Run-Time Registration by using the ApplicationRegistration class.

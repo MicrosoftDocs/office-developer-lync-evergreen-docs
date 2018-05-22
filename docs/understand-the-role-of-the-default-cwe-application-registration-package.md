@@ -1,4 +1,4 @@
-﻿---
+---
 title: Understand the role of the default CWE application registration package
 TOCTitle: Understand the role of the default CWE application registration package
 ms:assetid: 8e594256-6d06-44a4-80ee-07fe41969f9a
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Understand the role of the default CWE application registration package
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Use the default CWE application registration package in custom Lync 2013 automation applications to specify an extensibility tab application on the receiver side of a conversation.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -34,7 +35,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Where to use a default package
 
 If an incoming conversation has no context, you can specify a default package that starts when the conversation is accepted. For example, you might want to start a customer relationship management application with every incoming call, as in the following scenario.
@@ -45,11 +45,21 @@ John receives a telephone call on Lync 2013 from an important customer. When he 
 
 You must use Install Registration to register context packages on a computer. To use a context package, register it with Lync 2013. For more information about installing and registering packages, see [Register contextual conversation packages](register-contextual-conversation-packages.md). Although multiple context packages can be installed on a computer, there is only one default package. To specify that a context package is the default, set the **DefaultContextPackage** registry key to 1.
 
-
-> [!IMPORTANT]
-> <P>A default package cannot be overridden at runtime by using an <A href="applicationregistration-class-microsoft-lync-model-extensibility_2.md">Microsoft.Lync.Model.Extensibility.ApplicationRegistration</A> object. The default package CWE application starts with every new conversation, even when application logic specifies another install-time or runtime override application for a different extensibility tab in the conversation window.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>A default package cannot be overridden at runtime by using an <a href="https://msdn.microsoft.com/en-us/library/jj293820(v=office.15)">Microsoft.Lync.Model.Extensibility.ApplicationRegistration</a> object. The default package CWE application starts with every new conversation, even when application logic specifies another install-time or runtime override application for a different extensibility tab in the conversation window.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Understand when a default package starts
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Beyond the basics in Lync 2013 SDK
 TOCTitle: Beyond the basics
 ms:assetid: ff41897b-443f-42c3-8180-0e9ad33cd4e5
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Beyond the basics in Lync 2013 SDK
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about the advanced features of Microsoft Lync 2013 SDK that you can use to make your stand-alone Lync 2013 API-enabled application more flexible and robust.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Advanced API features
 
@@ -94,7 +94,6 @@ Conversation alert settings give a user the ability to control the circumstances
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

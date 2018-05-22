@@ -1,4 +1,4 @@
-﻿---
+---
 title: Localizing Lync Controls applications
 TOCTitle: Localizing Lync Controls applications
 ms:assetid: 46d3185a-b8d6-4cae-b259-bab5748edcfc
@@ -12,12 +12,13 @@ dev_langs:
 
 # Localizing Lync Controls applications
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about localizing the strings displayed on the Microsoft Lync 2013 Controls that are in Microsoft Lync 2013 SDK.
 
+**Last modified:** December 26, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Localizing overview
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MyNoteBox control
 TOCTitle: MyNoteBox control
 ms:assetid: 9635f546-2c32-4204-9081-dc51dd2e21ca
@@ -16,8 +16,9 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 MyNoteBox control.
 
+**Last modified:** April 09, 2013
 
-_**Applies to:** Lync 2013_
+***Applies to:** Lync 2013*
 
 <table>
 <colgroup>
@@ -36,16 +37,15 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Control overview
 
-Use the [MyNoteBox](mynotebox-class-microsoft-lync-controls_1.md) control in Microsoft Lync Control applications to display and change the current user’s personal note. Users can change their personal note by typing in new text and pressing the **Enter** key.
+Use the [MyNoteBox](https://msdn.microsoft.com/en-us/library/hh346137\(v=office.15\)) control in Microsoft Lync Control applications to display and change the current user’s personal note. Users can change their personal note by typing in new text and pressing the **Enter** key.
 
 ![MyNoteBox Control](images/JJ937324.MyNoteBoxControl(Office.15).png "MyNoteBox Control")
 
 ## Members
 
-Notable MyNoteBox control public properties and events relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](lync-2013-class-libraries-reference.md).
+Notable MyNoteBox control public properties and events relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](https://msdn.microsoft.com/en-us/library/jj933088\(v=office.15\)).
 
 <table>
 <colgroup>
@@ -60,20 +60,19 @@ Notable MyNoteBox control public properties and events relating to unified commu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="selfbase-displayname-property-microsoft-lync-controls_1.md">DisplayName</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363484(v=office.15)">DisplayName</a> property</p></td>
 <td><p>Gets the display name of the currently logged-in user.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="selfbase-model-property-microsoft-lync-controls_1.md">Model</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363904(v=office.15)">Model</a> property</p></td>
 <td><p>Reserved for internal use. This property may appear in XAML text when editing templates. To preserve control functionality, it should remain unchanged.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="mynotebox-personalnote-property-microsoft-lync-controls_1.md">PersonalNote</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363725(v=office.15)">PersonalNote</a> property</p></td>
 <td><p>Gets a string that shows the content of the note box for the signed-in user.</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Code example
 

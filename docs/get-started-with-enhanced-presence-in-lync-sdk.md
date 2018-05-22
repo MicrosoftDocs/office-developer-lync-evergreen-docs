@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get started with enhanced presence in Lync SDK
 TOCTitle: Enhanced presence
 ms:assetid: 7fb19aad-fa7a-432c-ba6c-7e9375fdd942
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn the programming concepts and Microsoft Lync 2013 SDK object model for building an application that shows the enhanced presence information for any Microsoft Lync 2013 user.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What is enhanced presence?  
@@ -32,7 +33,6 @@ Additional resources
 </tr>
 </tbody>
 </table>
-
 
 ## What is enhanced presence?
 
@@ -76,7 +76,6 @@ To understand how to work with enhanced presence, it is important to become fami
 </tr>
 </tbody>
 </table>
-
 
 ## What can you do with enhanced presence?
 
@@ -125,7 +124,6 @@ The following table lists basic tasks for working with enhanced presence.
 </tbody>
 </table>
 
-
 ## Beyond the basics: Learn more about enhanced presence
 
 The following table lists advanced concepts for working with enhanced presence.
@@ -152,7 +150,6 @@ The following table lists advanced concepts for working with enhanced presence.
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

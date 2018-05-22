@@ -1,4 +1,4 @@
-﻿---
+---
 title: Handle events for ContactManager
 TOCTitle: Handle events for ContactManager
 ms:assetid: a53758cd-b11f-4b9e-bfd8-c0dadde38a7a
@@ -12,12 +12,13 @@ dev_langs:
 
 # Handle events for ContactManager
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about handling the events raised by the [Microsoft.Lync.Model.ContactManager](contactmanager-class-microsoft-lync-model_2.md) object in Microsoft Lync 2013 SDK.
+Learn about handling the events raised by the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) object in Microsoft Lync 2013 SDK.
 
+**Last modified:** February 12, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -37,18 +38,17 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Event handling overview
 
-Event handlers triggered by events raised in the contacts and groups manager are a good place to stage the update of a contact list displayed in your user interface. In these event handlers, you can also register for or remove registration for the group’s contact events. For example, when a group is added, it triggers a [GroupAdded](contactmanager-groupadded-event-microsoft-lync-model_2.md) event. The event handler for this event should register for the [ContactAdded](group-contactadded-event-microsoft-lync-model-group_2.md) event and [ContactRemoved](group-contactremoved-event-microsoft-lync-model-group_2.md) event for this new group.
+Event handlers triggered by events raised in the contacts and groups manager are a good place to stage the update of a contact list displayed in your user interface. In these event handlers, you can also register for or remove registration for the group’s contact events. For example, when a group is added, it triggers a [GroupAdded](https://msdn.microsoft.com/en-us/library/jj278290\(v=office.15\)) event. The event handler for this event should register for the [ContactAdded](https://msdn.microsoft.com/en-us/library/jj266994\(v=office.15\)) event and [ContactRemoved](https://msdn.microsoft.com/en-us/library/jj277068\(v=office.15\)) event for this new group.
 
-There are three events available for [ContactManager](contactmanager-class-microsoft-lync-model_2.md):
+There are three events available for [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)):
 
-  - [GroupAdded](contactmanager-groupadded-event-microsoft-lync-model_2.md)
+  - [GroupAdded](https://msdn.microsoft.com/en-us/library/jj278290\(v=office.15\))
 
-  - [GroupRemoved](contactmanager-groupremoved-event-microsoft-lync-model_2.md)
+  - [GroupRemoved](https://msdn.microsoft.com/en-us/library/jj276769\(v=office.15\))
 
-  - [SearchProviderStateChanged](contactmanager-searchproviderstatechanged-event-microsoft-lync-model_2.md)
+  - [SearchProviderStateChanged](https://msdn.microsoft.com/en-us/library/jj274591\(v=office.15\))
 
 ## Register for contacts and groups manager events
 
@@ -105,11 +105,21 @@ The following example handles the **GroupRemoved** event by removing the registr
         }
 ```
 
-
-> [!IMPORTANT]
-> <P>A contact can be a member of multiple groups. If one of a contact's parent groups is removed, the contact might still appear in your contact list because of its membership in another group.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>A contact can be a member of multiple groups. If one of a contact's parent groups is removed, the contact might still appear in your contact list because of its membership in another group.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### SearchProviderStateChanged event
 

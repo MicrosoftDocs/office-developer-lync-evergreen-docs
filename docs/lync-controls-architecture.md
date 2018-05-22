@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync Controls architecture
 TOCTitle: Lync Controls architecture
 ms:assetid: 2d7c1fac-8ec0-4e83-b494-5b09af844c90
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the basic process architecture of the Microsoft Lync 2013 Controls and their relation to the Microsoft Lync 2013 client application.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -29,7 +30,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Architecture overview
 
@@ -54,13 +54,13 @@ Each subsequent Lync Control opened by the application uses the existing connect
 
 To get the connection state, check the following properties:
 
-  - [IsSignedIn](ucbase-issignedin-property-microsoft-lync-controls_1.md) property
+  - [IsSignedIn](https://msdn.microsoft.com/en-us/library/hh346560\(v=office.15\)) property
 
-  - [InitializationError](ucbase-initializationerror-property-microsoft-lync-controls_1.md) property
+  - [InitializationError](https://msdn.microsoft.com/en-us/library/hh379166\(v=office.15\)) property
 
-  - [IsInResiliencyMode](ucbase-isinresiliencymode-property-microsoft-lync-controls_1.md) property
+  - [IsInResiliencyMode](https://msdn.microsoft.com/en-us/library/hh363627\(v=office.15\)) property
 
-  - [InitializationErrorMessage](ucbase-initializationerrormessage-property-microsoft-lync-controls_1.md) property
+  - [InitializationErrorMessage](https://msdn.microsoft.com/en-us/library/hh379615\(v=office.15\)) property
 
 For more information about checking connection state, see [Troubleshooting Lync Controls applications](troubleshooting-lync-controls-applications.md).
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Add, rename, or remove a custom group'
 TOCTitle: 'How to: Add, rename, or remove a custom group'
 ms:assetid: 2ecbf5aa-3dfb-4726-a9c0-38363bf8ca43
@@ -15,8 +15,9 @@ dev_langs:
 
 Learn how to add or remove a custom group from a user’s contact list in Microsoft Lync 2013 by using Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -43,7 +44,6 @@ Watch the video: Add, rename, and delete custom groups in Lync
 </tr>
 </tbody>
 </table>
-
 
 ## Custom group overview
 
@@ -88,30 +88,29 @@ The prerequisites for adding or removing a custom group are as follows:
 </tbody>
 </table>
 
-
 Contacts and groups are available when the user is signed in to Lync 2013. Read about [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md) and be sure that your application logic provides this capability before adding a contact list to your UI.
 
 ## Add a custom group
 
-To add a new custom group, call the [BeginAddGroup](contactmanager-beginaddgroup-method-microsoft-lync-model_2.md) method on the contacts and groups manager, supplying the name of the new group. You must call [EndAddGroup](contactmanager-endaddgroup-method-microsoft-lync-model_2.md) to complete the operation. You receive the [GroupAdded](contactmanager-groupadded-event-microsoft-lync-model_2.md) event when the new custom group is added. Read the [Group](groupcollectionchangedeventargs-group-property-microsoft-lync-model-group_2.md) property to get an instance of the new custom group that is added.
+To add a new custom group, call the [BeginAddGroup](https://msdn.microsoft.com/en-us/library/jj266433\(v=office.15\)) method on the contacts and groups manager, supplying the name of the new group. You must call [EndAddGroup](https://msdn.microsoft.com/en-us/library/jj277049\(v=office.15\)) to complete the operation. You receive the [GroupAdded](https://msdn.microsoft.com/en-us/library/jj278290\(v=office.15\)) event when the new custom group is added. Read the [Group](https://msdn.microsoft.com/en-us/library/jj276719\(v=office.15\)) property to get an instance of the new custom group that is added.
 
 ### To add a custom group
 
-1.  In your form class, create an event handler for the [GroupAdded](contactmanager-groupadded-event-microsoft-lync-model_2.md) event.
+1.  In your form class, create an event handler for the [GroupAdded](https://msdn.microsoft.com/en-us/library/jj278290\(v=office.15\)) event.
     
     For more information about the **GroupAdded** event, see [Handle events for ContactManager](handle-events-for-contactmanager.md).
 
-2.  Add a **System.AsyncCallback** method to be invoked when the [BeginAddGroup](contactmanager-beginaddgroup-method-microsoft-lync-model_2.md) operation completes.
+2.  Add a **System.AsyncCallback** method to be invoked when the [BeginAddGroup](https://msdn.microsoft.com/en-us/library/jj266433\(v=office.15\)) operation completes.
 
-3.  Get a [LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance, and then verify that the client is signed in to the server.
+3.  Get a [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance, and then verify that the client is signed in to the server.
     
     For information about signing in to Microsoft Lync Server 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-4.  Read the [ContactManager](client-contactmanager-property-microsoft-lync-model_2.md) property on the [LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance to get the contact manager.
+4.  Read the [ContactManager](https://msdn.microsoft.com/en-us/library/jj275688\(v=office.15\)) property on the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance to get the contact manager.
 
-5.  Register for the [GroupAdded](contactmanager-groupadded-event-microsoft-lync-model_2.md) event on [ContactManager](contactmanager-class-microsoft-lync-model_2.md).
+5.  Register for the [GroupAdded](https://msdn.microsoft.com/en-us/library/jj278290\(v=office.15\)) event on [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)).
 
-6.  Call [BeginAddGroup](contactmanager-beginaddgroup-method-microsoft-lync-model_2.md) on [ContactManager](contactmanager-class-microsoft-lync-model_2.md), passing a string containing the requested group name. If you want to block execution on your UI thread until the operation completes, call [EndAddGroup](contactmanager-endaddgroup-method-microsoft-lync-model_2.md) after the first call. To avoid blocking your UI thread, pass a **System.AsyncCallback** method into **BeginAddGroup**, and then call [EndAddGroup](contactmanager-endaddgroup-method-microsoft-lync-model_2.md) within the callback when it is invoked from the Lync thread.
+6.  Call [BeginAddGroup](https://msdn.microsoft.com/en-us/library/jj266433\(v=office.15\)) on [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)), passing a string containing the requested group name. If you want to block execution on your UI thread until the operation completes, call [EndAddGroup](https://msdn.microsoft.com/en-us/library/jj277049\(v=office.15\)) after the first call. To avoid blocking your UI thread, pass a **System.AsyncCallback** method into **BeginAddGroup**, and then call [EndAddGroup](https://msdn.microsoft.com/en-us/library/jj277049\(v=office.15\)) within the callback when it is invoked from the Lync thread.
 
 The following figure illustrates the classes, methods, and events used in the process of adding a custom group and adding a contact to the group.
 
@@ -122,15 +121,15 @@ The following figure illustrates the classes, methods, and events used in the pr
 
 A distribution group is created outside of the scope of this API. It is obtained and added to a user’s contact list using the Microsoft Lync 2013 API. For information about obtaining an existing distribution group, see [How to: Search for a contact or distribution group in Lync SDK](https://msdn.microsoft.com/en-us/library/jj933159\(v=office.15\)).
 
-When you have obtained a distribution group in a set of search results, add the distribution group to the contact list by calling into [BeginAddGroup](contactmanager-beginaddgroup-method-microsoft-lync-model_2.md), passing the distribution group as the first argument.
+When you have obtained a distribution group in a set of search results, add the distribution group to the contact list by calling into [BeginAddGroup](https://msdn.microsoft.com/en-us/library/jj266433\(v=office.15\)), passing the distribution group as the first argument.
 
 ## Remove a custom group
 
-To remove a custom group, call the [BeginRemoveGroup](contactmanager-beginremovegroup-method-microsoft-lync-model_2.md) method on the contacts and groups manager, supplying the group to be removed. If the group is removed, you receive the [GroupRemoved](contactmanager-groupremoved-event-microsoft-lync-model_2.md) event on the [ContactManager](contactmanager-class-microsoft-lync-model_2.md) instance.
+To remove a custom group, call the [BeginRemoveGroup](https://msdn.microsoft.com/en-us/library/jj278089\(v=office.15\)) method on the contacts and groups manager, supplying the group to be removed. If the group is removed, you receive the [GroupRemoved](https://msdn.microsoft.com/en-us/library/jj276769\(v=office.15\)) event on the [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) instance.
 
 ### To remove a custom group
 
-1.  In your form class, create an event handler for the [GroupRemoved](contactmanager-groupremoved-event-microsoft-lync-model_2.md) event.
+1.  In your form class, create an event handler for the [GroupRemoved](https://msdn.microsoft.com/en-us/library/jj276769\(v=office.15\)) event.
     
     For more information about the **GroupRemoved** event, see [Handle events for ContactManager](handle-events-for-contactmanager.md).
 
@@ -138,28 +137,38 @@ To remove a custom group, call the [BeginRemoveGroup](contactmanager-beginremove
     
     For information about signing in to Microsoft Lync 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-3.  Read the [Client.ContactManager](client-contactmanager-property-microsoft-lync-model_2.md) property to get the [Microsoft.Lync.Model.ContactManager](contactmanager-class-microsoft-lync-model_2.md) instance you use to remove a custom group.
+3.  Read the [Client.ContactManager](https://msdn.microsoft.com/en-us/library/jj275688\(v=office.15\)) property to get the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) instance you use to remove a custom group.
 
-4.  Register for the [GroupRemoved](contactmanager-groupremoved-event-microsoft-lync-model_2.md) event on **ContactManager**.
+4.  Register for the [GroupRemoved](https://msdn.microsoft.com/en-us/library/jj276769\(v=office.15\)) event on **ContactManager**.
 
 5.  Remove any registrations for events on the group to be removed.
 
-6.  Call [ContactManager.BeginRemoveGroup](contactmanager-beginremovegroup-method-microsoft-lync-model_2.md) on the contact manager, passing the [Microsoft.Lync.Model.Group.Group](group-class-microsoft-lync-model-group_2.md) to be removed.
+6.  Call [ContactManager.BeginRemoveGroup](https://msdn.microsoft.com/en-us/library/jj278089\(v=office.15\)) on the contact manager, passing the [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) to be removed.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>If the group to be removed contains contacts, these contained contacts are not removed from any other containing custom groups.</p>
+    <p>To remove a contact from all groups, call <a href="https://msdn.microsoft.com/en-us/library/jj276345(v=office.15)">ContactManager.BeginRemoveContactFromAllGroups</a>.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!NOTE]
-    > <P>If the group to be removed contains contacts, these contained contacts are not removed from any other containing custom groups.</P>
-    > <P>To remove a contact from all groups, call <A href="contactmanager-beginremovecontactfromallgroups-method-microsoft-lync-model_2.md">ContactManager.BeginRemoveContactFromAllGroups</A>.</P>
+7.  Call [ContactManager.EndRemoveGroup](https://msdn.microsoft.com/en-us/library/jj275547\(v=office.15\)) to complete the operation.
 
-
-
-7.  Call [ContactManager.EndRemoveGroup](contactmanager-endremovegroup-method-microsoft-lync-model_2.md) to complete the operation.
-
-8.  Catch the [ContactManager.GroupRemoved](contactmanager-groupremoved-event-microsoft-lync-model_2.md) event when the state of the contact manager group collection ([ContactManager.Groups](contactmanager-groups-property-microsoft-lync-model_2.md)) has changed.
+8.  Catch the [ContactManager.GroupRemoved](https://msdn.microsoft.com/en-us/library/jj276769\(v=office.15\)) event when the state of the contact manager group collection ([ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\))) has changed.
 
 ## Rename a custom group
 
-The group rename operation is restricted to groups of type [Microsoft.Lync.Model.Group.GroupType](grouptype-enumeration-microsoft-lync-model-group_2.md).**CustomGroup**.
+The group rename operation is restricted to groups of type [Microsoft.Lync.Model.Group.GroupType](https://msdn.microsoft.com/en-us/library/jj276550\(v=office.15\)).**CustomGroup**.
 
 ### To rename a custom group
 
@@ -167,21 +176,21 @@ The group rename operation is restricted to groups of type [Microsoft.Lync.Model
     
     For information about signing in to Microsoft Lync Server 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-2.  Register for the [NameChanged](group-namechanged-event-microsoft-lync-model-group_2.md) event on all [Group](group-class-microsoft-lync-model-group_2.md) instances.
+2.  Register for the [NameChanged](https://msdn.microsoft.com/en-us/library/jj294077\(v=office.15\)) event on all [Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) instances.
     
     You should perform this step when you obtain the collection of a local user’s contact list groups in the form load event.
 
-3.  Verify that the group to be renamed is of type [GroupType](grouptype-enumeration-microsoft-lync-model-group_2.md). **CustomGroup**.
+3.  Verify that the group to be renamed is of type [GroupType](https://msdn.microsoft.com/en-us/library/jj276550\(v=office.15\)). **CustomGroup**.
     
     Only a custom group can be renamed.
 
-4.  Cast the group to be renamed to [Microsoft.Lync.Model.Group.CustomGroup](customgroup-class-microsoft-lync-model-group_2.md).
+4.  Cast the group to be renamed to [Microsoft.Lync.Model.Group.CustomGroup](https://msdn.microsoft.com/en-us/library/jj277245\(v=office.15\)).
 
-5.  Call [BeginRename](customgroup-beginrename-method-microsoft-lync-model-group_2.md) on the custom group, passing the new name of the group as a string.
+5.  Call [BeginRename](https://msdn.microsoft.com/en-us/library/jj294118\(v=office.15\)) on the custom group, passing the new name of the group as a string.
 
-6.  Call [EndRename](customgroup-endrename-method-microsoft-lync-model-group_2.md) to complete the operation.
+6.  Call [EndRename](https://msdn.microsoft.com/en-us/library/jj275929\(v=office.15\)) to complete the operation.
 
-7.  Catch the [Group.NameChanged](group-namechanged-event-microsoft-lync-model-group_2.md) event raised when the state of the custom group has changed as a result of the operation.
+7.  Catch the [Group.NameChanged](https://msdn.microsoft.com/en-us/library/jj294077\(v=office.15\)) event raised when the state of the custom group has changed as a result of the operation.
 
 ## Code examples: Add, remove, and rename custom groups
 
@@ -219,7 +228,7 @@ The following figure shows the example application UI with the three default gro
   
 ![A window that lets user add, remove, rename groups](images/JJ937292.Lync_MyGroupManager(Office.15).jpg "A window that lets user add, remove, rename groups")
 
-The following example handles group collection events on the [ContactManager](contactmanager-class-microsoft-lync-model_2.md) object, fills the group list in the UI, and handles click events for buttons in the UI.
+The following example handles group collection events on the [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) object, fills the group list in the UI, and handles click events for buttons in the UI.
 
 ``` csharp
 using System.Windows;

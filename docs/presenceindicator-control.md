@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresenceIndicator control
 TOCTitle: PresenceIndicator control
 ms:assetid: 66bf9c40-6b68-4d31-aac5-ca7f780b889e
@@ -16,8 +16,9 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013PresenceIndicator control.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -37,10 +38,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Control overview
 
-The [PresenceIndicator](presenceindicator-class-microsoft-lync-controls_1.md) control displays one of several icons that indicate the presence of a given user. It is a stand-alone control representing a single contact and enables access to the quick connect menu and the contact card for the user. The control also can display a photo for the given user. The following images display different options for the PhotoDisplayMode property. When the Source property is not set or when no photo is available, a stock silhouette image appears in the UI as shown.
+The [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control displays one of several icons that indicate the presence of a given user. It is a stand-alone control representing a single contact and enables access to the quick connect menu and the contact card for the user. The control also can display a photo for the given user. The following images display different options for the PhotoDisplayMode property. When the Source property is not set or when no photo is available, a stock silhouette image appears in the UI as shown.
 
 ![PresenceIndicator Control](images/JJ933141.PresenceIndicatorControl(Office.15).png "PresenceIndicator Control")
 
@@ -52,7 +52,7 @@ The control reacts to two user actions: hover and click. When a user hovers over
 
 ## Members
 
-Notable PresenceIndicator control public properties and events relating to unified communications appear in the following table. For information about other properties and events, see [Lync 2013 class libraries reference](lync-2013-class-libraries-reference.md).
+Notable PresenceIndicator control public properties and events relating to unified communications appear in the following table. For information about other properties and events, see [Lync 2013 class libraries reference](https://msdn.microsoft.com/en-us/library/jj933088\(v=office.15\)).
 
 <table>
 <colgroup>
@@ -67,8 +67,8 @@ Notable PresenceIndicator control public properties and events relating to unifi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="contactbase-source-property-microsoft-lync-controls_1.md">Source</a> property</p></td>
-<td><p>Gets or sets the contact to display. Valid types include the <a href="contact-class-microsoft-lync-model_2.md">Contact</a> object, <a href="distributiongroup-class-microsoft-lync-model-group_2.md">DistributionGroup</a> object, and <a href="http://go.microsoft.com/fwlink/?linkid=131086%26clcid=0x409">String</a>.</p>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363511(v=office.15)">Source</a> property</p></td>
+<td><p>Gets or sets the contact to display. Valid types include the <a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Contact</a> object, <a href="https://msdn.microsoft.com/en-us/library/jj293432(v=office.15)">DistributionGroup</a> object, and <a href="http://go.microsoft.com/fwlink/?linkid=131086%26clcid=0x409">String</a>.</p>
 <ul>
 <li><p>If the value is a string that does not contain the sip: or tel: prefix, the control performs a search, using the string specified as a search criteria, and loads the first contact in the result set matching the specified string. This behavior is not deterministic and yields the slowest performance.</p></li>
 <li><p>If the value is a SIP URI string qualified by the sip: or tel: prefix, the contact is loaded using an exact match of the specified URI. This behavior is deterministic and yields better performance.</p></li>
@@ -76,19 +76,19 @@ Notable PresenceIndicator control public properties and events relating to unifi
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><a href="presenceindicator-activitystatus-property-microsoft-lync-controls_1.md">ActivityStatus</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh346421(v=office.15)">ActivityStatus</a> property</p></td>
 <td><p>Gets the presence status string for the contact. For example, In a meeting or Away. For groups, this is an empty string.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="contactbase-displayname-property-microsoft-lync-controls_1.md">DisplayName</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345805(v=office.15)">DisplayName</a> property</p></td>
 <td><p>Gets the contact’s display name.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="contactbase-contextualinformation-property-microsoft-lync-controls_1.md">ContextualInformation</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363342(v=office.15)">ContextualInformation</a> property</p></td>
 <td><p>Gets or sets a data structure that contains information used to customize the information that accompanies messages. For more information about the use of contextual information, see <a href="contextual-lync-conversations.md">Contextual Lync conversations</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="contactbase-model-property-microsoft-lync-controls_1.md">Model</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh346458(v=office.15)">Model</a> property</p></td>
 <td><p>Reserved for internal use. When you edit templates, this property may appear in XAML text. To preserve control functionality, it should remain static.</p></td>
 </tr>
 <tr class="even">
@@ -108,11 +108,11 @@ Notable PresenceIndicator control public properties and events relating to unifi
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><a href="presenceindicator-hoveraction-property-microsoft-lync-controls_1.md">HoverAction</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345520(v=office.15)">HoverAction</a> property</p></td>
 <td><p>Gets or sets an enumeration value that determines the contact card display mode when the cursor hovers over the presence icon. The default value is <strong>ShowContactBrief</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="presenceindicator-singleclickaction-property-microsoft-lync-controls_1.md">SingleClickAction</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363323(v=office.15)">SingleClickAction</a> property</p></td>
 <td><p>Gets or sets an enumeration value that determines the contact card display mode after the presence icon is clicked. The default value is <strong>ShowContactDetails</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -121,7 +121,6 @@ Notable PresenceIndicator control public properties and events relating to unifi
 </tr>
 </tbody>
 </table>
-
 
 ## Code example
 

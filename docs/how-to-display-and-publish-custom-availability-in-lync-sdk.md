@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Display and publish custom availability in Lync SDK'
 TOCTitle: 'How to: Display and publish custom availability'
 ms:assetid: 469d0d64-620d-4d70-b719-53c2ccb7b4bb
@@ -16,8 +16,9 @@ dev_langs:
 
 Learn how to display and publish custom Microsoft Lync 2013 presence in an application by using Microsoft Lync 2013 SDK.
 
+**Last modified:** December 07, 2015
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 Prerequisites  
@@ -40,7 +41,6 @@ Additional resources
 </tbody>
 </table>
 
-
 ## Prerequisites
 
 The prerequisites for displaying and publishing custom availability are as follows:
@@ -62,15 +62,25 @@ Figure 1 shows a sample application window that lets a user see current presence
 
 The current localized presence state is the last state that was published by a contact.
 
-
-> [!TIP]
-> <P>The logic in this procedure is used for any <A href="contact-class-microsoft-lync-model.md">Microsoft.Lync.Model.Contact</A> object. The contact can be the signed-in user <STRONG>Self</STRONG> contact, any contact in the user’s contact list, or any contact found by a contact search.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The logic in this procedure is used for any <a href="https://msdn.microsoft.com/en-us/library/hh365096(v=office.15)">Microsoft.Lync.Model.Contact</a> object. The contact can be the signed-in user <strong>Self</strong> contact, any contact in the user’s contact list, or any contact found by a contact search.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### To display the user’s current localized or customized presence state
 
-1.  To get the current state, call the [Contact.GetContactInformation](contact-getcontactinformation-method-microsoft-lync-model.md) method on the [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model.md) object value of the [Self.Contact](self-contact-property-microsoft-lync-model.md) property, passing the [ContactInformationType.CustomActivity](https://msdn.microsoft.com/en-us/library/gg279606\(v=office.15\)) enumerator.
+1.  To get the current state, call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/hh348218\(v=office.15\)) method on the [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/hh365096\(v=office.15\)) object value of the [Self.Contact](https://msdn.microsoft.com/en-us/library/hh365190\(v=office.15\)) property, passing the [ContactInformationType.CustomActivity](https://msdn.microsoft.com/en-us/library/gg279606\(v=office.15\)) enumerator.
     
     ``` csharp
                 //Get list of all LocaleString objects - list encapsulates the customized and localized activity strings
@@ -78,16 +88,27 @@ The current localized presence state is the last state that was published by a c
                     Contact.GetContactInformation(ContactInformationType.CustomActivity);
     ```
     
-    A list of [Microsoft.Lync.Model.LocaleString](localestring-class-microsoft-lync-model.md) objects is returned as **system.object**.
+    A list of [Microsoft.Lync.Model.LocaleString](https://msdn.microsoft.com/en-us/library/hh365116\(v=office.15\)) objects is returned as **system.object**.
 
-2.  Iterate on the list of objects, casting each object to type [Microsoft.Lync.Model.LocaleString](localestring-class-microsoft-lync-model.md).
+2.  Iterate on the list of objects, casting each object to type [Microsoft.Lync.Model.LocaleString](https://msdn.microsoft.com/en-us/library/hh365116\(v=office.15\)).
     
-      - Inside of the foreach loop, compare the [LocaleString.LocaleId](localestring-localeid-property-microsoft-lync-model.md) property value to the current UI culture LCID. If they match, display the [LocaleString.Value](localestring-value-property-microsoft-lync-model.md) property as the current custom activity in the user’s language.
+      - Inside of the foreach loop, compare the [LocaleString.LocaleId](https://msdn.microsoft.com/en-us/library/hh379982\(v=office.15\)) property value to the current UI culture LCID. If they match, display the [LocaleString.Value](https://msdn.microsoft.com/en-us/library/hh348182\(v=office.15\)) property as the current custom activity in the user’s language.
         
-
-        > [!IMPORTANT]
-        > <P>If activity strings have not been localized for a particular culture, you should define a default locale ID value to display. For example, in North America, locale ID 1033 is frequently used. If the signed-in user has selected 1036 (French, France) as the UI culture, but no localized strings have been configured on the server for 1036, you would display strings for 1033.</P>
-
+        <table>
+        <colgroup>
+        <col style="width: 100%" />
+        </colgroup>
+        <thead>
+        <tr class="header">
+        <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="odd">
+        <td><p>If activity strings have not been localized for a particular culture, you should define a default locale ID value to display. For example, in North America, locale ID 1033 is frequently used. If the signed-in user has selected 1036 (French, France) as the UI culture, but no localized strings have been configured on the server for 1036, you would display strings for 1033.</p></td>
+        </tr>
+        </tbody>
+        </table>
         
         The following example compares the LCID of the current culture to the LCID of a custom presence activity. If they match, the custom presence activity is displayed. If no match is found, the **LocaleString** collection is search for a default LCID. The **CultureInfo.DefaultThreadCurrentUICulture** property is available in the .NET Framework 4.5.
         
@@ -164,15 +185,15 @@ A Lync Server 2013 computer can be configured to have custom presence states in 
     Dictionary<PublishableContactInformationType, object> stuffToPublish = new Dictionary<PublishableContactInformationType,object>();
     ```
 
-2.  Add an item to the dictionary where the key is [PublishableContactInformationType](publishablecontactinformationtype-enumeration-microsoft-lync-model.md)**.CustomActivityId** and the value is the ID of the custom presence state to be published.
+2.  Add an item to the dictionary where the key is [PublishableContactInformationType](https://msdn.microsoft.com/en-us/library/hh348070\(v=office.15\))**.CustomActivityId** and the value is the ID of the custom presence state to be published.
     
     ``` csharp
     stuffToPublish.Add(PublishableContactInformationType.CustomActivityId, _SelectedCustomAvailabilityId);
     ```
 
-3.  Publish the custom presence state by calling the [Self.BeginPublishContactInformation](self-beginpublishcontactinformation-method-microsoft-lync-model.md) method.
+3.  Publish the custom presence state by calling the [Self.BeginPublishContactInformation](https://msdn.microsoft.com/en-us/library/hh380629\(v=office.15\)) method.
     
-    The following example publishes the selected custom presence. If an invalid custom presence ID is used, the [Microsoft.Lync.Model.ItemNotFoundException](itemnotfoundexception-class-microsoft-lync-model.md) is raised.
+    The following example publishes the selected custom presence. If an invalid custom presence ID is used, the [Microsoft.Lync.Model.ItemNotFoundException](https://msdn.microsoft.com/en-us/library/hh379971\(v=office.15\)) is raised.
     
     ``` csharp
                 try

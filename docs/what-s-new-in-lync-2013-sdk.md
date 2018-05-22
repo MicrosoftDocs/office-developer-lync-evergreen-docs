@@ -1,4 +1,4 @@
-﻿---
+---
 title: What's new in Lync 2013 SDK
 TOCTitle: What's new
 ms:assetid: bf17c39c-8a47-49d1-9a53-0047f202d109
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # What's new in Lync 2013 SDK
 
-![What's new topic](images/JJ933179.mod_icon_whatsnew_long(Office.15).png "What's new topic")
+![What's new topic](images/JJ937254.mod_icon_whatsnew_long(Office.15).png "What's new topic")
 
 Microsoft Lync 2013 SDK maintains the features of Microsoft Lync 2010 SDK and introduces a new set of features that give developers the ability to add enhanced collaboration features such as desktop sharing and Persistent Chat to their applications.
 
+**Last modified:** July 30, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,7 +37,6 @@ Watch the video: What’s New With the Lync 2013 SDK
 </tr>
 </tbody>
 </table>
-
 
 ## SDK release history
 
@@ -63,12 +63,11 @@ The following table gives a summary of the Lync 2013 API features that have been
 </tr>
 <tr class="even">
 <td><p><a href="application-sharing-for-ui-suppression-mode.md">Application sharing for UI suppression mode</a></p></td>
-<td><p>Enables application sharing conversations on a computer that is configured for Lync 2013 UI suppression mode. The feature lets you add an application sharing view to your custom client as an <a href="applicationsharingview-class-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView</a> control</p></td>
+<td><p>Enables application sharing conversations on a computer that is configured for Lync 2013 UI suppression mode. The feature lets you add an application sharing view to your custom client as an <a href="https://msdn.microsoft.com/en-us/library/dn378597(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView</a> control</p></td>
 <td><p>May 2013. 15.0.4507.3000</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## In this section
 
@@ -116,7 +115,6 @@ The following topics summarize key additions, improvements, and how to migrate e
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

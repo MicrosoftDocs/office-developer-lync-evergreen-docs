@@ -1,4 +1,4 @@
-﻿---
+---
 title: Register contextual conversation packages
 TOCTitle: Register contextual conversation packages
 ms:assetid: 1d9bdbb4-7602-4057-88cb-37b933acc3fc
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Register contextual conversation packages
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about the concept of Conversation Window Extension registration using Microsoft Lync 2013 SDK.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,7 +33,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Contextual conversation packages
 
@@ -64,11 +64,21 @@ There are two ways to register a contextual application:
 
 These two choices are compatible. In fact, the recommended practice is to perform Install Registration to install the contextual application, and then Runtime Registration every time that the application starts.
 
-
-> [!IMPORTANT]
-> <P>Runtime Registration provides extra security around the GUID used in registration. The GUID can only be used in the same thread where Runtime Registration is used. If another thread tries to use that GUID to identify the contextual application, access the contextual context, or open Microsoft Lync 2013&nbsp;CWE, an access denied exception is thrown. To use the GUID in more than one thread, use Install Registration. In this case, consider that your contextual data can be accessed by other applications running on the same computer as long as they have access to the Lync 2013 API.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Runtime Registration provides extra security around the GUID used in registration. The GUID can only be used in the same thread where Runtime Registration is used. If another thread tries to use that GUID to identify the contextual application, access the contextual context, or open Microsoft Lync 2013 CWE, an access denied exception is thrown. To use the GUID in more than one thread, use Install Registration. In this case, consider that your contextual data can be accessed by other applications running on the same computer as long as they have access to the Lync 2013 API.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Install Registration
 
@@ -80,7 +90,7 @@ Anytime a sales manager gets a call from an outside customer, she wants to see, 
 
 ### Runtime Registration
 
-In contrast with Install Registration, Runtime Registration uses an application to modify package registration data at runtime. Use Runtime Registration for flexible package setup and the security advantages. In this case, package registration data is added to the Lync 2013 registration pool and resets after the Lync 2013 user signs out. Use the [ApplicationRegistration](applicationregistration-class-microsoft-lync-model-extensibility_2.md) class to perform Runtime Registration. For more information, see [How to: Install a CWE application in Lync SDK](how-to-install-a-cwe-application-in-lync-sdk.md).
+In contrast with Install Registration, Runtime Registration uses an application to modify package registration data at runtime. Use Runtime Registration for flexible package setup and the security advantages. In this case, package registration data is added to the Lync 2013 registration pool and resets after the Lync 2013 user signs out. Use the [ApplicationRegistration](https://msdn.microsoft.com/en-us/library/jj293820\(v=office.15\)) class to perform Runtime Registration. For more information, see [How to: Install a CWE application in Lync SDK](how-to-install-a-cwe-application-in-lync-sdk.md).
 
 Runtime Registration is a good choice for scenarios such as the following:
 
@@ -94,11 +104,21 @@ Runtime Registration does not configure Microsoft Windows registry entries. Inst
 
 Contextual conversation packages can be installed to a UNC, URL, or file path. To simplify management of the package, install it to a URL or UNC.
 
-
-> [!IMPORTANT]
-> <P>By default, contextual links in the form of UNC paths are not trusted. The untrusted UNC path must be added to the list of Trusted Sites maintained by Microsoft Internet Explorer to start the contextual application in CWE. Internal URLs resolving to Localhost, computer name, local loopback address, or actual IP address must be added to Trusted Sites.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>By default, contextual links in the form of UNC paths are not trusted. The untrusted UNC path must be added to the list of Trusted Sites maintained by Microsoft Internet Explorer to start the contextual application in CWE. Internal URLs resolving to Localhost, computer name, local loopback address, or actual IP address must be added to Trusted Sites.</p></td>
+</tr>
+</tbody>
+</table>
 
 The following table summarizes the security status of contextual conversation packages installed on specified UNC paths.
 
@@ -148,7 +168,6 @@ The following table summarizes the security status of contextual conversation pa
 </tr>
 </tbody>
 </table>
-
 
 ## Register the contextual conversation package
 
@@ -231,7 +250,6 @@ The following table lists the case-sensitive values to add to this key.
 </tbody>
 </table>
 
-
 The following table describes the three optional parameters for the Parameters value, as mentioned in the previous table.
 
 <table>
@@ -260,7 +278,6 @@ The following table describes the three optional parameters for the Parameters v
 </tr>
 </tbody>
 </table>
-
 
 **Sample registry entries**
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync contact samples
 TOCTitle: Lync contact samples
 ms:assetid: 3c31b1ac-b7b3-41b1-959d-481e26c8040f
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the contact-related quick-start samples that are installed with Microsoft Lync 2013 SDK.
 
+**Last modified:** January 15, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,10 +33,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Contact samples
 
-The quick-start samples in the following table show how to interact with Lync contacts by using Lync 2013 API objects and controls from the [Microsoft.Lync.Controls](microsoft-lync-controls-namespace_1.md) namespace.
+The quick-start samples in the following table show how to interact with Lync contacts by using Lync 2013 API objects and controls from the [Microsoft.Lync.Controls](https://msdn.microsoft.com/en-us/library/hh346685\(v=office.15\)) namespace.
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ The quick-start samples in the following table show how to interact with Lync co
 <tbody>
 <tr class="odd">
 <td><p>ContactCard control list</p></td>
-<td><p>Loads three <a href="contactcard-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.ContactCard</a> controls into a list on a page in a Silverlight or WPF application.</p>
+<td><p>Loads three <a href="https://msdn.microsoft.com/en-us/library/hh379168(v=office.15)">Microsoft.Lync.Controls.ContactCard</a> controls into a list on a page in a Silverlight or WPF application.</p>
 <ul>
 <li><p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\ContactCardDesktop</p></li>
 <li><p>Silverlight sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\ContactCardSilverlight</p></li>
@@ -64,7 +64,7 @@ The quick-start samples in the following table show how to interact with Lync co
 </tr>
 <tr class="even">
 <td><p>ContactList control</p></td>
-<td><p>Populates a page with the <a href="contactlist-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.ContactList</a> control and then lists the SIP URI values for the contacts in the list.</p>
+<td><p>Populates a page with the <a href="https://msdn.microsoft.com/en-us/library/hh363781(v=office.15)">Microsoft.Lync.Controls.ContactList</a> control and then lists the SIP URI values for the contacts in the list.</p>
 <ul>
 <li><p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\ContactListDesktop</p></li>
 <li><p>Silverlight sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\ContactListSilverlight</p></li>
@@ -77,7 +77,7 @@ The quick-start samples in the following table show how to interact with Lync co
 </tr>
 <tr class="odd">
 <td><p>CustomContactList control</p></td>
-<td><p>Populates a page with a <a href="customcontactlist-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.CustomContactList</a> control and several child <a href="customcontactlistitem-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.CustomContactListItem</a> objects. The child objects are created and added at runtime by using C# code in a code-behind source file.</p>
+<td><p>Populates a page with a <a href="https://msdn.microsoft.com/en-us/library/hh346321(v=office.15)">Microsoft.Lync.Controls.CustomContactList</a> control and several child <a href="https://msdn.microsoft.com/en-us/library/hh346017(v=office.15)">Microsoft.Lync.Controls.CustomContactListItem</a> objects. The child objects are created and added at runtime by using C# code in a code-behind source file.</p>
 <ul>
 <li><p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\CustomContactListAndcustomContactListItemDesktop</p></li>
 <li><p>Silverlight sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\CustomContactListAndcustomContactListItemSilverlight</p></li>
@@ -90,7 +90,7 @@ The quick-start samples in the following table show how to interact with Lync co
 </tr>
 <tr class="even">
 <td><p>ContactSearch control</p></td>
-<td><p>Populates a page with a <a href="contactsearch-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.ContactSearch</a> control and conducts a search by user name or skill.</p>
+<td><p>Populates a page with a <a href="https://msdn.microsoft.com/en-us/library/hh379436(v=office.15)">Microsoft.Lync.Controls.ContactSearch</a> control and conducts a search by user name or skill.</p>
 <ul>
 <li><p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\ContactSearchDesktop</p></li>
 <li><p>Silverlight sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\ContactSearchSilverlight</p></li>
@@ -103,7 +103,7 @@ The quick-start samples in the following table show how to interact with Lync co
 </tr>
 <tr class="odd">
 <td><p>Contact search with input box and search results</p></td>
-<td><p>Populates a page with a <a href="contactsearchinputbox-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.ContactSearchInputBox</a> control and a <a href="contactsearchresultlist-class-microsoft-lync-controls_1.md">Microsoft.Lync.Controls.ContactSearchResultList</a> control. The <strong>ContactSearchInputBox</strong> is bound to the <strong>ContactSearchResultList</strong> so that the result list displays search results based on what the user types in the search input box.</p>
+<td><p>Populates a page with a <a href="https://msdn.microsoft.com/en-us/library/hh379719(v=office.15)">Microsoft.Lync.Controls.ContactSearchInputBox</a> control and a <a href="https://msdn.microsoft.com/en-us/library/hh379201(v=office.15)">Microsoft.Lync.Controls.ContactSearchResultList</a> control. The <strong>ContactSearchInputBox</strong> is bound to the <strong>ContactSearchResultList</strong> so that the result list displays search results based on what the user types in the search input box.</p>
 <ul>
 <li><p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\ContactSearchInputBoxAndContactSearchResultListDesktop</p></li>
 <li><p>Silverlight sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\ContactSearchInputBoxAndContactSearchResultListSilverlight</p></li>
@@ -127,14 +127,14 @@ The quick-start samples in the following table show how to interact with Lync co
 <td><p>Display Frequent and Favorite contacts</p></td>
 <td><p>Populates a page with a list of favorite contacts and a list of frequent contacts. The sample uses the following classes and methods:</p>
 <ul>
-<li><p><a href="lyncclient-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.LyncClient</a> class</p></li>
-<li><p><a href="contactmanager-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.ContactManager</a> class</p></li>
-<li><p><a href="group-class-microsoft-lync-model-group_2.md">Microsoft.Lync.Model.Group.Group</a> class</p></li>
-<li><p><a href="contact-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.Contact</a> class</p></li>
-<li><p><a href="contactmanager-getcontactbyuri-method-microsoft-lync-model_2.md">ContactManager.GetContactByUri</a> method</p></li>
-<li><p><a href="group-beginaddcontact-method-microsoft-lync-model-group_2.md">Group.BeginAddContact</a> method</p></li>
-<li><p><a href="group-beginremovecontact-method-microsoft-lync-model-group_2.md">Group.BeginRemoveContact</a> method</p></li>
-<li><p><a href="contact-getcontactinformation-method-microsoft-lync-model_2.md">Contact.GetContactInformation</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj274980(v=office.15)">Microsoft.Lync.Model.LyncClient</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266459(v=office.15)">Microsoft.Lync.Model.ContactManager</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266012(v=office.15)">Microsoft.Lync.Model.Group.Group</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Microsoft.Lync.Model.Contact</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj274481(v=office.15)">ContactManager.GetContactByUri</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj275692(v=office.15)">Group.BeginAddContact</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj268196(v=office.15)">Group.BeginRemoveContact</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj294012(v=office.15)">Contact.GetContactInformation</a> method</p></li>
 </ul>
 <p>WPF sample location: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\DisplayFrequentAndFavoriteContacts</p>
 <p>Download the sample from Code Gallery at the following location:</p>
@@ -144,7 +144,7 @@ The quick-start samples in the following table show how to interact with Lync co
 </tr>
 <tr class="even">
 <td><p>Add and remove a custom group</p></td>
-<td><p>Lists the groups in your contact list and lets you add or remove a group. The sample uses the <a href="contactmanager-groups-property-microsoft-lync-model_2.md">ContactManager.Groups</a> property, the <a href="contactmanager-beginaddgroup-method-microsoft-lync-model_2.md">ContactManager.BeginAddGroup</a> method, and the <a href="contactmanager-beginremovegroup-method-microsoft-lync-model_2.md">ContactManager.BeginRemoveGroup</a> method.</p>
+<td><p>Lists the groups in your contact list and lets you add or remove a group. The sample uses the <a href="https://msdn.microsoft.com/en-us/library/jj277988(v=office.15)">ContactManager.Groups</a> property, the <a href="https://msdn.microsoft.com/en-us/library/jj266433(v=office.15)">ContactManager.BeginAddGroup</a> method, and the <a href="https://msdn.microsoft.com/en-us/library/jj278089(v=office.15)">ContactManager.BeginRemoveGroup</a> method.</p>
 <p>Path: <em>%PROGRAMFILES(X86)%\</em>Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\AddCustomGroup</p>
 <p>Download the sample from Code Gallery at the following location:</p>
 <ul>
@@ -155,12 +155,12 @@ The quick-start samples in the following table show how to interact with Lync co
 <td><p>MoveContactBetweenGroups</p></td>
 <td><p>Lists all custom groups in a user’s contact list and lets a user move a contact from one custom group to another custom group. The sample uses the following classes and methods:</p>
 <ul>
-<li><p><a href="lyncclient-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.LyncClient</a> class</p></li>
-<li><p><a href="contactmanager-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.ContactManager</a> class</p></li>
-<li><p><a href="contact-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.Contact</a> class</p></li>
-<li><p><a href="group-class-microsoft-lync-model-group_2.md">Microsoft.Lync.Model.Group.Group</a> class</p></li>
-<li><p><a href="group-beginaddcontact-method-microsoft-lync-model-group_2.md">Group.BeginAddContact</a> method</p></li>
-<li><p><a href="group-beginremovecontact-method-microsoft-lync-model-group_2.md">Group.BeginRemoveContact</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj274980(v=office.15)">Microsoft.Lync.Model.LyncClient</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266459(v=office.15)">Microsoft.Lync.Model.ContactManager</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Microsoft.Lync.Model.Contact</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266012(v=office.15)">Microsoft.Lync.Model.Group.Group</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj275692(v=office.15)">Group.BeginAddContact</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj268196(v=office.15)">Group.BeginRemoveContact</a> method</p></li>
 </ul>
 <p>Path: <em>%PROGRAMFILES(X86)%\</em>Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\MoveContactBetweenGroups</p>
 <p>Download the sample from Code Gallery at the following location:</p>
@@ -172,13 +172,13 @@ The quick-start samples in the following table show how to interact with Lync co
 <td><p>Add and remove a contact from a group</p></td>
 <td><p>Adds and removes contacts from the Other Contacts group. The sample uses the following classes and methods:</p>
 <ul>
-<li><p><a href="contactmanager-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.ContactManager</a> class</p></li>
-<li><p><a href="group-class-microsoft-lync-model-group_2.md">Microsoft.Lync.Model.Group.Group</a> class</p></li>
-<li><p><a href="contact-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.Contact</a> class</p></li>
-<li><p><a href="contactmanager-getcontactbyuri-method-microsoft-lync-model_2.md">ContactManager.GetContactByUri</a> method</p></li>
-<li><p><a href="group-beginaddcontact-method-microsoft-lync-model-group_2.md">Group.BeginAddContact</a> method</p></li>
-<li><p><a href="group-beginremovecontact-method-microsoft-lync-model-group_2.md">Group.BeginRemoveContact</a> method</p></li>
-<li><p><a href="contact-getcontactinformation-method-microsoft-lync-model_2.md">Contact.GetContactInformation</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266459(v=office.15)">Microsoft.Lync.Model.ContactManager</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266012(v=office.15)">Microsoft.Lync.Model.Group.Group</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Microsoft.Lync.Model.Contact</a> class</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj274481(v=office.15)">ContactManager.GetContactByUri</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj275692(v=office.15)">Group.BeginAddContact</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj268196(v=office.15)">Group.BeginRemoveContact</a> method</p></li>
+<li><p><a href="https://msdn.microsoft.com/en-us/library/jj294012(v=office.15)">Contact.GetContactInformation</a> method</p></li>
 </ul>
 <p>Path: <em>%PROGRAMFILES(X86)%</em>\Microsoft Office 2013\LyncSDK\Samples\microsamples.zip\AddRemoveContacts</p>
 <p>Download the sample from Code Gallery at the following location:</p>
@@ -188,7 +188,6 @@ The quick-start samples in the following table show how to interact with Lync co
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

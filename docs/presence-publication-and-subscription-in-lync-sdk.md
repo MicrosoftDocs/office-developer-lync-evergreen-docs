@@ -1,4 +1,4 @@
-﻿---
+---
 title: Presence publication and subscription in Lync SDK
 TOCTitle: Presence publication and subscription
 ms:assetid: e9dc2b21-fdef-4fe3-bc02-8a8bd2204635
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concept of contact presence publication and subscription in Microsoft Lync 2013 SDK.
 
+**Last modified:** December 10, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,7 +36,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## What is presence?
 
 In its simple form, presence expresses the availability and willingness of a person to join a conversation by using a SIP client such as Microsoft Lync 2013. Any user of such a client must make his or her presence available to any other user who might want to communicate. This is known as presence publication. The users who are interested in these presence publications are known as presence subscribers.
@@ -44,11 +44,11 @@ Availability or willingness to communicate changes over time; for example, when 
 
 ## Presence subscription
 
-Presence subscription is an operation that lets the Lync 2013 client know which people that you are interested in seeing refreshed presence information from and what aspect of their enhanced presence you are interested in. When your application creates a presence subscription for a set of users and a set of enhanced presence information, the Lync 2013 client platform raises events to tell you that one of the users in the set has published updated presence information in the set of information that you are interested in. The presence subscription operation is encapsulated by the [Microsoft.Lync.Model.ContactSubscription](contactsubscription-class-microsoft-lync-model_2.md) class. Create a new **ContactSubscription** by calling the [ContactManager.CreateSubscription](contactmanager-createsubscription-method-microsoft-lync-model_2.md) method.
+Presence subscription is an operation that lets the Lync 2013 client know which people that you are interested in seeing refreshed presence information from and what aspect of their enhanced presence you are interested in. When your application creates a presence subscription for a set of users and a set of enhanced presence information, the Lync 2013 client platform raises events to tell you that one of the users in the set has published updated presence information in the set of information that you are interested in. The presence subscription operation is encapsulated by the [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)) class. Create a new **ContactSubscription** by calling the [ContactManager.CreateSubscription](https://msdn.microsoft.com/en-us/library/jj267359\(v=office.15\)) method.
 
 The user who is signed in to the Lync 2013 client defines the set of subscribed users by adding people to the client contact list. Your custom application should not use the client-created subscription for presence events.
 
-Earlier versions of Lync created a subscription for all contacts in the user’s contact list. This client subscription was maintained for all contacts even when a subscribed contact was scrolled out of view in the contact list UI. For this reason, it was not necessary to subscribe to any contact that you could obtain by iterating on the [ContactManager.Groups](contactmanager-groups-property-microsoft-lync-model_2.md) property group collection. To improve performance, Lync 2013 maintains subscriptions only for the contacts that are scrolled into view on the UI and removes out-of-view contacts from the subscription.
+Earlier versions of Lync created a subscription for all contacts in the user’s contact list. This client subscription was maintained for all contacts even when a subscribed contact was scrolled out of view in the contact list UI. For this reason, it was not necessary to subscribe to any contact that you could obtain by iterating on the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property group collection. To improve performance, Lync 2013 maintains subscriptions only for the contacts that are scrolled into view on the UI and removes out-of-view contacts from the subscription.
 
 If your application relies on a client-based subscription, you should assume that the contact whose presence updates that you want is not in the current client subscription. The Lync 2013 API does not let you examine the subscription created by the Lync 2013 client. For this reason, you cannot determine programmatically whether a contact is in the client subscription. Instead, your application should create a new subscription and add all contacts that are to be displayed on your application UI to the subscription. Doing so ensures that all interested contacts are subscribed to.
 

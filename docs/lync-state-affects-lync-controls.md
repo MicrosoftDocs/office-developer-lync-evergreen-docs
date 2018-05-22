@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync state affects Lync Controls
 TOCTitle: Lync state affects Lync Controls
 ms:assetid: e927e77f-6809-41ca-affe-7baf139e8bae
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn how the state of Microsoft Lync 2013 affect Microsoft Lync 2013 Controls.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -47,7 +48,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Lync state overview
 
@@ -126,7 +126,6 @@ The following table describes how the PresenceIndicator control responds to chan
 </tbody>
 </table>
 
-
 ## MyStatusArea control
 
 The following table describes how the MyStatusArea control responds to changes in the Lync 2013 state.
@@ -185,7 +184,6 @@ The following table describes how the MyStatusArea control responds to changes i
 </tr>
 </tbody>
 </table>
-
 
 ## MyPresenceChooser control
 
@@ -246,7 +244,6 @@ The following table describes how the MyPresenceChooser control responds to chan
 </tbody>
 </table>
 
-
 ## MyNoteBox control
 
 The following table describes how the MyNoteBox control responds to changes in the Lync 2013 state.
@@ -305,7 +302,6 @@ The following table describes how the MyNoteBox control responds to changes in t
 </tr>
 </tbody>
 </table>
-
 
 ## StartInstantMessagingButton control
 
@@ -366,7 +362,6 @@ The following table describes how the StartInstantMessagingButton control respon
 </tbody>
 </table>
 
-
 ## StartVideoCallButton control
 
 The following table describes how the StartVideoCallButton control responds to changes in the Lync 2013 state.
@@ -425,7 +420,6 @@ The following table describes how the StartVideoCallButton control responds to c
 </tr>
 </tbody>
 </table>
-
 
 ## ScheduleMeetingButton control
 
@@ -486,7 +480,6 @@ The following table describes how the ScheduleMeetingButton control responds to 
 </tbody>
 </table>
 
-
 ## StartAudioCallButton control
 
 The following table describes how the StartAudioCallButton control responds to changes in the Lync 2013 state.
@@ -545,7 +538,6 @@ The following table describes how the StartAudioCallButton control responds to c
 </tr>
 </tbody>
 </table>
-
 
 ## SendEmailButton control
 
@@ -606,7 +598,6 @@ The following table describes how the SendEmailButton control responds to change
 </tbody>
 </table>
 
-
 ## SendFileButton control
 
 The following table describes how the SendFileButton control responds to changes in the Lync 2013 state.
@@ -666,7 +657,6 @@ The following table describes how the SendFileButton control responds to changes
 </tbody>
 </table>
 
-
 ## ShareDesktopButton control
 
 The following table describes how the ShareDesktopButton control responds to changes in the Lync 2013 state.
@@ -722,7 +712,6 @@ The following table describes how the ShareDesktopButton control responds to cha
 </tbody>
 </table>
 
-
 ## ContactCard control
 
 The following table describes how the ContactCard control responds to changes in the Lync 2013 state.
@@ -777,7 +766,6 @@ The following table describes how the ContactCard control responds to changes in
 </tr>
 </tbody>
 </table>
-
 
 ## ContactList control
 
@@ -838,7 +826,6 @@ The following table describes how the ContactList control responds to changes in
 </tbody>
 </table>
 
-
 ## CustomContactList control
 
 The following table describes how the CustomContactList control responds to changes in the Lync 2013 state.
@@ -885,7 +872,6 @@ The following table describes how the CustomContactList control responds to chan
 </tr>
 </tbody>
 </table>
-
 
 ## CustomContactListItem control
 
@@ -937,7 +923,6 @@ The following table describes how the CustomContactListItem control responds to 
 </tr>
 </tbody>
 </table>
-
 
 ## ContactSearch control
 
@@ -1002,7 +987,6 @@ The following table describes how the ContactSearch control responds to changes 
 </tbody>
 </table>
 
-
 ## ContactSearchInputBox control
 
 The following table describes how the ContactSearchInputBox control responds to changes in the Lync 2013 state.
@@ -1061,7 +1045,6 @@ The following table describes how the ContactSearchInputBox control responds to 
 </tr>
 </tbody>
 </table>
-
 
 ## ContactSearchResultList control
 
@@ -1125,7 +1108,6 @@ The following table describes how the ContactSearchResultList control responds t
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

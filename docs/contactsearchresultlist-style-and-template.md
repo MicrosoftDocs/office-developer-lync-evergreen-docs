@@ -1,4 +1,4 @@
-﻿---
+---
 title: ContactSearchResultList style and template
 TOCTitle: ContactSearchResultList style and template
 ms:assetid: bbb5a6e8-a3b6-4f14-96a3-d336d876d40b
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # ContactSearchResultList style and template
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the style and template for the [ContactSearchResultList](contactsearchresultlist-class-microsoft-lync-controls_1.md) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the style and template for the [ContactSearchResultList](https://msdn.microsoft.com/en-us/library/hh379201\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
+**Last modified:** November 27, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 ContactSearchResultList parts  
@@ -58,7 +59,6 @@ The following table lists the named parts for the ContactSearchResultList contro
 </tbody>
 </table>
 
-
 ## ContactSearchResultList properties
 
 The following table lists the Style properties of the ContactSearchResultList control. You must set the TargetType property when you create a Style.
@@ -84,7 +84,6 @@ The following table lists the Style properties of the ContactSearchResultList co
 </tr>
 </tbody>
 </table>
-
 
 ## Default style and template
 

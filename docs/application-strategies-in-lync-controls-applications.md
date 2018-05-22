@@ -1,4 +1,4 @@
-﻿---
+---
 title: Application strategies in Lync Controls applications
 TOCTitle: Application strategies in Lync Controls applications
 ms:assetid: e5ca6227-cda8-486e-a770-8595a9cb9189
@@ -16,8 +16,9 @@ dev_langs:
 
 Learn about the application strategies used in developing Microsoft Lync 2013 Controls applications.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -33,7 +34,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Application strategy overview
 
@@ -67,7 +67,7 @@ To add Lync Controls to an existing WPF application, add project references for 
     xmlns:controls="clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls"
     ```
 
-4.  Author the appropriate XAML code to add the Lync Controls. For example, the following XAML adds a [MyStatusArea](mystatusarea-class-microsoft-lync-controls_1.md) control.
+4.  Author the appropriate XAML code to add the Lync Controls. For example, the following XAML adds a [MyStatusArea](https://msdn.microsoft.com/en-us/library/hh363503\(v=office.15\)) control.
     
     For more information, see [How to: Create a Silverlight page that displays a Lync presence control](how-to-create-a-silverlight-page-that-displays-a-lync-presence-control.md).
     
@@ -103,7 +103,7 @@ To add Lync Controls to an existing Silverlight application, add project referen
     xmlns:controls="clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls"
     ```
 
-4.  Author the appropriate XAML code to add the Lync Controls. For example, the following XAML adds a [MyStatusArea](mystatusarea-class-microsoft-lync-controls_1.md) control.
+4.  Author the appropriate XAML code to add the Lync Controls. For example, the following XAML adds a [MyStatusArea](https://msdn.microsoft.com/en-us/library/hh363503\(v=office.15\)) control.
     
     For more information, see [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md).
     

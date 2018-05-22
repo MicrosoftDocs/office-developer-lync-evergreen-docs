@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enhanced collaboration features in Lync SDK
 TOCTitle: Enhanced collaboration features
 ms:assetid: 639b64a2-edb4-47dd-b3d1-dc3cd2397e53
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Enhanced collaboration features in Lync SDK
 
-![What's new topic](images/JJ933179.mod_icon_whatsnew_long(Office.15).png "What's new topic")
+![What's new topic](images/JJ937254.mod_icon_whatsnew_long(Office.15).png "What's new topic")
 
 Microsoft Lync 2013 SDK includes new collaboration classes and shows how to use the new classes to add features to an application.
 
+**Last modified:** February 18, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -29,7 +30,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Enhanced collaboration features
 
@@ -68,7 +68,6 @@ The following table describes the new collaboration features in Microsoft Lync 2
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

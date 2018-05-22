@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Core concepts: Enhanced presence'
 TOCTitle: Enhanced presence
 ms:assetid: 82588737-0ca4-4b35-a7a1-d3f45ffb96a7
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts that you need to know before you use the contact enhanced presence object model to get and display contact presence in an application.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Enhanced presence object model
 

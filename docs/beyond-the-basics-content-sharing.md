@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Beyond the basics: Content sharing'
 TOCTitle: Content sharing
 ms:assetid: 18424c72-2863-48f3-81c9-6deaecc42c5b
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Beyond the basics: Content sharing
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about using Microsoft Lync 2013 SDK to handle meeting content sharing events and shared content item presentation in Lync 2013 meetings.
 
+**Last modified:** February 19, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,7 +37,6 @@ Watch the video: Share file attachments in online meetings
 </tr>
 </tbody>
 </table>
-
 
 ## Advanced content sharing programming
 

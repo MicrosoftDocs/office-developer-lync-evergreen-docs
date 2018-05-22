@@ -1,4 +1,4 @@
-﻿---
+---
 title: Meeting lobby management
 TOCTitle: Meeting lobby management
 ms:assetid: 6d642a48-e298-4405-9001-5be2a085ad77
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Meeting lobby management
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about meet-now meeting access types in Microsoft Lync 2013 SDK.
 
+**Last modified:** January 07, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,7 +33,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Meeting lobby
 
@@ -63,28 +63,27 @@ The following table describes the meeting admission types.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="conferenceaccesstype-enumeration-microsoft-lync-model-conversation_2.md">ConferenceAccessType</a><strong>.Anonymous</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj294117(v=office.15)">ConferenceAccessType</a><strong>.Anonymous</strong></p></td>
 <td><p>Anyone can enter.</p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="conferenceaccesstype-enumeration-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.ConferenceAccessType</a><strong>.Open</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj294117(v=office.15)">Microsoft.Lync.Model.Conversation.ConferenceAccessType</a><strong>.Open</strong></p></td>
 <td><p>Anyone in the user’s organization can enter.</p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="conferenceaccesstype-enumeration-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.ConferenceAccessType</a><strong>.Closed</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj294117(v=office.15)">Microsoft.Lync.Model.Conversation.ConferenceAccessType</a><strong>.Closed</strong></p></td>
 <td><p>Anyone in the user’s organization can enter.</p></td>
 <td><p>Yes</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="conferenceaccesstype-enumeration-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.ConferenceAccessType</a><strong>.Locked</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj294117(v=office.15)">Microsoft.Lync.Model.Conversation.ConferenceAccessType</a><strong>.Locked</strong></p></td>
 <td><p>Only a meeting presenter can enter.</p></td>
 <td><p>Yes</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: What you can do with Lync contact lists
 TOCTitle: Lync contact lists
 ms:assetid: f6009471-2aff-4e92-a7f9-4ab5bc4e88d0
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core Lync contact list programming tasks you can do with the Microsoft Lync 2013 API, including searching for new contacts and distribution groups, adding and removing contacts from the user’s list, adding and removing custom groups, and displaying custom views of a user’s contact list.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -28,7 +29,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Core contact list tasks
 

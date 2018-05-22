@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Read messages sent to a chat room'
 TOCTitle: 'How to: Read messages sent to a chat room'
 ms:assetid: bd1b54d9-aef0-4e03-a0fd-2bdf86af242d
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how Microsoft Lync 2013 SDK lets you code an application window to display chat room messages as they are posted to a Microsoft Lync 2013 chat room.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -34,13 +35,12 @@ Handle the MessagesReceived event<br />
 Code examples: GetMessages<br />
 Next steps<br />
 Additional resources</p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-join-a-affa75e9">Join a Persistent Chat room and get messages posted to the room</a><br />
 </p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Message overview
 
@@ -87,12 +87,11 @@ Understanding the following concepts is essential to adding Persistent Chat to a
 </tbody>
 </table>
 
-
 ## Initial application state
 
-Before you start the following procedure, your application must declare and initialize a [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance and the client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
+Before you start the following procedure, your application must declare and initialize a [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and the client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-You must also have an instance of [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) where the user has permission to read messages. For information about getting a room, see [How to: Find a chat room](how-to-find-a-chat-room.md). Your application must declare a list, which displays messages posted to the room.
+You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) where the user has permission to read messages. For information about getting a room, see [How to: Find a chat room](how-to-find-a-chat-room.md). Your application must declare a list, which displays messages posted to the room.
 
 ### Code examples
 
@@ -128,7 +127,7 @@ The following example declares the class fields that are referenced later in thi
 
 ## Register for room events
 
-When you have obtained a [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) instance selected by a user, register for a set of room events so that you can receive notification of messages posted to the room by other users or a message that is posted to the room by the local user.
+When you have obtained a [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) instance selected by a user, register for a set of room events so that you can receive notification of messages posted to the room by other users or a message that is posted to the room by the local user.
 
 ### To register for room events
 
@@ -182,23 +181,23 @@ The following example registers for room events and reads room properties.
 
 ## Handle the MessagesReceived event
 
-The [Room.MessagesReceived](room-messagesreceived-event-microsoft-lync-model-room_2.md) event is raised when any room participant succeeds in posting to a room. The event data, [Microsoft.Lync.Model.Room.RoomMessagesEventArgs](roommessageseventargs-class-microsoft-lync-model-room_2.md), contains the message that is posted. Normally the event data message collection contains one message but this might not always be the case. For this reason, you should iterate on the full collection and process each message.
+The [Room.MessagesReceived](https://msdn.microsoft.com/en-us/library/jj277819\(v=office.15\)) event is raised when any room participant succeeds in posting to a room. The event data, [Microsoft.Lync.Model.Room.RoomMessagesEventArgs](https://msdn.microsoft.com/en-us/library/jj294006\(v=office.15\)), contains the message that is posted. Normally the event data message collection contains one message but this might not always be the case. For this reason, you should iterate on the full collection and process each message.
 
 ### To handle the MessagesReceived event
 
-1.  Read the [RoomMessagesEventArgs.Messages](roommessageseventargs-messages-property-microsoft-lync-model-room_2.md) property to get the collection of messages sent to a room.
+1.  Read the [RoomMessagesEventArgs.Messages](https://msdn.microsoft.com/en-us/library/jj267984\(v=office.15\)) property to get the collection of messages sent to a room.
 
-2.  For each [Microsoft.Lync.Model.Room.RoomMessage](roommessage-class-microsoft-lync-model-room_2.md) object in the messages collection, read the [RoomMessage.SenderUri](roommessage-senderuri-property-microsoft-lync-model-room_2.md) property to get the sender’s URI.
+2.  For each [Microsoft.Lync.Model.Room.RoomMessage](https://msdn.microsoft.com/en-us/library/jj276207\(v=office.15\)) object in the messages collection, read the [RoomMessage.SenderUri](https://msdn.microsoft.com/en-us/library/jj275022\(v=office.15\)) property to get the sender’s URI.
     
-    1.  Get a [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) instance that represents the user that is sending the message by calling the [ContactManager.GetContactByUri](contactmanager-getcontactbyuri-method-microsoft-lync-model_2.md) method and passing the sender’s URI in the first argument.
+    1.  Get a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instance that represents the user that is sending the message by calling the [ContactManager.GetContactByUri](https://msdn.microsoft.com/en-us/library/jj274481\(v=office.15\)) method and passing the sender’s URI in the first argument.
     
-    2.  Get the display name of the user that is sending the message by calling the [Contact.GetContactInformation](contact-getcontactinformation-method-microsoft-lync-model_2.md) method, specifying the [ContactInformationType](contactinformationtype-enumeration-microsoft-lync-model_2.md)**.DisplayName** property.
+    2.  Get the display name of the user that is sending the message by calling the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method, specifying the [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\))**.DisplayName** property.
     
-    3.  Read the [RoomMessage.MessageDictionary](roommessage-messagedictionary-property-microsoft-lync-model-room_2.md) property to get the dictionary that contains the message in each format.
+    3.  Read the [RoomMessage.MessageDictionary](https://msdn.microsoft.com/en-us/library/jj275293\(v=office.15\)) property to get the dictionary that contains the message in each format.
     
-    4.  Get the plain text of the message by calling the [RoomMessageDictionary.TryGetValue](roommessagedictionary-trygetvalue-method-microsoft-lync-model-room_2.md) method. The message text is returned in an out parameter string. Pass the [RoomMessageFormat](roommessageformat-enumeration-microsoft-lync-model-room_2.md)**.PlainTex**t enumerator into the method.
+    4.  Get the plain text of the message by calling the [RoomMessageDictionary.TryGetValue](https://msdn.microsoft.com/en-us/library/jj277163\(v=office.15\)) method. The message text is returned in an out parameter string. Pass the [RoomMessageFormat](https://msdn.microsoft.com/en-us/library/jj277588\(v=office.15\))**.PlainTex**t enumerator into the method.
     
-    5.  Get the message sent time and date by reading the [RoomMessage.SentTime](roommessage-senttime-property-microsoft-lync-model-room_2.md) property. A **DateTime** object is returned.
+    5.  Get the message sent time and date by reading the [RoomMessage.SentTime](https://msdn.microsoft.com/en-us/library/jj277976\(v=office.15\)) property. A **DateTime** object is returned.
 
 ### Code examples
 

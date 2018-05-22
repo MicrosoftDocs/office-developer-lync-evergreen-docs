@@ -1,4 +1,4 @@
-﻿---
+---
 title: What you can do with Lync Controls
 TOCTitle: Lync Controls
 ms:assetid: e2300042-cb31-42ce-8a46-9cde858b1f62
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core tasks you can do with the Lync Controls in Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -43,13 +44,12 @@ Watch the video: Add Lync Controls to a Web Application
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><br />
 <a href="http://code.msdn.microsoft.com/lync-2013-add-contactcard-e80d73f2">Add ContactCard controls to a WPF app to show contact info</a></p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## What can you do with Lync Controls?
 

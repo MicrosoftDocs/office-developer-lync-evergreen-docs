@@ -1,4 +1,4 @@
-﻿---
+---
 title: Retemplating the ContactSearch control
 TOCTitle: Retemplating the ContactSearch control
 ms:assetid: 6f76e878-38bc-4f1b-9d1b-da2566d11018
@@ -12,12 +12,13 @@ dev_langs:
 
 # Retemplating the ContactSearch control
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about visual template editing for individual parts of the ContactSearch control by using a step-by-step procedure to generate a visual template for a control part and adding elements to the template.
 
+**Last modified:** February 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,14 +36,13 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## ContactSearch control overview
 
-The template for the [ContactSearch](contactsearch-class-microsoft-lync-controls_1.md) control includes two parts:
+The template for the [ContactSearch](https://msdn.microsoft.com/en-us/library/hh379436\(v=office.15\)) control includes two parts:
 
-  - [ContactSearchInputBox](contactsearchinputbox-class-microsoft-lync-controls_1.md) control
+  - [ContactSearchInputBox](https://msdn.microsoft.com/en-us/library/hh379719\(v=office.15\)) control
 
-  - [ContactSearchResultList](contactsearchresultlist-class-microsoft-lync-controls_1.md) control
+  - [ContactSearchResultList](https://msdn.microsoft.com/en-us/library/hh379201\(v=office.15\)) control
 
 To change the appearance of either control, embed them in your project individually and then retemplate the control.
 
@@ -67,11 +67,21 @@ ContactSearchResultList uses a variety of [DataTemplate](http://msdn2.microsoft.
     <internal:ContactSearchResultListItem/> <!-- For temporary use -->
     ```
     
-
-    > [!IMPORTANT]
-    > <P>Before moving to step 3, ensure that you reference the internal namespace defined earlier.</P>
-
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>Before moving to step 3, ensure that you reference the internal namespace defined earlier.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
 3.  After you save a copy of the template, delete ContactSearchResultListItem and the internal namespace definition from your form.
 
@@ -100,27 +110,26 @@ The following table identifies the templates that can be used to customize the a
 <tbody>
 <tr class="odd">
 <td><p>Person</p></td>
-<td><p><a href="uclistbox-personitemtemplate-property-microsoft-lync-controls_1.md">PersonItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363472(v=office.15)">PersonItemTemplate</a></p></td>
 <td><p>PersonSearchResultItemDataTemplate</p></td>
 </tr>
 <tr class="even">
 <td><p>Telephone</p></td>
-<td><p><a href="uclistbox-telephoneitemtemplate-property-microsoft-lync-controls_1.md">TelephoneItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363420(v=office.15)">TelephoneItemTemplate</a></p></td>
 <td><p>TelephoneSearchResultItemDataTemplate</p></td>
 </tr>
 <tr class="odd">
 <td><p>Bot</p></td>
-<td><p><a href="uclistbox-botitemtemplate-property-microsoft-lync-controls_1.md">BotItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363732(v=office.15)">BotItemTemplate</a></p></td>
 <td><p>BotSearchResultItemDataTemplate</p></td>
 </tr>
 <tr class="even">
 <td><p>Group</p></td>
-<td><p><a href="uclistbox-groupitemtemplate-property-microsoft-lync-controls_1.md">GroupItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379035(v=office.15)">GroupItemTemplate</a></p></td>
 <td><p>DistributionListSearchResultItemDataTemplate</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

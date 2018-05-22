@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Sign a user in to Lync'
 TOCTitle: 'How to: Sign a user in to Lync'
 ms:assetid: 3eda49e1-6826-4bd9-a11d-dd1b62ae7957
@@ -14,8 +14,9 @@ dev_langs:
 
 Understand the essential elements of the Lync sign in process in a Microsoft Lync 2013 SDK-enabled application. Learn about the conditions that prevent your app from signing a user in to Lync and how your code can gracefully recover from these conditions.
 
+**Last modified:** April 26, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 Your Lync 2013 API-enabled application can get contact presence and conversations as long as the user is signed in to Lync. A user can sign in to Lync by using your application if you have coded a Lync 2013 API sign in feature. Alternatively, a user can sign in using the Lync client itself as long as the client UI is not suppressed. The Lync 2013 API-based sign in process described in this article applies to the Lync UI suppression scenario and the standard Lync scenario.
 
@@ -51,7 +52,6 @@ Watch the video: Sign In to Lync
 </tbody>
 </table>
 
-
 ## Prerequisites
 
 The prerequisites for signing in to Lync 2013 are as follows:
@@ -74,14 +74,24 @@ As you can imagine, when UI suppression is *disabled*, the Lync client UI shows 
 
 ## Lync client state transitions, should I care?
 
-If you want to transition the shared Lync endpoint from **Uninitialized** to **SignedIn**, you need to handle state change events on the Lync process. In your event handling logic, call the Lync 2013 API method that takes the endpoint to the next state, as shown in figure 1. If your application can’t sign a user in to Lync, isn’t reacting to conversation invitations, or misses a presence update from a contact, then the application probably missed a state change to **SignedOut**. Your application gets each new state by handling the [Client.StateChanged](client-statechanged-event-microsoft-lync-model_2.md) event. The following table lists all states that the Lync client transitions through from initial state to signed in.
+If you want to transition the shared Lync endpoint from **Uninitialized** to **SignedIn**, you need to handle state change events on the Lync process. In your event handling logic, call the Lync 2013 API method that takes the endpoint to the next state, as shown in figure 1. If your application can’t sign a user in to Lync, isn’t reacting to conversation invitations, or misses a presence update from a contact, then the application probably missed a state change to **SignedOut**. Your application gets each new state by handling the [Client.StateChanged](https://msdn.microsoft.com/en-us/library/jj276368\(v=office.15\)) event. The following table lists all states that the Lync client transitions through from initial state to signed in.
 
-
-> [!TIP]
-> <P>Don’t forget to register an event handler for the <A href="conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md">ConversationManager.ConversationAdded</A> event. Unless you do that, your application won’t get conversation invitations even though the user is signed in.</P>
-> <P>You also need to register a handler for a contact presence event so the contact list refreshes with current contact availability. This process isn’t complicated, but you should check out the How to topic on subscription: <A href="how-to-subscribe-to-enhanced-presence-content.md">How to: Subscribe to enhanced presence content</A>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Don’t forget to register an event handler for the <a href="https://msdn.microsoft.com/en-us/library/jj266470(v=office.15)">ConversationManager.ConversationAdded</a> event. Unless you do that, your application won’t get conversation invitations even though the user is signed in.</p>
+<p>You also need to register a handler for a contact presence event so the contact list refreshes with current contact availability. This process isn’t complicated, but you should check out the How to topic on subscription: <a href="how-to-subscribe-to-enhanced-presence-content.md">How to: Subscribe to enhanced presence content</a>.</p></td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <colgroup>
@@ -96,42 +106,41 @@ If you want to transition the shared Lync endpoint from **Uninitialized** to **S
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ClientState</a><strong>.Uninitialized</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.Uninitialized</strong></p></td>
 <td><p>This state only applies when Lync is in UI suppression mode.</p>
 <p>The Lync background process is started but the client is not yet initialized. Call the <strong>BeginInitialize</strong> method to move the client to the next state.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ClientState</a><strong>.Initializing</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.Initializing</strong></p></td>
 <td><p>The Lync background process is started and the client is initializing. Wait for the next client state.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ClientState</a><strong>.SignedOut</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.SignedOut</strong></p></td>
 <td><p>The client is initialized. Call the <strong>BeginSignIn</strong> method to move the client to the next state.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ClientState</a><strong>.SigningIn</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.SigningIn</strong></p></td>
 <td><p>The client is signing in. If a user doesn’t want to continue waiting, call the <strong>BeginSignOut</strong> method. If there are no network connectivity issues, the client quits trying to sign in.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ClientState</a><strong>.SignedIn</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.SignedIn</strong></p></td>
 <td><p>The sign in process is finished and the client has cached the user’s contact list and is ready for new conversations.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ClientState</a><strong>.SigningOut</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.SigningOut</strong></p></td>
 <td><p>The user is trying to sign out. An instance of your application may have called the <strong>BeginSignOut</strong> method or the user has signed out by using the Lync client.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ClientState</a><strong>.SignedOut</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.SignedOut</strong></p></td>
 <td><p>The sign out process is finished. If the client is in UI suppression mode, it is ready to be shut down</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">Microsoft.Lync.Model.ClientState</a><strong>.ShuttingDown</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.ShuttingDown</strong></p></td>
 <td><p>This state only applies when Lync is in UI suppression mode.</p>
 <p>One of the running processes has called the <strong>BeginShutDown</strong> method, and the client is still shutting down. When the shut-down process is finished, the hosting Lync background process stops.</p></td>
 </tr>
 </tbody>
 </table>
-
 
 Figure 1 shows the state transitions and sign in-related operations that move the client from state to state.
 
@@ -140,7 +149,7 @@ Figure 1. Important client sign in process state transitions.
   
 ![State change: Uninitialized-SignedOut-SignedIn](images/Dn391637.OCOM_ClientStateTransitions(Office.15).jpg "State change: Uninitialized-SignedOut-SignedIn")
 
-After you’ve called the [LyncClient.GetClient](lyncclient-getclient-method-microsoft-lync-model_1.md) method, check the current state of the client before calling any of the methods in figure 1. The client can be in any of the states shown in the figure.
+After you’ve called the [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/jj278213\(v=office.15\)) method, check the current state of the client before calling any of the methods in figure 1. The client can be in any of the states shown in the figure.
 
 ## Look for the causes of sign in failure
 
@@ -148,23 +157,23 @@ The Lync sign in process is pretty reliable and only fails when the user has pro
 
 ### Incorrect user credentials are submitted
 
-The Lync client shows two distinct reactions to incorrect user credentials at sign-in time. It is simple to predict which behavior Lync will show and let you code for either behavior. If the client is in [UI suppression](ui-suppression.md) mode and the user tries to sign in with incorrect credentials, sign-in is interrupted and the [LyncClient.CredentialRequested](lyncclient-credentialrequested-event-microsoft-lync-model_2.md) event is raised. Use this event to ask the user to re-type their credentials and then submit the updated credentials to complete the sign in. You can see an example of this credential submission process below.
+The Lync client shows two distinct reactions to incorrect user credentials at sign-in time. It is simple to predict which behavior Lync will show and let you code for either behavior. If the client is in [UI suppression](ui-suppression.md) mode and the user tries to sign in with incorrect credentials, sign-in is interrupted and the [LyncClient.CredentialRequested](https://msdn.microsoft.com/en-us/library/jj267649\(v=office.15\)) event is raised. Use this event to ask the user to re-type their credentials and then submit the updated credentials to complete the sign in. You can see an example of this credential submission process below.
 
 If the client UI is not suppressed, no event is raised for incorrect credentials. Instead, the client remains in the **SigningIn** state until the user completes signing in by using the Lync client. If you passed a callback method in the **BeginSignIn** call, it isn’t invoked until the user is signed in. Once the sign in is completed, your application is notified that the state is now **SignedIn**.
 
 ### Unexpected user is signed in
 
-In this failure case, after sign in, the contact list fills with people who do not belong to the current user and new conversations are started with the wrong local user name. How can this happen? If your application calls the [LyncClient.BeginSignIn](lyncclient-beginsignin-method-microsoft-lync-model_2.md) and passes empty strings in the first three arguments, then Lync uses previously cached credentials to sign the current user in. You can clear the credential cache by calling the [SignInConfiguration.ForgetMe](signinconfiguration-forgetme-method-microsoft-lync-model_2.md) method and pass the sign in URI of the user whose credentials were used by the client.
+In this failure case, after sign in, the contact list fills with people who do not belong to the current user and new conversations are started with the wrong local user name. How can this happen? If your application calls the [LyncClient.BeginSignIn](https://msdn.microsoft.com/en-us/library/jj274512\(v=office.15\)) and passes empty strings in the first three arguments, then Lync uses previously cached credentials to sign the current user in. You can clear the credential cache by calling the [SignInConfiguration.ForgetMe](https://msdn.microsoft.com/en-us/library/dn378085\(v=office.15\)) method and pass the sign in URI of the user whose credentials were used by the client.
 
 To be sure that the right user is always signed in, verify that the three string arguments are not empty before calling **BeginSignIn**. If you pass correctly formed strings in the first three arguments of the method, Lync uses them to sign the user in. If the arguments are not empty, but are incorrectly formed, an **ArgumentException** is thrown by **BeginSignIn**
 
 ### Sign in and auto-recovery delay
 
-These delays are the result of network bandwidth or server utilization issues. For this reason, you can’t correct the problem at the client. Instead, use the [LyncClient.SignInDelayed](lyncclient-signindelayed-event-microsoft-lync-model_2.md) event to tell the user about the status of the sign in operation and how long it is taking. The only way that you can cancel the sign in operation is to call the **BeginSignOut** method. Call this method if the user doesn’t want to continue waiting.
+These delays are the result of network bandwidth or server utilization issues. For this reason, you can’t correct the problem at the client. Instead, use the [LyncClient.SignInDelayed](https://msdn.microsoft.com/en-us/library/jj293478\(v=office.15\)) event to tell the user about the status of the sign in operation and how long it is taking. The only way that you can cancel the sign in operation is to call the **BeginSignOut** method. Call this method if the user doesn’t want to continue waiting.
 
 ### Lost network connectivity
 
-If the user’s computer loses network connectivity before or during sign in, the [LyncClient.SignInDelayed](lyncclient-signindelayed-event-microsoft-lync-model_2.md) event is raised every 30 seconds starting when network outage is detected. The status code that is returned in the event data (0x80EE00BD) tells you that the sign in operation has timed out. You can’t call the **BeginSignOut** method in this situation because that operation needs network access. Instead, shut down your application or ask the user if she wants to wait until connectivity is restored.
+If the user’s computer loses network connectivity before or during sign in, the [LyncClient.SignInDelayed](https://msdn.microsoft.com/en-us/library/jj293478\(v=office.15\)) event is raised every 30 seconds starting when network outage is detected. The status code that is returned in the event data (0x80EE00BD) tells you that the sign in operation has timed out. You can’t call the **BeginSignOut** method in this situation because that operation needs network access. Instead, shut down your application or ask the user if she wants to wait until connectivity is restored.
 
 ## Sign in logic to use in your application
 
@@ -177,19 +186,19 @@ Figure 2. A robust sign in process
 
 ## Sign a user in to Lync 2013
 
-The procedure in this section handles three of the most likely client states that your application sees after getting the [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) object from the static [LyncClient.GetClient](lyncclient-getclient-method-microsoft-lync-model_1.md) method. The sign in process is started in the main thread of your application, either when the window is loaded or when a user clicks a window command button. Most of the sign in logic is done in the event callback methods for the client events you already registered for.
+The procedure in this section handles three of the most likely client states that your application sees after getting the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) object from the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/jj278213\(v=office.15\)) method. The sign in process is started in the main thread of your application, either when the window is loaded or when a user clicks a window command button. Most of the sign in logic is done in the event callback methods for the client events you already registered for.
 
 ### To initialize and sign in the Lync client
 
-1.  Register callbacks for the [Client.StateChanged](client-statechanged-event-microsoft-lync-model_2.md), [LyncClient.SignInDelayed](lyncclient-signindelayed-event-microsoft-lync-model_2.md), and [LyncClient.CredentialRequested](lyncclient-credentialrequested-event-microsoft-lync-model_2.md) events.
+1.  Register callbacks for the [Client.StateChanged](https://msdn.microsoft.com/en-us/library/jj276368\(v=office.15\)), [LyncClient.SignInDelayed](https://msdn.microsoft.com/en-us/library/jj293478\(v=office.15\)), and [LyncClient.CredentialRequested](https://msdn.microsoft.com/en-us/library/jj267649\(v=office.15\)) events.
 
-2.  Read the [Client.State](client-state-property-microsoft-lync-model_2.md) property.
+2.  Read the [Client.State](https://msdn.microsoft.com/en-us/library/jj274837\(v=office.15\)) property.
 
-3.  If the client state is **Uninitialized**, Lync is in UI suppression mode. Your application starts Lync as a background process by calling the [LyncClient.BeginInitialize](lyncclient-begininitialize-method-microsoft-lync-model_2.md) method..
+3.  If the client state is **Uninitialized**, Lync is in UI suppression mode. Your application starts Lync as a background process by calling the [LyncClient.BeginInitialize](https://msdn.microsoft.com/en-us/library/jj267355\(v=office.15\)) method..
 
-4.  Call the [LyncClient.EndInitialize](lyncclient-endinitialize-method-microsoft-lync-model_2.md) method in the lambda expression or callback method that you passed in the **BeginInitialize** method.
+4.  Call the [LyncClient.EndInitialize](https://msdn.microsoft.com/en-us/library/jj278150\(v=office.15\)) method in the lambda expression or callback method that you passed in the **BeginInitialize** method.
 
-5.  If the client state is **SignedOut** then the Lync client is initialized and running as a background process or a first class client UI. Sign the user in by calling [LyncClient.BeginSignIn](lyncclient-beginsignin-method-microsoft-lync-model_2.md) method.
+5.  If the client state is **SignedOut** then the Lync client is initialized and running as a background process or a first class client UI. Sign the user in by calling [LyncClient.BeginSignIn](https://msdn.microsoft.com/en-us/library/jj274512\(v=office.15\)) method.
     
     Don’t worry about the **Initializing** state. It is transient and unless there is an OS fault, the transition from **Uninitialized** through **SignedOut** is a small fraction of a second. In the **Initializing** state, no API calls method calls are allowed.
 
@@ -280,19 +289,29 @@ The following example is a helper method that signs a Rosie McBride from Contoso
 
 1.  Get the old and new states of the client
 
-2.  Call the [LyncClient.BeginSignIn](lyncclient-beginsignin-method-microsoft-lync-model_2.md) method if the new state is **SignedOut** and the old state is **Initializing**.
+2.  Call the [LyncClient.BeginSignIn](https://msdn.microsoft.com/en-us/library/jj274512\(v=office.15\)) method if the new state is **SignedOut** and the old state is **Initializing**.
 
 3.  Call the **LyncClientBeginShutDown(AsyncCallback, Object)** if the new client state is **SignedOut**, the old state is **SigningOut** and the client is in UI suppression mode.
 
 4.  Close your application if the new client state is **Uninitialized** and the old state was **ShuttingDown**.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Caution note" alt="Caution note" /><strong>Caution</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>In the Lync UI suppression mode, the Lync background process can’t re-start after your application has shut it down. Stop and restart your application and then initialize a new instance of the Lync background process.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!WARNING]
-    > <P>In the Lync UI suppression mode, the Lync background process can’t re-start after your application has shut it down. Stop and restart your application and then initialize a new instance of the Lync background process.</P>
-
-
-
-The following example handles the [Client.StateChanged](client-statechanged-event-microsoft-lync-model_2.md) event.
+The following example handles the [Client.StateChanged](https://msdn.microsoft.com/en-us/library/jj276368\(v=office.15\)) event.
 
 ``` csharp
         /// <summary>
@@ -330,15 +349,15 @@ The following example handles the [Client.StateChanged](client-statechanged-even
 
 ## Handle credentials needed event
 
-The [LyncClient.CredentialRequested](lyncclient-credentialrequested-event-microsoft-lync-model_2.md) event is raised when a network service such as Lync Server 2013 requests authenticating credentials. If you do not handle the event, then in the case of Lync Server 2013, the client state does not transition from **SigningIn** to **SignedIn**. Other network services that are awaiting credentials will not respond until their credentials are submitted.
+The [LyncClient.CredentialRequested](https://msdn.microsoft.com/en-us/library/jj267649\(v=office.15\)) event is raised when a network service such as Lync Server 2013 requests authenticating credentials. If you do not handle the event, then in the case of Lync Server 2013, the client state does not transition from **SigningIn** to **SignedIn**. Other network services that are awaiting credentials will not respond until their credentials are submitted.
 
 ### To handle invalid credentials
 
 1.  Get the credential type that is requested.
 
-2.  If the credential type is **LyncAutodiscover**, then one or more elements of the credentials that the user typed are not valid. Call the [LyncClient.BeginSignOut](lyncclient-beginsignout-method-microsoft-lync-model_2.md) method to abandon the sign in process and then start to sign the user in again. Be sure to ask the user for credentials again.
+2.  If the credential type is **LyncAutodiscover**, then one or more elements of the credentials that the user typed are not valid. Call the [LyncClient.BeginSignOut](https://msdn.microsoft.com/en-us/library/jj277581\(v=office.15\)) method to abandon the sign in process and then start to sign the user in again. Be sure to ask the user for credentials again.
     
-    Although you can call the [CredentialRequestedEventArgs.Submit](credentialrequestedeventargs-submit-method-microsoft-lync-model_2.md) method to submit a replacement user name and password, you can’t submit a sign in URL. If the original sign in URL was not correct, the only way you can correct it is to sign out and then start the sign in operation over again after getting new credentials.
+    Although you can call the [CredentialRequestedEventArgs.Submit](https://msdn.microsoft.com/en-us/library/jj276532\(v=office.15\)) method to submit a replacement user name and password, you can’t submit a sign in URL. If the original sign in URL was not correct, the only way you can correct it is to sign out and then start the sign in operation over again after getting new credentials.
     
     ``` csharp
             /// <summary>
@@ -398,7 +417,7 @@ A sign in delay can be caused by network connectivity issues. In this case, all 
 
 2.  Show the user how long the delay is and then ask the user if she wants to continue to wait.
 
-3.  If she does not want to continue waiting, abandon the sign in process by calling the [LyncClient.BeginSignOut](lyncclient-beginsignout-method-microsoft-lync-model_2.md) method.
+3.  If she does not want to continue waiting, abandon the sign in process by calling the [LyncClient.BeginSignOut](https://msdn.microsoft.com/en-us/library/jj277581\(v=office.15\)) method.
 
 ``` csharp
         /// <summary>

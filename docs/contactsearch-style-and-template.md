@@ -1,4 +1,4 @@
-﻿---
+---
 title: ContactSearch style and template
 TOCTitle: ContactSearch style and template
 ms:assetid: 476ecb88-92b0-411b-96dd-1c917520dc76
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # ContactSearch style and template
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the styles and templates for the [ContactSearch](contactsearch-class-microsoft-lync-controls_1.md) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the styles and templates for the [ContactSearch](https://msdn.microsoft.com/en-us/library/hh379436\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
+**Last modified:** November 27, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 ContactSearch parts  
@@ -46,12 +47,11 @@ The following table lists the named parts for the ContactSearch control.
 <tbody>
 <tr class="odd">
 <td><p>ContactSearchInputBox</p></td>
-<td><p><a href="contactsearchinputbox-class-microsoft-lync-controls_1.md">ContactSearchInputBox</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379719(v=office.15)">ContactSearchInputBox</a></p></td>
 <td><p>Enables users to search their organization for people based on name, phone number, or skill.</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Default style and template
 

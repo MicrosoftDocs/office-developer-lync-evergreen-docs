@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Beyond the basics: Enhanced presence'
 TOCTitle: Enhanced presence
 ms:assetid: 9eb537b8-c87c-47ec-aeb6-8850691cd44e
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Beyond the basics: Enhanced presence
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about advanced enhanced presence concepts such as Lync 2013 contact privacy relationship administration and custom presence states in Microsoft Lync 2013 SDK.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Advanced features of enhanced presence
 

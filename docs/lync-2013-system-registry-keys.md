@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync 2013 system registry keys
 TOCTitle: Lync 2013 system registry keys
 ms:assetid: 82ad3fef-2dfd-47ac-adcc-c8f310bb08ed
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Lync 2013 system registry keys
 
-![What's new topic](images/JJ933179.mod_icon_whatsnew_long(Office.15).png "What's new topic")
+![What's new topic](images/JJ937254.mod_icon_whatsnew_long(Office.15).png "What's new topic")
 
 Learn about the computer registry keys that Microsoft Lync 2013 creates in a computer system registry.
 
+**Last modified:** January 14, 2014
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -34,7 +35,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Lync 2013 system registry keys
 
@@ -116,11 +116,21 @@ If your application is hosted on a server configured for SSL/TLS, create a new k
 
 Any Silverlight browser application that is hosted on this site is now a trusted application.
 
-
-> [!IMPORTANT]
-> <P>Do not add a trusted site entry for any CWE application hosted on a local path because all local applications are trusted by default.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Do not add a trusted site entry for any CWE application hosted on a local path because all local applications are trusted by default.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Trust multiple servers and subdomains with one key
 

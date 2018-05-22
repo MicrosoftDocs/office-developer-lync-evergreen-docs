@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Subscribe to enhanced presence content'
 TOCTitle: 'How to: Subscribe to enhanced presence content'
 ms:assetid: 28e8bd5d-14ea-4bb1-809f-1dec9f36c86f
@@ -15,8 +15,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to create a subscription to the enhanced presence published by a user.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,7 +37,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -73,12 +73,11 @@ The prerequisites for subscribing to presence information are as follows:
 </tbody>
 </table>
 
-
 ## Subscribe to user presence information publications
 
 ### To subscribe to presence publications
 
-1.  Create a new [Microsoft.Lync.Model.ContactSubscription](contactsubscription-class-microsoft-lync-model_2.md).
+1.  Create a new [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)).
     
     ``` csharp
     _contactSubscription = LyncClient.GetClient().ContactManager.CreateSubscription();
@@ -90,11 +89,11 @@ The prerequisites for subscribing to presence information are as follows:
     _ContactInformationList = new List<ContactInformationType>();
     ```
 
-3.  Add an [Microsoft.Lync.Model.ContactInformationType](contactinformationtype-enumeration-microsoft-lync-model_2.md) enumerator for each kind of enhanced presence information that you want to be notified about when it is updated.
+3.  Add an [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\)) enumerator for each kind of enhanced presence information that you want to be notified about when it is updated.
 
-4.  Add a **Contact** object to the subscription for each user whose contact information that you want to subscribe to by calling the [ContactSubscription.AddContact](contactsubscription-addcontact-method-microsoft-lync-model_2.md) method.
+4.  Add a **Contact** object to the subscription for each user whose contact information that you want to subscribe to by calling the [ContactSubscription.AddContact](https://msdn.microsoft.com/en-us/library/jj275705\(v=office.15\)) method.
 
-5.  Start the subscription to each contact’s presence publications by calling the [ContactSubscription.Subscribe](contactsubscription-subscribe-method-microsoft-lync-model_2.md) method.
+5.  Start the subscription to each contact’s presence publications by calling the [ContactSubscription.Subscribe](https://msdn.microsoft.com/en-us/library/jj277847\(v=office.15\)) method.
     
     ``` csharp
                 _ContactInformationList = new List<ContactInformationType>();
@@ -118,27 +117,37 @@ The prerequisites for subscribing to presence information are as follows:
                 _contactSubscription.Subscribe(ContactSubscriptionRefreshRate.High, _ContactInformationList);
     ```
 
-
-> [!IMPORTANT]
-> <P>Be sure to call the <A href="contactsubscription-subscribe-method-microsoft-lync-model_2.md">ContactSubscription.Subscribe</A> method. If you register for the <A href="contact-contactinformationchanged-event-microsoft-lync-model_2.md">Contact.ContactInformationChanged</A> event on each <STRONG>Contact</STRONG> that you add to a <STRONG>ContactSubscription</STRONG>, the event is raised for any new subscribed presence publications by those subscribed contacts. The <STRONG>ContactSubscription</STRONG> object itself does not expose subscription or publication events.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Be sure to call the <a href="https://msdn.microsoft.com/en-us/library/jj277847(v=office.15)">ContactSubscription.Subscribe</a> method. If you register for the <a href="https://msdn.microsoft.com/en-us/library/jj275543(v=office.15)">Contact.ContactInformationChanged</a> event on each <strong>Contact</strong> that you add to a <strong>ContactSubscription</strong>, the event is raised for any new subscribed presence publications by those subscribed contacts. The <strong>ContactSubscription</strong> object itself does not expose subscription or publication events.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Suspend a presence subscription
 
-An application can cache [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) objects for later display in an application UI. For example, an application can get a set of **Contact** objects for the members of a large team of users in an organization. If these contacts are displayed in a collapsible or scrollable list, only a subset of these contacts are displayed in the application UI. To save network bandwidth and increase application performance, you should suspend the subscriptions for those contacts that are not displayed in the UI.
+An application can cache [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) objects for later display in an application UI. For example, an application can get a set of **Contact** objects for the members of a large team of users in an organization. If these contacts are displayed in a collapsible or scrollable list, only a subset of these contacts are displayed in the application UI. To save network bandwidth and increase application performance, you should suspend the subscriptions for those contacts that are not displayed in the UI.
 
 ### To suspend and restart a presence subscription
 
-1.  Call the [ContactSubscription.Unsubscribe](contactsubscription-unsubscribe-method-microsoft-lync-model_2.md) method on the subscription whose contact presence publication notifications are to be suspended.
+1.  Call the [ContactSubscription.Unsubscribe](https://msdn.microsoft.com/en-us/library/jj276640\(v=office.15\)) method on the subscription whose contact presence publication notifications are to be suspended.
 
-2.  Remove non-displayed contacts by calling the [ContactSubscription.RemoveContact](contactsubscription-removecontact-method-microsoft-lync-model_2.md) method for each of these contacts.
+2.  Remove non-displayed contacts by calling the [ContactSubscription.RemoveContact](https://msdn.microsoft.com/en-us/library/jj293450\(v=office.15\)) method for each of these contacts.
 
-3.  Add any displayed contacts that are not in the subscription by calling the [ContactSubscription.AddContact](contactsubscription-addcontact-method-microsoft-lync-model_2.md) method.
+3.  Add any displayed contacts that are not in the subscription by calling the [ContactSubscription.AddContact](https://msdn.microsoft.com/en-us/library/jj275705\(v=office.15\)) method.
 
-4.  Get the cached **List\<ContactInformationType\>** object that was used to start the subscription for the first time by reading the [ContactSubscription.LastSubscribedContactInformation](contactsubscription-lastsubscribedcontactinformation-property-microsoft-lync-model_2.md) property.
+4.  Get the cached **List\<ContactInformationType\>** object that was used to start the subscription for the first time by reading the [ContactSubscription.LastSubscribedContactInformation](https://msdn.microsoft.com/en-us/library/jj277980\(v=office.15\)) property.
 
-5.  Call the [ContactSubscription.Subscribe](contactsubscription-subscribe-method-microsoft-lync-model_2.md) method when the subscription is to be restored and pass the list obtained in the previous step.
+5.  Call the [ContactSubscription.Subscribe](https://msdn.microsoft.com/en-us/library/jj277847\(v=office.15\)) method when the subscription is to be restored and pass the list obtained in the previous step.
 
 ## Modify an existing subscription contact information items list
 
@@ -146,15 +155,15 @@ You can change the set of enhanced presence information items that you get notif
 
 ### To modify an existing subscription contact information items list
 
-1.  Get the active [Microsoft.Lync.Model.ContactSubscription](contactsubscription-class-microsoft-lync-model_2.md) object cached in your application.
+1.  Get the active [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)) object cached in your application.
 
-2.  Suspend the subscription by calling the [ContactSubscription.Unsubscribe](contactsubscription-unsubscribe-method-microsoft-lync-model_2.md) method.
+2.  Suspend the subscription by calling the [ContactSubscription.Unsubscribe](https://msdn.microsoft.com/en-us/library/jj276640\(v=office.15\)) method.
 
-3.  Get the cached **List\<ContactInformationType\>** object that was used to start the subscription for the first time by reading the [ContactSubscription.LastSubscribedContactInformation](contactsubscription-lastsubscribedcontactinformation-property-microsoft-lync-model_2.md) property.
+3.  Get the cached **List\<ContactInformationType\>** object that was used to start the subscription for the first time by reading the [ContactSubscription.LastSubscribedContactInformation](https://msdn.microsoft.com/en-us/library/jj277980\(v=office.15\)) property.
 
 4.  Modify the list by adding or removing the desired items.
 
-5.  Restart the subscription by calling the [Subscribe(ContactSubscriptionRefreshRate, IEnumerable\<ContactInformationType\>)](contactsubscription-subscribe-method-microsoft-lync-model_2.md) method and passing the modified **List\<ContactInformationType\>** object.
+5.  Restart the subscription by calling the [Subscribe(ContactSubscriptionRefreshRate, IEnumerable\<ContactInformationType\>)](https://msdn.microsoft.com/en-us/library/jj277847\(v=office.15\)) method and passing the modified **List\<ContactInformationType\>** object.
 
 ## Code examples: Contact subscription log
 
@@ -217,7 +226,7 @@ Title="CapabilityPage">
 </Page>
 ```
 
-The following example gets a [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) object for a supplied SIP address, creates a subscription, adds a collection of [Microsoft.Lync.Model.ContactInformationType](contactinformationtype-enumeration-microsoft-lync-model_2.md) enumerators and the contact object, starts the subscription, and handles events raised when the contact republishes the items that are enumerated in the subscription.
+The following example gets a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object for a supplied SIP address, creates a subscription, adds a collection of [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\)) enumerators and the contact object, starts the subscription, and handles events raised when the contact republishes the items that are enumerated in the subscription.
 
     using System.Collections.Generic;
     using System.Text;

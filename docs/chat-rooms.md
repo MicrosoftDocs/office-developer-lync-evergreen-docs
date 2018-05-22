@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chat rooms
 TOCTitle: Chat rooms
 ms:assetid: c1bf3f8c-e294-4fd1-8bb3-615029370f99
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Persistent Chat followed room feature as it is implemented in Microsoft Lync 2013 SDK.
 
+**Last modified:** December 11, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -35,14 +36,13 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Chat room overview
 
 A followed room has two attributes that distinguish it from other rooms hosted on Microsoft Lync Server 2013 Persistent Chat. The membership of a local user’s followed room always includes the local user, and a followed room does not need to be joined to provide an activity feed for new messages.
 
 ## Chat room types
 
-All chat rooms are encapsulated by a common [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) class. Although all chat rooms are encapsulated by the same class, the programming patterns used to interact with chat rooms are different depending on the relationship of the user to the room. For example, a chat room that a user is not a member of does not notify the user of new messages even if your application has registered a handler for the [Room.UnreadMessageCountChanged](room-unreadmessagecountchanged-event-microsoft-lync-model-room_2.md) event.
+All chat rooms are encapsulated by a common [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) class. Although all chat rooms are encapsulated by the same class, the programming patterns used to interact with chat rooms are different depending on the relationship of the user to the room. For example, a chat room that a user is not a member of does not notify the user of new messages even if your application has registered a handler for the [Room.UnreadMessageCountChanged](https://msdn.microsoft.com/en-us/library/jj268191\(v=office.15\)) event.
 
 The following table describes the behavior differences between chat rooms represented by the **Room** class.
 
@@ -178,7 +178,6 @@ The following table describes the behavior differences between chat rooms repres
 </tr>
 </tbody>
 </table>
-
 
 1 The user must be joined to the room.  
 2 The user must be joined to the room and be assigned the Presenter role by an administrator.

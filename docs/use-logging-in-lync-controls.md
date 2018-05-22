@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use logging in Lync Controls
 TOCTitle: Use logging in Lync Controls
 ms:assetid: 03ba79e2-edfb-4a01-835a-92c3f6486c3d
@@ -12,12 +12,13 @@ dev_langs:
 
 # Use logging in Lync Controls
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn how to use the **LogListener** object to record logging information in Microsoft Lync Controls applications, for both Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF).
 
+**Last modified:** December 26, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -38,15 +39,24 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Logging overview
 
-
-> [!IMPORTANT]
-> <P>When logging is used in WPF or Silverlight applications, personal information such as telephone numbers can appear in logs. To protect confidential information, ensure that logs are saved to a secure location.</P>
-> <P>In Silverlight applications, I/O operations typically are restricted to isolated storage and do not use the file system of the operating system. It is possible to work around this restriction by logging to a Web service or by using COM to access the local file system.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>When logging is used in WPF or Silverlight applications, personal information such as telephone numbers can appear in logs. To protect confidential information, ensure that logs are saved to a secure location.</p>
+<p>In Silverlight applications, I/O operations typically are restricted to isolated storage and do not use the file system of the operating system. It is possible to work around this restriction by logging to a Web service or by using COM to access the local file system.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Adding logging
 
@@ -100,7 +110,6 @@ class MyListener : LogListener
 </tr>
 </tbody>
 </table>
-
 
 ### AddListener method
 

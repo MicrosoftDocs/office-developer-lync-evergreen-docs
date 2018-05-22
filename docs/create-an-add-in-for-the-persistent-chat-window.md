@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create an add-in for the Persistent Chat window
 TOCTitle: Create an add-in for the Persistent Chat window
 ms:assetid: 6a00d2b7-b48f-4679-93cd-a0221b1c20ea
@@ -12,12 +12,13 @@ dev_langs:
 
 # Create an add-in for the Persistent Chat window
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about designing a Lync 2013 Persistent Chat room add-in that displays messages that a Microsoft Unified Communications Managed API (UCMA) bot has posted to the hosting chat room and then filters the pending message posts of the local user.
 
+**Last modified:** January 14, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -38,12 +39,11 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Add-in overview
 
-A Persistent Chat room add-in is a Microsoft Silverlight browser application. It is hosted in the add-in pane of the Lync 2013 Persistent Chat room window. An add-in application uses the [LyncClient.GetHostingRoom](lyncclient-gethostingroom-method-microsoft-lync-model.md) method to return an entry point to the room. The room entry point lets an add-in obtain room message history, post new messages, intercept local messages to be posted, and obtain the room roster for display.
+A Persistent Chat room add-in is a Microsoft Silverlight browser application. It is hosted in the add-in pane of the Lync 2013 Persistent Chat room window. An add-in application uses the [LyncClient.GetHostingRoom](https://msdn.microsoft.com/en-us/library/jj276700\(v=office.15\)) method to return an entry point to the room. The room entry point lets an add-in obtain room message history, post new messages, intercept local messages to be posted, and obtain the room roster for display.
 
-The example in this topic obtains the hosting [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) of the chat window. After getting the room, the add-in registers for room messaging events to catch messages posted to the room by other user in addition to filtering messages to be sent by the local user.
+The example in this topic obtains the hosting [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) of the chat window. After getting the room, the add-in registers for room messaging events to catch messages posted to the room by other user in addition to filtering messages to be sent by the local user.
 
 Figure 1 shows a simple chat room add-in that displays reformatted messages from a bot and filters and formats messages to be posted to the host chat room by the locally signed-in user. The add-in is hosted in the add-in pane of Lync 2013.
 
@@ -56,16 +56,26 @@ Figure 1. Simple chat room add-in
 
 Your add-in must be registered on a Persistent Chat server and associated with a Persistent Chat room. The add-in is opened in the Persistent Chat room window when a user double-clicks a Persistent Chat room from the contact list. You can also register a Persistent Chat room by using a server-side tool such as the [Group Chat Administration Tool](http://www.microsoft.com/downloads/details.aspx?familyid=a50cf7a4-6e8c-48a3-8c54-2449106f1627%26amp%3bdisplaylang=e%26displaylang=en). For information about registering and associating an add-in with a chat room using Microsoft Lync Server 2010 Group Chat SDK, see [ChatRoomManagementServices.BeginRegisterAddIn Method](http://msdn.microsoft.com/en-us/library/hh379125.aspx).
 
-
-> [!TIP]
-> <P>You should associate your new add-in with a private chat room so that you can test the add-in. When your add-in is ready for public use, associate it with a public chat room.</P>
-> <P>A private chat room is only visible to its members. This means that the private chat room cannot be found by using a chat room query.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>You should associate your new add-in with a private chat room so that you can test the add-in. When your add-in is ready for public use, associate it with a public chat room.</p>
+<p>A private chat room is only visible to its members. This means that the private chat room cannot be found by using a chat room query.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Initial application state
 
-Before you complete the steps in this topic, your application must have an instance of [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) where the user has permission to read messages.
+Before you complete the steps in this topic, your application must have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) where the user has permission to read messages.
 
 ### Code example
 
@@ -80,11 +90,21 @@ using Microsoft.Lync.Model.Room;
 using System.Collections;
 ```
 
-
-> [!IMPORTANT]
-> <P>Your add-in project must reference the Microsoft.Lync.Model.dll and Microsoft.Lync.Model.Utilities.dll from the <EM>%programfiles%</EM>\Microsoft Office \Office15\LyncSDK\Assemblies\Silverlight folder.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Your add-in project must reference the Microsoft.Lync.Model.dll and Microsoft.Lync.Model.Utilities.dll from the <em>%programfiles%</em>\Microsoft Office \Office15\LyncSDK\Assemblies\Silverlight folder.</p></td>
+</tr>
+</tbody>
+</table>
 
 The following example declares the class fields that are referenced in the following sections of this topic.
 
@@ -97,7 +117,7 @@ The following example declares the class fields that are referenced in the follo
 
 ## Getting the hosting Persistent Chat room
 
-The hosting chat room is the entry point to all Lync functionality that you can code in an add-in. To get the room, call the [LyncClient.GetHostingRoom](lyncclient-gethostingroom-method-microsoft-lync-model.md) method. The best place to get the hosting chat room is in the add-in constructor.
+The hosting chat room is the entry point to all Lync functionality that you can code in an add-in. To get the room, call the [LyncClient.GetHostingRoom](https://msdn.microsoft.com/en-us/library/jj276700\(v=office.15\)) method. The best place to get the hosting chat room is in the add-in constructor.
 
 ### Code example
 
@@ -140,7 +160,7 @@ The following example gets the hosting room, enables outgoing message filtering,
 
 ## Handling message events
 
-The content of the text boxes on the UI come from the [Microsoft.Lync.Model.Room.RoomMessage](roommessage-class-microsoft-lync-model-room_2.md) objects obtained from the message events that the add-in registered for in the previous example. The bot message text comes from the messages obtained from the [Room.MessagesReceived](room-messagesreceived-event-microsoft-lync-model-room_2.md) event while an outgoing message that is pending a filter action is obtained from the [Room.IsSendingMessage](room-issendingmessage-event-microsoft-lync-model-room_2.md) event.
+The content of the text boxes on the UI come from the [Microsoft.Lync.Model.Room.RoomMessage](https://msdn.microsoft.com/en-us/library/jj276207\(v=office.15\)) objects obtained from the message events that the add-in registered for in the previous example. The bot message text comes from the messages obtained from the [Room.MessagesReceived](https://msdn.microsoft.com/en-us/library/jj277819\(v=office.15\)) event while an outgoing message that is pending a filter action is obtained from the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event.
 
 The add-in puts the original pending message post text in the **Pending Message Text** text box and the final message text that is posted in the **Updated Message Text** text box. In this sample add-in, the user is not asked to approve any message text changes. The updated message is immediately posted after it passes through the filter and formatting is applied to the text.
 
@@ -159,32 +179,41 @@ A message filtering mechanism in an add-in can take one of three possible action
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="roommessagefilteringaction-enumeration-microsoft-lync-model-room_2.md">RoomMessageFilteringAction</a><strong>.Passed</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275314(v=office.15)">RoomMessageFilteringAction</a><strong>.Passed</strong></p></td>
 <td><p>The pending message is posted to the room without modification.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="roommessagefilteringaction-enumeration-microsoft-lync-model-room_2.md">RoomMessageFilteringAction</a><strong>.Replaced</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275314(v=office.15)">RoomMessageFilteringAction</a><strong>.Replaced</strong></p></td>
 <td><p>The pending message is posted to the room after a modification to the message text, which can include replacement of text or reformatting of the original text. If you want to spell-check a message before posting, you can use an add-in perform the check.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="roommessagefilteringaction-enumeration-microsoft-lync-model-room_2.md">RoomMessageFilteringAction</a><strong>.Canceled</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275314(v=office.15)">RoomMessageFilteringAction</a><strong>.Canceled</strong></p></td>
 <td><p>The message posting is canceled and the message is not posted to the chat room.</p></td>
 </tr>
 </tbody>
 </table>
 
+To cancel a pending message, an add-in parses pending message text for some condition and if met, calls the [Room.SendFilteredMessage](https://msdn.microsoft.com/en-us/library/jj265991\(v=office.15\)) method. The **RoomMessage** to be canceled is in the first argument and the [RoomMessageFilteringAction](https://msdn.microsoft.com/en-us/library/jj275314\(v=office.15\))**.Canceled** enumerator is passed in the second argument.
 
-To cancel a pending message, an add-in parses pending message text for some condition and if met, calls the [Room.SendFilteredMessage](room-sendfilteredmessage-method-microsoft-lync-model-room_2.md) method. The **RoomMessage** to be canceled is in the first argument and the [RoomMessageFilteringAction](roommessagefilteringaction-enumeration-microsoft-lync-model-room_2.md)**.Canceled** enumerator is passed in the second argument.
-
-
-> [!WARNING]
-> <P>If you call the <A href="room-sendfilteredmessage-method-microsoft-lync-model-room_2.md">Room.SendFilteredMessage</A> method multiple times while passing the same <A href="roommessage-class-microsoft-lync-model-room_2.md">Microsoft.Lync.Model.Room.RoomMessage</A> object, a <A href="lyncclientexception-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.LyncClientException</A> is raised on the second and following calls.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Caution note" alt="Caution note" /><strong>Caution</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>If you call the <a href="https://msdn.microsoft.com/en-us/library/jj265991(v=office.15)">Room.SendFilteredMessage</a> method multiple times while passing the same <a href="https://msdn.microsoft.com/en-us/library/jj276207(v=office.15)">Microsoft.Lync.Model.Room.RoomMessage</a> object, a <a href="https://msdn.microsoft.com/en-us/library/jj294075(v=office.15)">Microsoft.Lync.Model.LyncClientException</a> is raised on the second and following calls.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Code example: Bot message parsing
 
-The following example handles the [Room.MessagesReceived](room-messagesreceived-event-microsoft-lync-model-room_2.md) event. Each message in the collection of new messages contains the message sender’s URI. If the URI string contains the unique part of a UCMA bot’s URI, the example treats the message as a bot message. In this example, a bot message might contain information about US currency. If the text of the message contains the United States currency symbol, the message must be parsed and displayed in the add-in UI.
+The following example handles the [Room.MessagesReceived](https://msdn.microsoft.com/en-us/library/jj277819\(v=office.15\)) event. Each message in the collection of new messages contains the message sender’s URI. If the URI string contains the unique part of a UCMA bot’s URI, the example treats the message as a bot message. In this example, a bot message might contain information about US currency. If the text of the message contains the United States currency symbol, the message must be parsed and displayed in the add-in UI.
 
 ``` csharp
         /// <summary>
@@ -218,11 +247,21 @@ The following example handles the [Room.MessagesReceived](room-messagesreceived-
 
 The following example is a simple text parser that replaces a substring with a space character.
 
-
-> [!NOTE]
-> <P>The bot message can be any string object such as an XML or JSON string.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The bot message can be any string object such as an XML or JSON string.</p></td>
+</tr>
+</tbody>
+</table>
 
             /// <summary>
             /// Parses a bot message and replaces square brackets with space characters. 
@@ -253,7 +292,7 @@ The following example updates the bot message text box on the UI thread.
 
 ### Code example: Message filtering
 
-The following example handles the [Room.IsSendingMessage](room-issendingmessage-event-microsoft-lync-model-room_2.md) event. The event logic filters the message for an objectionable phrase. If the phrase is not found, the message is reformatted by replacing all uppercase letters with lowercase. Finally, the [Room.SendFilteredMessage](room-sendfilteredmessage-method-microsoft-lync-model-room_2.md) method is called with the action determined by the filter logic.
+The following example handles the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event. The event logic filters the message for an objectionable phrase. If the phrase is not found, the message is reformatted by replacing all uppercase letters with lowercase. Finally, the [Room.SendFilteredMessage](https://msdn.microsoft.com/en-us/library/jj265991\(v=office.15\)) method is called with the action determined by the filter logic.
 
 ``` csharp
         /// <summary>
@@ -336,7 +375,7 @@ The following example converts text of the message to all lowercase.
         }
 ```
 
-The following example checks the pending message string for the substring "bla\!". If the substring is found, the example returns false and the [Room.IsSendingMessage](room-issendingmessage-event-microsoft-lync-model-room_2.md) event handler cancels the pending post.
+The following example checks the pending message string for the substring "bla\!". If the substring is found, the example returns false and the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event handler cancels the pending post.
 
 ``` csharp
         /// <summary>

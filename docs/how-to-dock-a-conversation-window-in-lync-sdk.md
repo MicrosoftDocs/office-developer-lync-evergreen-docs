@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Dock a conversation window in Lync SDK'
 TOCTitle: 'How to: Dock a conversation window'
 ms:assetid: 71b10f5a-32ee-458b-a157-7ea0212f798c
@@ -15,8 +15,9 @@ dev_langs:
 
 Learn how to dock a Microsoft Lync 2013 conversation window inside a WPF window and respond to conversation window sizing and attention events to prevent the conversation window from undocking when its size changes.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -38,7 +39,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -76,11 +76,10 @@ Before you can dock a conversation window, you must know how to start a conversa
 </tr>
 <tr class="odd">
 <td><p><a href="conversation-manager.md">Conversation manager</a></p></td>
-<td><p>Describes how to use the <a href="conversationmanager-class-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.ConversationManager</a> class to start new conversations and listen for conversation invitations.</p></td>
+<td><p>Describes how to use the <a href="https://msdn.microsoft.com/en-us/library/jj266018(v=office.15)">Microsoft.Lync.Model.Conversation.ConversationManager</a> class to start new conversations and listen for conversation invitations.</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Declare a hosting window
 
@@ -118,14 +117,26 @@ Before you can dock a conversation window, you must know how to start a conversa
                 </StackPanel>
     ```
 
-3.  Add a [Microsoft.Lync.Controls.StartInstantMessagingButton](startinstantmessagingbutton-class-microsoft-lync-controls_1.md) to the stack panel.
+3.  Add a [Microsoft.Lync.Controls.StartInstantMessagingButton](https://msdn.microsoft.com/en-us/library/hh379340\(v=office.15\)) to the stack panel.
     
-
-    > [!TIP]
-    > <P>The <STRONG>StartInstantMessagingButtonSource()</STRONG> property must be set to the SIP address of a Lync user. You can set it declaratively in XAML or in code by setting the property to a selected contact URI property from a contact search result as in the following example.</P>
-    > <P>SearchResult result = (SearchResult) _ContactSearchResultList.SelectedItem;<BR>_myStartIMButton.Source = result.Contact.Uri;</P>
-    > <P></P>
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The <strong>StartInstantMessagingButtonSource()</strong> property must be set to the SIP address of a Lync user. You can set it declaratively in XAML or in code by setting the property to a selected contact URI property from a contact search result as in the following example.</p>
+    <p>SearchResult result = (SearchResult) _ContactSearchResultList.SelectedItem;<br />
+    _myStartIMButton.Source = result.Contact.Uri;</p>
+    <p></p></td>
+    </tr>
+    </tbody>
+    </table>
     
     ``` xaml
                     <Controls:StartInstantMessagingButton 
@@ -137,10 +148,21 @@ Before you can dock a conversation window, you must know how to start a conversa
 
 4.  Add a text box in the stack panel that displays the name of the person to invite.
     
-
-    > [!IMPORTANT]
-    > <P>The text block is bound to the <STRONG>StartInstantMessagingButtonDisplayName()</STRONG> property.</P>
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The text block is bound to the <strong>StartInstantMessagingButtonDisplayName()</strong> property.</p></td>
+    </tr>
+    </tbody>
+    </table>
     
     ``` xaml
                     <TextBlock x:Uid="TextBlock_1" Text="{Binding ElementName=_myStartIMButton, 
@@ -192,13 +214,13 @@ This procedure constructs the conversation manager wrapper class and registers f
                 Unloaded += HandleUnloaded;
     ```
 
-2.  Construct the view model class that encapsulates the [Microsoft.Lync.Model.Conversation.ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md) and [Microsoft.Lync.Model.Conversation.Conversation](conversation-class-microsoft-lync-model-conversation_2.md) objects.
+2.  Construct the view model class that encapsulates the [Microsoft.Lync.Model.Conversation.ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) and [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) objects.
     
     ``` csharp
                 _dockingConversationVm = new DockingConversationViewModel();
     ```
 
-3.  Register for events on the [Microsoft.Lync.Model.Conversation.ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md) object.
+3.  Register for events on the [Microsoft.Lync.Model.Conversation.ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) object.
     
     The following example is taken from the sample Conversation manager model class and runs in the constructor that is called in the previous step.
     
@@ -253,7 +275,7 @@ When the window is loaded, a panel is created to nest in the scrollable panel th
 
 4.  Get the handle to the new panel and set it as context for all new conversations created by the **StartInstantMessagingButton**.
     
-    When the [ConversationContextualInfo.ParentWindowHandle](conversationcontextualinfo-parentwindowhandle-property-microsoft-lync-controls.md) property is set on the control, any conversation started by clicking the control is docked in the container control whose handle is set as context.
+    When the [ConversationContextualInfo.ParentWindowHandle](https://msdn.microsoft.com/en-us/library/hh379561\(v=office.15\)) property is set on the control, any conversation started by clicking the control is docked in the container control whose handle is set as context.
     
     ``` 
                 // Get the handle of the panel where we will dock the conversation:
@@ -281,9 +303,9 @@ When the window is loaded, a panel is created to nest in the scrollable panel th
 
 ## Dock a new conversation window
 
-When a user clicks the **StartInstantMessagingButton** button, Lync 2013 opens a new conversation window and the [ConversationManager.ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event is raised. The handle to the docking panel was added as context on the **StartInstantMessagingButton** when the new panel was created. When this context is set, any conversation window that is opened by the button is automatically docked in the container control.
+When a user clicks the **StartInstantMessagingButton** button, Lync 2013 opens a new conversation window and the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event is raised. The handle to the docking panel was added as context on the **StartInstantMessagingButton** when the new panel was created. When this context is set, any conversation window that is opened by the button is automatically docked in the container control.
 
-The sample uses this event to obtain an [Microsoft.Lync.Model.Extensibility.ConversationWindow](conversationwindow-class-microsoft-lync-model-extensibility_2.md) object that represents the new conversation window by calling the [Automation.GetConversationWindow](automation-getconversationwindow-method-microsoft-lync-model-extensibility_2.md) method. To respond to size change or attention events, the sample registers for the two events described in Resize the docking control when conversation window size changes.
+The sample uses this event to obtain an [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) object that represents the new conversation window by calling the [Automation.GetConversationWindow](https://msdn.microsoft.com/en-us/library/jj267667\(v=office.15\)) method. To respond to size change or attention events, the sample registers for the two events described in Resize the docking control when conversation window size changes.
 
 ``` csharp
         /// <summary>
@@ -332,17 +354,27 @@ The sample application uses a pair of nested panel controls to contain the conve
 
 If the dimensions of the scrolling panel are larger than the minimum dimensions of the conversation window, this event handler sets the dimensions of the docking panel to those of the scrolling panel. This logic is complex because of one or both scroll bars on the scrolling panel. Scroll bars reduce the display area of the panel and the logic must calculate the size of the scrolling panel with scroll bars and determine whether these dimensions are larger than the minimum size of the conversation window. If they are not, the docking panel dimensions are set to the minimum dimensions of the conversation window and scroll bars are displayed. Finally, the conversation window is redocked in the docking panel and resized to the dimensions of the docking panel.
 
-
-> [!IMPORTANT]
-> <P>You must respond to this event within 5 seconds by resizing the docking panel to fit the new dimensions of the conversation window. Failure to resize the docking panel causes the conversation window to undock.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>You must respond to this event within 5 seconds by resizing the docking panel to fit the new dimensions of the conversation window. Failure to resize the docking panel causes the conversation window to undock.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### To handle the conversation window size changed event
 
 1.  Get the new minimum dimensions of the conversation window.
     
-    The following example handles the **ConversationWindowNeedsSizeChangedEvent** exposed by the helper Conversation manager model class. The helper class handles the [ConversationWindow.NeedsSizeChange](conversationwindow-needssizechange-event-microsoft-lync-model-extensibility_2.md) event. The example reads the **MinSize** property on the helper class that returns a **Size** object for the new minimum size of the conversation window.
+    The following example handles the **ConversationWindowNeedsSizeChangedEvent** exposed by the helper Conversation manager model class. The helper class handles the [ConversationWindow.NeedsSizeChange](https://msdn.microsoft.com/en-us/library/jj277925\(v=office.15\)) event. The example reads the **MinSize** property on the helper class that returns a **Size** object for the new minimum size of the conversation window.
     
     ``` csharp
                 int minWidth = _dockingConversationVm.MinSize.Width;
@@ -397,7 +429,7 @@ If the dimensions of the scrolling panel are larger than the minimum dimensions 
 
 5.  Redock the conversation window in the resized docking panel.
     
-    The following example docks the conversation window by calling the **RedockConversation** method from the model view class by calling the [ConversationWindow.Dock](conversationwindow-dock-method-microsoft-lync-model-extensibility_2.md) method.
+    The following example docks the conversation window by calling the **RedockConversation** method from the model view class by calling the [ConversationWindow.Dock](https://msdn.microsoft.com/en-us/library/jj294013\(v=office.15\)) method.
     
     ``` csharp
             /// <summary>

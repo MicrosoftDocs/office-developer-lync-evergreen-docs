@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Attach a file to the content stage of a conversation'
 TOCTitle: 'How to: Attach a file to the content stage of a conversation'
 ms:assetid: 82da6bf8-263c-42d3-a321-2e6b70c0617c
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to attach a native file to a Lync 2013 conversation and then download a file from a conversation by using the Microsoft Lync 2013 API.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -42,18 +43,27 @@ Watch the video: Share file attachments in online meetings
 </tbody>
 </table>
 
-
 ## File attachment overview
 
 Learn how to select a native file and attach it to a conversation content bin. When the file is in the conversation content bin, it is available to be downloaded by all other conversation participants. The sample application shown in figure 1 is a Windows Forms application that implements the Lync 2013 API to let a user attach files to a conversation.
 
-This topic does not describe how to transfer a file from one peer in a conversation to another peer in a conversation. Instead, the topic describes how to use the conversation [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](contentsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) to attach files to a conversation so that all conversation participants can access the files. This file attachment technique requires Microsoft Lync Server 2013 resources and should only be used in the context of a group conversation.
+This topic does not describe how to transfer a file from one peer in a conversation to another peer in a conversation. Instead, the topic describes how to use the conversation [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) to attach files to a conversation so that all conversation participants can access the files. This file attachment technique requires Microsoft Lync Server 2013 resources and should only be used in the context of a group conversation.
 
-
-> [!IMPORTANT]
-> <P>Native file attachment is not supported in Lync UI suppression mode.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Native file attachment is not supported in Lync UI suppression mode.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Prerequisites
 
@@ -92,10 +102,9 @@ Understanding the following concepts is essential to using content sharing conve
 </tbody>
 </table>
 
-
 ## First steps
 
-Before the logic in this topic runs in your application, a conversation must be active and referenced by the class field **\_conversation**. You have registered an event callback method for the **ActionAvailabilityChanged()** event and the [ContentSharingModality.ContentAdded](contentsharingmodality-contentadded-event-microsoft-lync-model-conversation-sharing_2.md) event. The [ContentSharingModality](contentsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) is in a connected state. For information about starting a conversation that hosts content sharing, see [How to: Start a content sharing conversation](how-to-start-a-content-sharing-conversation.md).
+Before the logic in this topic runs in your application, a conversation must be active and referenced by the class field **\_conversation**. You have registered an event callback method for the **ActionAvailabilityChanged()** event and the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/en-us/library/jj293541\(v=office.15\)) event. The [ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) is in a connected state. For information about starting a conversation that hosts content sharing, see [How to: Start a content sharing conversation](how-to-start-a-content-sharing-conversation.md).
 
 ### Code example: Namespace declarations
 
@@ -144,43 +153,83 @@ Add the following class field declarations to your application.
 
 A user can attach almost any type of file object to a conversation. If a valid local OS path or a UNC path of a file on a network share is provided, the file can be attached. The exception is an executable file that has the .exe file name extension, which cannot be attached.
 
-
-> [!TIP]
-> <P>If a user does not have read access to a file, the file cannot be attached to a conversation.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>If a user does not have read access to a file, the file cannot be attached to a conversation.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### To attach a file to a conversation
 
 1.  Obtain the path of a file and store it in a string.
 
-2.  Verify that the conversation [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](contentsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) object is in the [ModalityState](modalitystate-enumeration-microsoft-lync-model-conversation_2.md)**.Connected** state.
+2.  Verify that the conversation [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) object is in the [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Connected** state.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>If the modality is not connected, see <a href="how-to-start-a-content-sharing-conversation.md">How to: Start a content sharing conversation</a> to learn about inviting conversation participants and connecting the content sharing modality.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!TIP]
-    > <P>If the modality is not connected, see <A href="how-to-start-a-content-sharing-conversation.md">How to: Start a content sharing conversation</A> to learn about inviting conversation participants and connecting the content sharing modality.</P>
-
-
-
-3.  Verify that the content sharing modality state lets you create a native file [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object to represent the native file.
+3.  Verify that the content sharing modality state lets you create a native file [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object to represent the native file.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>If you are handling the <a href="https://msdn.microsoft.com/en-us/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a> event on the conversation content sharing modality, you should enable a file picking control in you UI when the <a href="https://msdn.microsoft.com/en-us/library/jj266957(v=office.15)">ModalityAction</a><strong>.CreateShareableNativeFileOnlyContent</strong> action is available.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!TIP]
-    > <P>If you are handling the <A href="modality-actionavailabilitychanged-event-microsoft-lync-model-conversation_2.md">Modality.ActionAvailabilityChanged</A> event on the conversation content sharing modality, you should enable a file picking control in you UI when the <A href="modalityaction-enumeration-microsoft-lync-model-conversation_2.md">ModalityAction</A><STRONG>.CreateShareableNativeFileOnlyContent</STRONG> action is available.</P>
+4.  Create the **ShareableContent** object for the native file by calling the [ContentSharingModality.BeginCreateContentFromFile](https://msdn.microsoft.com/en-us/library/jj277389\(v=office.15\)) method.
 
-
-
-4.  Create the **ShareableContent** object for the native file by calling the [ContentSharingModality.BeginCreateContentFromFile](contentsharingmodality-begincreatecontentfromfile-method-microsoft-lync-model-conversation-sharing_2.md) method.
-
-5.  Get the new [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object by calling the [ContentSharingModality.EndCreateContentFromFile](contentsharingmodality-endcreatecontentfromfile-method-microsoft-lync-model-conversation-sharing_2.md) method.
+5.  Get the new [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object by calling the [ContentSharingModality.EndCreateContentFromFile](https://msdn.microsoft.com/en-us/library/jj274967\(v=office.15\)) method.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>If the user has picked an executable file or a file without read access, the callback or lambda expression passed into the <strong>BeginCreateContentFromFile</strong> call is not invoked.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!TIP]
-    > <P>If the user has picked an executable file or a file without read access, the callback or lambda expression passed into the <STRONG>BeginCreateContentFromFile</STRONG> call is not invoked.</P>
-
-
-
-6.  Upload the new file to the conversation by calling the [ShareableContent.Upload](shareablecontent-upload-method-microsoft-lync-model-conversation-sharing_2.md) method.
+6.  Upload the new file to the conversation by calling the [ShareableContent.Upload](https://msdn.microsoft.com/en-us/library/jj278338\(v=office.15\)) method.
 
 ### Code example: Pick a file to attach
 
@@ -199,7 +248,7 @@ The following example opens a dialog box so that a user can select a file to att
 
 ### Code example: Attach a file to a conversation
 
-The following example creates a new [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object and then attaches the selected native file to an active conversation.
+The following example creates a new [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object and then attaches the selected native file to an active conversation.
 
 ``` csharp
             if (((ContentSharingModality)_conversation.Modalities[ModalityTypes.ContentSharing]).State == ModalityState.Connected)
@@ -226,27 +275,37 @@ The following example creates a new [Microsoft.Lync.Model.Conversation.Sharing.S
 
 ## Download a file from a conversation
 
-Any native file or PowerPoint slide deck that has been uploaded to a conversation can be downloaded by conversation participants that are granted permission by a conversation presenter. To be notified when a conversation participant has attached a file to a conversation, handle the [ContentSharingModality.ContentAdded](contentsharingmodality-contentadded-event-microsoft-lync-model-conversation-sharing_2.md) event.
+Any native file or PowerPoint slide deck that has been uploaded to a conversation can be downloaded by conversation participants that are granted permission by a conversation presenter. To be notified when a conversation participant has attached a file to a conversation, handle the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/en-us/library/jj293541\(v=office.15\)) event.
 
-
-> [!TIP]
-> <P>If a presenter has restricted download permissions for a file to Organizer only, the attached file does not appear in the content collection of the participants and cannot be downloaded.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>If a presenter has restricted download permissions for a file to Organizer only, the attached file does not appear in the content collection of the participants and cannot be downloaded.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### To download an attached file from a conversation
 
-1.  Verify that the new content is a native file or PowerPoint slide deck by reading the [ShareableContent.Type](shareablecontent-type-property-microsoft-lync-model-conversation-sharing_2.md) property and continue if the property returns [Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType](shareablecontenttype-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.NativeFile** or [Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType](shareablecontenttype-enumeration-microsoft-lync-model-conversation-sharing_2.md)**.PowerPoint**.
+1.  Verify that the new content is a native file or PowerPoint slide deck by reading the [ShareableContent.Type](https://msdn.microsoft.com/en-us/library/jj267981\(v=office.15\)) property and continue if the property returns [Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType](https://msdn.microsoft.com/en-us/library/jj275743\(v=office.15\))**.NativeFile** or [Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType](https://msdn.microsoft.com/en-us/library/jj275743\(v=office.15\))**.PowerPoint**.
 
-2.  Verify that the user can download the file by calling the [ShareableContent.CanInvoke](shareablecontent-caninvoke-method-microsoft-lync-model-conversation-sharing_2.md) method on the shareable content object.
+2.  Verify that the user can download the file by calling the [ShareableContent.CanInvoke](https://msdn.microsoft.com/en-us/library/jj275741\(v=office.15\)) method on the shareable content object.
 
 3.  Get a desired download path from the user as a string.
 
-4.  Get the name of the file to be downloaded by reading the [ShareableContent.Title](shareablecontent-title-property-microsoft-lync-model-conversation-sharing_2.md) property.
+4.  Get the name of the file to be downloaded by reading the [ShareableContent.Title](https://msdn.microsoft.com/en-us/library/jj293276\(v=office.15\)) property.
 
-5.  Call the [ShareableContent.BeginDownloadFile](shareablecontent-begindownloadfile-method-microsoft-lync-model-conversation-sharing_2.md) method, passing the download path and file name concatenated in a string.
+5.  Call the [ShareableContent.BeginDownloadFile](https://msdn.microsoft.com/en-us/library/jj278158\(v=office.15\)) method, passing the download path and file name concatenated in a string.
 
-6.  Call the [ShareableContent.EndDownloadFile](shareablecontent-enddownloadfile-method-microsoft-lync-model-conversation-sharing_2.md) method to complete the operation and get the download path and file name of where the downloaded file is stored.
+6.  Call the [ShareableContent.EndDownloadFile](https://msdn.microsoft.com/en-us/library/jj274992\(v=office.15\)) method to complete the operation and get the download path and file name of where the downloaded file is stored.
 
 ### Code example: Handle the ContentAdded event
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Contextual Lync conversations
 TOCTitle: Contextual Lync conversations
 ms:assetid: e9ecc787-f16a-4244-9eea-6a920a4ec8a3
@@ -13,12 +13,13 @@ dev_langs:
 
 # Contextual Lync conversations
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about the concept of contextual conversations in Lync 2013 and about application scenarios, application development models, and contextual extension application package registration.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -37,7 +38,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Conversation overview
 
 Use contextual conversation with Microsoft Lync 2013 SDK to increase productivity by capturing the message sender’s context, setting up the receiver’s context, or both:
@@ -54,11 +54,21 @@ Adding context to the data carried by a call makes communication more efficient.
 
 Use Microsoft Lync 2013 CWE to display a business application that relates to the call. This application might display information about the caller or allow users to enter information about the call.
 
-
-> [!IMPORTANT]
-> <P>The contextual application must be installed and registered on each client computer where it will be used. For more information, see <A href="register-contextual-conversation-packages.md">Register contextual conversation packages</A>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The contextual application must be installed and registered on each client computer where it will be used. For more information, see <a href="register-contextual-conversation-packages.md">Register contextual conversation packages</a>.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Add context to a conversation you are joining
 
@@ -135,11 +145,21 @@ Developers can add rich context by sending an application ID in the message cont
 
 Rich context provides an easier way for an application to register for events with Lync 2013. For example, by using rich context, Microsoft Visual Studio can examine incoming conversations. When Visual Studio detects an appropriate conversation, it instructs Lync 2013 to dock the conversation window in the Visual Studio environment.
 
-
-> [!TIP]
-> <P>Rich context requires a registered package on the target computer. If the package is registered, it can be trusted. For more information about trust, see <A href="establish-trust-on-contextual-conversation-clients.md">Establish trust on contextual conversation clients</A>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Rich context requires a registered package on the target computer. If the package is registered, it can be trusted. For more information about trust, see <a href="establish-trust-on-contextual-conversation-clients.md">Establish trust on contextual conversation clients</a>.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Use Install Registration and Runtime Registration
 

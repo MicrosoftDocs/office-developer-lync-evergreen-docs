@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Beyond the basics: Persistent Chat'
 TOCTitle: Persistent Chat
 ms:assetid: 84405ae0-e817-48bc-ae55-38e61b3095ff
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Beyond the basics: Persistent Chat
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn about advanced features of Microsoft Lync 2013 SDK that let you enhance the Persistent Chat experience of Lync 2013 users.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Advanced Persistent Chat programming
 

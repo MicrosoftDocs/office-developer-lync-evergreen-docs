@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Share a whiteboard'
 TOCTitle: 'How to: Share a whiteboard'
 ms:assetid: d9cbfaf7-1791-49f8-8d42-637ef359bef6
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to share a whiteboard collaboration session in a Lync 2013 conversation by using Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -40,16 +41,25 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Whiteboard sharing overview
 
 This topic describes how to create a virtual whiteboard, upload a whiteboard to a conversation content bin, and then share the whiteboard in a conversation. The sample application shown in figure 1 is a Windows Forms application that implements the Lync 2013 API to let a user manage whiteboard collaboration in a conversation.
 
-
-> [!IMPORTANT]
-> <P>Whiteboard collaboration management is not supported in Lync UI suppression mode.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Whiteboard collaboration management is not supported in Lync UI suppression mode.</p></td>
+</tr>
+</tbody>
+</table>
 
 Figure 1 shows a sample conversation console application that lets a user manage virtual whiteboards on the sharing stage of a Lync 2013 conversation window.
 
@@ -102,10 +112,9 @@ Understanding the following concepts is essential to sharing a whiteboard in an 
 </tbody>
 </table>
 
-
 ## First steps
 
-Before the logic in this topic runs in your application, a conversation must be active and you have registered an event callback method for the **ContentSharingModalityActionAvailabilityChanged()** event. The [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](contentsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) in a connected state. For information about starting a conversation that hosts content sharing, see [How to: Start a content sharing conversation](how-to-start-a-content-sharing-conversation.md).
+Before the logic in this topic runs in your application, a conversation must be active and you have registered an event callback method for the **ContentSharingModalityActionAvailabilityChanged()** event. The [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) in a connected state. For information about starting a conversation that hosts content sharing, see [How to: Start a content sharing conversation](how-to-start-a-content-sharing-conversation.md).
 
 ### Code example: Namespace declarations
 
@@ -137,23 +146,33 @@ Add the following class field declarations to your application.
 
 ## Upload a whiteboard to a conversation
 
-When the [ModalityAction](modalityaction-enumeration-microsoft-lync-model-conversation_2.md)**.CreateShareableWhiteboardContent** action is available, you can create and upload a new whiteboard.
+When the [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\))**.CreateShareableWhiteboardContent** action is available, you can create and upload a new whiteboard.
 
 ### To upload a whiteboard
 
-1.  Verify that the whiteboard can be created by calling the [Modality.CanInvoke](modality-caninvoke-method-microsoft-lync-model-conversation_2.md) method.
+1.  Verify that the whiteboard can be created by calling the [Modality.CanInvoke](https://msdn.microsoft.com/en-us/library/jj267958\(v=office.15\)) method.
 
-2.  Create the whiteboard by calling the [ContentSharingModality.BeginCreateContent](contentsharingmodality-begincreatecontent-method-microsoft-lync-model-conversation-sharing_2.md) method.
+2.  Create the whiteboard by calling the [ContentSharingModality.BeginCreateContent](https://msdn.microsoft.com/en-us/library/jj277556\(v=office.15\)) method.
 
-3.  Upload the new whiteboard to the conversation by calling the [ShareableContent.Upload](shareablecontent-upload-method-microsoft-lync-model-conversation-sharing_2.md) method.
+3.  Upload the new whiteboard to the conversation by calling the [ShareableContent.Upload](https://msdn.microsoft.com/en-us/library/jj278338\(v=office.15\)) method.
 
-4.  Register for the [ShareableContent.ActionAvailabilityChanged](shareablecontent-actionavailabilitychanged-event-microsoft-lync-model-conversation-sharing_2.md) event on the new whiteboard object.
+4.  Register for the [ShareableContent.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj267657\(v=office.15\)) event on the new whiteboard object.
 
-
-> [!IMPORTANT]
-> <P>You must catch any of the three possible exceptions that can be raised when a user creates a new whiteboard. These exceptions are raised when the asynchronous operation is complete. If no exceptions are raised, you can upload the new whiteboard to the conversation by calling the <A href="shareablecontent-upload-method-microsoft-lync-model-conversation-sharing_2.md">ShareableContent.Upload</A> method on the new whiteboard. When the new whiteboard is uploaded to the conversation, the <A href="contentsharingmodality-contentadded-event-microsoft-lync-model-conversation-sharing_2.md">ContentSharingModality.ContentAdded</A> event is raised.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>You must catch any of the three possible exceptions that can be raised when a user creates a new whiteboard. These exceptions are raised when the asynchronous operation is complete. If no exceptions are raised, you can upload the new whiteboard to the conversation by calling the <a href="https://msdn.microsoft.com/en-us/library/jj278338(v=office.15)">ShareableContent.Upload</a> method on the new whiteboard. When the new whiteboard is uploaded to the conversation, the <a href="https://msdn.microsoft.com/en-us/library/jj293541(v=office.15)">ContentSharingModality.ContentAdded</a> event is raised.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Code example: Create and upload a whiteboard
 
@@ -198,7 +217,7 @@ The following example registers event callback methods on the new **SharingModal
 
 ### Code example: Handle the ActionAvailabilityChanged event
 
-The following example enables or disables the content item sharing UI buttons when the availability of actions on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object changes.
+The following example enables or disables the content item sharing UI buttons when the availability of actions on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object changes.
 
 ``` csharp
         /// <summary>
@@ -226,15 +245,15 @@ The following example enables or disables the content item sharing UI buttons wh
 
 ## Share a whiteboard
 
-To share a whiteboard, call the [ShareableContent.Present](shareablecontent-present-method-microsoft-lync-model-conversation-sharing_2.md) method on the content object that you want to share. If other content is being presented, it is displaced on the content sharing stage by the content sharing object on which you called the **Present** method.
+To share a whiteboard, call the [ShareableContent.Present](https://msdn.microsoft.com/en-us/library/jj276346\(v=office.15\)) method on the content object that you want to share. If other content is being presented, it is displaced on the content sharing stage by the content sharing object on which you called the **Present** method.
 
 ### To share a whiteboard
 
-1.  Iterate on the [ContentSharingModality.ContentCollection](contentsharingmodality-contentcollection-property-microsoft-lync-model-conversation-sharing_2.md) property to find the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object whose [ShareableContent.Title](shareablecontent-title-property-microsoft-lync-model-conversation-sharing_2.md) property matches the title that you want to share.
+1.  Iterate on the [ContentSharingModality.ContentCollection](https://msdn.microsoft.com/en-us/library/jj267301\(v=office.15\)) property to find the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object whose [ShareableContent.Title](https://msdn.microsoft.com/en-us/library/jj293276\(v=office.15\)) property matches the title that you want to share.
 
-2.  Verify that the content can be presented by calling the [ShareableContent.CanInvoke](shareablecontent-caninvoke-method-microsoft-lync-model-conversation-sharing_2.md) method.
+2.  Verify that the content can be presented by calling the [ShareableContent.CanInvoke](https://msdn.microsoft.com/en-us/library/jj275741\(v=office.15\)) method.
 
-3.  Share the content by calling the [ShareableContent.Present](shareablecontent-present-method-microsoft-lync-model-conversation-sharing_2.md) method.
+3.  Share the content by calling the [ShareableContent.Present](https://msdn.microsoft.com/en-us/library/jj276346\(v=office.15\)) method.
 
 ### Code example: Content item
 
@@ -265,15 +284,15 @@ The following example presents the content item whose title is "Project Plan."
 
 ## Stop sharing a whiteboard in a conversation
 
-To stop sharing a whiteboard, call the [ShareableContent.StopPresenting](shareablecontent-stoppresenting-method-microsoft-lync-model-conversation-sharing_2.md) method on the content object that you want to stop sharing.
+To stop sharing a whiteboard, call the [ShareableContent.StopPresenting](https://msdn.microsoft.com/en-us/library/jj277808\(v=office.15\)) method on the content object that you want to stop sharing.
 
 ### To stop sharing a whiteboard
 
-1.  Get the shared content by reading the [ContentSharingModality.ActiveContent](contentsharingmodality-activecontent-property-microsoft-lync-model-conversation-sharing_2.md) property on the conversation content sharing modality.
+1.  Get the shared content by reading the [ContentSharingModality.ActiveContent](https://msdn.microsoft.com/en-us/library/jj266430\(v=office.15\)) property on the conversation content sharing modality.
 
-2.  Verify that sharing can be stopped for the content by calling the [ShareableContent.CanInvoke](shareablecontent-caninvoke-method-microsoft-lync-model-conversation-sharing_2.md) method.
+2.  Verify that sharing can be stopped for the content by calling the [ShareableContent.CanInvoke](https://msdn.microsoft.com/en-us/library/jj275741\(v=office.15\)) method.
 
-3.  Stop sharing the content by calling the [ShareableContent.StopPresenting](shareablecontent-stoppresenting-method-microsoft-lync-model-conversation-sharing_2.md) method.
+3.  Stop sharing the content by calling the [ShareableContent.StopPresenting](https://msdn.microsoft.com/en-us/library/jj277808\(v=office.15\)) method.
 
 ### Code example: Stop sharing
 
@@ -313,42 +332,61 @@ Lync 2013 API conversation objects
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lyncclient-class-microsoft-lync-model_2.md">Microsoft.Lync.Model.LyncClient</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj274980(v=office.15)">Microsoft.Lync.Model.LyncClient</a></p></td>
 <td><p>Client platform API entry point.</p></td>
-<td><p><a href="clientstate-enumeration-microsoft-lync-model_2.md">ClientState</a><strong>.SignedIn</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">ClientState</a><strong>.SignedIn</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="conversation-class-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.Conversation</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj276988(v=office.15)">Microsoft.Lync.Model.Conversation.Conversation</a></p></td>
 <td><p>The content sharing conversation.</p></td>
-<td><p><a href="conversationstate-enumeration-microsoft-lync-model-conversation_2.md">ConversationState</a><strong>.Active</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277587(v=office.15)">ConversationState</a><strong>.Active</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="contentsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj266998(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality</a></p></td>
 <td><p>The conversation content sharing modality.</p>
 <div class="alert">
-
-> [!NOTE]
-> <P>Each participant in the active conversation exposes a collection of modalities that include a content sharing modality. Each of these content sharing modality objects is also connected.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Each participant in the active conversation exposes a collection of modalities that include a content sharing modality. Each of these content sharing modality objects is also connected.</p></td>
+</tr>
+</tbody>
+</table>
 </div></td>
-<td><p><a href="modalitystate-enumeration-microsoft-lync-model-conversation_2.md">ModalityState</a><strong>.Connected</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj293265(v=office.15)">ModalityState</a><strong>.Connected</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277217(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a></p></td>
 <td><p>The whiteboard that is uploaded and shared in the conversation.</p></td>
-<td><p><a href="shareablecontentstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">ShareableContentState</a><strong>.Active</strong></p>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/jj267322(v=office.15)">ShareableContentState</a><strong>.Active</strong></p>
 <div class="alert">
-
-> [!NOTE]
-> <P>If you are no longer sharing the whiteboard, the status is <A href="shareablecontentstate-enumeration-microsoft-lync-model-conversation-sharing_2.md">ShareableContentState</A><STRONG>.Online</STRONG>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>If you are no longer sharing the whiteboard, the status is <a href="https://msdn.microsoft.com/en-us/library/jj267322(v=office.15)">ShareableContentState</a><strong>.Online</strong>.</p></td>
+</tr>
+</tbody>
+</table>
 </div></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Code example: Quick meeting console
 

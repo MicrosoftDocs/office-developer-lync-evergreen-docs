@@ -1,4 +1,4 @@
-﻿---
+---
 title: Restyle the ContactList control
 TOCTitle: Restyle the ContactList control
 ms:assetid: 335829ed-da14-43ec-b765-b27438cd2c57
@@ -12,12 +12,13 @@ dev_langs:
 
 # Restyle the ContactList control
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn how to restyle the [ContactList](contactlist-class-microsoft-lync-controls_1.md) control by changing property values to alter the appearance of the control.
+Learn how to restyle the [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control by changing property values to alter the appearance of the control.
 
+**Last modified:** February 12, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -34,7 +35,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Restyling a Lync Control
 
 Use the following procedure to change the appearance of the control.
@@ -47,7 +47,7 @@ Use the following procedure to change the appearance of the control.
 
 2.  In the XAML pane, add the XAML text to create a ContactList control.
 
-3.  Add a style to set the [Background](contactcontentpresenter-background-property-microsoft-lync-controls_1.md) and [FontFamily](http://msdn2.microsoft.com/en-us/library/ms592513) properties on the control.
+3.  Add a style to set the [Background](https://msdn.microsoft.com/en-us/library/hh345162\(v=office.15\)) and [FontFamily](http://msdn2.microsoft.com/en-us/library/ms592513) properties on the control.
     
     ``` xaml
     <Grid>

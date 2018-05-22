@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Create a Silverlight page that displays a Lync presence control'
 TOCTitle: 'How to: Create a Silverlight page that displays a Lync presence control'
 ms:assetid: fb4bde62-9358-4c6f-af44-b84fa929f006
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn how to add a Microsoft Lync 2013 SDK PresenceIndicator control to a Silverlight page or WPF window and then publish the presence of a Lync user.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -41,12 +42,11 @@ Watch the video: Add Presence to a WPF Application
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><img src="images/JJ937288.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
+<td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
 <td><p><a href="http://code.msdn.microsoft.com/lync-2013-use-a-silverlight-18a585be">Use a Silverlight control to indicate the presence of participants</a></p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Prerequisites
 
@@ -88,11 +88,11 @@ Security settings for Microsoft Lync 2013 SDK applications require that the host
 
 6.  In the **New Silverlight Application** dialog box, clear the **Host the Silverlight application in a new Web site** check box, and then click **OK**.
 
-7.  In Page.xaml, in the XAML pane, find the [PresenceIndicator](presenceindicator-class-microsoft-lync-controls_1.md) control, and then edit the Source property to provide a valid value.
+7.  In Page.xaml, in the XAML pane, find the [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control, and then edit the Source property to provide a valid value.
 
 8.  Build and run the application.
     
-    On the Web page, the PresenceIndicator control displays presence for the contact specified by the [Source](contactbase-source-property-microsoft-lync-controls_1.md) property.
+    On the Web page, the PresenceIndicator control displays presence for the contact specified by the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property.
 
 ## Create a WPF application
 
@@ -112,7 +112,7 @@ To display presence in a WPF application, use the Lync WPF Application template 
 
 6.  Build and run the application.
     
-    In the active window, the PresenceIndicator control displays presence for the contact specified by the [Source](contactbase-source-property-microsoft-lync-controls_1.md) property.
+    In the active window, the PresenceIndicator control displays presence for the contact specified by the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property.
 
 ## Code example: Silverlight presence display page
 

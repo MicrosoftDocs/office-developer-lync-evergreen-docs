@@ -1,4 +1,4 @@
-﻿---
+---
 title: What you can do with enhanced presence
 TOCTitle: Enhanced presence
 ms:assetid: 334a1474-8b40-41bb-9391-613e45652e69
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn how to use the Microsoft Lync 2013 API to programmatically implement enhanced presence features, including getting contact enhanced presence, displaying presence in a ContactCard, getting available communication modes from a contact, publishing enhanced presence, and subscribing to enhanced presence.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -34,7 +35,6 @@ Watch the video: Add Presence to a WPF Application
 </tr>
 </tbody>
 </table>
-
 
 ## Core enhanced presence tasks
 

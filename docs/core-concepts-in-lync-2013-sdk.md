@@ -1,4 +1,4 @@
-﻿---
+---
 title: Core concepts in Lync 2013 SDK
 TOCTitle: Core concepts
 ms:assetid: cb91a952-89e5-49b7-86f5-4c45c0b5079b
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts for adding Lync features to your application by using Microsoft Lync 2013 SDK.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -30,7 +31,6 @@ Additional resources</p></td>
 </tr>
 </tbody>
 </table>
-
 
 ## Required essential knowledge
 
@@ -88,7 +88,6 @@ The Microsoft Lync 2013 API is designed to be easy to use by anyone familiar wit
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

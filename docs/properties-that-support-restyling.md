@@ -1,4 +1,4 @@
-﻿---
+---
 title: Properties that support restyling
 TOCTitle: Properties that support restyling
 ms:assetid: 78d6eb40-8872-4569-9632-84d0c9dfcadd
@@ -10,12 +10,13 @@ mtps_version: v=office.15
 
 # Properties that support restyling
 
-![Beyond the basics topic](images/JJ945548.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
+![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
 Learn how to use the properties on Lync Controls to modify their appearance.
 
+**Last modified:** February 12, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,12 +33,11 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Properties used to change Lync Controls style
 
 ### ContactList
 
-The following properties on [ContactList](contactlist-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ The following properties on [ContactList](contactlist-class-microsoft-lync-contr
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="contactcontentpresenter-background-property-microsoft-lync-controls_1.md">Background</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345162(v=office.15)">Background</a></p></td>
 <td><p>The background color is painted to the entire area, including buttons and contact items.</p></td>
 </tr>
 <tr class="even">
@@ -78,10 +78,9 @@ The following properties on [ContactList](contactlist-class-microsoft-lync-contr
 </tbody>
 </table>
 
-
 ### CustomContactList
 
-The following properties on [CustomContactList](customcontactlist-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [CustomContactList](https://msdn.microsoft.com/en-us/library/hh346321\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -122,10 +121,9 @@ The following properties on [CustomContactList](customcontactlist-class-microsof
 </tbody>
 </table>
 
-
 ### StartInstantMessagingButton
 
-The following properties on [StartInstantMessagingButton](startinstantmessagingbutton-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [StartInstantMessagingButton](https://msdn.microsoft.com/en-us/library/hh379340\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -154,10 +152,9 @@ The following properties on [StartInstantMessagingButton](startinstantmessagingb
 </tbody>
 </table>
 
-
 ### StartAudioCallButton
 
-The following properties on [StartAudioCallButton](startaudiocallbutton-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [StartAudioCallButton](https://msdn.microsoft.com/en-us/library/hh378744\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -186,10 +183,9 @@ The following properties on [StartAudioCallButton](startaudiocallbutton-class-mi
 </tbody>
 </table>
 
-
 ### ContactCard
 
-The following properties on [ContactCard](contactcard-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [ContactCard](https://msdn.microsoft.com/en-us/library/hh379168\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -226,10 +222,9 @@ The following properties on [ContactCard](contactcard-class-microsoft-lync-contr
 </tbody>
 </table>
 
-
 ### ContactSearchInputBox
 
-The following properties on [ContactSearchInputBox](contactsearchinputbox-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [ContactSearchInputBox](https://msdn.microsoft.com/en-us/library/hh379719\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -270,10 +265,9 @@ The following properties on [ContactSearchInputBox](contactsearchinputbox-class-
 </tbody>
 </table>
 
-
 ### ContactSearchResultList
 
-The following properties on [ContactSearchResultList](contactsearchresultlist-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [ContactSearchResultList](https://msdn.microsoft.com/en-us/library/hh379201\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -314,10 +308,9 @@ The following properties on [ContactSearchResultList](contactsearchresultlist-cl
 </tbody>
 </table>
 
-
 ### MyNoteBox
 
-The following properties on [MyNoteBox](mynotebox-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [MyNoteBox](https://msdn.microsoft.com/en-us/library/hh346137\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -362,10 +355,9 @@ The following properties on [MyNoteBox](mynotebox-class-microsoft-lync-controls_
 </tbody>
 </table>
 
-
 ### MyPresenceChooser
 
-The following properties on [MyPresenceChooser](mypresencechooser-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [MyPresenceChooser](https://msdn.microsoft.com/en-us/library/hh379434\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -418,10 +410,9 @@ The following properties on [MyPresenceChooser](mypresencechooser-class-microsof
 </tbody>
 </table>
 
-
 ### MyStatusArea
 
-The following properties on [MyStatusArea](mystatusarea-class-microsoft-lync-controls_1.md) support restyling the control.
+The following properties on [MyStatusArea](https://msdn.microsoft.com/en-us/library/hh363503\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -465,7 +456,6 @@ The following properties on [MyStatusArea](mystatusarea-class-microsoft-lync-con
 </tr>
 </tbody>
 </table>
-
 
 ## Additional resources
 

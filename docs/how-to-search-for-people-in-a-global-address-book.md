@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Search for people in a global address book'
 TOCTitle: 'How to: Search for people in a global address book'
 ms:assetid: 9d61ae21-738f-4ccd-9e47-c49a0633e1be
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to use the Microsoft Lync 2013 SDK to search for people in the Microsoft Office 2013 Unified Contact Store or other global address books.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013_
+***Applies to:** Lync 2013*
 
 You search for people because they aren’t in your contact list and you want to add them. You also search for people when you want to start a conversation with someone who you won’t be adding to your contact list. This topic shows you how to do the search operations for people.
 
@@ -41,7 +42,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Prerequisites
 
 The prerequisites for searching for contacts and distribution groups are as follow:
@@ -64,7 +64,7 @@ Before coding a contact search feature in your application, consider the followi
 
 ## Searching for people
 
-People searching is done by specifying address books to search through for matching names. The Lync 2013 API refers to these address books as **search providers** which are enumerated by [Microsoft.Lync.Model.SearchProviders](searchproviders-enumeration-microsoft-lync-model_2.md). If you want to search for people based on a skill set, you’ll need to learn about [Advanced contact search](advanced-contact-search.md), which uses an **Expert** search provider. Search results are returned asynchronously. You can get these results by providing a callback method that is invoked when the search is complete. The callback method gets the results by calling the **EndSearch** method and caching the return value.
+People searching is done by specifying address books to search through for matching names. The Lync 2013 API refers to these address books as **search providers** which are enumerated by [Microsoft.Lync.Model.SearchProviders](https://msdn.microsoft.com/en-us/library/jj278060\(v=office.15\)). If you want to search for people based on a skill set, you’ll need to learn about [Advanced contact search](advanced-contact-search.md), which uses an **Expert** search provider. Search results are returned asynchronously. You can get these results by providing a callback method that is invoked when the search is complete. The callback method gets the results by calling the **EndSearch** method and caching the return value.
 
 ### Search for people in Exchange 2013 contact lists
 
@@ -83,15 +83,15 @@ Figure 1. People search logic diagram.
 
 1.  Get the string used as the name search criteria.
 
-2.  Call the [ContactManager.BeginSearch](contactmanager-beginsearch-method-microsoft-lync-model_2.md) method.
+2.  Call the [ContactManager.BeginSearch](https://msdn.microsoft.com/en-us/library/jj278297\(v=office.15\)) method.
 
-3.  In a lambda expression or a callback method passed in the second argument of **BeginSearch**, get the results of the search by calling the [ContactManager.EndSearch](contactmanager-endsearch-method-microsoft-lync-model_2.md) method.
+3.  In a lambda expression or a callback method passed in the second argument of **BeginSearch**, get the results of the search by calling the [ContactManager.EndSearch](https://msdn.microsoft.com/en-us/library/jj277082\(v=office.15\)) method.
     
-    A [Microsoft.Lync.Model.SearchResults](searchresults-class-microsoft-lync-model_2.md) object is returned.
+    A [Microsoft.Lync.Model.SearchResults](https://msdn.microsoft.com/en-us/library/jj293514\(v=office.15\)) object is returned.
 
-4.  Get the number of people in the search results by reading the [SearchResults.Contacts](searchresults-contacts-property-microsoft-lync-model_2.md)**Count** property. If the number is zero, nobody in the address book matched the search criteria.
+4.  Get the number of people in the search results by reading the [SearchResults.Contacts](https://msdn.microsoft.com/en-us/library/jj276984\(v=office.15\))**Count** property. If the number is zero, nobody in the address book matched the search criteria.
     
-    The following example iterates the contact collection returned by the [SearchResults.Contacts](searchresults-contacts-property-microsoft-lync-model_2.md) property.
+    The following example iterates the contact collection returned by the [SearchResults.Contacts](https://msdn.microsoft.com/en-us/library/jj276984\(v=office.15\)) property.
     
     ``` csharp
                     //All global address books
@@ -155,15 +155,15 @@ Figure 2. People search logic diagram.
 
 1.  Obtain a user’s partial or full name as a string to be used as a search key.
 
-2.  Call the [ContactManager.BeginSearch](contactmanager-beginsearch-method-microsoft-lync-model_2.md) method.
+2.  Call the [ContactManager.BeginSearch](https://msdn.microsoft.com/en-us/library/jj278297\(v=office.15\)) method.
 
-3.  In a lambda expression or a callback method passed in the second argument of **BeginSearch**, get the results of the search by calling the [ContactManager.EndSearch](contactmanager-endsearch-method-microsoft-lync-model_2.md) method.
+3.  In a lambda expression or a callback method passed in the second argument of **BeginSearch**, get the results of the search by calling the [ContactManager.EndSearch](https://msdn.microsoft.com/en-us/library/jj277082\(v=office.15\)) method.
     
-    A [Microsoft.Lync.Model.SearchResults](searchresults-class-microsoft-lync-model_2.md) object is returned.
+    A [Microsoft.Lync.Model.SearchResults](https://msdn.microsoft.com/en-us/library/jj293514\(v=office.15\)) object is returned.
 
-4.  Read the [SearchResults.Contacts](searchresults-contacts-property-microsoft-lync-model_2.md)**Count** property, and then continue this procedure if the property value returns one or more contacts.
+4.  Read the [SearchResults.Contacts](https://msdn.microsoft.com/en-us/library/jj276984\(v=office.15\))**Count** property, and then continue this procedure if the property value returns one or more contacts.
     
-    The following example iterates the contact collection returned by the [SearchResults.Contacts](searchresults-contacts-property-microsoft-lync-model_2.md) property.
+    The following example iterates the contact collection returned by the [SearchResults.Contacts](https://msdn.microsoft.com/en-us/library/jj276984\(v=office.15\)) property.
     
     ``` csharp
             /// <summary>
@@ -233,13 +233,13 @@ To make the user contact search experience in your application more enjoyable, c
 
 **When you should start a search:** You can prevent unnecessary network SIP traffic by looking in your contact list before searching a network resource like an address book. A user may not know if someone is in their contact list and will use a UI search element like a list locator to find a person. Your application should look up the person by name in the contact list and then present the look up result. If the person you want is not in the result list, search for her in a global address book. Both look up and search are asynchronous, but only search requires calls to an Exchange Server web service.
 
-**Contact list item types:** People, telephone numbers, and distribution groups can be looked up in the contact list while Lync groups are accessed directly from the [ContactManager.Groups](contactmanager-groups-property-microsoft-lync-model_2.md) property. Contact list items can be added to the contact list from the Unified Contact Store (UCS) or the organization-wide Exchange Server global address list (GAL) after finding them in an address book search. You can also add items to a contact list through an activity such as starting an Lync audio call or sending an IM to someone in an external PIC system such as Yahoo.
+**Contact list item types:** People, telephone numbers, and distribution groups can be looked up in the contact list while Lync groups are accessed directly from the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property. Contact list items can be added to the contact list from the Unified Contact Store (UCS) or the organization-wide Exchange Server global address list (GAL) after finding them in an address book search. You can also add items to a contact list through an activity such as starting an Lync audio call or sending an IM to someone in an external PIC system such as Yahoo.
 
 **Keep contact availability fresh:** As soon as you get a set of contacts from a search, you can ask for a snapshot of the availability of any of the contacts. These snapshots get stale as people go on line, idle, busy, or off line. For example, a search returns Omar Snook and you request his availability as of now. The response says Omar is available for a conversation but you aren’t ready to talk to him. When you are ready for Omar, you try to start a conversation with him. Because Omar has gone off line since you got the snapshot, the conversation isn’t started.
 
-It is better to ask for an event from Lync that tells you when a contact’s availability changes. You can use the event to update Omar’s availability in your application UI. The mechanism that Lync uses to get availability change notifications is called **presence subscription**. It is a good idea to start your own subscription when you get the [Microsoft.Lync.Model.Contact](contact-class-microsoft-lync-model_2.md) object for Omar in search results. Read about availability subscription: [How to: Subscribe to enhanced presence content](how-to-subscribe-to-enhanced-presence-content.md)
+It is better to ask for an event from Lync that tells you when a contact’s availability changes. You can use the event to update Omar’s availability in your application UI. The mechanism that Lync uses to get availability change notifications is called **presence subscription**. It is a good idea to start your own subscription when you get the [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object for Omar in search results. Read about availability subscription: [How to: Subscribe to enhanced presence content](how-to-subscribe-to-enhanced-presence-content.md)
 
-**Searching for distribution groups:** You can also search for distribution groups. If distribution group search results are returned, add individual group members to a new conversation or your contact list. If you want to add a complete distribution group to your contact list, you can do that too. You can even use the [Microsoft.Lync.Model.Utilities](utilities-class-microsoft-lync-model_2.md) class to start an email with the whole distribution group on the to: line. Searching for distribution groups is very similar to searching for a person except that result parsing logic is a little bit different. For information about this, read [How to: Search for a distribution group](how-to-search-for-a-distribution-group.md).
+**Searching for distribution groups:** You can also search for distribution groups. If distribution group search results are returned, add individual group members to a new conversation or your contact list. If you want to add a complete distribution group to your contact list, you can do that too. You can even use the [Microsoft.Lync.Model.Utilities](https://msdn.microsoft.com/en-us/library/jj293806\(v=office.15\)) class to start an email with the whole distribution group on the to: line. Searching for distribution groups is very similar to searching for a person except that result parsing logic is a little bit different. For information about this, read [How to: Search for a distribution group](how-to-search-for-a-distribution-group.md).
 
 **The Exchange UCS address book:** The Exchange UCS keeps a history of the user’s Lync conversation participants and recipients of email sent by the user. UCS should be used when you only want to see a people search result list that contains the email addresses of people you have sent email to. The UCS address book contents are not limited to people in your organization.
 

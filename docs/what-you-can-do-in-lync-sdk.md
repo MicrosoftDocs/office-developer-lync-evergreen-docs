@@ -1,4 +1,4 @@
-﻿---
+---
 title: What you can do in Lync SDK
 TOCTitle: Lync SDK
 ms:assetid: bb79df6a-b15e-490c-8671-fcf4befe61ba
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn what you can do with Microsoft Lync 2013 SDK, including changing sign-in connection settings, signing in to and out of Lync 2013, publishing enhanced presence, and administering user privacy relationships.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -29,10 +30,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Core SDK tasks
 
-The [Microsoft.Lync.Model.LyncClient](lyncclient-class-microsoft-lync-model_2.md) class represents the SIP endpoint that can accept a set of user credentials and sign in to Microsoft Lync Server 2013. In addition, **LyncClient** can publish the signed-in user’s presence. Finally, **LyncClient** is the entry point for all further API functionality except for conversation automation. You access additional Lync 2013 API features by getting specialized feature manager class objects from properties of **LyncClient**. For example, you get a specialized contact manager by reading the [Client.ContactManager](client-contactmanager-property-microsoft-lync-model_2.md) property to get the [Microsoft.Lync.Model.ContactManager](contactmanager-class-microsoft-lync-model_2.md) object.
+The [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) class represents the SIP endpoint that can accept a set of user credentials and sign in to Microsoft Lync Server 2013. In addition, **LyncClient** can publish the signed-in user’s presence. Finally, **LyncClient** is the entry point for all further API functionality except for conversation automation. You access additional Lync 2013 API features by getting specialized feature manager class objects from properties of **LyncClient**. For example, you get a specialized contact manager by reading the [Client.ContactManager](https://msdn.microsoft.com/en-us/library/jj275688\(v=office.15\)) property to get the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) object.
 
 ## In this section
 

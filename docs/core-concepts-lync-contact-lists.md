@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Core concepts: Lync contact lists'
 TOCTitle: Lync contact lists
 ms:assetid: 1c93bc2a-c228-497f-8b2c-62a5fa7f24b2
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts that you need to know before you use the contact-related object model of Microsoft Lync 2013 SDK to modify a user’s contact list in Microsoft Lync 2013 or create your own Lync contact list in an application.
 
+**Last modified:** February 22, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -32,14 +33,13 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Contact list overview
 
 The Lync platform provides a contact manager class that lets you manage the contact list that is displayed in the Lync 2013 UI. Contact list management tasks that you can do programmatically include adding and removing contacts, adding and removing custom groups, renaming custom groups, and changing the membership of custom groups. In addition to contact list management, the contact manager gives you access to individual contact and group objects that you can use to create new conversations and invite users or groups of users.
 
 ## Contact list object model
 
-The object model mirrors the contact list elements that are shown in the Lync 2013 UI as shown in figure 1. You can use the Lync 2013 API to programmatically search for contacts and obtain the same results that a user obtains by typing contact names, group names, or skill keywords in the contact/group search feature of the UI. The [Microsoft.Lync.Model.Group.FavoriteContacts](favoritecontacts-class-microsoft-lync-model-group_2.md) object encapsulates the favorite contacts element of the list on the UI. You can move contacts in to and out of the favorite contacts group programmatically. Custom groups can be created or removed programmatically. You can also add or remove contacts from the custom groups.
+The object model mirrors the contact list elements that are shown in the Lync 2013 UI as shown in figure 1. You can use the Lync 2013 API to programmatically search for contacts and obtain the same results that a user obtains by typing contact names, group names, or skill keywords in the contact/group search feature of the UI. The [Microsoft.Lync.Model.Group.FavoriteContacts](https://msdn.microsoft.com/en-us/library/jj277579\(v=office.15\)) object encapsulates the favorite contacts element of the list on the UI. You can move contacts in to and out of the favorite contacts group programmatically. Custom groups can be created or removed programmatically. You can also add or remove contacts from the custom groups.
 
 Figure 1 shows the Lync 2013 client with the programmable contact list features called out. To add these features to an application, you should be familiar with the contact list objects described in this section.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync endpoint types
 TOCTitle: Lync endpoint types
 ms:assetid: fa01986d-7b7c-4f8c-a64c-24811e8b48e8
@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 Learn about writing a Microsoft Lync 2013 SDK enabled application that uses side-by-side Microsoft Lync 2013 endpoints to sign in to Lync with a unique set of user credentials for each endpoint.
 
+**Last modified:** December 07, 2015
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 ## Lync endpoints
 
@@ -31,11 +32,21 @@ Use the client endpoint if you are creating conversation window or chat window e
 
 The client endpoint singleton is initialized when the Lync 2013 client is started. This endpoint supports the client and any custom applications that use the client endpoint. The client endpoint accepts one set of user credentials and all custom applications that use the client endpoint act as a user agent for the person whose credentials are used to sign in to Lync. If UI suppression is enabled, the client endpoint can only be accessed by an Lync 2013 API-enabled application.
 
-
-> [!TIP]
-> <P>UI suppression settings apply only to the Lync 2013 client endpoint. If you disable UI suppression by setting the value of <STRONG>HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\UISuppressionMode</STRONG> to 0, there is no effect on the behavior of side-by-side endpoints.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>UI suppression settings apply only to the Lync 2013 client endpoint. If you disable UI suppression by setting the value of <strong>HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\UISuppressionMode</strong> to 0, there is no effect on the behavior of side-by-side endpoints.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### The Side-by-side endpoint
 

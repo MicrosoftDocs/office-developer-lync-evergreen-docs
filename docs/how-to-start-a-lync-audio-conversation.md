@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Start a Lync audio conversation'
 TOCTitle: 'How to: Start a Lync audio conversation'
 ms:assetid: f3aae105-f30f-47a6-a5be-6bff50a25046
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to start a Microsoft Lync 2013 audio conversation by using methods in Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -37,10 +38,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Audio conversation overview
 
-Starting a Lync audio conversation involves creating a conversation with a local and remote participant and connecting to the remote participant using the participant’s audio/video modality. To complete this procedure, you must handle state change events on both the client’s [ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md) instance and the conversation itself.
+Starting a Lync audio conversation involves creating a conversation with a local and remote participant and connecting to the remote participant using the participant’s audio/video modality. To complete this procedure, you must handle state change events on both the client’s [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) instance and the conversation itself.
 
 ## Prerequisites
 
@@ -68,7 +68,7 @@ The prerequisites for starting an audio conversation are as follows:
 <tbody>
 <tr class="odd">
 <td><p><a href="conversation-manager.md">Conversation manager</a></p></td>
-<td><p>Describes the role of the <a href="conversationmanager-class-microsoft-lync-model-conversation_2.md">Microsoft.Lync.Model.Conversation.ConversationManager</a> class in starting conversations and responding to incoming conversation invitations.</p></td>
+<td><p>Describes the role of the <a href="https://msdn.microsoft.com/en-us/library/jj266018(v=office.15)">Microsoft.Lync.Model.Conversation.ConversationManager</a> class in starting conversations and responding to incoming conversation invitations.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="conversation-participants.md">Conversation participants</a></p></td>
@@ -76,7 +76,6 @@ The prerequisites for starting an audio conversation are as follows:
 </tr>
 </tbody>
 </table>
-
 
 ## Start an audio conversation
 
@@ -88,19 +87,19 @@ The following figure illustrates the classes, methods, and events used in the pr
 
 ### To start an audio conversation
 
-1.  Create a callback method that handles the [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event.
+1.  Create a callback method that handles the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
 
-2.  Create a callback method that handles the [ParticipantAdded](conversation-participantadded-event-microsoft-lync-model-conversation_2.md) event.
+2.  Create a callback method that handles the [ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event.
 
-3.  Get the [LyncClient](lyncclient-class-microsoft-lync-model_2.md) instance and verify that the client is signed in to the server.
+3.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
     
     For information about signing in to Microsoft Lync Server 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-4.  Get the [ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md) instance by reading the [ConversationManager](client-conversationmanager-property-microsoft-lync-model_2.md) property of the [LyncClient](lyncclient-class-microsoft-lync-model_2.md) class instance.
+4.  Get the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) instance by reading the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)) property of the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) class instance.
 
-5.  Register for the [ConversationAdded](conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md) event on the [ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md) instance.
+5.  Register for the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event on the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) instance.
 
-6.  Call the [AddConversation](conversationmanager-addconversation-method-microsoft-lync-model-conversation_2.md) method on the [ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md) instance.
+6.  Call the [AddConversation](https://msdn.microsoft.com/en-us/library/jj276176\(v=office.15\)) method on the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) instance.
 
 ## Handle events
 
@@ -108,57 +107,87 @@ The following figure illustrates the classes, methods, and events used in the pr
 
 1.  Check the modality state of the audio/video modality on the added conversation.
     
-    If the modality is [ModalityState](modalitystate-enumeration-microsoft-lync-model-conversation_2.md).**Notified**, the conversation was not started by the local user. For this procedure, handle the event for only the conversation added by the local user.
+    If the modality is [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\)).**Notified**, the conversation was not started by the local user. For this procedure, handle the event for only the conversation added by the local user.
     
-
-    > [!TIP]
-    > <P>The <A href="conversationmanager-conversationadded-event-microsoft-lync-model-conversation_2.md">ConversationAdded</A> event is raised when either a local user starts a conversation or a remote user invites the local user to a new conversation.</P>
-
-
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The <a href="https://msdn.microsoft.com/en-us/library/jj266470(v=office.15)">ConversationAdded</a> event is raised when either a local user starts a conversation or a remote user invites the local user to a new conversation.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
 2.  Register for state change events on the conversation.
 
-3.  Call the [CanInvoke](conversation-caninvoke-method-microsoft-lync-model-conversation_2.md) method and pass [ConversationAction](conversationaction-enumeration-microsoft-lync-model-conversation_2.md).**AddParticipant**.
+3.  Call the [CanInvoke](https://msdn.microsoft.com/en-us/library/jj277273\(v=office.15\)) method and pass [ConversationAction](https://msdn.microsoft.com/en-us/library/jj276195\(v=office.15\)).**AddParticipant**.
 
-4.  If you can add a participant, get a [Contact](contact-class-microsoft-lync-model_2.md) instance to add to the conversation by calling into [GetContactByUri](contactmanager-getcontactbyuri-method-microsoft-lync-model_2.md).
+4.  If you can add a participant, get a [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instance to add to the conversation by calling into [GetContactByUri](https://msdn.microsoft.com/en-us/library/jj274481\(v=office.15\)).
     
     A contact that resolves to the passed URI is returned.
 
-5.  Call the [AddParticipant](conversation-addparticipant-method-microsoft-lync-model-conversation_2.md) method on the conversation and pass the [Contact](contact-class-microsoft-lync-model_2.md) instance from step 4 as the contact argument.
+5.  Call the [AddParticipant](https://msdn.microsoft.com/en-us/library/jj266479\(v=office.15\)) method on the conversation and pass the [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instance from step 4 as the contact argument.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>If you add two or more participants to an audio conversation, the conversation is automatically converted to an audio conference and hosted on Microsoft Lync Server 2013. When it is converted to a conference, the conversation object is provisioned with conference properties that you can use to assign meeting access, lobby management, and presenter promotion. For information about audio meetings, see <a href="what-you-can-do-with-lync-meetings.md">What you can do with Lync meetings</a>.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!IMPORTANT]
-    > <P>If you add two or more participants to an audio conversation, the conversation is automatically converted to an audio conference and hosted on Microsoft Lync Server 2013. When it is converted to a conference, the conversation object is provisioned with conference properties that you can use to assign meeting access, lobby management, and presenter promotion. For information about audio meetings, see <A href="what-you-can-do-with-lync-meetings.md">What you can do with Lync meetings</A>.</P>
-
-
-
-
-> [!IMPORTANT]
-> <P>You must register for and handle events on both locally originated conversations and conversations you obtain by accepting an invitation from a remote user.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>You must register for and handle events on both locally originated conversations and conversations you obtain by accepting an invitation from a remote user.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### To handle the ParticipantAdded event
 
-1.  Read the [IsSelf](participant-isself-property-microsoft-lync-model-conversation_2.md) property of the added participant exposed by [Participant](participantcollectionchangedeventargs-participant-property-microsoft-lync-model-conversation_2.md) property.
+1.  Read the [IsSelf](https://msdn.microsoft.com/en-us/library/jj267304\(v=office.15\)) property of the added participant exposed by [Participant](https://msdn.microsoft.com/en-us/library/jj293211\(v=office.15\)) property.
     
     The following steps should not be executed for the self-participant.
 
-2.  Get the [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) from the [Modalities](conversation-modalities-property-microsoft-lync-model-conversation_2.md) property of the conversation in the source parameter of the callback method: source.Modalities\[ModalityTypes.AudioVideo\].
+2.  Get the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) from the [Modalities](https://msdn.microsoft.com/en-us/library/jj275560\(v=office.15\)) property of the conversation in the source parameter of the callback method: source.Modalities\[ModalityTypes.AudioVideo\].
 
-3.  Cast the obtained [Modality](modality-class-microsoft-lync-model-conversation_2.md) class instance to [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md).
+3.  Cast the obtained [Modality](https://msdn.microsoft.com/en-us/library/jj274796\(v=office.15\)) class instance to [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)).
 
-4.  Register for [ModalityStateChanged](modality-modalitystatechanged-event-microsoft-lync-model-conversation_2.md) on the audio/video modality to catch the [ModalityState](modalitystate-enumeration-microsoft-lync-model-conversation_2.md).**Connected** event that is raised after you connect to the modality.
+4.  Register for [ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) on the audio/video modality to catch the [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\)).**Connected** event that is raised after you connect to the modality.
 
 5.  Register for participant events on the remote participant.
 
-6.  Call the [BeginConnect](modality-beginconnect-method-microsoft-lync-model-conversation_2.md) method on this [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) instance to allow both the local and remote endpoints to accept the conversation. You must call [EndConnect](modality-endconnect-method-microsoft-lync-model-conversation_2.md) after calling **BeginConnect**. You can call **EndConnect** on your UI thread or you can call it within a **System.AsyncCallback** method you pass into **BeginConnect**.
+6.  Call the [BeginConnect](https://msdn.microsoft.com/en-us/library/jj268193\(v=office.15\)) method on this [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance to allow both the local and remote endpoints to accept the conversation. You must call [EndConnect](https://msdn.microsoft.com/en-us/library/jj274550\(v=office.15\)) after calling **BeginConnect**. You can call **EndConnect** on your UI thread or you can call it within a **System.AsyncCallback** method you pass into **BeginConnect**.
 
 ## Code examples: Audio conversations
 
 These procedures assume that you have created a **Windows.Forms** object and populated it with a textbox for entry of a contact’s URI and a button that you use to start a conversation. If you create a WPF application and use this example code, you must marshal event data using [System.Windows.Threading.Dispatcher.BeginInvoke(Delegate, Object\[\])](http://msdn.microsoft.com/en-us/library/cc190824.aspx).
 
-The following example creates a new conversation by calling into the [AddConversation](conversationmanager-addconversation-method-microsoft-lync-model-conversation_2.md) method on an instance of the [ConversationManager](conversationmanager-class-microsoft-lync-model-conversation_2.md).
+The following example creates a new conversation by calling into the [AddConversation](https://msdn.microsoft.com/en-us/library/jj276176\(v=office.15\)) method on an instance of the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)).
 
 ### Declarations
 
@@ -184,7 +213,7 @@ namespace CustomAudioConversation
 
 ### Start a conversation
 
-The following example registers for conversation manager events and starts the conversation. Assume the [LyncClient](lyncclient-class-microsoft-lync-model_2.md) was obtained using the steps in [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
+The following example registers for conversation manager events and starts the conversation. Assume the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) was obtained using the steps in [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
 ``` csharp
 public void StartConversation()
@@ -223,13 +252,23 @@ The following example registers for conversation instance events and adds a part
 
 ### Conversation events
 
-The previous example added a participant. This example handles the event raised when the participant is added. It obtains the [AVModality](avmodality-class-microsoft-lync-model-conversation-audiovideo_2.md) of the new conversation and begins to connect to the remote participant using this modality. When the modality is connected, a state change event for the modality is raised.
+The previous example added a participant. This example handles the event raised when the participant is added. It obtains the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) of the new conversation and begins to connect to the remote participant using this modality. When the modality is connected, a state change event for the modality is raised.
 
-
-> [!TIP]
-> <P>A collection of modalities is also surfaced by the new participant but you do not connect to the remote participant using these. The participant modality collection is only used for instant messaging.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>A collection of modalities is also surfaced by the new participant but you do not connect to the remote participant using these. The participant modality collection is only used for instant messaging.</p></td>
+</tr>
+</tbody>
+</table>
 
 ``` csharp
         /// <summary>
@@ -260,9 +299,9 @@ The previous example added a participant. This example handles the event raised 
 
 ### Conversation modality operation callback
 
-The following example calls [EndConnect](modality-endconnect-method-microsoft-lync-model-conversation_2.md) to complete the connect operation. Because several different modality operations can be executed, it is important that your callback method determines which started operation triggers the asynchronous callback. The example uses the asynchronous state property of **IAsyncResult** to indicate the operation that was started on the UI thread.
+The following example calls [EndConnect](https://msdn.microsoft.com/en-us/library/jj274550\(v=office.15\)) to complete the connect operation. Because several different modality operations can be executed, it is important that your callback method determines which started operation triggers the asynchronous callback. The example uses the asynchronous state property of **IAsyncResult** to indicate the operation that was started on the UI thread.
 
-Calling the [EndConnect](modality-endconnect-method-microsoft-lync-model-conversation_2.md) method in the callback instead of in the UI thread prevents the example application from blocking while the call is connected.
+Calling the [EndConnect](https://msdn.microsoft.com/en-us/library/jj274550\(v=office.15\)) method in the callback instead of in the UI thread prevents the example application from blocking while the call is connected.
 
 ``` csharp
         /// <summary>
@@ -303,11 +342,21 @@ Calling the [EndConnect](modality-endconnect-method-microsoft-lync-model-convers
 
 This example handles the modality state change event that is raised when the conversation audio/video modality has connected to the remote participant.
 
-
-> [!WARNING]
-> <P>You might experience an eventing delay after a participant endpoint has disconnected from a modality. For example, if an attempt to connect a participant to the audio modality ends in failure because the telephone number that was called is busy, you might not receive a modality state change event for the disconnect immediately.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Caution note" alt="Caution note" /><strong>Caution</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>You might experience an eventing delay after a participant endpoint has disconnected from a modality. For example, if an attempt to connect a participant to the audio modality ends in failure because the telephone number that was called is busy, you might not receive a modality state change event for the disconnect immediately.</p></td>
+</tr>
+</tbody>
+</table>
 
 ``` csharp
         /// <summary>

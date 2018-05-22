@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Save and clear whiteboard annotations'
 TOCTitle: 'How to: Save and clear whiteboard annotations'
 ms:assetid: bd3f8d38-094c-4b66-977c-c98819c1e8cc
@@ -14,8 +14,9 @@ dev_langs:
 
 Learn how to save and clear annotations made to a whiteboard in a Lync 2013 conversation by using Microsoft Lync 2013 SDK.
 
+**Last modified:** July 01, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -37,16 +38,25 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Whiteboard annotations overview
 
 Learn how to save an image of an annotated meeting whiteboard as an .xps or .png file. The sample application shown in figure 1 is a Windows Forms application that implements the Lync 2013 API to let a user save annotations on shared content.
 
-
-> [!IMPORTANT]
-> <P>Conversation content annotation saving and clearing is not supported in Lync UI suppression mode.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Conversation content annotation saving and clearing is not supported in Lync UI suppression mode.</p></td>
+</tr>
+</tbody>
+</table>
 
 Figure 1 shows a sample conversation console application that lets a user attach files to a Microsoft Lync 2013 conversation.
 
@@ -91,10 +101,9 @@ Understanding the following concepts is essential to using content sharing conve
 </tbody>
 </table>
 
-
 ## First steps
 
-Before the logic in this topic runs in your application, a conversation must be active and referenced by the class field **\_conversation**. You have registered an event callback method for the **ContentSharingModalityActionAvailabilityChanged()** event. The [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](contentsharingmodality-class-microsoft-lync-model-conversation-sharing_2.md) is in a connected state. At least one shareable content item is uploaded to the conversation and annotated. For information about starting a conversation that hosts content sharing, see [How to: Start a content sharing conversation](how-to-start-a-content-sharing-conversation.md).
+Before the logic in this topic runs in your application, a conversation must be active and referenced by the class field **\_conversation**. You have registered an event callback method for the **ContentSharingModalityActionAvailabilityChanged()** event. The [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) is in a connected state. At least one shareable content item is uploaded to the conversation and annotated. For information about starting a conversation that hosts content sharing, see [How to: Start a content sharing conversation](how-to-start-a-content-sharing-conversation.md).
 
 ### Code example: Namespace declarations
 
@@ -126,13 +135,23 @@ Add the following class field declarations to your application.
 
 ## Save content annotations
 
-You can save the annotations that are made to any content in the content bin whether it is currently active or not. To save the annotations made to an [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object, obtain the path and file name from the user and the annotation image file format to be applied to the saved image.
+You can save the annotations that are made to any content in the content bin whether it is currently active or not. To save the annotations made to an [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object, obtain the path and file name from the user and the annotation image file format to be applied to the saved image.
 
-
-> [!TIP]
-> <P>Be sure to verify that the annotation save path supplied by the user exists before attempting to save the annotations to a file.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933112.alert_note(Office.15).gif" title="Tip" alt="Tip" /><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Be sure to verify that the annotation save path supplied by the user exists before attempting to save the annotations to a file.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Code example: Save annotations
 
@@ -172,7 +191,7 @@ The following example saves the annotations made to the active shared content lo
 
 ## Clear content annotations
 
-You can clear the annotations that are made to any content in the content bin whether it is currently active or not. To clear the annotations made to an [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](shareablecontent-class-microsoft-lync-model-conversation-sharing_2.md) object, call the [ShareableContent.ClearAllAnnotations](shareablecontent-clearallannotations-method-microsoft-lync-model-conversation-sharing_2.md) method on the object.
+You can clear the annotations that are made to any content in the content bin whether it is currently active or not. To clear the annotations made to an [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object, call the [ShareableContent.ClearAllAnnotations](https://msdn.microsoft.com/en-us/library/jj275940\(v=office.15\)) method on the object.
 
 ### Code example: Clear all annotations
 

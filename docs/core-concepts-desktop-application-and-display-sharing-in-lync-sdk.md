@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Core concepts: Desktop, application, and display sharing in Lync SDK'
 TOCTitle: Desktop, application, and display sharing
 ms:assetid: 56ef48ad-d42e-4e0a-bd72-fbc0be00a623
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts of desktop, application, and display sharing with Microsoft Lync 2013 SDK in Lync 2013.
 
+**Last modified:** April 04, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -31,10 +32,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Sharing in Lync 2013
 
-The first topic in this section defines the concept of resource sharing in Lync 2013 and introduces the Lync 2013 API programmable objects that you use to implement sharing. The second topic takes a detailed look at the implementation of the [Microsoft.Lync.Model.Conversation.Modality](modality-class-microsoft-lync-model-conversation_2.md) class that exposes the events, methods, and properties of the application sharing modality in a conversation.
+The first topic in this section defines the concept of resource sharing in Lync 2013 and introduces the Lync 2013 API programmable objects that you use to implement sharing. The second topic takes a detailed look at the implementation of the [Microsoft.Lync.Model.Conversation.Modality](https://msdn.microsoft.com/en-us/library/jj274796\(v=office.15\)) class that exposes the events, methods, and properties of the application sharing modality in a conversation.
 
 ## In this section
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Start a meet-now meeting'
 TOCTitle: 'How to: Start a meet-now meeting'
 ms:assetid: 7ad004b5-c689-4d64-9bd2-ea83faa92943
@@ -15,8 +15,9 @@ dev_langs:
 
 Learn how to start a Microsoft Lync 2013 meet-now meeting and register for meeting lobby events by using Microsoft Lync 2013 SDK.
 
+**Last modified:** September 26, 2014
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -37,7 +38,6 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Prerequisites
 
 The prerequisites for starting a meet-now meeting are as follows:
@@ -52,23 +52,33 @@ The prerequisites for starting a meet-now meeting are as follows:
 
 A meet-now meeting is started as a conversation with the IM modality connected and a single participant. The single participant is a meeting presenter and is the Lync 2013 user who started the meeting. After the meeting is started and the meeting conversation window is open, the user can invite additional users and add conversation modalities. This can be done programmatically or by interacting directly with the conversation window.
 
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The meet-now meeting uses server resources to start a conference focus and an audio MCU. Any user who is added to the meeting is invited to join by using the audio device that is configured on his or her computer. People can also use a PSTN telephone to dial in to the meeting and participate on the audio modality but not on the IM modality.</p></td>
+</tr>
+</tbody>
+</table>
 
-> [!IMPORTANT]
-> <P>The meet-now meeting uses server resources to start a conference focus and an audio MCU. Any user who is added to the meeting is invited to join by using the audio device that is configured on his or her computer. People can also use a PSTN telephone to dial in to the meeting and participate on the audio modality but not on the IM modality.</P>
-
-
-
-The following procedure shows how to start the meeting and get the [Microsoft.Lync.Model.Conversation.Conversation](conversation-class-microsoft-lync-model-conversation_2.md) object, which is the API entry point for further programmatic interaction.
+The following procedure shows how to start the meeting and get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) object, which is the API entry point for further programmatic interaction.
 
 ### To start a meet-now meeting
 
-1.  Get the [Microsoft.Lync.Model.Extensibility.Automation](automation-class-microsoft-lync-model-extensibility_2.md) object by calling the static [LyncClient.GetAutomation](lyncclient-getautomation-method-microsoft-lync-model_2.md) method.
+1.  Get the [Microsoft.Lync.Model.Extensibility.Automation](https://msdn.microsoft.com/en-us/library/jj293816\(v=office.15\)) object by calling the static [LyncClient.GetAutomation](https://msdn.microsoft.com/en-us/library/jj266970\(v=office.15\)) method.
 
-2.  Call the [Automation.BeginMeetNow](automation-beginmeetnow-method-microsoft-lync-model-extensibility_2.md) method.
+2.  Call the [Automation.BeginMeetNow](https://msdn.microsoft.com/en-us/library/jj277161\(v=office.15\)) method.
 
-3.  In a callback method or lambda expression passed to the **BeginMeetNow** method, call the [Automation.EndMeetNow](automation-endmeetnow-method-microsoft-lync-model-extensibility_2.md) method.
+3.  In a callback method or lambda expression passed to the **BeginMeetNow** method, call the [Automation.EndMeetNow](https://msdn.microsoft.com/en-us/library/jj278119\(v=office.15\)) method.
     
-    A [Microsoft.Lync.Model.Extensibility.ConversationWindow](conversationwindow-class-microsoft-lync-model-extensibility_2.md) object is returned. Use this object for operations such as docking and resizing the conversation window.
+    A [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) object is returned. Use this object for operations such as docking and resizing the conversation window.
     
     ``` csharp
                     _Automation.BeginMeetNow((ar) => 
@@ -86,37 +96,57 @@ The following procedure shows how to start the meeting and get the [Microsoft.Ly
                     null);
     ```
 
-4.  Get the [Microsoft.Lync.Model.Conversation.Conversation](conversation-class-microsoft-lync-model-conversation_2.md) object by reading the [ConversationWindow.Conversation](conversationwindow-conversation-property-microsoft-lync-model-extensibility_2.md) property on the **ConversationWindow** object obtained in step 3.
+4.  Get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) object by reading the [ConversationWindow.Conversation](https://msdn.microsoft.com/en-us/library/jj275546\(v=office.15\)) property on the **ConversationWindow** object obtained in step 3.
 
 5.  Register an event handler for meeting lobby-events.
     
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ933112.alert_note(Office.15).gif" title="Note" alt="Note" /><strong>Note</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>The meeting lobby is used in closed meetings and is a logical entity that does not directly notify your application logic of new members. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/jj275759(v=office.15)">Conversation.ParticipantAdded</a> event for lobby events. When participants are added, they are added directly to a meeting or to the meeting lobby. For information about handling the meeting lobby events, see <a href="how-to-admit-or-deny-people-in-the-meeting-lobby.md">How to: Admit or deny people in the meeting lobby</a>.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    > [!NOTE]
-    > <P>The meeting lobby is used in closed meetings and is a logical entity that does not directly notify your application logic of new members. Instead, use the <A href="conversation-participantadded-event-microsoft-lync-model-conversation_2.md">Conversation.ParticipantAdded</A> event for lobby events. When participants are added, they are added directly to a meeting or to the meeting lobby. For information about handling the meeting lobby events, see <A href="how-to-admit-or-deny-people-in-the-meeting-lobby.md">How to: Admit or deny people in the meeting lobby</A>.</P>
-
-
-
-
-> [!IMPORTANT]
-> <P>The default meeting access options for new meet-now meetings allow anyone to enter directly into the meeting as long as they have the meeting admission key. You should set the meeting access to the appropriate level when you obtain the meeting <STRONG>ConversationWindow</STRONG>. To learn about setting meeting access, see <A href="how-to-set-meeting-access.md">How to: Set meeting access</A>.</P>
-
-
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ933089.alert_caution(Office.15).gif" title="Important note" alt="Important note" /><strong>Important</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The default meeting access options for new meet-now meetings allow anyone to enter directly into the meeting as long as they have the meeting admission key. You should set the meeting access to the appropriate level when you obtain the meeting <strong>ConversationWindow</strong>. To learn about setting meeting access, see <a href="how-to-set-meeting-access.md">How to: Set meeting access</a>.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Obtain the meeting admission key
 
-There are two ways to get people into the new meeting. You can invite people directly by adding representative [Microsoft.Lync.Model.Conversation.Participant](participant-class-microsoft-lync-model-conversation_2.md) objects to the [Microsoft.Lync.Model.Conversation.Conversation](conversation-class-microsoft-lync-model-conversation_2.md) object or you can get the admission key values from the conversation and then use a delivery mechanism such as email to send the key to people who can join the meeting by clicking a meeting URL link or dialing in to the meeting by telephone.
+There are two ways to get people into the new meeting. You can invite people directly by adding representative [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/en-us/library/jj267311\(v=office.15\)) objects to the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) object or you can get the admission key values from the conversation and then use a delivery mechanism such as email to send the key to people who can join the meeting by clicking a meeting URL link or dialing in to the meeting by telephone.
 
 ### To obtain the meeting admission key
 
-1.  Handle the [Conversation.PropertyChanged](conversation-propertychanged-event-microsoft-lync-model-conversation_2.md) event for which you registered a handler when you obtained the **Conversation**.
+1.  Handle the [Conversation.PropertyChanged](https://msdn.microsoft.com/en-us/library/jj276330\(v=office.15\)) event for which you registered a handler when you obtained the **Conversation**.
 
-2.  Read the [ConversationPropertyChangedEventArgs.Property](conversationpropertychangedeventargs-property-property-microsoft-lync-model-conversation_2.md) property.
+2.  Read the [ConversationPropertyChangedEventArgs.Property](https://msdn.microsoft.com/en-us/library/jj277087\(v=office.15\)) property.
 
 3.  If the changed property is the [ConversationProperty.ConferenceAccessInformation](https://msdn.microsoft.com/en-us/library/gg253352\(v=office.15\)) property, continue this procedure.
 
-4.  Get the [Microsoft.Lync.Model.Conversation.ConferenceAccessInformation](conferenceaccessinformation-class-microsoft-lync-model-conversation_2.md) object that holds the admission key from the [ConversationPropertyChangedEventArgs.Value](conversationpropertychangedeventargs-value-property-microsoft-lync-model-conversation_2.md) property.
+4.  Get the [Microsoft.Lync.Model.Conversation.ConferenceAccessInformation](https://msdn.microsoft.com/en-us/library/jj266047\(v=office.15\)) object that holds the admission key from the [ConversationPropertyChangedEventArgs.Value](https://msdn.microsoft.com/en-us/library/jj293622\(v=office.15\)) property.
 
-5.  Read the properties of the [Microsoft.Lync.Model.Conversation.ConferenceAccessInformation](conferenceaccessinformation-class-microsoft-lync-model-conversation_2.md) object as in the following example.
+5.  Read the properties of the [Microsoft.Lync.Model.Conversation.ConferenceAccessInformation](https://msdn.microsoft.com/en-us/library/jj266047\(v=office.15\)) object as in the following example.
     
     ``` csharp
                         //These properties are used to invite people by creating an email (or text message, or IM)

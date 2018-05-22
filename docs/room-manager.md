@@ -1,4 +1,4 @@
-﻿---
+---
 title: Room manager
 TOCTitle: Room manager
 ms:assetid: 6ff10e45-3171-48b3-8a0b-a75d646bb814
@@ -14,8 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Microsoft Lync 2013 Persistent Chat room manager class that is part of Microsoft Lync 2013 SDK.
 
+**Last modified:** December 11, 2012
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -34,10 +35,9 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-
 ## Room manager overview
 
-The [Microsoft.Lync.Model.Room.RoomManager](roommanager-class-microsoft-lync-model-room_2.md) class is the entry point to the Persistent Chat feature in the Lync 2013 API. The class gives you access to any chat room that has been added to Microsoft Lync Server 2013 Persistent Chat in a Microsoft Lync Server 2013 topology. Use the class to get a chat room to post and read messages.
+The [Microsoft.Lync.Model.Room.RoomManager](https://msdn.microsoft.com/en-us/library/jj277050\(v=office.15\)) class is the entry point to the Persistent Chat feature in the Lync 2013 API. The class gives you access to any chat room that has been added to Microsoft Lync Server 2013 Persistent Chat in a Microsoft Lync Server 2013 topology. Use the class to get a chat room to post and read messages.
 
 ## Accessing chat rooms
 
@@ -55,7 +55,7 @@ When a user types a partial room name in the search bar of the Lync 2013 client,
 
 ### Query by room URI
 
-If the URI of a chat room is known, you can get the corresponding [Microsoft.Lync.Model.Room.Room](room-class-microsoft-lync-model-room_2.md) object. The room URI is exposed in the **RoomURI()** property only. You cannot get the room URI from the Lync 2013 client itself. Another application can obtain the **Room** object by either searching for it with a partial room title or obtaining it from a followed room list. When a **Room** object is obtained, the URI can be sent to another user by an IM message or email. An advantage of sending a URI instead of a full room title is that the URI is an unambiguous reference to a specific room.
+If the URI of a chat room is known, you can get the corresponding [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) object. The room URI is exposed in the **RoomURI()** property only. You cannot get the room URI from the Lync 2013 client itself. Another application can obtain the **Room** object by either searching for it with a partial room title or obtaining it from a followed room list. When a **Room** object is obtained, the URI can be sent to another user by an IM message or email. An advantage of sending a URI instead of a full room title is that the URI is an unambiguous reference to a specific room.
 
 ### Followed rooms collection
 
