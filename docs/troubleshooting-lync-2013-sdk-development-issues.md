@@ -51,7 +51,7 @@ This error may occur when you start a Lync custom application that uses UI suppr
 
 ### Generic COM Exception. Code 0x800706F7
 
-This error may occur in applications that use the [VideoWindow](videowindow-class-microsoft-lync-model-conversation-audiovideo.md) class. This error was documented in two Knowledge Base articles:
+This error may occur in applications that use the [VideoWindow](https://msdn.microsoft.com/en-us/library/office/microsoft.lync.model.conversation.audiovideo.videowindow_di_3_uc_ocs14mreflyncclnt.aspx) class. This error was documented in two Knowledge Base articles:
 
   - [The call operation fails with error code "0x800706f7"](http://support.microsoft.com/kb/2457836)
 
@@ -71,11 +71,11 @@ Users report errors like "\<object\> does not contain a definition for ‘GetHos
 
   - The GetHostingConversation method is available only in LyncSilverlight applications. The documents describe this method as "called in an application running in the Lync conversation extension area". The Conversation Window Extension (CWE) is available only in a Silverlight application. Therefore, by design the **GetHostingConversation** method is also only available in a Silverlight application.
 
-  - The **GetHostingConversation** method returns a null if the conversation is not fully established. Call **GetHostingConversation** too early, and it also returns a null . A good rule of thumb is that when the application in the CWE is open, the [Conversation](conversation-class-microsoft-lync-model-conversation_1.md) object is available, and **GetHostingConversation** will work as expected.
+  - The **GetHostingConversation** method returns a null if the conversation is not fully established. Call **GetHostingConversation** too early, and it also returns a null . A good rule of thumb is that when the application in the CWE is open, the [Conversation](chttps://msdn.microsoft.com/en-us/library/office/microsoft.lync.model.conversation.conversation_di_3_uc_ocs14mreflyncctrsl.aspx) object is available, and **GetHostingConversation** will work as expected.
 
 ### GetClient ()
 
-When trying to access the [LyncClient.GetClient](lyncclient-getclient-method-microsoft-lync-model_1.md) method, you may receive a null object or an error 'RPC Server is unavailable (0x800706BA)'. If the Lync client process is shut down and restarted you do not get a valid Lync client object at least until a user is logged in, and there may also be a short delay past that moment.
+When trying to access the [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/office/microsoft.lync.model.lyncclient.getclient_di_3_uc_ocs14mreflyncctrsl.aspx) method, you may receive a null object or an error 'RPC Server is unavailable (0x800706BA)'. If the Lync client process is shut down and restarted you do not get a valid Lync client object at least until a user is logged in, and there may also be a short delay past that moment.
 
 One workaround is to get a property value from the client after it is invalid. This should cause an exception, and at that time Lync should invalidate the cached object. A valid client should now be available. Also, consider using code such as the following simple loop:
 

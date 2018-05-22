@@ -17,11 +17,11 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 
 ## In this section
 
-[Lync 2013 API class library](lync-2013-api-class-library.md)
+[Lync 2013 API class library](https://msdn.microsoft.com/en-us/library/office/jj933143.aspx)
 
-[Lync 2013 Silverlight class libraries](lync-2013-silverlight-class-libraries.md)
+[Lync 2013 Silverlight class libraries](https://msdn.microsoft.com/en-us/library/office/jj937240.aspx)
 
-[Lync 2013 WPF class libraries](lync-2013-wpf-class-libraries.md)
+[Lync 2013 WPF class libraries](https://msdn.microsoft.com/en-us/library/office/jj933125.aspx)
 
 ## Additional resources
 
