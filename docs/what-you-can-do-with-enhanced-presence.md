@@ -14,7 +14,7 @@ Learn how to use the Microsoft Lync 2013 API to programmatically implement enhan
 
 **Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -27,14 +27,16 @@ Learn how to use the Microsoft Lync 2013 API to programmatically implement enhan
 Core enhanced presence tasks<br />
 In this section<br />
 Additional resources</p></td>
-<td><div class="caption">
-Watch the video: Add Presence to a WPF Application
-</div>
-<br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]</td>
 </tr>
 </tbody>
 </table>
+
+<div class="caption">
+Watch the video: Add Presence to a WPF Application
+</div>
+<br />
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
 
 ## Core enhanced presence tasks
 
