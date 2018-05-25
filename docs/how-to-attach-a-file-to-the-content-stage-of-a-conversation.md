@@ -42,6 +42,7 @@ Additional resources</p></td>
 Watch the video: Share file attachments in online meetings
 </div>
 <br />
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]
 
 
