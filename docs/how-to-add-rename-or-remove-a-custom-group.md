@@ -17,7 +17,7 @@ Learn how to add or remove a custom group from a user’s contact list in Micros
 
 **Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -36,14 +36,17 @@ Rename a custom group<br />
 Code examples: Add, remove, and rename custom groups<br />
 Next steps<br />
 Additional resources</p></td>
-<td><div class="caption">
-Watch the video: Add, rename, and delete custom groups in Lync
-</div>
-<br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/a5835343-787b-4041-9afc-bea073a748da]</td>
+
 </tr>
 </tbody>
 </table>
+
+<div class="caption">
+Watch the video: Add, rename, and delete custom groups in Lync
+</div>
+<br />
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/a5835343-787b-4041-9afc-bea073a748da]
 
 ## Custom group overview
 
