@@ -16,7 +16,14 @@ Learn how to attach a native file to a Lync 2013 conversation and then download 
 
 **Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+***Applies to:** Lync 2013 | Lync Server 2013*
+
+|         |            |
+| ------------- |-------------:|
+| *In this article*      |  Watch the video: Share file attachments in online meetings	|
+|  File attachment overview<br />Prerequisites<br />First steps<br />Attach a file to a conversation<br />Download a file from a conversation<br />Code examples: Quick meeting console<br />Next steps<br />Additional resources     | > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4] |
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]
 
 <table>
 <colgroup>
