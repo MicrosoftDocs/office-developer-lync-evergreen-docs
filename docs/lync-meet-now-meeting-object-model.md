@@ -86,7 +86,7 @@ The following table lists the meeting object model classes in the order that you
 <tr class="even">
 <td><p></p></td>
 <td><p><a href="https://msdn.microsoft.com/en-us/library/jj266982(v=office.15)">ConversationProperty</a></p></td>
-<td><p>Enumerates the meeting properties that you can read or write to. The <a href="https://msdn.microsoft.com/en-us/library/gg253352(v=office.15)">ConferenceAccessInformation</a> enumerator is used to return the <strong>ConferenceAccessInformation</strong> object.</p></td>
+<td><p>Enumerates the meeting properties that you can read or write to. The ConferenceAccessInformation enumerator is used to return the <strong>ConferenceAccessInformation</strong> object.</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

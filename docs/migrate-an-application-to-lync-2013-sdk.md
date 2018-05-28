@@ -115,7 +115,7 @@ The Lync 2013 API does not provide a way to see whether a user has made these co
 
   - The [Conversation.SelfParticipant](https://msdn.microsoft.com/en-us/library/jj266427\(v=office.15\)) property returns null.
 
-  - None of the conversation modalities are in the [ModalityState.Notified](https://msdn.microsoft.com/en-us/library/gg255331\(v=office.15\)) state. Check for these conversation characteristics in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
+  - None of the conversation modalities are in the ModalityState.Notified state. Check for these conversation characteristics in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
 
 If both conditions are met, the conversation is duplicated and should be ignored.
 

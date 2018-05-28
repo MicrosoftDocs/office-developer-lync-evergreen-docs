@@ -142,7 +142,7 @@ There are two ways to get people into the new meeting. You can invite people dir
 
 2.  Read the [ConversationPropertyChangedEventArgs.Property](https://msdn.microsoft.com/en-us/library/jj277087\(v=office.15\)) property.
 
-3.  If the changed property is the [ConversationProperty.ConferenceAccessInformation](https://msdn.microsoft.com/en-us/library/gg253352\(v=office.15\)) property, continue this procedure.
+3.  If the changed property is the ConversationProperty.ConferenceAccessInformation property, continue this procedure.
 
 4.  Get the [Microsoft.Lync.Model.Conversation.ConferenceAccessInformation](https://msdn.microsoft.com/en-us/library/jj266047\(v=office.15\)) object that holds the admission key from the [ConversationPropertyChangedEventArgs.Value](https://msdn.microsoft.com/en-us/library/jj293622\(v=office.15\)) property.
 

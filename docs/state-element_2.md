@@ -1,6 +1,6 @@
 ﻿---
-title: state element
-TOCTitle: state element
+title: state[@type='machineState'] element
+TOCTitle: state[@type='machineState'] element
 ms:assetid: 8875faac-2b36-4538-9de4-57b3802ff037
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454806(v=office.15)
 ms:contentKeyID: 57093908
@@ -10,7 +10,7 @@ dev_langs:
 - xml
 ---
 
-# state element
+# state\[\@type='machineState'\] element
 
 
 _**Applies to:** Lync 2013 | Lync Server 2013_

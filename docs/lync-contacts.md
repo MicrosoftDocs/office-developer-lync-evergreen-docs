@@ -97,11 +97,11 @@ The [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj26
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/jj266456(v=office.15)">ContactCapabilities</a></p></td>
-<td><p>Contact conversation mode capabilities. Enumerates the modes in which a contact can participate in a conversation. These capabilities are published by a contact when a capability changes. For example, if a contact is available only through a mobile phone, the collection of contact capabilities does not include a capability enumerated by <a href="https://msdn.microsoft.com/en-us/library/gg253131(v=office.15)">CaptureInstantMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/gg253131(v=office.15)">RenderInstantMessage</a>.</p></td>
+<td><p>Contact conversation mode capabilities. Enumerates the modes in which a contact can participate in a conversation. These capabilities are published by a contact when a capability changes. For example, if a contact is available only through a mobile phone, the collection of contact capabilities does not include a capability enumerated by CaptureInstantMessage or <a href="https://msdn.microsoft.com/en-us/library/gg253131(v=office.15)">RenderInstantMessage</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/jj276722(v=office.15)">ContactEndpoint</a></p></td>
-<td><p>Contact endpoints. Represents a device on which a contact can be available. These devices include telephone numbers and the Lync client. For example, the collection of a contact’s endpoints can include a mobile phone number that is enumerated by <a href="https://msdn.microsoft.com/en-us/library/gg254732(v=office.15)">MobilePhone</a>.</p></td>
+<td><p>Contact endpoints. Represents a device on which a contact can be available. These devices include telephone numbers and the Lync client. For example, the collection of a contact’s endpoints can include a mobile phone number that is enumerated by MobilePhone.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/jj266428(v=office.15)">ContactInformationChangedEventArgs</a></p></td>
@@ -121,7 +121,7 @@ The [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj26
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/jj267670(v=office.15)">ContactSetting</a></p></td>
-<td><p>Local contact settings. These settings effect how a local signed-in user interacts with any contact. The settings are only visible to the local user and do not affect the person represented by the contact. There is one exception to this rule. The <a href="https://msdn.microsoft.com/en-us/library/gg253709(v=office.15)">AccessLevel</a> setting restricts the contact information that another subscribing contact can see about the local signed-in user. For example, if Jeff Hay signs in to Lync as the local user, he can change a contact setting on the contact that represents Daniel Roth so that Daniel can only see Jeff’s contact card information that is appropriate for a PIC user.</p></td>
+<td><p>Local contact settings. These settings effect how a local signed-in user interacts with any contact. The settings are only visible to the local user and do not affect the person represented by the contact. There is one exception to this rule. The AccessLevel  setting restricts the contact information that another subscribing contact can see about the local signed-in user. For example, if Jeff Hay signs in to Lync as the local user, he can change a contact setting on the contact that represents Daniel Roth so that Daniel can only see Jeff’s contact card information that is appropriate for a PIC user.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/jj277406(v=office.15)">ContactSettingChangedEventArgs</a></p></td>
