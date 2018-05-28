@@ -97,7 +97,7 @@ The [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj26
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/jj266456(v=office.15)">ContactCapabilities</a></p></td>
-<td><p>Contact conversation mode capabilities. Enumerates the modes in which a contact can participate in a conversation. These capabilities are published by a contact when a capability changes. For example, if a contact is available only through a mobile phone, the collection of contact capabilities does not include a capability enumerated by CaptureInstantMessage or <a href="https://msdn.microsoft.com/en-us/library/gg253131(v=office.15)">RenderInstantMessage</a>.</p></td>
+<td><p>Contact conversation mode capabilities. Enumerates the modes in which a contact can participate in a conversation. These capabilities are published by a contact when a capability changes. For example, if a contact is available only through a mobile phone, the collection of contact capabilities does not include a capability enumerated by CaptureInstantMessage or RenderInstantMessage.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/jj276722(v=office.15)">ContactEndpoint</a></p></td>
