@@ -10,7 +10,7 @@ dev_langs:
 - xml
 ---
 
-# state\[@type='calendarState'\] element
+# state\[\@type='calendarState'\] element
 
 _**Applies to:** Lync Server 2013_
 
