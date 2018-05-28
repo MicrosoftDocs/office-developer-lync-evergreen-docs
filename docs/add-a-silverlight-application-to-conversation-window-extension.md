@@ -43,7 +43,7 @@ When a Lync SDK contextual conversation starts, the application registered with 
 
 For more information about displaying a Silverlight application in CWE, see [How to: Create a Conversation Window Extension application in Lync SDK](how-to-create-a-conversation-window-extension-application-in-lync-sdk.md).
 
-For more information about registering applications, see [Register contextual conversation packages\_Retired](https://msdn.microsoft.com/en-us/library/gg253680\(v=office.15\)).
+For more information about registering applications, see Register contextual conversation packages\_Retired.
 
 ## Accessing the Conversation object
 
