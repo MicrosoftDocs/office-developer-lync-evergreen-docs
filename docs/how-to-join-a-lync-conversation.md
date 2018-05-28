@@ -94,7 +94,7 @@ You execute the following steps within a method that handles [ConversationAdded]
 
 1.  Check the state of the [Microsoft.Lync.Model.Conversation.InstantMessageModality](https://msdn.microsoft.com/en-us/library/jj266036\(v=office.15\)) of the added conversation.
     
-    If the state is [ModalityState.Notified](https://msdn.microsoft.com/en-us/library/gg255331\(v=office.15\)), the added conversation is the result of an invitation and must be accepted or rejected. If accepted, the **AVModality** must be connected as shown in step 5.
+    If the state is ModalityState.Notified, the added conversation is the result of an invitation and must be accepted or rejected. If accepted, the **AVModality** must be connected as shown in step 5.
     
     <table>
     <colgroup>
