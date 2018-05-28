@@ -29,7 +29,7 @@ Additional resources
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-lync-contact-lists.md" class="uri">get-started-with-lync-contact-lists.md</a>   <a href="get-started-with-lync-contact-lists.md" class="uri">get-started-with-lync-contact-lists.md</a>   <a href="get-started-with-lync-contact-lists.md" class="uri">get-started-with-lync-contact-lists.md</a></p></td>
+<td><p><a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
 </tr>
 </tbody>
 </table>
