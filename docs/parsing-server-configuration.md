@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parsing server configuration
 TOCTitle: Parsing server configuration
 ms:assetid: 313eb2de-e73c-4f25-b173-f59670288746
@@ -17,7 +17,8 @@ The server configuration from the provisioned data specifies the currently confi
 
 The following code example shows how the server configuration might be parsed by using UCMA.
 
-``` 
+```SCR
+
         string ParseServerConfiguration(ProvisioningData data)
         {
             if (data == null)
