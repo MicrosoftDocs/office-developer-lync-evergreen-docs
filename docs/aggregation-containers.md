@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aggregation containers
 TOCTitle: Aggregation containers
 ms:assetid: fa4895ec-df80-45af-b11c-8ec30c145d09
@@ -41,23 +41,33 @@ Category instances published by Lync 2013
 <td><p><a href="state-element.md">state[@type='userState'] element</a></p></td>
 <td><p>0x20000000</p></td>
 <td><p>This is a static category instance and represents the presence state of the user. There are two kinds of user states. When the user resets his or her status by using Lync 2013, the event causes this instance to be published. This instance appears in the next example.</p>
-<pre class="sourceCode xml" id="cb1"><code class="sourceCode xml"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">&lt;state</span><span class="ot"> xmlns=</span><span class="st">&quot;http://schemas.microsoft.com/2006/09/sip/state&quot;</span> </a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="ot">            xmlns:xsi=</span><span class="st">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span> </a>
-<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="ot">            manual=</span><span class="st">&quot;true&quot;</span> </a>
-<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="ot">            xsi:type=</span><span class="st">&quot;userState&quot;</span><span class="kw">&gt;</span></a>
-<a class="sourceLine" id="cb1-5" data-line-number="5">   <span class="kw">&lt;availability&gt;</span>3500<span class="kw">&lt;/availability&gt;</span></a>
-<a class="sourceLine" id="cb1-6" data-line-number="6"><span class="kw">&lt;/state&gt;</span></a></code></pre></td>
+
+```XML
+<state xmlns="http://schemas.microsoft.com/2006/09/sip/state" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            manual="true" 
+            xsi:type="userState">
+   <availability>6500</availability>
+</state>
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>0x24000000</p></td>
 <td><p>This is a time-bounded category instance of a user state that contains the Busy or Do Not Disturb availability mode. This instance appears in the next example.</p>
-<pre class="sourceCode xml" id="cb2"><code class="sourceCode xml"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">&lt;state</span><span class="ot"> xmlns=</span><span class="st">&quot;http://schemas.microsoft.com/2006/09/sip/state&quot;</span> </a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="ot">            xmlns:xsi=</span><span class="st">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span> </a>
-<a class="sourceLine" id="cb2-3" data-line-number="3"><span class="ot">            manual=</span><span class="st">&quot;true&quot;</span> </a>
-<a class="sourceLine" id="cb2-4" data-line-number="4"><span class="ot">            xsi:type=</span><span class="st">&quot;userState&quot;</span><span class="kw">&gt;</span></a>
-<a class="sourceLine" id="cb2-5" data-line-number="5">   <span class="kw">&lt;availability&gt;</span>6500<span class="kw">&lt;/availability&gt;</span></a>
-<a class="sourceLine" id="cb2-6" data-line-number="6"><span class="kw">&lt;/state&gt;</span></a></code></pre></td>
+
+```XML
+<state xmlns="http://schemas.microsoft.com/2006/09/sip/state" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            manual="true" 
+            xsi:type="userState">
+   <availability>6500</availability>
+</state>
+```
+
+</td>
 </tr>
 <tr class="odd">
 <td><p><a href="state-element_2.md">state[@type='machineState'] element</a></p></td>
