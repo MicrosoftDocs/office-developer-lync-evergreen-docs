@@ -13,7 +13,7 @@ dev_langs
 # Self container
 
 
-_Applies to Lync 2013  Lync Server 2013_
+_**Applies to:** Lync 2013 | Lync Server 2013_
 
 Self Container has an instance ID value of 1 (one). It is invisible to all users except the container owner or the local user. It is used to cache the user or application data. The data can be used to construct the local user’s contact information, to facilitate presence publication, and to establish communications sessions.
 
@@ -36,9 +36,9 @@ The following category instances are published to this container.
 <tr class="odd">
 <td><p><a href="alerts category instance value element">alerts category instance value element</a></p></td>
 <td><p>0</p></td>
-<td><p>This category instance contains the Alerts pane that the local user can set by using the Lync Options panel in Lync 2013. Such options specify how the local user is notified when the user is added to the contact list of some other users or when the local user is in a Do Not Disturb state.
+<td><p>This category instance contains the <strong>Alerts</strong> pane that the local user can set by using the <strong>Lync Options</strong> panel in Lync 2013. Such options specify how the local user is notified when the user is added to the contact list of some other users or when the local user is in a Do Not Disturb state.
 
-The following example shows an [alerts category instance value element](https://msdn.microsoft.com/en-us/library/office/dn454690) category instance value when a user clears the Notify me when someone adds me to his or her contact list option under the Alerts pane in the Lync Options panel.</p>
+The following example shows an [alerts category instance value element](https://msdn.microsoft.com/en-us/library/office/dn454690) category instance value when a user clears the Notify me <strong>when someone adds me to his or her contact list</strong> option under the <strong>Alerts</strong> pane in the <strong>Lync Options</strong> panel.</p>
 
 ```XML
 <state xmlns="http://schemas.microsoft.com/2006/09/sip/state" 
@@ -54,7 +54,7 @@ The following example shows an [alerts category instance value element](https:/
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/office/dn454705">alerts category instance value element</a></p></td>
 <td><p>0</p></td>
-<td><p>This static bound instance contains one or more time periods designated as the working hours of the local user. The information is provisioned from the Microsoft Exchange Server as the workingHours information.
+<td><p>This static bound instance contains one or more time periods designated as the working hours of the local user. The information is provisioned from the Microsoft Exchange Server as the <strong>workingHours</strong> information.
 
 The following code example is from a [calendarData category instance value element](https://msdn.microsoft.com/en-us/library/office/dn454705) category instance containing the workingHoursinformation.</p>
 
@@ -97,7 +97,7 @@ The following code example is from a [calendarData category instance value elem
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/office/dn454705">calendarData category instance value element</a></p></td>
 <td><p>A hash dependent on the local user’s mailbox URI.</p></td>
-<td><p>This time-bound instance is meant to contain a calendar period of the local user. This calendar period is represented by a contiguous block of free-busy timeslots and is provisioned from the Microsoft Exchange Server as the freeBusy information. For the Self Container, this instance carries an empty value.</p>
+<td><p>This time-bound instance is meant to contain a calendar period of the local user. This calendar period is represented by a contiguous block of free-busy timeslots and is provisioned from the Microsoft Exchange Server as the <strong>freeBusy</strong> information. For the Self Container, this instance carries an empty value.</p>
 
 
 </td>
@@ -105,7 +105,7 @@ The following code example is from a [calendarData category instance value elem
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/office/dn454755">otherOptions category instance value element</a></p></td>
 <td><p></p></td>
-<td><p>These category instances contains the Personal Information Manager setting, the privacy mode selection, voice mail last access records, and other optional settings that can be configured through the Lync Options panel.
+<td><p>These category instances contains the <strong>Personal Information Manager</strong> setting, the privacy mode selection, voice mail last access records, and other optional settings that can be configured through the <strong>Lync Options</strong> panel.
 
 The following example shows an [otherOptions category instance value element](https://msdn.microsoft.com/en-us/library/office/dn454755) category instance with privacy mode settings.</p>
 
@@ -119,7 +119,7 @@ The following example shows an [otherOptions category instance value element](h
 </otherOptions>
 ```
 
-The following example shows an [otherOptions category instance value element](https://msdn.microsoft.com/en-us/library/office/dn454755) category instance with the Personal Information Manager settings.
+The following example shows an [otherOptions category instance value element](https://msdn.microsoft.com/en-us/library/office/dn454755) category instance with the Personal Information <strong>Manager</strong> settings.
 
 ```
 <otherOptions xmlns="http://schemas.microsoft.com/2006/09/sip/options/otherOptions">
@@ -163,14 +163,14 @@ The following example shows a [userProperties category instance value element](
 </userProperties>
 ```
 
-The &lt;exumEnabled&gt; element represents a bit flags indicating whether voice mail is enabled for the user. A bit value of 1 indicates that voice mail is enabled. Otherwise, it is not enabled. The accompanying &lt;exumURL&gt; element contains the voice mail URL supported by the Microsoft Exchange Unified Messaging.
+The &lt;<strong>exumEnabled</strong>&gt; element represents a bit flags indicating whether voice mail is enabled for the user. A bit value of 1 indicates that voice mail is enabled. Otherwise, it is not enabled. The accompanying &lt;<strong>exumURL</strong>&gt; element contains the voice mail URL supported by the Microsoft Exchange Unified Messaging.
 
 </td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/office/dn438978">userInformation category instance value element</a></p></td>
 <td><p>0</p></td>
-<td><p>The [userInformation category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438978) category instance contains the sharable user information about the local user. The information includes various phone numbers that remote users can use to contact the local user. It is extracted from the server-provisioned data and/or provided by the user by using the Lync Options panel. The [userInformation category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438978)category instance is published by Lync 2013.
+<td><p>The [userInformation category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438978) category instance contains the sharable user information about the local user. The information includes various phone numbers that remote users can use to contact the local user. It is extracted from the server-provisioned data and/or provided by the user by using the <strong>Lync Options</strong> panel. The [userInformation category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438978)category instance is published by Lync 2013.
 
 The following example shows a [userInformation category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438978) category instance.</p>
 
