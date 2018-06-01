@@ -94,16 +94,16 @@ If necessary, copy the %progfile%\\Microsoft Lync Server 2013\\SDK\\Samples\\Enh
 
 6.  Use the following commands to start Lync Server 2013.
     
-        ```MS-DOS
-        Net stop rtcsrv
-        Net start rtcsrv
-        ```
+    ```MS-DOS
+    Net stop rtcsrv
+    Net start rtcsrv
+    ```
 
 To uninstall the service, run the following command from the directory that contains the EnhancedAllowList.exe and EnhancedListAllow.exe.config files.
 
-    ```MS-DOS
-    %WINDIR%\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /U /LogToConsole=true EnhancedAllowList.exe
-    ```
+```MS-DOS
+%WINDIR%\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /U /LogToConsole=true EnhancedAllowList.exe
+```
 
 ## See also
 
