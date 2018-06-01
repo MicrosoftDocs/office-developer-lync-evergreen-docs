@@ -1,4 +1,4 @@
-﻿---
+---
 title: Log and display processed messages (SipSnoop sample)
 TOCTitle: Log and display processed messages (SipSnoop sample)
 ms:assetid: d195c5b7-0cdd-4135-9e15-82641dbf08ea
@@ -49,8 +49,11 @@ If necessary, copy the %progfile%\\Microsoft Lync Server 2013\\SDK\\Samples\\Sip
 
 3.  Use the following command to build the application.
     
-        Compile SipSnoop
+    ```MS DOS
 
+        Compile SipSnoop
+        
+    ```
 ### To run the application
 
 1.  Log on to a Lync Server 2013 RTC Server Applications local security group account.
@@ -62,8 +65,10 @@ If necessary, copy the %progfile%\\Microsoft Lync Server 2013\\SDK\\Samples\\Sip
     > <P>&lt;lync.Server.Fdqn&gt; is the placeholder for the fully qualified domain name for the test server.</P>
 
     
-    ``` powershell
+    ```Windows PowerShell
+
     new-csServerApplication -uri " http://www.microsoft.com/LC/SDK/Samples/SipSnoop" -identity "service:registrar:<lync.Server.Fdqn>/SipSnoop" -critical $false -priority 6 -enabled $true
+
     ```
     
 
