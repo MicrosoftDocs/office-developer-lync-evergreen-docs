@@ -1,4 +1,4 @@
-﻿---
+---
 title: Build enhanced access control list (EnhancedAllowList sample)
 TOCTitle: Build enhanced access control list (EnhancedAllowList sample)
 ms:assetid: 366c56b5-3888-418c-a682-6d1cfdfabb1c
@@ -94,12 +94,16 @@ If necessary, copy the %progfile%\\Microsoft Lync Server 2013\\SDK\\Samples\\Enh
 
 6.  Use the following commands to start Lync Server 2013.
     
+        ```MS-DOS
         Net stop rtcsrv
         Net start rtcsrv
+        ```
 
 To uninstall the service, run the following command from the directory that contains the EnhancedAllowList.exe and EnhancedListAllow.exe.config files.
 
+    ```MS-DOS
     %WINDIR%\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /U /LogToConsole=true EnhancedAllowList.exe
+    ```
 
 ## See also
 
