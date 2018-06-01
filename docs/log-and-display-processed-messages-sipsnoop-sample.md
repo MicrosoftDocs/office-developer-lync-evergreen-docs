@@ -49,7 +49,7 @@ If necessary, copy the %progfile%\\Microsoft Lync Server 2013\\SDK\\Samples\\Sip
 
 3.  Use the following command to build the application.
     
-    ```MS DOS
+    ```MS-DOS
 
         Compile SipSnoop
         
@@ -65,7 +65,7 @@ If necessary, copy the %progfile%\\Microsoft Lync Server 2013\\SDK\\Samples\\Sip
     > <P>&lt;lync.Server.Fdqn&gt; is the placeholder for the fully qualified domain name for the test server.</P>
 
     
-    ```Windows PowerShell
+    ```Windows-PowerShell
 
     new-csServerApplication -uri " http://www.microsoft.com/LC/SDK/Samples/SipSnoop" -identity "service:registrar:<lync.Server.Fdqn>/SipSnoop" -critical $false -priority 6 -enabled $true
 
