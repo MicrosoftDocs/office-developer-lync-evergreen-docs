@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parsing location profile
 TOCTitle: Parsing location profile
 ms:assetid: f684c168-0770-4e43-8eab-f0e71f4cf6a2
@@ -17,7 +17,7 @@ A location profile from the provisioned data specifies the rules that are used t
 
 The following code example shows how a location profile might be parsed by using UCMA.
 
-``` 
+```SCR  
         string ParseLocationProfileConfiguration(ProvisioningData data)
         {
             if (data == null)
