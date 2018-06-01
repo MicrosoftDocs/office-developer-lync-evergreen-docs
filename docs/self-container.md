@@ -19,35 +19,35 @@ Self Container has an instance ID value of 1 (one). It is invisible to all users
 
 The following category instances are published to this container.
 
-table
-colgroup
-col style=width 33% 
-col style=width 33% 
-col style=width 33% 
-colgroup
-thead
-tr class=header
-thpCategory namepth
-thpInstance IDpth
-thpDescriptionpth
-tr
-thead
-tbody
-tr class=odd
-tdpa href=alerts-category-instance-value-element.mdalerts category instance value elementaptd
-tdp0ptd
-tdpThis category instance contains the strongAlertsstrong pane that the local user can set by using the strongLync Optionsstrong panel in Lync 2013. Such options specify how the local user is notified when the user is added to the contact list of some other users or when the local user is in a Do Not Disturb state.p
-pThe following example shows an a href=alerts-category-instance-value-element.mdalerts category instance value elementa category instance value when a user clears the strongNotify me when someone adds me to his or her contact liststrong option under the strongAlertsstrong pane in the strongLync Optionsstrong panel.p
+<table>
+<colgroup>
+<col style="width 33%"/> 
+<col style="width 33%"/> 
+<col style="width 33%"/>    
+</colgroup
+<thead>
+<tr class="header">
+<th><p>Category name</p></th>
+<th><p>Instance ID</p></th>
+<th><p>Description</p></th>
+<tr>
+<thead>
+<tbody>
+<tr class="odd">
+   <td><p>a href=alerts-category-instance-value-element.mdalerts category instance value elementa</p></td>
+<td><p>0</p></td>
+<td><p>This category instance contains the strongAlertsstrong pane that the local user can set by using the strongLync Optionsstrong panel in Lync 2013. Such options specify how the local user is notified when the user is added to the contact list of some other users or when the local user is in a Do Not Disturb state.</p>
+<p>The following example shows an a href=alerts-category-instance-value-element.mdalerts category instance value elementa category instance value when a user clears the strongNotify me when someone adds me to his or her contact liststrong option under the strongAlertsstrong pane in the strongLync Optionsstrong panel.</p>
 
 ```XML
 alerts xmlns=httpschemas.microsoft.com200609sipoptionsalerts
    notifyAdditionToContactListfalsenotifyAdditionToContactList
 alerts
 ```
-td
-tr
-tr class=even
-tdpa href=calendardata-category-instance-value-element.mdcalendarData category instance value elementaptd
+<td>
+<tr>
+<tr class="even">
+<td><p>a href="calendardata-category-instance-value-element.mdcalendarData category instance value elementaptd
 tdp0ptd
 tdpThis static bound instance contains one or more time periods designated as the working hours of the local user. The information is provisioned from the Microsoft Exchange Server as the workingHours information.p
 pThe following code example is from a a href=calendardata-category-instance-value-element.mdcalendarData category instance value elementa category instance containing the workingHours information.p
