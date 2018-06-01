@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parsing endpoint configuration
 TOCTitle: Parsing endpoint configuration
 ms:assetid: 6566b1dd-4c85-41d9-91c1-20848179f30d
@@ -17,8 +17,8 @@ In Microsoft Unified Communications Managed API (UCMA), an endpoint configuratio
 
 The following code example shows how an endpoint configuration might be parsed by using UCMA.
 
-``` 
-        string ParseEndpointConfiguration(ProvisioningData data)
+```SCR
+     string ParseEndpointConfiguration(ProvisioningData data)
         {
             if (data == null)
                 return null;
