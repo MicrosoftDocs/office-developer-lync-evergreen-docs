@@ -41,22 +41,19 @@ The following category instances are published to this container.
 The following example shows an [alerts category instance value element](https://msdn.microsoft.com/en-us/library/office/dn454690) category instance value when a user clears the Notify me <strong>when someone adds me to his or her contact list</strong> option under the <strong>Alerts</strong> pane in the <strong>Lync Options</strong> panel.</p>
 
 ```XML
-<state xmlns="http://schemas.microsoft.com/2006/09/sip/state" 
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-            manual="true" 
-            xsi:type="userState">
-   <availability>3500</availability>
-</state>
+<alerts xmlns="http://schemas.microsoft.com/2006/09/sip/options/alerts">
+   <notifyAdditionToContactList>false</notifyAdditionToContactList>
+</alerts>
 ```
 
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/office/dn454705">alerts category instance value element</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/en-us/library/office/dn454705">calendarData category instance value element</a></p></td>
 <td><p>0</p></td>
 <td><p>This static bound instance contains one or more time periods designated as the working hours of the local user. The information is provisioned from the Microsoft Exchange Server as the <strong>workingHours</strong> information.
 
-The following code example is from a [calendarData category instance value element](https://msdn.microsoft.com/en-us/library/office/dn454705) category instance containing the workingHoursinformation.</p>
+The following code example is from a [calendarData category instance value element](https://msdn.microsoft.com/en-us/library/office/dn454705) category instance containing the workingHours information.</p>
 
 ```XML
 <calendarData xmlns="http://schemas.microsoft.com/2006/09/sip/calendarData" 
@@ -148,7 +145,7 @@ When PBX phones are supported in Lync Server 2013, published [rccOptions catego
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/office/dn438963">userProperties category instance value element</a></p></td>
 <td><p>0</p></td>
-<td><p>The [userProperties category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438963) category instance contains the server-provisioned user information like the phone lines controlled by the user, the postal address of the user, the telephony mode the user is in, and whether the user has voice mail enabled for unified communications (UC). Each phone line is described by a telephone mode, a TEL URI, and the TEL URI of the line server to support remote call control (RCC). A phone line can be in one of the three types: UC-enabled or VoIP (UC), PBX-based (RCC), and both (Dual). The supported telephony modes are: Uc, Rcc, Dual, and None. The information is provisioned from Active Directory.
+<td><p>The userProperties category instance value element category instance contains the server-provisioned user information like the phone lines controlled by the user, the postal address of the user, the telephony mode the user is in, and whether the user has voice mail enabled for unified communications (UC). Each phone line is described by a telephone mode, a TEL URI, and the TEL URI of the line server to support remote call control (RCC). A phone line can be in one of the three types: UC-enabled or VoIP (UC), PBX-based (RCC), and both (Dual). The supported telephony modes are: Uc, Rcc, Dual, and None. The information is provisioned from Active Directory.
 
 The following example shows a [userProperties category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438963) category instance.</p>
 
@@ -170,7 +167,7 @@ The &lt;<strong>exumEnabled</strong>&gt; element represents a bit flags indica
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/office/dn438978">userInformation category instance value element</a></p></td>
 <td><p>0</p></td>
-<td><p>The [userInformation category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438978) category instance contains the sharable user information about the local user. The information includes various phone numbers that remote users can use to contact the local user. It is extracted from the server-provisioned data and/or provided by the user by using the <strong>Lync Options</strong> panel. The [userInformation category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438978)category instance is published by Lync 2013.
+<td><p>The userInformation category instance value element category instance contains the sharable user information about the local user. The information includes various phone numbers that remote users can use to contact the local user. It is extracted from the server-provisioned data and/or provided by the user by using the <strong>Lync Options</strong> panel. The userInformation category instance value element category instance is published by Lync 2013.
 
 The following example shows a [userInformation category instance value element](https://msdn.microsoft.com/en-us/library/office/dn438978) category instance.</p>
 
@@ -200,10 +197,14 @@ The following example shows a [userInformation category instance value element]
 </userInformation>
 
 ```
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
+
+<p>In addition, in-band provisioning data, including server configuration, unified communications policies, enhanced presence publication grammars, or location profile, is also stored in the Self Container. Most unified communications APIs, including the Microsoft Lync 2013 SDK and Microsoft Unified Communications Managed API 4.0 SDK APIs, encapsulate these information with API-specific objects.</p>
+
+
 
 ## See also
 
