@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parsing meeting policy
 TOCTitle: Parsing meeting policy
 ms:assetid: e1c6d1da-2271-47d1-9628-7b4eb66b42e1
@@ -17,7 +17,8 @@ The meeting policy from the provisioned data specifies how meetings can be condu
 
 The following code example shows how the meeting policy might be parsed by using UCMA.
 
-``` 
+```SCR
+
         string ParseMeetingPolicyConfiguration(ProvisioningData data)
         {
             if (data == null)
