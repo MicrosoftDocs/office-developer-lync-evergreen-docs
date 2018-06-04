@@ -103,14 +103,10 @@ Category instances published by aggregation script
 </state>
 ```
 
-
-<div class="alert">
-
 > [!NOTE]
 > <P>This publication is different from the corresponding one in Container 100 (the External Contacts Container).</P>
 
-
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p><a href="services-category-instance-value-element.md">services category instance value element</a></p></td>
@@ -280,14 +276,10 @@ Category instances published by Lync 2010
 </calendarData>
 ```
 
-
-<div class="alert">
-
 > [!NOTE]
 > <P>The local user’s free-busy information is visible to the Colleagues, Workgroup, and Friends and Family container members, while it is not visible to the External Contacts container members.</P>
 
-
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p><a href="dndstate-category-instance-value-element.md">dndState category instance value element</a></p></td>
@@ -330,14 +322,10 @@ Category instances published by Lync 2010
         endTime="2010-06-23T19:00:00Z">A OOF message set in Outlook</body>
 </note>
 ```
-
-<div class="alert">
-
 > [!NOTE]
 > <P>The OOF note is visible to the Colleagues, Workgroup, and Friends and Family container members, while it is not visible to the External Contacts container members.</P>
 
-
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p><a href="notehistory-category-instance-value-element.md">noteHistory category instance value element</a></p></td>
@@ -351,13 +339,12 @@ Category instances published by Lync 2010
 ```
 
 <p></p>
-<div class="alert">
 
 > [!NOTE]
 > <P><A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> is published to Colleagues, Workgroup, and Friends and Family container members, but not to the External Contacts container. By default, there can be up to three <A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> category instances and they correspond to the three most recent <A href="note-category-instance-value-element.md">note category instance value element</A> instances that are published before the current one.</P>
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p><a href="routing-category-instance-value-element.md">routing category instance value element</a></p></td>
