@@ -2569,7 +2569,7 @@
       href: https://msdn.microsoft.com/en-us/library/office/dn435961.aspx
   - name: Unified Communications Web API 1.0 reference
     href: https://msdn.microsoft.com/en-us/library/office/dn324971.aspx  
- - name: Technical articles
+  - name: Technical articles
     href: technical-articles/lync-2013-technical-articles.md
     items:
     - name: 'Lync 2013: Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro'
