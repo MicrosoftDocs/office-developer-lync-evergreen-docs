@@ -70,7 +70,7 @@ Table 1. Core concepts for registering a managed application
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-lync-server-2013-sdk.md">Get started with Lync Server 2013 SDK</a></p></td>
+<td><p><a href="server-sdk/get-started-with-lync-server-2013-sdk.md">Get started with Lync Server 2013 SDK</a></p></td>
 <td><p>Familiarity with the Lync Server API.</p></td>
 </tr>
 <tr class="even">

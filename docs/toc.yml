@@ -500,11 +500,11 @@
       href: desktop/lync-2013-class-libraries-reference.md
       items:
       - name: Lync 2013 API class library
-        href: desktop/https://msdn.microsoft.com/en-us/library/office/jj933143.aspx
+        href: https://msdn.microsoft.com/en-us/library/office/jj933143.aspx
       - name: Lync 2013 Silverlight class libraries
-        href: desktop/https://msdn.microsoft.com/en-us/library/office/jj937240.aspx
+        href: https://msdn.microsoft.com/en-us/library/office/jj937240.aspx
       - name: Lync 2013 WPF class libraries
-        href: desktop/https://msdn.microsoft.com/en-us/library/office/jj933125.aspx
+        href: https://msdn.microsoft.com/en-us/library/office/jj933125.aspx
   - name: Lync SDN API 2.0
     href: sdn-api/lync-software-defined-networking-api-2-0.md
     items:

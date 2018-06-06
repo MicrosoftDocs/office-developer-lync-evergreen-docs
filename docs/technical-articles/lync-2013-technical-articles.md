@@ -43,7 +43,7 @@ This section of the MSDN Library provides technical articles to help you get sta
 
 #### Other resources
 
-[Lync 2013](lync-2013.md)
+[Lync 2013](../lync-2013.md)
 
 [Lync](http://msdn.microsoft.com/en-us/library/gg455051\(v=office.14\).aspx)
 

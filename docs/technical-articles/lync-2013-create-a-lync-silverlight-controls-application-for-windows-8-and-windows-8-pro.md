@@ -124,9 +124,9 @@ Using the Lync 2013 SDK to create a Lync Silverlight Controls application for Wi
 
 ## Additional resources
 
-  - [Lync 2013 SDK documentation](lync-2013-sdk-documentation.md)
+  - [Lync 2013 SDK documentation](../desktop/lync-2013-sdk-documentation.md)
 
-  - [Get started with Lync Controls](get-started-with-lync-controls.md)
+  - [Get started with Lync Controls](../desktop/get-started-with-lync-controls.md)
 
   - [Lync Dev Center](http://msdn.microsoft.com/en-us/lync/default.aspx)
 

@@ -19,15 +19,15 @@ The following topics include the information you need to customize a Lync 2013 c
 
 ## How to customize the Lync client
 
-  - [UI suppression](ui-suppression.md)
+  - [UI suppression](../desktop/ui-suppression.md)
 
-  - [What you can do with Lync contact lists](what-you-can-do-with-lync-contact-lists.md)
+  - [What you can do with Lync contact lists](../desktop/what-you-can-do-with-lync-contact-lists.md)
 
-  - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
+  - [What you can do with Lync conversations](../desktop/what-you-can-do-with-lync-conversations.md)
 
-  - [What you can do with Lync meetings](what-you-can-do-with-lync-meetings.md)
+  - [What you can do with Lync meetings](../desktop/what-you-can-do-with-lync-meetings.md)
 
-  - [What you can do with desktop, application, and display sharing](what-you-can-do-with-desktop-application-and-display-sharing.md)
+  - [What you can do with desktop, application, and display sharing](../desktop/what-you-can-do-with-desktop-application-and-display-sharing.md)
 
 ## Additional resources
 

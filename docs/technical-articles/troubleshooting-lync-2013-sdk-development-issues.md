@@ -41,7 +41,7 @@ This error may occur when you start a Lync custom application that uses UI suppr
 
 ### Resolution
 
-1.  Disable Lync client UI suppression. For more information on UI suppression, see the MSDN article [UI suppression](ui-suppression.md). For more information about how to edit the registry, see the MSDN article [How to Modify the Windows Registry](http://support.microsoft.com/kb/136393).
+1.  Disable Lync client UI suppression. For more information on UI suppression, see the MSDN article [UI suppression](../desktop/ui-suppression.md). For more information about how to edit the registry, see the MSDN article [How to Modify the Windows Registry](http://support.microsoft.com/kb/136393).
 
 2.  Start Lync, then close Lync.
 
@@ -99,13 +99,13 @@ If your application is running on a computer where the Lync client is not instal
 
 ## Visual Studio 2013 compatibility
 
-Users report errors when installing Lync 2013 SDK on a computer where Visual Studio 2013 is installed. Lync 2013 SDK requires Microsoft Visual Studio 2010 SP1 or Visual Studio 2012. For the full list of Lync 2013 SDK prerequisites, see the Application Development section in the MSDN article [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md).
+Users report errors when installing Lync 2013 SDK on a computer where Visual Studio 2013 is installed. Lync 2013 SDK requires Microsoft Visual Studio 2010 SP1 or Visual Studio 2012. For the full list of Lync 2013 SDK prerequisites, see the Application Development section in the MSDN article [Get started with Lync 2013 SDK](../desktop/get-started-with-lync-2013-sdk.md).
 
 ## Additional resources
 
   - [Lync 2013 technical articles](lync-2013-technical-articles.md)
 
-  - [Lync 2013 SDK documentation](lync-2013-sdk-documentation.md)
+  - [Lync 2013 SDK documentation](../desktop/lync-2013-sdk-documentation.md)
 
   - [Developer code samples](http://code.msdn.microsoft.com/)
 
