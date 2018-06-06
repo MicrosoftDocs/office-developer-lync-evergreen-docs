@@ -39,7 +39,7 @@ In a Microsoft Lync Server 2013 deployment, a unified communications application
 </tr>
 <tr class="even">
 <td><p>Microsoft Lync 2013 API</p></td>
-<td><p>This is the automation API for Microsoft Lync 2013. It allows an application to leverage and extend the enhanced presence features as well as other collaboration functionality supported by Lync 2013. As with the Lync 2013 Controls, the enhanced presence data is encapsulated by the API objects and accessible through the properties on these objects. Lync 2013 API supports more enhanced presence features supported by Lync 2013 than the Lync 2013 Controls does. For more information about how to use the controls to enable enhanced presence, see <a href=".../desktop/lync-2013-sdk-documentation.md">Lync 2013 SDK documentation</a>.</p></td>
+<td><p>This is the automation API for Microsoft Lync 2013. It allows an application to leverage and extend the enhanced presence features as well as other collaboration functionality supported by Lync 2013. As with the Lync 2013 Controls, the enhanced presence data is encapsulated by the API objects and accessible through the properties on these objects. Lync 2013 API supports more enhanced presence features supported by Lync 2013 than the Lync 2013 Controls does. For more information about how to use the controls to enable enhanced presence, see <a href="../desktop/lync-2013-sdk-documentation.md">Lync 2013 SDK documentation</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Unified Communications Managed API 4.0</p></td>
