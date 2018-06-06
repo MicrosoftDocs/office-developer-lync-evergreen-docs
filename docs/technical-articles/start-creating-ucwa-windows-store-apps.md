@@ -48,9 +48,9 @@ Signing in is the first step to create any UCWA application. It amounts to getti
 
 In this article, the password-based authentication is used. Once the user is authenticated, the application is returned an OAuth security token. The UCWA application must provide this security token in any of the subsequent HTTP requests. When the token expires, the application must be renew it.
 
-Before the authentication can take place, the UCWA application must first locate the UCWA service enabled on the user’s domain. The process is known as auto-discovery of the UCWA [root](http://ucwa.lync.com/documentation/gettingstarted-rooturl) resource and will be illustrated in this article.
+Before the authentication can take place, the UCWA application must first locate the UCWA service enabled on the user’s domain. The process is known as auto-discovery of the UCWA [root](http://ucwa.skype.com/documentation/gettingstarted-rooturl) resource and will be illustrated in this article.
 
-A successful authentication must also be followed by obtaining a UCWA [application](http://ucwa.lync.com/documentation/resources-application) resource representing an instance of the application bound to the local endpoint of the signed-in user. When the application times out, the application resource must be updated. This may involve getting the user re-authenticated.
+A successful authentication must also be followed by obtaining a UCWA [application](http://ucwa.skype.com/documentation/resources-application) resource representing an instance of the application bound to the local endpoint of the signed-in user. When the application times out, the application resource must be updated. This may involve getting the user re-authenticated.
 
 Because UCWA-specific operations are carried out as HTTP requests and responses, it is natural to encapsulate them in a separate type. In this article, they are exposed as asynchronous methods on a Transport class, which can be reused for other applications as well. The asynchronous behavior is built upon the async/await[pattern](http://msdn.microsoft.com/en-us/library/vstudio/hh191443.aspx). It is required to ensure that the Windows Store app be responsive.
 
@@ -82,9 +82,9 @@ This article contains the following topics.
 
   - [Manage app lifecycle and state (Windows Store apps using C\#/VB and XAML)](http://msdn.microsoft.com/en-us/library/windows/apps/hh986968.aspx): It offers an introductory discussion of Windows app lifecycle and state management issues, with a hands-on tutorial.
 
-  - [UCWA API Resource reference library](http://ucwa.lync.com/documentation/api-reference): This is the official UCWA documentation site where you can find detailed specification of all the UCWA resources.
+  - [UCWA API Resource reference library](http://ucwa.skype.com/documentation/api-reference): This is the official UCWA documentation site where you can find detailed specification of all the UCWA resources.
 
-  - [UCWA Dev Portal](http://ucwa.lync.com/): This is the official UCWA development portal where you can find interactive demo and sample code, written in JavaScript and JSON. You can also access the community forum for UCWA developers.
+  - [UCWA Dev Portal](http://ucwa.skype.com/): This is the official UCWA development portal where you can find interactive demo and sample code, written in JavaScript and JSON. You can also access the community forum for UCWA developers.
 
-  - [What is UCWA API?](http://ucwa.lync.com/documentation/what-is-lync-ucwa-api): This is the landing page of the official UCWA documentation, where you can find more detailed discussions of the requirements, features and architecture of UCWA.
+  - [What is UCWA API?](http://ucwa.skype.com/documentation/what-is-lync-ucwa-api): This is the landing page of the official UCWA documentation, where you can find more detailed discussions of the requirements, features and architecture of UCWA.
 

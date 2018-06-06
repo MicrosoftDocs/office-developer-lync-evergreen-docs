@@ -83,7 +83,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
             }
     ```
     
-    If the specified user is homed on a different server pool, a redirect resource will be returned. You must repeat the steps above to get the root resource using the redirected Url. Before doing that, you should make sure that the supplied redirect Url passes appropriate security checks. For more information on security checks on a redirect Url, see [Getting Started to Using UCWA](http://ucwa.lync.com/documentation/gettingstarted-rooturl). As an illustration, the work flow to get redirected root resource is shown in the following GetRedirectResource method.
+    If the specified user is homed on a different server pool, a redirect resource will be returned. You must repeat the steps above to get the root resource using the redirected Url. Before doing that, you should make sure that the supplied redirect Url passes appropriate security checks. For more information on security checks on a redirect Url, see [Getting Started to Using UCWA](http://ucwa.skype.com/documentation/gettingstarted-rooturl). As an illustration, the work flow to get redirected root resource is shown in the following GetRedirectResource method.
     
     ``` csharp
             private async Task<UcwaHttpOperationResult> GetRedirectResource(string redirectUrl, bool checkRedirectUrl = true)
@@ -182,7 +182,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
             }
     ```
     
-    The first attempt to get the UCWA [user](http://ucwa.lync.com/documentation/resources-user) resource results in a 401 Unauthorized response. Its headers include one named WWW-Authenticate with a value similar to the following.
+    The first attempt to get the UCWA [user](http://ucwa.skype.com/documentation/resources-user) resource results in a 401 Unauthorized response. Its headers include one named WWW-Authenticate with a value similar to the following.
     
     ``` html
     Bearer trusted_issuers="00000002-0000-0ff1-ce00-000000000000@contoso.com", client_id="00000004-0000-0ff1-ce00-000000000000",MsRtcOAuth href="https://lyncweb.contoso.com/WebTicket/oauthtoken",grant_type="urn:microsoft.rtc:windows,urn:microsoft.rtc:anonmeeting,password"
@@ -246,7 +246,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
             }
     ```
     
-    The operations involve parsing an authenticated user resource to obtain the applications resource, submitting a POST request on the applications resource to create an application resource, and processing the corresponding HTTP response to obtain the resultant [application](http://ucwa.lync.com/documentation/resources-application) resource, which will serve as the starting point for the current application to use all other UCWA features.
+    The operations involve parsing an authenticated user resource to obtain the applications resource, submitting a POST request on the applications resource to create an application resource, and processing the corresponding HTTP response to obtain the resultant [application](http://ucwa.skype.com/documentation/resources-application) resource, which will serve as the starting point for the current application to use all other UCWA features.
     
     Throughout the application life cycle, you may need to get an updated application resource when the underlying states change. This can be done by submitting an HTTP GET request against the cached application Url. An implementation of this process is shown as follows.
     

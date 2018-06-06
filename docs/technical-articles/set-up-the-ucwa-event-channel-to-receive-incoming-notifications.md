@@ -27,7 +27,7 @@ Additional resources
 
 The UCWA 1.0 event channel allows a UCWA 1.0 application to receive application data, including call invitations, whenever the data are available. Although the application can poll the server to receive many kinds of the application data, such as the user info about the local user, it must rely on the event channel to enable the user to receive any incoming call. You can build your application in such a way that the event channel is the sole mechanism to receive application data.
 
-In a UCWA 1.0 event channel is a persistent GET request, also referred to as P-GET. Once properly initialized, a UCWA 1.0 application starts the event channel by submitting an HTTP GET request against the [events](http://ucwa.lync.com/documentation/resources-events) resource available from the signed-in [application](http://ucwa.lync.com/documentation/resources-application). Upon receiving this GET request, UCWA 1.0 holds the response to the GET request until some events occurred or the operation is timed out or becomes invalid. A successful response contains the occurred events as well as the URI of the next event notification. To keep the event channel open, the application must immediately submit a new HTTP GET request against the new event URI contained in the response and then wait for its response. The process continues until the event channel is no longer needed, such as when the application exits. On the other hand, an unsuccessful response reports an error condition, including time-out message. Depending on the error conditions, the application can choose to restart, repair or close the event channel.
+In a UCWA 1.0 event channel is a persistent GET request, also referred to as P-GET. Once properly initialized, a UCWA 1.0 application starts the event channel by submitting an HTTP GET request against the [events](http://ucwa.skype.com/documentation/resources-events) resource available from the signed-in [application](http://ucwa.skype.com/documentation/resources-application). Upon receiving this GET request, UCWA 1.0 holds the response to the GET request until some events occurred or the operation is timed out or becomes invalid. A successful response contains the occurred events as well as the URI of the next event notification. To keep the event channel open, the application must immediately submit a new HTTP GET request against the new event URI contained in the response and then wait for its response. The process continues until the event channel is no longer needed, such as when the application exits. On the other hand, an unsuccessful response reports an error condition, including time-out message. Depending on the error conditions, the application can choose to restart, repair or close the event channel.
 
 Programmatically, setting up the even channel in an application, thus, involves the following steps.
 
@@ -80,7 +80,7 @@ In the above class definition, the event channel class is created with two exter
 
 ## Start and stop the event loop
 
-Add the following member definition to the UcwaAppEventChannel class to open the event channel by starting a loop to poll the [events](http://ucwa.lync.com/documentation/resources-events) resource in a separate thread from the application’s main thread.
+Add the following member definition to the UcwaAppEventChannel class to open the event channel by starting a loop to poll the [events](http://ucwa.skype.com/documentation/resources-events) resource in a separate thread from the application’s main thread.
 
 ``` csharp
         Windows.Foundation.IAsyncAction workItem;
@@ -126,7 +126,7 @@ Add the following member definition to the UcwaAppEventChannel class to open the
 
 Here, GetResourceAsync(uri) is called to perform an HTTP GET request. Using the async/await programming pattern, the call is blocked until the server has events to return. Care must be taken to ensure that the call is not prematurely time out. For details, see [Initialize a pending HTTP GET request](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md) in this article.
 
-When the server returns event data in a response, the next event Uri is extracted from the returned [events](http://ucwa.lync.com/documentation/resources-events) resource for the event loop to continue. In the meantime, HandleEvents is called to forward event data to registered event handlers for processing. If an unsuccessful response is returned, HandleException is called. The detailed discussions of these methods are the topics of the [Process PGET responses](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md) section.
+When the server returns event data in a response, the next event Uri is extracted from the returned [events](http://ucwa.skype.com/documentation/resources-events) resource for the event loop to continue. In the meantime, HandleEvents is called to forward event data to registered event handlers for processing. If an unsuccessful response is returned, HandleException is called. The detailed discussions of these methods are the topics of the [Process PGET responses](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md) section.
 
 To stop or cancel the running thread for events, add the following member definition to the UcwaAppEventChannel class to break the event loop.
 
@@ -161,9 +161,9 @@ In a pending HTTP GET request, UCWA may hold the operation longer than the defau
         }
 ```
 
-When a UCWA application remains idle for some time beyond the preconfigured timeout period, UCWA will act to reclaim the application. To keep the application live when long idle time is expected, as with a UCWA event channel, the application can send to UCWA a [reportMyActivity](http://ucwa.lync.com/documentation/resources-reportmyactivity) request periodically.
+When a UCWA application remains idle for some time beyond the preconfigured timeout period, UCWA will act to reclaim the application. To keep the application live when long idle time is expected, as with a UCWA event channel, the application can send to UCWA a [reportMyActivity](http://ucwa.skype.com/documentation/resources-reportmyactivity) request periodically.
 
-This can be done by setting a timer that submits an HTTP PUT request every 4 minutes or so. To enable this, add the following code snippet to the UcwaApp class after the [me](http://ucwa.lync.com/documentation/resources-me) resource is successfully obtained.
+This can be done by setting a timer that submits an HTTP PUT request every 4 minutes or so. To enable this, add the following code snippet to the UcwaApp class after the [me](http://ucwa.skype.com/documentation/resources-me) resource is successfully obtained.
 
 ``` csharp
                 // Set up a timer to post on reportMyActivity every four minutes
@@ -315,11 +315,11 @@ Here, it is assumed that the upstream event handler is registered from a UI thre
 
 ## Additional resources
 
-  - [Getting Started](http://ucwa.lync.com/documentation/getting-started) with UCWA 1.0.
+  - [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0.
 
-  - UCWA 1.0[Event Channel Details](http://ucwa.lync.com/documentation/gettingstarted-events).
+  - UCWA 1.0[Event Channel Details](http://ucwa.skype.com/documentation/gettingstarted-events).
 
-  - UCWA 1.0[events](http://ucwa.lync.com/documentation/resources-events) resource reference page.
+  - UCWA 1.0[events](http://ucwa.skype.com/documentation/resources-events) resource reference page.
 
   - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md). More additional resources are listed therein.
 

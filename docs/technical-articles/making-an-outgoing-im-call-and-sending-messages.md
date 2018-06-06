@@ -28,23 +28,23 @@ Additional resources
 
 To ensure the success of a call and the exchange of messages during a conversation, your instant messaging (IM) application will need to handle appropriate event notifications. In this article, I’ll explain what basic events to catch and how to process them in order to run a basic IM call and conversation.
 
-In UCWA, to make an IM call, you submit a POST request on the [startMessaging](http://ucwa.lync.com/documentation/resources-startmessaging) resource and include at least the SIP URI of the user you’re calling. This sends an invitation to the specified user via the UCWA event channel. When the recipient answers the call, the caller is notified that the call state changed from connecting to connected.
+In UCWA, to make an IM call, you submit a POST request on the [startMessaging](http://ucwa.skype.com/documentation/resources-startmessaging) resource and include at least the SIP URI of the user you’re calling. This sends an invitation to the specified user via the UCWA event channel. When the recipient answers the call, the caller is notified that the call state changed from connecting to connected.
 
-After the call is connected, participants can send messages to other participants. To send a message, a UCWA application makes a POST request against the [sendMessage](http://ucwa.lync.com/documentation/resources-sendmessage) resource with the message as the payload. The messages can be formatted as a plain text or HTML.
+After the call is connected, participants can send messages to other participants. To send a message, a UCWA application makes a POST request against the [sendMessage](http://ucwa.skype.com/documentation/resources-sendmessage) resource with the message as the payload. The messages can be formatted as a plain text or HTML.
 
 ## Before you start
 
 Complete the following tasks before you start the process described in this article:
 
-  - Create your [application](http://ucwa.lync.com/documentation/resources-application).
+  - Create your [application](http://ucwa.skype.com/documentation/resources-application).
 
-  - Start the [event channel](http://ucwa.lync.com/documentation/programmingconcepts-events).
+  - Start the [event channel](http://ucwa.skype.com/documentation/programmingconcepts-events).
 
   - Sign in to UCWA.
 
   - Enable the application to receive incoming notifications and incoming IM messages.
 
-  - Retrieve the updated [application](http://ucwa.lync.com/documentation/resources-application) resource.
+  - Retrieve the updated [application](http://ucwa.skype.com/documentation/resources-application) resource.
 
 For more information, see [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md) and [Set up the UCWA event channel to receive incoming notifications](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md).
 
@@ -52,43 +52,43 @@ For more information, see [Start creating UCWA Windows Store apps](start-creatin
 
 To make an outgoing IM call by using UCWA:
 
-1.  Submit a POST request on the [startMessaging](http://ucwa.lync.com/documentation/resources-startmessaging) resource. You can navigate to this operational resource from the [communication](http://ucwa.lync.com/documentation/resources-communication) resource embedded in the [application](http://ucwa.lync.com/documentation/resources-application) resource.
+1.  Submit a POST request on the [startMessaging](http://ucwa.skype.com/documentation/resources-startmessaging) resource. You can navigate to this operational resource from the [communication](http://ucwa.skype.com/documentation/resources-communication) resource embedded in the [application](http://ucwa.skype.com/documentation/resources-application) resource.
     
-    As a result, the [messagingInvitation](http://ucwa.lync.com/documentation/resources-messaginginvitation) events are sent from the event channel.
+    As a result, the [messagingInvitation](http://ucwa.skype.com/documentation/resources-messaginginvitation) events are sent from the event channel.
 
 2.  Handle the outgoing **messagingInvitation** event sent from the **communication** resource. The event state changes from Connecting to Connected as the event type changes from started to completed.
 
-3.  Handle the [conversation](http://ucwa.lync.com/documentation/resources-conversation) event, also sent from the **communication** resource. The event state changes from Connecting to Connected as the event type changes from added to updated.
+3.  Handle the [conversation](http://ucwa.skype.com/documentation/resources-conversation) event, also sent from the **communication** resource. The event state changes from Connecting to Connected as the event type changes from added to updated.
     
     After a conversation is connected, a series of modality- or functionality-related events will also appear in the event channel. You can use these events to determine which of the following modalities is currently available in your application:
     
-      - [Messaging](http://ucwa.lync.com/documentation/resources-messaging)
+      - [Messaging](http://ucwa.skype.com/documentation/resources-messaging)
     
-      - [AudioVideo](http://ucwa.lync.com/documentation/resources-audiovideo)
+      - [AudioVideo](http://ucwa.skype.com/documentation/resources-audiovideo)
     
-      - [ApplicationSharing](http://ucwa.lync.com/documentation/resources-applicationsharing)
+      - [ApplicationSharing](http://ucwa.skype.com/documentation/resources-applicationsharing)
     
-      - [DataCollaboration](http://ucwa.lync.com/documentation/resources-datacollaboration)
+      - [DataCollaboration](http://ucwa.skype.com/documentation/resources-datacollaboration)
     
-    Because you started the call by using the **startMessaging** resource, only the messaging modality will be connected while all others remain in the disconnected state. If the messaging modality is in the disconnected state, you can enable or reenable it by calling the [addMessaging](http://ucwa.lync.com/documentation/resources-addmessaging) resource.
+    Because you started the call by using the **startMessaging** resource, only the messaging modality will be connected while all others remain in the disconnected state. If the messaging modality is in the disconnected state, you can enable or reenable it by calling the [addMessaging](http://ucwa.skype.com/documentation/resources-addmessaging) resource.
 
-4.  Handle the [messaging](http://ucwa.lync.com/documentation/resources-messaging) events to retrieve the URI to the [sendMessage](http://ucwa.lync.com/documentation/resources-sendmessage) resource. You will use this operational resource to send messages to remote participants.
+4.  Handle the [messaging](http://ucwa.skype.com/documentation/resources-messaging) events to retrieve the URI to the [sendMessage](http://ucwa.skype.com/documentation/resources-sendmessage) resource. You will use this operational resource to send messages to remote participants.
 
-5.  After receiving notification of the updated conversation, submit a GET request on the [conversation](http://ucwa.lync.com/documentation/resources-conversation). The response should contain the connected**conversation** resource. You can use this resource to add audio/video modalities or invite new participants to the conversation.
+5.  After receiving notification of the updated conversation, submit a GET request on the [conversation](http://ucwa.skype.com/documentation/resources-conversation). The response should contain the connected**conversation** resource. You can use this resource to add audio/video modalities or invite new participants to the conversation.
 
-6.  Submit a POST request on the [sendMessage](http://ucwa.lync.com/documentation/resources-sendmessage) resource to send a message to the remote participants. The request payload contains the message. When this operation is successful, you should receive **message**completed event fired by the **conversation** resource.
+6.  Submit a POST request on the [sendMessage](http://ucwa.skype.com/documentation/resources-sendmessage) resource to send a message to the remote participants. The request payload contains the message. When this operation is successful, you should receive **message**completed event fired by the **conversation** resource.
 
-7.  To end the call, submit a POST request on the [stopMessaging](http://ucwa.lync.com/documentation/resources-stopmessaging) resource.
+7.  To end the call, submit a POST request on the [stopMessaging](http://ucwa.skype.com/documentation/resources-stopmessaging) resource.
 
 Let’s dive into the details.
 
 ## Get ready to make a call
 
-Before you make the call, make sure that the user is signed in and can receive notifications. To do this, submit a POST request on the [makeMeAvailable](http://ucwa.lync.com/documentation/resources-makemeavailable) resource. For more information, see [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md).
+Before you make the call, make sure that the user is signed in and can receive notifications. To do this, submit a POST request on the [makeMeAvailable](http://ucwa.skype.com/documentation/resources-makemeavailable) resource. For more information, see [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md).
 
 You also need to [Set up the UCWA event channel to receive incoming notifications](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md), including incoming call invitations and other event notifications.
 
-Create a class named UcwaAppCommunication to encapsulate communications for the application. The constructor takes a logged on [application](http://ucwa.lync.com/documentation/resources-application) resource with incoming notifications and IM messages enabled to initialize the UcwaAppCommunication object.
+Create a class named UcwaAppCommunication to encapsulate communications for the application. The constructor takes a logged on [application](http://ucwa.skype.com/documentation/resources-application) resource with incoming notifications and IM messages enabled to initialize the UcwaAppCommunication object.
 
 ``` csharp
     public class UcwaAppCommunication
@@ -107,7 +107,7 @@ Create a class named UcwaAppCommunication to encapsulate communications for the 
         }
 ```
 
-The encapsulated [communication](http://ucwa.lync.com/documentation/resources-communication) resource is embedded in the **application** resource. It contains the URI to the [startMessaging](http://ucwa.lync.com/documentation/resources-startmesssaging) resource you need to start the call.
+The encapsulated [communication](http://ucwa.skype.com/documentation/resources-communication) resource is embedded in the **application** resource. It contains the URI to the [startMessaging](http://ucwa.skype.com/documentation/resources-startmesssaging) resource you need to start the call.
 
 Because the communication uses the event notifications, this is also a good place to register with the UCWA event channel in order to receive event notifications. You will fill in the ProcessEvent method later in the process.
 
@@ -153,7 +153,7 @@ When the request is successful, a series of events are raised at various stages 
 
 ## Handle events to monitor the progress of a call invitation
 
-To monitor the progress of an outgoing call invitation, your application handles notifications from two event sources: the [communication](http://ucwa.lync.com/documentation/resources-communication) and the [conversation](http://ucwa.lync.com/documentation/resources-conversation) resources. Update the ProccessEvents method with the following code.
+To monitor the progress of an outgoing call invitation, your application handles notifications from two event sources: the [communication](http://ucwa.skype.com/documentation/resources-communication) and the [conversation](http://ucwa.skype.com/documentation/resources-conversation) resources. Update the ProccessEvents method with the following code.
 
 ``` csharp
         void ProcessEvents(string sender, IEnumerable<UcwaEvent> events)
@@ -180,7 +180,7 @@ To complete placing outgoing calls, your application needs to be aware of the **
 
 When a **startMessaging** request is submitted successfully, a messagingInvitation starts and remains in a connecting state until the recipient accepts (or declines) the call. When the party accepts the call, the messagingInvitation is completed and its state changes from connecting to connected. The application can then send and receive messages.
 
-When the invitation is started, a conversation is also created in a connecting state. When the invitation is accepted, the conversation state changes to connected. At each stage, the application receives an event notification that contains the corresponding [conversation](http://ucwa.lync.com/documentation/resources-conversation) resource. When a conversation ends, either when the user disconnects or when the application times out, your application receives a [conversation](http://ucwa.lync.com/documentation/resources-conversation)-deleted event.
+When the invitation is started, a conversation is also created in a connecting state. When the invitation is accepted, the conversation state changes to connected. At each stage, the application receives an event notification that contains the corresponding [conversation](http://ucwa.skype.com/documentation/resources-conversation) resource. When a conversation ends, either when the user disconnects or when the application times out, your application receives a [conversation](http://ucwa.skype.com/documentation/resources-conversation)-deleted event.
 
 In the following code example, the messageInvitation and communication resources are cached at each stage of the state transition so that the most up-to-date resources are available for the application. Alternatively, these resources can be made available only when the messagingInvitation or communication state changes to connected.
 
@@ -217,25 +217,25 @@ You implement the NotifyResourceStateChange method to forward the state changes 
 
 ## Handle conversation-sourced events for outgoing calls
 
-After a conversation is created as part of the call invitation, the recipient is added as a participant and the messaging modality is added to the conversation. These activities are accompanied by the following event notifications from the [conversation](http://ucwa.lync.com/documentation/resources-conversation) resource:
+After a conversation is created as part of the call invitation, the recipient is added as a participant and the messaging modality is added to the conversation. These activities are accompanied by the following event notifications from the [conversation](http://ucwa.skype.com/documentation/resources-conversation) resource:
 
-  - [participant](http://ucwa.lync.com/documentation/resources-participant)added or updated
+  - [participant](http://ucwa.skype.com/documentation/resources-participant)added or updated
 
-  - [messaging](http://ucwa.lync.com/documentation/resources-messaging)added or updated
+  - [messaging](http://ucwa.skype.com/documentation/resources-messaging)added or updated
 
-The newly added [messaging](http://ucwa.lync.com/documentation/resources-messaging) resource contains the link to the [sendMessage](http://ucwa.lync.com/documentation/resources-sendmessage) resource, which is used to send outgoing messages. It also contains the other messaging-related operational resources:
+The newly added [messaging](http://ucwa.skype.com/documentation/resources-messaging) resource contains the link to the [sendMessage](http://ucwa.skype.com/documentation/resources-sendmessage) resource, which is used to send outgoing messages. It also contains the other messaging-related operational resources:
 
-  - [stopMessaging](http://ucwa.lync.com/documentation/resources-stopmessaging) — Used to end the call.
+  - [stopMessaging](http://ucwa.skype.com/documentation/resources-stopmessaging) — Used to end the call.
 
-  - [setIsTyping](http://ucwa.lync.com/documentation/resources-setistyping) — Used to notify others that a user is typing.
+  - [setIsTyping](http://ucwa.skype.com/documentation/resources-setistyping) — Used to notify others that a user is typing.
 
-  - [typingParticipant](http://ucwa.lync.com/documentation/resources-typingparticipant) — Used to identify the person typing.
+  - [typingParticipant](http://ucwa.skype.com/documentation/resources-typingparticipant) — Used to identify the person typing.
 
 Some of these resources might not be available when a messaging resource is in the connecting state.
 
 The participant-added events contain information about the remote participant, including where to get full contact information or to subscribe to their presence information.
 
-The following code example shows one way to fetch and cache the name of the remote participant when they’re added to the conversation and to delete the participant name from the cache when they’re removed. In addition, the most up-to-date [messaging](http://ucwa.lync.com/documentation/resources-messaging) resource is cached so that the resources it contains are available to the application. Alternatively, you can do this only for the **messaging**added event in the connected state and ignore the other **messaging** events.
+The following code example shows one way to fetch and cache the name of the remote participant when they’re added to the conversation and to delete the participant name from the cache when they’re removed. In addition, the most up-to-date [messaging](http://ucwa.skype.com/documentation/resources-messaging) resource is cached so that the resources it contains are available to the application. Alternatively, you can do this only for the **messaging**added event in the connected state and ignore the other **messaging** events.
 
 ``` csharp
         async void ProcessConversationEvents(IEnumerable<UcwaEvent> events)
@@ -284,11 +284,11 @@ The following code example shows one way to fetch and cache the name of the remo
         }
 ```
 
-When the [messagingInvitation](http://ucwa.lync.com/documentation/resources-messaginginvitation) is successfully completed, the application is ready to send and receive IMs through the connected [conversation](http://ucwa.lync.com/documentation/resources-conversation).
+When the [messagingInvitation](http://ucwa.skype.com/documentation/resources-messaginginvitation) is successfully completed, the application is ready to send and receive IMs through the connected [conversation](http://ucwa.skype.com/documentation/resources-conversation).
 
 ## Send outgoing IMs
 
-To send an IM in a conversation, submit a POST request on the [sendMessage](http://ucwa.lync.com/documentation/resources-sendmessage) resource. The URI to this resource is available from the [messaging](http://ucwa.lync.com/documentation/resources-messaging) resource from the event channel. In the following code example, the URI is cached as an instance of the UcwaAppResourceMessaging class. See the accompanying [sample application solution](http://code.msdn.microsoft.com/lync-2013-ucwa-windows-2f0ce645) for details.
+To send an IM in a conversation, submit a POST request on the [sendMessage](http://ucwa.skype.com/documentation/resources-sendmessage) resource. The URI to this resource is available from the [messaging](http://ucwa.skype.com/documentation/resources-messaging) resource from the event channel. In the following code example, the URI is cached as an instance of the UcwaAppResourceMessaging class. See the accompanying [sample application solution](http://code.msdn.microsoft.com/lync-2013-ucwa-windows-2f0ce645) for details.
 
 You can send the message in plain text format, as shown in the following code example, where the message is input from a **TextBox** control. Make sure that the supported messaging modalities include plain text and the Content-Type is set to "text/plain". You can also send the HTML-formatted message, for example, \<span\>Hello\!\</span\>, if the supported messaging modalities include HTML. In this case, you need to specify the content type as "text/html" instead.
 
@@ -335,11 +335,11 @@ That’s it for the basic steps to place an outgoing IM call and to send the fir
 
 ## Additional resources
 
-  - [Getting Started](http://ucwa.lync.com/documentation/getting-started) with UCWA 1.0.
+  - [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0.
 
-  - UCWA 1.0 [Event Channel Details](http://ucwa.lync.com/documentation/gettingstarted-events)
+  - UCWA 1.0 [Event Channel Details](http://ucwa.skype.com/documentation/gettingstarted-events)
 
-  - UCWA 1.0 [events](http://ucwa.lync.com/documentation/resources-events) resource reference page
+  - UCWA 1.0 [events](http://ucwa.skype.com/documentation/resources-events) resource reference page
 
   - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
 

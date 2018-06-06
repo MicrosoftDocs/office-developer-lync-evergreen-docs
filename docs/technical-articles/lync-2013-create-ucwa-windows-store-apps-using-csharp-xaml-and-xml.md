@@ -41,7 +41,7 @@ This series of articles shows you how to use UCWA to make asynchronous calls to 
 
   - [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx) — If you’re new to building Windows Store apps, read this step-by-step guide to create a Windows Store application using C\# or Visual Basic.
 
-  - [UCWA Dev Portal](http://ucwa.lync.com/) — This is the official UCWA development portal where you can find interactive demo and sample code, written in JavaScript and JSON. You can also access the community forum for UCWA developers.
+  - [UCWA Dev Portal](http://ucwa.skype.com/) — This is the official UCWA development portal where you can find interactive demo and sample code, written in JavaScript and JSON. You can also access the community forum for UCWA developers.
 
-  - [What is UCWA API?](http://ucwa.lync.com/documentation/what-is-lync-ucwa-api) — This is the official UCWA documentation, where you can find information about the requirements, features, and architecture of UCWA.
+  - [What is UCWA API?](http://ucwa.skype.com/documentation/what-is-lync-ucwa-api) — This is the official UCWA documentation, where you can find information about the requirements, features, and architecture of UCWA.
 

@@ -27,21 +27,21 @@ Additional resources
 
 Just like when you [make an outgoing call](making-an-outgoing-im-call-and-sending-messages.md), to accept incoming instant messaging (IM) calls, you need to handle appropriate event notifications. In this article, you’ll learn what basic events to catch and how to process them.
 
-In UCWA, to answer an IM call, you submit a POST request on the [accept](http://ucwa.lync.com/documentation/resources-accept) resource after receiving a notification of an incoming [messagingInvitation](http://ucwa.lync.com/documentation/resources-messaginginvitation)-started event. This will change the **messagingInvitation** state from Connecting to Connected. As a result, the underlying **conversation** state will also change from Connecting to Connected.
+In UCWA, to answer an IM call, you submit a POST request on the [accept](http://ucwa.skype.com/documentation/resources-accept) resource after receiving a notification of an incoming [messagingInvitation](http://ucwa.skype.com/documentation/resources-messaginginvitation)-started event. This will change the **messagingInvitation** state from Connecting to Connected. As a result, the underlying **conversation** state will also change from Connecting to Connected.
 
-After the call is connected, to receive messages from other participants, you must capture the [message](http://ucwa.lync.com/documentation/resource-message) event that originated from the conversation and parse the event data. The message that you retrieve can be a base64-encoded HTML or a URL-encoded plain text.
+After the call is connected, to receive messages from other participants, you must capture the [message](http://ucwa.skype.com/documentation/resource-message) event that originated from the conversation and parse the event data. The message that you retrieve can be a base64-encoded HTML or a URL-encoded plain text.
 
 ## Before you start
 
 Complete the following tasks before you start the process described in this article:
 
-  - Create your [application](http://ucwa.lync.com/documentation/resources-application).
+  - Create your [application](http://ucwa.skype.com/documentation/resources-application).
 
-  - Start the [event channel](http://ucwa.lync.com/documentation/programmingconcepts-events).
+  - Start the [event channel](http://ucwa.skype.com/documentation/programmingconcepts-events).
 
   - Sign in to UCWA.
 
-  - Turn on the [makeMeAvailable](http://ucwa.lync.com/documentation/resources-makemeavailable) option for the application to receive incoming notifications and incoming IM messages.
+  - Turn on the [makeMeAvailable](http://ucwa.skype.com/documentation/resources-makemeavailable) option for the application to receive incoming notifications and incoming IM messages.
 
   - Retrieve the updated **application** resource.
 
@@ -51,13 +51,13 @@ For more information, see [Start creating UCWA Windows Store apps](start-creatin
 
 To answer an incoming IM call by using UCWA:
 
-1.  Handle the incoming **messagingInvitation** event sent from the **communication** resource. In the **messagingInvitation**-started event, cache the URI of the [accept](http://ucwa.lync.com/documentation/resources-accept) and [decline](http://ucwa.lync.com/documentation/resources-decline) resources.
+1.  Handle the incoming **messagingInvitation** event sent from the **communication** resource. In the **messagingInvitation**-started event, cache the URI of the [accept](http://ucwa.skype.com/documentation/resources-accept) and [decline](http://ucwa.skype.com/documentation/resources-decline) resources.
 
 2.  Decide to accept or reject the call invitation. You can prompt the user to choose an option provided by your application or use a different approach.
 
 3.  To accept the invitation, submit a POST request on the **accept** resource. To reject the invitation, submit a POST request on the **decline** resource.
 
-4.  Handle the incoming [message](http://ucwa.lync.com/documentation/resources-message) event notifications to receive incoming messages, and use the appropriate message decoder to parse the IM messages that it contains. To parse the messages, decode the URL-encoded blob by doing the following:
+4.  Handle the incoming [message](http://ucwa.skype.com/documentation/resources-message) event notifications to receive incoming messages, and use the appropriate message decoder to parse the IM messages that it contains. To parse the messages, decode the URL-encoded blob by doing the following:
     
       - For HTML-formatted messages, follow the **htmlMessage** link to extract and parse the message.
     
@@ -71,7 +71,7 @@ To test the application, another caller must be online to make the call, using L
 
 ## Answer the incoming call
 
-To answer an incoming call, handle the incoming [messagingInvitation](http://ucwa.lync.com/documentation/resources-messaginginvitation) events sent from the [communication](http://ucwa.lync.com/documentation/resources-communication) resource. The following code example shows how to handle the **messagingInvitation** events.
+To answer an incoming call, handle the incoming [messagingInvitation](http://ucwa.skype.com/documentation/resources-messaginginvitation) events sent from the [communication](http://ucwa.skype.com/documentation/resources-communication) resource. The following code example shows how to handle the **messagingInvitation** events.
 
 ``` csharp
         async void ProcessCommunicationEvents(IEnumerable<UcwaEvent> events)
@@ -109,7 +109,7 @@ To answer an incoming call, handle the incoming [messagingInvitation](http://ucw
         }
 ```
 
-The incoming **messageInvitation**-Started event will contain the links to the [accept](http://ucwa.lync.com/documentation/resources-accept) and [decline](http://ucwa.lync.com/documentation/resources-decline) resources. You will need to use them to accept or decline the call invitation. Cache these resources, because they will not be available in the subsequent **messagingInvitation** events, for example, when the invitation becomes Completed.
+The incoming **messageInvitation**-Started event will contain the links to the [accept](http://ucwa.skype.com/documentation/resources-accept) and [decline](http://ucwa.skype.com/documentation/resources-decline) resources. You will need to use them to accept or decline the call invitation. Cache these resources, because they will not be available in the subsequent **messagingInvitation** events, for example, when the invitation becomes Completed.
 
 In the following code example, the application uses a [MessageDialog](http://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.popups.messagedialog.aspx) control for Windows Store apps to enable the user to accept or decline the call. This involves forwarding the invitation details, including the caller name, subject, and importance, to the UI thread and instantiating the **MessageDialog** in the application-defined OnMessagingInviteReceived event handler. The following code example shows the NotifyMessagingInvite method.
 
@@ -247,7 +247,7 @@ The NotifyReceivedMessages forwards the data to the UI thread that displays the 
 
 ## Parse received IM messages
 
-UCWA can support HTML and plain text messages. When Lync sends an IM message, the incoming message is a URL-encoded HTML tagged string, as shown in the following [message](http://ucwa.lync.com/documentation/resources-message) event example.
+UCWA can support HTML and plain text messages. When Lync sends an IM message, the incoming message is a URL-encoded HTML tagged string, as shown in the following [message](http://ucwa.skype.com/documentation/resources-message) event example.
 
 ``` xml
 <resource rel="message" href="/ucwa/oauth/v1/applications/102270403677/communication/conversations/fcd168a1-fe9e-4604-a9b1-8acd4f013339/messaging/messages/2" xmlns="http://schemas.microsoft.com/rtc/2012/03/ucwa">
@@ -285,11 +285,11 @@ Here, [UrlDecode](http://msdn.microsoft.com/en-us/library/system.net.webutility.
 
 ## Additional resources
 
-  - [Getting Started](http://ucwa.lync.com/documentation/getting-started) with UCWA 1.0
+  - [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0
 
-  - UCWA 1.0 [Event Channel Details](http://ucwa.lync.com/documentation/gettingstarted-events)
+  - UCWA 1.0 [Event Channel Details](http://ucwa.skype.com/documentation/gettingstarted-events)
 
-  - UCWA 1.0 [events](http://ucwa.lync.com/documentation/resources-events) resource reference page
+  - UCWA 1.0 [events](http://ucwa.skype.com/documentation/resources-events) resource reference page
 
   - [Set up the UCWA event channel to receive incoming notifications](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md)
 

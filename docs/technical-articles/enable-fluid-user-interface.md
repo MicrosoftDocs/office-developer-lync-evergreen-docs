@@ -27,7 +27,7 @@ Manage app data caching to facilitate fluid user experience
 Configure UI elements in MePage.xaml for displaying output  
 Additional resources  
 
-To illustrate enabling fluid user experience in our UCWA Windows Store app, we will add UI elements in two XAML pages. The first XAML page is MainPage.xaml that was added as part of Create a Windows Store App Project Using Visual Studio. It will contain the UI elements such as **TextBox**, **PasswordBox**, **CheckBox** and **Button** for accepting user input. We will then add a second XAML page named MePage.xaml. It will contain UI elements, such as **TextBlock**, to display the display name, presence status, personal note, and listed phone numbers of the user. This MePage.xaml can be thought of as a simplified version of the [me dashboard](http://ucwa.lync.com/documentation/dashboard-me) of UCWA.
+To illustrate enabling fluid user experience in our UCWA Windows Store app, we will add UI elements in two XAML pages. The first XAML page is MainPage.xaml that was added as part of Create a Windows Store App Project Using Visual Studio. It will contain the UI elements such as **TextBox**, **PasswordBox**, **CheckBox** and **Button** for accepting user input. We will then add a second XAML page named MePage.xaml. It will contain UI elements, such as **TextBlock**, to display the display name, presence status, personal note, and listed phone numbers of the user. This MePage.xaml can be thought of as a simplified version of the [me dashboard](http://ucwa.skype.com/documentation/dashboard-me) of UCWA.
 
 ## Configure UI elements in MainPage.xaml for taking user input
 
