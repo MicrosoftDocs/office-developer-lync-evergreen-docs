@@ -41,8 +41,7 @@ Watch the video: Add Presence to a WPF Application
 </div>
 <br />
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
-<p></p></td>
-</tr>
+<p></p>
 
 <table><tbody>
 <tr class="even">
