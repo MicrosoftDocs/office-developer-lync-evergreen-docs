@@ -22,9 +22,9 @@ The following category instances are published to this container.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 40%" />
+<col style="width: 10%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -71,9 +71,9 @@ The following category instances are published to this container.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 40%" />
+<col style="width: 10%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -140,9 +140,9 @@ The following category instances are published to this container.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 40%" />
+<col style="width: 10%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
