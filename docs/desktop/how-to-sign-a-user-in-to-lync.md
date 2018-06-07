@@ -56,6 +56,7 @@ Watch the video: Sign In to Lync
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8a417ed0-bcab-4da7-b033-d1e2cdb784df]
 
+
 ## Prerequisites
 
 The prerequisites for signing in to Lync 2013 are as follows:
