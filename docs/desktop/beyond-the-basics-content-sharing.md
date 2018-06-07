@@ -16,7 +16,7 @@ Learn about using Microsoft Lync 2013 SDK to handle meeting content sharing even
 
 **Last modified:** February 19, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -29,14 +29,16 @@ Learn about using Microsoft Lync 2013 SDK to handle meeting content sharing even
 Advanced content sharing programming<br />
 In this section<br />
 Additional resources</p></td>
-<td><div class="caption">
-Watch the video: Share file attachments in online meetings
-</div>
-<br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]</td>
 </tr>
 </tbody>
 </table>
+
+<div class="caption">
+Watch the video: Share file attachments in online meetings
+</div>
+<br />
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]
 
 ## Advanced content sharing programming
 
