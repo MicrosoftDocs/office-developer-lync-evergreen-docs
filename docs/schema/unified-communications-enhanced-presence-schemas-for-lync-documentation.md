@@ -19,7 +19,7 @@ Microsoft Unified Communications Enhanced Presence Schemas for Microsoft Lync Se
 
 ## In this documentation
 
-  - [Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference](unified-communications-enhanced-presence-schemas-for-lync-server-2013-general-reference.md)
+  - [Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference](unified-communications-enhanced-presence-schemas-for-lync-general-reference.md)
 
 ## See also
 

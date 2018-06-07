@@ -30,5 +30,5 @@ This section discusses the technical specifications for the enhanced presence ca
 
 #### Concepts
 
-[Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference](unified-communications-enhanced-presence-schemas-for-lync-server-2013-general-reference.md)
+[Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference](unified-communications-enhanced-presence-schemas-for-lync-general-reference.md)
 

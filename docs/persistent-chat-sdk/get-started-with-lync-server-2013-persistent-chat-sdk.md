@@ -15,7 +15,7 @@ This section discusses how to build and run a Microsoft Lync Server 2013 Persist
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-  - [Hardware, software, and technical prerequisites (Lync Server 2013 Persistent Chat SDK)](hardware-software-and-technical-prerequisites-lync-server-2013-persistent-chat-sdk.md)
+  - [Hardware, software, and technical prerequisites (Lync Server 2013 Persistent Chat SDK)](hardware-software-and-technical-prerequisites.md)
 
   - [Install and uninstall Lync Server 2013 Persistent Chat SDK](install-and-uninstall-lync-server-2013-persistent-chat-sdk.md)
 

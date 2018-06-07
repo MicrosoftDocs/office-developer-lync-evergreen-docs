@@ -49,7 +49,7 @@ In a Lync Server 2013 deployment, the enhanced presence schemas are exposed to t
 
 #### Concepts
 
-[Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference](unified-communications-enhanced-presence-schemas-for-lync-server-2013-general-reference.md)
+[Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference](unified-communications-enhanced-presence-schemas-for-lync-general-reference.md)
 
 #### Other resources
 

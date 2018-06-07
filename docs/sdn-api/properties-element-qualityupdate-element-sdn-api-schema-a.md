@@ -187,262 +187,262 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="appliedbandwidthlimit-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">AppliedBandwidthLimit</a></p></td>
+<td><p><a href="appliedbandwidthlimit-element-sdn-api-schema-a.md">AppliedBandwidthLimit</a></p></td>
 <td><p>xs:unsignedInt</p></td>
 <td><p>Displays the limits applied. It is provided only in QualityUpdate events when Call Admission Control is used.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="bitrateavg-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">BitRateAvg</a></p></td>
+<td><p><a href="bitrateavg-element-sdn-api-schema-a.md">BitRateAvg</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Average bit rate, in bits per second, sent or received for a video stream and computed over the duration of the session. This includes raw video and transport bits. This metric is reported for video streams when available. (bits/s)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="bitratemax-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">BitRateMax</a></p></td>
+<td><p><a href="bitratemax-element-sdn-api-schema-a.md">BitRateMax</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Maximum bit rate, in bits per second, sent or received for a video stream and computed over the duration of the session. This metric is reported for video streams when available. (bits/s)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="burstdensity-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">BurstDensity</a></p></td>
+<td><p><a href="burstdensity-element-sdn-api-schema-a.md">BurstDensity</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average burst density, as specified in [RFC3611] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. The fraction of RTP data packets within burst periods since the beginning of reception that were either lost or discarded. This value is expressed as a fixed point number with the binary point at the left edge of the field. It is calculated by dividing the total number of packets lost or discarded (excluding duplicate packet discards) within burst periods by the total number of packets expected within the burst periods, multiplying the result of the division by 256, limiting the maximum value to 255 (to avoid overflow), and taking the integer part. This field MUST be populated and MUST be set to zero if no packets have been received.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="burstduration-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">BurstDuration</a></p></td>
+<td><p><a href="burstduration-element-sdn-api-schema-a.md">BurstDuration</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>The average burst duration, as specified in [RFC3611] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. (ms)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="burstgapdensity-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">BurstGapDensity</a></p></td>
+<td><p><a href="burstgapdensity-element-sdn-api-schema-a.md">BurstGapDensity</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average burst gap density, as specified in [RFC3611] section 4.7.2, computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="burstgapduration-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">BurstGapDuration</a></p></td>
+<td><p><a href="burstgapduration-element-sdn-api-schema-a.md">BurstGapDuration</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Average burst gap duration, as specified in [RFC3611] section 4.7.2, computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. (ms)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="codec-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">Codec</a></p></td>
+<td><p><a href="codec-element-qualityupdate-element-sdn-api-schema-a.md">Codec</a></p></td>
 <td><p><a href="codectype-complextype-lync-sdn-api-schema-a.md">CodecType</a></p></td>
 <td><p>Describes the last codec used for the media.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="conversationalmos-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">ConversationalMOS</a></p></td>
+<td><p><a href="conversationalmos-element-sdn-api-schema-a.md">ConversationalMOS</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Conversational clarity index for remote party, as described in [ITUP.562] section 6.3. This metric is reported for all available modalities and media types.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="degradationavg-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">DegradationAvg</a></p></td>
+<td><p><a href="degradationavg-element-sdn-api-schema-a.md">DegradationAvg</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Difference between the OverallAvg value and the maximum possible MOS-LQO for the audio codec used in the session. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="degradationjitteravg-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">DegradationJitterAvg</a></p></td>
+<td><p><a href="degradationjitteravg-element-sdn-api-schema-a.md">DegradationJitterAvg</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Average fraction of the degradation jitter average applies to inter-arrival packet jitter. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="degradationmax-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">DegradationMax</a></p></td>
+<td><p><a href="degradationmax-element-sdn-api-schema-a.md">DegradationMax</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Maximum degradation as the difference between the OverallMin and the maximum possible MOS-LQO for the audio codec used in the session. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="degradationpacketlossavg-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">DegradationPacketLossAvg</a></p></td>
+<td><p><a href="degradationpacketlossavg-element-sdn-api-schema-a.md">DegradationPacketLossAvg</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average fraction of the DegradationAvg that was caused by packet loss. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="dynamiccapabilitypercent-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">DynamicCapabilityPercent</a></p></td>
+<td><p><a href="dynamiccapabilitypercent-element-sdn-api-schema-a.md">DynamicCapabilityPercent</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Percentage of time that the client is running under capability of less than 70% of expected capability for this type of CPU. Inbound and Outbound are identical because it measures the capability of the client instead of the channel. This metric is reported for video streams when available. (percent)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="echoeventcauses-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EchoEventCauses</a></p></td>
+<td><p><a href="echoeventcauses-element-sdn-api-schema-a.md">EchoEventCauses</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Reasons of device echo detection and reported for audio streams when available. The causes are coded by the following bit flags: &quot;0x01&quot; - Sample timestamps from capture or render device were poor quality. &quot;0x04&quot; - High level of echo remained after echo cancellation. &quot;0x10&quot; - Signal from capture device had significant instances of maximum signal level.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="echopercentmicin-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EchoPercentMicIn</a></p></td>
+<td><p><a href="echopercentmicin-element-sdn-api-schema-a.md">EchoPercentMicIn</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Percentage of time when echo is detected in the audio from the capture or microphone device prior to echo cancellation. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="echopercentsend-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EchoPercentSend</a></p></td>
+<td><p><a href="echopercentsend-element-sdn-api-schema-a.md">EchoPercentSend</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Percentage of time when echo is detected in the audio from the capture or microphone device after echo cancellation. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="echoreturn-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EchoReturn</a></p></td>
+<td><p><a href="echoreturn-element-properties-element-sdn-api-schema-a.md">EchoReturn</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Echo returns reported for audio streams, when available.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="framerate-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">FrameRate</a></p></td>
+<td><p><a href="framerate-element-sdn-api-schema-a.md">FrameRate</a></p></td>
 <td><p>xs:decimal</p></td>
 <td><p>Average frame rate (in frames per second). When available, this metric is only reported for application sharing streams and only for Lync 2013. (frames/s)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="hdqualityratio-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">HDQualityRatio</a></p></td>
+<td><p><a href="hdqualityratio-element-sdn-api-schema-a.md">HDQualityRatio</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Percentage of the duration of a call that is using the HD720 resolution. This metric is reported for video streams when available. (percent)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="healerpacketdropratio-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">HealerPacketDropRatio</a></p></td>
+<td><p><a href="healerpacketdropratio-element-sdn-api-schema-a.md">HealerPacketDropRatio</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Ratio of audio packets dropped by a healer over total number of audio packets received by the healer. This metric is reported for all modalities/media types when available. (percent)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="jitterinterarrival-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">JitterInterArrival</a></p></td>
+<td><p><a href="jitterinterarrival-element-sdn-api-schema-a.md">JitterInterArrival</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average inter-arrival jitter, as specified in [RFC3550] section 6.4.1. This metric is reported for all available modalities/media types. (ms)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="jitterinterarrivalmax-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">JitterInterArrivalMax</a></p></td>
+<td><p><a href="jitterinterarrivalmax-element-sdn-api-schema-a.md">JitterInterArrivalMax</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Maximum inter-arrival jitter, as specified in [RFC3550] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="localframelosspercentageavg-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">LocalFrameLossPercentageAvg</a></p></td>
+<td><p><a href="localframelosspercentageavg-element-sdn-api-schema-a.md">LocalFrameLossPercentageAvg</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Average percentage of video frames lost as they are displayed to the user, including frames recovered from network losses. This metric is reported for video streams when available. (percent)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lowframeratecallpercent-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">LowFrameRateCallPercent</a></p></td>
+<td><p><a href="lowframeratecallpercent-element-sdn-api-schema-a.md">LowFrameRateCallPercent</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Percentage of time of the call where frame rate is less than 7.5 frames per second. This metric is reported for video streams when available. (percent)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lowresolutioncallpercent-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">LowResolutionCallPercent</a></p></td>
+<td><p><a href="lowresolutioncallpercent-element-sdn-api-schema-a.md">LowResolutionCallPercent</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Percentage of time of the call where resolution is low. Threshold is 120 pixels for smaller dimension. This metric is reported for video streams when available. (percent)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="overallavgnetworkmos-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">OverallAvgNetworkMOS</a></p></td>
+<td><p><a href="overallavgnetworkmos-element-sdn-api-schema-a.md">OverallAvgNetworkMOS</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Average of MOS-LQO wideband, as specified by [ITUP.800.1] section 2.1.2, based on the audio codec used, the observed packet loss and inter-arrival packet jitter. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="overallminnetworkmos-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">OverallMinNetworkMOS</a></p></td>
+<td><p><a href="overallminnetworkmos-element-sdn-api-schema-a.md">OverallMinNetworkMOS</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Minimum of MOS-LQO wideband, as specified by [ITUP.800.1] section 2.1.2, based on the audio codec used, the observed packet loss and inter-arrival packet jitter. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="packetlossrate-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">PacketLossRate</a></p></td>
+<td><p><a href="packetlossrate-element-sdn-api-schema-a.md">PacketLossRate</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average fraction lost computed over the duration of the session, as specified in [RFC3550] section 6.4.1. This metric is reported for all available modalities and media types. (percent)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="packetlossratemax-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">PacketLossRateMax</a></p></td>
+<td><p><a href="packetlossratemax-element-sdn-api-schema-a.md">PacketLossRateMax</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Maximum fraction lost, as specified in [RFC3550] section 6.4.1, computed over the duration of the session. This metric is reported for all available modalities/media types. (percent)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="packetutilization-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">PacketUtilization</a></p></td>
+<td><p><a href="packetutilization-element-sdn-api-schema-a.md">PacketUtilization</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Number of Real-time Transport Protocol (RTP) packets received in the session. This metric is reported for all available modalities and media types.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="protocol-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">Protocol</a></p></td>
+<td><p><a href="protocol-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">Protocol</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Transmission protocol of the call such as TCP or UDP.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="ratioconcealedsamplesavg-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RatioConcealedSamplesAvg</a></p></td>
+<td><p><a href="ratioconcealedsamplesavg-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RatioConcealedSamplesAvg</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Ratio of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="rdptileprocessinglatencyaverage-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RDPTileProcessingLatencyAverage</a></p></td>
+<td><p><a href="rdptileprocessinglatencyaverage-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RDPTileProcessingLatencyAverage</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average processing time for remote desktop protocol (RDP) tiles. A higher total value implies a longer delay in the viewing experience. When available, this metric is only reported for application sharing streams using Lync 2013. (ms)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rdptileprocessinglatencyburstdensity-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RDPTileProcessingLatencyBurstDensity</a></p></td>
+<td><p><a href="rdptileprocessinglatencyburstdensity-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RDPTileProcessingLatencyBurstDensity</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Burst density in the processing time for remote desktop protocol (RDP) tiles. A &quot;bursty&quot; transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream. This metric is only reported for application sharing streams using Lync 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="recvframerateaverage-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RecvFrameRateAverage</a></p></td>
+<td><p><a href="recvframerateaverage-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RecvFrameRateAverage</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average frames per second received for all video streams and computed over the duration of the session. This metric is reported for video streams when available. (frames/s)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="recvlistenmos-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RecvListenMOS</a></p></td>
+<td><p><a href="recvlistenmos-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RecvListenMOS</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>MOS-LQO wideband, as specified by [ITUP.800.1] section 2.1.2, for decoded audio received by the reporting entity during the session. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="recvlistenmosmin-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RecvListenMOSMin</a></p></td>
+<td><p><a href="recvlistenmosmin-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RecvListenMOSMin</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Minimum of the RecvListenMOS for the stream during the session. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="recvnoiselevel-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RecvNoiseLevel</a></p></td>
+<td><p><a href="recvnoiselevel-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RecvNoiseLevel</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Received noise level in units of dB that is reported for audio streams when available. Average energy level of received audio is classified as noise, mono signal or the left channel of stereo signal. (dB)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="recvsignallevel-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RecvSignalLevel</a></p></td>
+<td><p><a href="recvsignallevel-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RecvSignalLevel</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Received signal level in units of dB. This metric is reported for audio streams when available. Average energy level of received audio is classified as mono speech, or left channel of stereo speech. (dB)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="relativeonewayaverage-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RelativeOneWayAverage</a></p></td>
+<td><p><a href="relativeonewayaverage-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RelativeOneWayAverage</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average amount of one-way latency. Relative one-way latency measures the delay between the client and the server. This metric is only reported for application sharing streams using Lync 2013. (ms)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="relativeonewayburstdensity-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RelativeOneWayBurstDensity</a></p></td>
+<td><p><a href="relativeonewayburstdensity-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RelativeOneWayBurstDensity</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Total one-way burst density involving unsteady transmission. An unsteady transmission is one where data flows in random bursts as opposed to a steady stream. This metric measures data flow between the client and the server and is only reported for application sharing streams using Lync 2013.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="roundtrip-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RoundTrip</a></p></td>
+<td><p><a href="roundtrip-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RoundTrip</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average network propagation round-trip time as specified in [RFC3550] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="roundtripmax-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">RoundTripMax</a></p></td>
+<td><p><a href="roundtripmax-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">RoundTripMax</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Maximum network propagation round-trip time as specified in [RFC3550] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sendlistenmos-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">SendListenMOS</a></p></td>
+<td><p><a href="sendlistenmos-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">SendListenMOS</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>MOS-LQO wideband, as specified by [ITUP.800.1] section 2.1.2, for pre-encoded audio sent by the reporting entity during the session. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sendlistenmosmin-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">SendListenMOSMin</a></p></td>
+<td><p><a href="sendlistenmosmin-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">SendListenMOSMin</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Minimum of the SendListenMOS for the stream over the duration of the session. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="spoiledtilepercentaverage-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">SpoiledTilePercentAverage</a></p></td>
+<td><p><a href="spoiledtilepercentaverage-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">SpoiledTilePercentAverage</a></p></td>
 <td><p>xs:decimal</p></td>
 <td><p>Average percentage of the content that did not reach the viewer but was instead discarded and overwritten by fresh content. When available, this metric is only reported for application sharing streams and only for Lync 2013. (percent)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="spoiledtilepercenttotal-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">SpoiledTilePercentTotal</a></p></td>
+<td><p><a href="spoiledtilepercenttotal-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">SpoiledTilePercentTotal</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Total percentage of the content that did not reach the viewer but was instead discarded and overwritten by fresh content. When available, this metric is only reported for application sharing streams and only for Lync 2013. (percent)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="vgaqualityratio-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">VGAQualityRatio</a></p></td>
+<td><p><a href="vgaqualityratio-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">VGAQualityRatio</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Percentage of the duration of a call that is using the VGA resolution. This metric is reported for video streams when available. (percent)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="videoframelossrate-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">VideoFrameLossRate</a></p></td>
+<td><p><a href="videoframelossrate-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">VideoFrameLossRate</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average fraction of frames lost on the video receiver side as computed over the duration of the session. This metric is reported for video streams when available. (frames/s)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="videolocalframelosspercentageavg-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">VideoLocalFrameLossPercentageAvg</a></p></td>
+<td><p><a href="videolocalframelosspercentageavg-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">VideoLocalFrameLossPercentageAvg</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average percentage of video frames lost as they are displayed to the user. This includes frames recovered from network losses. This metric is reported for video streams when available. (percent)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="videopacketlossrate-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">VideoPacketLossRate</a></p></td>
+<td><p><a href="videopacketlossrate-element-properties-element-qualityupdate-element-sdn-api-schema-a.md">VideoPacketLossRate</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Average fraction lost, as specified in [RFC3550] section 6.4.1, computed over the duration of the session. This metric is reported for video streams when available. (packets/s)</p></td>
 </tr>

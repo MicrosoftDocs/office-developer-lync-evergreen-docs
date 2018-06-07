@@ -73,12 +73,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="codec-element-properties-element-startorupdatetype-complextype-lync-sdn-api-schema-a.md">Codec</a></p></td>
+<td><p><a href="codec-element-startorupdatetype-sdn-api-schema-a.md">Codec</a></p></td>
 <td><p><a href="codectype-complextype-lync-sdn-api-schema-a.md">CodecType</a></p></td>
 <td><p>Codec and estimates for the bandwidth that the codecs will use. This list contains all codecs that are agreed upon by the two endpoints. Both end-points may decide to switch amoung these codecs at any time (without additional signalling).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="codec-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">Codec</a></p></td>
+<td><p><a href="codec-element-qualityupdate-element-sdn-api-schema-a.md">Codec</a></p></td>
 <td><p><a href="codectype-complextype-lync-sdn-api-schema-a.md">CodecType</a></p></td>
 <td><p>Describes the last codec used for the media.</p></td>
 </tr>

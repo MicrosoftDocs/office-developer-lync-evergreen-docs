@@ -88,12 +88,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Endpoint while the call is on-hold.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="endpoint-element-error-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EndPoint</a></p></td>
+<td><p><a href="endpoint-element-error-element-sdn-api-schema-a.md">EndPoint</a></p></td>
 <td><p><a href="endpointtype-complextype-lync-sdn-api-schema-a.md">EndPointType</a></p></td>
 <td><p>Endpoint involved in the error event.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="endpoint-element-ended-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EndPoint</a></p></td>
+<td><p><a href="endpoint-element-ended-element-sdn-api-schema-a.md">EndPoint</a></p></td>
 <td><p><a href="endpointtype-complextype-lync-sdn-api-schema-a.md">EndPointType</a></p></td>
 <td><p>Endpoint involved in the ended SIP call.</p></td>
 </tr>
