@@ -34,7 +34,7 @@ Additional resources</p></td>
 </p>
 <p></p></td>
 </tr>
-</tbody></tabe>
+</tbody></table>
 
 <div class="caption">
 Watch the video: Add Presence to a WPF Application
