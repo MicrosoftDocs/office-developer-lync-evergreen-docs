@@ -46,6 +46,7 @@ Additional resources</p></td>
 Watch the video: Sign In to Lync with UI Suppressed
 </div>
 <br />
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/5d247b33-af17-45f6-ad7e-9be9f9f7e5cd]
 
 <div class="caption">
