@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to customize the UI of a Lync 2013 client application. For example, you could create a custom application that includes IM functionality but limits the list of Contacts and eliminates the Search function.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following topics include the information you need to customize a Lync 2013 client.
 

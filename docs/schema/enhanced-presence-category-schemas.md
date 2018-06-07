@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Enhanced Presence category schemas
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Installation of the Microsoft Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2013 package installs the following XML Schema Definition (XSD) files on your computer. The following table lists the XSD files, the names of the corresponding XSD types defining the associated presence categories, the names of the XML elements as instances of the corresponding categories, and the category names used in registration, publication, and subscription of the categories.
 

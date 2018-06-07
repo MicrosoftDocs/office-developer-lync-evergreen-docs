@@ -13,7 +13,7 @@ dev_langs:
 # Activating applications programmatically
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Activating a Microsoft Unified Communications Managed API 4.0 application against Microsoft Lync Server 2013 typically involves setting a trust relationship between the application and Lync Server 2013, and setting up routing-specific configurations. PowerShell-based programmable activation enables application developers to easily integrate the details of UCMA 4.0 activation into their overall application activation.
 

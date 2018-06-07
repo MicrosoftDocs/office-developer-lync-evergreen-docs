@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Lists developer videos for the six Lync APIs that offer client, server, middle-tier and Web extensibility for Lync Server 2013.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

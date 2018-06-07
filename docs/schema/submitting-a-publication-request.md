@@ -13,7 +13,7 @@ dev_langs:
 # Submitting a publication request
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The final step of publication involves submitting a publication request to the server. This submittal passes the desired category instances to the server and is an asynchronous process. In Microsoft Unified Communications Managed API 4.0, it amounts to calling the **BeginPublishPresence** method on the **LocalOwnerPresence** instance and calling the required **EndPublishPresence** method in a callback function that is specified as an input to the BeginPublishPresence call. This programming pattern appears in the following code examples.
 

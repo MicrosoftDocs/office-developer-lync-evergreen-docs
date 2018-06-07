@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Sending and receiving page-mode messages
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 An application can begin sending messages in page mode after a [RealTimeEndpoint](https://msdn.microsoft.com/en-us/library/hh366081\(v=office.15\)) instance is created and registered, provided that the endpoint is an instance of the [SipEndpoint](https://msdn.microsoft.com/en-us/library/hh348350\(v=office.15\)) class. The application on the sending side can send a message synchronously (using [SendMessage()](https://msdn.microsoft.com/en-us/library/hh350225\(v=office.15\))) or asynchronously (using [BeginSendMessage()](https://msdn.microsoft.com/en-us/library/hh349151\(v=office.15\)) and [EndSendMessage(IAsyncResult)](https://msdn.microsoft.com/en-us/library/hh382471\(v=office.15\)). Page-mode messages are delivered only when the recipient endpoint is online and has subscribed to the [MessageReceived](https://msdn.microsoft.com/en-us/library/hh350010\(v=office.15\)) event.
 

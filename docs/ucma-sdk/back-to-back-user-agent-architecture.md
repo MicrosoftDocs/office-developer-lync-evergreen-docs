@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Back-to-back user agent architecture
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Header passing across call legs  

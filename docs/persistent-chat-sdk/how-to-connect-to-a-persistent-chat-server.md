@@ -15,7 +15,7 @@ dev_langs:
 Learn how to use the Microsoft Lync Server 2013 Persistent Chat API to connect to a Persistent Chat server.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 To call any Lync Server 2013 Persistent Chat API functionality, an application must first establish a connection to the underlying Persistent Chat server. This involves connecting to a Microsoft Lync Server 2013 instance by using Microsoft Unified Communications Managed API (UCMA) on a [LocalEndpoint](https://msdn.microsoft.com/en-us/library/hh349887\(v=office.15\)) instance and then connecting to the underlying Persistent Chat server on a [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj267567\(v=office.15\)) instance.
 

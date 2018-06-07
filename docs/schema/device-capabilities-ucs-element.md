@@ -13,7 +13,7 @@ dev_langs:
 # device/capabilities/ucs element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the UCS capability on a device. This is introduced in the Microsoft Lync Server 2010 release.
 

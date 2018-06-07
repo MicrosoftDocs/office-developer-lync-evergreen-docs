@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Migration and coexistence details (UCMA 2.0 and UCMA 3.0)
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 When should I use WMI and when should I use PowerShell?  

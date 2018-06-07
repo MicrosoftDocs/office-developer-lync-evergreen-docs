@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Connecting to audio resources in UCMA 4.0
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A hosting .NET application uses the **SetAudioVideoCall()** method to bind an instance of the [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) with an [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) object.
 

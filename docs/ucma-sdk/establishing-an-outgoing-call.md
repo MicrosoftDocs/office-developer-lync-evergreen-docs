@@ -13,7 +13,7 @@ dev_langs:
 # Establishing an outgoing call
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 When an application establishes an outgoing call, it can specify custom signaling headers to be sent out with the outgoing INVITE, and optionally, custom MIME parts to be included in any offer.
 

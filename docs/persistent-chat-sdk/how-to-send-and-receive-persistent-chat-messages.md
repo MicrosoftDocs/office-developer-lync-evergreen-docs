@@ -15,7 +15,7 @@ dev_langs:
 Learn how to use the Microsoft Lync Server 2013 Persistent Chat API to send or receive Persistent Chat room messages.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Sending and receiving messages are session-based operations and require that the underlying chat room session be established. In the Lync Server 2013 Persistent Chat API, chat messages can be of plain text and RTF and can include hyperlinks and emoticons.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Creating Enhanced Presence data classes from the XML schemas
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 You can create C\# code from the schemas with Xsd.exe, the XML Schema Definition executable program.
 

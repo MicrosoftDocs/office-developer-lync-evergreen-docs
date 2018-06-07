@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UCMA 4.0 object model
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The major components that appear in a Microsoft Unified Communications Managed API 4.0 application are [LocalEndpoint](https://msdn.microsoft.com/en-us/library/hh349887\(v=office.15\)) (of which two implementations are [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) and [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\))), [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)), and [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.15\)). A **CollaborationPlatform** instance can manage multiple **LocalEndpoint** instances, and each **LocalEndpoint** instance can have multiple **Conversation** instances.
 

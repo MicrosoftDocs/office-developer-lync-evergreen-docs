@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This section discusses the technical specifications for the enhanced presence category elements that are used by Microsoft Lync 2013 and Microsoft Lync Server 2013.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## In this section
 

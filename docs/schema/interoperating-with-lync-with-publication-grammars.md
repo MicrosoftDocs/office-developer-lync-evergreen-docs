@@ -13,7 +13,7 @@ dev_langs:
 # Interoperating with Lync with publication grammars
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 To interoperate with Microsoft Lync 2013, an enhanced presence application must follow the publication grammars defined by Lync 2013. This involves obtaining an XML document of the publication grammar, determining the rules, and implementing the logic.
 

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This section discusses enhanced presence in Microsoft Lync Server 2013 deployments.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A unified communications application establishes real-time communication between users and identifies the presence of each user. A typical unified communications application publishes presence data to specify availability, activities and supported device capabilities, calendar data, contact information, and other user information. It also needs to support presence subscription for the user to discover the presence information published by other users. Such presence information allows the users to determine when and how to contact each other.
 

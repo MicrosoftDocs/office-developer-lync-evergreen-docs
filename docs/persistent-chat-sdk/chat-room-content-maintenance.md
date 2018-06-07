@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how access to Persistent Chat room data is controlled by user roles.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Persistent Chat lets users collaborate by posting messages in Persistent Chat rooms. The data is stored on the server and members of the chat room can have access to the data, including historical data. However, access to the stored data is controlled by the user role, as outlined in the following list:
 

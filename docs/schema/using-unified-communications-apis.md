@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using Unified Communications APIs
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In a Microsoft Lync Server 2013 deployment, a unified communications application can use the following unified communications APIs to enable enhanced presence.
 

@@ -13,7 +13,7 @@ dev_langs:
 # alerts category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains the roaming alerts options that can be set by the user on Microsoft Lync 2013.
 

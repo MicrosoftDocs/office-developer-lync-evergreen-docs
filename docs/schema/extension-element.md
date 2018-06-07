@@ -13,7 +13,7 @@ dev_langs:
 # extension element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains custom elements of any name in any namespace as application-specific extension to the parent element defined in an enhanced presence schema.
 

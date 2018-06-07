@@ -12,7 +12,7 @@ dev_langs:
 
 # Workgroup container
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Workgroup Container has a container ID value of 300. The default access control list does not contain an entry. When a user changes the privacy relationship with a contact to that of workgroup by using the **Change Privacy Relationship** menu in Microsoft Lync 2013, the affected contact is added as a member of this container.
 

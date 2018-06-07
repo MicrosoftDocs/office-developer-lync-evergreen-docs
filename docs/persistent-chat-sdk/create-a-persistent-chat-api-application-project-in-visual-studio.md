@@ -13,7 +13,7 @@ dev_langs:
 # Create a Persistent Chat API application project in Visual Studio
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ### To create a Visual Studio project for a Persistent Chat application
 

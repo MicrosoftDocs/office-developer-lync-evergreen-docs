@@ -13,7 +13,7 @@ dev_langs:
 # Instantiating and initializing an Enhanced Presence data class
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Include generated classes in Visual Studio projects  

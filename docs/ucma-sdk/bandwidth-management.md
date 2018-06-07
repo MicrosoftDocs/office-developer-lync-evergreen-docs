@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Bandwidth management
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 and Microsoft Lync Server 2013 offer a bandwidth-management solution that allows calls to be selectively declined and re-routed based on the consumption of the network links. UCMA 4.0 will automatically adopt server settings for bandwidth control, and based on those settings, UCMA 4.0 will make a request for bandwidth automatically on call placement or receipt. If bandwidth is oversubscribed, and sufficient resources cannot be allocated for this call, the call establishment or acceptance might fail, or be re-routed through the PSTN link, if available.
 

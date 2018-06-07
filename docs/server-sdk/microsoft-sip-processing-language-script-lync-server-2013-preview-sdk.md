@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about the Microsoft SIP Processing Language (MSPL) script that filters and routes SIP messages.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The MSPL script provides basic control for filtering and routing SIP messages. The script block is contained in the **\<splScript\>** element in the application manifest. The to-be-processed message types are also specified in the application manifest.
 

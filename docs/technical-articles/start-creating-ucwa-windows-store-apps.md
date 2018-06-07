@@ -13,7 +13,7 @@ mtps_version: v=office.15
 In this article, you will learn how to build a simple Windows Store app in C\#/XAML and XML. The steps illustrated here are required of all UCWA applications. It is intended as a self-contained introduction to building and deploying a UCWA application targeted for Windows Store.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 What is involved in signing in a user to UCWA?  

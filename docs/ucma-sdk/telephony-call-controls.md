@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Telephony call controls
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 provides for basic telephony call control actions, including forwarding, acceptance/decline, and message sending. With UCMA 4.0, an application can place calls to unified communications-enabled endpoints and PSTN targets, transfer calls between itself and other entities, and route calls to agent hunting pools.
 

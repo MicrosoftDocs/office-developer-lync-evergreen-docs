@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Media stack performance counters
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Media stack performance counters are shipped with A/V Multipoint Control Unit (MCU), Microsoft Lync Server 2010 servers, Application-Sharing MCU, and Microsoft Lync Server 2010 Mediation Server. They are not available on clients (Microsoft Lync 2010, Microsoft Lync 2010 Attendant, and consoles).
 

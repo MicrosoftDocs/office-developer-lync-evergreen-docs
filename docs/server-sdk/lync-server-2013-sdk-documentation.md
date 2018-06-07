@@ -15,7 +15,7 @@ The Microsoft Lync Server 2013 SDK includes the Microsoft Lync Server 2013 SIP A
 
 **Last modified:** August 16, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Lync Server 2013 SDK includes three Lync Server 2013 SIP Application API references that can be used to create Session Initiation Protocol (SIP) server applications that customize and extend the functionality of Microsoft Lync Server 2013:
 

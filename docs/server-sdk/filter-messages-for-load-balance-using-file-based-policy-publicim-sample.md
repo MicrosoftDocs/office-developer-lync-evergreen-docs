@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about the Microsoft Lync Server 2013 SDK PublicIM sample application and how to load balance in a Microsoft Lync 2013 topology.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 
 > [!NOTE]

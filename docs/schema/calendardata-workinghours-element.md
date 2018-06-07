@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHours element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A user’s working-hours information as specified in the underlying Exchange Server computer.
 

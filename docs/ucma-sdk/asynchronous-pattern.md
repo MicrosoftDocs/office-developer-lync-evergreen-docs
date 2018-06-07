@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Asynchronous pattern
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 is designed for middle-tier applications, for which performance is one of the most important goals. To provide this performance and to be consistent with the previous releases (UCMA 2.0 and UCMA 3.0), UCMA 4.0 supports the **BeginXxx**/**EndXxx** pattern to implement asynchronous operations. The application programmer is expected to be familiar with this usage pattern. For more information, see [Asynchronous Programming Overview](http://msdn.microsoft.com/en-us/library/ms228963.aspx).
 

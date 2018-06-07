@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Informational performance counters
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The counters listed in this topic are for informational purposes only. They are included in performance monitoring logs but not in Microsoft Operations Manager (MOM) packs. No action is required by Administrators.
 

@@ -15,7 +15,7 @@ dev_langs:
 Learn how to create or update a Persistent Chat room by using the Microsoft Lync Server 2013 Persistent Chat API.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In the Lync Server 2013 Persistent Chat API, a chat room is created using [ChatRoomManagementServices](https://msdn.microsoft.com/en-us/library/jj266394\(v=office.15\)).
 

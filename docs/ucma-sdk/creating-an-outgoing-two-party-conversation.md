@@ -13,7 +13,7 @@ dev_langs:
 # Creating an outgoing two-party conversation
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Applications can create a conversation by specifying an endpoint or by specifying an endpoint and settings for the conversation.
 

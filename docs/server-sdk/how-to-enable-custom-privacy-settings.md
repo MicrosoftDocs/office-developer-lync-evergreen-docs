@@ -15,7 +15,7 @@ dev_langs:
 Learn how to configure presence by using the Lync Server 2013 API. Presence helps a caller decide how to communicate with a colleague.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 If the colleague’s presence is available, the caller can start the call immediately. If the colleague is away or offline, the caller can send the colleague an email. By default, Microsoft Lync 2013 displays how long a user has been away or offline along with the corresponding presence status. However, in a certain locality, this is deemed as a violation of the local privacy requirement and the time period must be removed from the presence display in Lync 2013. This process can be accomplished by using a Microsoft Lync Server 2013 SIP Application API application that filters and removes the SIP messages that contain the presence data and removes time information. This process is similar to the message payloads that are used to [How to: Enforce content integrity](how-to-enforce-content-integrity.md) and, again, can be carried out in a Microsoft SIP Processing Language (MSPL) script or in a managed code message handler. In this topic, an MSPL script is used.
 

@@ -13,7 +13,7 @@ dev_langs:
 # state/timeZoneName element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the name of the local time zone where the presence state is published.
 

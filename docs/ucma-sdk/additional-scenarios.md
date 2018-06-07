@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Additional scenarios
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Enterprise-wide instant messaging automata (IM Bots) and interactive voice response systems  

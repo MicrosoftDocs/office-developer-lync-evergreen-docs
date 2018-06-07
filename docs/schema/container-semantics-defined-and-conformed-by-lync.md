@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Container semantics defined and conformed by Lync
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section describes the containers that Microsoft Lync 2013 uses to control user access to published presence data.
 

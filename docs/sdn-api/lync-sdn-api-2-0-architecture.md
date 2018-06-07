@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Lync SDN API 2.0 architecture
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Conceptually, the Lync SDN API 2.0 consists of the following components:
 

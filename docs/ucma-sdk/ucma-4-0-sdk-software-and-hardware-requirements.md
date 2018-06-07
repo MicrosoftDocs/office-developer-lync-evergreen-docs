@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UCMA 4.0 SDK software and hardware requirements
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This topic describes the software and hardware requirements for Microsoft Unified Communications Managed API 4.0 SDK.
 

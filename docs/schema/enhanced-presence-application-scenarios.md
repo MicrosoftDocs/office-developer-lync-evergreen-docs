@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about application scenarios where enhanced presence is used to describe a user’s availability to communicate with other users. For example, Microsoft Lync 2013 displays a list of contacts together with their status that indicates whether they are available, busy, inactive, away, or offline.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In real-time communications, presence refers to information that is used to describe a user's availability, willingness, or capability to communicate with other users. The information is useful for a user to determine when and how to contact other users.
 

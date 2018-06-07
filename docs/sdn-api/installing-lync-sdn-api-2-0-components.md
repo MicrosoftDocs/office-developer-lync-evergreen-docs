@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Installing Lync SDN API 2.0 components
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Complete the prerequisites and run the API installation wizard to install the Lync SDN API 2.0.
 

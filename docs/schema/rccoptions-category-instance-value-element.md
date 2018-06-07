@@ -13,7 +13,7 @@ dev_langs:
 # rccOptions category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the roaming options for remote call control (of PBX phones).
 

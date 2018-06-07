@@ -13,7 +13,7 @@ dev_langs:
 # services/service/capabilities/voice element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the voice capability enabled on a presentity.
 

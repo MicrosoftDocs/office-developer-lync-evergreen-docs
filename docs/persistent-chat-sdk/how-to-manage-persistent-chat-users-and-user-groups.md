@@ -15,7 +15,7 @@ dev_langs:
 Learn how to manage Persistent Chat users and user groups by using the Microsoft Lync Server 2013 Persistent Chat API.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Lync Server 2013 Persistent Chat API provides the following user administration services, which are encapsulated by the [PersistentChatUserServices](https://msdn.microsoft.com/en-us/library/jj265986\(v=office.15\)) type:
 

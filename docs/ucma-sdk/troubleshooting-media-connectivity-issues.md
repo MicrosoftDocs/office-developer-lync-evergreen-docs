@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Troubleshooting media connectivity issues
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Several classes that are part of Microsoft Unified Communications Managed API 4.0 that can be used to provide information on call failures due to media connectivity errors. These classes can help to alert administrators of potential deployment problems.
 

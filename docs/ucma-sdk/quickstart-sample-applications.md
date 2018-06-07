@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # QuickStart sample applications
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Quick Start samples are included in Microsoft Unified Communications Managed API 4.0 SDK. Each QuickStart sample focuses on an aspect of UCMA 4.0 application programming. The samples are located in the %ProgramFiles%\\Microsoft UCMA 4.0\\Core\\Sample Applications\\ QuickStarts folder.
 

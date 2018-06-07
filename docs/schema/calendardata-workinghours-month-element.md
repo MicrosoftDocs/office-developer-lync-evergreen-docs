@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHours/Month element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the number of the month when the standard or daylight time zone begins
 

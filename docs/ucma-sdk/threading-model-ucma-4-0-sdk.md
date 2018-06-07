@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Threading model (UCMA 4.0 SDK)
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 is designed be multi-thread safe. Some objects that are used to configure settings or options or that are used to contain data passed into an API are exceptions.
 

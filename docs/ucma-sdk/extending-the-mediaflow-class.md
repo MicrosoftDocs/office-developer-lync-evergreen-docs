@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Extending the MediaFlow class
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.15\)) abstract class represents a generic flow concept for objects that send or receive media. A nonabstract subclass represents the flow of a specific media type. Microsoft Unified Communications Managed API 4.0 provides two **MediaFlow** subclasses: [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) and [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.15\)). These classes represent flows whose media type is, respectively, audio/video and message.
 

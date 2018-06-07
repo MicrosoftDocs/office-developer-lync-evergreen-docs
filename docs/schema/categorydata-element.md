@@ -13,7 +13,7 @@ dev_langs:
 # categoryData element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the category data to be published. This can be a category instance XML string or an XSLT routine that generates a category instance XML string from a given input.
 

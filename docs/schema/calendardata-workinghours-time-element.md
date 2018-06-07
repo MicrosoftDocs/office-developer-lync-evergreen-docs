@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHours/Time element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the time when the standard or daylight time zone begins
 

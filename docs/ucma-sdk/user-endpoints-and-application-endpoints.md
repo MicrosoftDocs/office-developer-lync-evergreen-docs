@@ -13,7 +13,7 @@ dev_langs:
 # User endpoints and application endpoints
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 ApplicationEndpoint  

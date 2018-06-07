@@ -13,7 +13,7 @@ dev_langs:
 # Trusted domains and SIP gateways
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Configuring trusted domains for the CollaborationPlatform  

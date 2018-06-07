@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Endpoint draining
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In Microsoft Unified Communications Managed API 4.0 and Microsoft Lync Server 2013, methods on the [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) class can be used to *drain* existing calls (gracefully decline incoming calls by routing them to another application instance): [BeginDrain(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh348822\(v=office.15\)) and [EndDrain(IAsyncResult)](https://msdn.microsoft.com/en-us/library/hh383086\(v=office.15\)). These methods cause all incoming calls to be automatically routed to another application instance, provided that this other application instance is available and is not draining. If the targeted application instance is unavailable or is draining, the incoming calls will be declined.
 

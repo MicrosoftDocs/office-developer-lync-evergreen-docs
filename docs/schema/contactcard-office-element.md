@@ -13,7 +13,7 @@ dev_langs:
 # contactCard/office element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The office location of the contact.
 

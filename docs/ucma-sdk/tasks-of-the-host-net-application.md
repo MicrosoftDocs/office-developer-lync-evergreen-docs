@@ -13,7 +13,7 @@ dev_langs:
 # Tasks of the host .NET application
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Launching the browser  

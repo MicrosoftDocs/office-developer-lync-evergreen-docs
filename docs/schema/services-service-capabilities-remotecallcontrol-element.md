@@ -13,7 +13,7 @@ dev_langs:
 # services/service/capabilities/remoteCallControl element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the capability for a presentity to handle remote call controls.
 

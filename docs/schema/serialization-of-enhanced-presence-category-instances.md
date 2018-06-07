@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to create enhanced presence data by using XML Schema Definition (XSD) files.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 With XSD files, you can generate presence data according to schema specifications.
 

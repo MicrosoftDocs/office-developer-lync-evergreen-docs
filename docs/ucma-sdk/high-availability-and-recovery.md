@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # High availability and recovery
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section provides conceptual details about high service availability and recovery from errors and service disruptions.
 

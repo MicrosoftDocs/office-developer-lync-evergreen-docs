@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Conference recovery
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 UCMA 4.0 provides three levels of support for conference recovery to applications.
 

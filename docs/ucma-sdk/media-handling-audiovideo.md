@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Media handling - AudioVideo
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section provides conceptual details about handling media in audio/video calls in relation to the [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)), [AudioVideoMcuSession](https://msdn.microsoft.com/en-us/library/hh385298\(v=office.15\)), and [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) classes.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Platform behaviors (methods and properties)
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following describes general UCMA 4.0 platform behavior:
 

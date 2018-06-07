@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Overview of VoiceXML support in UCMA 4.0
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 VoiceXML support in the Microsoft Unified Communications Managed API 4.0 consists of a VoiceXML runtime and the .NET namespace [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml](https://msdn.microsoft.com/en-us/library/gg452705\(v=office.15\)).
 

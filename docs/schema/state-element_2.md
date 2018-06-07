@@ -13,7 +13,7 @@ dev_langs:
 # state\[\@type='machineState'\] element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies an enhanced presence machine state category instance.
 

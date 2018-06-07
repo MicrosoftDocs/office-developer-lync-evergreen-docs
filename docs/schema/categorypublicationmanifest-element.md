@@ -13,7 +13,7 @@ dev_langs:
 # categoryPublicationManifest element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the list of publication of enhanced presence category instances following the publication grammar prescribed by Microsoft Lync Server 2013 and Microsoft Lync 2013.
 

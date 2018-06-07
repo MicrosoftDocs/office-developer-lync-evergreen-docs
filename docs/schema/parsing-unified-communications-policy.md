@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parsing unified communications policy
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The unified communications (UC) policy specifies how a user’s UC-enabled phone call is handled. This includes whether simultaneous ringing and call-forwarding are allowed and whether the user can transfer or park a call, place a team call, and assign a delegate to answer calls, and email tracing of malicious calls. In the Microsoft Unified Communications Managed API (UCMA), the settings are exposed as a collection of name-value pairs known as the properties of the UC policy configuration.
 

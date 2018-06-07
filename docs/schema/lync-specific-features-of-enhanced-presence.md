@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about the enhanced presence features in Microsoft Lync 2013.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Lync 2013 is a presence-enabled application that is built on the Microsoft Lync Server 2013 enhanced presence platform. It defines and uses the unified communications enhanced presence schemas for the presence states, communication capabilities, contact information, calendar data, and user settings. It also defines the container semantics for remote access and the rules of publication for remote presence watchers. In addition, it follows the local container semantics that are enforced by Lync Server 2013.
 

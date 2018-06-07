@@ -13,7 +13,7 @@ dev_langs:
 # device/timezone element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the time zone-specific time when this device capability publication was last updated.
 

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Last modified:** August 16, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 enables developers to build applications that leverage the full power of the Microsoft Lync Server 2013 platform. Applications built on UCMA 4.0 incorporate unified communications concepts such as presence, call, conversation, and conference.
 

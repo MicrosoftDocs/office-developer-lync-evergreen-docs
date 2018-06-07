@@ -13,7 +13,7 @@ dev_langs:
 # userInformation/phones element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the list of optional phone lines made available to reach the user. The options are set in the Microsoft Lync 2013 **Lync Options** dialog box.
 

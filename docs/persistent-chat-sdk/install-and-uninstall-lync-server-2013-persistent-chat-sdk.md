@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Install and uninstall Lync Server 2013 Persistent Chat SDK
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 To create, build, and test a Microsoft Lync Server 2013 Persistent Chat API application, you must have Microsoft Lync Server 2013 Persistent Chat SDK libraries installed on your development computers.
 

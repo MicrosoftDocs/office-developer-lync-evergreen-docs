@@ -13,7 +13,7 @@ dev_langs:
 # Extending the CallFactory and MediaProviderFactory classes
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Registering and unregistering platform extensions  

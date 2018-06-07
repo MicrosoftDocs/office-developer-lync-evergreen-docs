@@ -13,7 +13,7 @@ dev_langs:
 # contactCard/address/city element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The name of the city in a contact’s address.
 

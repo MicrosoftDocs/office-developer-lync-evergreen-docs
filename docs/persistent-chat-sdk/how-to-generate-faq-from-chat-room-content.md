@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to create a FAQ by using Persistent Chat room data and the Microsoft Lync Server 2013 Persistent Chat API.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Imagine a collaborative project involving multiple teams. The project manager can request to have a chat room set up for the team members to discuss issues related to the project. New members to the project are expected to come to the chat room to ask questions and find answers to get started with the project. Existing members can use the chat room to discuss any issues related to the project and to share their thoughts and results. When the product is delivered, the Persisted Chat messages can be used to create the initial list of Frequently Asked Questions about the project and the FAQ list can be posted on the project’s or product’s home page. After the product release, the chat room can be used for any further questions and answers from the public at large. The FAQ list can be updated periodically or as needed to include new questions and answers.
 

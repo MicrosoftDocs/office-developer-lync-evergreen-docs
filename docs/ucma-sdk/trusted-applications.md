@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Trusted applications
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A typical Microsoft Unified Communications Managed API 4.0 application is trusted by Microsoft Lync Server 2013.
 

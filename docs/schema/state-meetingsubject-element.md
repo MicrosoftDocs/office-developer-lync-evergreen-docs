@@ -13,7 +13,7 @@ dev_langs:
 # state/meetingSubject element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the subject of a meeting according to a presence state of the user’s calendar.
 

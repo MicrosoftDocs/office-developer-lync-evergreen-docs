@@ -18,7 +18,7 @@ Windows Store apps are subject to frequent interruptions because idle ones are s
 Fluid user experience requires that the app follow the Windows Store app lifecycle management practices by caching or persisting relevant application data at appropriate time. For a Windows Store app to be fluid, it must also be responsive. This means that most of the UCWA operations must be asynchronous so that they do not block UI threads.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Configure UI elements in MainPage.xaml for taking user input  

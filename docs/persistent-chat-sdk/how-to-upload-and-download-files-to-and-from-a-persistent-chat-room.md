@@ -15,7 +15,7 @@ dev_langs:
 Learn how to transfer files to and from a Persistent Chat room by using the Microsoft Lync Server 2013 Persistent Chat API.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 To upload files to a Persistent Chat room, the chat room must be configured to support file upload. This feature is controlled at the category level by the system administrator. When a chat room supports file upload, the established chat room session has its [IsFilePostAllowed](https://msdn.microsoft.com/en-us/library/jj267250\(v=office.15\)) property set to true. If this is false, uploading files to the underlying chat room will not succeed.
 

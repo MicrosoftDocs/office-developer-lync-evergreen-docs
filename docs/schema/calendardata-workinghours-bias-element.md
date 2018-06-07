@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHours/Bias element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the offset from the Coordinated Universal Time (UTC) of the user’s local time zone and the applicable standard time and daylight savings time in that time zone times.
 

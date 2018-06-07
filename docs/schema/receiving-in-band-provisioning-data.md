@@ -13,7 +13,7 @@ dev_langs:
 # Receiving in-band provisioning data
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The enhanced presence publication and subscription infrastructure is also used to roam configuration data through in-band provisioning. The data includes server configuration, location profile, various policies, as well as user settings. It is stored on the server but is needed by a client at various stages in an application.
 

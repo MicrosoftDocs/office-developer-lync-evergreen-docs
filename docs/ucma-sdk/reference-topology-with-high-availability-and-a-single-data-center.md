@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Reference topology with high availability and a single data center
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The reference topology with high availability and a single data center is designed for a small-to-medium size organization with one central site. The exact topology in the following diagram is for an organization of 15,000 users. Typically, the type of topology shown in the following diagram is recommended for organizations with 5,000 to 30,000 users, but it can support over 30,000 users.
 

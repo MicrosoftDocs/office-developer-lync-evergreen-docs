@@ -13,7 +13,7 @@ dev_langs:
 # Configuring access control to publication
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Before starting any publication, you must first decide who can view or access your publication by selecting one or more containers, adding desired user or membership scopes to any new containers or removing certain members from any existing containers.
 

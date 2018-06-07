@@ -13,7 +13,7 @@ dev_langs:
 # Terminating a conversation
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The recommended way for an application can terminate a conversation is as follows, by calling one of the [BeginTerminate()](https://msdn.microsoft.com/en-us/library/hh349607\(v=office.15\)) overloaded methods on the [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) instance.
 

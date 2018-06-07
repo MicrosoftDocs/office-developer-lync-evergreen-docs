@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about the Microsoft Lync Server 2013 Persistent Chat SDK sample applications and learn how to build and run each application.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following Lync Server 2013 Persistent Chat SDK sample applications show how the Microsoft Lync Server 2013 Persistent Chat API can be used to connect to and disconnect from the Microsoft Lync Server 2013 Persistent Chat instance, send and receive chat messages, and search and manage chat rooms and users.
 

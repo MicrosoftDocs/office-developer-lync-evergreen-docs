@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Conversations (UCMA 4.0)
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A conversation is a concept that represents communication between a local participant and one or more remote participants, which can be either real people or applications. A conversation can be thought of as two-dimensional, with the number of media modalities representing one dimension, and the number of participants representing the other. In Microsoft Unified Communications Managed API 4.0 a conversation is represented by the [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) class.
 

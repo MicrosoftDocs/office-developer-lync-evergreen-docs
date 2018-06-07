@@ -13,7 +13,7 @@ dev_langs:
 # Call recovery usage
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 For an application that intends to wait for dialog healing, an event handler for the [RouteSetStatusChanged](https://msdn.microsoft.com/en-us/library/hh382697\(v=office.15\)) event should be patterned as shown in the following code example.
 

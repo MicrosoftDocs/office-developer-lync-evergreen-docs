@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how a server-side script-only SIP application or managed SIP application can be used to manage message payloads and message content.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 An organization might want to use policies that control the way instant messaging is used by employees. For example, a security policy might disable a link to an external website. This process involves searching and replacing specified patterns in the message payload to modify the message content. A Microsoft Lync Server 2013 SIP Application API application can be used to implement this process. Depending on the application requirement, either a server-side script-only SIP application or managed SIP application can be used. The following managed SIP application example shows how to set up this process.
 

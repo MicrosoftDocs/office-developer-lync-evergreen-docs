@@ -13,7 +13,7 @@ dev_langs:
 # Refreshing active subscriptions
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In Microsoft Unified Communications Managed API 4.0, the process for refreshing remote presence subscriptions is performed by using an LocalEndpointPresenceServices object that can be obtained from an established (or connected) LocalEndpoint object.
 

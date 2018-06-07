@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # VoiceXML browser
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) class in Microsoft Unified Communications Managed API 4.0 is derived from the **Browser** class in the **Microsoft.Speech.VoiceXml** namespace. [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) has access to all the public members of the **Browser** class in the **Microsoft.Speech.VoiceXml** namespace, as well as all the enumerated types, EventArgs classes, and interpretation result classes of the **Microsoft.Speech.VoiceXml.Common** namespace.
 

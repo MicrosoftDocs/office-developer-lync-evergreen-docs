@@ -13,7 +13,7 @@ dev_langs:
 # Using an AudioVideoFlowTemplate
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) class has no public constructors, but instead relies on settings in an [AudioVideoFlowTemplate](https://msdn.microsoft.com/en-us/library/hh349157\(v=office.15\)) instance to initialize or modify an **AudioVideoFlow** instance.
 

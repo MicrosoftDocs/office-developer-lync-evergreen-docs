@@ -13,7 +13,7 @@ dev_langs:
 # Blocked Contacts container
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Blocked Contacts container has a container ID value of 32000. The default access control list contains a single entry for users from the public cloud. This container is used to block its members from accessing the contained presence data and having their calls routed. The blocking is accomplished by publications of the to-be-blocked category instances with empty values and by a publication of the block [routing category instance value element](routing-category-instance-value-element.md) category instance.
 

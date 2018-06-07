@@ -17,7 +17,7 @@ The Lync Server 2013 Persistent Chat API managed code library is built over Micr
 
 **Last modified:** August 16, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Lync Server 2013 Persistent Chat API classes are organized in the following two namespaces:
 

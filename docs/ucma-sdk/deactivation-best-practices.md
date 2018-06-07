@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Deactivation best practices
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 An application can be deactivated by following the steps in the following procedure.
 

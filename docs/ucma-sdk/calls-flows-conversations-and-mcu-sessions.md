@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Calls, flows, conversations, and MCU sessions
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 During a conversation, data is communicated across one of two types of channels that represent the concepts of *call* and *media flow*.
 

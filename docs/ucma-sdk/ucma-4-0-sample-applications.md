@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UCMA 4.0 sample applications
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following topics describe the sample applications that are shipped with Microsoft Unified Communications Managed API 4.0 SDK.
 

@@ -13,7 +13,7 @@ dev_langs:
 # mwi category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds a Message Waiting Indictor (MWI) instance that is provisioned from Microsoft Exchange Server 2010.
 

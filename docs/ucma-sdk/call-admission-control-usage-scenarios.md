@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Call admission control usage scenarios
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Bandwidth management can be applied in a number of scenarios. The following list presents several of the scenarios that occur most often.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Dialogs performance counters
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 DefaultScale for all Dialogs performance counters is 0, which means that the scaling factor is 1. The Windows Performance tool lists this object as LC:SipEps - 00 - Sip Dialogs.
 

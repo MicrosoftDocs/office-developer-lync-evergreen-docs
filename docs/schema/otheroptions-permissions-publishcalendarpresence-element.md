@@ -13,7 +13,7 @@ dev_langs:
 # otherOptions/Permissions/publishCalendarPresence element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies whether to publish presence data obtained from the underlying calendar store.
 

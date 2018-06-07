@@ -13,7 +13,7 @@ dev_langs:
 # Conference scheduling and management
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Scheduling a conference  

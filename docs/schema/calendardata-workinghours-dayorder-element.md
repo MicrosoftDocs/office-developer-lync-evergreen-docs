@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHours/DayOrder element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the order of a week day (specified in a DayOfWeek element) in a month when the standard or daylight time zone begins.
 

@@ -13,7 +13,7 @@ dev_langs:
 # Receiving contacts and groups
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Starting to receive contacts and groups  

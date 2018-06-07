@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Planning performance counters
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Planning performance counters can be used for performance analysis, modeling, and capacity planning.
 

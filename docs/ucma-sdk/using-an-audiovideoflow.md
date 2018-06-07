@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using an AudioVideoFlow
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)), [AudioControl](https://msdn.microsoft.com/en-us/library/hh161771\(v=office.15\)), and [AudioChannel](https://msdn.microsoft.com/en-us/library/hh349872\(v=office.15\)) classes can be thought of as having the logical relationship shown in the following illustration. The [Audio](https://msdn.microsoft.com/en-us/library/hh161753\(v=office.15\)) property on an **AudioVideoFlow** instance provides access to the **AudioControl** instance, and the [GetChannels()](https://msdn.microsoft.com/en-us/library/hh383889\(v=office.15\)) method on the **AudioControl** instance returns a read-only **IDictionary** that can be used to find an **AudioChannel** instance by its label.
 

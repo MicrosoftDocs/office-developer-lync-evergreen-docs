@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # What is UCMA 4.0
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 is used primarily to build middle-tier applications that work with Microsoft Lync Server 2013.
 

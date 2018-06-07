@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHours/DayOfWeek element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the day of a week when the standard or daylight time zone begins or the days of a week designated as the working days of the user.
 

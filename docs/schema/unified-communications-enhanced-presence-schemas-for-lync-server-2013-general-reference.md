@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This section discusses the following Microsoft Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2013 programming topics:
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
   - The underlying presence infrastructure of Microsoft Lync Server 2013 and XML-based data type system to represent enhanced presence data.
 

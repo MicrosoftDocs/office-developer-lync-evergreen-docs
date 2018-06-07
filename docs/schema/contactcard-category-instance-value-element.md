@@ -13,7 +13,7 @@ dev_langs:
 # contactCard category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains the contact information stored the underlying Active Directory.
 

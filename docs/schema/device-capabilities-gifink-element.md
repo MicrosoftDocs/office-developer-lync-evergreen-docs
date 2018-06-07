@@ -13,7 +13,7 @@ dev_langs:
 # device/capabilities/gifInk element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the capability for handling GIF images on a device.
 

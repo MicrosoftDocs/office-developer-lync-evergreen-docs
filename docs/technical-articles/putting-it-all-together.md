@@ -15,7 +15,7 @@ dev_langs:
 Now we are ready to hook up the underlying UCWA plumbing into our Windows Store app to make our application run end-to-end.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Parse UCWA resources in XML  

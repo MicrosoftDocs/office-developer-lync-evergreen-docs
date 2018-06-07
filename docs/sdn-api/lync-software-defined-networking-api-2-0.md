@@ -13,7 +13,7 @@ mtps_version: v=office.15
 The Microsoft Lync Software Defined Network (SDN) API 2.0 provides an interface for network management systems to access Lync network diagnostic data for monitoring Lync network traffic and optimizing the Lync quality of service experiences.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This documentation explains how to install and configure the Lync SDN API 2.0 to work with one or more known network management systems. It also provides a technical reference to the Lync network diagnostic data.
 

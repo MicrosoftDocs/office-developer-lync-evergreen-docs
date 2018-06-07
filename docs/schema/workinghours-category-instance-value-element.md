@@ -13,7 +13,7 @@ dev_langs:
 # workingHours category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A workingHours category instance is a [calendarData category instance value element](calendardata-category-instance-value-element.md) category instance containing only the [calendarData/WorkingHours element](calendardata-workinghours-element.md) and having a registered category name of workingHours.
 

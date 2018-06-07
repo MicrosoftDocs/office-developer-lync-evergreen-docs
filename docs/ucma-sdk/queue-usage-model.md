@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Queue usage model
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 serializes work items for raising events and invoking method callbacks into queues. The following information describes how UCMA 4.0 uses these queues and provides guidelines for how applications should use them:
 

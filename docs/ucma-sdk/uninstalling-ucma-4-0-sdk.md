@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Uninstalling UCMA 4.0 SDK
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This topic describes how to uninstall Microsoft Unified Communications Managed API 4.0 SDK and its associated runtime. For information on installing this SDK, see [Installing UCMA 4.0 SDK](installing-ucma-4-0-sdk.md).
 

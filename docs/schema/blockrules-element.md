@@ -13,7 +13,7 @@ dev_langs:
 # blockRules element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a list of blocking rules to be applied to the specified containers or some members of the containers.
 

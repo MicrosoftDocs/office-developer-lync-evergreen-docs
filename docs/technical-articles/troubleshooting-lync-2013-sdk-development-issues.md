@@ -13,7 +13,7 @@ mtps_version: v=office.15
 The following sections describe common issues developers may run into when developing applications using the Microsoft Lync 2013 SDK.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

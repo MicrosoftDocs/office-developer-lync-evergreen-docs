@@ -12,7 +12,7 @@ dev_langs:
 
 # Parsing Lync-published category instances
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following table shows how to parse some of the presence category instances that are published by Microsoft Lync 2013.
 

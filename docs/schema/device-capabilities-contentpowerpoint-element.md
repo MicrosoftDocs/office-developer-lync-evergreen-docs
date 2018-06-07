@@ -13,7 +13,7 @@ dev_langs:
 # device/capabilities/contentPowerPoint element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the capability for content sharing with PowerPoint on this device. This is introduced in the Microsoft Lync Server 2010 release.
 

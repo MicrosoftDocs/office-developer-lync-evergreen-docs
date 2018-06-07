@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Error handling
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A developer who implements a subclass of the [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)) class must be aware of the exceptions that Microsoft Unified Communications Managed API (UCMA) expects.
 

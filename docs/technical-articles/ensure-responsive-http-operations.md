@@ -15,7 +15,7 @@ dev_langs:
 In this section we walk through the steps to make asynchronous HTTP requests to access UCWA resources. Windows Store apps require asynchronous calls to ensure their responsiveness and uses the new (async/await) asynchronous programming pattern. The HTTP operations are implemented using the System.Net namespace.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## Enable responsive app through asynchronous programming patterns
 

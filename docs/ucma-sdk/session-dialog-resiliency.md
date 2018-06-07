@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Session dialog resiliency
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Session Dialog Resiliency (SDR) refers to the ability of a call to resolve and repair a route failure or the temporary inability to reach a remote endpoint. These problems are usually caused by temporary breaks in signaling paths due to intermediate server or temporary remote endpoint connectivity issues. After detecting a break, the signaling layer attempts to locate a new path (by way of any allowed Microsoft Lync Server 2013 servers) and re-establish communications. (Media can often flow uninterrupted, as media is negotiated peer-to-peer, not via the server; if broken, media will also attempt to relocate a path).
 

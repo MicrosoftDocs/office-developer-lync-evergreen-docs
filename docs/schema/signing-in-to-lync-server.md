@@ -13,7 +13,7 @@ dev_langs:
 # Signing in to Lync Server
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 As with any other unified communications operation, you must first sign in to Microsoft Lync Server 2013 before you can publish or subscribe to any presence data by using Microsoft Unified Communications Managed API 4.0. This process includes the following tasks:
 

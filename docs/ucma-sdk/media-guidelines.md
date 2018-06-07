@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Media guidelines
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following describes guidelines and tips for developers of applications that work with audio media:
 

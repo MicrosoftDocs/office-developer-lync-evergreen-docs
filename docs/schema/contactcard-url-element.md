@@ -13,7 +13,7 @@ dev_langs:
 # contactCard/url element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The URL of the source where the contact information originates.
 

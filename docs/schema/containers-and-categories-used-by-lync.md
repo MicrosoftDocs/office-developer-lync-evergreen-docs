@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Containers and categories used by Lync
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Lync 2013 makes a distinction between the data that can be accessed only by the local user and the data that can be accessed by other users. It does so by designating one set of containers for local user access and another set of containers for remote user access.
 

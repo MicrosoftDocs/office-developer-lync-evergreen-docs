@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ToneController
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [ToneController](https://msdn.microsoft.com/en-us/library/hh349643\(v=office.15\)) class is responsible for handling telephony tone communication between an [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instance and an application. A **ToneController** instance can send telephone keypad tones to or receive them from an attached **AudioVideoFlow** instance. Although **ToneController** and **AudioVideoFlow** instances operate independently of one other, communication is effective only when the attached **AudioVideoFlow** instance is in the **Active** state (that is, the **State** property on the **AudioVideoFlow** instance is **Active**).
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring Lync Dialog Listener
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **Note**: The steps presented in this section are optional unless you want to modify the default configurations.
 

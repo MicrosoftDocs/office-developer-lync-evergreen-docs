@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Reference topology with limited high availability
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The reference topology with limited high availability is for an organization that wants to deploy Microsoft Lync Server 2013 communications software functionality at a minimum cost. Typically, the specific topology shown in the following diagram is recommended for organizations with 5,000 or fewer users, although you can support additional users by adding additional Standard Edition servers.
 

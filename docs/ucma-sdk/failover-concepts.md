@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Failover concepts
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 If a Lync Server 2013 registrar is taken offline for service, or a service-affecting interruption has occurred between the UCMA application and the registrar, a Lync Server 2013 front-end pool can redirect the application to a currently active server, if one is available. Similar to the high-availability feature in non-failure scenarios, an application is unaware of this redirection.
 

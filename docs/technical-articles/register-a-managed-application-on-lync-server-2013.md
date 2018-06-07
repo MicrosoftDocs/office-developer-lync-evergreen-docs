@@ -13,7 +13,7 @@ mtps_version: v=office.15
 There are several required steps when you install a managed application on Microsoft Lync Server 2013. This article describes those steps and the errors Lync Server 2013 may return when the installation is not done correctly.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

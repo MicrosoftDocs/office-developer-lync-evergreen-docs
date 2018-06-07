@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Communications - conversations, calls, conferences, and back-to-back user agents
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section provides conceptual details about communications in relation to the [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)), [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)), [ConferenceSession](https://msdn.microsoft.com/en-us/library/hh349315\(v=office.15\)), and [ConversationContextChannel](https://msdn.microsoft.com/en-us/library/hh161849\(v=office.15\)) classes.
 

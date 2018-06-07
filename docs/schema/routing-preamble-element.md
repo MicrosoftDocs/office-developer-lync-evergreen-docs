@@ -13,7 +13,7 @@ dev_langs:
 # routing/preamble element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains specific routing rules to forward incoming calls.
 

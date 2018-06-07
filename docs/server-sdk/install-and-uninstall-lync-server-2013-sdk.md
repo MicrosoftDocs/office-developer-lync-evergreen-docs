@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to install and uninstall Microsoft Lync Server 2013 SDK.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 To install Lync Server 2013 SDK, visit [MSDN Developer Downloads](http://msdn.microsoft.com/en-us/aa570309).
 

@@ -15,7 +15,7 @@ dev_langs:
 Learn how to use a script application to configure call forwarding in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In common SIP application scenarios, incoming calls are forwarded to a different user. For example, in team collaboration, a user (A) might want another user (B) to answer IM calls from another user (C) while A goes on vacation. In customer support situations, a call to anyone in a company can be forwarded to an interactive voice responder (IVR) that can dispatch the call to available support staff. The Microsoft Lync Server 2013 SIP Application API supports this scenario by using either script-only or managed code applications, depending on the complexity of the application logic. In this topic, a script-only application is used to forward a call in a Lync Server 2013 deployment.
 

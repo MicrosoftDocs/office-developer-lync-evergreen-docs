@@ -15,7 +15,7 @@ Microsoft Unified Communications Enhanced Presence Schemas for Microsoft Lync Se
 
 **Last modified:** August 16, 2013
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## In this documentation
 

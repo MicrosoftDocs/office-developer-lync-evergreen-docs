@@ -13,7 +13,7 @@ dev_langs:
 # Handling events to receive presence publications
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following code example shows how to receive remote presence in the event handlers for persistent and polling subscriptions as well as for queries.
 

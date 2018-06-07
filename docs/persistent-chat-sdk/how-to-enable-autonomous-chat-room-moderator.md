@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to create an autonomous chat room moderator in a Microsoft Lync Server 2013 Persistent Chat deployment.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 When a chat room is dedicated to discussions about a specific subject, it is often desirable that the administrator can enforce the discussions to comply with the related topics or specified policies. For example, a family-oriented forum will want to ensure that inappropriate words or expressions not be posted or redacted. Similarly, a customer support chat room dedicated to a specific product can keep the discussions focused on the specified product by removing comments or messages about other products from the chat rooms.
 

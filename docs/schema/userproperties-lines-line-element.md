@@ -13,7 +13,7 @@ dev_langs:
 # userProperties/lines/line element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains the description of a phone line controlled by the user.
 

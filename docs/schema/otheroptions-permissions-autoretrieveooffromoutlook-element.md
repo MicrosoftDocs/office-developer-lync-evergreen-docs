@@ -13,7 +13,7 @@ dev_langs:
 # otherOptions/Permissions/autoRetrieveOofFromOutlook element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies whether to automatically retrieve Out of Office data from the integrated Exchange Server.
 

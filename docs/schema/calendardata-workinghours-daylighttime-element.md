@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHours/DaylightTime element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the daylight savings time of the user’s local time zone.
 

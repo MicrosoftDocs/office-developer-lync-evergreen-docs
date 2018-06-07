@@ -13,7 +13,7 @@ dev_langs:
 # state/availability element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies an availability number to indicate the presentity’s availability status.
 

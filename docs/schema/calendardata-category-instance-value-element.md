@@ -13,7 +13,7 @@ dev_langs:
 # calendarData category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds calendar data obtained from an integrated Exchange Server computer.
 

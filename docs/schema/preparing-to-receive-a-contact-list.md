@@ -13,7 +13,7 @@ dev_langs:
 # Preparing to receive a contact list
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In Microsoft Unified Communications Managed API 4.0, a contact list is stored, maintained, and retrieved by using a **ContactGroupServices** object. Obtaining this object from a signed-in endpoint is the first step in setting up and maintaining a contact list.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UCMA 2.0 Core applications: Coexistence, migration, and upgrade scenarios
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Scenario 1—Coexistence of a UCMA 2.0 application with multiple Communications Server versions  

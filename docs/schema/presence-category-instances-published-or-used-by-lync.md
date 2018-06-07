@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Presence category instances published or used by Lync
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section describes the presence category instances that are used by Microsoft Lync 2013 in presence publication and subscription category instances, and describes how the instance ID values map to various instances of a given category name.
 

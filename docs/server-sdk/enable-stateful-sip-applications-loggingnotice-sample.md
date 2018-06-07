@@ -15,7 +15,7 @@ dev_langs:
 Learn about the Microsoft Lync Server 2013 SDK LoggingNotice sample application.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 
 > [!NOTE]

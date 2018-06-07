@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Activating an auto-provisioned application
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Install the Central Management Store replication service  

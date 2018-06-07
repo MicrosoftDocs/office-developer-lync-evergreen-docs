@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Shutdown and termination
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following discusses general behavior when components in UCMA 4.0 are terminated, as well as behavior that is expected in applications written using UCMA 4.0:
 

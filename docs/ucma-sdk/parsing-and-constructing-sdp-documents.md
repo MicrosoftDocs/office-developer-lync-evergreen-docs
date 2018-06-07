@@ -13,7 +13,7 @@ dev_langs:
 # Parsing and constructing SDP documents
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Use the **Sdp** class in the UCMA 4.0 to parse and construct session descriptions to be carried in a Session Initiation Protocol (SIP) request or response. These session descriptions are defined by the Session Description Protocol (SDP). For more information about SDP, see the [SDP: Session Description Protocol](http://go.microsoft.com/fwlink/?linkid=83129) RFC.
 

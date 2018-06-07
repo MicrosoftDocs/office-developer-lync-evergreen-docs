@@ -16,7 +16,7 @@ dev_langs:
 Signing in to UCWA is the first step of any UCWA application. The process involves discovering the UCWA root resource, from which the user authentication can proceed. Once the user is authenticated, a UCWA application resource is created and bound to the local endpoint. These tasks are demonstrated in the steps below and implemented in a separate C\# class file (namely, UcwaApp.cs).
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## Sign in to UCWA with specified user name and password
 

@@ -13,7 +13,7 @@ dev_langs:
 # contactCard/description element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The description about the contact.
 

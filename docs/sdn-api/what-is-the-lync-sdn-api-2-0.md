@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # What is the Lync SDN API 2.0?
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In any given Lync Server deployment, the Lync end-user experience can be adversely impacted by poor network performance, resulting in dropped calls or jittering audio. Network administrators can use a network management system and the Lync SDN API 2.0 to monitor traffic down to a single media stream in real-time and optimize the quality of service experiences with Lync.
 

@@ -13,7 +13,7 @@ dev_langs:
 # state/endpointLocation element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the location of an endpoint.
 

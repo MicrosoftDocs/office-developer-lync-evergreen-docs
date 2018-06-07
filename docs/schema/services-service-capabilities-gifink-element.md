@@ -13,7 +13,7 @@ dev_langs:
 # services/service/capabilities/gifInk element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the capability for a presentity to handle image data of the GIF format.
 

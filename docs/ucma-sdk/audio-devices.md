@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Audio devices
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The topics in this section describe the audio devices that are available in Microsoft Unified Communications Managed API 4.0: [Player](https://msdn.microsoft.com/en-us/library/hh349780\(v=office.15\)), [Recorder](https://msdn.microsoft.com/en-us/library/hh381624\(v=office.15\)), [ToneController](https://msdn.microsoft.com/en-us/library/hh349643\(v=office.15\)), [SpeechRecognitionConnector](https://msdn.microsoft.com/en-us/library/hh383253\(v=office.15\)), and [SpeechSynthesisConnector](https://msdn.microsoft.com/en-us/library/hh349773\(v=office.15\)). These devices, respectively, can be used to play recorded audio, record audio, send and receive telephone dial tones, convert speech to text, or convert text to speech.
 

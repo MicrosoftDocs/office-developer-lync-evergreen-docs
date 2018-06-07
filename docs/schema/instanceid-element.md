@@ -13,7 +13,7 @@ dev_langs:
 # instanceId element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a particular category instance to which the publication rule is applied.
 

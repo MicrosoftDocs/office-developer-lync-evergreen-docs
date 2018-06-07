@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This tutorial walks you through the steps to create a UCWA Windows Store app project using Visual Studio.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 For more information, see [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx).
 

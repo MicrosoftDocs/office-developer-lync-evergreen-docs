@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Privacy management
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In Microsoft Unified Communications Managed API 4.0, user endpoints operate in **Private** mode if they are so configured by the enterprise administrator, unless they are configured to be in **Standard** mode by the endpoint owner. User endpoints can also switch to (or "be migrated to") **Standard** mode if the administrator does not state a preference or orders such a change.
 

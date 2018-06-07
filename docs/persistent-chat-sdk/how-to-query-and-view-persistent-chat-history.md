@@ -15,7 +15,7 @@ dev_langs:
 Learn how to use the Microsoft Lync Server 2013 Persistent Chat API to query the chat history for a Persistent Chat room.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 There are two ways to use the Lync Server 2013 Persistent Chat API to query chat history for a chat room.
 

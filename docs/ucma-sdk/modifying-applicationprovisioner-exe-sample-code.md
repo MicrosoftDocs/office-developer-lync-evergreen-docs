@@ -13,7 +13,7 @@ dev_langs:
 # Modifying ApplicationProvisioner.exe sample code
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The ApplicationProvisioner.exe sample code that shipped with UCMA 2.0 SDK can be used to provision UCMA 2.0 applications, but you must make one modification to the code and then rebuild the application.
 

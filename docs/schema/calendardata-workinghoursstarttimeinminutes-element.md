@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHoursStartTimeInMinutes element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the starting time of a work period.
 

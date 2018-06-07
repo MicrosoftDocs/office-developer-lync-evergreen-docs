@@ -13,7 +13,7 @@ dev_langs:
 # services/service/capabilities/contentNativeFile element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the presence capability of a presentity to share content using native file formats. This is introduced in the Microsoft Lync Server 2010 release.
 

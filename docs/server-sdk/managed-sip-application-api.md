@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about Microsoft Lync Server 2013 SDK managed SIP applications.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A managed SIP application in a Microsoft Lync Server 2013 scenario includes an application manifest, a Microsoft SIP Processing Language (MSPL) script, and a .NET Framework application that uses at least the [Microsoft.Rtc.Sip](https://msdn.microsoft.com/en-us/library/jj266253\(v=office.15\)) namespace. The application manifest is used to specify message types to be processed by the managed SIP application. The MSPL script is used to dispatch the to-be-processed SIP messages to the managed message handler.
 

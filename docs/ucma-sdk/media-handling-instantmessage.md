@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Media handling - InstantMessage
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section provides conceptual details about handling media in instant message calls in relation to the [InstantMessagingCall](https://msdn.microsoft.com/en-us/library/hh161841\(v=office.15\)), [InstantMessagingMcuSession](https://msdn.microsoft.com/en-us/library/hh382004\(v=office.15\)), and [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.15\)) classes.
 

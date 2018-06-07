@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to use the Microsoft Lync Server 2013 Persistent Chat API to set up a Persistent Chat room that uses mixed privacy modes.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A Persistent Chat room can have a privacy setting of [Open](https://msdn.microsoft.com/en-us/library/jj267572\(v=office.15\)), [Closed](https://msdn.microsoft.com/en-us/library/jj267572\(v=office.15\)), or [Secret](https://msdn.microsoft.com/en-us/library/jj267572\(v=office.15\)). An open chat room is accessible by any users in the scope configured in the chat room parent category. A closed chat room is visible to all the users prescribed by the parent category, but only the users added to the room in the Member role can join the chat room and send or receive messages. A secret chat room is visible to and joined by the members only. In any given chat room, all the permitted users share the same privacy mode. In practice, however, it is desirable to have mixed privacy modes when a large group of participants are engaged in discussions of certain subject. For example, in a panel discussion, the panelists can interact with each other and the audience in a public way while conducting private conversations amongst themselves. The Lync Server 2013 Persistent Chat API can be used to enable such chat scenarios of mixed privacy modes.
 

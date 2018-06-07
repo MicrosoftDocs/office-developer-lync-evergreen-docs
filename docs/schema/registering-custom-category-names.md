@@ -13,7 +13,7 @@ dev_langs:
 # Registering custom category names
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 To add a new category you must register the category name with Microsoft Lync Server 2013. To register a category name, call the following SQL commands from the command-line OSQL tool that can access the SQL database that is used by Lync Server 2013.
 

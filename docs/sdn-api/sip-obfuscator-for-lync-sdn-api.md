@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SIP Obfuscator for Lync SDN API
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section describes a utility that is available for the Lync SDN API 2.0.
 

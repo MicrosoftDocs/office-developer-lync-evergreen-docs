@@ -13,7 +13,7 @@ dev_langs:
 # Starting a persistent subscription
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 After the RemotePresenceView object for a persistent subscription is created and initialized, you can start the persistent subscription by calling the StartSubscribingToPresentities method on the RemotePresenceView instance of the Persistent type.
 

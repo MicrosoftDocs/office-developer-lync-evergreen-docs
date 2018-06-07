@@ -13,7 +13,7 @@ dev_langs:
 # contactCard/phone element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Information about the contact’s phone, including the display name and email address.
 

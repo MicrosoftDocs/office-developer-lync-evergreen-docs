@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Endpoint services
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The endpoint (an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) or [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) instance) plays a central role in Microsoft Unified Communications Managed API 4.0 because of the access it provides to the communication and collaboration infrastructure.
 

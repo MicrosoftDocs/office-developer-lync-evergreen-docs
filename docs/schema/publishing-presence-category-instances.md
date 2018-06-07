@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Publishing presence category instances
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In a Microsoft Lync Server 2013 deployment, a presence publisher makes his or her presence available to other users by publishing the presence category instances. The publication amounts to specifying one or more containers, adding desired container members, and placing the presence data, as represented by category instances, through a SIP request.
 

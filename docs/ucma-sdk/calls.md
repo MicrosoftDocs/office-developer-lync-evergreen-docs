@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Calls
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A call is a communication session between two endpoints: a local endpoint and a remote endpoint. UCMA 4.0 represents the call concept by the [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) abstract class, and provides non-abstract classes that implement three specific types of calls:
 

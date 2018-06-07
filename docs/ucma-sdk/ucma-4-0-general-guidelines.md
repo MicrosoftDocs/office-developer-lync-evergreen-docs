@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UCMA 4.0 general guidelines
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following describes general guidelines and tips for all developers of applications built using Microsoft Unified Communications Managed API 4.0:
 

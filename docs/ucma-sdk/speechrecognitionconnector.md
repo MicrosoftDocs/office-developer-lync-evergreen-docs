@@ -13,7 +13,7 @@ dev_langs:
 # SpeechRecognitionConnector
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A [SpeechRecognitionConnector](https://msdn.microsoft.com/en-us/library/hh383253\(v=office.15\)) instance can transfer audio data from a **SpeechRecognitionEngine** instance (in the **Microsoft.Speech** namespace) to an [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instance that is attached to the **SpeechRecognitionConnector** instance.
 

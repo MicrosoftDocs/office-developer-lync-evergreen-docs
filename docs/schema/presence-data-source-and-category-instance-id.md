@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Presence data source and category instance ID
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Similar enhanced presence data can be published from various data sources. For example, a presence state can describe the status of a user, a device used by the user, or a meeting scheduled for the user. In Microsoft Lync 2013, they are represented by a user state, a machine state, a phone state, and a calendar state, respectively. Each corresponds to [state category instance value elements](state-category-instance-value-elements.md) category instance that is identified by a unique instance ID.
 

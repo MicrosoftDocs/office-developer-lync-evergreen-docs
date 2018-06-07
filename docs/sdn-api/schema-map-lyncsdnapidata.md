@@ -15,7 +15,7 @@ dev_langs:
 This topic shows the schema definition for LyncSdnApi.Schema.A.xsd.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ``` xml
 <xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">

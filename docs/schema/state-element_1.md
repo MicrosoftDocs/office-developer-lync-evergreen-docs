@@ -13,7 +13,7 @@ dev_langs:
 # state\[\@type='phoneState'\] element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies an enhanced presence phone state category instance value.
 

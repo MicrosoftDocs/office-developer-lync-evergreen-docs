@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # API changes in UCMA 4.0
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section lists the API changes between Microsoft Unified Communications Managed API (UCMA) 3.0 and UCMA 4.0.
 

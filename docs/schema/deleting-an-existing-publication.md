@@ -13,7 +13,7 @@ dev_langs:
 # Deleting an existing publication
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 On the protocol level, removing a published category instance from a publication is equal to republishing the category instance as a time-bound instance with the expiration time set to zero. The following example is a SIP message sent to the server when a SERVICE request to delete the publication of a [note category instance value element](note-category-instance-value-element.md) category instance is submitted.
 

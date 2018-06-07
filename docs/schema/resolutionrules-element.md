@@ -13,7 +13,7 @@ dev_langs:
 # resolutionRules element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains a list of resolution rules that can be applied to a member when its occurrence constraints are violated.
 

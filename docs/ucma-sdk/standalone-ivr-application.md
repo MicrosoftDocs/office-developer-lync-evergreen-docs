@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Standalone IVR application
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 can be used to create an application that works directly against SIP-PSTN gateways (that are based on RFC 3261) and IP-PBXs to deliver a UCMA-only basic IVR application.
 

@@ -13,7 +13,7 @@ dev_langs:
 # services/service/capabilities/contentPowerPoint element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the capability of a presentity to share content using PowerPoint. This is introduced in the Microsoft Lync Server 2010 release.
 

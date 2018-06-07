@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # AudioVideoCall samples
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The topics in this section describe scenarios that illustrate **AudioVideoCall** and **AudioVideoFlow** objects. The samples are included in Microsoft Unified Communications Managed API 4.0 SDK.
 

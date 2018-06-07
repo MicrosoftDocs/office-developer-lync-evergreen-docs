@@ -13,7 +13,7 @@ dev_langs:
 # device category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains the information of the device, including the supported presence capabilities, with which the user logs in to Microsoft Lync Server 2013.
 

@@ -13,7 +13,7 @@ dev_langs:
 # Aggregation containers
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 There are two aggregation containers. The container ID of the first container is 2 and the second container ID is 3. They are not accessible by anyone other than the container owner. The first aggregation container is used by the Microsoft Lync Server 2013 aggregation script to aggregate the endpoint-specific presence states and to generate the endpoint-independent presence capabilities of the presentity. The results are published to the External Contacts (100), Colleagues (200), and Friends and Family (400) containers. The second aggregation container is used to generate the aggregate state category instance for publication in Workgroup Container (300).
 

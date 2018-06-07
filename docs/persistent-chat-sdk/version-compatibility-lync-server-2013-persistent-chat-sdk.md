@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to set up Microsoft Lync Server 2013 Persistent Chat API and Lync Server deployments.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Lync Server 2013 Persistent Chat API applications should be used in a Microsoft Lync Server 2013 deployment. Similarly, Microsoft Lync Server 2010 Group Chat API applications should be targeted against Microsoft Lync Server 2010, and Microsoft Office Communications Server 2007 R2 Group Chat API applications should be targeted against Microsoft Office Communications Server 2007 R2. In a mixed deployment environment where Lync Server 2013 coexists with Lync Server 2010 or Office Communications Server 2007 R2, and a Lync Server 2013 Persistent Chat API or Group Chat API application interoperates with different versions of the servers, compatibility issues might appear. The following table lists the potential application compatibility issues.
 

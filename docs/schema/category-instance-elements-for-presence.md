@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This section discusses the schema elements that are used to express the presence data that is defined by Microsoft Lync 2013.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## In this section
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Operations performance counters
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Operations performance counters are monitored by Microsoft Operations Manager (MOM) packs that check for specific threshold values. For counters with threshold values, alarms are activated after the values are crossed. For security-related counters, the counter values should be analyzed to ensure that a malicious user has not compromised the system.
 

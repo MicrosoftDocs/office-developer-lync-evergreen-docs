@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UCMA 3.0 Core applications: Coexistence and deployment scenarios
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 Coexistence of a UCMA 3.0 Core application in an Office Communications Server 2007 R2—Microsoft Lync Server 2010 topology  

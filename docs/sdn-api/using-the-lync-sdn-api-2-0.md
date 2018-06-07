@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using the Lync SDN API 2.0
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 When a Lync user calls another Lync user, a SIP dialog is established. SIP messages are exchanged between the client and Lync Server. Specific SIP messages contain data reflecting media-related information relevant for Lync SDN API 2.0 and are forwarded to the Lync SDN Manager (LSM). The LSM is then responsible for packaging the diagnostic data in XML and posting them to the preconfigured web service of one or more network management systems. Figure 2 presents a graphical depiction of this process.
 

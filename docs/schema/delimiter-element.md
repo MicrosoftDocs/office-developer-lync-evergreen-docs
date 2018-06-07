@@ -13,7 +13,7 @@ dev_langs:
 # delimiter element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a marker to begin a schema extension for forward and backward compatibility.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Contextual communication
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contextual Communication is a powerful feature in Microsoft Unified Communications Managed API 4.0, enabling richer end-to-end communication by the integration of external data sources (Customer Relations Management (CRM), Enterprise Resource Planning (ERP), and Web cookies) into the conversation.
 

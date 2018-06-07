@@ -13,7 +13,7 @@ dev_langs:
 # containers element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds a list of containers used in grammar-based enhanced presence publication.
 

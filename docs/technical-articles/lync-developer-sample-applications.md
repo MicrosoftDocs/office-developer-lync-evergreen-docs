@@ -13,7 +13,7 @@ mtps_version: v=office.15
 The following lists show the sample applications for the various Lync SDKs.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

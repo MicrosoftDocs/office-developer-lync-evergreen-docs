@@ -13,7 +13,7 @@ dev_langs:
 # alerts/notifyAdditionToContactList element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies whether to display alerts to the user when someone adds the user to his or her contact list.
 

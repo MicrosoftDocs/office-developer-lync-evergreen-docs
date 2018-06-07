@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Page-mode messaging
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In UCMA 4.0, an endpoint can send messages to another endpoint without establishing a signaling session. An operation of this type is referred to as *page-mode messaging*. In page mode, a message is delivered from the source to the target without a handshake being required between the two endpoints. UCMA 4.0 exposes the [SendMessage()](https://msdn.microsoft.com/en-us/library/hh350225\(v=office.15\)) overloaded methods for sending a page-mode message synchronously, and the [BeginSendMessage()](https://msdn.microsoft.com/en-us/library/hh349151\(v=office.15\)) overloaded methods and the [EndSendMessage(IAsyncResult)](https://msdn.microsoft.com/en-us/library/hh382471\(v=office.15\)) method for sending a page-mode message asynchronously.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Infrastructure enhancements
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section provides high-level information about infrastructure features in Microsoft Unified Communications Managed API 4.0.
 

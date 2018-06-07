@@ -13,7 +13,7 @@ dev_langs:
 # note category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds a personal or Out of Office message as a presence note.
 

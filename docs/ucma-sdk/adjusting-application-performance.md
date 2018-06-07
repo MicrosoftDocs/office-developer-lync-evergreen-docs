@@ -13,7 +13,7 @@ dev_langs:
 # Adjusting application performance
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Because codecs have varying performance characteristics, UCMA 4.0 SDK exposes the UseHighPerformance property, which enables developers to choose between better server performance or better audio quality for their applications. **UseHighPerformance** is a property on the AudioChannelTemplate class in the Microsoft.Rtc.Collaboration.AudioVideo namespace.
 

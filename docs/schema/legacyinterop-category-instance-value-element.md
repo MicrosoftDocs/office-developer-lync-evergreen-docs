@@ -13,7 +13,7 @@ dev_langs:
 # legacyInterop category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Represents the aggregated presence state for interoperating with legacy clients.
 

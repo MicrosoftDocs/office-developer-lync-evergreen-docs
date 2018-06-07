@@ -13,7 +13,7 @@ dev_langs:
 # Simplified presence publication for endpoints
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Applications can opt to automatically publish presence information for user endpoints or application endpoints at the time the endpoint is established. This is especially useful for applications that publish commonly used presence categories such as state and endpoint capabilities once, as well as for those that rarely change their published information. These applications do not need to directly deal with the underlying subscription (which is managed by [LocalOwnerPresence](localownerpresence.md)).
 

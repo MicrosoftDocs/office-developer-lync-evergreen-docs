@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to build client or middle-tier applications by using the Microsoft Lync Server 2013 Persistent Chat API.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Lync Server 2013 Persistent Chat SDK can help you build client or middle-tier applications for a Microsoft Lync Server 2013 Persistent Chat deployment. Such applications allow the user to participate in forum-like conversations that persist over time. Conversations take place in Persistent Chat rooms, which are topic oriented. A chat room has various control accesses based on the user’s roles in the chat room. When joined in a chat room, the user can post real-time messages to be shared with the members of the chat room and receive messages as they are posted by other members of the chat room. A chat message can be long or short and even be in a file. In addition, the applications can enable the user to search for and manage chat rooms and the contained content.
 

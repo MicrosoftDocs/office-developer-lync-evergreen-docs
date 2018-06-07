@@ -15,7 +15,7 @@ dev_langs:
 Learn how to use the Microsoft Lync Server 2013 Persistent Chat API to join or leave a Persistent Chat room session.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Certain Persistent Chat functionalities are session-based. These include operations to be performed against or within a specific chat room. For example, posting messages to a chat room or receiving messages in real-time from the chat room takes place in a session. In Lync Server 2013 Persistent Chat API, a session is encapsulated by the [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) type. When connected, the chat room session is said to be [Established](https://msdn.microsoft.com/en-us/library/jj267274\(v=office.15\)).
 

@@ -15,7 +15,7 @@ dev_langs:
 Learn how to manage role-based access controls to Persistent Chat rooms by using the Microsoft Lync Server 2013 Persistent Chat API.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Managing user roles in a chat room amounts to maintaining access control to the chat room by specified users. The Lync Server 2013 Persistent Chat API exposes three levels of access control. These are enumerated as [Member](https://msdn.microsoft.com/en-us/library/jj266929\(v=office.15\)), [Manager](https://msdn.microsoft.com/en-us/library/jj266929\(v=office.15\)), and [Presenter](https://msdn.microsoft.com/en-us/library/jj266929\(v=office.15\)). The [Creator](https://msdn.microsoft.com/en-us/library/jj266929\(v=office.15\)) role is specified in a category and not accessible programmatically.
 

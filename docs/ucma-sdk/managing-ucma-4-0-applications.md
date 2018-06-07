@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Managing UCMA 4.0 applications
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section provides the details of application management: Microsoft Unified Communications Managed API 4.0 Runtime; general administration tasks and information; application activation and provisioning; application logging; managing application migration from one version of UCMA to another and coexistence in topologies that include different Microsoft Communications Server and Microsoft Lync Server versions.
 

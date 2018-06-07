@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHours/WorkingPeriodArray element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds an array of working-hours periods of a user.
 

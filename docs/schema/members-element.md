@@ -13,7 +13,7 @@ dev_langs:
 # members element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds a list of membership scopes that can be assigned to the containers used in grammar-based enhanced presence publication.
 

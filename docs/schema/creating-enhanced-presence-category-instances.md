@@ -13,7 +13,7 @@ dev_langs:
 # Creating Enhanced Presence category instances
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 On the protocol level, a category instance is represented by an XML string. To publish the category instance, you set up the XML string so it is used with the specified containers on the server. For example, the following SIP message shows what is sent over the wire in a request of publication for a note category instance.
 

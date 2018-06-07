@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to configure automaton bot presence for Public Internet Cloud (PIC) clients in a Microsoft Lync Server 2013 server deployment.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In a Lync Server 2013 server deployment, an automaton corresponds to an Active Directory **Contact** object. It is used to represent an application or service with a routable SIP address. Known as a bot, this kind of application serves as a middle-tier between the server and a client and provides automated communication services. An example is a bot that functions as a help desk to connect a customer to a support staff based on the customer’s answers to questions posed by the bot. The bot can be a Microsoft Unified Communications Managed API (UCMA) application that is routed through a UCMA [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) instance and is trusted by Lync Server 2013. A bot can be used as an autonomous communication service. To use the service, a client must connect to an enabled bot and start a conversation with the bot through IM or by using other enabled modalities. This implies that the client must subscribe to or query the bot’s presence status. When the bot is online, the client can start a conversation with it.
 

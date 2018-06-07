@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Managed SIP stack performance counters
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 **In this article**  
 About the managed SIP stack performance counters  

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Executing Lync Dialog Listener and Lync SDN Manager services
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section describes how to execute the Lync Dialog Listener and Lync SDN Manager services.
 

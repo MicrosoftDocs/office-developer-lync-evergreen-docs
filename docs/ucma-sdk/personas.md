@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Personas
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Many of the more important architectural components of Microsoft Unified Communications Managed API 4.0 are associated with one or more personas, terms that describe ownership, participation, and other attributes of human participants or applications that take part in a UCMA 4.0 application. The following table describes the personas used in UCMA 4.0.
 

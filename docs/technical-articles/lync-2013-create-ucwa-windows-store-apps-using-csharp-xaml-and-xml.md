@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to create a UCWA Windows Store app in C\#/XAML and XML.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This series of articles shows you how to use UCWA to make asynchronous calls to sign in and get the self-presence, personal note, and telephone numbers of the signed-in user. These articles also cover basic requirements for Windows Store apps in the context of a UCWA application.
 

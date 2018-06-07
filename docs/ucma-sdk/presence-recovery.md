@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Presence recovery
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The presence-related services of an endpoint—the [LocalOwnerPresence](https://msdn.microsoft.com/en-us/library/hh348476\(v=office.15\)), [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh383122\(v=office.15\)), and [PresenceServices](https://msdn.microsoft.com/en-us/library/hh384331\(v=office.15\)) properties—are references to, respectively, the [LocalOwnerPresence](https://msdn.microsoft.com/en-us/library/hh382370\(v=office.15\)), [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh381099\(v=office.15\)), and [LocalEndpointPresenceServices](https://msdn.microsoft.com/en-us/library/hh350157\(v=office.15\)) classes. These services use several Lync Server 2013 servers to publish and subscribe to presence data. For example, the User Services role of Lync Server 2013 is the repository of presence data, while the Front End service is responsible for routing publication and subscription requests. When any of the relevant Lync Server 2013 services goes offline or loses connectivity, the UCMA 4.0 presence services are disrupted as well.
 
