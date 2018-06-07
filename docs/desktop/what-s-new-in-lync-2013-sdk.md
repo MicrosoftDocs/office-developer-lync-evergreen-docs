@@ -16,7 +16,7 @@ Microsoft Lync 2013 SDK maintains the features of Microsoft Lync 2010 SDK and in
 
 **Last modified:** July 30, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -29,14 +29,17 @@ Microsoft Lync 2013 SDK maintains the features of Microsoft Lync 2010 SDK and in
 SDK release history<br />
 In this section<br />
 Additional resources</p></td>
-<td><div class="caption">
-Watch the video: What’s New With the Lync 2013 SDK
-</div>
-<br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/0e77f2a8-9b3e-4e89-be77-42fa3739d5a3]</td>
 </tr>
 </tbody>
 </table>
+
+
+<div class="caption">
+Watch the video: What’s New With the Lync 2013 SDK
+</div>
+<br />
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/0e77f2a8-9b3e-4e89-be77-42fa3739d5a3]
+
 
 ## SDK release history
 
