@@ -12,14 +12,13 @@ dev_langs:
 
 # Workgroup container
 
-
 _**Applies to:** Lync 2013 | Lync Server 2013_
 
 The Workgroup Container has a container ID value of 300. The default access control list does not contain an entry. When a user changes the privacy relationship with a contact to that of workgroup by using the **Change Privacy Relationship** menu in Microsoft Lync 2013, the affected contact is added as a member of this container.
 
 The following category instances are published to this container.
 
-Category instances published by Lync Server 2013
+## Category instances published by Lync Server 2013
 
 <table>
 <colgroup>
@@ -68,7 +67,7 @@ Category instances published by Lync Server 2013
 </table>
 
 
-Category instances published by aggregation script
+## Category instances published by aggregation script
 
 <table>
 <colgroup>
@@ -87,7 +86,7 @@ Category instances published by aggregation script
 <tr class="odd">
 <td><p><a href="state-element_4.md">state[@type='aggregateState'] element</a></p></td>
 <td><p>1</p></td>
-<td><p>Contains the local user’s current availability number, time zone, and device type. The following is an example of this category instance</p>
+<td><p>Contains the local user’s current availability number, time zone, and device type. The following is an example of this category instance.</p>
 
 ```XML
 <state xsi:type="aggregateState" 
@@ -104,13 +103,8 @@ Category instances published by aggregation script
 ```
 
 
-<div class="alert">
-
-> [!NOTE]
-> <P>This publication is different from the corresponding one in Container 100 (the External Contacts Container).</P>
-
-
-</div></td>
+<p><b>NOTE</b>: This publication is different from the corresponding one in Container 100 (the External Contacts Container).</p>
+</td>
 </tr>
 <tr class="even">
 <td><p><a href="services-category-instance-value-element.md">services category instance value element</a></p></td>
@@ -142,7 +136,7 @@ Category instances published by aggregation script
 </table>
 
 
-Category instances published by Lync 2010
+## Category instances published by Lync 2010
 
 <table>
 <colgroup>
@@ -169,7 +163,8 @@ Category instances published by Lync 2010
 ```
 
 
-<p>This category instance is meant to contain the local user’s contact information as constructed from the user-configurable options, such as the local user’s home phone number. This effectively blocks members of this container from accessing this kind of information.</p></td>
+<p>This category instance is meant to contain the local user’s contact information as constructed from the user-configurable options, such as the local user’s home phone number. This effectively blocks members of this container from accessing this kind of information.</p>
+</td>
 </tr>
 <tr class="even">
 <td><p><a href="contactcard-category-instance-value-element.md">contactCard category instance value element</a></p></td>
@@ -280,14 +275,9 @@ Category instances published by Lync 2010
 </calendarData>
 ```
 
+<p><b>NOTE</b>: The local user’s free-busy information is visible to the Colleagues, Workgroup, and Friends and Family container members, while it is not visible to the External Contacts container members.</p>
 
-<div class="alert">
-
-> [!NOTE]
-> <P>The local user’s free-busy information is visible to the Colleagues, Workgroup, and Friends and Family container members, while it is not visible to the External Contacts container members.</P>
-
-
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p><a href="dndstate-category-instance-value-element.md">dndState category instance value element</a></p></td>
@@ -331,13 +321,8 @@ Category instances published by Lync 2010
 </note>
 ```
 
-<div class="alert">
-
-> [!NOTE]
-> <P>The OOF note is visible to the Colleagues, Workgroup, and Friends and Family container members, while it is not visible to the External Contacts container members.</P>
-
-
-</div></td>
+<p><b>NOTE</b>: The OOF note is visible to the Colleagues, Workgroup, and Friends and Family container members, while it is not visible to the External Contacts container members.</p>
+</td>
 </tr>
 <tr class="even">
 <td><p><a href="notehistory-category-instance-value-element.md">noteHistory category instance value element</a></p></td>
@@ -350,14 +335,8 @@ Category instances published by Lync 2010
 </noteHistory>
 ```
 
-<p></p>
-<div class="alert">
-
-> [!NOTE]
-> <P><A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> is published to Colleagues, Workgroup, and Friends and Family container members, but not to the External Contacts container. By default, there can be up to three <A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> category instances and they correspond to the three most recent <A href="note-category-instance-value-element.md">note category instance value element</A> instances that are published before the current one.</P>
-
-
-</div></td>
+<p><b>NOTE</b>: <A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> is published to Colleagues, Workgroup, and Friends and Family container members, but not to the External Contacts container. By default, there can be up to three <A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> category instances and they correspond to the three most recent <A href="note-category-instance-value-element.md">note category instance value element</A> instances that are published before the current one.</p>
+</td>
 </tr>
 <tr class="odd">
 <td><p><a href="routing-category-instance-value-element.md">routing category instance value element</a></p></td>
@@ -389,7 +368,5 @@ Category instances published by Lync 2010
 
 ## See also
 
-#### Concepts
-
-[Container semantics defined and conformed by Lync](container-semantics-defined-and-conformed-by-lync.md)
+- [Container semantics defined and conformed by Lync](container-semantics-defined-and-conformed-by-lync.md)
 
