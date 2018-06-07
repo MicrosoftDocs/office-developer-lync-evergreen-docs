@@ -163,13 +163,13 @@ The following category instances are published to this container.
 ```
 
 
-<p>This category instance is meant to contain the local user’s contact information as constructed from the user-configurable options, such as the local user’s home phone number. This effectively blocks members of this container from accessing this kind of information.</p>
+<p>This category instance is meant to contain the local user’s contact information as constructed from the user-configurable options, such as the local user’s home phone number.</p> <p>This effectively blocks members of this container from accessing this kind of information.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><a href="contactcard-category-instance-value-element.md">contactCard category instance value element</a></p></td>
 <td><p>3</p></td>
-<td><p>Contains the local user’s company description and job title, which are obtained from the underlying Lync Server 2013 Address Book Server. This is shown in the following example.</p>
+<td><p>Contains the local user’s company description and job title, which are obtained from the underlying Lync Server 2013 Address Book Server.</p> <p>This is shown in the following example.</p>
 
 ```XML
 <contactCard xmlns="http://schemas.microsoft.com/2006/09/sip/contactcard"
@@ -186,7 +186,7 @@ The following category instances are published to this container.
 <tr class="odd">
 <td><p><a href="contactcard-category-instance-value-element.md">contactCard category instance value element</a></p></td>
 <td><p>4</p></td>
-<td><p>Contains the server-provisioned voice mail URL of the local user when the user has unified communications (UC) enabled. This is shown in the following example.</p>
+<td><p>Contains the server-provisioned voice mail URL of the local user when the user has unified communications (UC) enabled.</p> <p>This is shown in the following example.</p>
 
 ```XML
 <contactCard xmlns="http://schemas.microsoft.com/2006/09/sip/contactcard" isUCEnabled="true">
@@ -199,7 +199,7 @@ The following category instances are published to this container.
 <tr class="even">
 <td><p><a href="contactcard-category-instance-value-element.md">contactCard category instance value element</a></p></td>
 <td><p>6</p></td>
-<td><p>Contains the local user’s job title and display photo. This displays the local user’s photo to members of this container. This is shown in the following example.</p>
+<td><p>Contains the local user’s job title and display photo. This displays the local user’s photo to members of this container.</p> <p>This is shown in the following example.</p>
 
 ```XML
 <contactCard xmlns="http://schemas.microsoft.com/2006/09/sip/contactcard">
@@ -270,8 +270,11 @@ The following category instances are published to this container.
 <td><p>Contains the local user’s free-busy information, as shown in the following example.</p>
 
 ```XML
-<calendarData xmlns="http://schemas.microsoft.com/2006/09/sip/calendarData" mailboxID="johnd@exchange.contoso.com">
-  <freeBusy startTime="2010-06-21T07:00:00Z" granularity="PT15M" encodingVersion="1"> AAAAAAAAAAAAAAAAVVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQAAAAAAAAAAAAAAAAAAAAAAAABUUVVVBQAAAAAAAAAA </freeBusy>
+<calendarData xmlns="http://schemas.microsoft.com/2006/09/sip/calendarData" 
+              mailboxID="johnd@exchange.contoso.com">
+  <freeBusy startTime="2010-06-21T07:00:00Z" 
+            granularity="PT15M" encodingVersion="1">AAAAAAAAAAAAAAAAVVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQAAAAAAAAAAAAAAAAAAAAAAAABUUVVVBQAAAAAAAAAA
+  </freeBusy>
 </calendarData>
 ```
 
@@ -282,7 +285,7 @@ The following category instances are published to this container.
 <tr class="odd">
 <td><p><a href="dndstate-category-instance-value-element.md">dndState category instance value element</a></p></td>
 <td><p>0</p></td>
-<td><p>Contains an empty value whether the local user is in the <strong>Do not disturb</strong> availability mode or not. This is shown in the following example.</p>
+<td><p>Contains an empty value whether the local user is in the <strong>Do not disturb</strong> availability mode or not.</p> <p>This is shown in the following example.</p>
 
 ```XML
 <state xmlns="http://schemas.microsoft.com/2006/09/sip/state"
@@ -295,7 +298,7 @@ The following category instances are published to this container.
 <tr class="even">
 <td><p><a href="note-category-instance-value-element.md">note category instance value element</a></p></td>
 <td><p>0</p></td>
-<td><p>Contains a personal note that is set by the local user. This is shown in the following example.</p>
+<td><p>Contains a personal note that is set by the local user.</p> <p>This is shown in the following example.</p>
 
 ```XML	   
 <note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -310,7 +313,7 @@ The following category instances are published to this container.
 <tr class="odd">
 <td><p><a href="note-category-instance-value-element.md">note category instance value element</a></p></td>
 <td><p>A hash dependent of the local user’s email address</p></td>
-<td><p>Published during an OOF period, this instance contains an out-of-facility (OOF) note the local user set in Microsoft Outlook as shown in the following example.</p>
+<td><p>Published during an OOF period, this instance contains an out-of-facility (OOF) note the local user set in Microsoft Outlook.</p> <p>This is shown in the following example.</p>
 
 ```XML
 <note xmlns="http://schemas.microsoft.com/2006/09/sip/note">
@@ -335,13 +338,13 @@ The following category instances are published to this container.
 </noteHistory>
 ```
 
-<p><b>NOTE</b>: <A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> is published to Colleagues, Workgroup, and Friends and Family container members, but not to the External Contacts container. By default, there can be up to three <A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> category instances and they correspond to the three most recent <A href="note-category-instance-value-element.md">note category instance value element</A> instances that are published before the current one.</p>
+<p><b>NOTE</b>: <A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> is published to Colleagues, Workgroup, and Friends and Family container members, but not to the External Contacts container.</p> <p>By default, there can be up to three <A href="notehistory-category-instance-value-element.md">noteHistory category instance value element</A> category instances and they correspond to the three most recent <A href="note-category-instance-value-element.md">note category instance value element</A> instances that are published before the current one.</p>
 </td>
 </tr>
 <tr class="odd">
 <td><p><a href="routing-category-instance-value-element.md">routing category instance value element</a></p></td>
 <td><p>various</p></td>
-<td><p>One or more <a href="routing-category-instance-value-element.md">routing category instance value element</a> category instances that contain the user-configurable routing rules to handle incoming calls from a member of this container. The following is an example of such an instance.</p>
+<td><p>One or more <a href="routing-category-instance-value-element.md">routing category instance value element</a> category instances that contain the user-configurable routing rules to handle incoming calls from a member of this container.</p> <p>The following is an example of such an instance.</p>
 
 ```XML
 <routing xmlns="http://schemas.microsoft.com/02/2006/sip/routing" 
