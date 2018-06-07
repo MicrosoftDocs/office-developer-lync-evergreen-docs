@@ -16,7 +16,7 @@ Microsoft Lync 2013 SDK includes new Persistent Chat classes and shows how to us
 
 **Last modified:** April 05, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 <table>
 <colgroup>
@@ -28,14 +28,16 @@ Microsoft Lync 2013 SDK includes new Persistent Chat classes and shows how to us
 <td><p><strong>In this article</strong><br />
 Persistent Chat features<br />
 Additional resources</p></td>
-<td><div class="caption">
-Watch the video: What’s new with the Lync 2013 Persistent Chat API
-</div>
-<br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]</td>
 </tr>
 </tbody>
 </table>
+
+<div class="caption">
+Watch the video: What’s new with the Lync 2013 Persistent Chat API
+</div>
+<br />
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
+
 
 ## Persistent Chat features
 
