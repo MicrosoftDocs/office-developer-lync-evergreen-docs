@@ -39,6 +39,7 @@ Additional resources</p></td>
 Watch the video: Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro
 </div>
 <br />
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/e7a3e9c5-e259-43f5-85ab-1f245a7f9ce9]
 
 ## Introduction
