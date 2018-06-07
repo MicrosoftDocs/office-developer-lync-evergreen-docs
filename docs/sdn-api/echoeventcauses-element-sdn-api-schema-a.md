@@ -15,7 +15,7 @@ dev_langs:
 Reasons of device echo detection and reported for audio streams when available. The causes are coded by the following bit flags: "0x01" - Sample timestamps from capture or render device were poor quality. "0x04" - High level of echo remained after echo cancellation. "0x10" - Signal from capture device had significant instances of maximum signal level.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

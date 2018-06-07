@@ -15,7 +15,7 @@ dev_langs:
 Properties of the started or updated media stream.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

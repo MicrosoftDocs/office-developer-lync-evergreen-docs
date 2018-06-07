@@ -15,7 +15,7 @@ dev_langs:
 Average frames per second received for all video streams and computed over the duration of the session. This metric is reported for video streams when available. (frames/s)
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

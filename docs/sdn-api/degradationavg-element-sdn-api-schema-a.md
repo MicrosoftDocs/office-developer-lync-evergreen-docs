@@ -15,7 +15,7 @@ dev_langs:
 Difference between the OverallAvg value and the maximum possible MOS-LQO for the audio codec used in the session. This metric is reported for audio streams when available.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

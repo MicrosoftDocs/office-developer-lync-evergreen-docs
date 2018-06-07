@@ -15,7 +15,7 @@ dev_langs:
 IP address of the the media stream source or destination.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

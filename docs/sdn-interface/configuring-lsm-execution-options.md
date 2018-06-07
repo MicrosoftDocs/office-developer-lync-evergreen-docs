@@ -13,7 +13,7 @@ dev_langs:
 # Configuring LSM execution options
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 You can change some parameters by editing the SDNManager.exe.config file or by using the SDNManager.exe command line tool, depending on whether LSM is deployed as a singleton or settings are maintained in a database. The parameters listed below affect how LSM runs.
 

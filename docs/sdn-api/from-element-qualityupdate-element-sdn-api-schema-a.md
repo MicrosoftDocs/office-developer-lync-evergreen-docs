@@ -15,7 +15,7 @@ dev_langs:
 The source of the reported media stream.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

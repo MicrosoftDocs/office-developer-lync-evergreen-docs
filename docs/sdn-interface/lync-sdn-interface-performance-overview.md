@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Provides some guidelines on performance benchmarks for Lync SDN Interface 2.1.1.
 
 
-_**Applies to:** Lync Server 2010 | Skype for Business_
+**Applies to**: Lync Server 2010 | Skype for Business
 
 This version of Lync SDN Interface 2.1.1 was extensively tested in a production environment and in lab setups but no formal scalability testing has been conducted. The following numbers should give you an idea what you can expect. Please consider these numbers as example only.
 

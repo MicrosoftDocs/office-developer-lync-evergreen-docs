@@ -15,7 +15,7 @@ dev_langs:
 Endpoint involved in the error event.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

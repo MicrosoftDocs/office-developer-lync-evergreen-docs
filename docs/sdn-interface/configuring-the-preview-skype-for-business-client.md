@@ -13,7 +13,7 @@ dev_langs:
 # Configuring the Preview Skype for Business Client
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Authorized partners receive access to early editions of our next generation Lync client (Skype for Business), which will provide additional support for SDN in providing additional in-call Quality messages. Currently, only the next major release of Lync client desktop and Modern versions will support sending InCallQuality reports. If you use such a new client, you must activate the in-call feature for LSM to process Incall QoE messages.
 

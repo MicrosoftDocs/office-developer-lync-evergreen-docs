@@ -15,7 +15,7 @@ dev_langs:
 Lync-specific public diagnostics message.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Installing Lync SDN Interface 2.1.1
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 You install Lync SDN Interface 2.1.1 by running two installation packages. One is for the Lync SDN Manager (LSM) and the other is for the Lync Dialog Listener (LDL). The two packages are **LyncSDNManager.msi** and **LyncDialogListener.msi**.
 

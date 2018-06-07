@@ -15,7 +15,7 @@ dev_langs:
 Connection type such as "wired" or "wireless".
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

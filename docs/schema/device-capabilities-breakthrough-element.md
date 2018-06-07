@@ -13,7 +13,7 @@ dev_langs:
 # device/capabilities/breakthrough element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies the device capability to forward calls automatically, also known as breakthrough.
 

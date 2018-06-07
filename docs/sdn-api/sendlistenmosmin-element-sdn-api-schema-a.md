@@ -15,7 +15,7 @@ dev_langs:
 Minimum of the SendListenMOS for the stream over the duration of the session. This metric is reported for audio streams when available.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

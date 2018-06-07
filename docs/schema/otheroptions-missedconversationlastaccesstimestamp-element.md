@@ -13,7 +13,7 @@ dev_langs:
 # otherOptions/missedConversationLastAccessTimestamp element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Contains the timestamp showing the last access to missed conversation.
 

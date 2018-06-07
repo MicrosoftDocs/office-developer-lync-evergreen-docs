@@ -15,7 +15,7 @@ dev_langs:
 Event that a Sip call has ended and all media stream terminated.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

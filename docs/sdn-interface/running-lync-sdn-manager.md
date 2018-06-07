@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Running Lync SDN Manager
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 This section describes how to run Lync SDN Manager as a Windows service and as a console application.
 

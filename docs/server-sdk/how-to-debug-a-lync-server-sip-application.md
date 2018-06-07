@@ -15,7 +15,7 @@ dev_langs:
 Learn how to debug a SIP application in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 To debug a SIP application that is loaded into a Lync Server 2013 deployment, trace the execution of the Microsoft SIP Processing Language (MSPL) script that is embedded in the application manifest in addition to the managed application components.
 

@@ -15,7 +15,7 @@ dev_langs:
 Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It is provided only in QualityUpdate events.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

@@ -13,7 +13,7 @@ dev_langs:
 # Colleagues container
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to**: Lync 2013 | Lync Server 2013
 
 The Colleagues Container has a container ID value of 200. The default access control list contains a single entry for enterprise network users. Non-private category instances published to this container are visible to all the users of the same enterprise network by default.
 

@@ -15,7 +15,7 @@ dev_langs:
 Denotes whether the call is internal or external through the edge server. It is provided only in QualityUpdate events.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

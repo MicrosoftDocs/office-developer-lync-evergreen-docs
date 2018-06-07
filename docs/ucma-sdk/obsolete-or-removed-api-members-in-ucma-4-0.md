@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Obsolete or removed API members in UCMA 4.0
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Microsoft.Rtc.Collaboration namespace  

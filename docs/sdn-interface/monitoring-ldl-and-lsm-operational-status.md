@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Monitoring LDL and LSM operational status
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 In addition to supporting internal logging, LDL and LSM also send events to the Windows EventLog. You can therefore monitor the operational status of the Lync SDN Interface components by examining the EventLog entries sourced from the LDL and LSM in the Windows Event Viewer. For example, the operational status message reports that the LSM or LDL service started or stopped. The error conditions include connection failures to the Lync Server and database or between the LSM and LDL.
 

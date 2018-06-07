@@ -15,7 +15,7 @@ dev_langs:
 MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, for decoded audio received by the reporting entity during the session. This metric is reported for audio streams when available.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

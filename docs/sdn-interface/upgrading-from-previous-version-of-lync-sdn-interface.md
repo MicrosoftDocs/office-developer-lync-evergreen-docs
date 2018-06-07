@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Upgrading from previous version of Lync SDN Interface
 
 
-_**Applies to:** Lync Server 2010 | Skype for Business_
+**Applies to**: Lync Server 2010 | Skype for Business
 
 Currently, neither LDL nor LSM supports multiple parallel installations. Please expect downtime of the Lync SDN Interface service during the upgrade, although in some cases it can be minimized. However, there is no downtime for the Lync service required for upgrading Lync SDN Interface. Regardless, please perform upgrades only during off-hours and with minimal load on all components. Generally, it is recommended that you perform the upgrade in multiple steps. The following process assumes you want the service to remain active as long as possible.
 

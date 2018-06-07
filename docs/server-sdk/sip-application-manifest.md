@@ -15,7 +15,7 @@ dev_langs:
 The SIP application manifest is an XML document that describes a SIP application to the Microsoft Lync Server 2013 instance against which the application runs.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 The following workflow is controlled by the application manifest:
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Getting ready to install Lync SDN Interface 2.1.1
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 To ensure that the Lync SDN Interface 2.1.1 components are successfully installed and started, do the following before you run the installation packages:
 

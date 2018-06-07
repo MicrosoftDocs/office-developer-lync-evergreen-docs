@@ -13,7 +13,7 @@ dev_langs:
 # services/service/capabilities/video element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies a capability for a presentity to handle video streaming.
 

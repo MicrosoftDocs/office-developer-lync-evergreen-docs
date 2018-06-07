@@ -15,7 +15,7 @@ dev_langs:
 Denotes the time when the conversation started. It is provided only in QualityUpdate events.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

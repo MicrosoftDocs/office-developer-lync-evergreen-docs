@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This topic lists the elements in the **LyncSdnApi.Schema.A.xsd** XML schema.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
   - [AppliedBandwidthLimit element](appliedbandwidthlimit-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md)
 

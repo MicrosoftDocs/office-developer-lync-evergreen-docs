@@ -15,7 +15,7 @@ dev_langs:
 # Creating a Lync bot
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Create a trusted application and a trusted application endpoint for the UC bot  

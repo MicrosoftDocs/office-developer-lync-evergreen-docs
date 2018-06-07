@@ -15,7 +15,7 @@ dev_langs:
 Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

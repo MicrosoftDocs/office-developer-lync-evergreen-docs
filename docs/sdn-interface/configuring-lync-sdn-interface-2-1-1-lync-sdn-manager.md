@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring Lync SDN Interface 2.1.1 Lync SDN Manager
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Lync SDN Manager (LSM) can run in three different operational modes, depending on how LSM stores and shares states of call streams and configuration settings: Cache, Database, and Split.
 

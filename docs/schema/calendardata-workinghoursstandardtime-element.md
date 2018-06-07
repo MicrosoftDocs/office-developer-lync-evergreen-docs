@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHoursStandardTime element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Holds the standard time of the user’s local time zone.
 

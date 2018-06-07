@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring LSM using command prompt
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 As a new feature introduced in Lync SDN Interface 2.1.1 (and 2.1), you can now use the command-line tool (SDNManager.exe) to get and set limits as quality metrics of call streams in the Lync QoEMetrics database. You can also replay sequences of logged messages for testing.
 

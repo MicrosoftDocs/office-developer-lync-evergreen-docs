@@ -15,7 +15,7 @@ dev_langs:
 Transmission protocol of the media stream such as TCP or UDP.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

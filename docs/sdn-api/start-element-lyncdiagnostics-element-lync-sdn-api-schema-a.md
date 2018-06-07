@@ -15,7 +15,7 @@ dev_langs:
 Event that a media stream is started. Every Start element contains a report about a particular media stream. This event is raised when the call is established, i.e., when the call is picked up and the SIP INVITE is answered with a 200 OK response. The LyncDiagnostics element will not contain any event elements (e.g., Invite, LRSInvite, Start, Update, etc.), when all media streams are inactive (usually when the call is on-hold).
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using SIP Obfuscator for Lync SDN Interface
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The Lync SDN Interface 2.1.1 includes a utility (SIPObfuscator.exe) for authorized partners that can be used to obtain the obfuscated value of a user name. The resultant obfuscated name can be used to query for dialog data involving the specified user when privacy protection is turned on. SipObfuscator.exe requires that .NET Framework 3.5 be installed.
 

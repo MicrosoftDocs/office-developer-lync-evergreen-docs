@@ -15,7 +15,7 @@ dev_langs:
 Connection-related properties regardless of the media stream and end points.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

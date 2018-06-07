@@ -13,7 +13,7 @@ dev_langs:
 # Configuring LDL execution options
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 You can also modify some options for LDL execution in the LyncDialogListener.exe.config file. Overall, these execution options let the LDL to locate the LSM to retrieve further configuration settings from. The discussion below explains how to select those execution options that cannot be configured via the LSM but must be modified for each LDL installation.
 

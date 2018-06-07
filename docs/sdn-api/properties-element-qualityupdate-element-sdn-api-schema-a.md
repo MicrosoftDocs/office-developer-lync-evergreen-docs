@@ -15,7 +15,7 @@ dev_langs:
 Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determinine a bad call.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

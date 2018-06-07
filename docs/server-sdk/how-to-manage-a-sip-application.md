@@ -15,7 +15,7 @@ dev_langs:
 Learn how to manage a SIP application in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## Managing a SIP application on Lync Server
 

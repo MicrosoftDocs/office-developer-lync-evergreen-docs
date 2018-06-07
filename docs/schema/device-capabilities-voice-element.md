@@ -13,7 +13,7 @@ dev_langs:
 # device/capabilities/voice element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies the capability for voice calls on this device.
 

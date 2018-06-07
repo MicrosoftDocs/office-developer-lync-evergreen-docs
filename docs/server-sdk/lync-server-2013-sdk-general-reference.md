@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This section discusses the Microsoft Lync Server 2013 SIP Application API, which is distributed with Microsoft Lync Server 2013 SDK, to help you get started writing server-side SIP applications.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## In this section
 

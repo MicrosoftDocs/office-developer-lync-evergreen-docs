@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Enhanced features of Lync SDN Interface 2.1.1
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 **In this article**  
 New and updated setting-specific behaviors  

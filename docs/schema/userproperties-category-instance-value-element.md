@@ -13,7 +13,7 @@ dev_langs:
 # userProperties category instance value element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Contains user properties that are received by using in-band provisioning from the server.
 

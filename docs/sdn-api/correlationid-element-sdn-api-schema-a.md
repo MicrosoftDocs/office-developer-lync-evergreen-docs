@@ -15,7 +15,7 @@ dev_langs:
 Identifier to correlate two SIP calls where mediation server is involved. Both SIP calls belong to the same conversation.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

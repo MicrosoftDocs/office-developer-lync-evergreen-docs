@@ -13,7 +13,7 @@ dev_langs:
 # EndPointType complexType (Lync SDN API Schema A)
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Type information  

@@ -15,7 +15,7 @@ dev_langs:
 Learn how to set up an event channel in your Microsoft Unified Communications Web API 1.0 Windows Store app in C\#/XAML and XML. Setting up the event channel is necessary to enable many UCWA 1.0 features, including receiving presence updates of contacts, conducting instant messaging, audio/video calls or online meetings, and so on.
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2013
 
 **In this article**  
 Set up the event channel  

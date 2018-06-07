@@ -15,7 +15,7 @@ dev_langs:
 Percentage of the duration of a call that is using the VGA resolution. This metric is reported for video streams when available. (percent)
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

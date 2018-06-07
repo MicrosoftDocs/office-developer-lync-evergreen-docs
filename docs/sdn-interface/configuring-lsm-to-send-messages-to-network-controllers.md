@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring LSM to send messages to network controllers
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 LSM sends stream states and quality data to a network controller by posting messages to the URI of a web service on the network controller. You can configure this URI by modifying the submituri setting in the SDNManager.exe.config file.
 

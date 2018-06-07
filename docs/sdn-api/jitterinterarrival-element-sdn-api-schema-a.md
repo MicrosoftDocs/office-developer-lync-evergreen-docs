@@ -15,7 +15,7 @@ dev_langs:
 Average inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all available modalities/media types. (ms)
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

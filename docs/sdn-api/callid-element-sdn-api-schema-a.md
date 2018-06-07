@@ -15,7 +15,7 @@ dev_langs:
 Unique identifier for the SIP call. This field should be used to correlate messages referring to the same call.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

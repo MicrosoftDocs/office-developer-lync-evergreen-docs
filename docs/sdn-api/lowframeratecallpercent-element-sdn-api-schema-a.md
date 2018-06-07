@@ -15,7 +15,7 @@ dev_langs:
 Percentage of time of the call where frame rate is less than 7.5 frames per second. This metric is reported for video streams when available. (percent)
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

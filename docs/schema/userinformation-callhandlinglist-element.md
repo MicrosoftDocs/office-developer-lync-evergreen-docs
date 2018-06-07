@@ -13,7 +13,7 @@ dev_langs:
 # userInformation/callHandlingList element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies a list of call-handling targets. These options are set in the Microsoft Lync 2013 **Lync Options** dialog box.
 

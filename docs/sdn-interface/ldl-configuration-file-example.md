@@ -13,7 +13,7 @@ dev_langs:
 # LDL configuration file example
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The following code sample is n example of the LDL configuration file.
 

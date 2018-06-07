@@ -15,7 +15,7 @@ dev_langs:
 Sip URI used for the conference. This field is obfuscated unless hidepii is set to false in configuration.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

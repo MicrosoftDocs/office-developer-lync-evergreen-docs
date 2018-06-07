@@ -13,7 +13,7 @@ dev_langs:
 # calendarData/WorkingHours/EndTimeInMinutes element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies the ending time of a work period.
 

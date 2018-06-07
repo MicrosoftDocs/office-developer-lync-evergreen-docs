@@ -13,7 +13,7 @@ dev_langs:
 # LSM command-line executable input and output example
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The following code sample shows the input and output resulting from running the LSM console application.
 

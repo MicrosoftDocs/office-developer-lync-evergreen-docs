@@ -15,7 +15,7 @@ dev_langs:
 Maximum fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over the duration of the session. This metric is reported for all available modalities/media types. (percent)
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

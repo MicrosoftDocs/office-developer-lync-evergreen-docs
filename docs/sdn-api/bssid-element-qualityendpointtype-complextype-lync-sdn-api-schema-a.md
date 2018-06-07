@@ -15,7 +15,7 @@ dev_langs:
 Id of an access point for a WiFi/wireless connection.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

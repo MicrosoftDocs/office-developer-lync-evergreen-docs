@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Setting up DNS SRV record
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 You can configure the Lync Dialog Listener (LDL) to query DNS for the location of the host or pool of the Lync SDN Manager (LSM) Service, if the DNS SRV record was created properly. This article explains how to create the SRV records. You must have domain administrator privileges to do this.
 

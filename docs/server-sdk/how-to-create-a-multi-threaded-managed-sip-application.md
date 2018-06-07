@@ -15,7 +15,7 @@ dev_langs:
 Learn how to create a multi-threaded SIP application in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## Creating a multi-threaded SIP application
 

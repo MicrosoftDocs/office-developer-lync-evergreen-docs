@@ -13,7 +13,7 @@ dev_langs:
 # device/capabilities element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Describes the presence capabilities of the device.
 

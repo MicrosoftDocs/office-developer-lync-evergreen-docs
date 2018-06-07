@@ -13,7 +13,7 @@ dev_langs:
 # Activating QoE recording
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 **In this article**  
 Verify and activate QoE recording using Lync Server Management Shell commands  

@@ -13,7 +13,7 @@ dev_langs:
 # Using the Lync SDN Interface 2.1
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Lync service providers and customers can use the Lync SDN Interface to obtain call and quality data about the states of audio and video streams across the Lync network. The Lync SDN Interface relies on the Lync Dialog Listener component (LDL) to capture call and quality data and then dispatches the captured data to Lync SDN Manager (LSM) to process the raw data. The processed and aggregated data is then sent to network controllers, which can in turn correlate the data with their own observations from the network, readjust policies, or reallocate network resources to improve the service quality.
 

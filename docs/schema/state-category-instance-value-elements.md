@@ -13,7 +13,7 @@ dev_langs:
 # state category instance value elements
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies the abstract base type of any presence state category instance value.
 

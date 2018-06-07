@@ -13,7 +13,7 @@ dev_langs:
 # otherOptions category instance value element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Contains the miscellaneous options that can be set by the user using Microsoft Lync 2013.
 

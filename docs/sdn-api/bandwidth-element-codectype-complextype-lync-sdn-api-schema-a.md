@@ -15,7 +15,7 @@ dev_langs:
 Lower limit of the estimated bandwidth.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

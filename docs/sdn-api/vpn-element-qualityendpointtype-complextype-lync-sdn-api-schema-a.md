@@ -15,7 +15,7 @@ dev_langs:
 Indicates if the user is on VPN (True) or not (False).
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

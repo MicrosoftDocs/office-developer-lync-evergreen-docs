@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring Lync SDN Interface 2.1.1 Lync Dialog Listener
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 LDL uses configuration settings to affect how the listener service behaves. LDL requires only minimal explicitly specified configuration. You can set or modify additional LDL configurations by editing the LyncDialogListener.exe.config file. The installation sets all important configurations such as those for connecting to the LSM (submituri, alternativeuri, clientcertificateid, checkdns) as well as the overall logging location.
 

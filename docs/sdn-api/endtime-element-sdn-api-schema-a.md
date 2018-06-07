@@ -15,7 +15,7 @@ dev_langs:
 Denotes then time when the conversation ended. It is provided only in QualityUpdate events.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

@@ -14,7 +14,7 @@ dev_langs:
 # Creating a generic bot
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Create message handlers  

@@ -15,7 +15,7 @@ dev_langs:
 Number of Real-time Transport Protocol (RTP) packets received in the session. This metric is reported for all available modalities and media types.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Appendix to Lync SDN Interface 2.1.1
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 This section contains examples of the LSM and LDL configuration files, the input to and output from the LSM console application, and instructions to use the SIP Obfuscator for Lync SDN Interface.
 

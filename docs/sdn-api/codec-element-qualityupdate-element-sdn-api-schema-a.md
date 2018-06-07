@@ -15,7 +15,7 @@ dev_langs:
 Describes the last codec used for the media.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

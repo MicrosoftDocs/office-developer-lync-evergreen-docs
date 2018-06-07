@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to use the Lync 2013 SDK to create a Lync Windows Presentation Foundation (WPF) Controls application for Windows 8 and Windows 8 Pro.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013 | Visual Studio | Windows_
+**Applies to**: Lync 2013 | Lync Server 2013 | Visual Studio | Windows
 
 **Provided by:**  John Clarkson, Microsoft Corporation
 

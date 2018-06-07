@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Overview of Lync SDN Interface 2.1.1
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The Lync Software Defined Network (SDN) Interface 2.1.1 provides an interface for network management systems to receive Lync network call and quality data for monitoring Lync network traffic and optimizing the Lync quality of service (QoS) experiences.
 

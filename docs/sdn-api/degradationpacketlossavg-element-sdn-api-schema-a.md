@@ -15,7 +15,7 @@ dev_langs:
 Average fraction of the DegradationAvg that was caused by packet loss. This metric is reported for audio streams when available.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

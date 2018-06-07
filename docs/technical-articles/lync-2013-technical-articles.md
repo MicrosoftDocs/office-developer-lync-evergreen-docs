@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Read technical articles about developing for Lync 2013.
 
 
-_**Applies to:** Lync 2013 | Lync Online | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2013 | Lync Online | Lync Server 2010 | Lync Server 2013
 
 This section of the MSDN Library provides technical articles to help you get started developing solutions that take advantage of Lync 2013.
 

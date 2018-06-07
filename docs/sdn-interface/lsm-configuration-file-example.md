@@ -13,7 +13,7 @@ dev_langs:
 # LSM configuration file example
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The following is an example of the LSM configuration file (SDNManager.exe.config).
 

@@ -15,7 +15,7 @@ dev_langs:
 Network path of the media stream only provided in Lync 2013 and when the traceRoute feature is activated in Lync.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

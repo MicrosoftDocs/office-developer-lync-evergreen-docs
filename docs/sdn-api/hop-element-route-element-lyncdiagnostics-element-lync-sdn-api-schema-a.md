@@ -15,7 +15,7 @@ dev_langs:
 IP address of one hop (router, gateway, switch, etc) on the path from the source to the destination of the media stream.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

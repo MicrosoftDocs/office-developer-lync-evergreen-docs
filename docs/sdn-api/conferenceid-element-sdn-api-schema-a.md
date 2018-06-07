@@ -15,7 +15,7 @@ dev_langs:
 Identifier to correlate call legs that belong to the same conference.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

@@ -13,7 +13,7 @@ dev_langs:
 # Configuring LDL logging options
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Lync SDN Interface 2.1.1 uses the logging infrastructure of the [Enterprise Libraries 5.0](http://msdn.microsoft.com/en-us/library/ff632023.aspx). You can inspect and modify the configuration file by using the Microsoft Enterprise Library Configuration Tool. For a complete documentation on the options and capabilities of the logging infrastructure, see [Configuring the Logging Application Block](http://msdn.microsoft.com/en-us/library/ff664569\(v=pandp.50\).aspx) in the Enterprise Libraries documentation.
 

@@ -15,7 +15,7 @@ dev_langs:
 IP Address of the first relay used in the media traffic.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

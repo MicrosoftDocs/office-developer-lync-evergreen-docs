@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This topic lists the types in the **LyncSdnApi.Schema.A.xsd** XML schema.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
   - [CodecType complexType](codectype-complextype-lync-sdn-api-schema-a.md)
 

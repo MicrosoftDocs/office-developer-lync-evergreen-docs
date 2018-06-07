@@ -13,7 +13,7 @@ dev_langs:
 # contactCard/identity element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 The identity of the contact, including the display name and email address.
 

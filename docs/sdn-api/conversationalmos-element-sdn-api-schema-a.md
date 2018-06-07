@@ -15,7 +15,7 @@ dev_langs:
 Conversational clarity index for remote party, as described in \[ITUP.562\] section 6.3. This metric is reported for all available modalities and media types.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

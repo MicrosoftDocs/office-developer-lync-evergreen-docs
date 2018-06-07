@@ -13,7 +13,7 @@ dev_langs:
 # userInformation category instance value element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies the list of optional phone lines made available to reach the user. These options are specified in the Microsoft Lync 2013 **Lync Options** dialog box.
 

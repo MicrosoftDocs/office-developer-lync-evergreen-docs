@@ -15,7 +15,7 @@ dev_langs:
 Port number of the destination or source of the media stream used by this endpoint.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

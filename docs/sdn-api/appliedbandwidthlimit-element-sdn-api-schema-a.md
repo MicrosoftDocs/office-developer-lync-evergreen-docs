@@ -15,7 +15,7 @@ dev_langs:
 Displays the limits applied. It is provided only in QualityUpdate events when Call Admission Control is used.
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Element information  

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Running and debugging Lync SDN Interface 2.1.1
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 This section describes how to run, log, and debug the Lync SDN Interface.
 

@@ -12,7 +12,7 @@ dev_langs:
 
 # state\[\@type='calendarState'\] element
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies an enhanced presence state category instance value according to the user’s calendar.
 

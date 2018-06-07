@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Setting up SQL Server for SDNManager database
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 In a pool configuration, Lync SDN Interface 2.1.1 uses an SQL database to share call states of concurrently ongoing calls or configuration settings among multiple LSMs. This SDN Manager database is hosted on a SQL server of your choosing. Make sure to select the SQL Server host that supports appropriate behaviors in the presence of fault.
 

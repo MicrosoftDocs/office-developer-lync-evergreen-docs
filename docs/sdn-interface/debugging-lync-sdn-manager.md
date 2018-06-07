@@ -13,7 +13,7 @@ dev_langs:
 # Debugging Lync SDN Manager
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 **In this article**  
 Activating WCF service logging  

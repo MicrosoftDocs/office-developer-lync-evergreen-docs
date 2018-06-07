@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to use the Microsoft Lync Server 2013 SIP Application API to develop SIP applications that run on Microsoft Lync Server 2013.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 The SIP applications can behave only as proxies or user agent servers (UAS) in the current version of the Microsoft Lync Server 2013 SIP Application Managed API. As a proxy, the Lync Server 2013 SIP Application API application serves to forward a processed SIP message to the next host or recipient.
 

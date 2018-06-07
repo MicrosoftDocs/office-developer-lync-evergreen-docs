@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to migrate applications to run on a Microsoft Lync Server 2013 computer.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 To migrate applications that were developed by using Microsoft Live Communications Server SDK, Microsoft Office Communications Server 2007, or Microsoft Office Communications Server 2007 R2 SDK to run on Microsoft Lync Server 2013, you must recompile the applications by using the 64-bit version of the Microsoft Lync Server 2013 SDK.
 

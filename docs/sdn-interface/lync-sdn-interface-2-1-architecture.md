@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Lync SDN Interface 2.1 architecture
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Conceptually, the Lync SDN Interface 2.1.1 consists of the following components:
 

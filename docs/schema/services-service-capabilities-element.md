@@ -13,7 +13,7 @@ dev_langs:
 # services/service/capabilities element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies a presence service enabled for a presentity.
 

@@ -13,7 +13,7 @@ dev_langs:
 # Configuring Lync SDN Manager
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 **In this article**  
 Configuring Lync SDN Manager logging options  

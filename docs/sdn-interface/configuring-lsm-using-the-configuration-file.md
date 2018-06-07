@@ -13,7 +13,7 @@ dev_langs:
 # Configuring LSM using the configuration file
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 You can edit the SDNManager.exe.config file to configure LSM. The SDNManager.exe.config file is located in the default installation directory, where you will also find SDNManager.exe.
 

@@ -13,7 +13,7 @@ dev_langs:
 # device/capabilities/applicationSharing element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies the capability for application sharing on the device. This is introduced in the Microsoft Office Communications Server 2007 R2 release.
 

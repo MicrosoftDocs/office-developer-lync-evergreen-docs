@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UCMA 4.0 general reference
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 The Microsoft Unified Communications Managed API (UCMA) 4.0 general reference consists of the following main sections.
 

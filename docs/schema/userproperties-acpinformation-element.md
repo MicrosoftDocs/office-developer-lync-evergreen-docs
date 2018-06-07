@@ -13,7 +13,7 @@ dev_langs:
 # userProperties/acpInformation element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Contains the information of the audio conference provider for the user
 
