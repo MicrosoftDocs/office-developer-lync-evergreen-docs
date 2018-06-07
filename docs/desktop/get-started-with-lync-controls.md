@@ -38,7 +38,7 @@ Additional resources
 Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
-  
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
 
 
