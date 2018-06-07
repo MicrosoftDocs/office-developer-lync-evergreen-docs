@@ -12,11 +12,11 @@ dev_langs:
 
 # Parsing Lync-published category instances
 
-
 _**Applies to:** Lync 2013 | Lync Server 2013_
 
 The following table shows how to parse some of the presence category instances that are published by Microsoft Lync 2013.
 
+<br/>
 
 <table>
 <colgroup>
@@ -40,11 +40,13 @@ The following table shows how to parse some of the presence category instances t
 
 ```XML
 <calendarData xmlns="http://schemas.microsoft.com/2006/09/sip/calendarData"
-        mailboxID="johnD@exchange.contoso.com">
-   <freeBusy startTime="2009-11-18T08:00:00Z" granularity="PT15M" encodingVersion="1">AAAAAAAAAAAAAAAAAAAAVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQoAqqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</freeBusy>
+              mailboxID="johnD@exchange.contoso.com">
+   <freeBusy startTime="2009-11-18T08:00:00Z" 
+             granularity="PT15M" encodingVersion="1">AAAAAAAAAAAAAAAAAAAAVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQoAqqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+   </freeBusy>
 </calendarData>
 ```
-<p>In this example, the length of the smallest time slot is 15 minutes that is specified by the granularity attribute PT15M value, where PT stands for Pacific Time. The user is identified by the mailboxID attribute johnD@exchange.contoso.com value. And the free-busy block starts at midnight of the US Pacific time on November 18, 2009, which is specified by the startTime attribute. Once properly decoded, the length of the entire free-busy block is 96 hours, which can be determined by counting the number of bytes in the Base64 encoded string.</p></td>
+<p>In this example, the length of the smallest time slot is 15 minutes that is specified by the granularity attribute PT15M value, where PT stands for Pacific Time.<br/>The user is identified by the mailboxID attribute johnD@exchange.contoso.com value.<br/>The free-busy block starts at midnight of the US Pacific time on November 18, 2009, which is specified by the startTime attribute.<br/>Once properly decoded, the length of the entire free-busy block is 96 hours, which can be determined by counting the number of bytes in the Base64 encoded string.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="state-element_4.md">state[@type='aggregateState'] element</a></p></td>
@@ -55,9 +57,9 @@ The following table shows how to parse some of the presence category instances t
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -128,8 +130,8 @@ The following table shows how to parse some of the presence category instances t
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 30%" />
+<col style="width: 30%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -165,8 +167,7 @@ The following table shows how to parse some of the presence category instances t
 <p></p>
 <div class="alert">
 
-> [!NOTE]
-> <P>Activity tokens are case-sensitive.</P>
+<p><b>NOTE</b>: Activity tokens are case-sensitive.</p>
 
 
 </div>
@@ -182,8 +183,8 @@ The following table shows how to parse some of the presence category instances t
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 30%" />
+<col style="width: 30%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -254,13 +255,12 @@ The following table shows how to parse some of the presence category instances t
 <td><p>Capabilities Summary String</p></td>
 <td><p>Lync 2013 displays the following capabilities summary string to supplement an activity string.</p>
 <div class="caption">
-
 </div>
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 30%" />
+<col style="width: 30%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -299,8 +299,7 @@ The following table shows how to parse some of the presence category instances t
 <p>When the aggregated availability number is less than 12000 and the most active computer (with the lowest availability number) has its location specified (in the <a href="state-endpointlocation-element.md">state/endpointLocation element</a> element), this location information will be included in the <a href="state-element_4.md">state[@type='aggregateState'] element</a> instance.</p>
 <div class="alert">
 
-> [!NOTE]
-> <P>The received location information indicates a place either set by the publisher or provided by the Microsoft Lync Server 2013 Location Information Service. The location information that the publisher wants the remote watchers to see is present. It is not necessarily the location where the user is actually located.</P>
+<p><b>NOTE</b>: The received location information indicates a place either set by the publisher or provided by the Microsoft Lync Server 2013 Location Information Service. The location information that the publisher wants the remote watchers to see is present. It is not necessarily the location where the user is actually located.</p>
 
 
 </div></td>
