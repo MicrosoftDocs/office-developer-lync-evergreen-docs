@@ -30,10 +30,10 @@ This section of the MSDN Library provides technical articles to help you get sta
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-2013-create-a-lync-wpf-controls-application-for-windows-8-and-windows-8-pro.md">Lync 2013: Create a Lync WPF Controls application for Windows 8 and Windows 8 Pro</a></p></td>
+<td><p><a href="create-a-lync-wpf-controls-application-for-windows-8.md">Lync 2013: Create a Lync WPF Controls application for Windows 8 and Windows 8 Pro</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-2013-create-a-lync-silverlight-controls-application-for-windows-8-and-windows-8-pro.md">Lync 2013: Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro</a></p></td>
+<td><p><a href="create-a-lync-silverlight-controls-application-for-windows-8.md">Lync 2013: Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro</a></p></td>
 </tr>
 </tbody>
 </table>

@@ -105,27 +105,27 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Unique identifier for the SIP call. This field should be used to correlate messages referring to the same call.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="conferenceid-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">ConferenceId</a></p></td>
+<td><p><a href="conferenceid-element-sdn-interface-2-1-1.md">ConferenceId</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Identifier to correlate call legs that belong to the same conference.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="conferenceuri-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">ConferenceURI</a></p></td>
+<td><p><a href="conferenceuri-element-sdn-interface-2-1-1.md">ConferenceURI</a></p></td>
 <td><p>xs:anyURI</p></td>
 <td><p>(Deprecated - use ConferenceId instead) Sip URI used for the conference. This field is obfuscated unless hidepii is set to false in configuration.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connectivity-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">Connectivity</a></p></td>
+<td><p><a href="connectivity-element-sdn-interface-2-1-1.md">Connectivity</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>(Obsolete) The inclusion of Relay Ip/port indicates that a particular endpoint uses a media relay (edge server) and if not access the remote address directly. It is provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="conversationid-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">ConversationId</a></p></td>
+<td><p><a href="conversationid-element-sdn-interface-2-1-1.md">ConversationId</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Identifier to correlate different SIP calls involved in the same conversation. In some cases Lync uses different SIP calls for different modalities. This identifier permits correlating these SIP calls in the same conversation.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="correlationid-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">CorrelationId</a></p></td>
+<td><p><a href="correlationid-element-sdn-interface-2-1-1.md">CorrelationId</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Identifier to correlate two SIP calls where mediation server is involved. Both SIP calls belong to the same conversation.</p></td>
 </tr>
@@ -140,12 +140,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Denotes then time when the conversation ended. It is provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="mediabypass-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">MediaBypass</a></p></td>
+<td><p><a href="mediabypass-element-sdn-interface-2-1-1.md">MediaBypass</a></p></td>
 <td><p>xs:boolean</p></td>
 <td><p>Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="mediationserverlegposition-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">MediationServerLegPosition</a></p></td>
+<td><p><a href="mediationserverlegposition-element-sdn-interface-2-1-1.md">MediationServerLegPosition</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It is provided only in QualityUpdate events.</p></td>
 </tr>

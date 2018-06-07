@@ -685,9 +685,9 @@
         - name: RawSDP element
           href: sdn-api/rawsdp-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md
         - name: RDPTileProcessingLatencyAverage element
-          href: sdn-api/rdptileprocessinglatencyaverage-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/rdptileprocessinglatencyaverage-element-sdn-api-schema-a.md
         - name: RDPTileProcessingLatencyBurstDensity element
-          href: sdn-api/rdptileprocessinglatencyburstdensity-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/rdptileprocessinglatencyburstdensity-element-sdn-api-schema-a.md
         - name: RecvFrameRateAverage element
           href: sdn-api/recvframerateaverage-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
         - name: RecvListenMOS element
@@ -699,9 +699,9 @@
         - name: RecvSignalLevel element
           href: sdn-api/recvsignallevel-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
         - name: RelativeOneWayAverage element
-          href: sdn-api/relativeonewayaverage-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/relativeonewayaverage-element-sdn-api-schema-a.md
         - name: RelativeOneWayBurstDensity element
-          href: sdn-api/relativeonewayburstdensity-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/relativeonewayburstdensity-element-sdn-api-schema-a.md
         - name: Relay element
           href: sdn-api/relay-element-qualityendpointtype-complextype-lync-sdn-api-schema-a.md
         - name: RelayPort element
@@ -885,11 +885,11 @@
         href: sdn-interface/elements-lync-sdn-interface-2-1-1.md
         items:
         - name: AppliedBandwidthLimit element
-          href: sdn-interface/appliedbandwidthlimit-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/appliedbandwidthlimit-element-sdn-interface-2-1-1.md
         - name: AudioTimestampErrorMicMs element
-          href: sdn-interface/audiotimestamperrormicms-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/audiotimestamperrormicms-element-sdn-interface-2-1-1.md
         - name: AudioTimestampErrorSpkMs element
-          href: sdn-interface/audiotimestamperrorspkms-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/audiotimestamperrorspkms-element-sdn-interface-2-1-1.md
         - name: Average element
           href: sdn-interface/average-element-bandwidthtype-complextype-lync-sdn-interface-2-1-1.md
         - name: Bandwidth element (CodecType complexType)
@@ -897,19 +897,19 @@
         - name: Bandwidth element (StartPropertiesType complexType)
           href: sdn-interface/bandwidth-element-startpropertiestype-complextype-lync-sdn-interface-2-1-1.md
         - name: BitRateAvg element
-          href: sdn-interface/bitrateavg-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/bitrateavg-element-sdn-interface-2-1-1.md
         - name: BitRateMax element
-          href: sdn-interface/bitratemax-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/bitratemax-element-sdn-interface-2-1-1.md
         - name: BSSID element
           href: sdn-interface/bssid-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: BurstDensity element
-          href: sdn-interface/burstdensity-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/burstdensity-element-sdn-interface-2-1-1.md
         - name: BurstDuration element
-          href: sdn-interface/burstduration-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/burstduration-element-sdn-interface-2-1-1.md
         - name: BurstGapDensity element
-          href: sdn-interface/burstgapdensity-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/burstgapdensity-element-sdn-interface-2-1-1.md
         - name: BurstGapDuration element
-          href: sdn-interface/burstgapduration-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/burstgapduration-element-sdn-interface-2-1-1.md
         - name: Bye element
           href: sdn-interface/bye-element-messagetype-complextype-lync-sdn-interface-2-1-1.md
         - name: Callee element
@@ -919,77 +919,77 @@
         - name: CallId element
           href: sdn-interface/callid-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
         - name: CaptureDevice element
-          href: sdn-interface/capturedevice-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/capturedevice-element-sdn-interface-2-1-1.md
         - name: CaptureDeviceDriver element
-          href: sdn-interface/capturedevicedriver-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/capturedevicedriver-element-sdn-interface-2-1-1.md
         - name: Codec element (QualityPropertiesType complexType)
           href: sdn-interface/codec-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
         - name: Codec element (StartPropertiesType complexType)
           href: sdn-interface/codec-element-startpropertiestype-complextype-lync-sdn-interface-2-1-1.md
         - name: ConferenceId element
-          href: sdn-interface/conferenceid-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/conferenceid-element-sdn-interface-2-1-1.md
         - name: ConferenceURI element
-          href: sdn-interface/conferenceuri-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/conferenceuri-element-sdn-interface-2-1-1.md
         - name: Connection element
-          href: sdn-interface/connection-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/connection-element-sdn-interface-2-1-1.md
         - name: ConnectionInfo element
           href: sdn-interface/connectioninfo-element-messagetype-complextype-lync-sdn-interface-2-1-1.md
         - name: Connectivity element
-          href: sdn-interface/connectivity-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/connectivity-element-sdn-interface-2-1-1.md
         - name: Contact element (EndPointType complexType)
           href: sdn-interface/contact-element-endpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: Contact element (QualityEndPointType complexType)
           href: sdn-interface/contact-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: ConversationalMOS element
-          href: sdn-interface/conversationalmos-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/conversationalmos-element-sdn-interface-2-1-1.md
         - name: ConversationId element
-          href: sdn-interface/conversationid-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/conversationid-element-sdn-interface-2-1-1.md
         - name: CorrelationId element
-          href: sdn-interface/correlationid-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/correlationid-element-sdn-interface-2-1-1.md
         - name: CPUInsufficientEventRatio element
-          href: sdn-interface/cpuinsufficienteventratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/cpuinsufficienteventratio-element-sdn-interface-2-1-1.md
         - name: CPUName element
           href: sdn-interface/cpuname-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: CPUNumberOfCores element
-          href: sdn-interface/cpunumberofcores-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/cpunumberofcores-element-sdn-interface-2-1-1.md
         - name: CPUProcessorSpeed element
-          href: sdn-interface/cpuprocessorspeed-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/cpuprocessorspeed-element-sdn-interface-2-1-1.md
         - name: CSEQ element
           href: sdn-interface/cseq-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
         - name: DegradationAvg element
-          href: sdn-interface/degradationavg-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/degradationavg-element-sdn-interface-2-1-1.md
         - name: DegradationJitterAvg element
-          href: sdn-interface/degradationjitteravg-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/degradationjitteravg-element-sdn-interface-2-1-1.md
         - name: DegradationMax element
-          href: sdn-interface/degradationmax-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/degradationmax-element-sdn-interface-2-1-1.md
         - name: DegradationPacketLossAvg element
-          href: sdn-interface/degradationpacketlossavg-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/degradationpacketlossavg-element-sdn-interface-2-1-1.md
         - name: DeviceCaptureNotFunctioningEventRatio element
-          href: sdn-interface/devicecapturenotfunctioningeventratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/devicecapturenotfunctioningeventratio-element-sdn-interface-2-1-1.md
         - name: DeviceClippingEventRatio element
-          href: sdn-interface/deviceclippingeventratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/deviceclippingeventratio-element-sdn-interface-2-1-1.md
         - name: DeviceEchoEventRatio element
-          href: sdn-interface/deviceechoeventratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/deviceechoeventratio-element-sdn-interface-2-1-1.md
         - name: DeviceHowlingEventCount element
-          href: sdn-interface/devicehowlingeventcount-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/devicehowlingeventcount-element-sdn-interface-2-1-1.md
         - name: DeviceNearEndToEchoRatioEventRatio element
-          href: sdn-interface/devicenearendtoechoratioeventratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/devicenearendtoechoratioeventratio-element-sdn-interface-2-1-1.md
         - name: DeviceRenderNotFunctioningEventRatio element
-          href: sdn-interface/devicerendernotfunctioningeventratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/devicerendernotfunctioningeventratio-element-sdn-interface-2-1-1.md
         - name: DSCPInbound element
-          href: sdn-interface/dscpinbound-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/dscpinbound-element-sdn-interface-2-1-1.md
         - name: DSCPOutbound element
-          href: sdn-interface/dscpoutbound-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/dscpoutbound-element-sdn-interface-2-1-1.md
         - name: DynamicCapabilityPercent element
-          href: sdn-interface/dynamiccapabilitypercent-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/dynamiccapabilitypercent-element-sdn-interface-2-1-1.md
         - name: EchoEventCauses element
-          href: sdn-interface/echoeventcauses-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/echoeventcauses-element-sdn-interface-2-1-1.md
         - name: EchoPercentMicIn element
-          href: sdn-interface/echopercentmicin-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/echopercentmicin-element-sdn-interface-2-1-1.md
         - name: EchoPercentSend element
-          href: sdn-interface/echopercentsend-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/echopercentsend-element-sdn-interface-2-1-1.md
         - name: EchoReturn element
-          href: sdn-interface/echoreturn-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/echoreturn-element-sdn-interface-2-1-1.md
         - name: Ended element
           href: sdn-interface/ended-element-messagetype-complextype-lync-sdn-interface-2-1-1.md
         - name: EndPoint element (ByeType complexType)
@@ -1011,7 +1011,7 @@
         - name: Error element
           href: sdn-interface/error-element-messagetype-complextype-lync-sdn-interface-2-1-1.md
         - name: FrameRate element
-          href: sdn-interface/framerate-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/framerate-element-sdn-interface-2-1-1.md
         - name: From element (EndedType complexType)
           href: sdn-interface/from-element-endedtype-complextype-lync-sdn-interface-2-1-1.md
         - name: From element (ErrorType complexType)
@@ -1021,9 +1021,9 @@
         - name: From element (StartOrUpdateType complexType)
           href: sdn-interface/from-element-startorupdatetype-complextype-lync-sdn-interface-2-1-1.md
         - name: HDQualityRatio element
-          href: sdn-interface/hdqualityratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/hdqualityratio-element-sdn-interface-2-1-1.md
         - name: HealerPacketDropRatio element
-          href: sdn-interface/healerpacketdropratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/healerpacketdropratio-element-sdn-interface-2-1-1.md
         - name: Hop element
           href: sdn-interface/hop-element-routetype-complextype-lync-sdn-interface-2-1-1.md
         - name: Id element (EndPointType complexType)
@@ -1043,17 +1043,17 @@
         - name: IP element (QualityEndPointType complexType)
           href: sdn-interface/ip-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: JitterInterArrival element
-          href: sdn-interface/jitterinterarrival-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/jitterinterarrival-element-sdn-interface-2-1-1.md
         - name: JitterInterArrivalMax element
-          href: sdn-interface/jitterinterarrivalmax-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/jitterinterarrivalmax-element-sdn-interface-2-1-1.md
         - name: LinkSpeed element
           href: sdn-interface/linkspeed-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: LocalFrameLossPercentageAvg element
-          href: sdn-interface/localframelosspercentageavg-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/localframelosspercentageavg-element-sdn-interface-2-1-1.md
         - name: LowFrameRateCallPercent element
-          href: sdn-interface/lowframeratecallpercent-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/lowframeratecallpercent-element-sdn-interface-2-1-1.md
         - name: LowResolutionCallPercent element
-          href: sdn-interface/lowresolutioncallpercent-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/lowresolutioncallpercent-element-sdn-interface-2-1-1.md
         - name: LyncDiagnostics element
           href: sdn-interface/lyncdiagnostics-element-lync-sdn-interface-2-1-1.md
         - name: MACAddr element
@@ -1063,43 +1063,43 @@
         - name: Maximum element
           href: sdn-interface/maximum-element-bandwidthtype-complextype-lync-sdn-interface-2-1-1.md
         - name: MediaBypass element
-          href: sdn-interface/mediabypass-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/mediabypass-element-sdn-interface-2-1-1.md
         - name: MediationServerLegPosition element
-          href: sdn-interface/mediationserverlegposition-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/mediationserverlegposition-element-sdn-interface-2-1-1.md
         - name: MicGlitchRate element
-          href: sdn-interface/micglitchrate-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/micglitchrate-element-sdn-interface-2-1-1.md
         - name: MSDiagnostics element (EndedProperties complexType)
-          href: sdn-interface/msdiagnostics-element-endedproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/msdiagnostics-element-endedproperties-sdn-interface-2-1-1.md
         - name: MSDiagnostics element (ErrorProperties complexType)
-          href: sdn-interface/msdiagnostics-element-errorproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/msdiagnostics-element-errorproperties-sdn-interface-2-1-1.md
         - name: MSDiagnostics element (MessageProperties complexType)
-          href: sdn-interface/msdiagnostics-element-messageproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/msdiagnostics-element-messageproperties-sdn-interface-2-1-1.md
         - name: MSDiagnosticsClient element (EndedProperties complexType)
-          href: sdn-interface/msdiagnosticsclient-element-endedproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/msdiagnosticsclient-element-endedproperties-sdn-interface-2-1-1.md
         - name: MSDiagnosticsClient element (ErrorProperties complexType)
-          href: sdn-interface/msdiagnosticsclient-element-errorproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/msdiagnosticsclient-element-errorproperties-sdn-interface-2-1-1.md
         - name: MSDiagnosticsClient element (MessageProperties complexType)
-          href: sdn-interface/msdiagnosticsclient-element-messageproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/msdiagnosticsclient-element-messageproperties-sdn-interface-2-1-1.md
         - name: MSDiagnosticsPublic element (EndedProperties complexType)
-          href: sdn-interface/msdiagnosticspublic-element-endedproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/msdiagnosticspublic-element-endedproperties-sdn-interface-2-1-1.md
         - name: MSDiagnosticsPublic element (ErrorProperties complexType)
-          href: sdn-interface/msdiagnosticspublic-element-errorproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/msdiagnosticspublic-element-errorproperties-sdn-interface-2-1-1.md
         - name: MSDiagnosticsPublic element (MessageProperties complexType)
-          href: sdn-interface/msdiagnosticspublic-element-messageproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/msdiagnosticspublic-element-messageproperties-sdn-interface-2-1-1.md
         - name: NetworkDelayEventRatio element
-          href: sdn-interface/networkdelayeventratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/networkdelayeventratio-element-sdn-interface-2-1-1.md
         - name: OS element
           href: sdn-interface/os-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: OverallAvgNetworkMOS element
-          href: sdn-interface/overallavgnetworkmos-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/overallavgnetworkmos-element-sdn-interface-2-1-1.md
         - name: OverallMinNetworkMOS element
-          href: sdn-interface/overallminnetworkmos-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/overallminnetworkmos-element-sdn-interface-2-1-1.md
         - name: PacketLossRate element
-          href: sdn-interface/packetlossrate-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/packetlossrate-element-sdn-interface-2-1-1.md
         - name: PacketLossRateMax element
-          href: sdn-interface/packetlossratemax-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/packetlossratemax-element-sdn-interface-2-1-1.md
         - name: PacketUtilization element
-          href: sdn-interface/packetutilization-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/packetutilization-element-sdn-interface-2-1-1.md
         - name: Port element (EndPointType complexType)
           href: sdn-interface/port-element-endpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: Port element (QualityEndPointType complexType)
@@ -1115,41 +1115,41 @@
         - name: Properties element (StartOrUpdateType complexType)
           href: sdn-interface/properties-element-startorupdatetype-complextype-lync-sdn-interface-2-1-1.md
         - name: Protocol element (QualityPropertiesType complexType)
-          href: sdn-interface/protocol-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/protocol-element-qualitypropertiestype-sdn-interface-2-1-1.md
         - name: Protocol element (StartPropertiesType complexType)
           href: sdn-interface/protocol-element-startpropertiestype-complextype-lync-sdn-interface-2-1-1.md
         - name: QualityUpdate element
           href: sdn-interface/qualityupdate-element-messagetype-complextype-lync-sdn-interface-2-1-1.md
         - name: RatioConcealedSamplesAvg element
-          href: sdn-interface/ratioconcealedsamplesavg-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/ratioconcealedsamplesavg-element-sdn-interface-2-1-1.md
         - name: RawSDP element
           href: sdn-interface/rawsdp-element-messagetype-complextype-lync-sdn-interface-2-1-1.md
         - name: RDPTileProcessingLatencyAverage element
-          href: sdn-interface/rdptileprocessinglatencyaverage-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/rdptileprocessinglatencyaverage-element-sdn-interface-2-1-1.md
         - name: RDPTileProcessingLatencyBurstDensity element
-          href: sdn-interface/rdptileprocessinglatencyburstdensity-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/rdptileprocessinglatencyburstdensity-element-sdn-interface-2-1-1.md
         - name: RecvFrameRateAverage element
-          href: sdn-interface/recvframerateaverage-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/recvframerateaverage-element-sdn-interface-2-1-1.md
         - name: RecvListenMOS element
-          href: sdn-interface/recvlistenmos-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/recvlistenmos-element-sdn-interface-2-1-1.md
         - name: RecvListenMOSMin element
-          href: sdn-interface/recvlistenmosmin-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/recvlistenmosmin-element-sdn-interface-2-1-1.md
         - name: RecvNoiseLevel element
-          href: sdn-interface/recvnoiselevel-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/recvnoiselevel-element-sdn-interface-2-1-1.md
         - name: RecvSignalLevel element
-          href: sdn-interface/recvsignallevel-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/recvsignallevel-element-sdn-interface-2-1-1.md
         - name: ReflexiveIP element (EndPointType complexType)
           href: sdn-interface/reflexiveip-element-endpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: ReflexiveIP element (QualityEndPointType complexType)
-          href: sdn-interface/reflexiveip-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/reflexiveip-element-qualityendpointtype-sdn-interface-2-1-1.md
         - name: ReflexivePort element (EndPointType complexType)
           href: sdn-interface/reflexiveport-element-endpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: ReflexivePort element (QualityEndPointType complexType)
-          href: sdn-interface/reflexiveport-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/reflexiveport-element-qualityendpointtype-sdn-interface-2-1-1.md
         - name: RelativeOneWayAverage element
-          href: sdn-interface/relativeonewayaverage-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/relativeonewayaverage-element-sdn-interface-2-1-1.md
         - name: RelativeOneWayBurstDensity element
-          href: sdn-interface/relativeonewayburstdensity-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/relativeonewayburstdensity-element-sdn-interface-2-1-1.md
         - name: Relay element (EndPointType complexType)
           href: sdn-interface/relay-element-endpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: Relay element (QualityEndPointType complexType)
@@ -1159,41 +1159,41 @@
         - name: RelayPort element (QualityEndPointType complexType)
           href: sdn-interface/relayport-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: RenderDevice element
-          href: sdn-interface/renderdevice-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/renderdevice-element-sdn-interface-2-1-1.md
         - name: RenderDeviceDriver element
-          href: sdn-interface/renderdevicedriver-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/renderdevicedriver-element-sdn-interface-2-1-1.md
         - name: ResponseCode element (ErrorProperties complexType)
           href: sdn-interface/responsecode-element-errorproperties-complextype-lync-sdn-interface-2-1-1.md
         - name: ResponseCode element (MessageProperties complexType)
-          href: sdn-interface/responsecode-element-messageproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/responsecode-element-messageproperties-sdn-interface-2-1-1.md
         - name: ResponsePhrase element
-          href: sdn-interface/responsephrase-element-errorproperties-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/responsephrase-element-errorproperties-sdn-interface-2-1-1.md
         - name: RoundTrip element
-          href: sdn-interface/roundtrip-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/roundtrip-element-sdn-interface-2-1-1.md
         - name: RoundTripMax element
-          href: sdn-interface/roundtripmax-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/roundtripmax-element-sdn-interface-2-1-1.md
         - name: Route element (MessageType complexType)
           href: sdn-interface/route-element-messagetype-complextype-lync-sdn-interface-2-1-1.md
         - name: Route element (QualityType complexType)
           href: sdn-interface/route-element-qualitytype-complextype-lync-sdn-interface-2-1-1.md
         - name: SendListenMOS element
-          href: sdn-interface/sendlistenmos-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/sendlistenmos-element-sdn-interface-2-1-1.md
         - name: SendListenMOSMin element
-          href: sdn-interface/sendlistenmosmin-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/sendlistenmosmin-element-sdn-interface-2-1-1.md
         - name: SourcePool element
           href: sdn-interface/sourcepool-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
         - name: SpeakerGlitchRate element
-          href: sdn-interface/speakerglitchrate-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/speakerglitchrate-element-sdn-interface-2-1-1.md
         - name: SpoiledTilePercentAverage element
-          href: sdn-interface/spoiledtilepercentaverage-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/spoiledtilepercentaverage-element-sdn-interface-2-1-1.md
         - name: SpoiledTilePercentTotal element
-          href: sdn-interface/spoiledtilepercenttotal-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/spoiledtilepercenttotal-element-sdn-interface-2-1-1.md
         - name: Start element
           href: sdn-interface/start-element-messagetype-complextype-lync-sdn-interface-2-1-1.md
         - name: StartTime element
           href: sdn-interface/starttime-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
         - name: StreamQuality element
-          href: sdn-interface/streamquality-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/streamquality-element-sdn-interface-2-1-1.md
         - name: TimeStamp element
           href: sdn-interface/timestamp-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md
         - name: To element (EndedType complexType)
@@ -1215,21 +1215,21 @@
         - name: UserAgent element (QualityEndPointType complexType)
           href: sdn-interface/useragent-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: VGAQualityRatio element
-          href: sdn-interface/vgaqualityratio-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/vgaqualityratio-element-sdn-interface-2-1-1.md
         - name: VideoFrameLossRate element
-          href: sdn-interface/videoframelossrate-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/videoframelossrate-element-sdn-interface-2-1-1.md
         - name: VideoLocalFrameLossPercentageAvg element
-          href: sdn-interface/videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/videolocalframelosspercentageavg-element-sdn-interface-2-1-1.md
         - name: VideoPacketLossRate element
-          href: sdn-interface/videopacketlossrate-element-qualitypropertiestype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/videopacketlossrate-element-sdn-interface-2-1-1.md
         - name: Virtualization element
-          href: sdn-interface/virtualization-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/virtualization-element-sdn-interface-2-1-1.md
         - name: VPN element
           href: sdn-interface/vpn-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
         - name: WifiDriverDeviceDesc element
-          href: sdn-interface/wifidriverdevicedesc-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/wifidriverdevicedesc-element-sdn-interface-2-1-1.md
         - name: WifiDriverVersion element
-          href: sdn-interface/wifidriverversion-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md
+          href: sdn-interface/wifidriverversion-element-sdn-interface-2-1-1.md
       - name: Types (Lync SDN Interface 2.1.1)
         href: sdn-interface/types-lync-sdn-interface-2-1-1.md
         items:
@@ -1351,7 +1351,7 @@
         href: server-sdk/code-samples-lync-server-2013-sdk.md
         items:
         - name: Stamp messages for intra-application communications (ApplicationStamping sample)
-          href: server-sdk/stamp-messages-for-intra-application-communications-applicationstamping-sample.md
+          href: server-sdk/stamp-messages-for-intra-application-communications-sample.md
         - name: Maintain topology-aware message logs (Archiver sample)
           href: server-sdk/maintain-topology-aware-message-logs-archiver-sample.md
         - name: Enable version control for client access (ClientVerFilter sample)
@@ -2140,7 +2140,7 @@
           href: ucma-sdk/collaboration-layer.md
           items:
           - name: Communications - conversations, calls, conferences, and back-to-back user agents
-            href: ucma-sdk/communications-conversations-calls-conferences-and-back-to-back-user-agents.md
+            href: ucma-sdk/communications-conversations-calls-conferences-user-agents.md
             items:
             - name: Conversations
               href: ucma-sdk/conversations-ucma-4-0.md
@@ -2573,9 +2573,9 @@
     href: technical-articles/lync-2013-technical-articles.md
     items:
     - name: 'Lync 2013: Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro'
-      href: technical-articles/lync-2013-create-a-lync-silverlight-controls-application-for-windows-8-and-windows-8-pro.md
+      href: technical-articles/create-a-lync-silverlight-controls-application-for-windows-8.md
     - name: 'Lync 2013: Create a Lync WPF Controls application for Windows 8 and Windows 8 Pro'
-      href: technical-articles/lync-2013-create-a-lync-wpf-controls-application-for-windows-8-and-windows-8-pro.md
+      href: technical-articles/create-a-lync-wpf-controls-application-for-windows-8.md
     - name: 'Lync 2013: Create UCWA Windows Store apps using C#/XAML and XML'
       href: technical-articles/lync-2013-create-ucwa-windows-store-apps-using-csharp-xaml-and-xml.md
       items:

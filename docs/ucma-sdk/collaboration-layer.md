@@ -23,7 +23,7 @@ The second illustration shows some of the main classes that are used in collabor
 
 ## In this section
 
-  - [Communications - conversations, calls, conferences, and back-to-back user agents](communications-conversations-calls-conferences-and-back-to-back-user-agents.md)
+  - [Communications - conversations, calls, conferences, and back-to-back user agents](communications-conversations-calls-conferences-user-agents.md)
 
   - [Trusted conferencing user](trusted-conferencing-user.md)
 
