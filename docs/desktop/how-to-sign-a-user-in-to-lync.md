@@ -16,7 +16,7 @@ Understand the essential elements of the Lync sign in process in a Microsoft Lyn
 
 **Last modified:** April 26, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 Your Lync 2013 API-enabled application can get contact presence and conversations as long as the user is signed in to Lync. A user can sign in to Lync by using your application if you have coded a Lync 2013 API sign in feature. Alternatively, a user can sign in using the Lync client itself as long as the client UI is not suppressed. The Lync 2013 API-based sign in process described in this article applies to the Lync UI suppression scenario and the standard Lync scenario.
 
@@ -38,19 +38,21 @@ What is UI suppression?<br />
 Lync client state transitions, should I care?<br />
 Look for the causes of sign in failure<br />
 Additional resources</p></td>
-<td><div class="caption">
+</tr>
+</tbody>
+</table>
+
+<div class="caption">
 Watch the video: Sign In to Lync with UI Suppressed
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/5d247b33-af17-45f6-ad7e-9be9f9f7e5cd]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/5d247b33-af17-45f6-ad7e-9be9f9f7e5cd]
+
 <div class="caption">
 Watch the video: Sign In to Lync
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8a417ed0-bcab-4da7-b033-d1e2cdb784df]</td>
-</tr>
-</tbody>
-</table>
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8a417ed0-bcab-4da7-b033-d1e2cdb784df]
 
 ## Prerequisites
 
