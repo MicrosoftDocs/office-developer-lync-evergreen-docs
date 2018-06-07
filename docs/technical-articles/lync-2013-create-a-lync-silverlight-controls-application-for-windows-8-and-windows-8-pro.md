@@ -15,9 +15,9 @@ dev_langs:
 Learn how to use the Lync 2013 SDK to create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013 | Visual Studio | Windows_
+_**Applies to:** Lync 2013 | Lync Server 2013 | Visual Studio | Windows_
 
-**Provided by:**  John Clarkson, Microsoft Corporation
+**Provided by:**  John Clarkson, Microsoft Corporation
 
 <table>
 <colgroup>
@@ -31,15 +31,15 @@ Introduction<br />
 Creating the Lync Silverlight Controls application<br />
 Conclusion<br />
 Additional resources</p></td>
-<td><div class="caption">
-Watch the video: Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro
-</div>
-<br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/e7a3e9c5-e259-43f5-85ab-1f245a7f9ce9]</td>
 </tr>
 </tbody>
 </table>
 
+<div class="caption">
+Watch the video: Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro
+</div>
+<br />
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/e7a3e9c5-e259-43f5-85ab-1f245a7f9ce9]
 
 ## Introduction
 
