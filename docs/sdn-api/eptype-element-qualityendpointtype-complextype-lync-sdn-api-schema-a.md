@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EPType element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# EPType element (QualityEndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 Indicates that this endpoint is of the Lync Room System type or not, when the sendmeetingroominfo option is set to True in the LDL configeration.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="EPType" type="xs:string" minOccurs="0"></xs:element>
 ```
 
@@ -73,12 +70,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="from-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">From</a></p></td>
+<td><p><a href="from-element-qualityupdate-element-sdn-api-schema-a.md">From</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>The source of the reported media stream.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="to-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">To</a></p></td>
+<td><p><a href="to-element-qualityupdate-element-sdn-api-schema-a.md">To</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>Destination of the media stream.</p></td>
 </tr>

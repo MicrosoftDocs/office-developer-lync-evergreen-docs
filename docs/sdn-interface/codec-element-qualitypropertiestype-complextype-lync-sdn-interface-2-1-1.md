@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Codec element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# Codec element (QualityPropertiesType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Describes the last codec used for the media.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Codec"  type="CodecType">
     

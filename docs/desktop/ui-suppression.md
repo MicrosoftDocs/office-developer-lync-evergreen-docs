@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about the UI suppression operating mode in the Microsoft Lync 2013 client and the most common scenario that uses the Lync 2013 client in UI suppression mode.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ There are three methods to determine the current UI suppression mode:
 
   - Check the [LyncClient.InSuppressedMode](https://msdn.microsoft.com/en-us/library/jj275500\(v=office.15\)) property.
     
-    ``` csharp
+    ```csharp
     if (LyncClient.GetClient().InSuppressedMode == true)
     {
         MessageBox.Show("Lync is configured for full UI suppression");
@@ -127,7 +127,7 @@ You can build a custom unified communications application or enhance your line-o
 
   - Lync 2013 feature restrictions that range from no restrictions to the implementation of a single feature.
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync 2013 SDK](beyond-the-basics-lync-2013-sdk.md)
 

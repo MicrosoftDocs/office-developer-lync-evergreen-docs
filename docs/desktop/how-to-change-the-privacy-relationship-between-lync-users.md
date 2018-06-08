@@ -14,9 +14,9 @@ dev_langs:
 
 Learn about how to programmatically change the privacy relationship between two Microsoft Lync 2013 contacts by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -161,7 +161,7 @@ The following example accepts two string parameters representing the URI of a us
 
 The contact setting, [ContactSetting](https://msdn.microsoft.com/en-us/library/jj267670\(v=office.15\)).**AccessLevel**, is set by calling into [Contact.BeginChangeSetting](https://msdn.microsoft.com/en-us/library/jj275533\(v=office.15\)) and passing both an enumerator for the property to be updated and an enumerator for the new property value.
 
-``` csharp
+```csharp
         /// <summary>
         /// Updates the privacy relationship of a contact specified by Uri
         /// </summary>
@@ -209,7 +209,7 @@ The contact setting, [ContactSetting](https://msdn.microsoft.com/en-us/library/j
         }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

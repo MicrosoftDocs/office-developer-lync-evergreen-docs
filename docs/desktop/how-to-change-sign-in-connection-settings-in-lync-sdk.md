@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how use the Microsoft Lync 2013 API to obtain and set Microsoft Lync Server 2013 connection settings that let a user sign in to different Lync front-end servers.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -97,13 +97,13 @@ The sign-in connection settings are exposed by the [Microsoft.Lync.Model.SignInC
 
 1.  Get an instance of [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) by calling the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/jj278213\(v=office.15\)) method.
     
-    ``` csharp
+    ```csharp
     LyncClient _LyncClient = LyncClient.GetClient();
     ```
 
 2.  Read the [LyncClient.SignInConfiguration](https://msdn.microsoft.com/en-us/library/jj275496\(v=office.15\)) property to get the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/en-us/library/jj266969\(v=office.15\)) object.
     
-    ``` csharp
+    ```csharp
     SignInConfiguration signInConfiguration = _LyncClient.SignInConfiguration;
     ```
 
@@ -111,7 +111,7 @@ The sign-in connection settings are exposed by the [Microsoft.Lync.Model.SignInC
     
     The following example reads the configuration settings.
     
-    ``` csharp
+    ```csharp
     InternalUrl_textbox.Text = signInConfiguration.InternalServerUrl;
     ExternalUrl_textbox.Text = signInConfiguration.ExternalServerUrl;
     SigedInFromInternetValue_label.Content = signInConfiguration.SignedInFromIntranet.ToString();
@@ -152,7 +152,7 @@ The sign-in connection settings are exposed by the [Microsoft.Lync.Model.SignInC
     
     The following example updates each of the writable connection settings with the value typed in the UI. Before writing the property, the sample calls the [SignInConfiguration.CanSet](https://msdn.microsoft.com/en-us/library/jj267979\(v=office.15\)) method. If **true** is returned, the example updates the property value.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Updates the sign-in configuration object with an InternalURL supplied by user
             /// </summary>
@@ -231,7 +231,7 @@ The following example shows a custom screen for connection settings.
 
 The following example declares a WPF window that displays and accepts changes to Microsoft Lync Server 2013 sign-in connection settings and signs a user in to Lync.
 
-``` xaml
+```xaml
 <Window x:Class="ConnectionSettings.Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -310,7 +310,7 @@ The following example declares a WPF window that displays and accepts changes to
 
 The following example fills the content and text values of the UI controls declared in the previous example.
 
-``` csharp
+```csharp
 using System.Windows;
 using Microsoft.Lync.Model;
 
@@ -433,7 +433,7 @@ namespace ConnectionSettings
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do in Lync SDK](what-you-can-do-in-lync-sdk.md)
 

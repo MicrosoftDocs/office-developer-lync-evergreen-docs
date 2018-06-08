@@ -12,8 +12,7 @@ dev_langs:
 
 # Receiving in-band provisioning data
 
-
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The enhanced presence publication and subscription infrastructure is also used to roam configuration data through in-band provisioning. The data includes server configuration, location profile, various policies, as well as user settings. It is stored on the server but is needed by a client at various stages in an application.
 
@@ -23,7 +22,7 @@ Microsoft Unified Communications Managed API 4.0 exposes in-band provisioning da
 
 In UCMA 4.0, the provisioning data are encapsulated by a LocalEndpoint object. You can obtain the publication grammars by reading the ContainerManifest and CategoryPublicationManifest properties on the LocalOwnerPresence instance of the established endpoint.
 
-``` csharp
+```csharp
     LocalEndpoint endpoint = …;
 
     string cpm = localEndpoint.LocalOwnerPresence.CategoryPublicationManifest;
@@ -32,41 +31,29 @@ In UCMA 4.0, the provisioning data are encapsulated by a LocalEndpoint object. Y
 
 You can receive the cached values of the other provisioning data by calling the GetProvisioningData method on the LocalEndpoint instance.
 
-``` csharp
+```csharp
     ProvisionData provData = endpoint.GetProvisioningData();
 ```
 
 To query the latest provisioning data on the server, make an asynchronous call to BeginGetProvisioningData/EndGetProvisioningData.
 
-``` csharp
+```csharp
     localEndpoint.EndGetProvisioningData(localEndpoint.BeginGetProvisioningData(null, null));
 ```
 
 ## In this section
 
-  - 
-
-  - [Parsing endpoint configuration](parsing-endpoint-configuration.md)  
-
-  - [Parsing location policy](parsing-location-policy.md)
-
-  - [Parsing location profile](parsing-location-profile.md)
-
-  - [Parsing media configuration](parsing-media-configuration.md)
-
-  - [Parsing meeting policy](parsing-meeting-policy.md)
-
-  - [Parsing mobility policy](parsing-mobility-policy.md)
-
-  - [Parsing server configuration](parsing-server-configuration.md)
-
-  - [Parsing unified communications policy](parsing-unified-communications-policy.md)
-
-  - [Parsing user settings](parsing-user-settings.md)
+- [Parsing endpoint configuration](parsing-endpoint-configuration.md)  
+- [Parsing location policy](parsing-location-policy.md)
+- [Parsing location profile](parsing-location-profile.md)
+- [Parsing media configuration](parsing-media-configuration.md)
+- [Parsing meeting policy](parsing-meeting-policy.md)
+- [Parsing mobility policy](parsing-mobility-policy.md)
+- [Parsing server configuration](parsing-server-configuration.md)
+- [Parsing unified communications policy](parsing-unified-communications-policy.md)
+- [Parsing user settings](parsing-user-settings.md)
 
 ## See also
 
-#### Concepts
-
-[General features of Enhanced Presence](general-features-of-enhanced-presence.md)
+- [General features of Enhanced Presence](general-features-of-enhanced-presence.md)
 

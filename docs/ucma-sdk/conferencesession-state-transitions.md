@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ConferenceSession state transitions
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A conference represents an online meeting place for participants to discuss topics of interest, using one or more media types, such as instant messages or audio-video. A two-party conversation can be escalated to a conference. In Microsoft Unified Communications Managed API (UCMA), the [ConferenceSession](https://msdn.microsoft.com/en-us/library/hh349315\(v=office.15\)) class implements the signaling functionality of a Centralized Conference Control Protocol (C3P) conference signaling session.
 

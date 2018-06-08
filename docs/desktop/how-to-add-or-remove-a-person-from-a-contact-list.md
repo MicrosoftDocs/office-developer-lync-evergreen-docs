@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to remove a contact from a Microsoft Lync 2013 user’s contact list by calling methods from the Microsoft Lync 2013 API.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -79,7 +79,7 @@ The sample application at the end of this topic displays a list of contacts for 
     </tbody>
     </table>
     
-    ``` csharp
+    ```csharp
             /// Loads a list box with existing contact list groups
             /// by iterating on the Groups collection of the ContactManager 
             /// property on LyncClient.
@@ -189,7 +189,7 @@ Deleting a contact from the user’s contact list requires that the contact is r
 
 2.  Call the **ContactManagerBeginRemoveContactFromAllGroups(Contact, AsyncCallback, Object)** method, passing the selected contact in the first argument.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// remove the selected contact from every group in the users contact list
             /// </summary>
@@ -217,7 +217,7 @@ Deleting a contact from the user’s contact list requires that the contact is r
 
 The following example declares a window that shows a list of groups and a list of contacts that are in the selected group.
 
-``` xaml
+```xaml
 <Window x:Class="GroupManager.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -251,7 +251,7 @@ The following example declares a window that shows a list of groups and a list o
 
 The following example handles platform events for the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) and events raised by the previous window.
 
-``` csharp
+```csharp
 using System.Windows;
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Group;
@@ -427,7 +427,7 @@ After learning how to remove a contact from a contact list, you should learn how
 
   - [How to: Display a contact list](how-to-display-a-contact-list.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync contact lists](what-you-can-do-with-lync-contact-lists.md)
 

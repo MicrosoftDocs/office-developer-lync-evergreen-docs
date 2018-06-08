@@ -16,7 +16,7 @@ dev_langs:
 
 Learn about using the [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control to display the Microsoft Lync 2013 contacts list and give users the ability to launch voice, instant messaging (IM), or email conversations with any of their contacts.
 
-**Last modified:** February 14, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -144,13 +144,13 @@ Notable ContactList control public properties and events relating to unified com
 
 The following example can be used for Silverlight and WPF application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ContactList Height="180" Width="500"/>
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

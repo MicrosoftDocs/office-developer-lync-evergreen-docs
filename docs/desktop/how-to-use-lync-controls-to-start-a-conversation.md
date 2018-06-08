@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to implement a click-to-call feature in your WPF or Silverlight page by using any of several different kinds of Lync Controls.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -74,7 +74,7 @@ To create a click-to-call feature, you must have at least one SIP URI or TEL URI
 
 1.  Inside of the containing element such as a stack panel, add the following XAML declaration.
     
-    ``` xaml
+    ```xaml
                     <controls:StartInstantMessagingButton Name="StartIM" Width="20" Height="20"/>
     ```
 
@@ -82,7 +82,7 @@ To create a click-to-call feature, you must have at least one SIP URI or TEL URI
     
     The following example sets the **Source** property of the **StartInstantMessagingButton** control and the display name of the user to be contacted as the text of the **ContactName** text block.
     
-    ``` csharp
+    ```csharp
             private void SetupIMButton(string contactURI)
             {
                 ContactName.Text = "IM " + 
@@ -120,7 +120,7 @@ The following code declares a XAML window that displays a text box with the name
 
 The following example sets the text property of the text block in the previous example and then sets the SIP URI **Source** property of the [Microsoft.Lync.Controls.StartInstantMessagingButton](https://msdn.microsoft.com/en-us/library/hh379340\(v=office.15\)) control.
 
-``` csharp
+```csharp
 using System.Windows;
 using Microsoft.Lync.Model;
 
@@ -155,7 +155,7 @@ namespace LyncWpfApplication2
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

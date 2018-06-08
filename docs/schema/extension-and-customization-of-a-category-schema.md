@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to extend and customize enhanced presence categories by using Microsoft Unified Communications Managed API 4.0.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Thanks to the XML representation, enhanced presence categories are extensible. They can be extended in the following ways:
 

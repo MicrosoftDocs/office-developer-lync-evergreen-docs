@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Conference invitation state transitions
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 State transitions for the [ConferenceInvitation](https://msdn.microsoft.com/en-us/library/hh349823\(v=office.15\)) class are described in this topic, both for inbound invitations as well as outbound invitations.
 

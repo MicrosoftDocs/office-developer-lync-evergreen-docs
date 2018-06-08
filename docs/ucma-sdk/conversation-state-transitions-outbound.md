@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Conversation state transitions - outbound
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) state transitions for outbound calls are shown in the following illustration.
 

@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how Microsoft Lync 2013 SDK lets you code an application window to display chat room messages as they are posted to a Microsoft Lync 2013 chat room.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -97,7 +97,7 @@ You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.
 
 The following example references the namespaces that are used in the following Windows Forms examples.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -108,7 +108,7 @@ using System.Collections;
 
 The following example declares the class fields that are referenced later in this topic.
 
-``` csharp
+```csharp
         /// <summary>
         /// The LyncClient class instance that encapsulates the Lync client platform
         /// </summary>
@@ -141,7 +141,7 @@ When you have obtained a [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft
 
 The following example registers for room events and reads room properties.
 
-``` csharp
+```csharp
         /// <summary>
         /// Registers for message, state, and participant related events on a room.
         /// </summary>
@@ -203,7 +203,7 @@ The [Room.MessagesReceived](https://msdn.microsoft.com/en-us/library/jj277819\(v
 
 The following two examples demonstrate the tasks listed in the previous procedure. The first example is an event callback method that is invoked by the platform when a collection of new messages is posted to a room. The second example is a helper method that is invoked on the UI thread and updates the room message list control.
 
-``` csharp
+```csharp
 /// <summary>
         /// This event is raised when any room member has posted a message to the room. This includes
         /// the local user.
@@ -224,7 +224,7 @@ The following two examples demonstrate the tasks listed in the previous procedur
 
 The following example updates the message list for the chat room window. It gets the message send date and time, the message type, the message sender display name, and the plain text of the message.
 
-``` csharp
+```csharp
         /// <summary>
         /// Loads a list box with a collection of messages
         /// </summary>
@@ -1011,7 +1011,7 @@ The following code interacts with the form declared in the previous example. Thi
 
   - [How to: Find a chat room](how-to-find-a-chat-room.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

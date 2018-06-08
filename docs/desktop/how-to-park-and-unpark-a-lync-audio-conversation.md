@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how the Microsoft Lync 2013 call park feature can be used programmatically with Microsoft Lync 2013 SDK and provides a call hold and call park feature.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -158,7 +158,7 @@ These procedures assume that a user has obtained the parked call orbit broadcast
 
 The following example parks a conversation named myConversation and designates the ConversationCallback method as the callback for the [BeginPark](https://msdn.microsoft.com/en-us/library/jj266985\(v=office.15\)) method.
 
-``` csharp
+```csharp
         /// <summary>
         /// Parks a conversation.
         /// </summary>
@@ -182,7 +182,7 @@ The following example parks a conversation named myConversation and designates t
 
 The following example handles the [ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event raised by the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance when the call is parked or unparked.
 
-``` csharp
+```csharp
         void Conversation_ActionAvailabilityChanged(Conversation source, ConversationActionAvailabilityEventArgs data)
         {
             // Is this event the result of a Park operation?
@@ -219,7 +219,7 @@ The next example is the callback method for the call to the [BeginPark](https://
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Called on the LyncClient worker thread when asynchronous call park operation completes.
         /// </summary>
@@ -239,7 +239,7 @@ The next example is the callback method for the call to the [BeginPark](https://
 
 For an example of starting an audio conversation in order to pick up a parked call, see [How to: Start a Lync audio conversation](how-to-start-a-lync-audio-conversation.md). Use the friendly orbit URI or safe retrieve orbit URI string to get a [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) to be added to the new audio conversation.
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

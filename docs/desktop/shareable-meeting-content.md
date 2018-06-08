@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the nature of shareable content in a Microsoft Lync 2013 conversation and what content sharing feature that Microsoft Lync 2013 SDK lets you build into your application.
 
-**Last modified:** December 12, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -80,7 +80,7 @@ To learn about sharing a desktop, monitor, or program, see [Core concepts: Deskt
 
 Microsoft Lync 2013 SDK exposes a set of classes in the [Microsoft.Lync.Model.Conversation.Sharing](https://msdn.microsoft.com/en-us/library/jj274504\(v=office.15\)) namespace that let you create and manage the content sharing stages of multiple conversations from a single custom application. This feature is useful in many scenarios, especially where you are required to create a simplified content sharing UI for people who are not familiar with the Lync 2013 conversation window UI.
 
-## Additional resources
+## See also
 
   - [Core concepts: Content sharing in Lync SDK](core-concepts-content-sharing-in-lync-sdk.md)
 

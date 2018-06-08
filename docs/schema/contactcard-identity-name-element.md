@@ -13,11 +13,11 @@ dev_langs:
 # contactCard/identity/name element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contact’s name as part of the identity.
 
-``` xml
+```xml
 <name updated="DateTime" [[anyAttr]]="String">
     <displayName updated="DateTime" [anyAttr]="String" LCID="lcid">string</displayName>
     <extension xmlns="http://schemas.microsoft.com/2006/09/sip/commontypes">

@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to configure Lync Server 2013 sign-in settings using the Lync 2013 API to create a custom sign-in settings dialog box in your application and clear the sign-in credential cache.
 
-**Last modified:** January 10, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -79,7 +79,7 @@ The Lync 2013 API exposes a method on the [Microsoft.Lync.Model.SignInConfigurat
 
 The following example checks to see whether the client is signed out, removes the ″sip:″ substring from a SIP address obtained from a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object, and then calls the [SignInConfiguration.ForgetMe](https://msdn.microsoft.com/en-us/library/dn378085\(v=office.15\)) method.
 
-``` csharp
+```csharp
         /// <summary>
         /// Clears the credential cache of the credentials of a user
         /// </summary>
@@ -106,7 +106,7 @@ The following example checks to see whether the client is signed out, removes th
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics in Lync 2013 SDK](beyond-the-basics-in-lync-2013-sdk.md)
 

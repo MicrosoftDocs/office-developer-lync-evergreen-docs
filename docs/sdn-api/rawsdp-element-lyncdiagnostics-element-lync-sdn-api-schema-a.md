@@ -1,5 +1,5 @@
 ﻿---
-title: RawSDP element (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RawSDP element (Lync SDN API Schema A)
 TOCTitle: RawSDP element
 ms:assetid: bf1a025e-d09e-1794-019e-5fbecf41fd5c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439250(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RawSDP element (LyncDiagnostics element) (Lync SDN API Schema A)
+# RawSDP element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Raw Session Description Protocol (SDP) data that is included as the payload of the underlying SIP messages of the Invite, LRSInvite and StartOrUpdate type, if the sendrawsdp entry is set to True in the LDL configuration file.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RawSDP" type="xs:string" minOccurs="0"></xs:element>
 ```
 

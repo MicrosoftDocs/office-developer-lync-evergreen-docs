@@ -11,13 +11,8 @@ mtps_version: v=office.15
 # Managed SIP stack performance counters
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
-
-**In this article**  
-About the managed SIP stack performance counters  
-Installing and configuring the managed SIP stack performance counters  
-Accessing the managed SIP stack performance counters  
-In this section  
+**Applies to:** Lync 2013 | Lync Server 2013
+ 
 
 This section summarizes the managed SIP stack performance counters that are available with UcmaRedist.msi (Microsoft Office Communications Server 2007, Unified Communications Managed API v1.0 Redist).
 

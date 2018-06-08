@@ -13,11 +13,11 @@ dev_langs:
 # rccOptions/forwarding/toPhoneType element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the type of target to forward calls from the PBX phone.
 
-``` xml
+```xml
 <toPhoneType xmlns="http://schemas.microsoft.com/2006/09/sip/options/rccOptions">
 a phoneTypeEnumEx value
 </toPhoneType>

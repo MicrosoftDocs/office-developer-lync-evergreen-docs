@@ -15,7 +15,7 @@ dev_langs:
 Learn how to create a managed SIP application in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## Creating a managed SIP application for Lync Server
 
@@ -33,7 +33,7 @@ Creating a managed SIP application involves the following tasks:
 
 The first step in creating a managed Lync Server 2013 SIP application is to create an [application manifest](sip-application-manifest.md) and compile it within your application. The application manifest contains a message filter script that runs on the server and dispatches only the SIP messages that your application is interested in receiving. This action is usually performed in the **Main** method of the managed code application, as follows.
 
-``` csharp
+```csharp
 using System.Threading;
 using System.Resources;
 using Microsoft.Rtc.Sip;
@@ -71,7 +71,7 @@ The common point of communication between the Lync Server 2013 computer and your
 
 The [ServerAgent](https://msdn.microsoft.com/en-us/library/jj266157\(v=office.15\)) object must bind to the [ApplicationManifest](https://msdn.microsoft.com/en-us/library/jj265493\(v=office.15\)) object that is created in the previous section. As shown in the following example, this binding process is established when the **ServerAgent** is created.
 
-``` csharp
+```csharp
 try {
 ServerAgent myAppServerAgent = new ServerAgent(myAppManifest);
 }
@@ -89,13 +89,13 @@ Calling the previous constructor is applicable in a script-only application wher
 
 If the managed application handles messages that are dispatched from the MSPL message filter, the managed application must implement a message handler that is used to process the SIP messages that are dispatched from the MSPL message filter. For example, if the message filter calls the [Dispatch](https://msdn.microsoft.com/en-us/library/hh364714\(v=office.15\)) function as shown in the following example, the managed application must have a message handler named OnInviteReceived.
 
-``` csharp
+```csharp
 Dispatch("OnInviteReceived");
 ```
 
 In addition, the class implementing this method must also bind to the newly created [ServerAgent](https://msdn.microsoft.com/en-us/library/jj266157\(v=office.15\)) object as shown in the next example.
 
-``` csharp
+```csharp
 ServerAgent myServerAgent = new ServerAgent(myClassWithDispatchMethods, myAppManifest);
 ```
 
@@ -105,7 +105,7 @@ When **Dispatch** is called from the MSPL script, a server event is raised. The 
 
 Each application has its own process and is responsible for creating its own threads. The Microsoft Lync Server 2013 SIP Application Managed API does not require a specific threading model. However, the .NET Framework provides a **ThreadPool** class that can be used for this particular purpose. You can use **ThreadPool** to create a queue for events as shown in the following code example, which services a single input from the Lync Server 2013 computer.
 
-``` csharp
+```csharp
 ManualResetEvent autoResetEvent = new ManualResetEvent(false);
 WaitHandle[] handleArray = new WaitHandle[] {
                               myAppServerAgent.WaitHandle,
@@ -163,7 +163,7 @@ To receive messages from the Lync Server 2013 computer, your application manifes
 
 The previous script causes Lync Server 2013 to dispatch any message with a SIP method type of "MESSAGE" to the "OnMessageReceived" event handler in your application, passing the request as a [RequestReceivedEventArgs](https://msdn.microsoft.com/en-us/library/jj265762\(v=office.15\)) object. The following example shows how to define the handler.
 
-``` csharp
+```csharp
 public void OnMessageReceived(object sender, RequestReceivedEventArgs requestEventArgs) {
 
 // Obtain the Request object to process from RequestReceivedEventArgs.

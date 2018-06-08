@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parsing meeting policy
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The meeting policy from the provisioned data specifies how meetings can be conducted for the user. In Microsoft Unified Communications Managed API (UCMA), the meeting policy is encapsulated by a MeetingPolicyConfiguration object, which exposes the meeting policy as a collection of name-value pairs known as the properties of the meeting policy configuration.
 

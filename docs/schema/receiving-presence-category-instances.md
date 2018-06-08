@@ -11,13 +11,9 @@ mtps_version: v=office.15
 # Receiving presence category instances
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Persistent subscription  
-Polling subscription  
-Querying presence  
-Local and remote presence  
+ 
 
 By using the Microsoft Lync Server 2013, a user can access and monitor the presence published by his or her contacts or other unified communications-enabled clients through subscription or query, provided that the subscriber is granted permission by the publishers to access the presence information. For information about access controls, see [Controlling access to presence publications](controlling-access-to-presence-publications.md).
 

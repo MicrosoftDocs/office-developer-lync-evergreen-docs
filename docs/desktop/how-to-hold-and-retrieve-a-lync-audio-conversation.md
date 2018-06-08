@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to programmatically hold and retrieve a Microsoft Lync 2013 audio call by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -128,7 +128,7 @@ The following example holds or retrieves a call.
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Hold or retrieve a conversation
         /// </summary>
@@ -152,7 +152,7 @@ The following example holds or retrieves a call.
 
 The following example is invoked by a **Conversation** instance when the state of the conversation changes.
 
-``` csharp
+```csharp
          /// <summary>
         /// Handles event raised when the state of an active conversation has changed. 
         /// </summary>
@@ -177,7 +177,7 @@ The following example is invoked by a **Conversation** instance when the state o
 
 The following example is invoked by an instance of **AVModality** when a modality operation is complete.
 
-``` csharp
+```csharp
         /// <summary>
         /// Called on the LyncClient worker thread when an audio/video modality action completes.
         /// </summary>
@@ -216,7 +216,7 @@ The following example is invoked by an instance of **AVModality** when a modalit
 
 ### Audio/video modality ActionAvailabilityChanged event
 
-``` csharp
+```csharp
         void myAVModality_ActionAvailabilityChanged(object sender, ModalityActionAvailabilityChangedEventArgs e)
         {
             switch (e.Action)
@@ -241,7 +241,7 @@ The following example is invoked by an instance of **AVModality** when a modalit
 
 The following example handles the **ModalityStateChanged** event raised by the audio/video modality when a call is placed on hold or retrieved from hold.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the Modality state changed event for a Conversation
         /// </summary>
@@ -272,7 +272,7 @@ The following example handles the **ModalityStateChanged** event raised by the a
         }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

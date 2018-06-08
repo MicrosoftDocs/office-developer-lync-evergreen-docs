@@ -13,11 +13,11 @@ dev_langs:
 # otherOptions/privacyModeUserSelection element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains a token showing the user selection of a privacy mode.
 
-``` xml
+```xml
     <privacyModeUserSelection>privacyModeUserSelectionEnumEx</privacyModeUserSelection>
 ```
 

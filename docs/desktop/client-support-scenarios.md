@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about Microsoft Lync Server 2013-related products and technologies that support contextual conversation.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -70,7 +70,7 @@ The following table shows the support matrix between receiving devices and sendi
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This section discusses the requirements and prerequisites for building a Microsoft Lync Server 2013 SIP Application API application.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## In this section
 

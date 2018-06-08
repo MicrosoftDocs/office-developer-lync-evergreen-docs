@@ -16,9 +16,9 @@ dev_langs:
 
 Use custom commands embedded in the Lync 2013 UI to launch applications on the Microsoft Windows desktop. Custom commands are menu items added by the developer to the Lync 2013 UI.
 
-**Last modified:** August 29, 2014
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -170,7 +170,7 @@ The following table describes how to launch an application with a given **Extens
 
 To retrieve the *%user-id%* and *%contact-id%* arguments, add code to the application launched by the custom command.
 
-``` csharp
+```csharp
 static void Main(string[] args)
 {
   if (null == args || args.Length == 0)
@@ -192,7 +192,7 @@ static void Main(string[] args)
 
 Removing the GUID subkey removes the appropriate custom commands from the Lync 2013 UI.
 
-## Additional resources
+## See also
 
 [Beyond the basics: Lync 2013 SDK](beyond-the-basics-lync-2013-sdk.md)
 

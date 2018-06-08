@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parsing media configuration
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In Microsoft Unified Communications Managed API (UCMA), a media configuration is encapsulated by a MediaConfiguration object, which exposes the configuration settings as a collection of name-value pairs known as the properties of the media configuration.
 

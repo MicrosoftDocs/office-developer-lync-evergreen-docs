@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parsing user settings
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The user setting from the provisioned data specifies the location profile assigned to the user as well as the permission to perform file transfer. In Microsoft Unified Communications Managed API (UCMA), a user setting is encapsulated by a UserSettingConfiguration object, which exposes the configuration settings as a collection of name-value pairs known as the properties of the media configuration.
 

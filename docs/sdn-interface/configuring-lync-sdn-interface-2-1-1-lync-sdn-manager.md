@@ -10,16 +10,15 @@ mtps_version: v=office.15
 
 # Configuring Lync SDN Interface 2.1.1 Lync SDN Manager
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Lync SDN Manager (LSM) can run in three different operational modes, depending on how LSM stores and shares states of call streams and configuration settings: Cache, Database, and Split.
 
-  - In the Cache mode, the stream state and configuration settings are only kept in a local memory and not shared among the SDN Manager instances. You can only use this option if you run the SDN Manager as a singleton, or in a primary-secondary fail-over configuration.
+- In the Cache mode, the stream state and configuration settings are only kept in a local memory and not shared among the SDN Manager instances. You can only use this option if you run the SDN Manager as a singleton, or in a primary-secondary fail-over configuration.
 
-  - In the Database mode, the stream state and configuration settings are stored in a central SQL database. All settings are shared among all LSMs connected to the same database.
+- In the Database mode, the stream state and configuration settings are stored in a central SQL database. All settings are shared among all LSMs connected to the same database.
 
-  - In the Split mode, only configuration settings are stored in a database but the stream state is cached in a local memory.
+- In the Split mode, only configuration settings are stored in a database but the stream state is cached in a local memory.
 
 The LSM operational mode depends on how the Lync SDN Interface is deployed. For more information about the deployment scenarios, see [Deploying Lync SDN Interface 2.1.1](deploying-lync-sdn-interface-2-1-1.md).
 
@@ -31,29 +30,23 @@ You can also configure LSM to maintain logging information for debugging. For in
 
 Depending on how Lync SDN Interface is deployed, you can set or reset the LSM configuration settings by:
 
-  - Configuring LSM by editing the SDNManger.exe.config file and then restarting the service.
-
-  - Configuring LSM by using the SDNManager.exe command line tool.
+- Configuring LSM by editing the SDNManger.exe.config file and then restarting the service.
+- Configuring LSM by using the SDNManager.exe command line tool.
 
 
 > [!NOTE]
-> <P>The steps presented in this section are optional unless you want to change the default settings configured during the LSM installation.</P>
-
+> The steps presented in this section are optional unless you want to change the default settings configured during the LSM installation.
 
 
 ## In this section
 
-  - [Configuring LSM using the configuration file](configuring-lsm-using-the-configuration-file.md)
+- [Configuring LSM using the configuration file](configuring-lsm-using-the-configuration-file.md)
+- [Configuring LSM using command prompt](configuring-lsm-using-command-prompt.md)
+- [Configuring LSM execution options](configuring-lsm-execution-options.md)
+- [Configuring LSM to send messages to network controllers](configuring-lsm-to-send-messages-to-network-controllers.md)
 
-  - [Configuring LSM using command prompt](configuring-lsm-using-command-prompt.md)
+## See also
 
-  - [Configuring LSM execution options](configuring-lsm-execution-options.md)
-
-  - [Configuring LSM to send messages to network controllers](configuring-lsm-to-send-messages-to-network-controllers.md)
-
-## Additional resources
-
-  - [Configuring Lync SDN Interface 2.1.1](configuring-lync-sdn-interface-2-1-1.md)
-
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+- [Configuring Lync SDN Interface 2.1.1](configuring-lync-sdn-interface-2-1-1.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

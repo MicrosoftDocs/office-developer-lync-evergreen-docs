@@ -13,7 +13,7 @@ dev_langs:
 # Trusted conferencing user model usage
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This topic provides the details of using the trusted conferencing user model in an application.
 
@@ -49,7 +49,7 @@ Create a server [CollaborationPlatform](https://msdn.microsoft.com/en-us/library
 
 
 
-``` csharp
+```csharp
 private void InitializePlatform()
 {
   // Create and start a server CollaborationPlatform instance.
@@ -98,7 +98,7 @@ The application then establishes an [ApplicationEndpoint](https://msdn.microsoft
 
 
 
-``` csharp
+```csharp
 // Given a CollaborationPlatform, initialize and register an Application Endpoint.
 private void InitializeRegisteredApplicationEndpoint()
 {
@@ -164,7 +164,7 @@ The application creates a [Conversation](https://msdn.microsoft.com/en-us/librar
 
 To join as a trusted user, the application must supply a [ConferenceJoinOptions](https://msdn.microsoft.com/en-us/library/hh385064\(v=office.15\)) instance to the [BeginJoin()](https://msdn.microsoft.com/en-us/library/hh349641\(v=office.15\)) method on the [ConferenceSession](https://msdn.microsoft.com/en-us/library/hh349315\(v=office.15\)) class, setting the [JoinMode](https://msdn.microsoft.com/en-us/library/hh384536\(v=office.15\)) property to **TrustedParticipant**. If the application has been configured correctly, it will be joined to the conference and will not appear in the roster of any Microsoft Lync 2013 clients. The following code sample shows how to accomplish this.
 
-``` csharp
+```csharp
 ConferenceJoinOptions options = new ConferenceJoinOptions();
 options.JoinMode = JoinMode.TrustedParticipant;
 
@@ -178,7 +178,7 @@ conversation.ConferenceSession.BeginJoin(
 
 The application now creates an [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) instance. It should set the [RemoveFromDefaultRouting](https://msdn.microsoft.com/en-us/library/hh349908\(v=office.15\)) property to true. This property can be accessed from the [AudioVideoMcuDialInOptions](https://msdn.microsoft.com/en-us/library/hh348625\(v=office.15\)) property on an [AudioVideoCallEstablishOptions](https://msdn.microsoft.com/en-us/library/hh382857\(v=office.15\)) instance.
 
-``` csharp
+```csharp
 AudioVideoCallEstablishOptions callOptions = new AudioVideoCallEstablishOptions();
 callOptions.AudioVideoMcuDialInOptions.RemoveFromDefaultRouting = true; // Required
 
@@ -199,7 +199,7 @@ Before establishing the call, the application sets the [ApplicationContext](http
 
 
 
-``` csharp
+```csharp
 // The application sets the context to the ConversationParticipant instance of the user it represents.
 avCall.ApplicationContext = pstnUser1;
 avCall.AudioVideoFlowConfigurationRequested += ConfigurationRequested;
@@ -227,7 +227,7 @@ The platform is responsible for using the appropriate identity whenever an opera
 
 After the call is established, the application can specify custom audio routes to and from the call. The following example code demonstrates routing customization. Note that routing customization is valid only when the application has joined the conference as a trusted user and the call has been established. The following example demonstrates how to specify custom routing.
 
-``` csharp
+```csharp
 // This code demonstrates a personal virtual assistant (PVA) scenario with an incoming route that is DTMF enabled.
 List<OutgoingAudioRoute> outgoingRoutes = new List<OutgoingAudioRoute>();
 outgoingRoutes.Add(new OutgoingAudioRoute(pstnUser1Endpoint));
@@ -279,7 +279,7 @@ The application is now ready to serve its users. Generally speaking, the applica
 
 Using the TCU model, the application can issue commands within the context of other users who are unable to issue conference commands because they are not connected to the Focus (such as PSTN users). The following example demonstrates issuing a mute command in the context of a PSTN user.
 
-``` csharp
+```csharp
 MuteOptions options = new MuteOptions();
 options.Issuer = pstnUser1;
 

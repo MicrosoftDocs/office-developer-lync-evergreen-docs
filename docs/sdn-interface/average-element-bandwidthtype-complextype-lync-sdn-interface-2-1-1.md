@@ -1,5 +1,5 @@
 ﻿---
-title: Average element (BandwidthType complexType) (Lync SDN Interface 2.1.1)
+title: Average element (Lync SDN Interface 2.1.1)
 TOCTitle: Average element
 ms:assetid: 6a5fe4d2-427d-376b-a899-189ed844e6f1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912677(v=office.15)
@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Average element (BandwidthType complexType) (Lync SDN Interface 2.1.1)
+# Average element 
+
+(BandwidthType complexType) (Lync SDN Interface 2.1.1)
 
 Estimated average amount of the bandwidth.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Average"  type="xs:long" minOccurs="0">
     

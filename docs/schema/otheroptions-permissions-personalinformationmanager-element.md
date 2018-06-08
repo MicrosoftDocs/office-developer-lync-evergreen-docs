@@ -13,11 +13,11 @@ dev_langs:
 # otherOptions/Permissions/personalInformationManager element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the personal information manager.
 
-``` xml
+```xml
 <oo:personalInformationManager 
      xmlns:oo="http://schemas.microsoft.com/2006/09/sip/options/otherOptions">PIM token</oo:personalInformationManager>
 ```

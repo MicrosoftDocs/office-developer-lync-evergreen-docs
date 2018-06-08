@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about localizing the strings displayed on the Microsoft Lync 2013 Controls that are in Microsoft Lync 2013 SDK.
 
-**Last modified:** December 26, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ To localize a Lync Controls application, create a separate set of resources (suc
 
 For localization information, see the MSDN Library article [Localizing Silverlight-based Applications](http://go.microsoft.com/fwlink/?linkid=204377%26clcid=0x409). To correctly display the private use area (PUA) and double-byte characters in a Lync Controls Silverlight application, explicitly set the font, as shown in the following example.
 
-``` xaml
+```xaml
   <controls:MyStatusArea Name="mystatusarea1" Height="24" FontFamily="Tahoma, Segoe UI, Lucida Sans Unicode, Lucida Grande, SimSun, SimSun-18030"/>
 ```
 
@@ -53,7 +53,7 @@ For localization information, see the MSDN Library article [Localizing Silverlig
 
 For localization information, see the MSDN Library article [Localizing a WPF Application](http://go.microsoft.com/fwlink/?linkid=204378%26clcid=0x409).
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync Controls](beyond-the-basics-lync-controls.md)
 

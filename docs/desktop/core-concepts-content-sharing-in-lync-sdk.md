@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts of meeting content sharing with Microsoft Lync 2013 SDK in Microsoft Lync 2013.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -42,7 +42,7 @@ The first topic in this section defines the concept of meeting content sharing i
 
   - [Content sharing modality](content-sharing-modality.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

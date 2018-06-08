@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to restyle the [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control by changing property values to alter the appearance of the control.
 
-**Last modified:** February 12, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ Use the following procedure to change the appearance of the control.
 
 3.  Add a style to set the [Background](https://msdn.microsoft.com/en-us/library/hh345162\(v=office.15\)) and [FontFamily](http://msdn2.microsoft.com/en-us/library/ms592513) properties on the control.
     
-    ``` xaml
+    ```xaml
     <Grid>
             <Grid.Resources>
                 <Style x:Key="MyContactListStyle" TargetType="Controls:ContactList">
@@ -65,7 +65,7 @@ Use the following procedure to change the appearance of the control.
     
     If the property values described in the previous step are used, the control background color is now blue and the font family is now Courier New.
 
-## Additional resources
+## See also
 
 [Customizing Lync Controls](customizing-lync-controls.md)
 

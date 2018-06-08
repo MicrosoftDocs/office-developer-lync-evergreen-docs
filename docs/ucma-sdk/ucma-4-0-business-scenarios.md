@@ -11,15 +11,9 @@ mtps_version: v=office.15
 # UCMA 4.0 business scenarios
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Contact center  
-Standalone IVR application  
-Voice companion  
-Alert notification system  
-Other scenarios  
-In this section  
+ 
 
 Microsoft Unified Communications Managed API 4.0 can be used to create a number of different types of application. In this topic, four of the most important application types are presented.
 

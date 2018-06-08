@@ -13,19 +13,11 @@ dev_langs:
 
 # Enable fluid user interface
 
+**Applies to:** Lync 2013 | Lync Server 2013
+
 Windows Store apps are subject to frequent interruptions because idle ones are suspended or terminated to make up rooms for the most active ones. When reactivated, they are expected to resume from the previously deactivated state without noticeable interruptions, as if they have never been idle or terminated. This is known as maintaining fluid user experiences.
 
 Fluid user experience requires that the app follow the Windows Store app lifecycle management practices by caching or persisting relevant application data at appropriate time. For a Windows Store app to be fluid, it must also be responsive. This means that most of the UCWA operations must be asynchronous so that they do not block UI threads.
-
-
-_**Applies to:** Lync 2013 | Lync Server 2013_
-
-**In this article**  
-Configure UI elements in MainPage.xaml for taking user input  
-Manage application lifecycle to ensure fluid user experiences  
-Manage app data caching to facilitate fluid user experience  
-Configure UI elements in MePage.xaml for displaying output  
-Additional resources  
 
 To illustrate enabling fluid user experience in our UCWA Windows Store app, we will add UI elements in two XAML pages. The first XAML page is MainPage.xaml that was added as part of Create a Windows Store App Project Using Visual Studio. It will contain the UI elements such as **TextBox**, **PasswordBox**, **CheckBox** and **Button** for accepting user input. We will then add a second XAML page named MePage.xaml. It will contain UI elements, such as **TextBlock**, to display the display name, presence status, personal note, and listed phone numbers of the user. This MePage.xaml can be thought of as a simplified version of the [me dashboard](http://ucwa.skype.com/documentation/dashboard-me) of UCWA.
 
@@ -51,15 +43,15 @@ To illustrate enabling fluid user experience in our UCWA Windows Store app, we w
 
 10. Configure the newly added UI elements and style their layout using the following XAML code:
     
-    ``` xaml
-    <TextBlock x:Name="textBlockIntro" TextWrapping="Wrap" Text="TextBlock" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,20" FontSize="16"/>
-    <TextBlock x:Name="textBlockUserName" TextWrapping="Wrap" Text="User name (e.g., john@contoso.com)" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,0" ToolTipService.ToolTip="A Lync user account" FontSize="16"/>
-    <TextBox x:Name="textBoxUserName" TextWrapping="Wrap" ToolTipService.ToolTip="Lync user account name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,20" Width="250"/>
-    <TextBlock x:Name="textBlockPassword" TextWrapping="Wrap" Text="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" FontSize="16"/>
-    <PasswordBox x:Name="passwordBox" PlaceholderText="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,20" Width="250"/>
-    <CheckBox x:Name="checkBoxSaveUserInfo" Content="Save user info" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" FlowDirection="RightToLeft"/>
-    <Button x:Name="buttonSignIn" Content="Sign in" HorizontalAlignment="Left" VerticalAlignment="Top" Width="88" Margin="172,0,0,0" RenderTransformOrigin="1.056,0.254"FontSize="16"/>
-    <TextBlock x:Name="textBlockError" TextWrapping="Wrap" Text="Status" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,30,0,0" MinWidth="160" MinHeight="60" Height="84" Width="227" FontSize="14"/>
+    ```xaml
+        <TextBlock x:Name="textBlockIntro" TextWrapping="Wrap" Text="TextBlock" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,20" FontSize="16"/>
+        <TextBlock x:Name="textBlockUserName" TextWrapping="Wrap" Text="User name (e.g., john@contoso.com)" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,0" ToolTipService.ToolTip="A Lync user account" FontSize="16"/>
+        <TextBox x:Name="textBoxUserName" TextWrapping="Wrap" ToolTipService.ToolTip="Lync user account name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,20" Width="250"/>
+        <TextBlock x:Name="textBlockPassword" TextWrapping="Wrap" Text="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" FontSize="16"/>
+        <PasswordBox x:Name="passwordBox" PlaceholderText="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,20" Width="250"/>
+        <CheckBox x:Name="checkBoxSaveUserInfo" Content="Save user info" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" FlowDirection="RightToLeft"/>
+        <Button x:Name="buttonSignIn" Content="Sign in" HorizontalAlignment="Left" VerticalAlignment="Top" Width="88" Margin="172,0,0,0" RenderTransformOrigin="1.056,0.254"FontSize="16"/>
+        <TextBlock x:Name="textBlockError" TextWrapping="Wrap" Text="Status" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,30,0,0" MinWidth="160" MinHeight="60" Height="84" Width="227" FontSize="14"/>
     ```
     
     You can also configure the UI elements in the **Properties** window in Visual Studio. See [Create you first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx).
@@ -68,7 +60,7 @@ To illustrate enabling fluid user experience in our UCWA Windows Store app, we w
     
     You should see an empty event handler code in the code behind file, MainPage.xaml.cs, as inserted by Visual Studio:
     
-    ``` csharp
+    ```csharp
     private void buttonSignIn_Clicked(object sender, RoutedEventArgs e)
     {
     
@@ -89,22 +81,22 @@ The state-transition events are raised by Windows Runtime and include [OnLaunche
 
 2.  Locate the OnLaunched event handler code block and do the following:
     
-      - Insert the async keyword into the signature of the onLaunched method to support calling wait-able statements prefixed with the await keyword.
+    - Insert the async keyword into the signature of the onLaunched method to support calling wait-able statements prefixed with the await keyword.
         
-        ``` csharp
+        ```csharp
         protected async override void OnLaunched(LaunchActivatedEventArgs e)
         ```
     
-      - Inside the OnLaunched event handler code listing, insert the code to register the application root frame with the suspension manager, after the application’s root frame is instantiated.
+    - Inside the OnLaunched event handler code listing, insert the code to register the application root frame with the suspension manager, after the application’s root frame is instantiated.
         
-        ``` csharp
+        ```csharp
         rootFrame = new Frame();
         WinStoreUcwaAppHello.Common.SuspensionManager.RegisterFrame(rootFrame, "appFrame");   // app-specific
         ```
     
-      - Further down inside the OnLaunched code-listing, insert to the state-loading code a call to the RestoreAsync method on the SuspensionManager class
+    - Further down inside the OnLaunched code-listing, insert to the state-loading code a call to the RestoreAsync method on the SuspensionManager class.
         
-        ``` csharp
+        ```csharp
         if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
         {
             //TODO: Load state from previously suspended application
@@ -116,15 +108,15 @@ The state-transition events are raised by Windows Runtime and include [OnLaunche
 
 3.  Locate the OnSuspending event handler code-listing at the bottom of the App.xaml.cs file and do the following:
     
-      - Insert the async keyword into the signature of the OnSuspending method.
+    - Insert the async keyword into the signature of the OnSuspending method.
         
-        ``` csharp
+        ```csharp
         protected async override void OnSuspending(object sender, SuspendingEventArgs e)
         ```
     
-      - Iinside the OnSuspending code listing, insert to the state saving code block a call to the SaveAsync method on the SuspensionManager class
+    - Iinside the OnSuspending code listing, insert to the state saving code block a call to the SaveAsync method on the SuspensionManager class
         
-        ``` csharp
+        ```csharp
         private async void OnSuspending(object sender, SuspendingEventArgs e)
         {
             var deferral = e.SuspendingOperation.GetDeferral();
@@ -138,7 +130,9 @@ The state-transition events are raised by Windows Runtime and include [OnLaunche
 
 Window Store app API facilitates saving app state information by exposing the [ApplicationDataContainer](http://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.applicationdatacontainer.aspx) class for an app to cache app data locally across different app components or sessions. It also let an app save state information remotely across multiple devices or processes.
 
-For our UCWA Windows Store app, we will use the MainPage.xaml as the landing page, where the user is prompted to enter her account information. The user may be interrupted during or after entering the user information. When she comes back to the application, the user may not want to retype whatever she has already entered, especially she has already checked the option to save user info. We will, thus, save the user name and password as well as the **CheckBox** setting when the data is entered and restore the data when the page is loaded. Using the Basic Page template provided by Visual Studio, a place holder is already generated for you to add the data-loading code. This placeholder is the empty event handler named navigationHelper\_LoadState. A similar placeholder method is generated for saving data before the page is unloaded. This is the navigationHelper\_SaveSate method. However, because a Windows Store app transition from suspending to suspended or terminated rather quickly. It is recommended that important state information be saved whenever it is entered. In the steps below, we will use a set of event handlers to handle data caching.
+For our UCWA Windows Store app, we will use the MainPage.xaml as the landing page, where the user is prompted to enter her account information. The user may be interrupted during or after entering the user information. When she comes back to the application, the user may not want to retype whatever she has already entered, especially she has already checked the option to save user info. We will, thus, save the user name and password as well as the **CheckBox** setting when the data is entered and restore the data when the page is loaded. 
+
+Using the Basic Page template provided by Visual Studio, a place holder is already generated for you to add the data-loading code. This placeholder is the empty event handler named navigationHelper\_LoadState. A similar placeholder method is generated for saving data before the page is unloaded. This is the navigationHelper\_SaveSate method. However, because a Windows Store app transition from suspending to suspended or terminated rather quickly. It is recommended that important state information be saved whenever it is entered. In the steps below, we will use a set of event handlers to handle data caching.
 
 ## Manage app data caching to facilitate fluid user experience
 
@@ -152,7 +146,7 @@ The following steps demonstrate how to manage app data caching for our UCWA Wind
     
     2.  In the MainPage.xaml.cs file, add the following code to the newly generated UserName\_Changed method.
         
-        ``` csharp
+        ```csharp
         private void UserName_Changed(object sender, TextChangedEventArgs e)
         {
             if (checkBoxSaveUserInfo.IsChecked == true)
@@ -170,7 +164,7 @@ The following steps demonstrate how to manage app data caching for our UCWA Wind
     
     2.  In the MainPage.xaml.cs file, add the following code to the newly generated Password\_Changed method.
         
-        ``` csharp
+        ```csharp
         private void Password_Changed(object sender, RoutedEventArgs e)
         {
             if (checkBoxSaveUserInfo.IsChecked == true)
@@ -183,30 +177,32 @@ The following steps demonstrate how to manage app data caching for our UCWA Wind
         Here, we save the password text, only if the user has explicitly instructed so, in an associated array (or dictionary) with a key of our choosing ("password"). We will use the same key to retrieve the saved password when the data is loaded. For illustrative purposes, we chose to save the password for use across different application processes or components on a local machine of the user. You may want to implement a different logic according to your application needs or requirements.
 
 4.  Following the same operational patterns shown above, we set up two other event handlers, SaveUserInfo\_Checked and SaveUserInfo\_Unchecked, for the Checked and Unchecked events, respectively, on the **CheckBox** UI element in the MainPage.xaml. The event handling codes are shown as follows:
-    
-        private void SaveUserInfo_Checked(object sender, RoutedEventArgs e)
-        {
-            Windows.Storage.ApplicationData.Current.RoamingSettings.Values["saveUserInfo"] = "checked";
-            UserName_Changed(null, null);
-            Password_Changed(null, null);
-        }
-        
-        private void SaveUserInfo_Unchecked(object sender, RoutedEventArgs e)
-        {
-            if (Windows.Storage.ApplicationData.Current.RoamingSettings.Values.ContainsKey("userName"))
-                Windows.Storage.ApplicationData.Current.RoamingSettings.Values.Remove("userName");
-            if (Windows.Storage.ApplicationData.Current.RoamingSettings.Values.ContainsKey("saveUserInfo"))
-                Windows.Storage.ApplicationData.Current.RoamingSettings.Values.Remove("saveUserInfo");
-            if (Windows.Storage.ApplicationData.Current.LocalSettings.Values.ContainsKey("password"))
-                Windows.Storage.ApplicationData.Current.LocalSettings.Values.Remove("password");
-        }
-    
+
+    ```csharp    
+            private void SaveUserInfo_Checked(object sender, RoutedEventArgs e)
+            {
+                Windows.Storage.ApplicationData.Current.RoamingSettings.Values["saveUserInfo"] = "checked";
+                UserName_Changed(null, null);
+                Password_Changed(null, null);
+            }
+            
+            private void SaveUserInfo_Unchecked(object sender, RoutedEventArgs e)
+            {
+                if (Windows.Storage.ApplicationData.Current.RoamingSettings.Values.ContainsKey("userName"))
+                    Windows.Storage.ApplicationData.Current.RoamingSettings.Values.Remove("userName");
+                if (Windows.Storage.ApplicationData.Current.RoamingSettings.Values.ContainsKey("saveUserInfo"))
+                    Windows.Storage.ApplicationData.Current.RoamingSettings.Values.Remove("saveUserInfo");
+                if (Windows.Storage.ApplicationData.Current.LocalSettings.Values.ContainsKey("password"))
+                    Windows.Storage.ApplicationData.Current.LocalSettings.Values.Remove("password");
+            }
+    ```    
     When the user checks to save the user info, the SaveUserInfo\_Checked event handler saves the **CheckBox** state as "checked". In the meantime, it also tries to save any values already entered in the **TextBox** and **PasswordBox** for the user name and password. When the user unchecks the **CheckBox**, all the previously saved data are removed the application storage.
     
     The saved data now need to be retrieved from the application storage when the application is reactivated and the page is reloaded. We will illustrate how to do this in the next step.
 
 5.  In the MainPage.xaml.cs code behind file, add the following code to the Visual Studio-generated navigationHelper\_LoadState method.
-    
+
+    ```csharp    
         private void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // Restore values stored in app data container.
@@ -227,7 +223,8 @@ The following steps demonstrate how to manage app data caching for our UCWA Wind
                 SaveUserInfo_Unchecked(this, null);
             }
         }
-    
+    ```
+
     This completes our planned tasks for managing application lifecycle and state to enable fluid user experience. You can test it by pressing F5 to build and debug the application. When the application is launched successfully, enter some texts in the **TextBox** and **PasswordBox** input fields, check the **CheckBox**, and then suspend or quit the application. When you re-launch the application, you should see the previous entered texts showing up in the text input fields and the **CheckBox** remains to be checked. It’s as if you had never quit the application.
 
 ## Configure UI elements in MePage.xaml for displaying output
@@ -240,13 +237,16 @@ Before moving on to enabling UCWA features, let us finish setting up the remaini
 
 3.  Change the \<Page.Resources\> element in the newly generated MePage.xaml file as follows.
     
+    ```xaml
         <Page.Resources>
             <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
             <x:String x:Key="AppName">UCWA RT App.Me</x:String>
         </Page.Resources>
-
+    ```
+    
 4.  Add five **TextBlock**, four **TextBox**, one **Image** and one **Grid** UI elements and arrange them inside the root **Grid** element as shown as follows.
     
+```xml
         <Grid Margin="138,85,0,0" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="701">
             <Grid.RowDefinitions>
                 <RowDefinition Height="74*"/>
@@ -272,20 +272,16 @@ Before moving on to enabling UCWA features, let us finish setting up the remaini
             <TextBox x:Name="textBoxPhones" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="433" Height="71" Grid.Row="3"/>
         </Grid>
         <TextBlock x:Name="textBlockMyName" Margin="113,10,562,560" TextWrapping="Wrap" Text="Name:" FontSize="24" FontWeight="Bold" Grid.Row="1"/>
+```    
     
-    We will use these UI elements to show the properties of the UCWA me resource. This will be shown in the Inspect Local Presence and User Data section. Before we do that, we need to [Ensure responsive HTTP operations](ensure-responsive-http-operations.md).
+We will use these UI elements to show the properties of the UCWA me resource. This will be shown in the Inspect Local Presence and User Data section. Before we do that, we need to [Ensure responsive HTTP operations](ensure-responsive-http-operations.md).
 
-## Additional resources
+## See also
 
-  - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-
-  - [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
-
-  - [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
-
-  - [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)
-
-  - [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)
-
-  - [Putting it all together](putting-it-all-together.md)
+- [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
+- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
+- [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
+- [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)
+- [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)
+- [Putting it all together](putting-it-all-together.md)
 

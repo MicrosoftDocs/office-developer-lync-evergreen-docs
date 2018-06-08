@@ -13,11 +13,11 @@ dev_langs:
 # services category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies presence services enabled for a presentity.
 
-``` xml
+```xml
 <services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="http://schemas.microsoft.com/2006/09/sip/service"

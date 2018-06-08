@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to add logging to a Microsoft Windows Presentation Foundation (WPF) application that contains Microsoft Lync Controls. The application writes log entries to a file on the local computer when the Initialized event on the [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control occurs.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ For a list of prerequisites, see [How to: Create a Silverlight page that display
 
 2.  In Window1.xaml, add a declaration for the Initialized event to the PresenceIndicator control.
     
-    ``` xaml
+    ```xaml
     <controls:PresenceIndicator Initialized="PresenceEventHandler" Source="sip:elise@contoso.com"/>
     ```
 
@@ -79,14 +79,14 @@ In the following procedures, add code to the Initialized event previously regist
 
 1.  In Window1.xaml.cs, add the following two using directives.
     
-    ``` csharp
+    ```csharp
     using Microsoft.Lync.Utilities.Logging;
     using System.IO;
     ```
 
 2.  Implement a class derived from LogListener.
     
-    ``` csharp
+    ```csharp
     // Implementation of the LogListener class
     class MyListener : LogListener
     {
@@ -116,7 +116,7 @@ In the following procedures, add code to the Initialized event previously regist
 
   - In the Window1 constructor, add the following statements to instantiate a LogListener object, and then add it to the Listeners collection.
     
-    ``` csharp
+    ```csharp
     MyListener defaultListener = new MyListener();   //Instantiate a LogListener object.
     Logger.AddListener(defaultListener);   //Add it to the Listeners collection.
     Logger.Level = LogLevel.Verbose;   //Set a value indicating the event types to be logged.
@@ -128,7 +128,7 @@ In the following procedures, add code to the Initialized event previously regist
 
 2.  In the event handler, add code to create a LogEntry object, and then call the Write method on the Logger object.
     
-    ``` csharp
+    ```csharp
     private void PresenceEventHandler(object sender, EventArgs e)
     {
       LogEntry myEntry = new LogEntry(LogLevel.Verbose, null, null, "log text");
@@ -166,7 +166,7 @@ Run the application and then browse to the text file on the local computer and r
     Loaded ContactItem Hash: 56864589
     Control 'ContactSearchInputBox' entering 'OnLoaded'
 
-## Additional resources
+## See also
 
   - [What you can do in Lync SDK](what-you-can-do-in-lync-sdk.md)
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Reference applications
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 SDK is shipped with the following end-to-end samples:
 

@@ -13,7 +13,7 @@ dev_langs:
 # Impersonating a user
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The local participant address is automatically inferred from the endpoint that is specified. If the application is trusted by Microsoft Lync Server 2013, the application can impersonate another user. This is normally required to offer services on behalf of a specific user who initiated the call to the application. For example, a help-desk application might want to impersonate the user who calls in for help when it directs the call to an agent who can help the user.
 
@@ -21,7 +21,7 @@ Before adding calls to the conversation, the application must first indicate who
 
 The following code demonstrates impersonating the user specified by the first parameter. The second parameter specifies the phone number of the impersonated user, and the string "Help Desk" is the name that will be displayed for the impersonated user.
 
-``` csharp
+```csharp
 conversation.Impersonate("sip:helpdesk@xyz.com", "tel:+2341234678", "Help Desk"); 
 ```
 

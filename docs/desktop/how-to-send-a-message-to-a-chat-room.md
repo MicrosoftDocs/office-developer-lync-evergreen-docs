@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to post regular and story messages to a Microsoft Lync 2013 Persistent Chat room by using methods in Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -122,7 +122,7 @@ You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.
 
 The following example references the namespaces that are used in the following Windows Forms examples.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -133,7 +133,7 @@ using System.Collections;
 
 The following example declares the class fields that are referenced later in this topic.
 
-``` csharp
+```csharp
         /// <summary>
         /// The LyncClient class instance that encapsulates the Lync client platform
         /// </summary>
@@ -158,7 +158,7 @@ The following example declares the class fields that are referenced later in thi
 
 The following example constructs the simple chat window UI and saves the original background color of the send button.
 
-``` csharp
+```csharp
         /// <summary>
         /// Simple chat window constructor
         /// </summary>
@@ -188,7 +188,7 @@ When you have obtained a [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft
 
 The following example registers for chat room events, reads chat room properties, and gets the chat room participant roster.
 
-``` csharp
+```csharp
         /// <summary>
         /// Registers for message, state, and participant related events on a chat room.
         /// </summary>
@@ -311,7 +311,7 @@ After you have prepared to post messages to a chat room by following the steps i
 
 The following example gets the user’s message text and then posts the plain-text formatted version of the message to a chat room.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when the user clicks the Send button
         /// </summary>
@@ -424,7 +424,7 @@ The following example gets the user’s message text and then posts the plain-te
 
 The following example declares a form that accepts a followed room collection index and a string and then posts the string as a message to the followed room at the index position in the collection.
 
-``` csharp
+```csharp
 namespace PostMessage
 {
     partial class PostMessage
@@ -587,7 +587,7 @@ namespace PostMessage
 
 The following example interacts with the form declared in the previous example. This example gets a followed room based on user index value selection and then sends any typed text to the selected room.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;
@@ -807,7 +807,7 @@ namespace PostMessage
 
   - [How to: Read messages sent to a chat room](how-to-read-messages-sent-to-a-chat-room.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

@@ -13,7 +13,7 @@ dev_langs:
 # External Contacts container
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This container has a container ID value of 100. The default access control list contains a single entry for federated users. Non-private category instances published to this container are visible to all the users of a federated network by default.
 

@@ -13,11 +13,11 @@ dev_langs:
 # calendarData/WorkingHoursStartTimeInMinutes element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the starting time of a work period.
 
-``` xml
+```xml
     <StartTimeInMinutes>Start time of this working period</StartTimeInMinutes>
 ```
 
@@ -69,7 +69,7 @@ The element value is a number in minutes starting from 00:00 (midnight) of the l
 
 The following XML code snippet shows a working period:
 
-``` xml
+```xml
       <WorkingPeriod>
         <DayOfWeek>Monday Tuesday Wednesday Thursday Friday</DayOfWeek>
         <StartTimeInMinutes>480</StartTimeInMinutes>

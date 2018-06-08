@@ -16,7 +16,7 @@ dev_langs:
 
 Learn about using the Microsoft Lync 2013 [CustomContactList](https://msdn.microsoft.com/en-us/library/hh346321\(v=office.15\)) control to provide an arbitrary and non-hierarchical display of contacts and groups for specific contexts.
 
-**Last modified:** February 14, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -110,7 +110,7 @@ Notable CustomContactList control public properties and events relating to unifi
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:CustomContactList Height="300" x:Name="_xamlCustomContactsList" ContactLayoutView="TwoLines">
    <controls:CustomContactListItem Source="sip:elise@contoso.com"/>
@@ -120,7 +120,7 @@ The following example can be used for Microsoft Silverlight and Microsoft Window
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

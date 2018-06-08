@@ -11,12 +11,9 @@ mtps_version: v=office.15
 # UCMA 3.0 Core applications: Coexistence and deployment scenarios
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Coexistence of a UCMA 3.0 Core application in an Office Communications Server 2007 R2—Microsoft Lync Server 2010 topology  
-Coexistence of a UCMA 3.0 Core application in an Office Communications Server 2007—Microsoft Lync Server 2010 topology  
-Direct deployment of a UCMA 3.0 Core application in a pure Office Communications Server 2007 R2 topology  
+
 
 If a mixed Office Communications Server 2007–Lync Server 2010 or mixed Microsoft Office Communications Server 2007 R2–Lync Server 2010 topology has already been prepared, no additional steps are necessary for a UCMA 3.0 application that has been deployed against Lync Server 2010 following the activation steps described in [Activating a UCMA 4.0 trusted application](activating-a-ucma-4-0-trusted-application.md). The trusted service entries and contact object entries created using the trusted application cmdlets are created in a backward-compatible fashion so that users homed on earlier Communications Server versions will be able to communicate with the application.
 

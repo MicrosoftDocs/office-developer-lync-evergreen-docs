@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Triggering SDP renegotiations
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [BeginSdpRenegotiation(CallDialogContext, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh384458\(v=office.15\)) method on the **MediaProvider** instance can be used for several purposes, such as when an application places a call on hold or retrieves it, or when media types are added or removed. If an incoming SDP renegotiation is in progress when this method is called, the requested SDP renegotiation will begin after the pending renegotiation is finished. The **MediaProvider** instance should expect the [BeginGetOffer(OfferAnswerContext, Collection\<SdpContentDescription\>, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh366051\(v=office.15\)) method on the **MediaProvider** instance to be called after **BeginSdpRenegotiation** has started.
 

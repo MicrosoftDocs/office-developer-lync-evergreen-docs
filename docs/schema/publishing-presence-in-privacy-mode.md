@@ -13,7 +13,7 @@ dev_langs:
 # Publishing presence in privacy mode
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 When presence is published in the privacy mode, only the allowed contacts can see the publisher’s presence information. The application must explicitly add the contacts to a container and the contact list. Microsoft Lync 2013 and Microsoft Unified Communications Managed API 4.0 implement this automatically.
 
@@ -23,7 +23,7 @@ The administrator of Microsoft Lync Server 2013 sets a pool-level presence polic
 
 The following is a privacy-mode presence policy document set by a server administrator.
 
-``` xml
+```xml
 <provisionGroup name="presencePolicyV2"> 
    <propertyEntryList> 
       <property name="EnablePrivacyMode">true</property> 
@@ -44,7 +44,7 @@ The privacy-mode publication grammar is described by an XML element of \<provisi
 
 The following XML fragment is the privacy mode publication grammar defined by Lync 2013.
 
-``` xml
+```xml
   <provisionGroup name="privacyPublicationGrammar" >
     <containerManifestList   
         xmlns="http://schemas.microsoft.com/2008/09/sip/ContainerManifest"

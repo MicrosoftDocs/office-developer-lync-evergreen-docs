@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# URI element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# URI element (QualityEndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 SIP URI of the user signed in via the endpoint as extracted from the SIP header.. This field is obfuscated unless hidepii is set to false in the LDL configuration file.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="URI"  type="xs:anyURI">
     

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about editing visual templates for Microsoft Lync 2013 Controls that inherit the ContactPresenter control.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -46,7 +46,7 @@ The procedure appearing in [Editing the template of a Lync Control](editing-the-
 
   - [Retemplating the CustomContactList control](retemplating-the-customcontactlist-control.md)
 
-## Additional resources
+## See also
 
 [Editing Lync Control visual templates](editing-lync-control-visual-templates.md)
 

@@ -13,11 +13,11 @@ dev_langs:
 # services/service/capabilities/video element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies a capability for a presentity to handle video streaming.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/service">
      <video 

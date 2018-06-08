@@ -10,8 +10,7 @@ mtps_version: v=office.15
 
 # SIP Obfuscator for Lync SDN API
 
-
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section describes a utility that is available for the Lync SDN API 2.0.
 
@@ -37,6 +36,7 @@ To use SIP Obfuscator, do the following:
 
 To search for the data records associated with this user (sip:adama@contoso.com), you can search for the records containing sip:CE6AF05C9705A05E@contoso.com. An example of such an obfuscated data record is shown as follows:
 
+```xml
     <StartOrUpdate Type="audio">
         <From>
           <Id>87c1bcf104</Id>
@@ -45,4 +45,4 @@ To search for the data records associated with this user (sip:adama@contoso.com)
           ……
         </From>
     </StartOrUpdate>
-
+```

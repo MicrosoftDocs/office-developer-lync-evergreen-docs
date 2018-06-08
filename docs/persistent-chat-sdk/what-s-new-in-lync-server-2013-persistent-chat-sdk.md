@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about new Microsoft Lync Server 2013 Persistent Chat SDK features.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Group Chat is now rebranded as Persistent Chat. Hence, Microsoft Group Chat Server API is now known as Microsoft Persistent Chat Server API.
 

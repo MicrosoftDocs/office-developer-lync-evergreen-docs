@@ -12,22 +12,17 @@ dev_langs:
 
 # Debugging Lync SDN Manager
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
-
-**In this article**  
-Activating WCF service logging  
-Activating the message receiver log service  
-Validating LDL’s Client Certificate in LSM  
-Replaying logs  
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The Lync SDN Interface 2.1.1 provides several advanced features to improve security and to help you debug configuration issues.
 
-## Activating WCF service logging
+## Activate WCF service logging
 
-The LSM supports advanced debugging via WCF. Instead of detailing how to use or change this, we provide an example as an illustration as follows. For complete information on this subject, see the WCF documentation. By uncommenting and customizing the section that follows, which is an excerpt from an SDNManager.exe.config file, you can receive low level debugging logs from the WCF service.
+The LSM supports advanced debugging via WCF. Instead of detailing how to use or change this, we provide an example as an illustration as follows. For complete information on this subject, see the WCF documentation. 
 
-``` xml
+By uncommenting and customizing the section that follows, which is an excerpt from an SDNManager.exe.config file, you can receive low level debugging logs from the WCF service.
+
+```xml
   <!--<system.diagnostics>
     <trace autoflush="true" indentsize="4">
       <listeners>
@@ -79,13 +74,13 @@ The LSM supports advanced debugging via WCF. Instead of detailing how to use or 
   </system.diagnostics>-->
 ```
 
-## Activating the message receiver log service
+## Activate the message receiver log service
 
 The LSM contains a simple REST WebService which can receive messages and log them for later analysis. This build-in service can be used to simulate a Lync SDN-aware network controller.
 
 To start this service, you need to uncomment the following section in the SDNManager.exe.config file. When uncommented and customized, it will start a service, using both HTTP and HTTPS, to receive random xml messages and to log them to the "LogOutput.log" log file (RelayData – log cannel).
 
-``` 
+```xml 
       <service name="Microsoft.Rtc.Enlightenment.Hub.LogService">
         <endpoint address="http://localhost:9333/Log" behaviorConfiguration="webby" bindingConfiguration="wsHttpEndpointBindingNoSec"
           binding="webHttpBinding" name="ep1" contract="Microsoft.Rtc.Enlightenment.Hub.ILogService" />
@@ -103,17 +98,17 @@ You can configure the LSM setting to use the log service by changing the submitU
 
 
 > [!NOTE]
-> <P>You can also view the last megabyte of messages received by browsing to http://localhost:9333/Log/GetStuffHere.</P>
+> You can also view the last megabyte of messages received by browsing to http://localhost:9333/Log/GetStuffHere.
 
 
 
-## Validating LDL’s Client Certificate in LSM
+## Validate LDL’s Client Certificate in LSM
 
 By default LSM uses a simple custom validator for client certificates received from the LDL. WCF ensures that a certificate is consistent and valid before this validator is called. This validator ("AcceptAndLogValidator") logs information from the certificate and always accepts it.
 
 For an increased security, you must configure a different and appropriate validator for client certificates using standard WCF configuration mechanisms. The following example shows the WCF configuration for the AcceptAndLogValidator:
 
-``` 
+```xml 
       <serviceBehaviors>
         <behavior name="CustomValidator">
           <serviceCredentials>
@@ -129,7 +124,7 @@ For an increased security, you must configure a different and appropriate valida
       </serviceBehaviors>
 ```
 
-## Replaying logs
+## Replay logs
 
 As another debugging feature, LSM allows for replaying recorded input logs. The LSM can log all messages it receives from the LDLs. By using the SDNManager command line tool, you can send such a log to the LSM service and have it executed. Furthermore, the logs can be replayed with or without the original timing.
 

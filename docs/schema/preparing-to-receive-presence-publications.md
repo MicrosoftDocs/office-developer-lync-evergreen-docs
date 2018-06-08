@@ -13,7 +13,7 @@ dev_langs:
 # Preparing to receive presence publications
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Your application can receive presence publications by other users by using a persistent or polling subscription. It can also receive the publications by submitting a query with the specified category names and presentities. Before your application can receive any presence publications, the user must sign in to the underlying Microsoft Lync Server 2013 instance. For more information, see [Signing in to Lync Server](signing-in-to-lync-server.md).
 
@@ -39,7 +39,7 @@ For more information about event implementation, see [Handling events to receive
 
 The following code example shows how to prepare for remote presence subscriptions and queries. The example is an excerpt of the C\# **UcmaPresenceWatcher** class that is used to include the other programming aspects of presence subscription and query that appear in this section.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;

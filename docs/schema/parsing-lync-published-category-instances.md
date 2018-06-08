@@ -12,17 +12,17 @@ dev_langs:
 
 # Parsing Lync-published category instances
 
-
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following table shows how to parse some of the presence category instances that are published by Microsoft Lync 2013.
 
+<br/>
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 40%" />
+<col style="width: 10%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -35,16 +35,18 @@ The following table shows how to parse some of the presence category instances t
 <tr class="odd">
 <td><p><a href="calendardata-category-instance-value-element.md">calendarData category instance value element</a></p></td>
 <td><p>freeBusy information</p></td>
-<td><p>Lync 2013 describes the contiguous block of free and busy time slots according to the user’s calendar. This block of free-busy time slots is described by a Base64 encoded string of a stream of binary bits. Every 2 bits represent the smallest unit of time (or the smallest time slot). Four types of distinct time slots are used. Each represents a time when the user is free, tentative busy, busy, or out of office (OOF). The corresponding binary bits are 00, 01, 10, and 11, respectively. Thus, if the time slot is 15 minutes, a contiguous one-hour block of 30 minutes free and 30 minutes busy is described by a stream of binary bits of 00001010. The corresponding Base64 encoded string value is &quot;Cg==&quot;.</p>
+<td><p>Lync 2013 describes the contiguous block of free and busy time slots according to the user’s calendar.<br/><br/>This block of free-busy time slots is described by a Base64 encoded string of a stream of binary bits.<br/><br/>Every 2 bits represent the smallest unit of time (or the smallest time slot).<br/><br/>Four types of distinct time slots are used. Each represents a time when the user is free, tentative busy, busy, or out of office (OOF).<br/><br/>The corresponding binary bits are 00, 01, 10, and 11, respectively.<br/><br/>Thus, if the time slot is 15 minutes, a contiguous one-hour block of 30 minutes free and 30 minutes busy is described by a stream of binary bits of 00001010.<br/><br/>The corresponding Base64 encoded string value is &quot;Cg==&quot;.</p>
 <p>The following is an example of a calendar data containing a freeBusy block.</p>
 
 ```XML
 <calendarData xmlns="http://schemas.microsoft.com/2006/09/sip/calendarData"
-        mailboxID="johnD@exchange.contoso.com">
-   <freeBusy startTime="2009-11-18T08:00:00Z" granularity="PT15M" encodingVersion="1">AAAAAAAAAAAAAAAAAAAAVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQoAqqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</freeBusy>
+              mailboxID="johnD@exchange.contoso.com">
+   <freeBusy startTime="2009-11-18T08:00:00Z" 
+             granularity="PT15M" encodingVersion="1">AAAAAAAAAAAAAAAAAAAAVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQoAqqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+   </freeBusy>
 </calendarData>
 ```
-<p>In this example, the length of the smallest time slot is 15 minutes that is specified by the granularity attribute PT15M value, where PT stands for Pacific Time. The user is identified by the mailboxID attribute johnD@exchange.contoso.com value. And the free-busy block starts at midnight of the US Pacific time on November 18, 2009, which is specified by the startTime attribute. Once properly decoded, the length of the entire free-busy block is 96 hours, which can be determined by counting the number of bytes in the Base64 encoded string.</p></td>
+<p>In this example, the length of the smallest time slot is 15 minutes that is specified by the granularity attribute PT15M value, where PT stands for Pacific Time.<br/><br/>The user is identified by the mailboxID attribute johnD@exchange.contoso.com value.<br/><br/>The free-busy block starts at midnight of the US Pacific time on November 18, 2009, which is specified by the startTime attribute.<br/><br/>Once properly decoded, the length of the entire free-busy block is 96 hours, which can be determined by counting the number of bytes in the Base64 encoded string.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="state-element_4.md">state[@type='aggregateState'] element</a></p></td>
@@ -55,9 +57,9 @@ The following table shows how to parse some of the presence category instances t
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 20%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -128,8 +130,8 @@ The following table shows how to parse some of the presence category instances t
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -160,16 +162,9 @@ The following table shows how to parse some of the presence category instances t
 </tr>
 </tbody>
 </table>
-
 </div>
 <p></p>
-<div class="alert">
-
-> [!NOTE]
-> <P>Activity tokens are case-sensitive.</P>
-
-
-</div>
+<p><b>NOTE</b>: Activity tokens are case-sensitive.</p>
 <p></p></td>
 </tr>
 <tr class="even">
@@ -182,8 +177,8 @@ The following table shows how to parse some of the presence category instances t
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -254,13 +249,12 @@ The following table shows how to parse some of the presence category instances t
 <td><p>Capabilities Summary String</p></td>
 <td><p>Lync 2013 displays the following capabilities summary string to supplement an activity string.</p>
 <div class="caption">
-
 </div>
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -290,20 +284,16 @@ The following table shows how to parse some of the presence category instances t
 <td><p></p></td>
 <td><p>lastActive attribute</p></td>
 <td><p>For an inactive mode of Available – Idle, Busy – Idle, Be Right Back, Away, or Offline, Lync 2013 displays the time period in which an aggregated state has remained inactive since the last active mode of Available, Busy, or Do Not Disturb. This inactive time period is appended to an inactive state as &quot;<em>Inactive for 5 mins</em>&quot;, &quot;<em>Away for 5 hours</em>&quot; or &quot;<em>Offline for 20 mins</em>&quot;. The following example shows how this scenario is computed. lastActiveTime has the value of the lastActive attribute of an appropriate aggregated state.</p>
-<pre><code>inactiveTimePeriod = currentTime - lastActiveTime</code></pre></td>
+<p> `inactiveTimePeriod = currentTime - lastActiveTime` </p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Location</p></td>
 <td><p>The subscriber receives a computed location that is determined in the following manner:</p>
 <p>When the aggregated availability number is less than 12000 and the most active computer (with the lowest availability number) has its location specified (in the <a href="state-endpointlocation-element.md">state/endpointLocation element</a> element), this location information will be included in the <a href="state-element_4.md">state[@type='aggregateState'] element</a> instance.</p>
-<div class="alert">
 
-> [!NOTE]
-> <P>The received location information indicates a place either set by the publisher or provided by the Microsoft Lync Server 2013 Location Information Service. The location information that the publisher wants the remote watchers to see is present. It is not necessarily the location where the user is actually located.</P>
-
-
-</div></td>
+<p><b>NOTE</b>: The received location information indicates a place either set by the publisher or provided by the Microsoft Lync Server 2013 Location Information Service. The location information that the publisher wants the remote watchers to see is present. It is not necessarily the location where the user is actually located.</p>
+</td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -316,7 +306,5 @@ The following table shows how to parse some of the presence category instances t
 
 ## See also
 
-#### Concepts
-
-[Presence category instances published or used by Lync](presence-category-instances-published-or-used-by-lync.md)
+- [Presence category instances published or used by Lync](presence-category-instances-published-or-used-by-lync.md)
 

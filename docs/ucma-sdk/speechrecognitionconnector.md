@@ -13,7 +13,7 @@ dev_langs:
 # SpeechRecognitionConnector
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A [SpeechRecognitionConnector](https://msdn.microsoft.com/en-us/library/hh383253\(v=office.15\)) instance can transfer audio data from a **SpeechRecognitionEngine** instance (in the **Microsoft.Speech** namespace) to an [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instance that is attached to the **SpeechRecognitionConnector** instance.
 
@@ -29,19 +29,19 @@ The following procedure describes the steps involved in creating and using a [Sp
 
 1.  Create an instance of this class.
     
-    ``` csharp
+    ```csharp
     SpeechRecognitionConnector recoConn = new SpeechRecognitionConnector();
     ```
 
 2.  Attach an [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instance (assumed to have been previously constructed and in the **Active** state).
     
-    ``` csharp
+    ```csharp
     recoConn.AttachFlow(AudioVideoFlow);
     ```
 
 3.  Start the connector to initiate speech recognition.
     
-    ``` csharp
+    ```csharp
     SpeechRecognitionStream recoStream = SpeechRecognitionConnector.Start();
     ```
     
@@ -49,7 +49,7 @@ The following procedure describes the steps involved in creating and using a [Sp
 
 4.  When the application is finished with its speech recognition, it calls **Stop**.
     
-    ``` csharp
+    ```csharp
     recoConn.Stop();
     ```
     
@@ -57,7 +57,7 @@ The following procedure describes the steps involved in creating and using a [Sp
 
 5.  The application owns the stream as soon as it is returned by **Start**, so when it is finished with the stream, it should call **Dispose**.
     
-    ``` csharp
+    ```csharp
     recoStream.Dispose();
     ```
     
@@ -65,7 +65,7 @@ The following procedure describes the steps involved in creating and using a [Sp
 
 6.  When the application is completely finished with the connector itself, it should call **Dispose** to free all unmanaged buffers.
     
-    ``` csharp
+    ```csharp
     recoConn.Dispose();
     ```
 

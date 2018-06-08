@@ -13,7 +13,7 @@ dev_langs:
 # Self container
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Self Container has an instance ID value of 1 (one). It is invisible to all users except the container owner or the local user. It is used to cache the user or application data. The data can be used to construct the local user’s contact information, to facilitate presence publication, and to establish communications sessions.
 

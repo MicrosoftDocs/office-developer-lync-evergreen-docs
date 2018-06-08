@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Hop element (RouteType complexType) (Lync SDN Interface 2.1.1)
+# Hop element 
+
+(RouteType complexType) (Lync SDN Interface 2.1.1)
 
 IP address of one hop (router, gateway, switch, etc) on the path from the source to the destination of the media stream.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Hop"  type="xs:string" maxOccurs="unbounded">
     

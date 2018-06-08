@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parsing server configuration
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The server configuration from the provisioned data specifies the currently configured server settings. In Microsoft Unified Communications Managed API (UCMA), the server configuration is encapsulated by a ServerConfiguration object, which exposes the configuration settings as a collection of name-value pairs known as the properties in addition to other server-specific information.
 

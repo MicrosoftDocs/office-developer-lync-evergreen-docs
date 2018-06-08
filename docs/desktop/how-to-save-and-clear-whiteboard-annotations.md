@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to save and clear annotations made to a whiteboard in a Lync 2013 conversation by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -109,7 +109,7 @@ Before the logic in this topic runs in your application, a conversation must be 
 
 Add the following namespace declarations to your application.
 
-``` csharp
+```csharp
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Group;
 using Microsoft.Lync.Model.Conversation;
@@ -121,7 +121,7 @@ using System.Collections.Generic;
 
 Add the following class field declarations to your application.
 
-``` csharp
+```csharp
         /// <summary>
         /// Lync client platform. The entry point to the API
         /// </summary>
@@ -157,7 +157,7 @@ You can save the annotations that are made to any content in the content bin whe
 
 The following example saves the annotations made to the active shared content locally as a .png image.
 
-``` csharp
+```csharp
         /// <summary>
         /// If content stage item is a Whiteboard, saves whiteboard annotations.
         /// </summary>
@@ -197,7 +197,7 @@ You can clear the annotations that are made to any content in the content bin wh
 
 The following example clears all annotations on the active shared content.
 
-``` csharp
+```csharp
     int hrReason;
     if (((ContentSharingModality)_conversation.Modalities[ModalityTypes.ContentSharing]).ActiveContent.CanInvoke(ShareableContentAction.ClearAllAnnotations, out hrReason))
     {
@@ -209,7 +209,7 @@ The following example clears all annotations on the active shared content.
 
 The following example declares a Windows Form that presents a meeting content console application. A user can start a conversation and manage the content that is shared on the conversation content stage using this example application.
 
-``` csharp
+```csharp
 namespace ContentSharing
 {
     partial class ContentSharing_Form
@@ -824,7 +824,7 @@ namespace ContentSharing
 
 The following example is the interaction code for the previously declared window. The example contains all of the API calls that are needed to manage meeting content.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;
@@ -2574,7 +2574,7 @@ namespace ContentSharing
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with content sharing](what-you-can-do-with-content-sharing.md)
 

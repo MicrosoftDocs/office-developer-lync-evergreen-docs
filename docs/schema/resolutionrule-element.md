@@ -13,11 +13,11 @@ dev_langs:
 # resolutionRule element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a rule to resolve any occurrence constraints imposed the specified member.
 
-``` xml
+```xml
 <resolutionRule type="resolutionRuleTypeEnumEx" role="roleTypeEnumEx" [anyAttribute]="anyValue">
    <ct:delimiter/>
    <[any]>

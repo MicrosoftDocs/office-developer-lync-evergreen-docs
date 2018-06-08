@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Codec element (StartPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# Codec element (StartPropertiesType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Codec and estimates for the bandwidth that the codecs will use. This list contains all codecs that are agreed upon by the two endpoints. Both end-points may decide to switch among these codecs at any time (without additional signalling).
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Codec"  type="CodecType" maxOccurs="unbounded" minOccurs="0">
     

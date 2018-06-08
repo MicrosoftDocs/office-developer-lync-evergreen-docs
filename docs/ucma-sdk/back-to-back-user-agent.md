@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Back-to-back user agent
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 provides several classes to support the back-to-back user agent concept. The principal class of interest to application developers is the [BackToBackCall](https://msdn.microsoft.com/en-us/library/hh365598\(v=office.15\)) class. Using back-to-back user agent functionality, an application can perform the following operations:
 

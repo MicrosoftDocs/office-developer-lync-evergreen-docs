@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core Microsoft Lync 2013 meeting-related programming tasks you can do with the Microsoft Lync 2013 API. These tasks include defining a meeting access policy, managing the display of shared content and meeting video, assigning meeting presenters, and starting meet-now meetings.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -47,7 +47,7 @@ The topics in this section show how to programmatically define a meeting access 
 
   - [How to: Send a meeting access key to a Persistent Chat room](how-to-send-a-meeting-access-key-to-a-persistent-chat-room.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

@@ -13,11 +13,11 @@ dev_langs:
 # device/capabilities/text element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the capability for instant messaging on a device.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/device">
      <text 

@@ -13,11 +13,11 @@ dev_langs:
 # delimiter element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a marker to begin a schema extension for forward and backward compatibility.
 
-``` xml
+```xml
 <ct:delimiter xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes" />
 <tns:[any]>...</tns:[any]>
 <ct:end/>
@@ -84,7 +84,7 @@ For multiple extensions to the same parent element, there will be multiple insta
 
 The following XML snippet shows a use of the ct:delimiter and ct:end elementd to add a voiceMailStamp as a schema extension to the otherOptions category instance value.
 
-``` xml
+```xml
 <otherOptions xmlns="http://schemas.microsoft.com/2006/09/sip/options/otherOptions" xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes">
   <permissions>
     <personalInformationManager>outlook</personalInformationManager>

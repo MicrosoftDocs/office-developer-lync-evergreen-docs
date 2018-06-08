@@ -13,11 +13,11 @@ dev_langs:
 # sourceNetworks element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies the networks to which a particular member belongs.
 
-``` xml
+```xml
 <sourceNetworks>
    < sourceNetwork>...</ sourceNetwork>
 </ sourceNetworks >

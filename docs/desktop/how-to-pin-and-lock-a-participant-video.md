@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to programmatically lock and pin meeting participant video feeds in a Microsoft Lync 2013 meet-now meeting by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ The prerequisites for pinning and locking participant video feeds are as follows
     
     The following example gets a participant from the conversation participant collection based on a selected contact display name. When a participant is found, the state of video pinning is read from the participant [Participant.Properties](https://msdn.microsoft.com/en-us/library/jj278318\(v=office.15\)) collection. If the video is pinned, the example unpins the video. Otherwise, the video is pinned.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Pins the selected participant video to the video gallery if it is not pinned and
             /// unpins the video if it is pinned.
@@ -103,7 +103,7 @@ The prerequisites for pinning and locking participant video feeds are as follows
     
     The following example gets a participant from the conversation participant collection based on a selected contact display name. When a participant is found, the state of video locking is read from the participant [Participant.Properties](https://msdn.microsoft.com/en-us/library/jj278318\(v=office.15\)) collection. If the video is locked, the example unlocks the video. Otherwise, the video is locked.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Locks the selected participant video in the video gallery so that other conversation participants cannot remove the participant's 
             /// video stream from their view of the video gallery.
@@ -140,7 +140,7 @@ The prerequisites for pinning and locking participant video feeds are as follows
 
 The following example declares a WPF window that lets a user manage a new meet-now meeting lobby and then pin and lock participant video streams.
 
-``` xaml
+```xaml
 <Window x:Class="MeetingAccess.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -762,7 +762,7 @@ The following example is the interaction logic for the previously declared WPF w
         }
     }
 
-## Additional resources
+## See also
 
   - [What you can do with Lync meetings](what-you-can-do-with-lync-meetings.md)
 

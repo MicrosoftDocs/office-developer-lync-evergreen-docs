@@ -13,13 +13,9 @@ dev_langs:
 # Call leg scenarios
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Incoming-idle scenario  
-Connecting incoming-idle call legs - two-party call  
-Connecting incoming-idle call legs - conference call  
-Click-to-call scenario  
+ 
 
 The [BackToBackCall](https://msdn.microsoft.com/en-us/library/hh365598\(v=office.15\)) class can be used in two scenarios:
 
@@ -39,7 +35,7 @@ The following illustration shows the signaling and media channels for this scena
 
 The following code example demonstrates how to create a [BackToBackCall](https://msdn.microsoft.com/en-us/library/hh365598\(v=office.15\)) instance. The callback method referred to by the EstablishCompleted parameter in the call to [BeginEstablish(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh384667\(v=office.15\)) is not shown.
 
-``` csharp
+```csharp
 // Create a new call for the outgoing leg.
 AudioVideoCall call2 = new AudioVideoCall(conversation2);
 
@@ -60,7 +56,7 @@ The Incoming-Idle scenario is also referred to as "agent-hunting." In this scena
 
 The following code example shows how to create a **BackToBackCall** instance for this scenario. This example assumes the existence of a previously created [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) instance, and that conversation is a reference to this instance. The incoming call from the customer (incomingCall) is also assumed to be initialized appropriately. As in the previous example, the callback method referred to by the EstablishCompleted parameter in the call to [BeginEstablish(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh384667\(v=office.15\)) is not shown.
 
-``` csharp
+```csharp
 // The conversation for the outbound call is assumed to already exist.
 AudioVideoCall outboundCall = new AudioVideoCall(conversation);
 BackToBackCallSettings outboundCallSettings = new BackToBackCallSettings(outboundCall, agentUri);
@@ -83,7 +79,7 @@ The following illustration shows the signaling and media channels for the confer
 
 The following code example shows the call to [BeginJoin(ConferenceJoinOptions, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh348502\(v=office.15\)).
 
-``` csharp
+```csharp
 ConferenceJoinOptions cjo = new ConferenceJoinOptions();
 cjo.JoinAsTrustedApplication = false;
 conferenceSession.BeginJoin(cjo, this.ConferenceJoinCompleted, conferenceSession);
@@ -91,7 +87,7 @@ conferenceSession.BeginJoin(cjo, this.ConferenceJoinCompleted, conferenceSession
 
 The following code example shows the definition of the callback method that appears as a parameter in the previous example. In this example, a **BackToBackCall** instance is created with the customer’s incoming call as one leg and the connection to the conference as the other leg.
 
-``` csharp
+```csharp
 private void ConferenceJoinCompleted(IAsyncResult result)
 {
   ConferenceSession session = (ConferenceSession)result.AsyncState;

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Inside element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# Inside element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 (Deprecated - since Lync 2013, this field is not reliable anymore.) Indicates if the source is registered within the enterprise (True) or not (False).
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Inside"  type="xs:boolean" minOccurs="0">
     

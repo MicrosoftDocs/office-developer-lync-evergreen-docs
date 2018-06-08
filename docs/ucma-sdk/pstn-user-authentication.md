@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # PSTN user authentication
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 applications add the ability to authenticate a user to the Microsoft Lync Server 2013/Exchange Server 2013 servers by means of a Lync Server 2013 user personal identification number (PIN), or by authenticating a user separately, and then using server trust to take actions on behalf of that user.
 

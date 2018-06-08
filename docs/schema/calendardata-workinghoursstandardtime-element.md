@@ -13,11 +13,11 @@ dev_langs:
 # calendarData/WorkingHoursStandardTime element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Holds the standard time of the user’s local time zone.
 
-``` xml
+```xml
 <StandardTime>
     <Bias>Timezone offset in minutes from the local time zone </Bias>
     <Time>Starting time (hh:mm:ss) of the standard time</Time>
@@ -111,7 +111,7 @@ None
 
 The following XML code snippet shows the standard time in a given time zone:
 
-``` xml
+```xml
 <StandardTime>
     <Bias>0</Bias>
     <Time>02:00:00</Time>

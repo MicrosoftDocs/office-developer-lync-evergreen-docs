@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to configure garbage collection in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## Configuring garbage collection on the server
 

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the foundational Microsoft Lync 2013 SDK objects that make up the programmable components of a Microsoft Lync 2013 online meeting.
 
-**Last modified:** December 11, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -65,7 +65,7 @@ The topic in this section describes the Lync 2013 API object model that exposes 
 
   - [Lync meet-now meeting object model](lync-meet-now-meeting-object-model.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

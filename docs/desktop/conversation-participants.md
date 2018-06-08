@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about how Microsoft Lync 2013 SDK represents the people who are participating in a Microsoft Lync 2013 conversation.
 
-**Last modified:** December 11, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -42,7 +42,7 @@ People who are participating in Lync 2013 are represented by [Microsoft.Lync.Mod
 
 You can invite a person to a conversation by getting his or her [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object or the [Microsoft.Lync.Model.ContactEndpoint](https://msdn.microsoft.com/en-us/library/jj276722\(v=office.15\)) of a telephone number to be dialed. There is an overload of the **Conversation.AddParticipant** method that is appropriate for the kind of entity that you are adding to the conversation. **Participant** objects are created by the API platform when you call the [Conversation.AddParticipant](https://msdn.microsoft.com/en-us/library/jj266479\(v=office.15\)) (Contact) method or the [Conversation.AddParticipant](https://msdn.microsoft.com/en-us/library/jj266479\(v=office.15\)) (ContactEndpoint) method. After a person or telephone number is added to a conversation and the [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event is raised, you invite the person by sending an initial IM on the conversation [Microsoft.Lync.Model.Conversation.InstantMessageModality](https://msdn.microsoft.com/en-us/library/jj266036\(v=office.15\)) modality or dial the added telephone number by connecting the conversation [Microsoft.Lync.Model.Conversation.AudioVideo.AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)).
 
-## Additional resources
+## See also
 
   - [Core concepts: Lync conversations](core-concepts-lync-conversations.md)
 

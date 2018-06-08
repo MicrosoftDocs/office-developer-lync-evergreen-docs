@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Enhanced Presence category instances
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A particular piece of presence data corresponds to a category instance of the given category name. To indicate that a user is available while attending a meeting, a unified communications application can publish a presence state category instance containing the following presence state value.
 

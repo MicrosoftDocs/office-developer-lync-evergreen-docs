@@ -13,11 +13,11 @@ dev_langs:
 # routing/preamble/flags element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains the names of specific routing rules for call forwarding.
 
-``` xml
+```xml
 <ro:flags xmlns:ro="http://schemas.microsoft.com/2006/09/sip/routing"
     name="string" value="flag-values-list" />
 ```

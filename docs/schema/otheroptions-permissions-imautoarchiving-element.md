@@ -13,11 +13,11 @@ dev_langs:
 # otherOptions/Permissions/imAutoArchiving element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies whether to automatically archive instant messages.
 
-``` xml
+```xml
 <oo:imAutoArchiving 
      xmlns:oo="http://schemas.microsoft.com/2006/09/sip/options/otherOptions"
      >boolean</oo:imAutoArchiving>
@@ -71,7 +71,7 @@ By default, Microsoft Lync 2013 sets this to true.
 
 The following XML code snippet shows an otherOptions category instance containing a specification of the permissions:
 
-``` xml
+```xml
   <otherOptions xmlns="http://schemas.microsoft.com/2006/09/sip/options/otherOptions">
     <permissions>
       <personalInformationManager>outlook</personalInformationManager>

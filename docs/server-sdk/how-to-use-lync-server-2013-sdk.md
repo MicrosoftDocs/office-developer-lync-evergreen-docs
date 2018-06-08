@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about ways to use Microsoft Lync Server 2013 SDK to build, deploy, and debug script-only applications and managed SIP applications in a Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## In this section
 

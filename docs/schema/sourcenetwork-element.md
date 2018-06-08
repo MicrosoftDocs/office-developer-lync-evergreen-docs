@@ -13,11 +13,11 @@ dev_langs:
 # sourceNetwork element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a type of network of a given member.
 
-``` xml
+```xml
 <sourceNetwork type="sourceNetworkTypeEnumEx" [anyAttribute]="anyValue">
    <ct:delimiter/>
    <[any]>

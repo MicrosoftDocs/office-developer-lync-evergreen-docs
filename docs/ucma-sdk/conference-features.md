@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Conference features
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The topics in this section summarize the most important new or changed conferencing features in Microsoft Unified Communications Managed API 4.0. These features can be divided into three broad areas:
 

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This section discusses the schema elements that are used to extend or customize enhanced presence category instances.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Microsoft Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2013 release includes the **CommonTypes** namespace that includes elements that are used in all the category instance schemas to extend or customize enhanced presence category instances.
 

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about the Microsoft SIP Processing Language (MSPL) script syntax. This topic discusses supported and unsupported MSPL features and describes specific syntactical constructs.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## MSPL script syntax
 

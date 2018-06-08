@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to use the **LogListener** object to record logging information in Microsoft Lync Controls applications, for both Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF).
 
-**Last modified:** December 26, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -68,7 +68,7 @@ Use the LogListener.Categories property to filter log entries. Individual listen
 
 LogListener has a default constructor and a constructor with parameters. The Write method on each LogListener object added to the Listeners collection is called when an event is processed. Developers should add code to the Write method to write to a Web service, the Event Viewer, or another type of storage.
 
-``` csharp
+```csharp
 // Sample implementation of the LogListener class
 class MyListener : LogListener 
 {
@@ -115,7 +115,7 @@ class MyListener : LogListener
 
 Use the AddListener method to add a LogListener to the Listeners collection as shown in the following example. Listeners is a read-only collection derived from [ReadOnlyCollection](http://go.microsoft.com/fwlink/?linkid=155357%26clcid=0x409).
 
-``` csharp
+```csharp
 Logger.AddListener(MyListener);
 ```
 
@@ -135,7 +135,7 @@ Use the Level property to limit the log entries that appear in logging output. L
 
 To change the log level, set the Level property on the Logger, LogListener, and LogEntry objects.
 
-``` csharp
+```csharp
 // Set the level on the Logger object
 Logger.Level = LogLevel.Info;
 
@@ -154,7 +154,7 @@ To write log entries, first override the Write and WriteExtended methods. In the
 
 Use the TraceLogListener object to provide trace output in Lync Controls WPF applications.
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync Controls](beyond-the-basics-lync-controls.md)
 

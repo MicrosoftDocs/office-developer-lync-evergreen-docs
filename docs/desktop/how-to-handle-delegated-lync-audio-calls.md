@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to programmatically handle a delegated Microsoft Lync 2013 audio call by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -132,7 +132,7 @@ To give the local user the delegator name on an incoming delegated call, add cod
 
 The following example handles the **Load** event in Microsoft Windows Forms. For information about signing in to Lync 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-``` csharp
+```csharp
         ...
         private LyncClient _lyncClient;
         ...
@@ -169,7 +169,7 @@ The following example handles the **Load** event in Microsoft Windows Forms. For
 
 The following example registers or unregisters for conversation events on a delegator client.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles event that is raised when a user removes local user from a call delegate list
         /// </summary>
@@ -195,7 +195,7 @@ The following example registers or unregisters for conversation events on a dele
 
 The following example code should be added to your [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event handler.
 
-``` csharp
+```csharp
     //The call is a delegated call.
     if ((ConversationManager)sender != _LyncClient.ConversationManager)
     {
@@ -221,7 +221,7 @@ The following example code should be added to your [ConversationAdded](https://m
     }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

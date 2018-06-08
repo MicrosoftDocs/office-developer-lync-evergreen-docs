@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to programmatically transfer a Microsoft Lync 2013 audio call by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -253,7 +253,7 @@ The prerequisites for transferring a call are as follows:
 
 The following declarations are added to your custom class. You initiate \_AVModality with the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) obtained from the [Modalities](https://msdn.microsoft.com/en-us/library/jj275560\(v=office.15\)) property of the active conversation.
 
-``` csharp
+```csharp
         private AVModality _AVModality;
         private LyncClient _LyncClient;
 
@@ -296,7 +296,7 @@ The following example uses an active [Conversation](https://msdn.microsoft.com/e
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Performs a "blind transfer" on the active conversation
         /// </summary>
@@ -327,7 +327,7 @@ The following example uses an active [Conversation](https://msdn.microsoft.com/e
 
 The following example is called asynchronously on the Lync thread when the transfer operation completes.
 
-``` csharp
+```csharp
         /// <summary>
         /// Called on the LyncClient worker thread when a call transfer operation completes.
         /// </summary>
@@ -358,7 +358,7 @@ The following example is called asynchronously on the Lync thread when the trans
 
 Handle the event to discover ability to hold, retrieve, and transfer. Event is raised when your ability to do any of these actions changes. When transferring, actions change. When transfer is rejected, actions change.
 
-``` csharp
+```csharp
         /// <summary>
         /// The availability of an action on the audio/video modality has changed. This event triggers the enable state of
         /// MainForm action buttons.
@@ -404,7 +404,7 @@ Handle the event to discover ability to hold, retrieve, and transfer. Event is r
 
 Use **ConversationState.Inactive** when a call is placed on hold after a call transfer. Use **ConversationState.Active** when transfer is rejected. After the transfer is rejected, the call must be retrieved.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles event raised when the state of an active conversation has changed. 
         /// </summary>
@@ -436,7 +436,7 @@ Use **ConversationState.Inactive** when a call is placed on hold after a call tr
 
 The following example is called using the delegate declared as a class field. This example is invoked on the Lync thread and the event data is marshaled to the UI thread by the **Invoke** call.
 
-``` csharp
+```csharp
         /// <summary>
         /// Updates a form control based on action.
         /// </summary>
@@ -478,7 +478,7 @@ The following example is called using the delegate declared as a class field. Th
         }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

@@ -13,11 +13,11 @@ dev_langs:
 # rolePrecedence element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the precedence hierarchy of roles when a member is assigned multiple roles.
 
-``` xml
+```xml
 <rolePrecedence >
    < rolePrecedenceEntry >...</ rolePrecedenceEntry >
 </ rolePrecedence >

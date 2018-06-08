@@ -13,14 +13,14 @@ dev_langs:
 # calendarData/freeBusy element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Contains a contiguous calendar block, showing free-busy intervals of a specified duration from a specified starting time.
 
 [calendarData category instance value element](calendardata-category-instance-value-element.md)  
   freeBusy Element  
 
-``` xml
+```xml
 <freeBusy xmlns="http://schemas.microsoft.com/2006/09/sip/calendarData"
     startTime="dateTime" granularity="duration" encodingVersion="decimal"> 
    A Base64 encode string of a binary stream

@@ -10,29 +10,18 @@ mtps_version: v=office.15
 
 # Enhanced features of Lync SDN Interface 2.1.1
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
-
-**In this article**  
-New and updated setting-specific behaviors  
-New and updated behaviors for version 2.1.1  
-Additional resources  
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The Lync SDN Interface 2.1.1 updates features that are specific to certain configuration settings. These updates:
 
-  - Enable the network to identify the media streams.
-
-  - Communicate updates of the call state and quality data of the media streams as well as endpoints.
-
-  - Provide information about correlations among calls and external users.
-
-  - Optionally, add more insight about SDP content provision, early forewarning with Invites, and errors at the SIP signaling level.
+- Enable the network to identify the media streams.
+- Communicate updates of the call state and quality data of the media streams as well as endpoints.
+- Provide information about correlations among calls and external users.
+- Optionally, add more insight about SDP content provision, early forewarning with Invites, and errors at the SIP signaling level.
 
 
 > [!NOTE]
-> <P>For clarity, the "new" features discussed in this article reflect from version 2.0 and 2.1 and 2.1.1; they are not new in the interval between versions 2.1 and 2.1.1.</P>
-
-
+> For clarity, the "new" features discussed in this article reflect from version 2.0 and 2.1 and 2.1.1; they are not new in the interval between versions 2.1 and 2.1.1.
 
 ## New and updated setting-specific behaviors
 
@@ -88,17 +77,13 @@ The Lync SDN Interface 2.1.1 updates features that are specific to certain confi
 
 Following are features and behaviors that have been added or updated in the Lync SDN Interface between versions 2.1 and 2.1.1
 
-  - Disaster failover configuration for LSM pools
+- Disaster failover configuration for LSM pools
+- Reporting on mediabypass PSTN calls that were ignored before
+- Support for Skype for Business vNext and automatic activation of IncallQuality messages in vNext
+- For additional updates, please see the Release Notes.
 
-  - Reporting on mediabypass PSTN calls that were ignored before
+## See also
 
-  - Support for Skype for Business vNext and automatic activation of IncallQuality messages in vNext
-
-  - For additional updates, please see the Release Notes.
-
-## Additional resources
-
-  - [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
-
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+- [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

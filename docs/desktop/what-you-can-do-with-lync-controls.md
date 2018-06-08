@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core tasks you can do with the Lync Controls in Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ By using a combination of Lync Controls, you can reproduce most of the features 
 
   - [How to: Display a customized list of team contacts in Lync SDK](how-to-display-a-customized-list-of-team-contacts-in-lync-sdk.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync Controls](get-started-with-lync-controls.md)
 

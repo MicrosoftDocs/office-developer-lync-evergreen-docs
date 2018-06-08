@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# LinkSpeed element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# LinkSpeed element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Basic bandwidth of the connection.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="LinkSpeed"  minOccurs="0">
     

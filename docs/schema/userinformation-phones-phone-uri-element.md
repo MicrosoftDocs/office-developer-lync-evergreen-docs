@@ -13,11 +13,11 @@ dev_langs:
 # userInformation/phones/phone/uri element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the TEL URI of a phone in the user’s phone list.
 
-``` xml
+```xml
 <ui:uri xmlns:ui="http://schemas.microsoft.com/2006/09/sip/options/userInformation" 
        updated="xs:dateTime"
        [anyAttri]="anyAttribute">xs:updatedAnyURI</ui: uri >
@@ -89,7 +89,7 @@ A string
 
 The following XML snippet shows a userInformation category instance value containing two types (work and mobile) of phone numbers
 
-``` xml
+```xml
 <userInformation xmlns="http://schemas.microsoft.com/2006/09/sip/options/userInformation">
     <callHandlingList>
        <lastPhone>

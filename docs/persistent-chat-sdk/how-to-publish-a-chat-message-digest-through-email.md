@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how the Microsoft Lync Server 2013 Persistent Chat API and Exchange Web Services (EWS) Managed API is used to create the Persistent Chat message digest. The digest is used in the Microsoft Outlook inbox for each Persistent Chat room member.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In a forum, it is customary to provide message digest as a mechanism to notify the participants of newly posted messages to the forum even when the participants are not online. The message digest can be in the form of complete listing of messages or some type of summaries. It can be delivered to the email accounts of the members of the forum as soon as new messages are posted or on a fixed schedule.
 

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the **Source** property used on all Microsoft Lync 2013 Controls.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -96,7 +96,7 @@ The **Source** property expects the following types of localizable strings:
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

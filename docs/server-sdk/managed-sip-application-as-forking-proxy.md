@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how a forking proxy in a managed SIP application forwards a SIP request to multiple SIP address and returns the responses to the sender. This topic discusses the object model for the forking behavior.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## SIP forking proxy application
 

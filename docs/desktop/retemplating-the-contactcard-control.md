@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about advanced visual template editing for Microsoft Lync 2013 Controls that inherit the ContactContactPresenter control.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ Additional resources</p></td>
 
 If you follow the steps in [Editing the template of a Lync Control](editing-the-template-of-a-lync-control.md) to retemplate a PresenceIndicator control, but perform the operation on a [ContactCard](https://msdn.microsoft.com/en-us/library/hh379168\(v=office.15\)) control, the operation generates new styles, templates, and other resources in your resource dictionary. The template for the ContactCard control can be found by searching for the following string.
 
-``` xaml
+```xaml
     <ControlTemplate TargetType="{x:Type controls:ContactCard}">
 ```
 
@@ -61,7 +61,7 @@ You can easily add another section to the Contact Card by inserting it into this
 
 Review the ContactCard template appearing in the resource dictionary that you previously created. You can find this template by searching for the following string.
 
-``` xaml
+```xaml
     <ControlTemplate TargetType="{x:Type controls:ContactCard}">
 ```
 
@@ -73,7 +73,7 @@ A ContentPresenter instance uses the template referenced by its ContentTemplate 
 
 The ContactContentPresenter control includes four dependency properties that identify the specific data template used for different contact types.
 
-``` xaml
+```xaml
   PersonContentTemplate="{StaticResource ContactCardDetailsPersonDataTemplate}" 
   GroupContentTemplate="{StaticResource ContactCardDetailsDistributionListDataTemplate}" 
   BotContentTemplate="{StaticResource ContactCardDetailsBotDataTemplate}" 
@@ -151,13 +151,13 @@ When bound to a person’s SIP URI, the ContactCard control expands to display a
 
 To retemplate the ContactCard control, follow the standard retemplating procedure described earlier. When you complete this procedure, copies of the styles, templates, and other resources used by the ContactCard control appear in the resource dictionary. Search for the ContactCardDetailsPersonDataTemplate template in your resource dictionary.
 
-``` xaml
+```xaml
     <DataTemplate x:Key="ContactCardDetailsPersonDataTemplate">
 ```
 
 Within ContactCardDetailsPersonDataTemplate, insert the following XAML into the list of existing tab options.
 
-``` xaml
+```xaml
     <TabItem Header="My Custom Tab" MinWidth="90"
          Style="{StaticResource EntityCardDetailsTabItemStyle}" 
          Background="{Binding Background, RelativeSource={RelativeSource TemplatedParent}}">
@@ -172,7 +172,7 @@ Within ContactCardDetailsPersonDataTemplate, insert the following XAML into the 
 
 When you run the application and expand the Contact Card, **My Custom Tab** appears in the details section.
 
-## Additional resources
+## See also
 
 [Visual template editing for Lync Controls that use contentPresenters](visual-template-editing-for-lync-controls-that-use-contentpresenters.md)
 

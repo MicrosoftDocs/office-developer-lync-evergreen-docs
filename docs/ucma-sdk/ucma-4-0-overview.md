@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UCMA 4.0 overview
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The topics in this section a high-level overview of Microsoft Unified Communications Managed API 4.0, its architecture, topologies, and object model.
 

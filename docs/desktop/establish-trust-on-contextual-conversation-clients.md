@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Trust in a Microsoft Lync Control application is determined by the source of the contextual information offered to the user. If context comes from an installed application, an offer of trust is present. If context comes from a URL, there is less trust.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -54,7 +54,7 @@ In this method, the package registration data is typically added to the Lync 201
 
 In this method, the application registration data is added to the Lync 2013 registration pool at runtime by the Lync 2013 application. By using Runtime Registration, the developer can decide to manage the contextual experience by selecting one of several alternative packages to install. For an example that shows how to perform Runtime Registration, see [How to: Install a CWE application in Lync SDK](how-to-install-a-cwe-application-in-lync-sdk.md).
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

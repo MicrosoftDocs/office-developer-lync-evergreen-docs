@@ -11,13 +11,9 @@ mtps_version: v=office.15
 # TrustedConferenceParticipant (QuickStart)
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+
 
 Sample name: TrustedConferenceParticipant
 
@@ -29,21 +25,21 @@ The application establishes an application endpoint and impersonates a user who 
 
 ## Features
 
-  - *Ad hoc* conference creation
+- *Ad hoc* conference creation
 
-  - Conversation impersonation
+- Conversation impersonation
 
-  - Joining a conference as a trusted participant (the trusted participant’s endpoint will not be visible in the roster)
+- Joining a conference as a trusted participant (the trusted participant’s endpoint will not be visible in the roster)
 
-  - Configuration of audio-video call routes
+- Configuration of audio-video call routes
 
 ## Prerequisites
 
-  - Microsoft Lync Server 2013.
+- Microsoft Lync Server 2013.
 
-  - Provisioned trusted [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) object
+- Provisioned trusted [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) object
 
-  - A currently logged-on client on Lync Server 2013.
+- A currently logged-on client on Lync Server 2013.
 
 ## Running the sample
 

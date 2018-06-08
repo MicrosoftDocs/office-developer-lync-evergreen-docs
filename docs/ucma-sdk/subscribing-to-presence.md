@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Subscribing to presence
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A communication application often must watch the presence of other users to make smart decisions when routing a call. Here are few examples:
 

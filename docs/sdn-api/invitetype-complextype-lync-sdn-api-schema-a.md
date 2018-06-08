@@ -10,15 +10,12 @@ dev_langs:
 - xml
 ---
 
-# InviteType complexType (Lync SDN API Schema A)
+# InviteType complexType 
+
+(Lync SDN API Schema A)
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Type information
 
@@ -46,7 +43,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:complexType name="InviteType">
     <xs:sequence>
         <xs:element name="Caller" type="EndPointType"></xs:element>

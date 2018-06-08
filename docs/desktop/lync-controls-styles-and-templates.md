@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Microsoft Lync 2013 Controls style and template XAML files that you can copy into your application.
 
-**Last modified:** December 26, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 Microsoft Lync Controls use default XAML styles and templates. You can copy these styles and templates into your project and modify them to customize control behavior and appearance. For more information, see the topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 

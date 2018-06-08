@@ -13,7 +13,7 @@ dev_langs:
 # Simplified presence publication for endpoints
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Applications can opt to automatically publish presence information for user endpoints or application endpoints at the time the endpoint is established. This is especially useful for applications that publish commonly used presence categories such as state and endpoint capabilities once, as well as for those that rarely change their published information. These applications do not need to directly deal with the underlying subscription (which is managed by [LocalOwnerPresence](localownerpresence.md)).
 
@@ -63,7 +63,7 @@ UCMA 4.0 allows the [PresentityType](https://msdn.microsoft.com/en-us/library/hh
 
 In the following example, an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) instance is created and initialized with several properties on an [ApplicationEndpointSettings](https://msdn.microsoft.com/en-us/library/hh349433\(v=office.15\)) instance that are appropriate for a bot.
 
-``` csharp
+```csharp
 ApplicationEndpointSettings endpointSettings = new ApplicationEndpointSettings("sip:bot@contoso.com");
 endpointSettings.AutomaticPresencePublicationEnabled = true;
 endpointSettings.Presence.PresentityType = "automaton";

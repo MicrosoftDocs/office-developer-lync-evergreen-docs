@@ -16,7 +16,7 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 ContactSearchInputBox control.
 
-**Last modified:** February 12, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -116,7 +116,7 @@ Notable ContactSearchInputBox control public properties and events relating to u
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ContactSearchInputBox x:Name="searchInput"/>
   <controls:ContactSearchResultList
@@ -125,7 +125,7 @@ The following example can be used for Microsoft Silverlight and Microsoft Window
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

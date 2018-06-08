@@ -12,12 +12,6 @@ dev_langs:
 
 # ResponseCodeType complexType (Lync SDN Interface 2.1.1)
 
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
-
 ## Type information
 
 <table>
@@ -44,7 +38,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="ResponseCodeType">
         <xs:complexContent>
  

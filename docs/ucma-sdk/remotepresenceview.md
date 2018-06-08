@@ -11,13 +11,9 @@ mtps_version: v=office.15
 # RemotePresenceView
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-RemotePresenceView capabilities  
-Context data  
-Presence query  
-RemotePresenceView state transitions  
+  
 
 A presence view is a unified way to request presence information for a set of presentities. The [RemotePresenceView](https://msdn.microsoft.com/en-us/library/hh381152\(v=office.15\)) class provides an implementation of this capability.
 

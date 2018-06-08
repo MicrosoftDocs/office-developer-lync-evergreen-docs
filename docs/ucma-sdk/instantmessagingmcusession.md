@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # InstantMessagingMcuSession
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [InstantMessagingMcuSession](https://msdn.microsoft.com/en-us/library/hh382004\(v=office.15\)) class represents the Instant Messaging-specific implementation of the media-agnostic [McuSession](https://msdn.microsoft.com/en-us/library/hh384975\(v=office.15\)) class. The class encapsulates operations and events relevant to the Instant Messaging Multipoint Control Unit (MCU).
 

@@ -11,18 +11,8 @@ mtps_version: v=office.15
 # Pre-meeting: conference scheduling
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
-
-**In this article**  
-Conferencing capabilities  
-Scheduling template  
-Pre-meeting conference access level and conference lobby  
-Phone access and lobby bypass  
-Entry-exit announcement  
-Automatic leader role assignment  
-Modality extensibility  
-Conference web URL  
-Managing conferences  
+**Applies to:** Lync 2013 | Lync Server 2013
+ 
 
 The features described in this section apply to a conference before it becomes an active conference; that is, before the conference session comes into existence.
 

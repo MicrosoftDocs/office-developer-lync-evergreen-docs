@@ -13,11 +13,11 @@ dev_langs:
 # state/activity element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Describes an activity associated with the accompanying availability mode.
 
-``` xml
+```xml
 <st:activity xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" 
        toekn="st:activityTokenEnumEx"
        maxAvailability="st:unsignedInt" 

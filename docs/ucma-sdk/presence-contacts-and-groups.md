@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Presence, contacts, and groups
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Presence plays an important role in the Microsoft Unified Communications Managed API 4.0 for effective communication. It allows a user to know beforehand about the availability of the remote user and to communicate using a given mode and the best mode of communication. Additionally, Microsoft Lync Server 2013 provides an enhanced presence infrastructure that allows the user to share information such as contact information, working hours, and meeting times.
 

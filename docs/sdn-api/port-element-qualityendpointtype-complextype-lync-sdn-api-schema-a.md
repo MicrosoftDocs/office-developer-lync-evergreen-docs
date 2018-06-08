@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Port element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# Port element (QualityEndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 Port number of the destination or source of the media stream used by this endpoint.
 
+**Applies to**: Lync 2013
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Port" type="xs:unsignedInt" minOccurs="0"></xs:element>
 ```
 
@@ -73,12 +70,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="from-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">From</a></p></td>
+<td><p><a href="from-element-qualityupdate-element-sdn-api-schema-a.md">From</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>The source of the reported media stream.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="to-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">To</a></p></td>
+<td><p><a href="to-element-qualityupdate-element-sdn-api-schema-a.md">To</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>Destination of the media stream.</p></td>
 </tr>

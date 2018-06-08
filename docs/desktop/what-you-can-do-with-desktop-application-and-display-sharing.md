@@ -10,9 +10,8 @@ mtps_version: v=office.15
 
 # What you can do with desktop, application, and display sharing
 
-**Last modified:** July 19, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -53,7 +52,7 @@ Learn how to programmatically start a resource sharing conversation, get local s
 
   - [How to: Add an application sharing view to your application](how-to-add-an-application-sharing-view-to-your-application.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

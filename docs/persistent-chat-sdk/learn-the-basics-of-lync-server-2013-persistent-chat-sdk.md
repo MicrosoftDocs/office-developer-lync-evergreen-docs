@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to add Persistent Chat features to an application by using the Microsoft Lync Server 2013 Persistent Chat SDK.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## In this section
 

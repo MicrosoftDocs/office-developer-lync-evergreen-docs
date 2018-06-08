@@ -12,38 +12,37 @@ dev_langs:
 
 # Configuring LDL logging options
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Lync SDN Interface 2.1.1 uses the logging infrastructure of the [Enterprise Libraries 5.0](http://msdn.microsoft.com/en-us/library/ff632023.aspx). You can inspect and modify the configuration file by using the Microsoft Enterprise Library Configuration Tool. For a complete documentation on the options and capabilities of the logging infrastructure, see [Configuring the Logging Application Block](http://msdn.microsoft.com/en-us/library/ff664569\(v=pandp.50\).aspx) in the Enterprise Libraries documentation.
 
 The Enterprise Libraries includes a configuration tool that provides an intuitive graphical user interface for adding and changing settings for the logging configuration. You can use this tool to configure the LDL logging options. This article explains how to configure the logging options in the LyncDialogListener.exe.config file.
 
-## Configuring LDL logging options
+## Set logging configurations
 
 To manually set the most common logging configurations:
 
-  - Navigate to the LDL installation directory.
+1. Navigate to the LDL installation directory.
 
-  - Open the *LyncDialogListener.exe.config* file with a text editor.
+2. Open the *LyncDialogListener.exe.config* file with a text editor.
 
-  - Search for the \<loggingConfiguration\> section and make appropriate changes to entries under the \<listeners\>, formatters and categorySource elements.
+3. Search for the \<loggingConfiguration\> section and make appropriate changes to entries under the \<listeners\>, formatters and categorySource elements.
     
-    Here, the \<listeners\> element specifies the log output, including the log file location and file rotation policies. They refer to a particular formatter to be used. Each entry, an \<add\> element, under \<listeners\> specifies a type of logging. Modifications can include adding a new \<add\> entry to enable the specified type of logging, removing an \<add\> entry to disable the specified type of logging, and changing an existing \<add\> entry to change the specified type of logging.
+   Here, the \<listeners\> element specifies the log output, including the log file location and file rotation policies. They refer to a particular formatter to be used. Each entry, an \<add\> element, under \<listeners\> specifies a type of logging. Modifications can include adding a new \<add\> entry to enable the specified type of logging, removing an \<add\> entry to disable the specified type of logging, and changing an existing \<add\> entry to change the specified type of logging.
     
-    The \<formatters\> element specifies the style for each log entry. The \<categorySource\> element specifies bindings of the log channels used in LDL and LSM to particular listeners. The switchValue could be Off or All indicating whether this log channel is active. For a more thorough investigation of issues, you must start the Debug channel by setting the switchValue to All, as shown. \\
+   The \<formatters\> element specifies the style for each log entry. The \<categorySource\> element specifies bindings of the log channels used in LDL and LSM to particular listeners. The switchValue could be Off or All indicating whether this log channel is active. For a more thorough investigation of issues, you must start the Debug channel by setting the switchValue to All, as shown. \\
     
-    ``` xml
+   ```xml
           <add switchValue="All" name="Debug">
             <listeners>
               <add name="LNEAppLog" />
             </listeners>
           </add>
-    ```
+   ```
 
 The following example shows the LNEAppLog type of logging options containing a modified logging file path (in the boldface text).
 
-``` xml
+```xml
 <listeners>
   <add name="LNEAppLog"
      type="…" 
@@ -60,9 +59,11 @@ The following example shows the LNEAppLog type of logging options containing a m
 </listeners>
 ```
 
+## Lync Dialog Listener service logging types
+
 The Lync Dialog Listener service default configuration supports the following types of logging.
 
-Lync Dialog Listener logging configuration
+### Lync Dialog Listener logging configuration
 
 <table>
 <colgroup>
@@ -95,10 +96,11 @@ Lync Dialog Listener logging configuration
 </tbody>
 </table>
 
+## Lync SDN Manager logging types
 
-The LSM default configuration supports the following types of logging:
+The LSM default configuration supports the following types of logging.
 
-Lync SDN Manager logging configuration
+### Lync SDN Manager logging configuration
 
 <table>
 <colgroup>
@@ -148,15 +150,12 @@ Lync SDN Manager logging configuration
 </table>
 
 
-
 > [!WARNING]
-> <P>The LyncDiagnostics.log as well as the LyncSDNManager.log will not contain person-identifiable information (PII), even in debug-level, while any of the other logs might also contain un-obfuscated user aliases, names and telephone numbers. Activate this logs with caution.</P>
+> The LyncDiagnostics.log as well as the LyncSDNManager.log will not contain person-identifiable information (PII), even in debug-level, while any of the other logs might also contain un-obfuscated user aliases, names and telephone numbers. Activate this logs with caution.
 
 
+## See also
 
-## Additional resources
-
-  - [Configuring Lync SDN Interface 2.1.1 Lync Dialog Listener](configuring-lync-sdn-interface-2-1-1-lync-dialog-listener.md)
-
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+- [Configuring Lync SDN Interface 2.1.1 Lync Dialog Listener](configuring-lync-sdn-interface-2-1-1-lync-dialog-listener.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

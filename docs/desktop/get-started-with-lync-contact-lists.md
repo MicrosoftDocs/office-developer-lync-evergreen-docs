@@ -12,16 +12,11 @@ mtps_version: v=office.15
 
 Learn the programming concepts and Microsoft Lync 2013 SDK object model for building a Microsoft Lync 2013 contact list in an application UI.
 
-**Last modified:** December 07, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-What is a Lync contact list?  
-Get started with Lync contact lists  
-What can you do with a Lync contact list?  
-Beyond the basics: Learn more about Lync contact lists  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+ 
 
 <table>
 <colgroup>
@@ -145,7 +140,7 @@ The following table lists advanced concepts for working with Lync contact lists.
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md)
 

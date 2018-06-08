@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concept of contact presence publication and subscription in Microsoft Lync 2013 SDK.
 
-**Last modified:** December 10, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ Presence publication is the publishing of the local signed-in user’s enhanced 
 
 The information that is published programmatically is immediately available to all subscribing users. An application can control which published enhanced presence information is available to subscribing users by modifying the default privacy relationship assigned to each subscribing contact. For information about how to set privacy relationships, see [How to: Administer privacy relationships between Lync users](how-to-administer-privacy-relationships-between-lync-users.md).
 
-## Additional resources
+## See also
 
   - [Enhanced presence content in Lync SDK](enhanced-presence-content-in-lync-sdk.md)
 

@@ -13,13 +13,9 @@ dev_langs:
 # User endpoints and application endpoints
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-ApplicationEndpoint  
-UserEndpoint  
-Registration recovery  
-Endpoint state transitions  
+ 
 
 The [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) class is an endpoint type that is principally used by server applications, and that provides communication and collaboration services for end users.
 
@@ -69,7 +65,7 @@ When a **UserEndpoint** instance is created, a [UserEndpointSettings](https://ms
 
 The following code example shows how to set the **IsEndpointThrottled** property for an existing **UserEndpoint** instance named *userEP*.
 
-``` csharp
+```csharp
 SipEndpoint sipEP = userEP.InnerEndpoint as SipEndpoint;
 sipEP.IsEndpointThrottled = false;
 ```
@@ -104,29 +100,29 @@ The state transitions in the preceding illustrations are shown in the following 
 
 8.  The transition from **Established** to **Terminating** occurs when one of the following actions takes place:
     
-      - **BeginTerminate** is called.
+    - **BeginTerminate** is called.
     
-      - The server deregisters the endpoint.
+    - The server deregisters the endpoint.
     
-      - The contact object is deleted.
+    - The contact object is deleted.
 
 9.  The transition from **Reestablishing** to **Terminating** occurs when one of the following actions takes place (applies only to user endpoints):
     
-      - **BeginTerminate** is called.
+    - **BeginTerminate** is called.
     
-      - A registration refresh retry fails.
+    - A registration refresh retry fails.
     
-      - The contact object is deleted.
+    - The contact object is deleted.
 
 10. The transition from **Draining** to **Terminating** occurs when one of the following actions takes place:
     
-      - **BeginTerminate** is called.
+    - **BeginTerminate** is called.
     
-      - The server deregisters the endpoint.
+    - The server deregisters the endpoint.
     
-      - A registration refresh retry fails.
+    - A registration refresh retry fails.
     
-      - The contact object is deleted.
+    - The contact object is deleted.
 
 11. The transition from **Idle** to **Terminating** occurs when **BeginTerminate** is called on the endpoint.
 

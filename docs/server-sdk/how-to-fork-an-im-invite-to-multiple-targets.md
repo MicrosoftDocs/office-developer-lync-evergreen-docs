@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to use a script application to fork a message in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 When you forward a message to multiple endpoints, forking occurs. Ringing multiple devices that belong to a user simultaneously is an example of forking. The process of broadcasting a message is used to fork a message to multiple users. The Microsoft Lync Server 2013 SIP Application API supports this kind of scenario by using either script-only or managed code applications, depending on the complexity of the application logic. In this topic, a script-only application is used to fork a message in a Lync Server 2013 deployment.
 

@@ -12,12 +12,6 @@ dev_langs:
 
 # MessageProperties complexType (Lync SDN Interface 2.1.1)
 
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
-
 ## Type information
 
 <table>
@@ -44,7 +38,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="MessageProperties">
       </xs:complexType>
       
@@ -71,22 +65,22 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="msdiagnostics-element-messageproperties-complextype-lync-sdn-interface-2-1-1.md">MSDiagnostics</a></p></td>
+<td><p><a href="msdiagnostics-element-messageproperties-sdn-interface-2-1-1.md">MSDiagnostics</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Lync-specific diagnostics message.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="msdiagnosticsclient-element-messageproperties-complextype-lync-sdn-interface-2-1-1.md">MSDiagnosticsClient</a></p></td>
+<td><p><a href="msdiagnosticsclient-element-messageproperties-sdn-interface-2-1-1.md">MSDiagnosticsClient</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Lync-specific diagnostics message from the client.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="msdiagnosticspublic-element-messageproperties-complextype-lync-sdn-interface-2-1-1.md">MSDiagnosticsPublic</a></p></td>
+<td><p><a href="msdiagnosticspublic-element-messageproperties-sdn-interface-2-1-1.md">MSDiagnosticsPublic</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Lync-specific public diagnostics message.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="responsecode-element-messageproperties-complextype-lync-sdn-interface-2-1-1.md">ResponseCode</a></p></td>
+<td><p><a href="responsecode-element-messageproperties-sdn-interface-2-1-1.md">ResponseCode</a></p></td>
 <td><p><a href="responsecodetype-complextype-lync-sdn-interface-2-1-1.md">ResponseCodeType</a></p></td>
 <td><p>Message describing the error.</p></td>
 </tr>

@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Route element (LyncDiagnostics element) (Lync SDN API Schema A)
+# Route element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Network path of the media stream only provided in Lync 2013 and when the traceRoute feature is activated in Lync.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Route" minOccurs="0">
     <xs:complexType>
         <xs:sequence>

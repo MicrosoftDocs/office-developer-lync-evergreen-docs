@@ -11,11 +11,8 @@ mtps_version: v=office.15
 # Incoming message dispatching
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Owner URI  
-Endpoint URI for a user endpoint  
 Endpoint URI for an application endpoint  
 Targeting a message to a user or application  
 Targeting a message to a specific endpoint  

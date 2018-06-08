@@ -16,7 +16,7 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 ContactSearch control.
 
-**Last modified:** April 09, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -82,13 +82,13 @@ Notable ContactSearch control public properties relating to unified communicatio
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ContactSearch/>
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

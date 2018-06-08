@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn what you can do with Microsoft Lync 2013 SDK, including changing sign-in connection settings, signing in to and out of Lync 2013, publishing enhanced presence, and administering user privacy relationships.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -46,7 +46,7 @@ The [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/j
 
   - [How to: Administer privacy relationships between Lync users](how-to-administer-privacy-relationships-between-lync-users.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

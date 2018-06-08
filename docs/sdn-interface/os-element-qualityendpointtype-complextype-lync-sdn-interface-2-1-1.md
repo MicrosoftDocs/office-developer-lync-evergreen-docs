@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# OS element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# OS element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Operating System used on the endpoint device.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="OS"  minOccurs="0">
     

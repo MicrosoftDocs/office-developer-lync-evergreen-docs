@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Running Lync Dialog Listener
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 This section describes how to execute the Lync Dialog Listener as a Windows service and as a console application.
 
@@ -19,13 +19,10 @@ The LDL Setup Wizards will install, configure, and start the Lync Dialog Listene
 
 In general, the Lync Dialog Listener executes as Windows Service. In some case, particularly for debugging and for replay, you can run LDL as a console application at the command prompt.
 
-
 > [!NOTE]
-> <P>Unlike the LSM, you are not able to run the service and the command line tool at the same time.</P>
+> Unlike the LSM, you are not able to run the service and the command line tool at the same time.
 
-
-
-## Running LDL as a Windows service
+## Run LDL as a Windows service
 
 1.  Start the Windows Service application.
 
@@ -39,7 +36,7 @@ In general, the Lync Dialog Listener executes as Windows Service. In some case, 
     
     If the service does not start, you may need different user credentials. The user must also be in the local *RTC Server Applications* security group. You can change the user credentials to run the service by using the Lync Dialog Listener Properties panel shown previously.
 
-## Running LDL as a console application
+## Run LDL as a console application
 
 Start LyncDialogListener.exe without any parameter and it will start the service as a console application. Running LDL as a console application, you get more feedback from the LDL service, in particular around issues related to start-up and connecting to the Lync Server. It will also help identifying or confirming issues around credential used to run LDL having the appropriate access rights.
 

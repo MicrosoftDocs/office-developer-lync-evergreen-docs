@@ -1,5 +1,5 @@
 ﻿---
-title: BSSID element (QualityEndPointType complexType) (Lync SDN API Schema A)
+title: BSSID element (Lync SDN API Schema A)
 TOCTitle: BSSID element
 ms:assetid: 04c7638a-417b-3432-6bec-a81c4ef773d8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775106(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# BSSID element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# BSSID element 
+
+(QualityEndPointType complexType) (Lync SDN API Schema A)
 
 Id of an access point for a WiFi/wireless connection.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013 
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="BSSID" minOccurs="0"></xs:element>
 ```
 
@@ -73,12 +70,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="from-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">From</a></p></td>
+<td><p><a href="from-element-qualityupdate-element-sdn-api-schema-a.md">From</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>The source of the reported media stream.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="to-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">To</a></p></td>
+<td><p><a href="to-element-qualityupdate-element-sdn-api-schema-a.md">To</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>Destination of the media stream.</p></td>
 </tr>

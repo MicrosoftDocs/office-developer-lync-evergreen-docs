@@ -11,14 +11,9 @@ mtps_version: v=office.15
 # High availability and failover in UCMA 4.0
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-SipEndpoint class  
-LocalEndpointStateChangedEventArgs class  
-SipSubscription class  
-LocalOwnerPresence and ContactGroupServices classes  
-RemotePresence class  
+
 
 This topic discusses the APIs in Microsoft Unified Communications Managed API 4.0 that are associated with High Availability and Failover.
 

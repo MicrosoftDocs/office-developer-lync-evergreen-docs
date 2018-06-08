@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about using the Microsoft Lync 2013 SDK to give your application a conversation application sharing stage feature while in Microsoft Lync 2013 UI suppression mode.
 
-**Last modified:** July 18, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -81,7 +81,7 @@ There are two viewing modes which are set by changing a property on the viewer. 
 
 Although the viewer ([Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView](https://msdn.microsoft.com/en-us/library/dn378597\(v=office.15\))) exposes a state change event, you will rarely find it useful. However, if you have set the display mode of the viewer to **.ActualSize** and you want to resize your container control along with viewer size changes, then you need to handle the [ApplicationSharingView.PropertyChanged](https://msdn.microsoft.com/en-us/library/dn378654\(v=office.15\)) event. The [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewProperty](https://msdn.microsoft.com/en-us/library/dn378657\(v=office.15\))**.Height** and **.Width** properties describe the new dimensions of the viewer. You can resize your container control to show the entire viewer and avoid showing scroll bars on the container. If the form factor of your application does not allow you to change the dimensions of the container, the container scroll bars let a user scroll the interesting part of the shared resource into view.
 
-## Additional resources
+## See also
 
   - [What you can do with desktop, application, and display sharing](what-you-can-do-with-desktop-application-and-display-sharing.md)
 

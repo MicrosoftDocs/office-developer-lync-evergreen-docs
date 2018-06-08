@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Signaling layer
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section provides information about the signaling layer, a layer that underlies the collaboration layer. The signaling layer carries out such tasks as making connections to hosts, dispatching dialog requests, providing a control channel enabling one endpoint to invite another endpoint to engage in some activity, and others. The signaling layer encapsulates low-level Session Initiation Protocol (SIP) functionalities.
 

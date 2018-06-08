@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to create a subscription to the enhanced presence published by a user.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -79,13 +79,13 @@ The prerequisites for subscribing to presence information are as follows:
 
 1.  Create a new [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)).
     
-    ``` csharp
+    ```csharp
     _contactSubscription = LyncClient.GetClient().ContactManager.CreateSubscription();
     ```
 
 2.  Create a **List\<ContactInformationType\>** object to hold an enumerated collection of the information types that are to be subscribed.
     
-    ``` csharp
+    ```csharp
     _ContactInformationList = new List<ContactInformationType>();
     ```
 
@@ -95,7 +95,7 @@ The prerequisites for subscribing to presence information are as follows:
 
 5.  Start the subscription to each contact’s presence publications by calling the [ContactSubscription.Subscribe](https://msdn.microsoft.com/en-us/library/jj277847\(v=office.15\)) method.
     
-    ``` csharp
+    ```csharp
                 _ContactInformationList = new List<ContactInformationType>();
                 _ContactInformationList.Add(ContactInformationType.Activity);
                 _ContactInformationList.Add(ContactInformationType.ActivityId);
@@ -169,7 +169,7 @@ You can change the set of enhanced presence information items that you get notif
 
 The following example declares a WPF page that displays a list of subscription-related events raised on a subscribed contact object when contact information is republished.
 
-``` xaml
+```xaml
 <Page
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -479,7 +479,7 @@ The following example gets a [Microsoft.Lync.Model.Contact](https://msdn.microso
         }
     }
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

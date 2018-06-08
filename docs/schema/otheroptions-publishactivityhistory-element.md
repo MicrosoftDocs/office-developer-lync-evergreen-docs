@@ -13,11 +13,11 @@ dev_langs:
 # otherOptions/publishActivityHistory element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies whether to publish the activity history.
 
-``` xml
+```xml
 <oo:publishActivityHistory 
      xmlns:oo="http://schemas.microsoft.com/2006/09/sip/options/otherOptions"
      >boolean</oo:publishActivityHistory>
@@ -67,7 +67,7 @@ true or false.
 
 The following XML code snippet shows an otherOptions category instance containing a specification of the permissions:
 
-``` xml
+```xml
   <otherOptions xmlns="http://schemas.microsoft.com/2006/09/sip/options/otherOptions">
     <permissions>
       <personalInformationManager>outlook</personalInformationManager>

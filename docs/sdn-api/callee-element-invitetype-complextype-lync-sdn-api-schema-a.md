@@ -1,5 +1,5 @@
 ﻿---
-title: Callee element (InviteType complexType) (Lync SDN API Schema A)
+title: Callee element  (Lync SDN API Schema A)
 TOCTitle: Callee element
 ms:assetid: 4bd40c88-e1c6-f859-8234-6143508d50aa
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775107(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# Callee element (InviteType complexType) (Lync SDN API Schema A)
+# Callee element 
+
+(InviteType complexType) (Lync SDN API Schema A)
 
 Properties of the callee.
 
-
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +44,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Callee" type="EndPointType"></xs:element>
 ```
 

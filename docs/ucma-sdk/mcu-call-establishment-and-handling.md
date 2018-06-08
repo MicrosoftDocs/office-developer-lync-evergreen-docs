@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # MCU call establishment and handling
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The audio-video MCU does not support multiple points of conference, but does permit a given endpoint to join the audio-video MCU under more than one identity. To overcome the lack of support for multiple points of conference, the platform creates each new call under a fictitious identity. This topic discusses how the platform establishes these calls.
 

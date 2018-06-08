@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to use the [Transaction](https://msdn.microsoft.com/en-us/library/jj265742\(v=office.15\)) class to create and manage SIP transactions in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## Creating and managing SIP transactions
 

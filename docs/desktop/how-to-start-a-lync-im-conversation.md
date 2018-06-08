@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to programmatically start a Microsoft Lync 2013 conversation, invite a user, and send the first instant messaging (IM) text.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -288,7 +288,7 @@ The procedure assumes that you have created a Windows.Forms object and populated
 
 The following example creates a new conversation by calling into [AddConversation](https://msdn.microsoft.com/en-us/library/jj276176\(v=office.15\)) on [ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)).
 
-``` csharp
+```csharp
         private string myRemoteParticipantUri;
         private Conversation _Conversation;
 
@@ -306,7 +306,7 @@ The following example creates a new conversation by calling into [AddConversatio
 
 The following example registers for [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) events. The [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) obtained from [Conversation](https://msdn.microsoft.com/en-us/library/jj276980\(v=office.15\)) is a reference to the new conversation. You can register for events on the **Conversation** using the [Conversation](https://msdn.microsoft.com/en-us/library/jj276980\(v=office.15\)) instance.
 
-``` csharp
+```csharp
         /// Handles ConversationAdded state change event raised on ConversationsManager
         /// <param name="source">ConversationsManager: The source of the event</param>
         /// <param name="data">ConversationsManagerEventArgs The event data. The incoming Conversation is obtained here</param>
@@ -326,7 +326,7 @@ The following example registers for [Conversation](https://msdn.microsoft.com/en
 
 The following example handles the [ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event. The example event handler gets the IM modality from the modality collection on the new participant and registers for messages received from the participant. [InstantMessageReceived](https://msdn.microsoft.com/en-us/library/jj293201\(v=office.15\)) is raised on any participant when that participant sends a message.
 
-``` csharp
+```csharp
         /// <summary>
         /// ParticipantAdded callback handles ParticpantAdded event raised by Conversation
         /// </summary>
@@ -366,7 +366,7 @@ A user’s cursor has entered a text entry control and the example sets the [IsT
 </tbody>
 </table>
 
-``` csharp
+```csharp
         private void txtMessage_Enter(object sender, EventArgs e)
         {
             if ((InstantMessageModality)_Conversation.Modalities[ModalityTypes.InstantMessage]).CanInvoke(ModalityAction.SetIsTyping))
@@ -396,7 +396,7 @@ A user’s cursor has left a text entry control and the example sets the [IsTypi
 </tbody>
 </table>
 
-``` csharp
+```csharp
         private void txtMessage_Leave(object sender, EventArgs e)
         {
             if ((InstantMessageModality)_Conversation.Modalities[ModalityTypes.InstantMessage]).CanInvoke(ModalityAction.SetIsTyping))
@@ -426,7 +426,7 @@ The following example sends the text content of a UI text box to a remote conver
 </tbody>
 </table>
 
-``` csharp
+```csharp
         private void SendMessage(string messageToSend)
         {
             try
@@ -452,7 +452,7 @@ The following example sends the text content of a UI text box to a remote conver
 
 The following example callback method is invoked by [InstantMessageModality](https://msdn.microsoft.com/en-us/library/jj266036\(v=office.15\)) after [BeginSendMessage](https://msdn.microsoft.com/en-us/library/jj274588\(v=office.15\)) is complete. Verify the asynchronous operation results if you want to see whether the message was sent successfully.
 
-``` csharp
+```csharp
         /// <summary>
         /// Async callback method invoked by InstantMessageModality instance when SendMessage completes
         /// </summary>
@@ -481,7 +481,7 @@ The following example callback method is invoked by [InstantMessageModality](htt
 
 The following example handles the event raised when a participant starts or stops typing.
 
-``` csharp
+```csharp
         void myInstantMessageModality_ComposingChanged(object source, IsTypingChangedEventArgs data)
         {
             if (data.IsTyping == true
@@ -495,7 +495,7 @@ The following example handles the event raised when a participant starts or stop
 
 The following example handles the [InstantMessageReceived](https://msdn.microsoft.com/en-us/library/jj293201\(v=office.15\)) and uses the **PlainText** enumerator. If this enumerator is used, message content is rendered as plain text regardless of how it was formatted by the sender. If the incoming message contains data that cannot be rendered as plain text, the data is not rendered.
 
-``` csharp
+```csharp
         /// <summary>
         /// Callback is invoked when IM Modality state changes upon receipt of message
         /// </summary>
@@ -518,7 +518,7 @@ The following example handles the [InstantMessageReceived](https://msdn.microsof
         }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

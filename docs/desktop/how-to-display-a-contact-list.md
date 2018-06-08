@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to use members of the [Microsoft.Lync.Model](https://msdn.microsoft.com/en-us/library/jj274810\(v=office.15\)) namespace to provide contact presence and presence updates to build a custom Lync contact list UI.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -177,7 +177,7 @@ Figure 1. My Contact List sample application
   
 ![A list of groups and contacts in a WPF window](images/JJ933244.LyncClientSDK_HowToDisplayContactList(Office.15).png "A list of groups and contacts in a WPF window")
 
-``` xaml
+```xaml
 <Window x:Class="MyContactList.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -197,7 +197,7 @@ Figure 1. My Contact List sample application
 
 The following example is the interaction logic for the window declared in the previous example.
 
-``` csharp
+```csharp
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
@@ -427,7 +427,7 @@ namespace MyContactList
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync contact lists](what-you-can-do-with-lync-contact-lists.md)
 

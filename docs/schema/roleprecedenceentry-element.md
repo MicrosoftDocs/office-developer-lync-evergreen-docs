@@ -13,11 +13,11 @@ dev_langs:
 # rolePrecedenceEntry element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies an entry in the role-based precedence hierarchy.
 
-``` xml
+```xml
 <rolePrecedenceEntry type="roleTypeEnumEx" [anyAttribute]="anyValue">
    <ct:extension xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes" >...</ct:extension>
    <ct:delimiter xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes"/>

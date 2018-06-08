@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to create logs for and troubleshoot Microsoft Lync Server 2013 Persistent Chat SDK applications.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Microsoft Lync Server 2013 Persistent Chat API includes built-in logging capabilities that can be enabled by a Lync Server 2013 Persistent Chat API application to trace the execution of the application. The logging is based on the [WPP Software Tracing](http://msdn.microsoft.com/en-us/library/ff556204\(v=vs.85\).aspx). The Microsoft Lync Server 2013 Logging Tool is provided to configure, start, stop, and analyze logs that are provided by the Persistent Chat library (Microsoft.Rtc.Collaboration.PersistentChat.DLL assembly) and other trace providers, also known as components. In addition, the Logging Tool includes a traffic view of SIP messages that are transported between the application and Lync Server 2013, including the server that is running Microsoft Lync Server 2013 Persistent Chat. The information can be useful for troubleshooting a Lync Server 2013 Persistent Chat API application.
 

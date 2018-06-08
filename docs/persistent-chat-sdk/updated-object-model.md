@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about new Microsoft Lync Server 2013 Persistent Chat API components.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## Object model
 

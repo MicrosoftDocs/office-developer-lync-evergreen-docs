@@ -11,12 +11,9 @@ mtps_version: v=office.15
 # Activating an auto-provisioned application
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Install the Central Management Store replication service  
-Enable Central Management store replication  
-Set the certificate  
+ 
 
 Trusted applications can be provisioned at run time in two distinct ways: by auto-provisioning, which requires a local Central Management Store replica, or by manual provisioning, which does not require a local Central Management Store replica. The recommended way to provision a UCMA-based application is auto-provisioning. With this style of provisioning, applications can auto-discover, auto-provision, monitor, and react to settings that are relevant in an Microsoft Lync Server 2013 environment.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Administering a UCMA 4.0 application
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The topics in this section discuss administration of a UCMA 4.0 SDK application.
 

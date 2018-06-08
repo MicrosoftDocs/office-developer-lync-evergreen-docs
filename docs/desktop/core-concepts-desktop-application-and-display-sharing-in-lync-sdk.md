@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts of desktop, application, and display sharing with Microsoft Lync 2013 SDK in Lync 2013.
 
-**Last modified:** April 04, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ The first topic in this section defines the concept of resource sharing in Lync 
 
   - [Application sharing for UI suppression mode](application-sharing-for-ui-suppression-mode.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

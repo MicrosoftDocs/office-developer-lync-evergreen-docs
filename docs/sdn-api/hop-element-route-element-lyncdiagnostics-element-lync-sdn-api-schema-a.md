@@ -1,5 +1,5 @@
 ﻿---
-title: Hop element (Route element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: Hop element (Lync SDN API Schema A)
 TOCTitle: Hop element
 ms:assetid: 58bf7971-c8e6-2dd6-4457-2aa8917f8931
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439221(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Hop element (Route element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# Hop element 
+
+(Route element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 IP address of one hop (router, gateway, switch, etc) on the path from the source to the destination of the media stream.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Hop" type="xs:string" maxOccurs="unbounded"></xs:element>
 ```
 

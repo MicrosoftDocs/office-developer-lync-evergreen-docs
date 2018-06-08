@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Back-to-back user agent (feature)
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The back-to-back user agent concept is essential for call center/helpdesk applications. The back-to-back user agent acts as a bridge between an incoming customer call and one or more call center agents. The most important features of this concept, as implemented in UCMA 4.0 are the following:
 

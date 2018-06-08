@@ -13,11 +13,11 @@ dev_langs:
 # routing/preamble/list element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains a list of the targets to which the specified call-forwarding policy is applied.
 
-``` xml
+```xml
 <ro:list xmlns:ro="http://schemas.microsoft.com/2006/09/sip/routing"
     name="list-names-type" >
      <target />

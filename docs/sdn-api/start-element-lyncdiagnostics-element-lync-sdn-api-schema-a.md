@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Start element (LyncDiagnostics element) (Lync SDN API Schema A)
+# Start element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Event that a media stream is started. Every Start element contains a report about a particular media stream. This event is raised when the call is established, i.e., when the call is picked up and the SIP INVITE is answered with a 200 OK response. The LyncDiagnostics element will not contain any event elements (e.g., Invite, LRSInvite, Start, Update, etc.), when all media streams are inactive (usually when the call is on-hold).
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Start" type="StartOrUpdateType" maxOccurs="unbounded" minOccurs="0"></xs:element>
 ```
 

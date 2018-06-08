@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Auto-provisioning and PowerShell activation
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Application activation is the process in which configuration data is written to the Central Management Store database, Active Directory forest, and local computer. Microsoft Unified Communications Managed API 4.0 includes Windows PowerShell activation, which makes it simple to activate or deactivate an application. UCMA 4.0 also introduces automatic provisioning (auto-provisioning), to simplify the task of monitoring and reacting to changes in configuration data.
 

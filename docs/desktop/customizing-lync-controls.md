@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn how to use control restyling and visual template modification to change the appearance of Microsoft Lync Controls.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -63,7 +63,7 @@ Restyle a Lync Control by changing property values to control the appearance of 
 
   - [Lync Controls styles and templates](lync-controls-styles-and-templates.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync Controls](beyond-the-basics-lync-controls.md)
 

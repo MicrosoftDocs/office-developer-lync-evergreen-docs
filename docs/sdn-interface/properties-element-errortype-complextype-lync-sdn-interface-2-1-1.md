@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Properties element (ErrorType complexType) (Lync SDN Interface 2.1.1)
+# Properties element (ErrorType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Properties of the Error.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Properties"  type="ErrorProperties" minOccurs="0">
     
@@ -100,17 +96,17 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="msdiagnostics-element-errorproperties-complextype-lync-sdn-interface-2-1-1.md">MSDiagnostics</a></p></td>
+<td><p><a href="msdiagnostics-element-errorproperties-sdn-interface-2-1-1.md">MSDiagnostics</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>More info related to the error.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="msdiagnosticsclient-element-errorproperties-complextype-lync-sdn-interface-2-1-1.md">MSDiagnosticsClient</a></p></td>
+<td><p><a href="msdiagnosticsclient-element-errorproperties-sdn-interface-2-1-1.md">MSDiagnosticsClient</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Info about the error related to and reported by the client.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="msdiagnosticspublic-element-errorproperties-complextype-lync-sdn-interface-2-1-1.md">MSDiagnosticsPublic</a></p></td>
+<td><p><a href="msdiagnosticspublic-element-errorproperties-sdn-interface-2-1-1.md">MSDiagnosticsPublic</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Public info about the error.</p></td>
 </tr>
@@ -120,7 +116,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>SIP Error code.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="responsephrase-element-errorproperties-complextype-lync-sdn-interface-2-1-1.md">ResponsePhrase</a></p></td>
+<td><p><a href="responsephrase-element-errorproperties-sdn-interface-2-1-1.md">ResponsePhrase</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>More info related to the error.</p></td>
 </tr>

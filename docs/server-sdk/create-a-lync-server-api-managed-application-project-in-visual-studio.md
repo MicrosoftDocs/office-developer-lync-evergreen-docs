@@ -15,7 +15,7 @@ dev_langs:
 To create a Microsoft Lync Server 2013 SIP Application API application, write an application manifest or create a Visual Studio project.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
   - Write a Lync Server 2013 SIP Application API application manifest that specifies the identity of the application and contains a MSPL script to process designated SIP messages. For more information, see [How to: Create an application manifest](how-to-create-an-application-manifest.md).
 
@@ -39,7 +39,7 @@ _**Applies to:** Lync Server 2013_
 
 4.  Import the Microsoft.Rtc.Sip and other dependent namespaces into the application project by inserting the following statements at the end of the using block in every code file that references the Lync Server 2013 SIP Application API.
     
-    ``` csharp
+    ```csharp
     using Microsoft.Rtc.Sip;
     ```
 

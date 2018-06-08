@@ -13,14 +13,14 @@ dev_langs:
 # alerts/alertsWhenDoNotDisturb element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies how to display alerts when the user is in the Do Not Disturb state.
 
 [alerts category instance value element](alerts-category-instance-value-element.md)  
   alertsWhenDoNotDisturb Element  
 
-``` xml
+```xml
 <al:alertsWhenDoNotDisturb 
     xmlns:al="http://schemas.microsoft.com/2006/09/sip/alerts">
    token

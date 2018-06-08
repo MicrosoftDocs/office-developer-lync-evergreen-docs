@@ -13,7 +13,7 @@ dev_langs:
 # Inviting a new participant
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The standard way of inviting a new participant into a conference is to create an invitation for the participant, and then deliver the invitation to the participant. The basic steps for inviting a new participant to a conference are as follows.
 
@@ -27,7 +27,7 @@ When an application receives an invitation, it is normally expected to accept th
 
 For most applications that send invitations, being able to detect whether the invitation was accepted is of utmost importance. The following example demonstrates how this can be done.
 
-``` csharp
+```csharp
 public void InviteToConference()
 {
   ConferenceInvitation invitation = new ConferenceInvitation(m_conversation);

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Publication behaviors of category instances
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following table summarizes the default publication behaviors of category instances that are used in Microsoft Lync 2013. For more information, including the aggregation logic, see [\[MS-PRES\]: Presence Protocol Specification](http://go.microsoft.com/fwlink/?linkid=195873).
 

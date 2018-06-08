@@ -13,12 +13,9 @@ mtps_version: v=office.15
 Learn about the Microsoft Lync Server 2013 SDK hardware, software, and technical requirements.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Hardware requirements  
-Software requirements  
-Technical requirements  
+ 
 
 ## Hardware requirements
 

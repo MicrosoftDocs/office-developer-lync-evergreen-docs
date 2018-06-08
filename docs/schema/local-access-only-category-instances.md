@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Local-access only category instances
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following category instances are published or used by Microsoft Lync 2013 for local access only or self-consumption.
 

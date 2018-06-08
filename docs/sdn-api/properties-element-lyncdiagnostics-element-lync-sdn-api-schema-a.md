@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Properties element (LyncDiagnostics element) (Lync SDN API Schema A)
+# Properties element (LyncDiagnostics element) 
+
+(Lync SDN API Schema A)
 
 Details of the Error.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Properties" minOccurs="0">
     <xs:complexType>
         <xs:sequence>
@@ -109,22 +106,22 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="msdiagnostics-element-properties-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">MSDiagnostics</a></p></td>
+<td><p><a href="msdiagnostics-element-sdn-api-schema-a.md">MSDiagnostics</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Lync-specific diagnostics message for this error.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="msdiagnosticsclient-element-properties-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">MSDiagnosticsClient</a></p></td>
+<td><p><a href="msdiagnosticsclient-element-sdn-api-schema-a.md">MSDiagnosticsClient</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Lync-specific diagnostics message from the client.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="msdiagnosticspublic-element-properties-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">MSDiagnosticsPublic</a></p></td>
+<td><p><a href="msdiagnosticspublic-element-sdn-api-schema-a.md">MSDiagnosticsPublic</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Lync-specific public diagnostics message.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="responsecode-element-properties-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">ResponseCode</a></p></td>
+<td><p><a href="responsecode-element-sdn-api-schema-a.md">ResponseCode</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Message describing the error.</p></td>
 </tr>

@@ -16,7 +16,7 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 MyPresenceChooser control.
 
-**Last modified:** February 12, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -90,13 +90,13 @@ Notable MyPresenceChooser control public properties and events relating to unifi
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:MyPresenceChooser/>
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

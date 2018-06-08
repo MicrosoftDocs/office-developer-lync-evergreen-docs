@@ -10,46 +10,28 @@ mtps_version: v=office.15
 
 # Register a managed application on Lync Server 2013
 
+**Applies to:** Lync 2013 | Lync Server 2013
+
 There are several required steps when you install a managed application on Microsoft Lync Server 2013. This article describes those steps and the errors Lync Server 2013 may return when the installation is not done correctly.
 
+## Videos and samples
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+- [Lync Server 2013: Register a managed code application](http://channel9.msdn.com/posts/lync-server-2013-register-a-managed-code-application)
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Prerequisites for registering a managed application<br />
-<br />
-Introduction<br />
-<br />
-How to register a managed code server application<br />
-<br />
-Troubleshoot application registration<br />
-</p>
-<p>Additional resources</p></td>
-<td><p><img src="images/JJ933201.mod_icon_links_videos(Office.15).png" title="Related videos" alt="Related videos" /><br />
-<a href="http://channel9.msdn.com/posts/lync-server-2013-register-a-managed-code-application">Lync Server 2013: Register a managed code application</a><br />
-<a href="http://channel9.msdn.com/posts/lync-developer-roundtable-introduction-to-lync-server-2013-sdk-and-mspl">Lync Developer Roundtable: Introduction to the Lync Server SDK and MSPL</a></p>
-<p><img src="images/Dn391641.mod_icon_links_samples(Office.15).png" title="Related code snippets and sample apps" alt="Related code snippets and sample apps" /><br />
-<a href="http://code.msdn.microsoft.com/lync-server-2013-modify-37847bc4">Lync Server 2013: Modify SIP message content</a><br />
-<a href="http://code.msdn.microsoft.com/lync-server-2013-filter-2bd7aae7">Lync Server 2013: Filter messages based on file-based policy</a></p></td>
-</tr>
-</tbody>
-</table>
+- [Lync Developer Roundtable: Introduction to the Lync Server SDK and MSPL](http://channel9.msdn.com/posts/lync-developer-roundtable-introduction-to-lync-server-2013-sdk-and-mspl)
+
+- [Lync Server 2013: Modify SIP message content](http://code.msdn.microsoft.com/lync-server-2013-modify-37847bc4)
+
+- [Lync Server 2013: Filter messages based on file-based policy](http://code.msdn.microsoft.com/lync-server-2013-filter-2bd7aae7)
 
 
 ## Prerequisites for registering a managed application
 
-  - Lync Server 2013
+- Lync Server 2013
 
-  - A managed code application that references the Lync Server API.
+- A managed code application that references the Lync Server API.
 
-  - Membership in the local computer RTC Server Applications group on the computer where the application is installed.
+- Membership in the local computer RTC Server Applications group on the computer where the application is installed.
 
 ### Core concepts to know for registering a managed application
 
@@ -93,7 +75,7 @@ There are two types of server applications created with the Lync Server SDK: scr
 
 For typical coding patterns in Lync Server applications, see the samples listed in [Lync developer sample applications](lync-developer-sample-applications.md).
 
-## How to register a managed code server application
+## Register a managed code server application
 
 The tasks listed here are required to register a managed server application.
 
@@ -147,13 +129,10 @@ The following list contains some common errors seen when registering an applicat
 </table>
 
 
-## Additional resources
+## See also
 
-  - [Lync 2013 technical articles](lync-2013-technical-articles.md)
-
-  - [Video demo: Register a managed code application](http://channel9.msdn.com/posts/lync-server-2013-register-a-managed-code-application)
-
-  - [NextHop](http://blogs.technet.com/b/nexthop/)
-
-  - [Lync Server SDK forum](http://social.msdn.microsoft.com/forums/lync/en-us/home?forum=communicationsserversdk%26filter=alltypes%26sort=lastpostdesc)
+- [Lync 2013 technical articles](lync-2013-technical-articles.md)
+- [Video demo: Register a managed code application](http://channel9.msdn.com/posts/lync-server-2013-register-a-managed-code-application)
+- [NextHop](http://blogs.technet.com/b/nexthop/)
+- [Lync Server SDK forum](http://social.msdn.microsoft.com/forums/lync/en-us/home?forum=communicationsserversdk%26filter=alltypes%26sort=lastpostdesc)
 

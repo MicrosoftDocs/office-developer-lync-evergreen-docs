@@ -13,38 +13,35 @@ dev_langs:
 # Tasks of the host .NET application
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Launching the browser  
-Example of .NET application tasks  
-Remarks  
+  
 
 The host .NET application that you create performs tasks before, during, and after a VoiceXML session to support automated processing of calls.
 
 Before the VoiceXML session:
 
-  - Instantiate a [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance.
+- Instantiate a [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance.
 
-  - Register for events that the **Browser** generates during a session.
+- Register for events that the **Browser** generates during a session.
 
-  - Listen for calls at a UCMA endpoint.
+- Listen for calls at a UCMA endpoint.
 
-  - Take calls that arrive at the UCMA endpoint.
+- Take calls that arrive at the UCMA endpoint.
 
-  - Verify that a call is established and active.
+- Verify that a call is established and active.
 
-  - Connect to audio devices in UCMA.
+- Connect to audio devices in UCMA.
 
-  - Launch an instance of the **Browser** and bind it to an active call.
+- Launch an instance of the **Browser** and bind it to an active call.
 
 During the VoiceXML session:
 
-  - Respond to events from the **Browser**.
+- Respond to events from the **Browser**.
 
 After the VoiceXML session:
 
-  - Handle the call when the **Browser** exits the VoiceXML application, if required.
+- Handle the call when the **Browser** exits the VoiceXML application, if required.
 
 The following example illustrates a typical instantiation and launching of an asynchronous instance of the VoiceXML **Browser** (vxb) in Microsoft Unified Communications Managed API 4.0.
 
@@ -66,7 +63,7 @@ The following sequence includes sample code that illustrates the typical tasks t
 
 2.  Instantiate a VoiceXML [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance (*vxb* in the following sample) and add delegates to handle events that occur after an asynchronous [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance has been launched and the session is in progress.
     
-    ``` csharp
+    ```csharp
     vxb = new Browser(); 
     vxb.Transferring += new EventHandler(HandleTransferring);
     vxb.Transferred += new EventHandler(HandleTransferred);
@@ -77,13 +74,13 @@ The following sequence includes sample code that illustrates the typical tasks t
 
 3.  Bind a call handler, *AvCallReceived*, with the endpoint:
     
-    ``` csharp
+    ```csharp
     endpoint.RegisterForIncomingCall<AudioVideoCall>(AvCallReceived);
     ```
 
 4.  Accept the call and subscribe to the **StateChanged** event in the [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) class. After the value of the [StateChanged](https://msdn.microsoft.com/en-us/library/hh365997\(v=office.15\)) event switches to **Active**, the .NET application can call the Browser’s **SetAudioVideoCall()** method. Then the .NET application can call either the **Run(Uri, CookieContainer)** or the **RunAsync(Uri, CookieContainer)** method.
     
-    ``` csharp
+    ```csharp
     // Declare an instance of AudioVideoCall that will be passed to SetAudioVideoCall.
     private AudioVideoCall currentCall;
     
@@ -122,21 +119,21 @@ The following sequence includes sample code that illustrates the typical tasks t
 
 6.  Take appropriate action when the **Browser** exits the page, which occurs after any of the following take place:
     
-      - An error occurs in attempting to load the VoiceXML start page. The members of the **ExitReason** enumeration indicate possible errors that prevented loading the VoiceXML start page, such as **PageNotFound** or **MalFormedXml**.
+    - An error occurs in attempting to load the VoiceXML start page. The members of the **ExitReason** enumeration indicate possible errors that prevented loading the VoiceXML start page, such as **PageNotFound** or **MalFormedXml**.
     
-      - The VoiceXML interpreter encounters an event thrown within the VoiceXML page that is not handled by the VoiceXML **\<error\>** element.
+    - The VoiceXML interpreter encounters an event thrown within the VoiceXML page that is not handled by the VoiceXML **\<error\>** element.
     
-      - The application calls the **StopAsync()** method.
+    - The application calls the **StopAsync()** method.
     
-      - The VoiceXML interpreter executes an **\<exit\>** or a **\<disconnect\>** element.
+    - The VoiceXML interpreter executes an **\<exit\>** or a **\<disconnect\>** element.
     
-      - The VoiceXML interpreter arrives at the end of a dialog and there is no successor element.
+    - The VoiceXML interpreter arrives at the end of a dialog and there is no successor element.
     
-      - The VoiceXML interpreter executes a **\<transfer bridge="false"\>** element or a **\<transfer type="blind"\>** element.
+    - The VoiceXML interpreter executes a **\<transfer bridge="false"\>** element or a **\<transfer type="blind"\>** element.
     
-      - The VoiceXML interpreter executes a **\<transfer type="consultation"\>** element in which the call transfer is successful.
+    - The VoiceXML interpreter executes a **\<transfer type="consultation"\>** element in which the call transfer is successful.
     
-      - The audio stream disconnects.
+    - The audio stream disconnects.
     
 
     > [!NOTE]

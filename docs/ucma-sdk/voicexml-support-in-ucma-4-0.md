@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # VoiceXML support in UCMA 4.0
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 supports Interactive Voice Response (IVR) applications authored with the industry-standard VoiceXML markup language. You can now create .NET applications that host a local or remote VoiceXML-based IVR application in UCMA 4.0. You can also migrate existing VoiceXML applications to UCMA 4.0 that may have been running on other platforms.
 

@@ -10,8 +10,7 @@ mtps_version: v=office.15
 
 # In-call QoE algorithm and throttling
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Lync clients can now send call and quality data and the Lync SDN Manager (LSM) processes and forwards the data during a call instead of only after the end of the call.
 

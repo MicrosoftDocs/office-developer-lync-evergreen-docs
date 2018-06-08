@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# To element (StartOrUpdateType complexType) (Lync SDN API Schema A)
+# To element (StartOrUpdateType complexType) 
+
+(Lync SDN API Schema A)
 
 Destination of the media stream.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="To" type="EndPointType" minOccurs="0"></xs:element>
 ```
 

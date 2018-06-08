@@ -13,7 +13,7 @@ dev_langs:
 # Signing in to Lync Server
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 As with any other unified communications operation, you must first sign in to Microsoft Lync Server 2013 before you can publish or subscribe to any presence data by using Microsoft Unified Communications Managed API 4.0. This process includes the following tasks:
 
@@ -29,7 +29,7 @@ Step 2 and 4 are asynchronous operations. They are supported by the BeginStartup
 
 The following code example shows how the previous tasks are implemented. The operations are encapsulated in the UcmaLoginManager class, which can then be reused by your other UCMA applications.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -246,7 +246,7 @@ namespace UcmaAppLibrary
 
 In the following example, the base class (UcmaObject) is used to encapsulate the common operations to support the asynchronous calls.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -310,7 +310,7 @@ namespace UcmaAppLibrary
 
 In the following example, the types to support the asynchronous operation status report are listed.
 
-``` csharp
+```csharp
     public enum AsyncOpStatus { OK, Error };
 
     public class AsyncOpStatusEventArgs : EventArgs

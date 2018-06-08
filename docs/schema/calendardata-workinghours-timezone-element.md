@@ -13,11 +13,11 @@ dev_langs:
 # calendarData/WorkingHours/TimeZone element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the user’s local time zone information.
 
-``` xml
+```xml
     <TimeZone>
       <Bias>480</Bias>
       <DaylightTime>...</DaylightTime>
@@ -100,7 +100,7 @@ None
 
 The following XML code snippet shows the US Pacific time zone information in a working-hours specification:
 
-``` xml
+```xml
     <TimeZone>
       <Bias>480</Bias>
       <StandardTime>

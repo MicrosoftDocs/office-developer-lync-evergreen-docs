@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Publishing Enhanced Presence
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section discusses how to publish enhanced presence by using Microsoft Unified Communications Managed API (UCMA).
 

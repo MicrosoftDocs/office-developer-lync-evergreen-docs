@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Diagram of a VoiceXML call
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following diagram shows a simplified representation of a VoiceXML call in Microsoft Unified Communications Managed API 4.0.
 

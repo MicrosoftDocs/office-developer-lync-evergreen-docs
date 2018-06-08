@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to start a Microsoft Lync 2013 sharing conversation and get a list of shareable resources that are shared in the conversation.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -131,7 +131,7 @@ To make the following example code easier to read, several conversation-related 
 
 The following example references the namespaces that are used in the following Windows Forms examples.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;
@@ -143,7 +143,7 @@ using System.Collections.Generic;
 
 The following example declares the class fields that are referenced in the following sections of this topic.
 
-``` csharp
+```csharp
         /// <summary>
         /// Lync client platform. The entry point to the API
         /// </summary>
@@ -238,7 +238,7 @@ The following example gets the [Microsoft.Lync.Model.LyncClient](https://msdn.mi
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// invoked when sample form is loaded. Initializes fields, gets API entry point, 
         /// registers for events on Lync Client and ConversationManager.
@@ -338,7 +338,7 @@ To get the contacts that a user has added to the local contact list, you must re
 
 The following example updates the application UI by using the current state of the client, gets the user’s URI, checks the state of the room manager, and adds the title of every room in the followed room collection to a list in the Persistent Chat room UI.
 
-``` csharp
+```csharp
         /// <summary>
         /// Iterates on all groups and adds an Uri string for each contact in a group to a list on the UI
         /// </summary>
@@ -400,7 +400,7 @@ For each SIP address selected on the contact list, the sample gets the correspon
 
 The following example starts a new conversation.
 
-``` csharp
+```csharp
         /// <summary>
         /// Starts a new conversation
         /// </summary>
@@ -465,7 +465,7 @@ After the **ConversationAdded** event callback method is finished, the applicati
 
 The following example handles the **ConversationAdded** event.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when a new conversation is added. This sample only hosts one conversation
         /// at a time. Once this event is handled, the sample un-registers for this event. The event is registered again when
@@ -564,7 +564,7 @@ The following example registers for the [Conversation.ParticipantAdded](https://
 
 The following example handles the [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the participant added event. Registers for events on the application sharing modality for the 
         /// </summary>
@@ -606,7 +606,7 @@ The [Conversation.ParticipantRemoved](https://msdn.microsoft.com/en-us/library/j
 
 The following example unregisters for participant events, removes the participant’s **ApplicationSharingModality** from the Dictionary, and then removes the URI of the participant from the UI list.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when a particpant is removed from the conversation.
         /// </summary>
@@ -637,7 +637,7 @@ If the self-participant **IsPresenter** property value changes from true to fals
 
 The following example enables or disables a UI button that starts resource sharing.
 
-``` csharp
+```csharp
         /// <summary>
         /// Called when a participant property is changed.
         /// </summary>
@@ -677,7 +677,7 @@ You can fill or refresh a UI list of locally shareable resources at any time aft
 
 The following example fills a list that has the resources that can be shared in a conversation.
 
-``` csharp
+```csharp
         /// <summary>
         /// Fills a UI list with the names of all local resources that can be shared.
         /// </summary>
@@ -704,7 +704,7 @@ The following example fills a list that has the resources that can be shared in 
 
 The following example declares a Windows Form that lets a user start a new conversation, select a shareable resource, share the resource, and then manage the control of the shared resource.
 
-``` csharp
+```csharp
 namespace ShareResources
 {
     partial class ShareResources_Form
@@ -1112,7 +1112,7 @@ namespace ShareResources
 
 The following example interacts with the Windows Form declared in the previous example.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;
@@ -2148,7 +2148,7 @@ namespace ShareResources
 
   - [How to: Get a shareable resource and share it in a conversation](how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md)
 
-## Additional resources
+## See also
 
   - [What you can do with desktop, application, and display sharing](what-you-can-do-with-desktop-application-and-display-sharing.md)
 

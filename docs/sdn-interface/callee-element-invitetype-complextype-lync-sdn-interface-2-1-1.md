@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Callee element (InviteType complexType) (Lync SDN Interface 2.1.1)
+# Callee element 
+
+(InviteType complexType) (Lync SDN Interface 2.1.1)
 
 Properties of the callee.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Callee"  type="EndPointType">
     

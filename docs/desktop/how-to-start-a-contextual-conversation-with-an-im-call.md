@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use the Microsoft Lync Control [ContextualInformation](https://msdn.microsoft.com/en-us/library/hh363342\(v=office.15\)) property to add the sender’s context to an instant messaging (IM) conversation, using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF).
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -61,7 +61,7 @@ The following procedure works for Silverlight and WPF applications.
     
     Note that the empty braces in the [ApplicationId](http://go.microsoft.com/fwlink/?linkid=207179%26clcid=0x409) property escape the following ‘{’.
     
-    ``` xaml
+    ```xaml
     <StackPanel>
       <StackPanel.Resources>
         <controls:ConversationContextualInfo 
@@ -94,7 +94,7 @@ The following procedure works for Silverlight and WPF applications.
 
 8.  On the receiving computer, use the [GetApplicationData](http://go.microsoft.com/fwlink/?linkid=210831%26clcid=0x409) method to retrieve the data or trap one of the [Conversation](http://go.microsoft.com/fwlink/?linkid=210832%26clcid=0x409) object events.
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

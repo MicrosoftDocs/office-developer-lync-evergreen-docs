@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Aggregating multiple points of presence
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 At any time, a user may have logged on to several unified communications-enabled devices, including a mobile phone, a desk phone, a laptop and a desktop computer. The user may be talking on the mobile phone while typing on the laptop computer, leaving the desktop computer idle and the desk phone available to receive incoming calls. Each of the devices corresponds to an endpoint in a unified communications network and each can publish the endpoint-specific presence information for the user. However, a presence watcher may not be interested in the views of the endpoint-specific presence of the user. Furthermore, the user may want to present to others a single view of her or his overall presence, independent of individual endpoints. In such cases, the separate endpoint-specific presence views must be combined into a single one. The process is known as presence aggregation.
 

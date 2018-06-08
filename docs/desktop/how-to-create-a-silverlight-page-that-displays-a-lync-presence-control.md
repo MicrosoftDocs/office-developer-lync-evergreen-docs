@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn how to add a Microsoft Lync 2013 SDK PresenceIndicator control to a Silverlight page or WPF window and then publish the presence of a Lync user.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -145,7 +145,7 @@ The following example shows a Silverlight presence display page.
         </Grid>
     </UserControl>
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

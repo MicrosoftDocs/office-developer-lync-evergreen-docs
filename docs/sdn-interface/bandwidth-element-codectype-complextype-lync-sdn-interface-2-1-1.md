@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Bandwidth element (CodecType complexType) (Lync SDN Interface 2.1.1)
+# Bandwidth element (CodecType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Average estimated bandwidth.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Bandwidth"  type="xs:string" minOccurs="0">
     

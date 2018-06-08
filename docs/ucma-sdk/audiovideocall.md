@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # AudioVideoCall
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 An [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) object represents an SDP-based audio/video session between a local participant and a remote participant. An **AudioVideoCall** object cannot exist on its own and must be associated with a [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) object.
 

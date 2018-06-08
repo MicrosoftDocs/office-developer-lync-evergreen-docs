@@ -13,11 +13,11 @@ dev_langs:
 # userProperties category instance value element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Contains user properties that are received by using in-band provisioning from the server.
 
-``` xml
+```xml
 <up:userProperties xmlns:up="http://schemas.microsoft.com/2006/09/sip/categories" 
        majorVersion="xs:unsignedInt" 
        minorVersion="xs:unsignedInt"
@@ -232,7 +232,7 @@ Lync 2013 publishes the userProperties category instance to the Self container o
 
 The following XML snippet shows a userProperties category instance value.
 
-``` xml
+```xml
 <userProperties xmlns="http://schemas.microsoft.com/2006/09/sip/categories">
    <lines>
       <line lineType="Uc">tel:+1421112222;ext=12222</line>

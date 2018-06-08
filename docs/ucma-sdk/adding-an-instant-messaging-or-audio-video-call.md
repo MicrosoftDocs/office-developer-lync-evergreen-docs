@@ -13,7 +13,7 @@ dev_langs:
 # Adding an instant messaging or audio/video call
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The steps required for adding an instant message call or audio-video call are similar, but the Microsoft Lync Server 2013 and Microsoft Unified Communications Managed API (UCMA) components that are involved are different. This topic describes the actions that must be taken for each type of call, and describes the differences at the component level of each call type.
 
@@ -28,7 +28,7 @@ The associated conversation monitors and manages the call, relays state informat
 
 The following code demonstrates how to add an IM call to a conversation.
 
-``` csharp
+```csharp
 InstantMessagingCall imCall = new InstantMessagingCall(conversation);
 ```
 
@@ -40,7 +40,7 @@ As with adding an instant messaging call, the remote participant for the call is
 
 The following code demonstrates how to add audio to a conversation.
 
-``` csharp
+```csharp
 AudioVideoCall avCall = new AudioVideoCall(conversation);
 ```
 

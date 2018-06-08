@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to display and maintain a roster of Microsoft Lync 2013 users who have joined a Lync 2013 chat room.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -93,7 +93,7 @@ You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.
 
 The following example references the namespaces that are used in the following Windows Forms examples.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -104,7 +104,7 @@ using System.Collections;
 
 The following example declares the class fields that are referenced in the following sections of this topic.
 
-``` csharp
+```csharp
         /// <summary>
         /// The LyncClient class instance that encapsulates the Lync client platform
         /// </summary>
@@ -137,7 +137,7 @@ When you have obtained the [Microsoft.Lync.Model.Room.Room](https://msdn.microso
 
 The following example registers for chat room participant roster events and gets the chat room participant roster.
 
-``` csharp
+```csharp
         /// <summary>
         /// Registers for message, state, and participant related events on a room.
         /// </summary>
@@ -188,7 +188,7 @@ The [Room.Participants](https://msdn.microsoft.com/en-us/library/jj293558\(v=off
 
 The following example updates the participant list in the UI with the names of all active room participants. To call this method, pass [Room.Participants](https://msdn.microsoft.com/en-us/library/jj293558\(v=office.15\)) in the argument.
 
-``` csharp
+```csharp
         /// <summary>
         /// Fills a list box with the display names of active room participants.
         /// </summary>
@@ -223,7 +223,7 @@ Keep the UI room participant list current by handling the events in this section
 
 The following examples handle the [Room.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj277204\(v=office.15\)) and [Room.ParticipantRemoved](https://msdn.microsoft.com/en-us/library/jj268246\(v=office.15\)) events.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the Room.ParticipantAdded event. The event is raised when a room member starts participating in a room.
         /// </summary>
@@ -266,7 +266,7 @@ The following examples handle the [Room.ParticipantAdded](https://msdn.microsoft
 
 The following example is invoked on the UI thread by the platform thread when a participant collection event is raised.
 
-``` csharp
+```csharp
         //Delegate that is invoked by the Room Manager followed room collection events
         private delegate void FillRoomRosterCallback(Room room);
 
@@ -290,7 +290,7 @@ The following example is invoked on the UI thread by the platform thread when a 
 
 The following example declares a Windows Form that displays the list of participants in a selected chat room from a signed-in user’s followed room list.
 
-``` csharp
+```csharp
 namespace GetParticipants
 {
     partial class GetParticipants
@@ -442,7 +442,7 @@ namespace GetParticipants
 
 The following example interacts with the Windows Form declared by the previous example. This example fills a list with the participants in a selected chat room and then updates the list as the room roster changes.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;
@@ -665,7 +665,7 @@ namespace GetParticipants
 
   - [Create a custom Persistent Chat client](create-a-custom-persistent-chat-client.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

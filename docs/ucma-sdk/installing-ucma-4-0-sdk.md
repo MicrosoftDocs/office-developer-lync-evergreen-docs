@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Installing UCMA 4.0 SDK
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This topic describes the steps needed for installing Microsoft Unified Communications Managed API 4.0 SDK, which is required when an application built from Microsoft Unified Communications Managed API 4.0 is developed.
 

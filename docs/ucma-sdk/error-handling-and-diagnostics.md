@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Error handling and diagnostics
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The topics in this section provide information about Microsoft Unified Communications Managed API 4.0 exceptions, error diagnostics and error reporting. The following illustration shows the exceptions provided in UCMA 4.0 as well as the [UnhandledExceptionManager](https://msdn.microsoft.com/en-us/library/hh348981\(v=office.15\)) class.
 

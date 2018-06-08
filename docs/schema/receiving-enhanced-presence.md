@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Receiving Enhanced Presence
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A user can receive enhanced presence publications from other users.
 

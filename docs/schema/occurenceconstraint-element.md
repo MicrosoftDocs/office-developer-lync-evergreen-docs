@@ -13,11 +13,11 @@ dev_langs:
 # occurenceConstraint element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the occurrence constraint of the specified member.
 
-``` xml
+```xml
 <occurrenceConstraint type="occurrenceConstraintTypeEnumEx" [anyAttribute]="anyValue">
    <ct:delimiter/>
    <[any]>

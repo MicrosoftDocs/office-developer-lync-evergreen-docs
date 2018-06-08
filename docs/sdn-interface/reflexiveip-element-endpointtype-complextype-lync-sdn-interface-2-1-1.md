@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ReflexiveIP element (EndPointType complexType) (Lync SDN Interface 2.1.1)
+# ReflexiveIP element 
+
+(EndPointType complexType) (Lync SDN Interface 2.1.1)
 
 IP used outside of the NAT.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="ReflexiveIP"  minOccurs="0">
     

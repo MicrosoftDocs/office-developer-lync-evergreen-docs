@@ -13,11 +13,11 @@ dev_langs:
 # containerManifestList element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a container manifest that prescribes container semantics for grammar-based publication.
 
-``` xml
+```xml
 <containerManifestList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
      xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
      minSupportedClientVersion="2.0.0.0" 
@@ -149,7 +149,7 @@ A container manifest specifies which containers can be used in a grammar-based p
 
 The following is the container manifest prescribed by Lync 2013 and provisioned from Lync Server 2013.
 
-``` xml
+```xml
   <containerManifestList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
        xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
        minSupportedClientVersion="2.0.0.0" 

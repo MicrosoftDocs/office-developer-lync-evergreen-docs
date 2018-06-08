@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Reference topology with high availability and multiple data center
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The reference topology for multiple data centers is for any size of organization with more than one central site. The exact topology in the following diagram is for an organization of 70,000 users, with 40,000 users at Central Site A and 30,000 at Central Site B. The type of topology shown in this diagram can accommodate organizations with any number of users.
 

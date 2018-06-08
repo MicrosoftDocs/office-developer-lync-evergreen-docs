@@ -13,14 +13,9 @@ dev_langs:
 # Conversation context channel
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Registering an application extension for a conversation context channel  
-Conversation context channel data traffic and limitations  
-Typical conversation context channel scenario  
-Using the ConversationContextChannel class  
-ConversationContextChannel state transitions  
+ 
 
 The [ConversationContextChannel](https://msdn.microsoft.com/en-us/library/hh161849\(v=office.15\)) class enables a endpoint to launch and interact with a Conversation Extension window in Lync 2013.
 
@@ -86,7 +81,7 @@ To create a **ConversationContextChannel** instance, call its constructor with t
 
 Next, register for events on the channel. The following example creates a **ConversationContextChannel** instance.
 
-``` csharp
+```csharp
 conversationContextChannel = new ConversationContextChannel(conversation, remoteParticipantEndpoint); 
 // Register for changes in state. 
 conversationContextChannel.StateChanged += this.conversationContextChannel_StateChanged; 
@@ -100,7 +95,7 @@ A **ConversationContextChannel** instance can be established only if the convers
 
 The following example shows the steps involved in establishing a **ConversationContextChannel** instance.
 
-``` csharp
+```csharp
 ConversationContextChannelEstablishOptions establishOptions = new ConversationContextChannelEstablishOptions(); 
 // Pass the name for your application. The remote endpoint uses this name to display messages
 // about your application. For example if the application is not 
@@ -158,7 +153,7 @@ After the channel is established it can be used to send or receive data. To send
 
 The following example shows a typical call to **BeginSendData**, and the outline of a handler for the **DataReceived** event.
 
-``` csharp
+```csharp
 conversationContextChannel.BeginSendData( 
         new System.Net.Mime.ContentType(″application/myApplication+xml″), 
         new ASCIIEncoding().GetBytes(myDataString), 

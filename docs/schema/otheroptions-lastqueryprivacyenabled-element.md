@@ -13,11 +13,11 @@ dev_langs:
 # otherOptions/lastQueryPrivacyEnabled element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains a Boolean flag showing whether last query of privacy is enabled or not.
 
-``` xml
+```xml
     <lastQueryPrivacyEnabled>boolean</lastQueryPrivacyEnabled>
 ```
 

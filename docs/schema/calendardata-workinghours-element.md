@@ -13,14 +13,14 @@ dev_langs:
 # calendarData/WorkingHours element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A user’s working-hours information as specified in the underlying Exchange Server computer.
 
 [calendarData category instance value element](calendardata-category-instance-value-element.md)  
   WorkingHours Element  
 
-``` xml
+```xml
 < WorkingHours xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
     <TimeZone>
         <Bias>Timezone offset from GMT in minutes</Bias>

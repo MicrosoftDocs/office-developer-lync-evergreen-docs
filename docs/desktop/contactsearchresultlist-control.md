@@ -16,7 +16,7 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 ContactSearchResultList control.
 
-**Last modified:** February 14, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -116,7 +116,7 @@ Notable ContactSearchResultList control public properties relating to unified co
 
 The following example can be used for Silverlight and WPF application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ContactSearchInputBox x:Name="searchInput"/>
   <controls:ContactSearchResultList
@@ -125,7 +125,7 @@ The following example can be used for Silverlight and WPF application developmen
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

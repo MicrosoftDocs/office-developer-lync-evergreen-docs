@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SIP URIs
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A Session Initiation Protocol (SIP) uniform resource identifier (URI) identifies a communications resource, and contains enough information to initiate and continue a communication session with the resource identified in the URI.
 

@@ -13,11 +13,11 @@ dev_langs:
 # contactCard/photo/hash element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 The hash value of the photo.
 
-``` xml
+```xml
 <hash>string</hash>
 ```
 

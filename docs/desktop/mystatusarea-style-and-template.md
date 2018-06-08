@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the style and template for the [MyStatusArea](https://msdn.microsoft.com/en-us/library/hh363503\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
-**Last modified:** November 27, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 There are no states or parts or [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the MyStatusArea control.
 
@@ -133,7 +133,7 @@ The following sample shows the default Windows Presentation Foundation style and
      </Setter>
     </Style>
 
-## Additional resources
+## See also
 
 [Customizing Lync Controls](customizing-lync-controls.md)
 

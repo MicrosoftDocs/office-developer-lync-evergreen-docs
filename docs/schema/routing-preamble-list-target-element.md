@@ -13,11 +13,11 @@ dev_langs:
 # routing/preamble/list/target element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies a waiting period before the specified routing rules cease to apply and the incoming calls are sent to the caller’s voicemail.
 
-``` xml
+```xml
 <ro:target xmlns:ro="http://schemas.microsoft.com/2006/09/sip/routing"
     uri="string" application="string" />
 ```

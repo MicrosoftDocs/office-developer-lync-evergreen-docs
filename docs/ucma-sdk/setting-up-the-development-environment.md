@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Setting up the development environment
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following software must be installed on your development computer.
 

@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to get and display the enhanced presence that is published by a Microsoft Lync 2013 user.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -184,7 +184,7 @@ The contact photo is returned from the [Contact.GetContactInformation](https://m
     
     The following example shows how to complete the steps in this procedure.
     
-    ``` csharp
+    ```csharp
     using (Stream photoStream =
                         _Contact.GetContactInformation(ContactInformationType.Photo) as Stream)
     {
@@ -212,7 +212,7 @@ The contact photo is returned from the [Contact.GetContactInformation](https://m
     
     The following example sets the **Source** property of an **Image** object to a new **BitMapImage**.
     
-    ``` csharp
+    ```csharp
     using (Stream photoStream =
                         _Contact.GetContactInformation(ContactInformationType.Photo) as Stream)
     {
@@ -237,7 +237,7 @@ The contact photo is returned from the [Contact.GetContactInformation](https://m
     
     The following example gets a contact’s telephone number collection and casts the returned value to a list of objects.
     
-    ``` csharp
+    ```csharp
     List<object> _endpoints = (List<object>)_Contact.GetContactInformation(ContactInformationType.ContactEndpoints);
     ```
 
@@ -245,7 +245,7 @@ The contact photo is returned from the [Contact.GetContactInformation](https://m
     
     The following example iterates on the object list and breaks when the work telephone is found.
     
-    ``` csharp
+    ```csharp
     string returnValue = string.Empty;
     foreach (object endpoint in _endpoints)
     {
@@ -262,7 +262,7 @@ The contact photo is returned from the [Contact.GetContactInformation](https://m
 
 The following example declares the Windows form shown in the Get and display enhanced presence section.
 
-``` csharp
+```csharp
 namespace SimpleContactList
 {
     partial class ContactCard
@@ -570,7 +570,7 @@ namespace SimpleContactList
 
 The following example sets the values displayed on the previous form.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -670,7 +670,7 @@ namespace SimpleContactList
 
 The following example encapsulates a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object in a class that handles events on the **Contact** and exposes enhanced information as a set of public properties.
 
-``` csharp
+```csharp
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -1199,7 +1199,7 @@ namespace SimpleContactList
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

@@ -13,10 +13,9 @@ dev_langs:
 
 # Implement the UCWA sign-in workflow
 
+**Applies to:** Lync 2013 | Lync Server 2013
+
 Signing in to UCWA is the first step of any UCWA application. The process involves discovering the UCWA root resource, from which the user authentication can proceed. Once the user is authenticated, a UCWA application resource is created and bound to the local endpoint. These tasks are demonstrated in the steps below and implemented in a separate C\# class file (namely, UcwaApp.cs).
-
-
-_**Applies to:** Lync 2013 | Lync Server 2013_
 
 ## Sign in to UCWA with specified user name and password
 
@@ -24,7 +23,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 
 2.  Add to the UcwaApp class definition the following DiscoverRootResource method that obtains the root resource of a specified user using the Lync auto discovery service.
     
-    ``` csharp
+    ```csharp
             private async Task<UcwaHttpOperationResult> DiscoverRootResource(bool discoverFromInternalDomain = false)
             {
                 this.discoverFromInternalDomain = discoverFromInternalDomain;
@@ -63,7 +62,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
     
     Given a Lync discovery service Url, the steps to get the root resource may be implemented as follows.
     
-    ``` csharp
+    ```csharp
             private async Task<UcwaHttpOperationResult> GetRootResource(string url, int maxTrials = 3)
             {
                 HttpWebResponse response;
@@ -85,7 +84,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
     
     If the specified user is homed on a different server pool, a redirect resource will be returned. You must repeat the steps above to get the root resource using the redirected Url. Before doing that, you should make sure that the supplied redirect Url passes appropriate security checks. For more information on security checks on a redirect Url, see [Getting Started to Using UCWA](http://ucwa.skype.com/documentation/gettingstarted-rooturl). As an illustration, the work flow to get redirected root resource is shown in the following GetRedirectResource method.
     
-    ``` csharp
+    ```csharp
             private async Task<UcwaHttpOperationResult> GetRedirectResource(string redirectUrl, bool checkRedirectUrl = true)
             {
                 if (checkRedirectUrl && !RedirectUrlSecurityCheckPassed(redirectUrl))
@@ -111,7 +110,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 
 3.  Add to the UcwaApp class definition the following GetUserResource method that authenticates the user and obtains an OAuth token required of the subsequent HTTP requests.
     
-    ``` csharp
+    ```csharp
             private async Task<UcwaHttpOperationResult> GetUserResource(string userResUri, string userName, string password, AuthenticationTypes authType = AuthenticationTypes.Password)
             {
                 this.IsSignedIn = false;
@@ -184,19 +183,19 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
     
     The first attempt to get the UCWA [user](http://ucwa.skype.com/documentation/resources-user) resource results in a 401 Unauthorized response. Its headers include one named WWW-Authenticate with a value similar to the following.
     
-    ``` html
+    ```html
     Bearer trusted_issuers="00000002-0000-0ff1-ce00-000000000000@contoso.com", client_id="00000004-0000-0ff1-ce00-000000000000",MsRtcOAuth href="https://lyncweb.contoso.com/WebTicket/oauthtoken",grant_type="urn:microsoft.rtc:windows,urn:microsoft.rtc:anonmeeting,password"
     ```
     
     Contained in this WWW-Authenticate header is the Uri of the OAuth token provider as specified by the MsRtcOAuth href parameter value, together with allowed authentication types as specified by the grant\_type parameter value. Here, a user can be authenticated using a Windows security credentials or password. If enabled, a user can also anonymously join a meeting. To continue, the href value, parsed into the oAuthHref variable. A POST request is then submitted against this Uri, together with the user name and password specified as the payload of the request.
     
     The response from the MsRtcOAuth provider contains the required oAuth token for the user in the response body, an example of which is shown as follows.
-    
-        {"access_token":"cwt=AAEBHAEFAAAAAAAFFQAAAIxVppb2z4Dxaju2058FAACBEPoG3XyftjBYhE5zTT0buHeCAotbgyDsTGw1VRfC0jPIQlfoa9VU-7UZoTtyNvTaXSKdEGRMToYI85tyCISt0AgNEPoG3XyftjBYhE5zTT0buHc","expires_in":27402,"ms_rtc_identityscope":"local","token_type":"Bearer"}
+     
+     `{"access_token":"cwt=AAEBHAEFAAAAAAAFFQAAAIxVppb2z4Dxaju2058FAACBEPoG3XyftjBYhE5zTT0buHeCAotbgyDsTGw1VRfC0jPIQlfoa9VU-7UZoTtyNvTaXSKdEGRMToYI85tyCISt0AgNEPoG3XyftjBYhE5zTT0buHc","expires_in":27402,"ms_rtc_identityscope":"local","token_type":"Bearer"}`
     
     Because the authentication service responds in JSON, the data can be parsed using the Windows.Data.Json namespace. This is shown in the following subroutine.
     
-    ``` csharp
+    ```csharp
             private string GetOAuthToken(string responseData)
             {
                 string oAuth20Token = null;
@@ -215,13 +214,14 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
     
     The corresponding OAuth ticket is constructed as follows,
     
+    ```json
         Bearer cwt=AAEBHAEFAAAAAAAFFQAAAIxVppb2z4Dxaju2058FAACBEPoG3XyftjBYhE5zTT0buHeCAotbgyDsTGw1VRfC0jPIQlfoa9VU-7UZoTtyNvTaXSKdEGRMToYI85tyCISt0AgNEPoG3XyftjBYhE5zTT0buHc
-    
+    ```
     And it is then set as the Authorization header value for the next GET HTTP request against the user resource. This time, the HTTP request should return a status of OK.
 
 4.  Add to the UcwaApp class definition the following GetApplicationResource method that creates and returns an application resource bound to the local endpoint of the specified user.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Get an application resource bound to the user's local endpoint
             /// </summary>
@@ -250,7 +250,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
     
     Throughout the application life cycle, you may need to get an updated application resource when the underlying states change. This can be done by submitting an HTTP GET request against the cached application Url. An implementation of this process is shown as follows.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// An overloaded member to get updated application resource, given the application uri.
             /// </summary>
@@ -266,7 +266,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 
 5.  Add to the UcwaApp class definition the following SignIn method that implements the workflow to log the user by calling DiscoverRootResource, GetUserResource and then GetApplicationResource methods.
     
-    ``` 
+    ```csharp 
             public async Task<HttpStatusCode> SignIn(string userName, string password)
             {
                 this.userName = userName;
@@ -338,17 +338,12 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
     
     For a newly created UCWA application to receive incoming notifications, it must make the local user available to receive incoming notifications. This is done by issuing an HTTP POST request on the makeMeAvailable resource. (In this tutorial, the operation is exposed as the PostMakeMeAvailable method on the UcwaAppMe class encapsulating the me resource.) As a consequence, more resources become accessible to the application. You should get an updated application resource in order to access the newly available resources.
 
-## Additional resources
+## See also
 
-  - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-
-  - [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
-
-  - [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
-
-  - [Enable fluid user interface](enable-fluid-user-interface.md)
-
-  - [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)
-
-  - [Putting it all together](putting-it-all-together.md)
+- [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
+- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
+- [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
+- [Enable fluid user interface](enable-fluid-user-interface.md)
+- [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)
+- [Putting it all together](putting-it-all-together.md)
 

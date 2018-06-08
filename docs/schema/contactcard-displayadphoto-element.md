@@ -13,11 +13,11 @@ dev_langs:
 # contactCard/displayADPhoto element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A Boolean flag to indicate whether to display contact photo stored in Active Directory (True) or from a custom photo store (False).
 
-``` xml
+```xml
 <displayADPhoto>Boolean</displayADPhoto>
 ```
 

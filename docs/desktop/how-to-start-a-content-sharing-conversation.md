@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to start a Lync 2013 conversation that hosts content sharing by using the Microsoft Lync 2013 API.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -119,7 +119,7 @@ Before the logic in this topic runs in your application, the Lync 2013 client mu
 
 Add the following namespace declarations to your application.
 
-``` csharp
+```csharp
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Group;
 using Microsoft.Lync.Model.Conversation;
@@ -149,7 +149,7 @@ The following example signs the user in to Lync 2013 and registers event callbac
 
 This code is added to the **Load** event handler for your form.
 
-``` csharp
+```csharp
             try
             {
                 //Get the API entry point
@@ -213,7 +213,7 @@ The following example creates a conversation. The conversation is not started un
 
 Add this code to the **Click** event handler of a button on your form.
 
-``` csharp
+```csharp
     _conversation = _LyncClient.ConversationManager.AddConversation();
 ```
 
@@ -240,7 +240,7 @@ The following example registers for events on the new conversation and content s
 
 Add the following code to the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event callback method.
 
-``` csharp
+```csharp
 if (_conversation == e.Conversation)
 {
     ((Modality)_conversation.Modalities[ModalityTypes.ContentSharing]).ModalityStateChanged += Modality_ModalityStateChanged;
@@ -285,7 +285,7 @@ The following example registers for the new participant’s [ActionAvailabilityC
 
 Add this code to your callback on the [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event.
 
-``` csharp
+```csharp
 ((Modality)e.Participant.Modalities[ModalityTypes.ContentSharing]).ActionAvailabilityChanged += _ParticipantsharingModality_ActionAvailabilityChanged;
 if (!e.Participant.IsSelf)
 {
@@ -324,7 +324,7 @@ The following example verifies that the content sharing modality state allows th
 
 Add the following code to the [Conversation.StateChanged](https://msdn.microsoft.com/en-us/library/jj278070\(v=office.15\)) event callback method.
 
-``` csharp
+```csharp
 If (e.NewState == ConversationState.Active)
 {
     if (((Modality)_conversation.Modalities[ModalityTypes.ContentSharing]).CanInvoke(ModalityAction.Connect))
@@ -344,7 +344,7 @@ The following example enables or disables the content-sharing action UI buttons 
 
 The sample application declares a UI button for each content-sharing modality action. By default, these buttons are disabled. When a modality action is available, the corresponding command button is enabled. These action state changes are reflected in the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event that is raised on the platform thread. To update the property of a control on the UI thread, code on the platform thread must create an instance of a delegate method and then invoke that delegate on the UI thread.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when the availability of an action on the content sharing modality changes
         /// </summary>
@@ -364,7 +364,7 @@ The sample application declares a UI button for each content-sharing modality ac
 
 The following example enables the local user to accept or reject a remote user’s invitation to share a whiteboard. The example enables two buttons in the UI that give the user the option to accept or decline the invitation.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when the availability of an action on the content sharing modality changes
         /// </summary>
@@ -462,7 +462,7 @@ Lync 2013 API conversation objects
 
 The following example declares the Windows Form that is shown in figure 1.
 
-``` csharp
+```csharp
 namespace ContentSharing
 {
     partial class ContentSharing_Form
@@ -1077,7 +1077,7 @@ namespace ContentSharing
 
 The following example is the interaction logic for the Windows Form declared in the previous example.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;
@@ -2719,7 +2719,7 @@ After the content sharing conversation is in the state described in Application 
 
   - [How to: Attach a file to the content stage of a conversation](how-to-attach-a-file-to-the-content-stage-of-a-conversation.md)
 
-## Additional resources
+## See also
 
   - [What you can do with content sharing](what-you-can-do-with-content-sharing.md)
 

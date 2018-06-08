@@ -11,12 +11,9 @@ mtps_version: v=office.15
 # Back-to-back user agent architecture
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Header passing across call legs  
-Message exchange on a BackToBackCall  
-Call leg state and BackToBackCall.State  
+  
 
 The architectural framework behind the back-to-back user agent feature is based on interactions between the Microsoft Unified Communications Managed API (UCMA) [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) and [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)) abstract classes. Both call legs are associated with the same **BackToBackMediaProvider** instance.
 

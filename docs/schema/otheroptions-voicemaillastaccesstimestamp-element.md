@@ -13,11 +13,11 @@ dev_langs:
 # otherOptions/voiceMailLastAccessTimestamp element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains the timestamp showing the last access to voicemail.
 
-``` xml
+```xml
 <voiceMailLastAccessTimestamp>string</voiceMailLastAccessTimestamp>
 ```
 

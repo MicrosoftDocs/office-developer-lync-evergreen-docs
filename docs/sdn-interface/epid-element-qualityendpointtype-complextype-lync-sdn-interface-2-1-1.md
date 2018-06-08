@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# EPId element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# EPId element (QualityEndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Endpoint Id of the endpoint.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="EPId"  type="xs:string" minOccurs="0">
     

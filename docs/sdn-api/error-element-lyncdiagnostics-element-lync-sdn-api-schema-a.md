@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Error element (LyncDiagnostics element) (Lync SDN API Schema A)
+# Error element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Error event that a SIP call has failed and all active media streams for the corresponding CallId (and Cseq) are terminated. Error events are also sent for SIP calls that are terminated even before a media stream is started or for failed to be updated.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Error" minOccurs="0" maxOccurs="unbounded">
     <xs:complexType>
         <xs:sequence>
@@ -105,7 +102,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="endpoint-element-error-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EndPoint</a></p></td>
+<td><p><a href="endpoint-element-error-element-sdn-api-schema-a.md">EndPoint</a></p></td>
 <td><p><a href="endpointtype-complextype-lync-sdn-api-schema-a.md">EndPointType</a></p></td>
 <td><p>Endpoint involved in the error event.</p></td>
 </tr>

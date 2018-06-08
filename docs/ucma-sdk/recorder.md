@@ -13,7 +13,7 @@ dev_langs:
 # Recorder
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A [Recorder](https://msdn.microsoft.com/en-us/library/hh381624\(v=office.15\)) is an entity that can receive audio media that comes from an [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instance and record it to a file. Depending on the state of the attached **AudioVideoFlow** instance, a **Recorder** can automatically start or stop.
 
@@ -61,7 +61,7 @@ The essential points of creating and using a **Recorder** instance appear in the
 
 <!-- end list -->
 
-``` csharp
+```csharp
 public void Run()
 {
 

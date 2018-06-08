@@ -13,7 +13,7 @@ dev_langs:
 # Create a Persistent Chat API application project in Visual Studio
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ### To create a Visual Studio project for a Persistent Chat application
 
@@ -27,7 +27,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 
 5.  Import the Microsoft.Rtc.Collaboration, Microsoft.Rtc.Collaboration.PersistentChat and Microsoft.Rtc.Collaboration.PersistentChat.Management namespaces into the application project by inserting the following statements at the end of the using block in every code file referencing the Lync Server 2013 Persistent Chat API.
     
-    ``` csharp
+    ```csharp
     using Microsoft.Rtc.Collaboration;
     using Microsoft.Rtc.Collaboration.PersistentChat;
     using Microsoft.Rtc.Collaboration.PersistentChat.Management;

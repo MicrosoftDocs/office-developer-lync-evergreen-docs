@@ -13,11 +13,11 @@ dev_langs:
 # userInformation/phones element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the list of optional phone lines made available to reach the user. The options are set in the Microsoft Lync 2013 **Lync Options** dialog box.
 
-``` xml
+```xml
 <ui:phones xmlns:ui="http://schemas.microsoft.com/2006/09/sip/options/userInformation" >
    <ui:phones>Zero or more phone elements</ui:phones>
    <ui:callHandlingList>Zero or more targets to handle the listed phones</ui:callHandlingList>

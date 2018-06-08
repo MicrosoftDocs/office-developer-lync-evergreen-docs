@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Creating an Excel bot
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 Build a Bot can be used to create bots that require no programming at all. To accomplish this, follow the steps in the following procedure.
 

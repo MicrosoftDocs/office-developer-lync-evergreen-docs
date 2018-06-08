@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the foundational Microsoft Lync 2013 SDK objects that make up the programmable components of a Microsoft Lync 2013 conversation.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -55,7 +55,7 @@ The concepts described in the following topics are essential for understanding h
 
   - [Conversation window automation in Lync SDK](conversation-window-automation-in-lync-sdk.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync conversations](get-started-with-lync-conversations.md)
 

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Use the default CWE application registration package in custom Lync 2013 automation applications to specify an extensibility tab application on the receiver side of a conversation.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -65,7 +65,7 @@ You must use Install Registration to register context packages on a computer. To
 
 On the sender side, the default CWE application starts when the conversation window opens. On the receiving side, if a default context package is registered on the receiving computer, it starts. If another CWE application ID is specified by the sending computer and a matching application ID is found on the local computer, both CWE applications start.
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

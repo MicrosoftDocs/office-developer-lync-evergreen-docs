@@ -13,7 +13,7 @@ dev_langs:
 # Receiving a conference invitation
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 At the SIP level, a [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) is represented as a SIP INVITE with Session Description Protocol (SDP) that contains information about the media types that are included in the call, together with other information that helps negotiate a connection between the sender and recipient of the INVITE.
 
@@ -35,7 +35,7 @@ The following list describes the steps an application must perform when it recei
 
 <!-- end list -->
 
-``` csharp
+```csharp
 public class ConferenceInvitationExample
 // This class is shown for demonstration purposes only. It is incomplete,
 // and so will fail to compile.

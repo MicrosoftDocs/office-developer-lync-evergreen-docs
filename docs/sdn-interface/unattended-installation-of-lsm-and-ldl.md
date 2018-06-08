@@ -10,14 +10,7 @@ mtps_version: v=office.15
 
 # Unattended installation of LSM and LDL
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
-
-**In this article**  
-Unattended installation of LDL  
-Unattended installation of LSM  
-Doing an unattended uninstall  
-Additional resources  
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 In production, you often have to install the Lync SDN Manager and Lync Dialog Listener in an unattended mode. This article describes the parameters that are used for an unattended installation.
 
@@ -74,12 +67,8 @@ In production, you often have to install the Lync SDN Manager and Lync Dialog Li
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>When DNS "Service Location (SRV)" records are used by LDL, any configured value for the parameter submitURI is ignored. Instead, the URI specified in the SRV record is used.</P>
-
-
+> When DNS "Service Location (SRV)" records are used by LDL, any configured value for the parameter submitURI is ignored. Instead, the URI specified in the SRV record is used.
 
 An installation using the SKIPREGISTRATION=1 option offers an interesting alternative installation option. This script executed has three major purposes: Perform the registration of Lync SDN Interface with Lync, so that Lync forwards request and response messages to the LyncDialogListener service, attempt to activate sending of Incall Quality messages, and to start the service itself.
 
@@ -172,13 +161,16 @@ The registration and activation are only required once for the entire pool and t
 
 To do an unattended uninstall, do the following:
 
-  - **For LDL**: In the command line, type C:\\Windows\\System32\\msiexec.exe /X{C741381E-92CE-4867-BBCB-E329637606DE}
+- **For LDL**: In the command line, type: 
 
-  - **For LSM**: In the command line, type C:\\Windows\\System32\\msiexec.exe /X{60A580F2-7B7A-4665-9696-07BE5D9AF15F}
+`C:\Windows\System32\msiexec.exe /X{C741381E-92CE-4867-BBCB-E329637606DE}`
 
-## Additional resources
+- **For LSM**: In the command line, type: 
 
-  - [Installing Lync SDN Manager](installing-lync-sdn-manager.md)
+`C:\Windows\System32\msiexec.exe /X{60A580F2-7B7A-4665-9696-07BE5D9AF15F}`
 
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+## See also
+
+- [Installing Lync SDN Manager](installing-lync-sdn-manager.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

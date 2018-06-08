@@ -13,7 +13,7 @@ dev_langs:
 # Parsing location policy
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The location policy from the provisioned data specifies whether emergency services are enabled for the specified location. In Microsoft Unified Communications Managed API (UCMA), the location policy is encapsulated by a LocationPolicyConfiguration object, which exposes the configuration settings as a raw XML string.
 
@@ -40,7 +40,7 @@ The following code example shows how the media configuration might be parsed by 
 
 The following example output is generated when the previous code statements are invoked.
 
-``` xml
+```xml
 LocationPolicyConfiguration:
 ElementXml = 
          <property name="EnhancedEmergencyServicesEnabled" xmlns="http://schemas.microsoft.com/2006/09/sip/provisiongrouplist-notification">false</property>

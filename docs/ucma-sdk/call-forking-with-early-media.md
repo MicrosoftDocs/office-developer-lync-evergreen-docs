@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Call forking with early media
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 An outgoing call can be forked to multiple endpoints. When an outgoing call is forked, the caller receives multiple provisional responses with response code 183 (Session Progress). A 183 response can contain an SDP body to establish an early dialog. In this case the [SetAnswer(OfferAnswerContext, SdpOffer, SdpAnswer)](https://msdn.microsoft.com/en-us/library/hh382509\(v=office.15\)) method is invoked on the [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)) for each response. The [CallDialogContext](https://msdn.microsoft.com/en-us/library/hh383382\(v=office.15\)) property represents the dialog context for the response.
 

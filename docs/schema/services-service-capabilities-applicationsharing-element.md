@@ -13,11 +13,11 @@ dev_langs:
 # services/service/capabilities/applicationSharing element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies the presence capability for a presentity to participate in application-sharing.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/service">
      <applicationSharing 

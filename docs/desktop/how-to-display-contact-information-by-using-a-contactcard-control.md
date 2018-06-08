@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use the Lync Controls ContactCard in a WPF window or Silverlight page to display contact information for a Lync user.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ Use a [Grid](http://msdn2.microsoft.com/en-us/library/ms610550) as a container f
 
 3.  Edit the Name and Source properties to provide valid values.
     
-    ``` xaml
+    ```xaml
     <Grid>
      <Grid.ColumnDefinitions>
       <ColumnDefinition/>
@@ -115,7 +115,7 @@ Use a Grid as a container for a group of ContactCard controls.
 
 2.  In Window1.xaml, replace the existing Grid control with the example XAML text from step 2 in the previous procedure, edit the XAML, and then complete the remaining steps as described in that procedure.
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

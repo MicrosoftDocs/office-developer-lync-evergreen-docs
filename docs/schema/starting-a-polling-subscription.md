@@ -13,7 +13,7 @@ dev_langs:
 # Starting a Polling Subscription
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 After the RemotePresenceView object for a polling subscription is created and initialized, you can start the polling subscription by calling the StartSubscribingToPresentities method on the RemotePresenceView object of the Polling type.
 
@@ -25,7 +25,7 @@ To stop the subscription, call the StartUnsubscribingToPresentities method on th
 
 The following code example shows how to start and stop a polling subscription.
 
-``` csharp
+```csharp
         #region Polling subscription
         public void SetPollingCategories(params string[] categoryNames)
         {

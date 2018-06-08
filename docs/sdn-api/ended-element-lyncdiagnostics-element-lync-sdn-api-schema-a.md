@@ -1,5 +1,5 @@
 ﻿---
-title: Ended element (LyncDiagnostics element) (Lync SDN API Schema A)
+title: Ended element  (Lync SDN API Schema A)
 TOCTitle: Ended element
 ms:assetid: 2db9c396-fc3c-625f-ae00-badd5c7bfe70
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455034(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Ended element (LyncDiagnostics element) (Lync SDN API Schema A)
+# Ended element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Event that a Sip call has ended and all media stream terminated.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Ended" maxOccurs="unbounded" minOccurs="0">
     <xs:complexType>
         <xs:sequence>
@@ -105,7 +102,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="endpoint-element-ended-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EndPoint</a></p></td>
+<td><p><a href="endpoint-element-ended-element-sdn-api-schema-a.md">EndPoint</a></p></td>
 <td><p><a href="endpointtype-complextype-lync-sdn-api-schema-a.md">EndPointType</a></p></td>
 <td><p>Endpoint involved in the ended SIP call.</p></td>
 </tr>

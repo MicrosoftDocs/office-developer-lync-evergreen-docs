@@ -13,11 +13,11 @@ dev_langs:
 # contactCard/automaton element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A Boolean flag to indicate whether the contact is a non-person entity (True) or a person entity (False).
 
-``` xml
+```xml
 <automaton>Boolean</automaton>
 ```
 

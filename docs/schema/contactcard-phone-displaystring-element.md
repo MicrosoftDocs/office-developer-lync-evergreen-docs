@@ -13,11 +13,11 @@ dev_langs:
 # contactCard/phone/displayString element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The display of a phone number of a contact.
 
-``` xml
+```xml
 <displayString updated="DateTime" [anyAttr]="String" LCID="lcid">string</displayString>
 ```
 

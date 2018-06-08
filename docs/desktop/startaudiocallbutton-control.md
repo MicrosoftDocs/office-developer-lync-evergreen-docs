@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 StartAudioCallButton control.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -87,13 +87,13 @@ Notable StartAudioCallButton control public properties and events that are relat
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:StartAudioCallButton Source="sip:elise@contoso.com"/>
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

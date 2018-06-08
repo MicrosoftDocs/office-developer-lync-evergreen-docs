@@ -13,7 +13,7 @@ dev_langs:
 # Using an AudioVideoFlowTemplate
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) class has no public constructors, but instead relies on settings in an [AudioVideoFlowTemplate](https://msdn.microsoft.com/en-us/library/hh349157\(v=office.15\)) instance to initialize or modify an **AudioVideoFlow** instance.
 
@@ -25,7 +25,7 @@ After an **AudioVideoFlowTemplate** instance has been created, its settings can 
 
 The technique of calling [Initialize](https://msdn.microsoft.com/en-us/library/hh381417\(v=office.15\)) to initialize an **AudioVideoFlow** instance can be used only when the **AudioVideoFlow** is in the **Idle** state, and only within the body of a handler for the [AudioVideoFlowConfigurationRequested](https://msdn.microsoft.com/en-us/library/hh383342\(v=office.15\)) event.
 
-``` csharp
+```csharp
 AudioVideoFlow audioVideoFlow;
 ...
 
@@ -67,7 +67,7 @@ The settings of an **AudioVideoFlow** instance can also be changed by a call to 
 
 In the following code example, which is shown only for purposes of illustration, it is assumed that *AVCall*, an [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) instance, previously has been created, and that the state of *audioVideoFlow* is **Active**.
 
-``` csharp
+```csharp
 AudioVideoFlow audioVideoFlow;
 ...
 

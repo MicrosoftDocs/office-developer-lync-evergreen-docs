@@ -16,7 +16,7 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 CustomContactListItem control.
 
-**Last modified:** February 12, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -117,13 +117,13 @@ Notable CustomContactListItem control public properties relating to unified comm
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <controls:CustomContactList>
   <controls:CustomContactListItem Source="sip:mary@contoso.com"/>
 </controls:CustomContactList>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

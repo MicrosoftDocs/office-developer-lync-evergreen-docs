@@ -13,11 +13,11 @@ dev_langs:
 # services/service element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a presence service enabled for a presentity.
 
-``` xml
+```xml
 <service 
     xmlns="http://schemas.microsoft.com/2006/09/sip/service"
     uri="xs:anyURI"

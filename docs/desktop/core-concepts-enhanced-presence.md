@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts that you need to know before you use the contact enhanced presence object model to get and display contact presence in an application.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -42,7 +42,7 @@ Enhanced presence is the user-specific collection of information that describes 
 
   - [Presence publication and subscription in Lync SDK](presence-publication-and-subscription-in-lync-sdk.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

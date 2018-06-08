@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Activating a UCMA 4.0 trusted application
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A UCMA trusted application is an application based on Microsoft Unified Communications Managed API 4.0 that is trusted by Microsoft Lync Server 2013. This trust relationship is summarized in the following list:
 

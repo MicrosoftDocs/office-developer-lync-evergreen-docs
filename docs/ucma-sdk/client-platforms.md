@@ -13,7 +13,7 @@ dev_langs:
 # Client platforms
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 When a [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.15\)) instance is created, it can be created as a client platform, a server platform, or as a provisioned application server platform. Each of the three **CollaborationPlatform** constructors can be used to create one type of platform.
 
@@ -37,7 +37,7 @@ A client platform can be used with a small number of user endpoints to test the 
 
 The following examples show how to initialize and uninitialize a client platform.
 
-``` csharp
+```csharp
 private void Initialize()
 {
 

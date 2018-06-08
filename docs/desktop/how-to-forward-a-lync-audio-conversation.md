@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to programmatically forward a Microsoft Lync 2013 audio call by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -123,7 +123,7 @@ The client call forwarding operation should be started as soon as an audio call 
 
 ### Class field declarations
 
-``` csharp
+```csharp
         private LyncClient _LyncClient;
 ```
 
@@ -147,7 +147,7 @@ The following example handles the [ConversationAdded](https://msdn.microsoft.com
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles ConversationAdded state change event raised on ConversationsManager
         /// </summary>
@@ -197,7 +197,7 @@ The following example handles the [ConversationAdded](https://msdn.microsoft.com
         }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

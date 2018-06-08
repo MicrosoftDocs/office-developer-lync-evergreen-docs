@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts that you need to know before you use the contact-related object model of Microsoft Lync 2013 SDK to modify a user’s contact list in Microsoft Lync 2013 or create your own Lync contact list in an application.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -56,7 +56,7 @@ Figure 1. Lync 2013 client contact list with programmable components called out
 
   - [Lync contacts](lync-contacts.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync contact lists](get-started-with-lync-contact-lists.md)
 

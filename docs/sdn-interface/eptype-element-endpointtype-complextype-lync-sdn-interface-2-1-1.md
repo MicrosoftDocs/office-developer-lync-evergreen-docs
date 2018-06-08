@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# EPType element (EndPointType complexType) (Lync SDN Interface 2.1.1)
+# EPType element (EndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Indicates that this endpoint is of the Lync Room System type or not.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="EPType"  type="xs:string" minOccurs="0">
     

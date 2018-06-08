@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Diagnostics and error reporting
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Significant improvements in diagnostics and debugging for the administrator and application developer were added in Microsoft Lync Server 2010. Developers who are working with Microsoft Unified Communications Managed API 4.0 can take advantage of a number of improvements that were introduced in Microsoft Unified Communications Managed API (UCMA) 3.0, to quickly and efficiently discover, diagnose, and resolve any failures that occur within the platform or application, and that can result in failure or call termination.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Enhanced Presence categories
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Enhanced presence data can include various types of information. For example, the availability of a user may be part of the user’s presence state type. Supported audio/video features may be of the user’s presence capabilities type. In a Microsoft Lync Server 2013 deployment, a type of enhanced presence data is known as a presence category or category. In other words, categories are enhanced presence data types.
 

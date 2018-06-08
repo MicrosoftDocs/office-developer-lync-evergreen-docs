@@ -13,14 +13,9 @@ dev_langs:
 # Server platforms
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Server platform characteristics  
-Types of provisioning data  
-Manual provisioning  
-Auto-provisioning  
-Auto-provisioning details  
+
 
 When a [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.15\)) instance is created, it can be created as a client platform, a server platform, or as a provisioned application server platform. Each of the three **CollaborationPlatform** constructors can be used to create one type of platform.
 
@@ -78,7 +73,7 @@ The following list shows the steps that are required to use auto-provisioning in
     
     To create an auto-provisioned application, a **CollaborationPlatform** instance must be created by using the constructor that takes a [ProvisionedApplicationPlatformSettings](https://msdn.microsoft.com/en-us/library/hh385058\(v=office.15\)) argument. Platform startup will succeed if provisioning data for the application is successfully fetched.
     
-    ``` csharp
+    ```csharp
     ProvisionedApplicationPlatformSettings platformSettings = new ProvisionedApplicationPlatformSettings (″myUserAgent″, ″myApplicationId″);
     // Populate other properties on platformSettings.
     platform = new CollaborationPlatform(platformSettings);
@@ -97,7 +92,7 @@ The following list shows the steps that are required to use auto-provisioning in
     
     Applications that have certain endpoints that must be functioning before the remaining endpoints can be created and established will require a different approach. Such an application might require one or more endpoints that are used for the application’s logic rather than for directly servicing calls to the application. For example, in a contact center application, one endpoint might subscribe to the presence of agents while other endpoints represent individual response groups. To simplify application logic in this case, an application can register multiple handlers. One handler can process the [ApplicationEndpointSettings](https://msdn.microsoft.com/en-us/library/hh349433\(v=office.15\)) instance that corresponds to the presence watcher endpoint while the other handler can process the **ApplicationEndpointSettings** instances that correspond to the individual response groups. The application can register just the first handler; after the presence watcher endpoint is up and running, it can register the second handler, because the application is now ready to route calls to agents. The *PresenceWatcherEndpointSettingsHandler* method shown in the following example should be registered in the calling code before the other handler is registered.
     
-    ``` csharp
+    ```csharp
     private void PresenceWatcherEndpointSettingsHandler(object sender, ApplicationEndpointSettingsDiscoveredEventArgs e)
     {
       ApplicationEndpointSettings endpointSettings = e.ApplicationEndpointSettings;

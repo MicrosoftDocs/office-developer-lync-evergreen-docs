@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Publishing presence
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 permits automatic presence publications for UCMA 4.0 endpoints during endpoint establishment. This applies to the [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) and [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) types.
 

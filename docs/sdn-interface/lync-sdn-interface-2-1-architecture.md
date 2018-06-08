@@ -10,22 +10,21 @@ mtps_version: v=office.15
 
 # Lync SDN Interface 2.1 architecture
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Conceptually, the Lync SDN Interface 2.1.1 consists of the following components:
 
-  - A Lync Dialog Listener (LDL) that captures signaling and quality observations about media traffic between Lync endpoints.
+- A Lync Dialog Listener (LDL) that captures signaling and quality observations about media traffic between Lync endpoints.
 
-  - A Lync SDN Manager (LSM) that collects the data from one or more LDLs and distributes to third-party network management systems.
+- A Lync SDN Manager (LSM) that collects the data from one or more LDLs and distributes to third-party network management systems.
 
-  - One or more network management systems, also known as network controllers, supporting a restful web service to receive and analyze the call and quality data posted from the LSM.
+- One or more network management systems, also known as network controllers, supporting a restful web service to receive and analyze the call and quality data posted from the LSM.
 
 ## Lync SDN Interface infrastructure
 
 At a high level, the Lync SDN Interface 2.1.1 infrastructure consists of the Lync SDN Manager, the LDL/Lync Server FE and Network Controller, Lync clients, and one or more networks in the cloud.
 
-Figure 1. Lync SDN Interface architecture
+**Figure 1. Lync SDN Interface architecture**
 
   
 ![Lync SDN Interface Architecture](images/Dn785192.Lync_sdn_interface_architecture_2(Office.15).png "Lync SDN Interface Architecture")
@@ -42,14 +41,12 @@ A network management system runs independently of the LSM and its underlying Lyn
 
 When a Lync user calls another Lync user, a SIP dialog is established. SIP messages are exchanged between the client and Lync Server. Specific SIP messages contain data reflecting media-related information relevant for Lync SDN Interface 2.1.1 and are forwarded to the Lync SDN Manager (LSM). The LSM is then responsible for verifying, combining and packaging the call and quality data in XML and posting them to the configured web service of one or more network management systems. Figure 2 shows this process.
 
-Figure 2. Detailed Lync SDN Interface 2.1.1 architecture, with two Lync clients, a single Lync Server FE, an LSM, and a network controller
+**Figure 2. Detailed Lync SDN Interface 2.1.1 architecture, with two Lync clients, a single Lync Server FE, an LSM, and a network controller**
 
-  
 ![Architecture of Lync SDN Interface](images/Dn785192.architecture_lync_sdn_api(Office.15).png "Architecture of Lync SDN Interface")
 
-## Additional resources
+## See also
 
-  - [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
-
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+- [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

@@ -13,11 +13,11 @@ dev_langs:
 # calendarData/WorkingHours/WorkingPeriodArray element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds an array of working-hours periods of a user.
 
-``` xml
+```xml
     <WorkingPeriodArray>
       <WorkingPeriod>         <DayOfWeek>string</DayOfWeek>
          <StartTimeInMinutes>int</StartTimeInMinutes >
@@ -98,7 +98,7 @@ A working period array can have zero or more working periods. For
 
 The following XML code snippet shows an array of two working periods:
 
-``` xml
+```xml
     <WorkingPeriodArray>
       <WorkingPeriod>
         <DayOfWeek>Monday Wednesday Friday</DayOfWeek>

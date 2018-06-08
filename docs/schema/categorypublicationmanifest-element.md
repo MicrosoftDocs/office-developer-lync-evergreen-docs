@@ -13,11 +13,11 @@ dev_langs:
 # categoryPublicationManifest element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the list of publication of enhanced presence category instances following the publication grammar prescribed by Microsoft Lync Server 2013 and Microsoft Lync 2013.
 
-``` xml
+```xml
 <categoryPublicationManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
      xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
      minSupportedClientVersion="2.0.0.0" 
@@ -151,7 +151,7 @@ Understanding of the publication grammar is important to ensure a smooth interop
 
 The following shows an excerpt of the publication grammar that stipulates how [state category instance value elements](state-category-instance-value-elements.md) category instances are published.
 
-``` xml
+```xml
 <categoryPublicationManifest 
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
      xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
@@ -227,7 +227,7 @@ The example above stipulates that all the [state category instance value element
 
 The following shows an excerpt of the publication grammar that stipulates a [state\[@type='aggregateState'\] element](state-element_4.md) category instance with the Offline availability mode (18500) be published to the Block container when a client launches the first time.
 
-``` xml
+```xml
 <categoryPublicationManifest 
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
      xmlns:xsd="http://www.w3.org/2001/XMLSchema" 

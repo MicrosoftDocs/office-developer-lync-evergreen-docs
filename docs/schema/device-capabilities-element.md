@@ -13,11 +13,11 @@ dev_langs:
 # device/capabilities element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Describes the presence capabilities of the device.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/device">
     <CCCP preferred="boolean" preferredEndpointId="endpointId"

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Lync 2013 conversation window docking feature that lets you host a conversation window inside a container control in your application by using Microsoft Lync 2013 SDK.
 
-**Last modified:** January 11, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -94,7 +94,7 @@ The example found in [How to: Dock a conversation window in Lync SDK](how-to-doc
 
 This event can be raised when an application window does not have the focus and has docked a conversation window. The conversation window needs attention after a visual element of the conversation window is added, a new invitation prompt is displayed, or an IM message has arrived. The [ConversationWindow.NeedsAttention](https://msdn.microsoft.com/en-us/library/jj276832\(v=office.15\)) event is raised to signal the parent window that it must start flashing its border to warn the user.
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync conversations](beyond-the-basics-lync-conversations.md)
 

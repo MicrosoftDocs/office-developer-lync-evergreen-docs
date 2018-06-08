@@ -13,13 +13,13 @@ dev_langs:
 # Receiving contacts presence
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The subscription to contacts and groups category instances provides a mechanism to maintain the identities of a user’s contacts and groups across different application sessions and to roam the list across multiple established endpoints. However, the contact list constructed in this manner does not specify any presence information about the contained contacts. In many application scenarios, a contact list requires that presence and other information about a contact be displayed as well. In any Microsoft Lync Server 2013 deployment, the contact’s presence information is obtained through a separate remote subscription to presence categories by the contacts in the contact list. For more information about receiving the presence of each contact after the contact list is obtained, see [Receiving Enhanced Presence](receiving-enhanced-presence.md).
 
 The following code example shows how to manage the subscription to contacts presence. It shows the programming tasks that are used to subscribe and unsubscribe to the contacts presence, to refresh an ongoing subscription to the contacts presence, and to make on-demand queries of the contacts presence. For more information about initializing a contacts presence subscription, see [Preparing to receive a contact list](preparing-to-receive-a-contact-list.md).
 
-``` csharp
+```csharp
         #region Managing contacts' presence subscription
 
         /// <summary>

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Best practices (UCMA 4.0)
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section contains information about best practices in developing applications. The topics in this section provide guidelines of interest to any developers of Microsoft Unified Communications Managed API 4.0 applications, and guidelines of interest for those developing applications that work with audio medial.
 

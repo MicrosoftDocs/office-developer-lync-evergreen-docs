@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # InstantMessagingFlow
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 An [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.15\)) instance represents an instant messaging connection with a single remote participant.
 

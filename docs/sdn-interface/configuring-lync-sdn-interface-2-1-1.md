@@ -10,18 +10,15 @@ mtps_version: v=office.15
 
 # Configuring Lync SDN Interface 2.1.1
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 ## In this section
 
-  - [Configuring Lync SDN Interface 2.1.1 Lync Dialog Listener](configuring-lync-sdn-interface-2-1-1-lync-dialog-listener.md)
+- [Configuring Lync SDN Interface 2.1.1 Lync Dialog Listener](configuring-lync-sdn-interface-2-1-1-lync-dialog-listener.md)
+- [Configuring Lync SDN Interface 2.1.1 Lync SDN Manager](configuring-lync-sdn-interface-2-1-1-lync-sdn-manager.md)
 
-  - [Configuring Lync SDN Interface 2.1.1 Lync SDN Manager](configuring-lync-sdn-interface-2-1-1-lync-sdn-manager.md)
+## See also
 
-## Additional resources
-
-  - [Overview of Lync SDN Interface 2.1.1](overview-of-lync-sdn-interface-2-1-1.md)
-
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+- [Overview of Lync SDN Interface 2.1.1](overview-of-lync-sdn-interface-2-1-1.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

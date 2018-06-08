@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about advanced features of Microsoft Lync 2013 SDK that let you enhance the Persistent Chat experience of Lync 2013 users.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -42,7 +42,7 @@ Learn about creating a Lync 2013 Persistent Chat window that accesses messages p
 
   - [Create a custom Persistent Chat client](create-a-custom-persistent-chat-client.md)
 
-## Additional resources
+## See also
 
   - [Get started with Persistent Chat](get-started-with-persistent-chat.md)
 

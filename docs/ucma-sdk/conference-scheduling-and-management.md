@@ -13,15 +13,9 @@ dev_langs:
 # Conference scheduling and management
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Scheduling a conference  
-PSTN participants  
-Joining a conference  
-Conference commands and events  
-Adding a call to an MCU  
-McuSession operations  
+
 
 An application can use the members of the [ConferenceServices](https://msdn.microsoft.com/en-us/library/hh348907\(v=office.15\)) class to schedule, modify, or cancel a conference. The **ConferenceServices** property on an endpoint (either [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) or [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\))) is a reference to a **ConferenceServices** object.
 
@@ -65,7 +59,7 @@ An application can join an *ad hoc* conference using the [BeginJoin(ConferenceJo
 
 Before joining the conference, it is recommended that the application register for the roster events on the [ConferenceSession](https://msdn.microsoft.com/en-us/library/hh349315\(v=office.15\)) instance and the other [McuSession](https://msdn.microsoft.com/en-us/library/hh384975\(v=office.15\)) instances the application is interested in.
 
-``` csharp
+```csharp
 // It is sufficient for most applications to monitor the roster on the conversation level.
 
 // Monitor new participants joining the conference.
@@ -100,7 +94,7 @@ conversation.ConferenceSession.BeginJoin(cjo, JoinCallback, state);
 
 An application can also join a previously scheduled conference if the conference URI is known. The last line in the previous code example can be replaced with the following statement.
 
-``` csharp
+```csharp
 conversation.ConferenceSession.BeginJoin(conferenceURI, cjo, JoinCallback, state);
 ```
 
@@ -126,11 +120,11 @@ After the [ConferenceSession](https://msdn.microsoft.com/en-us/library/hh349315\
 
 These commands generally impact the state of the entire conference (Focus and MCUs). Two examples are ejecting all endpoints of a specific participant from the conference, and locking the conference to prevent additional users from joining.
 
-``` csharp
+```csharp
 conversation.ConferenceSession.BeginEject(conversation.RemoteParticipants[0], EjectCallback, state);
 ```
 
-``` csharp
+```csharp
 conversation.ConferenceSession.BeginLockConference(LockConferenceCallback, state);
 ```
 
@@ -160,12 +154,12 @@ As with conference commands, an application receives MCU-related events even if 
 
 After the **ConferenceSession** is connected, the application can add an IM call with the IM MCU to exchange instant messages with other participants. The same applies to adding an audio/video call with the AV MCU.
 
-``` csharp
+```csharp
 InstantMessagingCall imcall = new InstantMessagingCall(conversation);
 imcall.BeginEstablish(EstablishCallback, state);
 ```
 
-``` csharp
+```csharp
 AudioVideoCall avcall = new AudioVideoCall(conversation);
 avcall.BeginEstablish(EstablishCallback, state);
 ```
@@ -178,7 +172,7 @@ During a conference it is possible to request an MCU to dial out to another part
 
 An application might execute the following sample code for a situation in which two participants are in an audio conference discussing a problem and find that they need the help of a third person, Alice. One participant requests the AV MCU to dial out to the Alice’s cell phone so that she can become a conference participant.
 
-``` csharp
+```csharp
 McuDialOutOptions mcuDialOutOptions = new McuDialOutOptions();
 mcuDialOutOptions.ParticipantUri = "sip:alice@contoso.com";
 mcuDialOutOptions.ParticipantDisplayName = "Alice";

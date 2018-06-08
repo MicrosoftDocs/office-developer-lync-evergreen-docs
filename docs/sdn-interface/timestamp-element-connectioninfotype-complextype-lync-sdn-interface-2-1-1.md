@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# TimeStamp element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# TimeStamp element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 UTC time when the report is processed.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="TimeStamp"  type="xs:dateTime" minOccurs="0">
     

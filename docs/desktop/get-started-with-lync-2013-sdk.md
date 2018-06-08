@@ -12,16 +12,11 @@ mtps_version: v=office.15
 
 Learn about getting started using Microsoft Lync 2013 SDK, the essential features of the SDK, and how you can use those features to give your application enhanced unified communication features that are supported by Microsoft Lync Server 2013.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-What is Microsoft Lync 2013 SDK?  
-Get started with Microsoft Lync 2013 SDK  
-What can you do with Microsoft Lync 2013 SDK?  
-Beyond the basics: Learn more about Microsoft Lync 2013 SDK  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+
 
 <table>
 <colgroup>
@@ -255,7 +250,7 @@ Many of the same Lync options that can be set by the user can also be set by you
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Lync 2013 SDK general reference](lync-2013-sdk-general-reference.md)
 

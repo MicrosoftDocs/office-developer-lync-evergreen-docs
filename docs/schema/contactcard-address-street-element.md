@@ -13,11 +13,11 @@ dev_langs:
 # contactCard/address/street element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The street name of a contact’s address.
 
-``` xml
+```xml
 <street updated="DateTime" [anyAttr]="string" LCID="lcid">string</street>
 ```
 

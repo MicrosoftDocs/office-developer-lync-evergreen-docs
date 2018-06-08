@@ -12,14 +12,13 @@ dev_langs:
 
 # LSM configuration file example
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The following is an example of the LSM configuration file (SDNManager.exe.config).
 
-## A sample of the SDNManager.exe.config file
+## Sample of the SDNManager.exe.config file
 
-``` xml
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <configSections>

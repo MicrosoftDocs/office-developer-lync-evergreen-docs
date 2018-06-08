@@ -11,15 +11,9 @@ mtps_version: v=office.15
 # General application activation
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Create a pool of trusted application computers  
-Trusted application pools and DNS load balancing  
-Create a certificate for the computers in a trusted application pool  
-Add a trusted service port for the application  
-Create Active Directory contact objects (optional)  
-Create Active Directory user objects for the application (optional)  
+ 
 
 All trusted applications require entries in the Microsoft Lync Server 2013 topology document that specify the computers on which the application runs, as well as the trusted service ports required by the trusted applications. In addition, to communicate with Lync Server 2013, an application computer also requires a machine certificate, because Lync Server 2013 supports only Mutual Transport Layer Security (MTLS) with trusted servers. Optionally, an application can be associated with one or more trusted application endpoints that are bound to SIP URIs in the same way that a user is associated with a SIP URI.
 

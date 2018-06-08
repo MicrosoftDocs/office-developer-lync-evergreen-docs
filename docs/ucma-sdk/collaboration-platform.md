@@ -11,13 +11,9 @@ mtps_version: v=office.15
 # Collaboration platform
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Connection management  
-Managing trust with Lync Server  
-Extensible communication framework  
-Auto-provisioning  
+ 
 
 The collaboration platform, an instance of the [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.15\)) class, provides capabilities for managing connections to and from the platform, guarantees a trust relationship with Microsoft Lync Server 2013 for server-mode **CollaborationPlatform** instances, and provides a mechanism whereby developers can extend the capabilities of the platform beyond the built-in media types that are supported in Microsoft Unified Communications Managed API 4.0.
 

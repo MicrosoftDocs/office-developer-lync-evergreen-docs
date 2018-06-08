@@ -13,11 +13,11 @@ dev_langs:
 # calendarData/WorkingHours//WorkingPeriod element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a work period of a given contact.
 
-``` xml
+```xml
 <WorkingPeriod>
     <StartTimeInMinutes>Start time of this working period</StartTimeInMinutes>
     <EndTimeInMinutes>End time of this working period</EndTimeInMinutes>
@@ -100,7 +100,7 @@ None
 
 The following XML code snippet shows a working period:
 
-``` xml
+```xml
       <WorkingPeriod>
         <DayOfWeek>Monday Tuesday Wednesday Thursday Friday</DayOfWeek>
         <StartTimeInMinutes>480</StartTimeInMinutes>

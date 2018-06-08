@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Trusted conferencing user conversation model API
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The Trusted Conferencing User (TCU) model is implemented in Microsoft Unified Communications Managed API (UCMA) 3.0 by the addition of several new types together with the addition of several new properties and overloaded methods on existing Microsoft Unified Communications Managed API (UCMA) 2.0 types. This topic provides the details of these changes.
 

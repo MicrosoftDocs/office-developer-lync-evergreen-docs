@@ -14,14 +14,11 @@ mtps_version: v=office.15
 
 Learn about the quick-start samples and application reference samples that are installed with Microsoft Lync 2013 SDK.
 
-**Last modified:** December 07, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-Quick-start samples  
-Reference samples  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+ 
 
 <table>
 <tbody>
@@ -120,7 +117,7 @@ Features:
 
 Path: *%PROGRAMFILES%\\*Microsoft Lync\\SDK\\Samples \\ProposalTracker or *%PROGRAMFILES(X86)%*\\Microsoft Lync\\SDK\\Samples \\ProposalTracker
 
-## Additional resources
+## See also
 
   - [Lync 2013 SDK general reference](lync-2013-sdk-general-reference.md)
 

@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to automate opening a new Microsoft Lync 2013 conversation window to host an audio conversation with another Lync 2013 client.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -88,14 +88,14 @@ To start an audio conversation, get a [Microsoft.Lync.Model.Extensibility.Automa
 
 5.  In Form1.cs, add the following using statement.
     
-    ``` csharp
+    ```csharp
     using Microsoft.Lync.Model;
     using Microsoft.Lync.Model.Extensibility;
     ```
 
 6.  In the command button click event handler, add the following code.
     
-    ``` csharp
+    ```csharp
     // Create a generic List object to contain the URI to call.
     // Edit this to provide a valid URI.
     List<string> participantUri = new List<string>();
@@ -127,7 +127,7 @@ The following sample is a WPF window that accepts a SIP URI and automates the st
 
 The following example declares a WPF window that accepts a string URI and shows a command button that opens a new conversation window with a person or a PSTN phone.
 
-``` xaml
+```xaml
 <Window x:Class="AutomationPhoneCall.Page1"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -147,7 +147,7 @@ The following example declares a WPF window that accepts a string URI and shows 
 
 The following example automates a new Lync 2013 conversation window with the audio modality and connects to the user that was resolved by the supplied SIP URI.
 
-``` csharp
+```csharp
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
@@ -193,7 +193,7 @@ namespace AutomationPhoneCall
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

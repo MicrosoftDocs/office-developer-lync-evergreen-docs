@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Adding a modality to an existing conversation
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Adding an audio-video call is similar to adding an instant messaging (IM) call. When a call is added to a conversation, a new modality is considered to be added to the conversation. Adding a modality can be done in a conversation when the conversation is in two-party or conference mode. When a call is established, the corresponding provider is asked for the offer that contains the media types needed for the call. These media types are dependent on how the flow is configured by the application. After a successful offer/answer is negotiated on the call, the corresponding media types are locked in the conversation. It is not possible to add additional calls that want to negotiate the locked media types.
 

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# From element (StartOrUpdateType complexType) (Lync SDN Interface 2.1.1)
+# From element (StartOrUpdateType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Source of the media stream.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="From"  type="EndPointType" minOccurs="0">
     

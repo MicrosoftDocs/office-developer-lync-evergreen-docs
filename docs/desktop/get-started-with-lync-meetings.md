@@ -12,16 +12,11 @@ mtps_version: v=office.15
 
 Learn about the programming concepts and Microsoft Lync 2013 SDK object model that you use to add Lync 2013 meeting lifecycle management features to an application.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-What is Microsoft Lync 2013 meeting lifecycle management?  
-Get started with Lync meetings  
-What can you do with Lync meetings?  
-Beyond the basics: Learn more about Lync meetings  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+ 
 
 <table>
 <colgroup>
@@ -161,7 +156,7 @@ The following table lists advanced concepts for working with Lync meetings.
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md)
 

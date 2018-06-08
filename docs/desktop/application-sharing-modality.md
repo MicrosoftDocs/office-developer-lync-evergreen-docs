@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the **ApplicationSharingModality** class and how it enables you to share resources in an application.
 
-**Last modified:** April 16, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -56,7 +56,7 @@ As local resources become available or are no longer available, the conversation
 
 The resource control-related **ApplicationSharingModality** events convey control requests between a shared resource owner and participant who has requested or given control of the resource. For example, if Bob is sharing his own desktop and Sally requests control of the desktop, the control request and response are carried on the **ApplicationSharingModality** object that represents their relationship. The control requests and responses are not seen by the other conversation participants. When offering control of a resource, the **ApplicationSharingModality** representing the local user and a user who is to be offered resource control is used. For example, if Bob has revoked the control of his desktop from Sally and now wants to offer it to Tom, Bob chooses Tom on the conversation roster of his conversation window UI and then the application gets Tom’s **ApplicationSharingModality** object and makes the control offer with that object. Use the [Participant.Modalities](https://msdn.microsoft.com/en-us/library/jj267336\(v=office.15\)) property to get the **ApplicationSharingModality** for a conversation participant.
 
-## Additional resources
+## See also
 
   - [Core concepts: Desktop, application, and display sharing in Lync SDK](core-concepts-desktop-application-and-display-sharing-in-lync-sdk.md)
 

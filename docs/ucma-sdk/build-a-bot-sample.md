@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Build a Bot (sample)
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
 Sample name: BuildABot
 

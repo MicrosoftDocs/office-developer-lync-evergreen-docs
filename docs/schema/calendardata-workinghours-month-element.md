@@ -13,11 +13,11 @@ dev_langs:
 # calendarData/WorkingHours/Month element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the number of the month when the standard or daylight time zone begins
 
-``` xml
+```xml
 <Month>int</Month>
 ```
 
@@ -69,7 +69,7 @@ An integer between 1 and 12
 
 The following XML code snippet shows the standard time in a given time zone:
 
-``` xml
+```xml
 <StandardTime>
     <Bias>0</Bias>
     <Time>02:00:00</Time>

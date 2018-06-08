@@ -17,9 +17,9 @@ dev_langs:
 
 Learn about the concept of contextual conversations in Lync 2013 and about application scenarios, application development models, and contextual extension application package registration.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -98,7 +98,7 @@ Use Lync SDK at two levels, ranging from easy to complex, to add contextual conv
 
 The Lync 2013 API includes many XAML controls, each available in Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) versions. You can add these controls to existing business applications and use either XAML or the code-behind page to add contextual conversation features. The following example adds the sender’s context to an IM conversation. For more information, see [How to: Start a contextual conversation with an IM call](how-to-start-a-contextual-conversation-with-an-im-call.md).
 
-``` xaml
+```xaml
 <StackPanel>
   <StackPanel.Resources>
     <controls:ConversationContextualInfo 
@@ -120,7 +120,7 @@ The Lync 2013 API includes many XAML controls, each available in Microsoft Silve
 
 The Lync 2013 API includes a managed code API that you can use to add contextual conversation features to conversations with the Lync 2013 UI as an optional element. The following example adds an application ID and application data to a conversation. For more information, see [Send and update context in an existing conversation](send-and-update-context-in-an-existing-conversation.md).
 
-``` csharp
+```csharp
 Dictionary<ContextType, object> context = new Dictionary<ContextType, object>();
 context.Add(ContextType.ApplicationId, "{d0722164-f660-470f-a933-e4853f215b77}");
 context.Add(ContextType.ApplicationData, "Some data string");
@@ -205,7 +205,7 @@ Use Runtime Registration for flexible package setup. Use the ApplicationRegistra
 
   - [Client support scenarios](client-support-scenarios.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync conversations](beyond-the-basics-lync-conversations.md)
 

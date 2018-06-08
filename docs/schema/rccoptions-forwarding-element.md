@@ -13,11 +13,11 @@ dev_langs:
 # rccOptions/forwarding element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies where and how to forward calls from the PBX phone.
 
-``` xml
+```xml
 <forwarding xmlns="http://schemas.microsoft.com/2006/09/sip/options/rccOptions">
    <mode>...</mode>
    <toPhoneType>...</toPhoneType>

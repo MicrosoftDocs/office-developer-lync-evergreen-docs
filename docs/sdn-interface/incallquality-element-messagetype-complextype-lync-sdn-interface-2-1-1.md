@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# InCallQuality element (MessageType complexType) (Lync SDN Interface 2.1.1)
+# InCallQuality element 
+
+(MessageType complexType) (Lync SDN Interface 2.1.1)
 
 Indicates that a significant quality related event occured in the client. Either the quality dropped into another level or improved. There are 3 levels: Good, Poor, Bad. The media stack determines the quality level. Furthermore, this event is also sent when a video stream is deescalated. Even in an issue free network at least one IncallQuality message is sent.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="InCallQuality"  type="QualityType">
     

@@ -14,7 +14,7 @@ mtps_version: v=office.15
 
 Learn about the common properties of the Microsoft Lync 2013Lync Controls.
 
-**Last modified:** February 14, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -80,7 +80,7 @@ The properties listed in the following table are common to most Lync Controls in
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

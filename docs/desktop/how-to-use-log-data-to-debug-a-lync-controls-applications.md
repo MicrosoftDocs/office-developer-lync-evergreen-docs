@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use log data to debug a Microsoft Windows Presentation Foundation (WPF) application that contains Microsoft Lync Controls. This topic builds on [How to: Add logging to a Lync Controls application](how-to-add-logging-to-a-lync-controls-application.md), which describes how to enable logging.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -53,7 +53,7 @@ Create a Lync WPF application with logging enabled and then add XAML code that c
 
 2.  In Page.xaml, add the following XAML, which sets the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property to an invalid URI.
     
-    ``` xaml
+    ```xaml
     <controls:StartInstantMessagingButton Source="sip:typo@contoso"/>
     ```
 
@@ -92,7 +92,7 @@ Review the message created by a malformed URI after you exited Lync 2013 in the 
 
 4.  Build and run the application.
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

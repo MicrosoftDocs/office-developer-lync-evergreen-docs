@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about programmatically sharing a computer monitor, desktop, or running program with another Microsoft Lync 2013 user in a conversation window by using classes in Microsoft Lync 2013 SDK.
 
-**Last modified:** April 16, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -201,7 +201,7 @@ The methods in the following table let you share resources. Control of locally s
 
   - [How to: Request and release control of a shared resource](how-to-request-and-release-control-of-a-shared-resource.md)
 
-## Additional resources
+## See also
 
   - [Core concepts: Desktop, application, and display sharing in Lync SDK](core-concepts-desktop-application-and-display-sharing-in-lync-sdk.md)
 

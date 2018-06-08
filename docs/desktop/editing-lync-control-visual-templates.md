@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concept of customizing the visual template of Microsoft Lync 2013 Controls to provide a customized visual appearance in your application.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ To customize the visual template ("retemplate") of a control:
 
 To create a new ControlTemplate, edit a copy of the existing template for the control you customize. A simple way to get a copy of the existing template for a control is to use Microsoft Expression Blend 4.
 
-## Additional resources
+## See also
 
   - [Editing the template of a Lync Control](editing-the-template-of-a-lync-control.md)
 

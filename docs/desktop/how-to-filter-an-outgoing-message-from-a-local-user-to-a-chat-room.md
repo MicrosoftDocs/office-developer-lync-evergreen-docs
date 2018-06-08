@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to create a client-side ethical/security filter for messages that a Microsoft Lync 2013 is posting to a Lync 2013 Persistent Chat room.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -101,7 +101,7 @@ You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.
 
 The following example references the namespaces that are used in the following Windows Forms examples.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -112,7 +112,7 @@ using System.Collections;
 
 The following example declares the class fields that are referenced later in this topic.
 
-``` csharp
+```csharp
         /// <summary>
         /// The LyncClient class instance that encapsulates the Lync client platform
         /// </summary>
@@ -147,7 +147,7 @@ When you have obtained a [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft
 
 The following example registers for room events and reads room properties.
 
-``` csharp
+```csharp
         /// <summary>
         /// Registers for message, state, and participant related events on a room.
         /// </summary>
@@ -251,7 +251,7 @@ The outgoing message filtering logic is triggered in the [Room.IsSendingMessage]
 
 The following example filters a pending message in the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event.
 
-``` csharp
+```csharp
         private void room_IsSendingMessage(object sender, RoomMessageEventArgs e)
         {
 
@@ -309,7 +309,7 @@ The following example filters a pending message in the [Room.IsSendingMessage](h
 
 The following example takes the pending message text as a parameter, parses the message for custom content rules, makes corrections in the string, warns a user if corrections are made, and passes the updated string back to the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event handler.
 
-``` csharp
+```csharp
         /// <summary>
         /// Replaces trade quantities and/or securities prices when either value is outside of
         /// acceptable trading parameters
@@ -363,7 +363,7 @@ The following example takes the pending message text as a parameter, parses the 
 
 The following example is the interaction logic for the window declared in the previous example.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Controls;
 using Microsoft.Lync.Model;
@@ -531,7 +531,7 @@ namespace FilterMessageAddIn
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

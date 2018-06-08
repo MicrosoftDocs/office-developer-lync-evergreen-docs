@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the advanced features of Microsoft Lync 2013 SDK that you can use to make your stand-alone Lync 2013 API-enabled application more flexible and robust.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -95,7 +95,7 @@ Conversation alert settings give a user the ability to control the circumstances
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md)
 

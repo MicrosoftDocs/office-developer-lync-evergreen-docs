@@ -10,15 +10,12 @@ dev_langs:
 - xml
 ---
 
-# Invite element (MessageType complexType) (Lync SDN Interface 2.1.1)
+# Invite element 
+
+(MessageType complexType) (Lync SDN Interface 2.1.1)
 
 Event that an endpoint attempts to establish a call. LDL will include this element in its output if the sendcallinvites entry is set to True (activated) in the LDL configuration file. In addition, LDL will also notifies any SIP Invite messages (re-invites), not just the first one. Following this message Earlymedia may be flowing but this element is not intended to report on early media streams.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +43,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Invite"  type="InviteType">
     

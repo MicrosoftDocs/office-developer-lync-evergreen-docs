@@ -13,11 +13,11 @@ dev_langs:
 # instanceId element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a particular category instance to which the publication rule is applied.
 
-``` xml
+```xml
 <instanceId type="instanceIdValuesEnumEx" value="xs:integer" [anyAttribute]="anyType" />
 ```
 
@@ -103,7 +103,7 @@ This element is optional. If an instance Id is specified, the publication rule a
 
 The following example shows the publication rules for publishing note category instances used by Microsoft Lync 2013.
 
-``` xml
+```xml
 <publicationRule ruleType="bootstrap" categoryName="state" containerId="32000"> 
    <instanceId type="constant" value="0" /> 
    <expireType type="static" /> 

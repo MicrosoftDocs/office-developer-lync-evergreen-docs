@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # MediaProvider recommendations
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 To implement bandwidth management in a class derived from the [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)) class, the derived provider class must carry out the following tasks:
 

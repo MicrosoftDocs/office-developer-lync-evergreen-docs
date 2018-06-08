@@ -13,11 +13,11 @@ dev_langs:
 # contactCard/title element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The professional title of the contact.
 
-``` xml
+```xml
 <title>locale-specifiable and last update-trackable string</title>
 ```
 

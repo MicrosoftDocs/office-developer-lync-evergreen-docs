@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using Lync Server 2013 Logging Tool
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 An important part of the process of developing a UCMA 4.0 application is the ability to trace the protocol stack. To do this, you will enable tracing. By viewing the contents of the protocol stack during or after the execution of your code, you can familiarize yourself with the topology of UCMA 4.0.
 

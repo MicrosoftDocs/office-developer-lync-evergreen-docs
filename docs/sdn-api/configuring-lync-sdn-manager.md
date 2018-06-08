@@ -12,26 +12,20 @@ dev_langs:
 
 # Configuring Lync SDN Manager
 
+**Applies to**: Lync 2013
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Configuring Lync SDN Manager logging options  
-Configuring Lync SDN Manager execution options  
-Web service configuration  
-Advanced configuration for debugging and logging  
-
-**Note**: The steps presented in this section are optional unless you want to modify the default configurations.
+> [!NOTE] 
+> The steps presented in this section are optional unless you want to modify the default configurations.
 
 The Lync SDN Manager (LSM) logging can be configured by editing the SDNManager.exe.config file located in the default installation directory. The process is similar to configuring LDL logging.
 
-## Configuring Lync SDN Manager logging options
+## Configure Lync SDN Manager logging options
 
 You can configure the logging options for the LSM by following the same steps for the LDL. Please see [Configuring Lync Dialog Listener](configuring-lync-dialog-listener.md) for more information.
 
-## Configuring Lync SDN Manager execution options
+## Configure Lync SDN Manager execution options
 
-Follow the steps below to modify the Lync SDN Manager (LSM) execution configuration.
+Follow these steps to modify the Lync SDN Manager (LSM) execution configuration.
 
 ### Configure LSM execution options
 
@@ -97,7 +91,7 @@ By default, the submituri value for the Web service is set to http://localhost:9
 
 The LSM supports advanced debugging via a WCF service. By uncommenting and customizing the section below, you can send low level debug messages to a WCF service.
 
-``` xml
+```xml
   <!--<system.diagnostics>
     <trace autoflush="true" indentsize="4">
       <listeners>
@@ -149,8 +143,11 @@ The LSM supports advanced debugging via a WCF service. By uncommenting and custo
   </system.diagnostics>-->
 ```
 
+<br/>
+
 You can also turn on some additional logging by uncommenting the section below. When uncommented and customized, it will start a service, with both options for http and https, to receive "random" xml messages and log them to the "OutputData" logging channel.
 
+```xml
           <!--<service name="Microsoft.Rtc.Enlightenment.Hub.LogService">
             <endpoint address="http://localhost:9333/Log"
               binding="webHttpBinding" behaviorConfiguration="webby"
@@ -164,11 +161,11 @@ You can also turn on some additional logging by uncommenting the section below. 
               </identity>
             </endpoint>
           </service>-->
+```
 
 The WCF configuration allows for testing and running the Lync SDN API without needing a network controller that accepts the Lync SDN API message format. You can configure this setting by changing the submitUri value to "http://localhost:9333/Log/PostStuffHere", instead of a network controller’s web service.
 
-
 > [!NOTE]
-> <P>You can view the last megabyte of messages received by browsing to http://localhost:9333/Log/GetStuffHere.</P>
+> You can view the last megabyte of messages received by browsing to http://localhost:9333/Log/GetStuffHere.
 
 

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about the Microsoft Lync Server 2013 SDK sample applications and learn how to build and run each application.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 
 > [!NOTE]
@@ -23,7 +23,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 
 ## In this section
 
-  - [Stamp messages for intra-application communications (ApplicationStamping sample)](stamp-messages-for-intra-application-communications-applicationstamping-sample.md)
+  - [Stamp messages for intra-application communications (ApplicationStamping sample)](stamp-messages-for-intra-application-communications-sample.md)
 
   - [Maintain topology-aware message logs (Archiver sample)](maintain-topology-aware-message-logs-archiver-sample.md)
 

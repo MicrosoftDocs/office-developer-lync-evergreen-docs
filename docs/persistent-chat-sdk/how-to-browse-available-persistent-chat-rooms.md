@@ -15,11 +15,11 @@ dev_langs:
 Learn how to browse the available Persistent Chat rooms in a Microsoft Lync Server 2013 Persistent Chat deployment.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 When a [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj267567\(v=office.15\)) instance is connected to a Lync Server 2013 Persistent Chat, its state becomes [Established](https://msdn.microsoft.com/en-us/library/jj267239\(v=office.15\)) and the endpoint-based Persistent Chat services that are encapsulated by [PersistentChatServices](https://msdn.microsoft.com/en-us/library/jj266890\(v=office.15\)) becomes operational immediately. Such services include browsing available chat rooms by calling [BeginBrowseChatRoomsByCriteria(String, Boolean, Boolean, Boolean, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj267603\(v=office.15\)), [BeginBrowseChatRoomsByInvitations(Int32, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj267594\(v=office.15\)), [BeginBrowseChatRoomsByJoinedUser(Uri, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj266317\(v=office.15\)), [BeginBrowseChatRoomsIManage(AsyncCallback, Object, UInt32)](https://msdn.microsoft.com/en-us/library/jj266916\(v=office.15\)), or [BeginBrowseMyChatRooms(AsyncCallback, Object, UInt32)](https://msdn.microsoft.com/en-us/library/jj267602\(v=office.15\)) method on the [PersistentChatServices](https://msdn.microsoft.com/en-us/library/jj266890\(v=office.15\)) type. These methods are asynchronous and the operations must be completed by calling the corresponding EndBrowseXXX method. The following example shows how to invoke these methods to browse available persistent chat rooms on a Persistent Chat server.
 
-``` csharp
+```csharp
         public void BrowseChatRooms(PersistentChatEndpoint chatEndpoint, string criteria, ref int lastInviteId, string userSipUri)
         {
             PersistentChatServices chatServices = chatEndpoint.PersistentChatServices;

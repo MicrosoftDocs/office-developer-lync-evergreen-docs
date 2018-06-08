@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Persistent Chat followed room feature as it is implemented in Microsoft Lync 2013 SDK.
 
-**Last modified:** December 11, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -182,7 +182,7 @@ The following table describes the behavior differences between chat rooms repres
 1 The user must be joined to the room.  
 2 The user must be joined to the room and be assigned the Presenter role by an administrator.
 
-## Additional resources
+## See also
 
   - [Core concepts: Persistent Chat](core-concepts-persistent-chat.md)
 

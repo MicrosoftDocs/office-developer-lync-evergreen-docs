@@ -10,13 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ByeType complexType (Lync SDN Interface 2.1.1)
+# ByeType complexType 
 
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
+(Lync SDN Interface 2.1.1)
 
 ## Type information
 
@@ -44,7 +40,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="ByeType">
       </xs:complexType>
       

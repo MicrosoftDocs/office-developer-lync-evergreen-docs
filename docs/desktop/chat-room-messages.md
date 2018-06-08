@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the programming pattern used with the four Microsoft Lync 2013 SDK types to read messages posted in a Microsoft Lync 2013 Persistent Chat room.
 
-**Last modified:** April 16, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ Figure 1. Chat room message object model
   
 ![Chat room message class model diagram](images/JJ937304.LyncClientSDK_RoomMessageModel(Office.15).jpg "Chat room message class model diagram")
 
-## Additional resources
+## See also
 
   - [Core concepts: Persistent Chat](core-concepts-persistent-chat.md)
 

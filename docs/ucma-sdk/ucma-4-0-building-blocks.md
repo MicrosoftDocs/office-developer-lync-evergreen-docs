@@ -11,12 +11,9 @@ mtps_version: v=office.15
 # UCMA 4.0 building blocks
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Architecture  
-Key features and UCMA classes  
-In this section  
+
 
 To understand the Microsoft Unified Communications Managed API 4.0 architecture, it is helpful to understand the classes that represent the key features of the architecture as described in [Key features of UCMA 4.0](key-features-of-ucma-4-0.md). It is also helpful to recognize that the architecture has been designed to enable these features.
 

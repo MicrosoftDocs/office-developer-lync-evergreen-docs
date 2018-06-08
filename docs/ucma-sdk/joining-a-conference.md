@@ -13,7 +13,7 @@ dev_langs:
 # Joining a conference
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A conversation can be created initially as a conference, or an existing two-party conversation can be escalated to a conference. In both scenarios, the application must join the conference before inviting new participants. An application can access the conference session from the conversation by means of the conversation’s [ConferenceSession](https://msdn.microsoft.com/en-us/library/hh381097\(v=office.15\)) property.
 
@@ -21,7 +21,7 @@ A conversation can be created initially as a conference, or an existing two-part
 
 The following code demonstrates creating a conference session and then joining the conference.
 
-``` csharp
+```csharp
 ConferenceSession conferenceSession = conversation.ConferenceSession;
 ConferenceJoinOptions cjo = new ConferenceJoinOptions();
 cjo.JoinAsTrustedApplication = false;

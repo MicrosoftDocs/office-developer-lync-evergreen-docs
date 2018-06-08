@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Microsoft Lync 2013 conversation modality that is used to administer meeting content in a Lync conversation.
 
-**Last modified:** June 07, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -99,7 +99,7 @@ The [ContentSharingModality.ContentCollection](https://msdn.microsoft.com/en-us/
 
 A presentable content item, whether a whiteboard, a PowerPoint deck, or a native file, is represented by a [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) class object. Although this is the common class for all types of presentable content, you can only call the class methods that are appropriate for the underlying content type. For example, the [ShareableContent.BeginDownloadFile](https://msdn.microsoft.com/en-us/library/jj278158\(v=office.15\)) method can only be called on a [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object when the type of that object is **ShareableContentTypeNativefile()**.
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

@@ -11,12 +11,8 @@ mtps_version: v=office.15
 # Voice companion
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
-
-**In this article**  
-  
-Typical call flow usage  
-Related features  
+**Applies to:** Lync 2013 | Lync Server 2013
+ 
 
 UCMA enables collaboration from anywhere and from any device, even a simple PSTN phone.
 

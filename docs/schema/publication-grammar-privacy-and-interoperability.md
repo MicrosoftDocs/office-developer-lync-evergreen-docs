@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to use a publication grammar in a Microsoft Lync Server 2013 deployment to ensure that specific publication rules are used.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In Lync Server 2013, presence publication, especially for remote presence watchers, is determined by the application logic of a client. When multiple types of clients operate independently, the publication rules of different clients may collide. To avoid such conflicts, a client can use a publication grammar to inform other clients of its publication logic and the other clients should follow the publication grammar to ensure that the same publication rules are adhered to.
 

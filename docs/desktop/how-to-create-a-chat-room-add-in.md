@@ -15,7 +15,7 @@ dev_langs:
 
 Learn how to create a chat room add-in that displays Microsoft Unified Communications Managed API (UCMA) bot messages and filters a local user’s messages before they are posted to the chat room.
 
-**Last modified:** June 07, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -157,7 +157,7 @@ The hosting chat room is the entry point to all Lync functionality that you can 
 
 The following example gets the hosting room, enables outgoing message filtering, and registers for messaging events.
 
-``` csharp
+```csharp
         /// <summary>
         /// Constructor of the add-in page
         /// </summary>
@@ -210,7 +210,7 @@ The following example gets the hosting room, enables outgoing message filtering,
 
 The following example uses XAML to declare the add-in UI. The controls include an entry field that the user types a filter string into, and text blocks that show the original message post and the post after the add-in has reformatted it.
 
-``` xaml
+```xaml
 <UserControl x:Class="FilterMessageAddIn.FilterMessageAddIn"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -242,7 +242,7 @@ The following example uses XAML to declare the add-in UI. The controls include a
 
 The following example interacts with the XAML user control of a Silverlight chat room add-in. When the user posts a message to the hosting chat room, this add-in catches the message before it is posted. If the message contains the filter string that is entered in the filter text box, the message post is canceled. Otherwise, the message is posted to the room
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Controls;
 using Microsoft.Lync.Model;
@@ -433,7 +433,7 @@ Now that you have created a chat room add-in, learn about how to make your add-i
 
   - [How to: Filter an outgoing message from a local user to a chat room](how-to-filter-an-outgoing-message-from-a-local-user-to-a-chat-room.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

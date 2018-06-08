@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# VPN element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# VPN element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Indicates if the user is on VPN (True) or not (False).
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="VPN"  type="xs:boolean" minOccurs="0">
     

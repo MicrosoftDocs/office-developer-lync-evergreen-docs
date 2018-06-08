@@ -13,11 +13,11 @@ dev_langs:
 # expireType element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the expiry policy of the category publication.
 
-``` xml
+```xml
 <expireType type="expireTypeValuesEnumEx" expireTime="xs:integer"  [anyAttribute]="anyType" />
 ```
 
@@ -112,7 +112,7 @@ This element is optional. If it is unspecified, the publication is endpoint-boun
 
 The following example shows a publication rule for publishing an [state\[@type='aggregateState'\] element](state-element_4.md) category instance to the Block container.
 
-``` xml
+```xml
 <publicationRule ruleType="bootstrap" categoryName="state" containerId="32000"> 
    <instanceId type="constant" value="0" /> 
    <expireType type="static" /> 

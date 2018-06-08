@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Containers for local access
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Lync 2013 uses the following containers to store category instances for local use. The category instances represent local presence information, roaming user data, server configurations, and other application data. Both Lync 2013 and the Microsoft Lync Server 2013 components, such as the aggregation script, publish data to these locally-accessible containers or use the data in them.
 

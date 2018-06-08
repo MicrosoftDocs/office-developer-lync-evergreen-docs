@@ -13,11 +13,11 @@ dev_langs:
 # state/availability element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies an availability number to indicate the presentity’s availability status.
 
-``` xml
+```xml
 <st:availability xmlns:st="http://schemas.microsoft.com/2006/09/sip/state">xs:unsignedInt</st:availability>
 ```
 

@@ -13,11 +13,11 @@ dev_langs:
 # Custom Enhanced Presence categories
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Custom enhanced presence categories can be used to support application-specific presence features not yet supported by any existing enhanced presence schemas. For example, you want to expose the GPS coordinates with an address to indicate the device location of a user. You can define a custom category element to specify this location data as follows.
 
-``` xml
+```xml
 <GPSLocation latitude="47.640071" longitude="122.129598">
    <address>1 Microsoft Way, Redmond, WA 98052-6399, USA</address>
 </GPSLocation>

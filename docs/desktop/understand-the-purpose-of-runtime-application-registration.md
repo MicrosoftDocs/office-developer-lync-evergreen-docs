@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about the purpose of runtime registration of CWE applications in Microsoft Lync 2013 SDK.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ When the internal automation application starts a new conversation window, it ca
 
 The following example overrides the default package by creating an instance of the [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](https://msdn.microsoft.com/en-us/library/jj293820\(v=office.15\)) class, configures it with new values, and creates an in-memory registration for the CWE application. The in-memory registration is used when the conversation window opens the extensibility tab to host the CWE application.
 
-``` csharp
+```csharp
         // Perform Run-Time Registration by using the ApplicationRegistration class.
         void PerformRunTimeRegistration()
         {
@@ -67,7 +67,7 @@ The following example overrides the default package by creating an instance of t
         }
 ```
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

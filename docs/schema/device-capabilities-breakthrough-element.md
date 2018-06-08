@@ -13,11 +13,11 @@ dev_langs:
 # device/capabilities/breakthrough element
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 Specifies the device capability to forward calls automatically, also known as breakthrough.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/device">
      <breakThrough 

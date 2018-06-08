@@ -1,5 +1,5 @@
 ﻿---
-title: Lync SDN Interface Bandwidth Estimates
+title: Lync SDN Interface bandwidth estimates
 TOCTitle: Lync SDN Interface Bandwidth Estimates
 ms:assetid: 35458e8f-29ee-4bc5-b2bc-51bbe390b8d5
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912665(v=office.15)
@@ -8,16 +8,15 @@ ms.date: 03/04/2016
 mtps_version: v=office.15
 ---
 
-# Lync SDN Interface Bandwidth Estimates
+# Lync SDN Interface bandwidth estimates
 
 Provides bandwidth estimate data for Lync SDN Interface 2.1.1.
 
-
-_**Applies to:** Lync Server 2010 | Skype for Business_
+**Applies to**: Lync Server 2010 | Skype for Business
 
 Lync SDN Interface 2.1.1 provides some estimates on the bandwidth that will be used during a call for each stream as a consequence of the codecs being used. The following table shows the raw estimates for each codec. The Bandwidth xml tag contains a weighted average based on the codecs that might be used during the call. This Bandwidth tag shows 0 bandwidth if the given stream direction is inactive.
 
-## Bandwidth Estimates
+## Bandwidth estimates
 
 <table>
 <colgroup>

@@ -11,13 +11,8 @@ mtps_version: v=office.15
 # SpeechRecognitionConnector (QuickStart)
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
-
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+**Applies to:** Lync 2013 | Lync Server 2013
+  
 
 Sample name: SpeechRecognitionConnector
 

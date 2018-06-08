@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # High CPU usage and .NET thread pool
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 If you experience unusually high CPU usage or an increase of CPU usage over time, it may be related to a known issue in the common language runtime (CLR) thread pool in .NET Framework 3.5 SP1.
 

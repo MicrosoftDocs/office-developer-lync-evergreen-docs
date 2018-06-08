@@ -13,11 +13,11 @@ dev_langs:
 # blockRule element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a rule defining the blocking actions that clients are expected to perform.
 
-``` xml
+```xml
 <blockRule type="blockTypeEnumEx" [anyAttribute]="anyValue">
    <containers>...</containers>
    <sourceNetworks>...</sourceNetworks>

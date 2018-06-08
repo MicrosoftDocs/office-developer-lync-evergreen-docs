@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Maximum element (BandwidthType complexType) (Lync SDN Interface 2.1.1)
+# Maximum element 
+
+(BandwidthType complexType) (Lync SDN Interface 2.1.1)
 
 Estimated upper limit of the bandwidth needed by this stream.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Maximum"  type="xs:long" minOccurs="0">
     

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Microsoft Lync 2013 SDK class that lets your application handle audio calls delegated to the local Lync 2013 user.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ When a call comes in on behalf one of the delegating users, the [ConversationMan
 
 When you obtain the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) object for the delegated call, treat the call as a normal incoming audio call. You can accept or reject the call and then perform all of the audio call operations that you would for a non-delegated audio call. For information about handling conversations, see [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync conversations](beyond-the-basics-lync-conversations.md)
 

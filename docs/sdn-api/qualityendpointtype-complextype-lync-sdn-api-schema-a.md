@@ -10,15 +10,13 @@ dev_langs:
 - xml
 ---
 
-# QualityEndPointType complexType (Lync SDN API Schema A)
+# QualityEndPointType complexType 
+
+(Lync SDN API Schema A)
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
 
 ## Type information
 
@@ -46,7 +44,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:complexType name="QualityEndPointType">
     <xs:sequence>
         <xs:element name="URI" type="xs:anyURI"></xs:element>

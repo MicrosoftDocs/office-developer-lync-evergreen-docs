@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Application extension of Enhanced Presence categories
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Application extensions of enhanced presence categories are made by the application developer who uses an enhanced presence category schema designed by others. They are used support application-specific extensions to an existing enhanced presence category.
 

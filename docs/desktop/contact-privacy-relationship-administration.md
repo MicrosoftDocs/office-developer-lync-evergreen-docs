@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concept of managing privacy relationships between a signed-in user and other Microsoft Lync 2013 contacts by using the Microsoft Lync 2013 API.
 
-**Last modified:** December 26, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -99,7 +99,7 @@ The following table shows the five rules and lists the restrictions on enhanced 
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [How to: Administer privacy relationships between Lync users](how-to-administer-privacy-relationships-between-lync-users.md)
 

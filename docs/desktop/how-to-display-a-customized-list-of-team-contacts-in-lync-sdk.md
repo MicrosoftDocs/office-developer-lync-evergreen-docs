@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use the [CustomContactList](https://msdn.microsoft.com/en-us/library/hh346321\(v=office.15\)) control in Microsoft Lync Control applications to display an arbitrary customized list of contacts, using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF). Each item in the contacts list is provided by a [CustomContactListItem](https://msdn.microsoft.com/en-us/library/hh346017\(v=office.15\)) control.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -68,7 +68,7 @@ The prerequisites for displaying a custom contact list are as follows:
 
 2.  In Page.xaml, replace the contents of the [Grid](http://msdn2.microsoft.com/en-us/library/ms610550) control with the following XAML.
     
-    ``` xaml
+    ```xaml
     <StackPanel>
       <controls:CustomContactList Height="300" ContactLayoutView="TwoLines">
           <controls:CustomContactListItem Source="sip:elise@contoso.com"/>
@@ -98,7 +98,7 @@ The prerequisites for displaying a custom contact list are as follows:
 
 The following example declares a WPF page that contains a [Microsoft.Lync.Controls.CustomContactList](https://msdn.microsoft.com/en-us/library/hh346321\(v=office.15\)) that includes several nested [Microsoft.Lync.Controls.CustomContactListItem](https://msdn.microsoft.com/en-us/library/hh346017\(v=office.15\)) objects.
 
-``` xaml
+```xaml
 <Window x:Class="LyncWpfApplication2.Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -117,7 +117,7 @@ The following example declares a WPF page that contains a [Microsoft.Lync.Contro
 </Window>
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

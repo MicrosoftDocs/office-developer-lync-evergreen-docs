@@ -12,13 +12,7 @@ dev_langs:
 
 # EndPointType complexType (Lync SDN API Schema A)
 
-
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Type information
 
@@ -46,7 +40,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:complexType name="EndPointType">
     <xs:sequence>
         <xs:element name="Port" type="xs:unsignedInt" minOccurs="0"></xs:element>

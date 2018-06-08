@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# EndTime element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# EndTime element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 Denotes then time when the conversation ended. It is provided only in QualityUpdate events.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="EndTime"  type="xs:dateTime" minOccurs="0">
     

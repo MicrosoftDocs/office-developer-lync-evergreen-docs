@@ -14,7 +14,7 @@ dev_langs:
 
 Learn about searching for and expanding Exchange 2013 distribution groups by using the Microsoft Lync 2013 API.
 
-**Last modified:** June 06, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -116,7 +116,7 @@ A distribution group can contain other distribution groups in addition to a coll
     
     The following example iterates the group collection returned by the [SearchResults.Groups](https://msdn.microsoft.com/en-us/library/jj268253\(v=office.15\)) property.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Searches for any distribution group whose name contains the supplied
             /// search key
@@ -176,7 +176,7 @@ A distribution group can contain other distribution groups in addition to a coll
     
     The following example expands a distribution group if not already expanded, prints the display name of each group contact, and then recursively expands any nested distribution groups.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Expands any groups found in search results 
             /// </summary>
@@ -231,7 +231,7 @@ The following example is a command-line program that accepts two string paramete
 
 If the search object is "Contact," the example queries for users whose display name contains the search string.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using Microsoft.Lync.Model;
@@ -438,7 +438,7 @@ namespace DGLister
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync contact lists](what-you-can-do-with-lync-contact-lists.md)
 

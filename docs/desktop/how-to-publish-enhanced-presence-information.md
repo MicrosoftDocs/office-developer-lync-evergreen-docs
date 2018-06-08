@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to publish Microsoft Lync 2013 presence information such as the availability and personal note of a Lync 2013 contact by using methods in Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -126,7 +126,7 @@ The following example method publishes a new personal note for the local user.
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Publishes an update to a personal note
         /// </summary>
@@ -146,7 +146,7 @@ The following example method publishes a new personal note for the local user.
 
 The following example begins the asynchronous publication process.
 
-``` csharp
+```csharp
         /// <summary>
         /// Sends a publication request and handles any exceptions raised.
         /// </summary>
@@ -179,7 +179,7 @@ The following example begins the asynchronous publication process.
 
 The following example handles the [ContactInformationChanged](https://msdn.microsoft.com/en-us/library/jj275543\(v=office.15\)) event that is raised when the current contact information state changes. The example uses a message box to notify a user that presence has been updated and then removes the registration for [Contact](https://msdn.microsoft.com/en-us/library/jj275949\(v=office.15\)) information update events.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles event raised when the presence of a contact has been updated
         /// </summary>
@@ -204,7 +204,7 @@ The following example handles the [ContactInformationChanged](https://msdn.micro
 
 To reset a user’s current availability to the default availability calculated by the Lync 2013 client, publish [ContactAvailability](https://msdn.microsoft.com/en-us/library/jj293978\(v=office.15\))**.None**.
 
-``` csharp
+```csharp
         /// <summary>
         /// Publishes default client availability
         /// </summary>
@@ -227,7 +227,7 @@ To reset a user’s current availability to the default availability calculated 
 
   - [How to: Use presence information in an application](how-to-use-presence-information-in-an-application.md)
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

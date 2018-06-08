@@ -15,13 +15,13 @@ dev_langs:
 Learn how to use the Microsoft Lync Server 2013 Persistent Chat API to connect to a Persistent Chat server.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 To call any Lync Server 2013 Persistent Chat API functionality, an application must first establish a connection to the underlying Persistent Chat server. This involves connecting to a Microsoft Lync Server 2013 instance by using Microsoft Unified Communications Managed API (UCMA) on a [LocalEndpoint](https://msdn.microsoft.com/en-us/library/hh349887\(v=office.15\)) instance and then connecting to the underlying Persistent Chat server on a [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj267567\(v=office.15\)) instance.
 
 In UCMA, a [LocalEndpoint](https://msdn.microsoft.com/en-us/library/hh349887\(v=office.15\)) is either a [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) or an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)). A client-side Lync Server 2013 Persistent Chat API application will most likely use **UserEndpoint**. An implementation of connecting to Lync Server 2013 computer on a **UserEndpoint** is illustrated as follows.
 
-``` csharp
+```csharp
     ClientPlatformSettings platformSettings = new ClientPlatformSettings(_appName, transport);
     CollaborationPlatform collabPlatform = new CollaborationPlatform(platformSettings);
     collabPlatform.EndStartup(collabPlatform.BeginStartup(null, null));
@@ -85,7 +85,7 @@ The SIP URI used to create an ApplicationEndpoint must correspond to an Active D
 
 When the [LocalEndpoint](https://msdn.microsoft.com/en-us/library/hh349887\(v=office.15\)) instance is connected to Lync Server 2013, the application can proceed to connect to a **PersistentChatEndpoint**. This is shown in the following code.
 
-``` csharp
+```csharp
      // Extract default Persistent Chat server uri via in-band provisioning
 
     ProvisioningData provisioningData = appEndpoint.EndGetProvisioningData(appEndpoint.BeginGetProvisioningData(null, null));

@@ -10,8 +10,7 @@ mtps_version: v=office.15
 
 # Configuring LSM to send messages to network controllers
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 LSM sends stream states and quality data to a network controller by posting messages to the URI of a web service on the network controller. You can configure this URI by modifying the submituri setting in the SDNManager.exe.config file.
 
@@ -21,19 +20,21 @@ You can configure a network controller to receive LSM messages from multiple LSM
 
 Although the submituri value is set by the LSM installer during the installation, this setting can be changed later either by editing the config file or using the SDNManager command line tool to update the database, depending on your deployment scenario.
 
-1.  Set the submitURI by either using a command prompt or editing the SDNManager.exe.config file. For example,
+Set the submitURI by either using a command prompt or editing the SDNManager.exe.config file. For example:
     
-    Editing the configuration file:
+- Editing the configuration file:
     
-        <add key="submituri" value="10.10.10.0/24,contoso.com=http://localhost:9333/Log/poststuffhere"/>
+   ```xml
+   <add key="submituri" value="10.10.10.0/24,contoso.com=http://localhost:9333/Log/poststuffhere"/>
+   ```
     
-    Using command prompt:
+- Using the command prompt:
     
-        SDNManager.exe /p submituri=10.10.10.0/24,contoso.com=http://localhost:9333/Log/poststuffhere
+   `SDNManager.exe /p submituri=10.10.10.0/24,contoso.com=http://localhost:9333/Log/poststuffhere`
     
-    or
+   or
     
-        SDNManager.exe /p submituri=10.10.11.0/24,redmond.contoso.com,10.10.10.0/24,vienna.contoso.com=http://localhost:9333/Log/poststuffhere;10.10.12.0/24,vienna.contoso.com=http://vienna:8080/network
+   `SDNManager.exe /p submituri=10.10.11.0/24,redmond.contoso.com,10.10.10.0/24,vienna.contoso.com=http://localhost:9333/Log/poststuffhere;10.10.12.0/24,vienna.contoso.com=http://vienna:8080/network`
 
 When the subnet or domain is not specified, the network controllers receive all messages as in the previous versions of the Lync SDN API.
 

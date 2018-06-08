@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to add or remove a custom group from a user’s contact list in Microsoft Lync 2013 by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -196,7 +196,7 @@ The group rename operation is restricted to groups of type [Microsoft.Lync.Model
 
 The following example declares a WPF window that contains a list box that shows all contact group names and a set of buttons that let a user add, remove, and rename custom groups.
 
-``` xaml
+```xaml
 <Window x:Class="GroupManager.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -230,7 +230,7 @@ The following figure shows the example application UI with the three default gro
 
 The following example handles group collection events on the [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) object, fills the group list in the UI, and handles click events for buttons in the UI.
 
-``` csharp
+```csharp
 using System.Windows;
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Group;
@@ -507,7 +507,7 @@ namespace GroupManager
 
   - [How to: Display a contact list](how-to-display-a-contact-list.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync contact lists](what-you-can-do-with-lync-contact-lists.md)
 

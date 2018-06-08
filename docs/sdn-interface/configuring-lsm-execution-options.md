@@ -12,8 +12,7 @@ dev_langs:
 
 # Configuring LSM execution options
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 You can change some parameters by editing the SDNManager.exe.config file or by using the SDNManager.exe command line tool, depending on whether LSM is deployed as a singleton or settings are maintained in a database. The parameters listed below affect how LSM runs.
 
@@ -117,9 +116,11 @@ There are two threshold values for each metrics: Optimal and Acceptable. They de
 
 You can modify these thresholds using the SDNManager.exe /p command or using the SDNManager.exe /q command. The /p command updates the value individually and the /q command downloads all of the thresholds from the Lync Server QoEMetrics database and have the values updated.
 
+## Example
+
 The following example shows some stream quality thresholds as configured in the SDNManager.exe.config.file:
 
-``` xml
+```xml
     <add key="audio-DegradationAvgOptimal" value="0.6"/>
     <add key="audio-DegradationAvgAcceptable" value="1"/>
     <add key="audio-RoundTripOptimal" value="200"/>

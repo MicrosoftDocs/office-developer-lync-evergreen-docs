@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Properties element (StartOrUpdateType complexType) (Lync SDN Interface 2.1.1)
+# Properties element (StartOrUpdateType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Properties of the started or updated media stream.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Properties"  type="StartPropertiesType" minOccurs="0">
     

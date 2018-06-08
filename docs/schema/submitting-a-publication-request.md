@@ -13,7 +13,7 @@ dev_langs:
 # Submitting a publication request
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The final step of publication involves submitting a publication request to the server. This submittal passes the desired category instances to the server and is an asynchronous process. In Microsoft Unified Communications Managed API 4.0, it amounts to calling the **BeginPublishPresence** method on the **LocalOwnerPresence** instance and calling the required **EndPublishPresence** method in a callback function that is specified as an input to the BeginPublishPresence call. This programming pattern appears in the following code examples.
 
@@ -23,7 +23,7 @@ Grammar-based publications require only the input of the category names and data
 
 The following code example is an excerpt from the UcmaPublisher class that is introduced in [Preparing for category publications](preparing-for-category-publications.md) and shows how to submit a grammar-based presence category publication.
 
-``` csharp
+```csharp
         public void RequestGrammarBasedPresencePublication(string categoryName, string categoryValue)
         {
             PresenceCategory[] categories = new PresenceCategory[] { 
@@ -65,7 +65,7 @@ The following code example is an excerpt from the UcmaPublisher class that is in
 
 Using this example, a personal note category instance can be published, based the default publication grammars, with the following statements.
 
-``` csharp
+```csharp
 Note pNote = new Note("Personal note set by UcmaPublisher");
 string pNoteValue = pNote.GetCategoryDataXml();
 RequestGrammarBasedPresencePublication("note",pNoteValue);
@@ -73,7 +73,7 @@ RequestGrammarBasedPresencePublication("note",pNoteValue);
 
 The following example shows how to submit a grammar-free presence category publication.
 
-``` csharp
+```csharp
         /// <summary>
         /// Publish a presence category without following the underlying publication grammar.
         /// </summary>
@@ -102,7 +102,7 @@ The following example shows how to submit a grammar-free presence category publi
 
 A personal note category instance can be published to a custom container (Container 1000), independent of the underlying publication grammars, with the following statements.
 
-``` csharp
+```csharp
 Note pNote = new Note("Personal note set by UcmaPublisher");
 string pNoteValue = pNote.GetCategoryDataXml();
 RequestGrammarFreePresencePublication("note", 1, 1000, pNoteValue);

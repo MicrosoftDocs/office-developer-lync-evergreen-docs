@@ -15,7 +15,7 @@ dev_langs:
 Learn how to create a multi-threaded SIP application in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## Creating a multi-threaded SIP application
 
@@ -25,7 +25,7 @@ A simple approach is to use the .NET Framework thread pool and queue each event 
 
 The next code sample demonstrates the basic structure that is used for threading dispatches from the server. It can be called directly from the **Main()** (entry point) method of your application, taking an instance of **ServerAgent** as a parameter.
 
-``` csharp
+```csharp
 public void LCServerEventHandler(ServerAgent sa)
 {
    ManualResetEvent autoResetEvent = new ManualResetEvent(false);

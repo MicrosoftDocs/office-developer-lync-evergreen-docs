@@ -13,13 +13,9 @@ dev_langs:
 # Trusted domains and SIP gateways
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Configuring trusted domains for the CollaborationPlatform  
-Maintaining a dynamic list of trusted domains  
-TrustedDomainMode differences  
-Setting ConnectionContext on an outgoing call  
+
 
 Microsoft Unified Communications Managed API 4.0 is able to interoperate with third-party SIP peers such as IP-PBXs and SIP PSTN gateways. This topic describes the APIs on the [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.15\)) and related classes that developers must understand when they create applications that interoperate with SIP gateways.
 
@@ -37,7 +33,7 @@ UCMA 4.0 allows application writers to prepopulate all known trusted domains. Th
 
 The following code example demonstrates how to add two trusted domains in platform settings when a **CollaborationPlatform** instance is constructed.
 
-``` csharp
+```csharp
 private CollaborationPlatform CreateServerPlatform()
 {
   ServerPlatformSettings mySettings = new ServerPlatformSettings();
@@ -56,7 +52,7 @@ In some applications an application might not be aware of all trusted domains at
 
 The following example demonstrates an implementation of a handler for the **ConnectionAuthorizationRequested** event. In this event handler, an application selectively allows connections that match a specific domain name.
 
-``` csharp
+```csharp
 private void myConnectionAuthorizationRequested(object sender, 
 ConnectionAuthorizationRequestedEventArgs e)
 {
@@ -116,7 +112,7 @@ The default behavior of a **CollaborationPlatform** instance is to always route 
 
 The following code sample demonstrates setting connection context on an outgoing call, so that outgoing INVITE messages are routed to the gateway server specified in *options.ConnectionContext*.
 
-``` csharp
+```csharp
 Conversation conversation = new Conversation(myAppEndpoint);
 AudioVideoCall outgoingCall = new AudioVideoCall(conversation);
 CallEstablishOptions options = new CallEstablishOptions();

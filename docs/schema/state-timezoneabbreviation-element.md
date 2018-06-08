@@ -13,11 +13,11 @@ dev_langs:
 # state/timeZoneAbbreviation element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the abbreviated name of the local time zone where the presence state is published.
 
-``` xml
+```xml
 <st:timeZoneAbbreviation xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" >xs:string</st: timeZoneAbbreviation >
 ```
 

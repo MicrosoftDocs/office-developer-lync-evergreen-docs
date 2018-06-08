@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # InstantMessagingCall
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 An [InstantMessagingCall](https://msdn.microsoft.com/en-us/library/hh161841\(v=office.15\)) object represents an SDP-based instant messaging (IM) session between a local participant and a remote participant. An **InstantMessagingCall** object cannot exist on its own; it must be associated with a [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) object.
 

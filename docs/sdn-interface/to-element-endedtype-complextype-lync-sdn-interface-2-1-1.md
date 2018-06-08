@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# To element (EndedType complexType) (Lync SDN Interface 2.1.1)
+# To element (EndedType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Endpoint involved in the ended SIP call.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="To"  type="EndPointType" minOccurs="0">
     

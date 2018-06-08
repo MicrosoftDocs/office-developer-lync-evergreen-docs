@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Microsoft Lync 2013 SDK includes the following class libraries.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## In this section
 
@@ -23,7 +23,7 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 
 [Lync 2013 WPF class libraries](https://msdn.microsoft.com/en-us/library/office/jj933125.aspx)
 
-## Additional resources
+## See also
 
 [Lync 2013 SDK documentation](lync-2013-sdk-documentation.md)
 

@@ -11,13 +11,9 @@ mtps_version: v=office.15
 # UCMA 4.0 Runtime
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-UCMA 4.0 Runtime requirements  
-Installing UCMA 4.0 Runtime and related components  
-Uninstalling UCMA 4.0 Runtime and bootstrapper prerequisites installer  
-UCMA 4.0 Runtime detection  
+  
 
 An administrator who is preparing to install a third-party UCMA-enabled application on a deployment computer must download and install UcmaRuntimeSetup.exe. Installing Microsoft Unified Communications Managed API 4.0 Runtime provides all of the UCMA-related functionality needed by a UCMA-enabled application.
 
@@ -25,17 +21,17 @@ An administrator who is preparing to install a third-party UCMA-enabled applicat
 
 The following are the hardware and software requirements for installing UCMA 4.0 Runtime:
 
-  - The target platform must be a 64-bit computer.
+- The target platform must be a 64-bit computer.
 
-  - Supported operating systems:
+- Supported operating systems:
     
-      - Windows 2012 Server
+    - Windows 2012 Server
     
-      - Windows Server 2008 R2 Service Pack 1
+    - Windows Server 2008 R2 Service Pack 1
     
-      - Windows 8
+    - Windows 8
     
-      - Windows 7 Service Pack 1 (SP1) (64-bit)
+    - Windows 7 Service Pack 1 (SP1) (64-bit)
         
         Home Premium, Professional, or Ultimate editions
     
@@ -45,7 +41,7 @@ The following are the hardware and software requirements for installing UCMA 4.0
 
 
 
-  - Microsoft .NET Framework 4.5 (Full Profile)
+- Microsoft .NET Framework 4.5 (Full Profile)
     
     Windows 8 includes .NET Framework 4.5.
     
@@ -53,7 +49,7 @@ The following are the hardware and software requirements for installing UCMA 4.0
     
     Windows 7 includes .NET Framework 3.5, so you must update to .NET Framework 4.5.
 
-  - Antivirus software
+- Antivirus software
     
     Antivirus software can sometimes make such heavy demands on the CPU as to cause audio glitches. For this reason, antivirus software is not recommended for computers running Microsoft Lync Server 2013. For optimal performance for a server that must run antivirus software, include all Communications Server/Lync Server 2013 computers in the antivirus software’s exception list.
 
@@ -95,17 +91,17 @@ You must have elevated permissions to install UCMA 4.0 Runtime.
 
 UcmaRuntimeSetup.exe installs the following components:
 
-  - Microsoft  VC++ 2011 Redistributable (x64) 11.0.50727
+- Microsoft  VC++ 2011 Redistributable (x64) 11.0.50727
     
     Microsoft Unified Communications Managed API 4.0 Runtime is built on .NET Framework 4.5 and Visual C++ 2012 Redistributable Package (x64).
 
-  - Microsoft Server Speech Platform Runtime (x64) package
+- Microsoft Server Speech Platform Runtime (x64) package
 
-  - Microsoft Server Speech Recognition Language – TELE (en-US)
+- Microsoft Server Speech Recognition Language – TELE (en-US)
 
-  - Microsoft Server Speech Text To Speech Voice (en-US, Helen)
+- Microsoft Server Speech Text To Speech Voice (en-US, Helen)
 
-  - Microsoft Lync Server 2013, Bootstrapper Prerequisites Installer Package
+- Microsoft Lync Server 2013, Bootstrapper Prerequisites Installer Package
     
     Copies Lync Server 2013 Core Components MSI (OCSCore.msi) and its prerequisites. OCSCore.msi enables running Lync Server-specific PowerShell cmdlets from the local computer. OCSCore.msi also enables the installation of the local Central Management Store replica, which is required by auto-provisioned UCMA applications.
 
@@ -123,15 +119,15 @@ OCSCore.msi must be installed by using Bootstrapper Prerequisites Installer Pack
 
 1.  Confirm that Microsoft PowerShell 3.0 RTM is installed on the deployment computer.
     
-      - Windows Server 2008 R2 Service Pack 1
+    - Windows Server 2008 R2 Service Pack 1
         
         Download WINDOWS6.0-KB2506146-x64.MSU from [Windows Management Framework 3.0](http://www.microsoft.com/en-us/download/details.aspx?id=34595).
     
-      - Windows 7
+    - Windows 7
         
         Download WINDOWS6.1-KB2506143-x64.MSU from [Windows Management Framework 3.0](http://www.microsoft.com/en-us/download/details.aspx?id=34595).
     
-      - Windows 8
+    - Windows 8
         
         This operating system version comes with PowerShell 3.0.
 

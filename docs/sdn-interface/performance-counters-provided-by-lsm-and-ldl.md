@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Performance Counters provided by LSM and LDL
 
 
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 LDL and LSM provide a number of performance counters. They are described in the following table and may be accessed using [Perfmon](https://technet.microsoft.com/en-us/library/bb490957.aspx).
 

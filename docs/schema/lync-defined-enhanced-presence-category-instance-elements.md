@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This section discusses the technical specifications for the enhanced presence category elements that are used by Microsoft Lync 2013 and Microsoft Lync Server 2013.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## In this section
 
@@ -30,5 +30,5 @@ _**Applies to:** Lync 2013 | Lync Server 2013_
 
 #### Concepts
 
-[Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference](unified-communications-enhanced-presence-schemas-for-lync-server-2013-general-reference.md)
+[Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference](unified-communications-enhanced-presence-schemas-for-lync-general-reference.md)
 

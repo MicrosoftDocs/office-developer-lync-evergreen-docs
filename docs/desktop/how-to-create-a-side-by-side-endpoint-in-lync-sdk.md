@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to create a side-by-side Microsoft Lync 2013
 
-**Last modified:** June 04, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -92,7 +92,7 @@ Creating a side-by-side endpoint is a one step process that involves calling the
 
   - Call the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/dn378084\(v=office.15\)) method. An object of the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) is returned.
     
-    ``` csharp
+    ```csharp
     //If sideBySide == false, a standard endpoint is created
      //Otherwise, a side-by-side endpoint is created
      LyncClient _LyncClient = LyncClient.GetClient(sideBySide);
@@ -102,7 +102,7 @@ Creating a side-by-side endpoint is a one step process that involves calling the
 
 The following example creates a standard endpoint or a side-by-side endpoint and then if Lync 2013 is in UI suppression mode, initializes the obtained endpoint.
 
-``` csharp
+```csharp
         /// <summary>
         /// Gets the Lync client, initializes if in UI suppression, and 
         /// starts the user sign in process
@@ -193,7 +193,7 @@ After you have created either a standard or side-by-side Lync endpoint, you are 
 
   - [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md)
 
-## Additional resources
+## See also
 
   - [What you can do in Lync SDK](what-you-can-do-in-lync-sdk.md)
 

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Conversation Window Extension (CWE) feature of the Lync 2013 client conversation window and how is opened, closed, and sized.
 
-**Last modified:** June 02, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -64,7 +64,7 @@ There are two ways to specify CWE dimensions:
 
   - During Install Registration, use the ExtensibilityWindowSize registry key for the CWE application. For more information, see [Register contextual conversation packages](register-contextual-conversation-packages.md).
 
-## Additional resources
+## See also
 
 [Beyond the basics: Lync conversations](beyond-the-basics-lync-conversations.md)
 

@@ -14,15 +14,11 @@ mtps_version: v=office.15
 
 Learn about the sample applications that are installed on your computer when you install Microsoft Lync 2013 SDK.
 
-**Last modified:** December 07, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-Code samples overview  
-Quick-start samples  
-Reference samples  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+
 
 <table>
 <tbody>
@@ -496,7 +492,7 @@ Features include the following:
 Path: *%PROGRAMFILES(X86)%*\\Microsoft Office 2013\\LyncSDK\\Samples  
 \\ProposalTracker\\ProposalTracker.sln
 
-## Additional resources
+## See also
 
   - [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md)
 

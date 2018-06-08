@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Id element (EndPointType complexType) (Lync SDN API Schema A)
+# Id element (EndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 Identifier of the endpoint.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Id" type="xs:string" minOccurs="0"></xs:element>
 ```
 
@@ -88,12 +85,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Endpoint while the call is on-hold.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="endpoint-element-error-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EndPoint</a></p></td>
+<td><p><a href="endpoint-element-error-element-sdn-api-schema-a.md">EndPoint</a></p></td>
 <td><p><a href="endpointtype-complextype-lync-sdn-api-schema-a.md">EndPointType</a></p></td>
 <td><p>Endpoint involved in the error event.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="endpoint-element-ended-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">EndPoint</a></p></td>
+<td><p><a href="endpoint-element-ended-element-sdn-api-schema-a.md">EndPoint</a></p></td>
 <td><p><a href="endpointtype-complextype-lync-sdn-api-schema-a.md">EndPointType</a></p></td>
 <td><p>Endpoint involved in the ended SIP call.</p></td>
 </tr>

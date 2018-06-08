@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Id element (EndPointType complexType) (Lync SDN Interface 2.1.1)
+# Id element (EndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Identifier of the endpoint.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Id"  type="xs:string" minOccurs="0">
     

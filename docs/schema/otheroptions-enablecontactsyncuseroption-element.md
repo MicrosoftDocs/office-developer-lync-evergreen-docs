@@ -13,11 +13,11 @@ dev_langs:
 # otherOptions/EnableContactSyncUserOption element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains a Boolean flag indicating whether to enable synchronizing user options with the user’s contact card (true) or not (false).
 
-``` xml
+```xml
 <EnableContactSyncUserOption>xs:boolean</EnableContactSyncUserOption>
 ```
 

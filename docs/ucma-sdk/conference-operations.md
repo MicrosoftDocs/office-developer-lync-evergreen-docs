@@ -11,14 +11,9 @@ mtps_version: v=office.15
 # Conference operations
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Mute-all mode  
-Conference termination countdown  
-Entry and exit announcements  
-Conference recording  
-Scheduling templates  
+ 
 
 This topic describes the settings that can be modified on a conference, either at the time the conference is scheduled, or during an active conference.
 

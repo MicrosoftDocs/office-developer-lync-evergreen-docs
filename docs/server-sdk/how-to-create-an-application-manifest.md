@@ -15,7 +15,7 @@ dev_langs:
 Learn how to create an application manifest that runs on Microsoft Lync Server 2013.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 To create a SIP application that runs on Lync Server 2013, the first step is to create an application manifest. The application manifest contains both the basic rules for message delivery to the application and the Microsoft SIP Processing Language (MSPL) script that is used to process the message.
 
@@ -55,7 +55,7 @@ Managed SIP applications are appropriate for the following scenarios:
 
 After deciding the kind of application that you need, use an XML or text editor to write the content of the application manifest by using the following template:
 
-``` xml
+```xml
 <?xml version="1.0" ?>
 <lc:applicationManifest
  lc:appUri="URI"

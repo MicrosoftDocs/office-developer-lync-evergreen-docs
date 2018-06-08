@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # User impersonation
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In Microsoft Unified Communications Managed API 4.0 an application (specifically, an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) instance) can impersonate another user.
 

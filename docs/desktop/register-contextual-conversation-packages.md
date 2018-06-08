@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concept of Conversation Window Extension registration using Microsoft Lync 2013 SDK.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -287,7 +287,7 @@ The following table describes the three optional parameters for the Parameters v
     "ExtensibilityWindowSize"=dword:00000001
     "Parameters"="%AppData%,%AppId%"
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

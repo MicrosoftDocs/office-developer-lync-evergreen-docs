@@ -14,7 +14,7 @@ dev_langs:
 
 Learn about adding a UI hint such as a bright border around a process or desktop shared out by the Microsoft Lync 2013 API
 
-**Last modified:** July 22, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -105,7 +105,7 @@ Understanding the following concepts is essential to using resource sharing conv
 
 The following example declares the Win32 API methods that are called in the sample and supporting structures.
 
-``` csharp
+```csharp
         #region chrome form state
         public int borderWith = 5;
         public Chrome currentChrome;
@@ -157,14 +157,14 @@ Showing a bright border around a screen involves defining a rectangle of the sam
 
 1.  Get all active screens.
     
-    ``` csharp
+    ```csharp
                     System.Windows.Forms.Screen[] screens;
                     screens = Screen.AllScreens;
     ```
 
 2.  Declare a Rectangle that is the same size and location as the shared screen
     
-    ``` csharp
+    ```csharp
                 int x = screen.Bounds.X;
                 int y = screen.Bounds.Y;
                 Size size = screen.Bounds.Size;
@@ -175,7 +175,7 @@ Showing a bright border around a screen involves defining a rectangle of the sam
     
     The Chrome class is shown in the example section at the end of this topic.
     
-    ``` csharp
+    ```csharp
                 Chrome chrome = new Chrome();
                 chrome.Highlight(desktop, true, borderWith);
     ```
@@ -188,7 +188,7 @@ To show a bright border around the selected application, you need to get the **P
 
 1.  Get the Process whose window title matches the user selection
     
-    ``` csharp
+    ```csharp
                 Process[] processes = Process.GetProcesses();
                 Process currentProcess = null;
                 foreach (Process process in processes)
@@ -204,7 +204,7 @@ To show a bright border around the selected application, you need to get the **P
 
 2.  Make sure the selected application is active and in the foreground.
     
-    ``` csharp
+    ```csharp
                 //activate the selected application and bring to foreground
                 IntPtr currentProcessHandle = currentProcess.MainWindowHandle;
                 SetForegroundWindow(currentProcessHandle);
@@ -212,7 +212,7 @@ To show a bright border around the selected application, you need to get the **P
 
 3.  Get the location and dimensions of the shared application.
     
-    ``` csharp
+    ```csharp
                 //Get the location and rectangle of the selected application
                 RECT processWindowSize = new RECT();
                 GetWindowRect(currentProcessHandle, ref processWindowSize);
@@ -224,7 +224,7 @@ To show a bright border around the selected application, you need to get the **P
 
 4.  Get the current visual state (restored, minimized, or maximized) of the shared application.
     
-    ``` csharp
+    ```csharp
                 //Get the visual state of the shared application
                 WINDOWPLACEMENT placement = new WINDOWPLACEMENT();
                 placement.length = Marshal.SizeOf(placement);
@@ -233,7 +233,7 @@ To show a bright border around the selected application, you need to get the **P
 
 5.  Size the Chrome window based on the visual state of the shared application and then show the chrome.
     
-    ``` csharp
+    ```csharp
                 //set the size of the Chrome window based on the visual state of the
                 //shared application
                 currentChrome = new Chrome();
@@ -262,7 +262,7 @@ The [downloadable sample](http://code.msdn.microsoft.com/displaying-a-highlighte
 
 The following example is a partial Windows Forms class that gives a Windows Forms application the ability to add a bright border around an application window that is shared by using the
 
-``` csharp
+```csharp
 using Microsoft.Lync.Model.Conversation.Sharing;
 using System;
 using System.Diagnostics;
@@ -394,7 +394,7 @@ namespace ShareResources
 
 The chrome window is a standard Windows Form whose border is modified to show a specified bright color and width. The content of the form is removed from inside of the border, leaving the form transparent except for the border itself.
 
-``` csharp
+```csharp
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -501,7 +501,7 @@ Now that you have created an application sharing feature in your application, yo
 
   - [How to: Add an application sharing view to your application](how-to-add-an-application-sharing-view-to-your-application.md)
 
-## Additional resources
+## See also
 
   - [What you can do with desktop, application, and display sharing](what-you-can-do-with-desktop-application-and-display-sharing.md)
 

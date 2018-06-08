@@ -13,11 +13,11 @@ dev_langs:
 # userInformation/callHandlingLIst/lastPhone element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the phone that handled the last call.
 
-``` xml
+```xml
 <ui:lastPhone xmlns:ui="http://schemas.microsoft.com/2006/09/sip/options/userInformation" >
    <ui:displayString>xs:token</ui:displayString>
    <ui:uri>xs:anyURI</ui:uri>
@@ -94,7 +94,7 @@ None
 
 The following XML snippet shows a userInformation category instance value containing two types (work and mobile) of phone numbers
 
-``` xml
+```xml
 <userInformation xmlns="http://schemas.microsoft.com/2006/09/sip/options/userInformation">
     <callHandlingList>
        <lastPhone>

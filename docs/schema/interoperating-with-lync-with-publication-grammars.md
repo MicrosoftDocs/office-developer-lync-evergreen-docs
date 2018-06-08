@@ -13,7 +13,7 @@ dev_langs:
 # Interoperating with Lync with publication grammars
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 To interoperate with Microsoft Lync 2013, an enhanced presence application must follow the publication grammars defined by Lync 2013. This involves obtaining an XML document of the publication grammar, determining the rules, and implementing the logic.
 
@@ -25,7 +25,7 @@ By default there are two publication grammars: one for the open-mode presence pu
 
 A container manifest is described by an XML element of \<[containerManifestList element](containermanifestlist-element.md)\>. It has the following high-level structure.
 
-``` xml
+```xml
 <provisionGroup name="publicationGrammar">
    <containerManifestList>
       <containerManifest>
@@ -42,7 +42,7 @@ The [containers element](containers-element.md) element declares what containers
 
 A category publication manifest is described by [categoryPublicationManifest element](categorypublicationmanifest-element.md) and it has the following high-level structure.
 
-``` xml
+```xml
 <categoryPublicationManifest>
    <publicationList>
       <publicationRule>...</publicationRule>

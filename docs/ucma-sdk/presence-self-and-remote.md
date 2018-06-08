@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Presence - self and remote
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Entities in a Microsoft Lync 2013 subsystem can have up to eight active endpoints at a given time (Multiple Points of Presence) that can each publish presence information and subscribe to the presence of others.
 

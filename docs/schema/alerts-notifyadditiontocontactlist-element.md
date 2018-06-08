@@ -13,14 +13,14 @@ dev_langs:
 # alerts/notifyAdditionToContactList element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies whether to display alerts to the user when someone adds the user to his or her contact list.
 
 [alerts category instance value element](alerts-category-instance-value-element.md)  
   notifyAdditionToContactList Element  
 
-``` xml
+```xml
 <al:notifyAdditionToContactList
     xmlns:al="http://schemas.microsoft.com/2006/sip/alerts">boolean</al:notifyAdditionToContactList>
 ```

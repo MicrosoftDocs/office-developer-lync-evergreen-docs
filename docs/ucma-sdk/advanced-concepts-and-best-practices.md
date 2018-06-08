@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Advanced concepts and best practices
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The topics in this section describe how to extend the Microsoft Unified Communications Managed API 4.0 platform to accommodate calls, flows, and media providers for media types other than the *message* (Instant Message) and *audio* media types. The section also includes best practices for developers of UCMA 4.0-based applications.
 

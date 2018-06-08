@@ -13,11 +13,11 @@ dev_langs:
 # calendarData/WorkingHours/DayOfWeek element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds the day of a week when the standard or daylight time zone begins or the days of a week designated as the working days of the user.
 
-``` xml
+```xml
 <DayOfWeek>The week day or days.</DayOfWeek>
 ```
 
@@ -73,7 +73,7 @@ A string
 
 The following XML code snippet shows the standard time in a given time zone:
 
-``` xml
+```xml
 <StandardTime>
     <Bias>0</Bias>
     <Time>02:00:00</Time>

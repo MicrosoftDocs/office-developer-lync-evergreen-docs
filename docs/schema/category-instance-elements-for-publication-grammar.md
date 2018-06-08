@@ -13,7 +13,7 @@ mtps_version: v=office.15
 This section discusses the XML elements that are used to represent a container manifest and category publication manifest in an enhanced presence publication grammar.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Publication grammars are used to specify a set of rules for publishing presence category instances. There can be two kinds of rules in a publication grammar. One set of the rules dictates the containers that should be used and the access control entries that should be assigned to each container— a container manifest describes this set of rules in an XML element. The other set of rules specifies the category data that should be published to certain containers— a category publication manifest describes this set of rules in an XML element.
 

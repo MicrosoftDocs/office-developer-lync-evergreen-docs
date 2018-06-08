@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about troubleshooting Microsoft Lync 2013 Controls application by using [UCBase](https://msdn.microsoft.com/en-us/library/hh364242\(v=office.15\)) class read-only properties to display Microsoft Lync Control initialization errors at runtime.
 
-**Last modified:** December 26, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -73,7 +73,7 @@ When a Lync Control fails to initialize the connection to Lync 2013, the initial
 
 Use the following XAML code to display Lync Control initialization errors at runtime.
 
-``` xaml
+```xaml
 <StackPanel>
   <TextBlock HorizontalAlignment="Left" Text="Application Initialization Failed:" />
   <TextBox Text="{Binding InitializationFailed, ElementName=presence, Mode=OneWay}" />
@@ -83,7 +83,7 @@ Use the following XAML code to display Lync Control initialization errors at run
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync Controls](beyond-the-basics-lync-controls.md)
 

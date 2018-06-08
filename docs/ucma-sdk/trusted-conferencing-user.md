@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Trusted conferencing user
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The trusted conferencing user (TCU) feature makes it easier to develop applications with conferencing "bots" that provide services to other users in a conference. Trusted users are considered presenters by default and appear hidden to users in the roster.
 

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# CallId element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# CallId element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 Unique identifier for the SIP call. This field should be used to correlate messages referring to the same call.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="CallId"  type="xs:string">
     

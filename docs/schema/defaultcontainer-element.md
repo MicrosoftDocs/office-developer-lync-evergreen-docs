@@ -13,11 +13,11 @@ dev_langs:
 # defaultContainer element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the default container of a particular member.
 
-``` xml
+```xml
 <defaultContainer id="xs:unsignedInt" [anyAttribute]="anyValue">
    <ct:delimiter/>
    <[any]>

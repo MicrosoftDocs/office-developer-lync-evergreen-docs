@@ -10,15 +10,13 @@ dev_langs:
 - xml
 ---
 
-# CodecType complexType (Lync SDN API Schema A)
+# CodecType complexType 
 
+(Lync SDN API Schema A)
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
+ 
 
 ## Type information
 
@@ -46,7 +44,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:complexType name="CodecType">
     <xs:sequence>
         <xs:element name="Bandwidth" type="xs:string" minOccurs="0"></xs:element>

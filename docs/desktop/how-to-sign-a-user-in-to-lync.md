@@ -14,9 +14,9 @@ dev_langs:
 
 Understand the essential elements of the Lync sign in process in a Microsoft Lync 2013 SDK-enabled application. Learn about the conditions that prevent your app from signing a user in to Lync and how your code can gracefully recover from these conditions.
 
-**Last modified:** April 26, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 Your Lync 2013 API-enabled application can get contact presence and conversations as long as the user is signed in to Lync. A user can sign in to Lync by using your application if you have coded a Lync 2013 API sign in feature. Alternatively, a user can sign in using the Lync client itself as long as the client UI is not suppressed. The Lync 2013 API-based sign in process described in this article applies to the Lync UI suppression scenario and the standard Lync scenario.
 
@@ -206,7 +206,7 @@ The procedure in this section handles three of the most likely client states tha
 
 The following example shows the steps in this procedure.
 
-``` csharp
+```csharp
                 //1) Register for the three Lync client events needed so that application is notified when:
                 // * Lync client signs in or out
                 _LyncClient.StateChanged += _LyncClient_StateChanged;
@@ -249,7 +249,7 @@ The following example shows the steps in this procedure.
 
 The following example is a helper method that signs a Rosie McBride from Contoso, Ltd. in to Lync.
 
-``` csharp
+```csharp
         /// <summary>
         /// Signs a user in to Lync as one of two possible users. User that is
         /// signed in depends on whether side-by-side client is chosen.
@@ -313,7 +313,7 @@ The following example is a helper method that signs a Rosie McBride from Contoso
 
 The following example handles the [Client.StateChanged](https://msdn.microsoft.com/en-us/library/jj276368\(v=office.15\)) event.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when a user signs in to or out of the Lync client.
         /// </summary>
@@ -359,7 +359,7 @@ The [LyncClient.CredentialRequested](https://msdn.microsoft.com/en-us/library/jj
     
     Although you can call the [CredentialRequestedEventArgs.Submit](https://msdn.microsoft.com/en-us/library/jj276532\(v=office.15\)) method to submit a replacement user name and password, you can’t submit a sign in URL. If the original sign in URL was not correct, the only way you can correct it is to sign out and then start the sign in operation over again after getting new credentials.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Raised when user's credentials are rejected by Lync or a service that
             /// Lync depends on requests credentials
@@ -419,7 +419,7 @@ A sign in delay can be caused by network connectivity issues. In this case, all 
 
 3.  If she does not want to continue waiting, abandon the sign in process by calling the [LyncClient.BeginSignOut](https://msdn.microsoft.com/en-us/library/jj277581\(v=office.15\)) method.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when the sign in operation is delayed because of 1) invalid user credentials or
         /// 2) network connectivity issues which may be transient.
@@ -457,7 +457,7 @@ A sign in delay can be caused by network connectivity issues. In this case, all 
 
 The following example encapsulates the complete sign in process in a class.
 
-``` csharp
+```csharp
 using System;
 using Microsoft.Lync.Model;
 using System.Windows.Forms;
@@ -830,7 +830,7 @@ namespace ShareResources
 
 The following example is the interaction logic behind a Windows form with
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 
@@ -878,7 +878,7 @@ namespace ShareResources
 
   - [How to: Change sign-in connection settings in Lync SDK](how-to-change-sign-in-connection-settings-in-lync-sdk.md)
 
-## Additional resources
+## See also
 
   - [What you can do in Lync SDK](what-you-can-do-in-lync-sdk.md)
 

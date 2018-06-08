@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about making your Microsoft Lync 2013 SDK-enabled application UI more responsive by handling events raised on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) class.
 
-**Last modified:** January 07, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -67,7 +67,7 @@ The availability of these actions depends on the current state of a shareable co
 
 The following event handler enables or disables command buttons according to the current availability of an action on a **ShareableContent** object.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when the availability of an action on a ShareableContent object changes
         /// </summary>
@@ -111,7 +111,7 @@ A properly designed application UI should show users the current state of all it
 
 The following example updates a content bin list in the UI with the current state of a shareable item.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when the state of a shareable content item changes as the content is 
         /// uploaded, moved to the sharing stage or moved off of the sharing stage
@@ -153,7 +153,7 @@ The following example writes to the system console with the ID of a content bin 
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Content sharing](beyond-the-basics-content-sharing.md)
 

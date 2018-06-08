@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about Lync Microsoft Lync 2013 contact groups and the Microsoft Lync 2013 SDK classes and events that give you programmatic access to the custom group.
 
-**Last modified:** December 10, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ A custom contact group is a group that your application has full programmatic co
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Get started with Lync contact lists](get-started-with-lync-contact-lists.md)
 

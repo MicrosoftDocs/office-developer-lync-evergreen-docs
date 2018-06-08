@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to use Unified Communications Enhanced Presence Schemas in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Lync Server 2013 includes a general presence publication and presence subscription framework that the clients can use for the user to share the enhanced presence data with others. In this process, a unified communications client determines how enhanced presence data is used in a particular application, because the semantics of enhanced presence data is application-specific.
 

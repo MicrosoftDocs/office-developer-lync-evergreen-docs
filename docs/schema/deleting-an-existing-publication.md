@@ -13,7 +13,7 @@ dev_langs:
 # Deleting an existing publication
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 On the protocol level, removing a published category instance from a publication is equal to republishing the category instance as a time-bound instance with the expiration time set to zero. The following example is a SIP message sent to the server when a SERVICE request to delete the publication of a [note category instance value element](note-category-instance-value-element.md) category instance is submitted.
 
@@ -40,7 +40,7 @@ As with presence publications, removing a category instance from a publication c
 
 On the API level, presence deletion can be exposed in a set of methods that are dedicated to this particular kind of operation. In the following example, the deletion is implemented as the asynchronous programming pattern of BeginDeletePresence/EndDeletePresence in UCMA. For grammar-free presence deletion, the BeginDeletePresence takes a collection of PresenceCategory objects in its input. For grammar-based presence deletion, the BeginDeletePresence method takes a collection of PresenceCategoryWithMetaData object in its input.
 
-``` csharp
+```csharp
         public void RequestGrammarBasedPresencePublicationRemoval(string categoryName)
         {
             CustomPresenceCategory category = new CustomPresenceCategory(categoryName, string.Empty /* null */);

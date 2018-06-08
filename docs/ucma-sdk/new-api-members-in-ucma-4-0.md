@@ -11,14 +11,9 @@ mtps_version: v=office.15
 # New API members in UCMA 4.0
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
-**In this article**  
-Microsoft.Rtc.Collaboration namespace  
-Microsoft.Rtc.Collaboration.AudioVideo namespace  
-Microsoft.Rtc.Collaboration.ComponentModel namespace  
-Microsoft.Rtc.Collaboration.Presence namespace  
-Microsoft.Rtc.Signaling namespace  
+ 
 
 The following tables list the API additions between Microsoft Unified Communications Managed API (UCMA) 3.0 and UCMA 4.0. The changes are grouped by namespace.
 

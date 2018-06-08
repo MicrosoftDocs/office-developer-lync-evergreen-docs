@@ -13,23 +13,8 @@ mtps_version: v=office.15
 Learn about Microsoft Lync Server 2013 Persistent Chat SDK terminology.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-A  
-C  
-E  
-H  
-I  
-J  
-K  
-L  
-M  
-P  
-R  
-S  
-U  
-V  
 
 ## A
 

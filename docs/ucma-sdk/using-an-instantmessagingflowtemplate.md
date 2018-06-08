@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using an InstantMessagingFlowTemplate
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The [InstantMessagingSettings](https://msdn.microsoft.com/en-us/library/hh382884\(v=office.15\)) property provides access to global configuration settings for instant message (IM) flows using an [InstantMessagingFlowTemplate](https://msdn.microsoft.com/en-us/library/hh384311\(v=office.15\)) object.
 

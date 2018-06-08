@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Migration, coexistence, and upgrade of UCMA applications
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 This section discusses the steps needed to enable UCMA 2.0, UCMA 3.0, and UCMA 4.0 applications to coexist in an environment with Microsoft Office Communications Server 2007 R2, Microsoft Lync Server 2010, or Microsoft Lync Server 2013 pools. It is expected that users homed on these different Communications Server/Lync Server pools will be able to communicate with these applications. This section also discusses the steps needed to migrate UCMA applications to newer versions of Lync Server, and to upgrade UCMA 2.0 or UCMA 3.0 applications to a UCMA 4.0 application.
 

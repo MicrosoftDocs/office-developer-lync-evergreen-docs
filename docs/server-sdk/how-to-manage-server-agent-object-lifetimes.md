@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to manage server agent object lifetimes in a Microsoft Lync Server 2013 deployment.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## Managing server agent object lifetimes
 

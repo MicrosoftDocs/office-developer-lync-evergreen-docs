@@ -12,18 +12,19 @@ dev_langs:
 
 # Configuring the Preview Skype for Business Client
 
-
-_**Applies to:** Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013_
+**Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Authorized partners receive access to early editions of our next generation Lync client (Skype for Business), which will provide additional support for SDN in providing additional in-call Quality messages. Currently, only the next major release of Lync client desktop and Modern versions will support sending InCallQuality reports. If you use such a new client, you must activate the in-call feature for LSM to process Incall QoE messages.
 
 After you install the MSI package for the new Lync client, follow the instructions below to examine or enable generating and sending InCallQuality messages the installed new Lync Client.
 
-## Configuring the Lync client for in-call quality reporting in a Lync vNext environment
+## Configure the Lync client for in-call quality reporting in a Lync vNext environment
 
 If you are using a recent preview build of Lync Server vNext as well as the provided preview build of the Lync Client, sending InCallQuality messages will be activated automatically. No manual configuration is necessary. Such newer preview releases of Lync Server will offer a configuration setting to manually activate or deactivate InCallQuality message sending for all connected vNext Lync/Skype for Business clients.
 
 Use the Lync Powershell console and Get/Update-CsMediaConfiguration to verify and change the IncallQuality feature. Access the console by typing the following at the prompt: PS \> Get-CsMediaConfiguration. You will see the following:
+
+<br/>
 
 <table>
 <colgroup>
@@ -67,27 +68,26 @@ The **EnableIncallQoS** attribute will activate/deactivate vNext Lync clients to
 
 The **InCallQoSIntervalSeconds** attribute is used to set the smallest period in which clients will such raw data preventing overburdening the network with additional messages when the stream quality is already impacted.
 
-## Manually Configuring the Lync Client for In-call Quality Reporting
+## Manually configure the Lync client for in-call quality reporting
 
 If you are running the latest preview Lync Client with Lync Server 2013, you will need to manually activate each client to support the generation of IncallQuality message. To configure the Preview Lync client for in-call quality reporting, do the following:
 
-1.  Generate the xml configuration file (ocapi\_test.config ) and copy it to the installation path of every new Lync client that contains the Lync.exe (e.g., c:\\program Files\\Microsoft Office\\Office16). The XML file contains the literal content of the ocapi\_test.config file, as follows:
+1. Generate the xml configuration file (ocapi\_test.config ) and copy it to the installation path of every new Lync client that contains the Lync.exe (e.g., c:\\program Files\\Microsoft Office\\Office16). The XML file contains the literal content of the ocapi\_test.config file, as follows:
     
-      - InCallQosEnabled = true
+   - InCallQosEnabled = true
+   - InCallQoSPeriodInSec = 35
     
-      - InCallQoSPeriodInSec = 35
+   The literal contents of the ocapi\_test.config file are as follows:
     
-    The literal contents of the ocapi\_test.config file are as follows:
-    
-    ``` xml
+   ```xml
     <?xml version="1.0"?>
     <settings>
         <InCallQosEnabled>true</InCallQosEnabled>
         <InCallQoSPeriodInSec>35</InCallQoSPeriodInSec>
     </settings>
-    ```
+   ```
 
-2.  Restart Lync client by first exiting Lync client (**File** -\> **Exit**) and then restart Lync .
+2. Restart Lync client by first exiting Lync client (**File** -\> **Exit**) and then restart Lync .
 
-3.  You can change the InCallQoSPeriodInSec to change the maximum frequency of receiving InCallQuality reports from the client and therefore, from the LSM.
+3. You can change the InCallQoSPeriodInSec to change the maximum frequency of receiving InCallQuality reports from the client and therefore, from the LSM.
 

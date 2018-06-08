@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Container for remote access
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Lync 2013 uses the following containers to publish category instances for other (remote) users or entities to receive the presence data. Microsoft Lync Server 2013 can also publish presence data to these containers on behalf of the local user. The remote users or entities allowed to receive the published presence data are specified as members of the containers. The membership is specified by a list of SIP URIs for individual users or domains. The membership can also be specified by a membership type. Supported membership types include everyone, sameEnterprise, or publicCloud. They are defined in the ContainerManifest.XSD schema file.
 

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# IP element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# IP element (QualityEndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 IP address of the the media stream source or destination.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="IP"  type="xs:string" minOccurs="0">
     

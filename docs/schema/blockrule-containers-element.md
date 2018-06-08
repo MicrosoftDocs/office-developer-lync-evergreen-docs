@@ -13,11 +13,11 @@ dev_langs:
 # blockRule/containers element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a list of containers to which a [blockRule element](blockrule-element.md) instance applies.
 
-``` xml
+```xml
 <allowedContainers type="containerIdType" [anyAttribute]="anyValue">
    <container>...</container>
 </ allowedContainers >

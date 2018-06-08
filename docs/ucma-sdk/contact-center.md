@@ -11,12 +11,9 @@ mtps_version: v=office.15
 # Contact center
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-  
-Typical call flow usage  
-Customer care features  
+ 
 
 With Microsoft Unified Communications Managed API 4.0, you can turn your communications infrastructure into a profit center. UCMA 4.0-based Contact Center applications are able to match customers (the Front-Office) with agents (the Back-Office), integrating traditional interactive voice response (IVR), customer relations management (CRM) data, and data from Exchange Server, to pass customer information to the agent, anonymizing agent-customer interactions, and managing agent and supervisor pools. The Microsoft Lync Server 2013/UCMA 4.0 solution also allows applications to incorporate "whisper channels" in the back office, so that agents can silently communicate with supervisors, be coached, or monitor a call in progress.
 

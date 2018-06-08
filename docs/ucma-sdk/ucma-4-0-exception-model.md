@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UCMA 4.0 exception model
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 follows the standard .NET Framework exception model for reporting exceptions. Both the standard exception classes in the .NET Framework and custom exception classes specific to UCMA 4.0 are used. UCMA 4.0 applications should catch exceptions thrown by UCMA 4.0 methods. In addition we recommend that applications validate the data they pass to the API to avoid exceptions derived from **ArgumentException** from being thrown in released products.
 

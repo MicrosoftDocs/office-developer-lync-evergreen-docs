@@ -15,7 +15,7 @@ dev_langs:
 Learn how to use the Microsoft Lync Server 2013 Persistent Chat API to send or receive Persistent Chat room messages.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Sending and receiving messages are session-based operations and require that the underlying chat room session be established. In the Lync Server 2013 Persistent Chat API, chat messages can be of plain text and RTF and can include hyperlinks and emoticons.
 
@@ -23,7 +23,7 @@ To send message to a Persistent Chat room by using the Lync Server 2013 Persiste
 
 The following code example shows how to send a plain text message (txtMsg) to a chat room that is connected to an established [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) instance (chatRoomSession).
 
-``` csharp
+```csharp
         void SendTextMessage(ChatRoomSession chatRoomSession, string txtMsg)
         {
             if (chatRoomSession != null && chatRoomSession.CanChat)
@@ -42,7 +42,7 @@ The following code example shows how to use the Lync Server 2013 Persistent Chat
 
 
 
-``` csharp
+```csharp
         void SendRtfMessage(ChatRoomSession chatRoomSession, RichTextBox richTextBox)
         {
             if (chatRoomSession != null && chatRoomSession.CanChat)
@@ -57,7 +57,7 @@ The following code example shows how to use the Lync Server 2013 Persistent Chat
 
 The following code example shows how to use the Lync Server 2013 Persistent Chat API to send a formatted message (focm) to add a hyperlink (hyperLlink), or an emoticon (emoticon), as part of a plain text message (plaintext) to a chat room that is connected to a specified, established [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) instance (chatRoomSession).
 
-``` csharp
+```csharp
         void SendFormattedMessage(ChatRoomSession chatRoomSession, string plainText, ChatEmoticon emoticon, string hyperLinkText, Uri hyperLink)
         {
             if (chatRoomSession != null && chatRoomSession.CanChat)
@@ -78,7 +78,7 @@ To receive messages when a new message is posted to a chat room, register the [C
 
 The following code example shows how to register for the [ChatMessageReceived](https://msdn.microsoft.com/en-us/library/jj266375\(v=office.15\)) event and provides an example of the event handler, which simply prints the received message.
 
-``` csharp
+```csharp
         void RegisterToReceiveChatMessage(ChatRoomSession chatRoomSession)
         {
             if (chatRoomSession != null)

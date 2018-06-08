@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# From element (QualityType complexType) (Lync SDN Interface 2.1.1)
+# From element (QualityType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 The source of the reported media stream.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="From"  type="QualityEndPointType">
     
@@ -110,7 +106,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Id of an access point for a WiFi/wireless connection.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connection-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">Connection</a></p></td>
+<td><p><a href="connection-element-sdn-interface-2-1-1.md">Connection</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Connection type such as &quot;wired&quot; or &quot;wireless&quot;.</p></td>
 </tr>
@@ -125,22 +121,22 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Name of the CPU.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="cpunumberofcores-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">CPUNumberOfCores</a></p></td>
+<td><p><a href="cpunumberofcores-element-sdn-interface-2-1-1.md">CPUNumberOfCores</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Number of CPU cores in the endpoint device.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cpuprocessorspeed-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">CPUProcessorSpeed</a></p></td>
+<td><p><a href="cpuprocessorspeed-element-sdn-interface-2-1-1.md">CPUProcessorSpeed</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Processor speed rating.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="dscpinbound-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">DSCPInbound</a></p></td>
+<td><p><a href="dscpinbound-element-sdn-interface-2-1-1.md">DSCPInbound</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>QoS category marking when the stream is received on this endpoint. This field is populated only from Lync clients newer than Lync 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="dscpoutbound-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">DSCPOutbound</a></p></td>
+<td><p><a href="dscpoutbound-element-sdn-interface-2-1-1.md">DSCPOutbound</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>QoS category marking used on send the stream from this endpoint. This field is populated only from Lync clients newer than Lync 2013.</p></td>
 </tr>
@@ -190,12 +186,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Port number of the destination or source of the media stream used by this endpoint.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="reflexiveip-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">ReflexiveIP</a></p></td>
+<td><p><a href="reflexiveip-element-qualityendpointtype-sdn-interface-2-1-1.md">ReflexiveIP</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>IP used outside of the NAT.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="reflexiveport-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">ReflexivePort</a></p></td>
+<td><p><a href="reflexiveport-element-qualityendpointtype-sdn-interface-2-1-1.md">ReflexivePort</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Port used on the NAT.</p></td>
 </tr>
@@ -220,7 +216,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Lync client and version.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="virtualization-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">Virtualization</a></p></td>
+<td><p><a href="virtualization-element-sdn-interface-2-1-1.md">Virtualization</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Type of virtualization used.</p></td>
 </tr>
@@ -230,12 +226,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Indicates if the user is on VPN (True) or not (False).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="wifidriverdevicedesc-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">WifiDriverDeviceDesc</a></p></td>
+<td><p><a href="wifidriverdevicedesc-element-sdn-interface-2-1-1.md">WifiDriverDeviceDesc</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Wifi Driver Device description.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="wifidriverversion-element-qualityendpointtype-complextype-lync-sdn-interface-2-1-1.md">WifiDriverVersion</a></p></td>
+<td><p><a href="wifidriverversion-element-sdn-interface-2-1-1.md">WifiDriverVersion</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Wifi Driver Version.</p></td>
 </tr>

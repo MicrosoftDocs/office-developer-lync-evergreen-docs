@@ -15,12 +15,9 @@ dev_langs:
 # Creating a Lync bot
 
 
-_**Applies to:** Lync 2013_
+**Applies to**: Lync 2013
 
-**In this article**  
-Create a trusted application and a trusted application endpoint for the UC bot  
-Instantiate the UCBotHost environment  
-Deploy the UC bot using a Windows Service  
+ 
 
 To create a bot that runs in Lync, complete the steps in the following procedure.
 
@@ -120,7 +117,7 @@ When you develop a generic bot (see [Creating a generic bot](creating-a-generic-
 
 3.  Create a configuration (config) file as shown here and use it to get the application urn and application user agent. Notice that the config file has a *startup* element that enables your UCMA 4.0 application to consume the UCMA v2.0 SDK.
     
-    ``` xml
+    ```xml
     <?xml version="1.0"?>
     <configuration>
       <startup useLegacyV2RuntimeActivationPolicy="true">
@@ -138,7 +135,7 @@ When you develop a generic bot (see [Creating a generic bot](creating-a-generic-
 
 4.  Create a main method like the following one in your Main class to instantiate a *UCBotHost* object.
     
-    ``` csharp
+    ```csharp
     static void Main(string[] args)
      {
        // Print all Debug.WriteLine calls to the console to make it
@@ -194,7 +191,7 @@ You will probably want to run your bot as a Windows service in the background, i
 
 4.  In the "service launcher" class of the Windows Service project, create a method containing the *UCBotHost* initialization. This is very similar to the code that was shown in the "Instantiate the UCBotHost environment" section.
     
-    ``` csharp
+    ```csharp
     private void StartBotListenerService(object state)
     {
        String applicationUserAgent = ConfigurationManager.AppSettings["applicationuseragent"];
@@ -207,7 +204,7 @@ You will probably want to run your bot as a Windows service in the background, i
 
 5.  In the "service launcher" class of the Windows Service project, add a *System.Threading.Timer* object that will launch the *StartBotListenerService* method and initialize the timer in the *OnStart* method, as shown in the following sample.
     
-    ``` csharp
+    ```csharp
     private Timer botTimer;
     protected override void OnStart(string[] args)
     {

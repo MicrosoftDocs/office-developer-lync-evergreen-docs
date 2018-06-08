@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about making your application UI responsive to the events raised by Microsoft Lync 2013 API application sharing modality in Lync 2013 conversations.
 
-**Last modified:** January 09, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -96,7 +96,7 @@ Your application should always show the name of the current resource controller.
 
 The owner of a resource can give permission to another participant to control a resource. Permission can be granted when requested by another user or permission can be offered to another user without a prior request. For information about handling control requests, see [How to: Accept or decline a request to control a shared resource](how-to-accept-or-decline-a-request-to-control-a-shared-resource.md).
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Desktop, application, and display sharing](beyond-the-basics-desktop-application-and-display-sharing.md)
 

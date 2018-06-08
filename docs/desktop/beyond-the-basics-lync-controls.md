@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about advanced features of the Microsoft Lync 2013 Controls that you can use to make your stand-alone Lync 2013 API-enabled application more flexible and robust.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -46,7 +46,7 @@ The concepts described in this section give you the information you need to make
 
   - [Customizing Lync Controls](customizing-lync-controls.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync Controls](get-started-with-lync-controls.md)
 

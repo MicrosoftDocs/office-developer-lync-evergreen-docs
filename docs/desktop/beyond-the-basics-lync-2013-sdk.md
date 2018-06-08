@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about advanced concepts such as UI suppression, sign-in settings, and telephone number administration in Microsoft Lync 2013 SDK.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ If your users expect to be able to forward calls to mobile or home phones, your 
 
   - [Lync platform status codes](lync-platform-status-codes.md)
 
-## Additional resources
+## See also
 
   - [Core concepts: Lync 2013 SDK](core-concepts-lync-2013-sdk.md)
 

@@ -13,11 +13,11 @@ dev_langs:
 # note/body element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds a personal or Out of Office message as a presence note.
 
-``` xml
+```xml
 <body xmlns="http://schemas.microsoft.com/2006/09/sip/note"
       uri="uri"
       type="noteTypeEnumEx" 

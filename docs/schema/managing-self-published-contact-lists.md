@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Managing self-published contact lists
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Lync 2013 uses the enhanced presence publication and subscription mechanism to store the user’s contact list on the server and to roam the contact list across multiple user endpoints.
 

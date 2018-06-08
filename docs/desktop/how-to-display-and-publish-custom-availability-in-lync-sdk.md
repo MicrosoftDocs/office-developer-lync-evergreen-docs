@@ -16,17 +16,11 @@ dev_langs:
 
 Learn how to display and publish custom Microsoft Lync 2013 presence in an application by using Microsoft Lync 2013 SDK.
 
-**Last modified:** December 07, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-Prerequisites  
-Custom user activity window  
-Get custom presence states  
-Publish a custom presence state  
-Code examples: Custom user activity window  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+
 
 <table>
 <colgroup>
@@ -82,7 +76,7 @@ The current localized presence state is the last state that was published by a c
 
 1.  To get the current state, call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/hh348218\(v=office.15\)) method on the [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/hh365096\(v=office.15\)) object value of the [Self.Contact](https://msdn.microsoft.com/en-us/library/hh365190\(v=office.15\)) property, passing the [ContactInformationType.CustomActivity](https://msdn.microsoft.com/en-us/library/gg279606\(v=office.15\)) enumerator.
     
-    ``` csharp
+    ```csharp
                 //Get list of all LocaleString objects - list encapsulates the customized and localized activity strings
                 List<object> states = (List<object>)_LyncClient.Self.
                     Contact.GetContactInformation(ContactInformationType.CustomActivity);
@@ -114,7 +108,7 @@ The current localized presence state is the last state that was published by a c
         
         The following example iterates on the custom presence objects and casts the objects to **LocaleString**.
         
-        ``` csharp
+        ```csharp
                     //Iterate on the locale strings
                     Boolean localizeStringsFound = false;
                     foreach (object o in states)
@@ -160,13 +154,13 @@ A Lync Server 2013 computer can be configured to have custom presence states in 
     
     The following example gets the current culture.
     
-    ``` csharp
+    ```csharp
     int currentLCID = System.Globalization.CultureInfo.CurrentUICulture.LCID;
     ```
 
 2.  Get the collection of publishable presence stated for the specified culture.
     
-    ``` csharp
+    ```csharp
     IList<CustomAvailabilityState> customStates = _LyncClient.Self.GetPublishableCustomAvailabilityStates(currentLCID);
     ```
 
@@ -181,13 +175,13 @@ A Lync Server 2013 computer can be configured to have custom presence states in 
 
 1.  Declare a Dictionary\<PublishableContactInformationType, object\> to hold the information type and value to be published.
     
-    ``` csharp
+    ```csharp
     Dictionary<PublishableContactInformationType, object> stuffToPublish = new Dictionary<PublishableContactInformationType,object>();
     ```
 
 2.  Add an item to the dictionary where the key is [PublishableContactInformationType](https://msdn.microsoft.com/en-us/library/hh348070\(v=office.15\))**.CustomActivityId** and the value is the ID of the custom presence state to be published.
     
-    ``` csharp
+    ```csharp
     stuffToPublish.Add(PublishableContactInformationType.CustomActivityId, _SelectedCustomAvailabilityId);
     ```
 
@@ -195,7 +189,7 @@ A Lync Server 2013 computer can be configured to have custom presence states in 
     
     The following example publishes the selected custom presence. If an invalid custom presence ID is used, the [Microsoft.Lync.Model.ItemNotFoundException](https://msdn.microsoft.com/en-us/library/hh379971\(v=office.15\)) is raised.
     
-    ``` csharp
+    ```csharp
                 try
                 {
                     _LyncClient.Self.BeginPublishContactInformation(
@@ -213,7 +207,7 @@ A Lync Server 2013 computer can be configured to have custom presence states in 
 
 The following code declares the window show in figure 1.
 
-``` xaml
+```xaml
 <Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -255,7 +249,7 @@ The following code declares the window show in figure 1.
 
 The following example declares interaction logic for MainWindow.xaml.
 
-``` csharp
+```csharp
 using System.Windows;
 using Microsoft.Lync.Model;
 using System.Collections.Generic;
@@ -388,7 +382,7 @@ namespace CustomAvailabilityStates
 
 The following example is an XML file that declares a set of custom presence states for multiple UI culture LCID values. This XML file must be available for all Lync clients to access.
 
-``` xml
+```xml
 <customStates xmlns="http://schemas.microsoft.com/09/2005/communicator/customStates" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.microsoft.com/09/2005/communicator/customStates
 http://contos/sites/main/CustomActivities.xsd">
 <customState ID="1" availability="online">
@@ -410,7 +404,7 @@ http://contos/sites/main/CustomActivities.xsd">
 </customStates>
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

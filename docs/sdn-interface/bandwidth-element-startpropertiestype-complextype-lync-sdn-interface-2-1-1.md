@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Bandwidth element (StartPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# Bandwidth element (StartPropertiesType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Describes the maximum and average amount of bandwidth needed by this stream. It takes the possible codecs and stream multiplexing into account.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Bandwidth"  type="BandwidthType" minOccurs="0">
     

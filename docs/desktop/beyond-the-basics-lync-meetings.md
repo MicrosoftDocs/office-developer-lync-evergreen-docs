@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about obtaining meeting admission keys for external access, managing the lobby of a meeting, and pinning or locking the video stream of a meeting participant.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ The topics in this section describe the programming concepts that make these fea
 
   - [Meeting lobby management](meeting-lobby-management.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics in Lync 2013 SDK](beyond-the-basics-in-lync-2013-sdk.md)
 

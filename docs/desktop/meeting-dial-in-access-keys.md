@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about Lync 2013 meeting access keys for dialing in to an online Lync 2013 meeting that is started from an application by using Microsoft Lync 2013 SDK.
 
-**Last modified:** January 11, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ The components of the meeting access key are encapsulated by the [Microsoft.Lync
 
 The following example builds a string by using conference access information properties. The string can be posted as a **Story** message to a persistent chat room or sent in an email message.
 
-``` csharp
+```csharp
         /// <summary>
         /// Creates a string that can be posted as a story message to a persistent chat room 
         /// </summary>
@@ -119,7 +119,7 @@ The following example builds a string by using conference access information pro
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync meetings](beyond-the-basics-lync-meetings.md)
 

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn about Microsoft Lync Server 2013 SIP Application API application scenarios where custom message filters and routing is used.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In Microsoft Lync Server 2013 SDK, common SIP application scenarios require you to set up custom message filters and routing. The following scenarios discuss how the Lync Server 2013 SIP Application API is used to filter and route messages that are based on the message headers, content, or a combination of both.
 

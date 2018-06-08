@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about meet-now meeting access types in Microsoft Lync 2013 SDK.
 
-**Last modified:** January 07, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ The following table describes the meeting admission types.
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync meetings](beyond-the-basics-lync-meetings.md)
 

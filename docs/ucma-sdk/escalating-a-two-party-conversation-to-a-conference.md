@@ -13,7 +13,7 @@ dev_langs:
 # Escalating a two-party conversation to a conference
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 An application can escalate a two-party IM conversation to a conference conversation only after the conference has been successfully joined, and the [State](https://msdn.microsoft.com/en-us/library/hh161754\(v=office.15\)) of the conference session is **Connected**. The escalation process involves moving the existing IM calls into the Multipoint Control Unit (MCU) session, requesting that the remote participant from the existing two-party IM conversation join the ad hoc conference, and terminating the two-party IM session with the remote participant. If the escalation is unsuccessful, the conversation reverts to a two-party call.
 
@@ -25,7 +25,7 @@ An application can escalate a two-party IM conversation to a conference conversa
 
 The following code demonstrates escalating an IM conversation to a conference.
 
-``` csharp
+```csharp
 conversation.BeginEscalateToConference(Conference_EscalationCompleted, conferenceSession);
 ```
 
@@ -39,13 +39,13 @@ When an application is in a two-party IM conversation, a remote participant can 
 
 The following example shows how to register to receive notifications of incoming escalation requests. In this example, the application registers a handler for the [EscalateToConferenceRequested](https://msdn.microsoft.com/en-us/library/hh366360\(v=office.15\)) event.
 
-``` csharp
+```csharp
 conversation.EscalateToConferenceRequested += this.Conversation_EscalateToConferenceRequested;
 ```
 
 The following code demonstrates responding to an incoming escalation request.
 
-``` csharp
+```csharp
 void Conversation_EscalateToConferenceRequested(object sender, EscalateToConferenceRequestedEventArgs e)
 {
   Conversation conversation = sender as Conversation;

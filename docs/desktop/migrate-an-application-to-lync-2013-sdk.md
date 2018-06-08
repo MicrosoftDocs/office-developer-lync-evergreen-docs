@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to migrate your existing Microsoft Lync 2010 SDK-enabled application to Microsoft Lync 2013 SDK. The migration tasks include changes to assemblies that are referenced in your project and the installation of the latest Microsoft Silverlight development support tools.
 
-**Last modified:** April 05, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -121,7 +121,7 @@ If both conditions are met, the conversation is duplicated and should be ignored
 
 The following example identifies a "shadow" conversation. This method should be called in the registered callback method for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when a new conversation is added. 
         /// </summary>
@@ -163,7 +163,7 @@ The following example identifies a "shadow" conversation. This method should be 
         }
 ```
 
-## Additional resources
+## See also
 
   - [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md)
 

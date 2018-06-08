@@ -12,16 +12,11 @@ mtps_version: v=office.15
 
 Learn the programming concepts and Microsoft Lync 2013 SDK object model for building an application that shows the enhanced presence information for any Microsoft Lync 2013 user.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-What is enhanced presence?  
-Get started with enhanced presence  
-What can you do with enhanced presence?  
-Beyond the basics: Learn more about enhanced presence  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+ 
 
 <table>
 <colgroup>
@@ -151,7 +146,7 @@ The following table lists advanced concepts for working with enhanced presence.
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md)
 

@@ -13,11 +13,11 @@ dev_langs:
 # state\[\@type='userState'\] element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies an enhanced presence user state category instance value.
 
-``` xml
+```xml
 <st:state xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" 
        type="userState"
        manual="xs:boolean" 

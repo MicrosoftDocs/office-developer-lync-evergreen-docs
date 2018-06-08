@@ -13,11 +13,11 @@ dev_langs:
 # calendarData category instance value element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Holds calendar data obtained from an integrated Exchange Server computer.
 
-``` xml
+```xml
 <calendarData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="http://schemas.microsoft.com/2006/09/sip/calendarData"

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to create a Microsoft Lync Server 2013 SDK message filter MSPL script.
 
 
-_**Applies to:** Lync Server 2013_
+**Applies to**: Lync Server 2013
 
 ## Writing a message filter script
 

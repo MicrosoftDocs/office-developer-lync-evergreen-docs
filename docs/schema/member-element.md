@@ -13,11 +13,11 @@ dev_langs:
 # member element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a membership scope in a container used for grammar-based publication.
 
-``` xml
+```xml
 <member type="memberTypeEnumEx" 
         role="roleTypeEnumEx" 
         uri="xs:anyURI" 

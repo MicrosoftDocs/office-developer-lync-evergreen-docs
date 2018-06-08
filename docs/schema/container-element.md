@@ -13,11 +13,11 @@ dev_langs:
 # container element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies a container used in grammar-based publication.
 
-``` xml
+```xml
 <container id="xs:unsignedInt" [anyAttribute]="anyValue">
    <visible>xs:boolean</visible>
    <avoidRedundantMembers>xs:boolean</avoidRedundantMembers>

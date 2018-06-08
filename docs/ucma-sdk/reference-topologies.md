@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Reference topologies
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The ideal Microsoft Lync Server 2013 communications software topology depends on the organization’s size, the workloads that will be deployed, and preferences for high availability versus cost of investment.
 

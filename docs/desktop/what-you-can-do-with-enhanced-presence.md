@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn how to use the Microsoft Lync 2013 API to programmatically implement enhanced presence features, including getting contact enhanced presence, displaying presence in a ContactCard, getting available communication modes from a contact, publishing enhanced presence, and subscribing to enhanced presence.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -58,7 +58,7 @@ The topics in this section show how to programmatically gett contact enhanced pr
 
   - [How to: Change the privacy relationship between Lync users](how-to-change-the-privacy-relationship-between-lync-users.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

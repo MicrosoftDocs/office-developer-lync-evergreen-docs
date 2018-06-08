@@ -13,11 +13,11 @@ dev_langs:
 # state/meetingLocation element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Specifies the location of a meeting according to a presence state of the user’s calendar.
 
-``` xml
+```xml
 <st:meetingLocation xmlns:st="http://schemas.microsoft.com/2006/09/sip/state"     LCID="xs:unsignedInt"
     updated="xs:dateTime"
     [anyAttribute]="any_attribute">xs:string<st:meetingLocation>

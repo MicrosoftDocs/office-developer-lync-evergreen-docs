@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EndPoint element (StartOrUpdateType complexType) (Lync SDN API Schema A)
+# EndPoint element (StartOrUpdateType complexType) 
+
+(Lync SDN API Schema A)
 
 Endpoint while the call is on-hold.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="EndPoint" type="EndPointType" minOccurs="0" maxOccurs="2"></xs:element>
 ```
 

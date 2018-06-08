@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parsing location profile
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 A location profile from the provisioned data specifies the rules that are used to support abbreviated dialing sequences for local or internal calls within a given location. In Microsoft Unified Communications Managed API (UCMA), a location profile is encapsulated by a LocationProfileConfiguration object, which exposes the profile as a set of normalization rules in addition to the ExternalAccessPrefix and OptimizedDevieDialing flags.
 

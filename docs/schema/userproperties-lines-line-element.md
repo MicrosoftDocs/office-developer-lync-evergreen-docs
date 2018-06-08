@@ -13,11 +13,11 @@ dev_langs:
 # userProperties/lines/line element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Contains the description of a phone line controlled by the user.
 
-``` xml
+```xml
 <up:line xmlns:up="http://schemas.microsoft.com/2006/09/sip/categories" 
        lineType="up:lineTypeEnumEx" 
        lineServer="xs:token"
@@ -92,7 +92,7 @@ TEL URI of the phone line.
 
 ## Example
 
-``` xml
+```xml
 <userProperties xmlns="http://schemas.microsoft.com/2006/09/sip/categories">
    <lines>
       <line lineType="Uc">tel:+1421112222;ext=12222</line>

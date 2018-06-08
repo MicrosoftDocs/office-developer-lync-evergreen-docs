@@ -1,5 +1,5 @@
 ﻿---
-title: Bandwidth element (CodecType complexType) (Lync SDN API Schema A)
+title: Bandwidth element (Lync SDN API Schema A)
 TOCTitle: Bandwidth element
 ms:assetid: ad870978-98bb-481d-8e89-6fe512f95865
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775105(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# Bandwidth element (CodecType complexType) (Lync SDN API Schema A)
+# Bandwidth element 
+
+(CodecType complexType) (Lync SDN API Schema A)
 
 Lower limit of the estimated bandwidth.
 
-
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +44,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Bandwidth" type="xs:string" minOccurs="0"></xs:element>
 ```
 
@@ -73,12 +69,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="codec-element-properties-element-startorupdatetype-complextype-lync-sdn-api-schema-a.md">Codec</a></p></td>
+<td><p><a href="codec-element-startorupdatetype-sdn-api-schema-a.md">Codec</a></p></td>
 <td><p><a href="codectype-complextype-lync-sdn-api-schema-a.md">CodecType</a></p></td>
 <td><p>Codec and estimates for the bandwidth that the codecs will use. This list contains all codecs that are agreed upon by the two endpoints. Both end-points may decide to switch amoung these codecs at any time (without additional signalling).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="codec-element-properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">Codec</a></p></td>
+<td><p><a href="codec-element-qualityupdate-element-sdn-api-schema-a.md">Codec</a></p></td>
 <td><p><a href="codectype-complextype-lync-sdn-api-schema-a.md">CodecType</a></p></td>
 <td><p>Describes the last codec used for the media.</p></td>
 </tr>

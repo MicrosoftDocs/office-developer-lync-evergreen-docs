@@ -13,7 +13,7 @@ mtps_version: v=office.15
 Learn how to use the Microsoft Lync Server 2013 Persistent Chat API to build applications.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 ## Application scenarios using Lync Server 2013 Persistent Chat API
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Extending the UCMA platform
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 Microsoft Unified Communications Managed API 4.0 provides built-in support for three media types: audio, message, and *image* (Fax). For many developers, no other media types are necessary. For developers whose applications require additional media types, the UCMA 4.0 platform can be extended to work with the new, custom media types. Because these new media types are not present in the UCMA 4.0 platform, they are considered platform extensions.
 

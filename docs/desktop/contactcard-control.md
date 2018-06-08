@@ -16,7 +16,7 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 ContactCard control.
 
-**Last modified:** February 14, 2013
+
 
 ***Applies to:** Lync 2013*
 
@@ -97,13 +97,13 @@ Notable ContactCard control public properties and events relating to unified com
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ContactCard Source="sip:elise@contoso.com" />
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

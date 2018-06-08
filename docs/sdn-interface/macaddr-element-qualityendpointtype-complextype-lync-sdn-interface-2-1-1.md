@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# MACAddr element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# MACAddr element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 MAC address of the endpoint.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="MACAddr"  minOccurs="0">
     

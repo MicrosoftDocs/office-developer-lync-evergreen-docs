@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about designing a Lync 2013 Persistent Chat room add-in that displays messages that a Microsoft Unified Communications Managed API (UCMA) bot has posted to the hosting chat room and then filters the pending message posts of the local user.
 
-**Last modified:** January 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -81,7 +81,7 @@ Before you complete the steps in this topic, your application must have an insta
 
 The following example references the namespaces that are used in the following Windows Forms examples.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -108,7 +108,7 @@ using System.Collections;
 
 The following example declares the class fields that are referenced in the following sections of this topic.
 
-``` csharp
+```csharp
         /// <summary>
         /// The hosting Persistent Chat room
         /// </summary>
@@ -123,7 +123,7 @@ The hosting chat room is the entry point to all Lync functionality that you can 
 
 The following example gets the hosting room, enables outgoing message filtering, and registers for messaging events.
 
-``` csharp
+```csharp
         /// <summary>
         /// Constructor of the add-in page
         /// </summary>
@@ -215,7 +215,7 @@ To cancel a pending message, an add-in parses pending message text for some cond
 
 The following example handles the [Room.MessagesReceived](https://msdn.microsoft.com/en-us/library/jj277819\(v=office.15\)) event. Each message in the collection of new messages contains the message sender’s URI. If the URI string contains the unique part of a UCMA bot’s URI, the example treats the message as a bot message. In this example, a bot message might contain information about US currency. If the text of the message contains the United States currency symbol, the message must be parsed and displayed in the add-in UI.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles event that is raised when other users send messages to the room. The method
         /// identifies any UCMA bot messages and then displays bot messages that contain
@@ -278,7 +278,7 @@ The following example is a simple text parser that replaces a substring with a s
 
 The following example updates the bot message text box on the UI thread.
 
-``` csharp
+```csharp
         /// <summary>
         /// Updates the BOT message text box
         /// </summary>
@@ -294,7 +294,7 @@ The following example updates the bot message text box on the UI thread.
 
 The following example handles the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event. The event logic filters the message for an objectionable phrase. If the phrase is not found, the message is reformatted by replacing all uppercase letters with lowercase. Finally, the [Room.SendFilteredMessage](https://msdn.microsoft.com/en-us/library/jj265991\(v=office.15\)) method is called with the action determined by the filter logic.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when the local user starts sending a message. the 
         /// method filters the message and if the message passes the filter, the message
@@ -363,7 +363,7 @@ The following example redraws the updated message text box in the UI with the up
 
 The following example converts text of the message to all lowercase.
 
-``` csharp
+```csharp
         /// <summary>
         /// Applies formatting to a message string before posting
         /// </summary>
@@ -377,7 +377,7 @@ The following example converts text of the message to all lowercase.
 
 The following example checks the pending message string for the substring "bla\!". If the substring is found, the example returns false and the [Room.IsSendingMessage](https://msdn.microsoft.com/en-us/library/jj294015\(v=office.15\)) event handler cancels the pending post.
 
-``` csharp
+```csharp
         /// <summary>
         /// Message string filter. Looks for an instance of 
         /// </summary>
@@ -393,7 +393,7 @@ The following example checks the pending message string for the substring "bla\!
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Persistent Chat](beyond-the-basics-persistent-chat.md)
 

@@ -13,7 +13,7 @@ dev_langs:
 # Querying presence of specified presentities
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 In Microsoft Unified Communications Managed API 4.0, the process used to query presence is performed with an LocalEndpointPresenceServices object that can be obtained from an established (or connected) LocalEndpoint object.
 
@@ -21,7 +21,7 @@ Querying presence is an asynchronous process. Each query corresponds to a single
 
 The following code example shows how to query specified categories that are published by the specified presentities.
 
-``` csharp
+```csharp
         #region Querying remote presence
         public void QueryRemotePresence(string[] targets, string[] categories)
         {

@@ -1,5 +1,5 @@
 ﻿---
-title: QualityUpdate element (LyncDiagnostics element) (Lync SDN API Schema A)
+title: QualityUpdate element  (Lync SDN API Schema A)
 TOCTitle: QualityUpdate element
 ms:assetid: 4948a34e-0ffe-2282-2e77-010f3db136db
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439275(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# QualityUpdate element (LyncDiagnostics element) (Lync SDN API Schema A)
+# QualityUpdate element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Specifies the event that a SIP call has ended and contains an updated report of the quality metrics of individual media streams. These quality metrics for a stream may include updates provided by other endpoints during the call. By default, LDL raises this event (and thus reports the quality updates) only if the call quality is under the quality thresholds defined in the QoE database or in the LDL configuration file. Alterantively, you can configure Lync Dialog Listener (LDL) to send all quality updates. Quality updates are based on individual streams instead of the call.
 
 
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="QualityUpdate" minOccurs="0" maxOccurs="unbounded">
     <xs:complexType>
         <xs:sequence>
@@ -196,17 +193,17 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="from-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">From</a></p></td>
+<td><p><a href="from-element-qualityupdate-element-sdn-api-schema-a.md">From</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>The source of the reported media stream.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="properties-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">Properties</a></p></td>
+<td><p><a href="properties-element-qualityupdate-element-sdn-api-schema-a.md">Properties</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determinine a bad call.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="to-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">To</a></p></td>
+<td><p><a href="to-element-qualityupdate-element-sdn-api-schema-a.md">To</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>Destination of the media stream.</p></td>
 </tr>

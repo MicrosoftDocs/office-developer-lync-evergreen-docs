@@ -13,7 +13,7 @@ dev_langs:
 # Using an InstantMessagingFlow
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.15\)) instances represent an instant messaging (IM) media flow. The **InstantMessagingFlow** class is derived from the [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.15\)) base class and provides methods to send and receive IM messages, delivery notifications, and typing notifications.
 
@@ -29,7 +29,7 @@ The InstantMessageFlow class raises a [RemoteComposingStateChanged](https://msdn
 
 The following code demonstrates creating an IM media flow, sending IM messages on the flow, and sending composing notifications. In this example, an IM message is sent in the call to one of the overloaded [BeginSendInstantMessage](https://msdn.microsoft.com/en-us/library/hh349533\(v=office.15\)) messages.
 
-``` csharp
+```csharp
 // Must be done before Establish is called.
 imCall.InstantMessagingFlowConfigurationRequested += IMCall_InstantMessagingFlowConfigurationRequested; 
 

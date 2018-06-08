@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to let a user join a Microsoft Lync 2013 conversation after receiving an invitation from another Lync 2013 user or a federated user.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -126,7 +126,7 @@ You execute the following steps within a method that handles [ConversationAdded]
 
 The following example accepts or rejects an incoming conversation invitation based on the modalities specified for the conversation.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles ConversationAdded state change event raised on ConversationsManager
         /// </summary>
@@ -177,7 +177,7 @@ The following example accepts or rejects an incoming conversation invitation bas
 
 The following example registers for participant events on the new conversation, accepts the conversation notification, and then connects to the conversation modality.
 
-``` csharp
+```csharp
         /// <summary>
         /// Registers for events on a new conversation and connects to audio/video modality if call is incoming.
         /// </summary>
@@ -240,7 +240,7 @@ The following example registers for participant events on the new conversation, 
         }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

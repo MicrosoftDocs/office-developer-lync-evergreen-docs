@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Escalation to conferencing
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 For more information, see [Escalating a two-party conversation to a conference](escalating-a-two-party-conversation-to-a-conference.md).
 

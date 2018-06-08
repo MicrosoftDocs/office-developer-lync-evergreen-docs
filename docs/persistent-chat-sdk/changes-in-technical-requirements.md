@@ -13,12 +13,9 @@ mtps_version: v=office.15
 Learn about new Microsoft Lync Server 2013 Persistent Chat API prerequisites.
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Hardware requirements  
-Software requirements  
-Technical prerequisites  
+ 
 
 The following items are new requirements for the current release of Lync Server 2013 Persistent Chat API.
 

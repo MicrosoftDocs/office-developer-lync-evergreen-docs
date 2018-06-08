@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Properties element (EndedType complexType) (Lync SDN Interface 2.1.1)
+# Properties element (EndedType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Properties of the Error.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Properties"  type="EndedProperties" minOccurs="0">
     
@@ -100,17 +96,17 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="msdiagnostics-element-endedproperties-complextype-lync-sdn-interface-2-1-1.md">MSDiagnostics</a></p></td>
+<td><p><a href="msdiagnostics-element-endedproperties-sdn-interface-2-1-1.md">MSDiagnostics</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>More info related to the error.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="msdiagnosticsclient-element-endedproperties-complextype-lync-sdn-interface-2-1-1.md">MSDiagnosticsClient</a></p></td>
+<td><p><a href="msdiagnosticsclient-element-endedproperties-sdn-interface-2-1-1.md">MSDiagnosticsClient</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Info about the error related to and reported by the client.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="msdiagnosticspublic-element-endedproperties-complextype-lync-sdn-interface-2-1-1.md">MSDiagnosticsPublic</a></p></td>
+<td><p><a href="msdiagnosticspublic-element-endedproperties-sdn-interface-2-1-1.md">MSDiagnosticsPublic</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Public info about the error.</p></td>
 </tr>

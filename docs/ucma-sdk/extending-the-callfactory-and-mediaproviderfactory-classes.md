@@ -13,13 +13,9 @@ dev_langs:
 # Extending the CallFactory and MediaProviderFactory classes
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Registering and unregistering platform extensions  
-Managing media types  
-Creating factory classes for custom call and MediaProvider subclasses  
-Managing media types  
+
 
 After creating subclasses of the [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)), [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)), and [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.15\)) classes, you must create factory classes for the **Call** and **MediaProvider** subclasses. These factory classes are subclasses of the [CallFactory](https://msdn.microsoft.com/en-us/library/hh384820\(v=office.15\)) and [MediaProviderFactory](https://msdn.microsoft.com/en-us/library/hh382428\(v=office.15\)) abstract classes. These factory classes create instances of the **Call** and **MediaProvider** subclasses that you created previously. After the factory classes are created, they must be registered with the platform. If the custom media type is replacing an existing media type, the existing extension must be unregistered first. If the custom media type is not replacing an existing media type, applications should be designed to attempt to remove the media type before adding it.
 
@@ -67,7 +63,7 @@ Platform extension media types match the media types that can be found on the "m
 
 Before registering an extension that supports existing media types, the application should call UnregisterPlatformExtension to clear the old extension that handled that media type, and then register the new extension, using RegisterPlatformExtension. The following example shows how to replace an existing audio extension.
 
-``` csharp
+```csharp
 ContosoMediaProviderFactory factory = new ContosoMediaProviderFactory();
 
 platform.UnregisterPlatformExtension(factory.ExtensionType, MediaType.Audio);
@@ -98,7 +94,7 @@ The **MediaTypes** property returns a list of all of the media types that are su
 
 A **Create** method defined on an instance of the **CallFactory** subclass is used to create an instance of a new **Call** subclass. Similarly, a **Create** method defined on an instance of the **MediaProviderFactory** subclass is used to create an instance of a new **MediaProvider** subclass. In either case, the particular type of instance that is created depends on the media types and additional information specified when **Create** is called. The **Create** method you implement on a subclass of **CallFactory** or **MediaProviderFactory** has the following declaration:
 
-``` csharp
+```csharp
 public object Create(IEnumerable<string> mediaTypes, FactoryContext context);
 ```
 

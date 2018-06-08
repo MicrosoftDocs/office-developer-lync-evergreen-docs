@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about writing a Microsoft Lync 2013 SDK enabled application that uses side-by-side Microsoft Lync 2013 endpoints to sign in to Lync with a unique set of user credentials for each endpoint.
 
-**Last modified:** December 07, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 ## Lync endpoints
 
@@ -72,7 +72,7 @@ You should not use the multiple endpoint feature to test applications which use 
 
 Are two endpoint scenarios useful in live customer scenarios? A help desk technician that has two sets of credentials can sign in to Lync to take support calls with one set and communicate coworkers with the other set. Help desk credentials are usually aliased so that the identity of the technician is shielded from the caller. A help desk application is a good place to use the side-by-side endpoint to add a limited set of communication features suited for support calls. At the same time, the technician should have full communication features for interacting with coworkers. For this, the technician signs in to the Lync client by using her own credentials. She signs in to the help desk application with aliased credentials and Lync with her own credentials.
 
-## Additional resources
+## See also
 
   - [Core concepts: Lync 2013 SDK](core-concepts-lync-2013-sdk.md)
 

@@ -13,11 +13,11 @@ dev_langs:
 # contactCard/department element
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The department name of the contact.
 
-``` xml
+```xml
 <department>locale-specifiable and last update-trackable string</department>
 ```
 

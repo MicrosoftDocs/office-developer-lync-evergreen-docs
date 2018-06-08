@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about advanced features of Microsoft Lync 2013 SDK that you can use to give your custom Lync 2013 contact list capabilities such as contact searching and distribution group expansion.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -42,7 +42,7 @@ Advanced contact list features include contact list event handling for applicati
 
   - [Advanced contact search](advanced-contact-search.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync contact lists](get-started-with-lync-contact-lists.md)
 

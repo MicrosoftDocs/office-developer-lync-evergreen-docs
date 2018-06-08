@@ -11,13 +11,9 @@ mtps_version: v=office.15
 # AVFlow-ApplyChanges (QuickStart)
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+ 
 
 Sample location: %ProgramFiles%\\Microsoft UCMA 4.0\\SDK\\Core\\Sample Applications\\QuickStarts\\AudioVideoCall\\AVFlow-ApplyChanges
 

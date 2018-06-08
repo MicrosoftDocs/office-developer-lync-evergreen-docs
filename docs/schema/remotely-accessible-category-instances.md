@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Remotely accessible category instances
 
 
-_**Applies to:** Lync 2013 | Lync Server 2013_
+**Applies to:** Lync 2013 | Lync Server 2013
 
 The following category instances are published for remote users to subscribe to.
 

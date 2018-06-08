@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to add Microsoft Lync Controls to an existing HTML Web application using Microsoft Silverlight.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ For a list of prerequisites, see [How to: Create a Silverlight page that display
 
 You can use your own Web application or create one using the following HTML. The object tag contains the Silverlight application and determines how much space it occupies in the HTML page.
 
-``` html
+```html
 <html>
 <head>
 </head>
@@ -96,7 +96,7 @@ After adding the presence control to a Silverlight page, the next tasks are to a
 
   - [How to: Use Lync Controls to start a conversation](how-to-use-lync-controls-to-start-a-conversation.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

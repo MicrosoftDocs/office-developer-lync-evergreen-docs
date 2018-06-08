@@ -1,5 +1,5 @@
 ﻿---
-title: Connection element (QualityEndPointType complexType) (Lync SDN API Schema A)
+title: Connection element (Lync SDN API Schema A)
 TOCTitle: Connection element
 ms:assetid: e6b8e6a2-4346-48d4-c9c8-ffb11425de69
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775112(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# Connection element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# Connection element 
+
+(QualityEndPointType complexType) (Lync SDN API Schema A)
 
 Connection type such as "wired" or "wireless".
 
-
-_**Applies to:** Lync 2013_
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013
 
 ## Element information
 
@@ -48,7 +44,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Connection" type="xs:string" minOccurs="0"></xs:element>
 ```
 
@@ -73,12 +69,12 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="from-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">From</a></p></td>
+<td><p><a href="from-element-qualityupdate-element-sdn-api-schema-a.md">From</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>The source of the reported media stream.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="to-element-qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md">To</a></p></td>
+<td><p><a href="to-element-qualityupdate-element-sdn-api-schema-a.md">To</a></p></td>
 <td><p><a href="qualityendpointtype-complextype-lync-sdn-api-schema-a.md">QualityEndPointType</a></p></td>
 <td><p>Destination of the media stream.</p></td>
 </tr>
