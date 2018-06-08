@@ -17,7 +17,7 @@ dev_langs:
 
 Contains a token showing the user selection of a privacy mode.
 
-``` xml
+```xml
     <privacyModeUserSelection>privacyModeUserSelectionEnumEx</privacyModeUserSelection>
 ```
 

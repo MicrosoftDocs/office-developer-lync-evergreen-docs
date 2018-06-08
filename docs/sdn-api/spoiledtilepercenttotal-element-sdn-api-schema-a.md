@@ -45,7 +45,7 @@ Total percentage of the content that did not reach the viewer but was instead di
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="SpoiledTilePercentTotal">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

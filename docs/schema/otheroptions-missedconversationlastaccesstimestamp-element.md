@@ -17,7 +17,7 @@ dev_langs:
 
 Contains the timestamp showing the last access to missed conversation.
 
-``` xml
+```xml
 <missedConversationLastAccessTimestamp>string</missedConversationLastAccessTimestamp>
 ```
 

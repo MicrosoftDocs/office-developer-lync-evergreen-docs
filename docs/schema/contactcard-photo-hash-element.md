@@ -17,7 +17,7 @@ dev_langs:
 
 The hash value of the photo.
 
-``` xml
+```xml
 <hash>string</hash>
 ```
 

@@ -45,7 +45,7 @@ Number of Real-time Transport Protocol (RTP) packets received in the session. Th
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="PacketUtilization" type="xs:string"></xs:element>
 ```
 

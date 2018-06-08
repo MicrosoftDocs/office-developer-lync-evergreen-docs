@@ -45,7 +45,7 @@ Lync-specific diagnostics message for this error.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="MSDiagnostics" type="xs:string" minOccurs="0"></xs:element>
 ```
 

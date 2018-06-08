@@ -44,7 +44,7 @@ Average burst density, as specified in \[RFC3611\] section 4.7.2, is computed wi
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="BurstDensity"></xs:element>
 ```
 

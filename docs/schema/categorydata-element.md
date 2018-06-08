@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the category data to be published. This can be a category instance XML string or an XSLT routine that generates a category instance XML string from a given input.
 
-``` xml
+```xml
 <categoryData>
 </categoryData>
 ```
@@ -70,7 +70,7 @@ The element value can be a category instance XML string or an XSLT that produces
 
 The following example shows a publication rule for publishing an [state\[@type='aggregateState'\] element](state-element_4.md) category instance to the Block container.
 
-``` xml
+```xml
 <publicationRule ruleType="bootstrap" categoryName="state" containerId="32000"> 
    <instanceId type="constant" value="0" /> 
    <expireType type="static" /> 
@@ -88,7 +88,7 @@ In this example, the category data is a hard-coded XML string of an [state\[@typ
 
 The following example shows a publication rule for publishing a [note category instance value element](note-category-instance-value-element.md) category instance to the Public container.
 
-``` xml
+```xml
     <publicationRule ruleType="transformation" categoryName="note" containerId="100">
       <categoryData>
         <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 

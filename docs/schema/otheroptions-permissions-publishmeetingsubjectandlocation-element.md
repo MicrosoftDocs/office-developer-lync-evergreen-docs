@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies whether to publish the subject and location of a meeting.
 
-``` xml
+```xml
 <oo:publishMeetingSubjectAndLocation 
      xmlns:oo="http://schemas.microsoft.com/2006/09/sip/options/otherOptions"
      >boolean</oo:publishMeetingSubjectAndLocation>
@@ -71,7 +71,7 @@ By default, Microsoft Lync 2013 sets this to true.
 
 The following XML code snippet shows an otherOptions category instance containing a specification of the permissions:
 
-``` xml
+```xml
   <otherOptions xmlns="http://schemas.microsoft.com/2006/09/sip/options/otherOptions">
     <permissions>
       <personalInformationManager>outlook</personalInformationManager>

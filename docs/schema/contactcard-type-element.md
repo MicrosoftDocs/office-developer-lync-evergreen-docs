@@ -17,7 +17,7 @@ dev_langs:
 
 The type of the contact.
 
-``` xml
+```xml
 <type>Extended presentityTypeToken</type>
 ```
 

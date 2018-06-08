@@ -45,7 +45,7 @@ Received signal level in units of dB. This metric is reported for audio streams 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RecvSignalLevel" type="xs:string"></xs:element>
 ```
 

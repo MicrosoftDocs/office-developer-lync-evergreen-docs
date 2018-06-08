@@ -17,7 +17,7 @@ dev_langs:
 
 Represents the aggregated presence state for interoperating with legacy clients.
 
-``` xml
+```xml
 <legacyInterop xmlns:xs=”http://www.w3.org/2001/XMLSchema”
  xmlns="http://schemas.microsoft.com/2006/09/sip/categories" 
    availability=”xs:unsignedInt” 

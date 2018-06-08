@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the voice capability enabled on a presentity.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/service">
      <voice 

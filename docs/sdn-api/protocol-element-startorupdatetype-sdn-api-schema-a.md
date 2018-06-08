@@ -50,7 +50,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Protocol" type="xs:string"></xs:element>
 ```
 

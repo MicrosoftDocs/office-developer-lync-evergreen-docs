@@ -17,7 +17,7 @@ dev_langs:
 
 The photo URI of a contact.
 
-``` xml
+```xml
 <uri updated="DateTime" [anyAttr]="String">string</uri>
 ```
 

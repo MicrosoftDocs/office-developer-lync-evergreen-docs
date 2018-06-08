@@ -17,7 +17,7 @@ dev_langs:
 
 Holds the roaming options for remote call control (of PBX phones).
 
-``` xml
+```xml
 <rccOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="http://schemas.microsoft.com/2006/09/sip/options/rccOptions"

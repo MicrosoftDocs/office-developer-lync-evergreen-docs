@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the list of optional phone lines made available to reach the user. These options are specified in the Microsoft Lync 2013 **Lync Options** dialog box.
 
-``` xml
+```xml
 <ui:userInformation xmlns:ui="http://schemas.microsoft.com/2006/09/sip/options/userInformation" 
        majorVersion="xs:unsignedInt" 
        minorVersion="xs:unsignedInt"
@@ -151,7 +151,7 @@ The userInformation category instance represents the options that can be set by 
 
 The following XML snippet shows a userInformation category instance value containing two types (work and mobile) of phone numbers
 
-``` xml
+```xml
 <userInformation xmlns="http://schemas.microsoft.com/2006/09/sip/options/userInformation">
     <callHandlingList>
        <lastPhone>

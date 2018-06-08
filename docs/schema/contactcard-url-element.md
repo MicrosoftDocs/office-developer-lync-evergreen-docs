@@ -17,7 +17,7 @@ dev_langs:
 
 The URL of the source where the contact information originates.
 
-``` xml
+```xml
 <url type="urlTypeEnumEx" updated="dateTime" [anyAttr]="anyAttr">URL string</url>
 ```
 

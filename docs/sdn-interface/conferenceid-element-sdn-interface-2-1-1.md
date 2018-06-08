@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ConferenceId element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# ConferenceId element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 Identifier to correlate call legs that belong to the same conference.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="ConferenceId"  type="xs:string" minOccurs="0">
     

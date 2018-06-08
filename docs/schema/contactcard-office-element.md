@@ -17,7 +17,7 @@ dev_langs:
 
 The office location of the contact.
 
-``` xml
+```xml
 <office>locale-specifiable string</ office >
 ```
 

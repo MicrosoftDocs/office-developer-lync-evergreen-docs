@@ -17,7 +17,7 @@ dev_langs:
 
 Holds a previously published [note category instance value element](note-category-instance-value-element.md) category instance. A noteHistory category instance is a note category instance having the registered category name of noteHistory.
 
-``` xml
+```xml
 <note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     majorVersion="xs:unsignedInt"
     minorVersion="xs:unsignedInt"

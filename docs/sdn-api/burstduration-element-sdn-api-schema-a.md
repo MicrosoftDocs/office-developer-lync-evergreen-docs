@@ -46,7 +46,7 @@ The average burst duration, as specified in \[RFC3611\] section 4.7.2, is comput
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="BurstDuration"></xs:element>
 ```
 

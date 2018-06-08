@@ -17,7 +17,7 @@ dev_langs:
 
 Contains the roaming alerts options that can be set by the user on Microsoft Lync 2013.
 
-``` xml
+```xml
 <alerts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     majorVersion="xs:unsignedInt"
@@ -176,7 +176,7 @@ The element supports schema extensions as well as custom extension and can have 
 
 The following code example sets the alerts from high presence
 
-``` xml
+```xml
 <alerts xmlns="http://schemas.microsoft.com/2006/09/sip/options/alerts">
    <alertsWhenDoNotDisturb>displayAlertsFromHighPresence</alertsWhenDoNotDisturb>
    <notifyAdditionToContactList>true</notifyAdditionToContactList>

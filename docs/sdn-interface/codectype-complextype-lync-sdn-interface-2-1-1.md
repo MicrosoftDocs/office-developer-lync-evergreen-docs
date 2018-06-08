@@ -12,12 +12,6 @@ dev_langs:
 
 # CodecType complexType (Lync SDN Interface 2.1.1)
 
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
-
 ## Type information
 
 <table>
@@ -44,12 +38,10 @@ Elements and attributes
 
 ## Definition
 
-``` xml
-      <xs:complexType name="CodecType">
+```xml
+  <xs:complexType name="CodecType">
     <xs:attribute name="Name" type="xs:string" use="required"/>
-  
-      </xs:complexType>
-      
+  </xs:complexType>    
 ```
 
 ## Elements and attributes

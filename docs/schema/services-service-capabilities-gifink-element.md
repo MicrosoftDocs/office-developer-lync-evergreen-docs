@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the capability for a presentity to handle image data of the GIF format.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/service">
      <gifInk 

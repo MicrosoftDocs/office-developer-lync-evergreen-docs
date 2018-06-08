@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the mode to forward calls from the PBX phone.
 
-``` xml
+```xml
 <mode xmlns="http://schemas.microsoft.com/2006/09/sip/options/rccOptions">
 a forwardingModeTypeEnumEx value
 </mode>

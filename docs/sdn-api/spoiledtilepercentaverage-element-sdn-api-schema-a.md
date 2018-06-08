@@ -45,7 +45,7 @@ Average percentage of the content that did not reach the viewer but was instead 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="SpoiledTilePercentAverage" type="xs:decimal"></xs:element>
 ```
 

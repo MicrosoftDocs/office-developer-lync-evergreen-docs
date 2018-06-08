@@ -45,7 +45,7 @@ Percentage of time when echo is detected in the audio from the capture or microp
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="EchoPercentSend" type="xs:string"></xs:element>
 ```
 

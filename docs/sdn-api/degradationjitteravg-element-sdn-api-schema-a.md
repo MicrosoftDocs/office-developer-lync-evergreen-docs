@@ -45,7 +45,7 @@ Average fraction of the degradation jitter average applies to inter-arrival pack
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="DegradationJitterAvg" type="xs:string"></xs:element>
 ```
 

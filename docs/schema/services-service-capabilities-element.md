@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a presence service enabled for a presentity.
 
-``` xml
+```xml
 <service 
     xmlns="http://schemas.microsoft.com/2006/09/sip/service"
     uri="xs:anyURI"

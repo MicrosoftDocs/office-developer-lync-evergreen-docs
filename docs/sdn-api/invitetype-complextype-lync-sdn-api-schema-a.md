@@ -43,7 +43,7 @@ dev_langs:
 
 ## Definition
 
-``` xml
+```xml
 <xs:complexType name="InviteType">
     <xs:sequence>
         <xs:element name="Caller" type="EndPointType"></xs:element>

@@ -45,7 +45,7 @@ Id of an access point for a WiFi/wireless connection.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="BSSID" minOccurs="0"></xs:element>
 ```
 

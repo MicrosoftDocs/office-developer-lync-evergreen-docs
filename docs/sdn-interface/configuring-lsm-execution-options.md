@@ -119,7 +119,7 @@ You can modify these thresholds using the SDNManager.exe /p command or using the
 
 The following example shows some stream quality thresholds as configured in the SDNManager.exe.config.file:
 
-``` xml
+```xml
     <add key="audio-DegradationAvgOptimal" value="0.6"/>
     <add key="audio-DegradationAvgAcceptable" value="1"/>
     <add key="audio-RoundTripOptimal" value="200"/>

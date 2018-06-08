@@ -17,7 +17,7 @@ dev_langs:
 
 Contains the contact information stored the underlying Active Directory.
 
-``` xml
+```xml
 <contactCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="http://schemas.microsoft.com/2006/09/sip/contactcard"

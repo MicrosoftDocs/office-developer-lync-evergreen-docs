@@ -33,7 +33,7 @@ For a script-only SIP application, the application manifest document is loaded t
 
 The following application manifest handles SIP INVITE and MESSAGE requests.
 
-``` xml
+```xml
 <?xml version="1.0" ?>
 
 <!-- Set the application URI, the namespace prefix, and the namespace name -->

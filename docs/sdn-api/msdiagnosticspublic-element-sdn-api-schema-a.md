@@ -45,7 +45,7 @@ Lync-specific public diagnostics message.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="MSDiagnosticsPublic" minOccurs="0"></xs:element>
 ```
 

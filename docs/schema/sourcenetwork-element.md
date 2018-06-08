@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a type of network of a given member.
 
-``` xml
+```xml
 <sourceNetwork type="sourceNetworkTypeEnumEx" [anyAttribute]="anyValue">
    <ct:delimiter/>
    <[any]>

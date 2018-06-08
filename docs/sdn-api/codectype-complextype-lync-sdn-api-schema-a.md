@@ -47,7 +47,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 <xs:complexType name="CodecType">
     <xs:sequence>
         <xs:element name="Bandwidth" type="xs:string" minOccurs="0"></xs:element>

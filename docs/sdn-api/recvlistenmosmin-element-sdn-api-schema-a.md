@@ -45,7 +45,7 @@ Minimum of the RecvListenMOS for the stream during the session. This metric is r
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RecvListenMOSMin"></xs:element>
 ```
 

@@ -44,7 +44,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="EndedType">
     <xs:attribute name="Type" type="xs:string" use="required"/>
   

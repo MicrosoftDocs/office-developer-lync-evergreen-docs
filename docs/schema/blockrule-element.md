@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a rule defining the blocking actions that clients are expected to perform.
 
-``` xml
+```xml
 <blockRule type="blockTypeEnumEx" [anyAttribute]="anyValue">
    <containers>...</containers>
    <sourceNetworks>...</sourceNetworks>

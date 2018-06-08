@@ -19,7 +19,7 @@ The following code sample is n example of the LDL configuration file.
 
 ## A sample of LyncDialogListener.exe.config file
 
-``` xml
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <configSections>

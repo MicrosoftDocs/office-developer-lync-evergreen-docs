@@ -27,7 +27,7 @@ The Lync SDN Interface 2.1.1 provides several advanced features to improve secur
 
 The LSM supports advanced debugging via WCF. Instead of detailing how to use or change this, we provide an example as an illustration as follows. For complete information on this subject, see the WCF documentation. By uncommenting and customizing the section that follows, which is an excerpt from an SDNManager.exe.config file, you can receive low level debugging logs from the WCF service.
 
-``` xml
+```xml
   <!--<system.diagnostics>
     <trace autoflush="true" indentsize="4">
       <listeners>

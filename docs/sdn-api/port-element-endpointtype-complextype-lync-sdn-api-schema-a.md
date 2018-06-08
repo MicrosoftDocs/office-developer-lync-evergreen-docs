@@ -45,7 +45,7 @@ Port number of the destination or source of the media stream used by this endpoi
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Port" type="xs:unsignedInt" minOccurs="0"></xs:element>
 ```
 

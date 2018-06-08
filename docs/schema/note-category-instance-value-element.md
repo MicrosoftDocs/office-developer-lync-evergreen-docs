@@ -17,7 +17,7 @@ dev_langs:
 
 Holds a personal or Out of Office message as a presence note.
 
-``` xml
+```xml
 <note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     majorVersion="xs:unsignedInt"
     minorVersion="xs:unsignedInt"

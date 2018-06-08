@@ -17,7 +17,7 @@ dev_langs:
 
 The email address as part a contact’s identity.
 
-``` xml
+```xml
 <email updated="DateTime" [anyAttr]="String">value</email>
 ```
 

@@ -17,7 +17,7 @@ dev_langs:
 
 Describes an activity associated with the accompanying availability mode.
 
-``` xml
+```xml
 <st:activity xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" 
        toekn="st:activityTokenEnumEx"
        maxAvailability="st:unsignedInt" 

@@ -45,7 +45,7 @@ Identifier to correlate two SIP calls where mediation server is involved. Both S
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="CorrelationId" type="xs:string" minOccurs="0"></xs:element>
 ```
 

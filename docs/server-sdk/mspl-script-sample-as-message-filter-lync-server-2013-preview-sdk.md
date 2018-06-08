@@ -21,7 +21,7 @@ In Microsoft Lync Server 2013 SDK, use this MSPL script to filter incoming SIP r
 
 This Microsoft SIP Processing Language (MSPL) script example filters incoming SIP responses and attempts to select the best endpoint for each message based on the endpoint ID (EPID).
 
-``` xml
+```xml
 <?xml version="1.0">
 <lc:applicationManifest
  lc:appUri="http://www.contoso.com/DefaultRoutingScript"

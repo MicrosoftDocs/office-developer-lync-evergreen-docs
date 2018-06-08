@@ -45,7 +45,7 @@ Average fraction lost computed over the duration of the session, as specified in
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="PacketLossRate">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

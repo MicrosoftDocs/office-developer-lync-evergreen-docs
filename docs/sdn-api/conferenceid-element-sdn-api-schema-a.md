@@ -45,7 +45,7 @@ Identifier to correlate call legs that belong to the same conference.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="ConferenceId" type="xs:string" minOccurs="0"></xs:element>
 ```
 

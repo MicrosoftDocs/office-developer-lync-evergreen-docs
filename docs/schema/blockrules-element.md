@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a list of blocking rules to be applied to the specified containers or some members of the containers.
 
-``` xml
+```xml
 <blockRules >
    <blockRule>...</blockRule>
 </blockRules>

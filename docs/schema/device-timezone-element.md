@@ -17,7 +17,7 @@ dev_langs:
 
 Holds the time zone-specific time when this device capability publication was last updated.
 
-``` xml
+```xml
 ```
 
 xs:time

@@ -12,14 +12,11 @@ dev_langs:
 
 # Activating QoE recording
 
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
  
-
 If Quality of Experience (QoE) recording has not been activated in the Lync Monintoring server, you must activate it before installing the Lync Software Defined Network (SDN) Interface 2.1.1. You can verify and activate the QoE recording in one of the two ways:
 
 - [Using the Lync Server Control Panel](https://technet.microsoft.com/en-us/library/gg520943\(v=ocs.14\).aspx)
-
 - [Using the Lync server Management Shell commands](https://technet.microsoft.com/library/gg398474\(v=ocs.15\).aspx)
 
 ## Verify and activate QoE recording using Lync Server Management Shell commands

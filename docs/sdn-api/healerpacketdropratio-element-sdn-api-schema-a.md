@@ -44,7 +44,7 @@ Ratio of audio packets dropped by a healer over total number of audio packets re
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="HealerPacketDropRatio" type="xs:string"></xs:element>
 ```
 

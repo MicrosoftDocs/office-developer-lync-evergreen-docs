@@ -45,7 +45,7 @@ Average amount of one-way latency. Relative one-way latency measures the delay b
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RelativeOneWayAverage">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

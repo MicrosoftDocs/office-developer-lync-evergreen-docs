@@ -46,7 +46,7 @@ The root element for output from the Lync SDN Manager.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="LyncDiagnostics">
     <xs:complexType>
         <xs:sequence>

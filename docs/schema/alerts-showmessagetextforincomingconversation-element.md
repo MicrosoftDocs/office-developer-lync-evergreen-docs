@@ -20,7 +20,7 @@ Specifies whether to display the subject or message in conversation alerts.
 [alerts category instance value element](alerts-category-instance-value-element.md)  
   showMessageTextForIncomingConversation Element  
 
-``` xml
+```xml
 <showMessageTextForIncomingConversation
    xmlns="http://schemas.microsoft.com/2006/09/sip/alerts">Boolean</showMessageTextForIncomingConversation>
 ```

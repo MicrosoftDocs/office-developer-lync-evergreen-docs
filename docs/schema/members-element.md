@@ -17,7 +17,7 @@ dev_langs:
 
 Holds a list of membership scopes that can be assigned to the containers used in grammar-based enhanced presence publication.
 
-``` xml
+```xml
 <members>
    <member>...</member>
 </members>

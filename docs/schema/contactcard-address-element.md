@@ -17,7 +17,7 @@ dev_langs:
 
 The address of the contact.
 
-``` xml
+```xml
 <address type="addressTypeToken" [anyAttr]="string">
     <street updated="DateTime" [anyAttr]="string" LCID="lcid">string</street>
     <city updated="DateTime" [anyAttr]="string" LCID="lcid">string</city>

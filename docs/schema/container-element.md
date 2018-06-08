@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a container used in grammar-based publication.
 
-``` xml
+```xml
 <container id="xs:unsignedInt" [anyAttribute]="anyValue">
    <visible>xs:boolean</visible>
    <avoidRedundantMembers>xs:boolean</avoidRedundantMembers>

@@ -49,7 +49,7 @@ For more information about registering applications, see Register contextual con
 
 In Lync SDK Silverlight applications, use the LyncClient.GetHostingConversation method to get the **Conversation** object that hosts CWE.
 
-``` csharp
+```csharp
 Conversation currentConversation = (Conversation) LyncClient.GetHostingConversation();
 ```
 

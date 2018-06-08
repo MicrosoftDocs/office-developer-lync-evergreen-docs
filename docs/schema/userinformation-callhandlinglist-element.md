@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a list of call-handling targets. These options are set in the Microsoft Lync 2013 **Lync Options** dialog box.
 
-``` xml
+```xml
 <ui:callHandlingList xmlns:ui="http://schemas.microsoft.com/2006/09/sip/options/userInformation" >
    <ui:lastPhone>Zero or more phone elements</ui:displayString>
    <ui:lastContact>Zero or more contacts handling the listed phones</ui:uri>

@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a rule to resolve any occurrence constraints imposed the specified member.
 
-``` xml
+```xml
 <resolutionRule type="resolutionRuleTypeEnumEx" role="roleTypeEnumEx" [anyAttribute]="anyValue">
    <ct:delimiter/>
    <[any]>

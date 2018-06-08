@@ -1,5 +1,5 @@
 ﻿---
-title: BitRateAvg element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+title: BitRateAvg element  (Lync SDN Interface 2.1.1)
 TOCTitle: BitRateAvg element
 ms:assetid: b189f15e-1db0-6233-587a-3cf2fe78685d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912674(v=office.15)
@@ -10,15 +10,12 @@ dev_langs:
 - xml
 ---
 
-# BitRateAvg element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# BitRateAvg element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average bit rate, in bits per second, sent or received for a video stream and computed over the duration of the session. This includes raw video and transport bits. This metric is reported for video streams when available. (bits/s)
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +43,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="BitRateAvg"  type="xs:string">
     

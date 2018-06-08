@@ -17,7 +17,7 @@ dev_langs:
 
 A Boolean flag to indicate whether the contact is a non-person entity (True) or a person entity (False).
 
-``` xml
+```xml
 <automaton>Boolean</automaton>
 ```
 

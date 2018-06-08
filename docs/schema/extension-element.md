@@ -17,7 +17,7 @@ dev_langs:
 
 Contains custom elements of any name in any namespace as application-specific extension to the parent element defined in an enhanced presence schema.
 
-``` xml
+```xml
 <ct:extension xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes" >
    <[any]>...</[any]>
 </ct:extension>
@@ -90,7 +90,7 @@ Where it is defined in an enhanced presence schema, this element can be used to 
 
 ## Example
 
-``` xml
+```xml
 <contactCard 
      xmlns="http://schemas.microsoft.com/2006/09/sip/contactcard" 
      xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes" >

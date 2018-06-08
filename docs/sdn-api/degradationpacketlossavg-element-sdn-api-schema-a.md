@@ -45,7 +45,7 @@ Average fraction of the DegradationAvg that was caused by packet loss. This metr
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="DegradationPacketLossAvg"></xs:element>
 ```
 

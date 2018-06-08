@@ -17,7 +17,7 @@ dev_langs:
 
 Holds the name of the device.
 
-``` xml
+```xml
 ```
 
 xs:string

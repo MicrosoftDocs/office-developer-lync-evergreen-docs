@@ -17,7 +17,7 @@ dev_langs:
 
 Holds a list of allowed containers for a particular member in grammar-based enhanced presence publication.
 
-``` xml
+```xml
 <allowedContainers type="containerIdType" [anyAttribute]="anyValue">
    <container>...</container>
 </ allowedContainers >

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ConferenceURI element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# ConferenceURI element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 (Deprecated - use ConferenceId instead) Sip URI used for the conference. This field is obfuscated unless hidepii is set to false in configuration.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="ConferenceURI"  type="xs:anyURI" minOccurs="0">
     

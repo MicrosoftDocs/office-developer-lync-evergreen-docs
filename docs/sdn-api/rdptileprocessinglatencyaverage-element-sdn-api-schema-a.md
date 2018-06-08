@@ -45,7 +45,7 @@ Average processing time for remote desktop protocol (RDP) tiles. A higher total 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RDPTileProcessingLatencyAverage">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

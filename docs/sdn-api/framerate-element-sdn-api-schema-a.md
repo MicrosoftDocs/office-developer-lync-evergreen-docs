@@ -45,7 +45,7 @@ Average frame rate (in frames per second). When available, this metric is only r
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="FrameRate" type="xs:decimal"></xs:element>
 ```
 

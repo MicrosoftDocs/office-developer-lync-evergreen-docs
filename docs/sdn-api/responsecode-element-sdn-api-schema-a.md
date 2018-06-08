@@ -45,7 +45,7 @@ Message describing the error.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="ResponseCode">
     <xs:attribute name="Code" type="xs:unsignedShort" use="required" />
 </xs:element>

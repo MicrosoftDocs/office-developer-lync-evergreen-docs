@@ -17,7 +17,7 @@ dev_langs:
 
 Contains a Boolean flag indicating whether to enable synchronizing user options with the user’s contact card (true) or not (false).
 
-``` xml
+```xml
 <EnableContactSyncUserOption>xs:boolean</EnableContactSyncUserOption>
 ```
 

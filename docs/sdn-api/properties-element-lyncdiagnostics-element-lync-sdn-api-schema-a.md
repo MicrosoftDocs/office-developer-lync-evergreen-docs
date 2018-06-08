@@ -45,7 +45,7 @@ Details of the Error.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Properties" minOccurs="0">
     <xs:complexType>
         <xs:sequence>

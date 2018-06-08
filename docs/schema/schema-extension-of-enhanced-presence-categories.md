@@ -21,7 +21,7 @@ Schema extensions add additional child elements to existing category. The added 
 
 As an example, the following shows a [state\[@type='machineState'\] element](state-element_2.md) category instance containing a schema extension that was introduced in Microsoft Office Communications Server 2007 R2.
 
-``` xml
+```xml
 <state xmlns="http://schemas.microsoft.com/2006/09/sip/state" 
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
        manual="false" 

@@ -45,7 +45,7 @@ Network path of the media stream only provided in Lync 2013 and when the traceRo
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Route" minOccurs="0">
     <xs:complexType>
         <xs:sequence>

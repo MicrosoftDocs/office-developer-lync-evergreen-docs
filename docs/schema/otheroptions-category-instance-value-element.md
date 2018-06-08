@@ -17,7 +17,7 @@ dev_langs:
 
 Contains the miscellaneous options that can be set by the user using Microsoft Lync 2013.
 
-``` xml
+```xml
 <otherOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     majorVersion="xs:unsignedInt"

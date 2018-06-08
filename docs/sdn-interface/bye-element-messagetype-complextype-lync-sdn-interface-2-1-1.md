@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Bye element (MessageType complexType) (Lync SDN Interface 2.1.1)
+# Bye element 
+
+(MessageType complexType) (Lync SDN Interface 2.1.1)
 
 Event that a Sip call has ended and all media stream terminated.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Bye"  type="ByeType">
     

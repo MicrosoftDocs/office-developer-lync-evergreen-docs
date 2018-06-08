@@ -17,7 +17,7 @@ dev_langs:
 
 Holds the time when the standard or daylight time zone begins
 
-``` xml
+```xml
 <Time>string</Time>
 ```
 
@@ -73,7 +73,7 @@ The time string value is of the HH:MM:SS format, where HH stands for two digits 
 
 The following XML code snippet shows the standard time in a given time zone:
 
-``` xml
+```xml
 <StandardTime>
     <Bias>0</Bias>
     <Time>02:00:00</Time>

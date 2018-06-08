@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a waiting period before the specified routing rules cease to apply and the incoming calls are sent to the caller’s voicemail.
 
-``` xml
+```xml
 <ro:wait xmlns:ro="http://schemas.microsoft.com/2006/09/sip/routing"
     name="wait-names" seconds="non negative integer" />
 ```

@@ -45,7 +45,7 @@ MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, for decoded audi
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RecvListenMOS"></xs:element>
 ```
 

@@ -17,7 +17,7 @@ dev_langs:
 
 The street name of a contact’s address.
 
-``` xml
+```xml
 <street updated="DateTime" [anyAttr]="string" LCID="lcid">string</street>
 ```
 

@@ -45,7 +45,7 @@ SIP URI of the user as extracted from the Contact header of the underlying SIP m
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Contact" type="xs:anyURI" minOccurs="0"></xs:element>
 ```
 

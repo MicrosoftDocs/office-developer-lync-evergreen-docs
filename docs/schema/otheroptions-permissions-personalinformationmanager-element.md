@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the personal information manager.
 
-``` xml
+```xml
 <oo:personalInformationManager 
      xmlns:oo="http://schemas.microsoft.com/2006/09/sip/options/otherOptions">PIM token</oo:personalInformationManager>
 ```

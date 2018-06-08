@@ -45,7 +45,7 @@ IP address of the the media stream source or destination.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="IP" type="xs:string" minOccurs="0"></xs:element>
 ```
 

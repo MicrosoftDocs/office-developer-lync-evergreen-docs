@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the marker to end all the schema extensions.
 
-``` xml
+```xml
 <ct:delimiter xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes" />
 <tns:[any]>...</tns:[any]>
 <ct:end xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes" />
@@ -71,7 +71,7 @@ This element serves to end all the schema extensions to its parent element. For 
 
 The following XML snippet shows a use of the ct:delimiter and ct:end elementd to add a voiceMailStamp as a schema extension to the otherOptions category instance value.
 
-``` xml
+```xml
 <otherOptions xmlns="http://schemas.microsoft.com/2006/09/sip/options/otherOptions" xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes">
   <permissions>
     <personalInformationManager>outlook</personalInformationManager>

@@ -45,7 +45,7 @@ Average frames per second received for all video streams and computed over the d
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RecvFrameRateAverage">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

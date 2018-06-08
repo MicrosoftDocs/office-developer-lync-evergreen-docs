@@ -17,7 +17,7 @@ dev_langs:
 
 Holds the daylight savings time of the user’s local time zone.
 
-``` xml
+```xml
 <DaylightTime>
     <Bias>Timezone offset in minutes from the local time zone </Bias>
     <Time>Starting time (hh:mm:ss) of the daylight time</Time>

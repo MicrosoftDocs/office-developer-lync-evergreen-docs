@@ -17,7 +17,7 @@ dev_langs:
 
 Holds a list of containers used in grammar-based enhanced presence publication.
 
-``` xml
+```xml
 <containers [anyAttribute]="anyValue">
    <container>...</container>
    <ct:extension xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes" >...</ct:extension>

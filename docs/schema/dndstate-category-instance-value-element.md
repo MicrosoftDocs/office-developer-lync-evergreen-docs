@@ -17,7 +17,7 @@ dev_langs:
 
 The dndState category instance is an empty [state\[@type='userState'\] element](state-element.md) category instance. Its presence indicates the Do Not Disturb (DND) state is in effect and incoming calls from any container members are blocked.
 
-``` xml
+```xml
 <state xmlns="http://schemas.microsoft.com/2006/09/sip/state" 
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
        xsi:type="userState" 

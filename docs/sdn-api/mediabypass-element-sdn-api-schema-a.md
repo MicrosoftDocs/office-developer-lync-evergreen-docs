@@ -45,7 +45,7 @@ Denotes media bypass. It is provided only in QualityUpdate message when mediabyp
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="MediaBypass" type="xs:string" minOccurs="0"></xs:element>
 ```
 

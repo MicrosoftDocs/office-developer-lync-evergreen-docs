@@ -19,7 +19,7 @@ The following code sample shows the input and output resulting from running the 
 
 ## A sample of input and output of the LSM console application
 
-``` xml
+```xml
 C:\Program Files\Microsoft Lync Server\Microsoft Lync SDN Manager>SDNManager.exe /d
 Response code: SUCCESS Detail: Logical Version 0
 <Configuration Version="1.0" culture="en-US">

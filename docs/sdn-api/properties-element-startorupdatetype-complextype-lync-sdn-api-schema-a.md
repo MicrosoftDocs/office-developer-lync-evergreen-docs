@@ -45,7 +45,7 @@ Properties of the started or updated media stream.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Properties" minOccurs="0">
     <xs:complexType>
         <xs:sequence>

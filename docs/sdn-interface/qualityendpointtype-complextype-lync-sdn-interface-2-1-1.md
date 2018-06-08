@@ -44,7 +44,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="QualityEndPointType">
       </xs:complexType>
       

@@ -44,7 +44,7 @@ Properties of the callee.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Callee" type="EndPointType"></xs:element>
 ```
 

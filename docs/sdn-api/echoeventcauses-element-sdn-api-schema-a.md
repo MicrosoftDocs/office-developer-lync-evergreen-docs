@@ -45,7 +45,7 @@ Reasons of device echo detection and reported for audio streams when available. 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="EchoEventCauses"></xs:element>
 ```
 

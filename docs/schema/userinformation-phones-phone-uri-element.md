@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the TEL URI of a phone in the user’s phone list.
 
-``` xml
+```xml
 <ui:uri xmlns:ui="http://schemas.microsoft.com/2006/09/sip/options/userInformation" 
        updated="xs:dateTime"
        [anyAttri]="anyAttribute">xs:updatedAnyURI</ui: uri >
@@ -89,7 +89,7 @@ A string
 
 The following XML snippet shows a userInformation category instance value containing two types (work and mobile) of phone numbers
 
-``` xml
+```xml
 <userInformation xmlns="http://schemas.microsoft.com/2006/09/sip/options/userInformation">
     <callHandlingList>
        <lastPhone>

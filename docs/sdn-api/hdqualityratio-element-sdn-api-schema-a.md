@@ -45,7 +45,7 @@ Percentage of the duration of a call that is using the HD720 resolution. This me
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="HDQualityRatio"></xs:element>
 ```
 

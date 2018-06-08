@@ -17,7 +17,7 @@ dev_langs:
 
 Contains a Boolean flag showing whether last query of privacy is enabled or not.
 
-``` xml
+```xml
     <lastQueryPrivacyEnabled>boolean</lastQueryPrivacyEnabled>
 ```
 

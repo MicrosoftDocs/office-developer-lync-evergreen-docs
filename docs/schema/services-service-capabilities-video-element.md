@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a capability for a presentity to handle video streaming.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/service">
      <video 

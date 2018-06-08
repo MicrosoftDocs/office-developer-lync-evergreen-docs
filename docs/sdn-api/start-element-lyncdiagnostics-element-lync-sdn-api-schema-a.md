@@ -45,7 +45,7 @@ Event that a media stream is started. Every Start element contains a report abou
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Start" type="StartOrUpdateType" maxOccurs="unbounded" minOccurs="0"></xs:element>
 ```
 

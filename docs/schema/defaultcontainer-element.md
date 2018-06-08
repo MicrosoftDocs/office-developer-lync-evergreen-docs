@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the default container of a particular member.
 
-``` xml
+```xml
 <defaultContainer id="xs:unsignedInt" [anyAttribute]="anyValue">
    <ct:delimiter/>
    <[any]>

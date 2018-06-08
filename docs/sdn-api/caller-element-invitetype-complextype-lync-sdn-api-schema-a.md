@@ -44,7 +44,7 @@ Properties of the caller.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Caller" type="EndPointType"></xs:element>
 ```
 

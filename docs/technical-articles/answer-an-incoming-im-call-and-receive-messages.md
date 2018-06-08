@@ -249,7 +249,7 @@ The NotifyReceivedMessages forwards the data to the UI thread that displays the 
 
 UCWA can support HTML and plain text messages. When Lync sends an IM message, the incoming message is a URL-encoded HTML tagged string, as shown in the following [message](http://ucwa.skype.com/documentation/resources-message) event example.
 
-``` xml
+```xml
 <resource rel="message" href="/ucwa/oauth/v1/applications/102270403677/communication/conversations/fcd168a1-fe9e-4604-a9b1-8acd4f013339/messaging/messages/2" xmlns="http://schemas.microsoft.com/rtc/2012/03/ucwa">
   <link rel="contact" href="/ucwa/oauth/v1/applications/102270403677/people/johndoe@contoso.com" />
   <link rel="participant" href="/ucwa/oauth/v1/applications/102270403677/communication/conversations/fcd168a1-fe9e-4604-a9b1-8acd4f013339/participants/johndoe@contoso.com" title="John Doe" />

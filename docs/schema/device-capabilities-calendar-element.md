@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the presence capability for the user's calendar data on this device.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/device">
      <calendar 

@@ -17,7 +17,7 @@ dev_langs:
 
 The company name of the contact.
 
-``` xml
+```xml
 <company>locale-specifiable string</company>
 ```
 

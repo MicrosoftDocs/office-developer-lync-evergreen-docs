@@ -45,7 +45,7 @@ Codec and estimates for the bandwidth that the codecs will use. This list contai
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Codec" type="CodecType" maxOccurs="unbounded"></xs:element>
 ```
 

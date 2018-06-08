@@ -17,7 +17,7 @@ dev_langs:
 
 The department name of the contact.
 
-``` xml
+```xml
 <department>locale-specifiable and last update-trackable string</department>
 ```
 

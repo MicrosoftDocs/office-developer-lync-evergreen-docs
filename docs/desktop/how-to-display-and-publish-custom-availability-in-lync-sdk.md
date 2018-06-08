@@ -388,7 +388,7 @@ namespace CustomAvailabilityStates
 
 The following example is an XML file that declares a set of custom presence states for multiple UI culture LCID values. This XML file must be available for all Lync clients to access.
 
-``` xml
+```xml
 <customStates xmlns="http://schemas.microsoft.com/09/2005/communicator/customStates" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.microsoft.com/09/2005/communicator/customStates
 http://contos/sites/main/CustomActivities.xsd">
 <customState ID="1" availability="online">

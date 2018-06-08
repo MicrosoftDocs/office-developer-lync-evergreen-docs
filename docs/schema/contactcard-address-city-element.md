@@ -17,7 +17,7 @@ dev_langs:
 
 The name of the city in a contact’s address.
 
-``` xml
+```xml
     <city updated="DateTime" [anyAttr]="string" LCID="lcid">string</city>
 ```
 

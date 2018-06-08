@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the precedence hierarchy of roles when a member is assigned multiple roles.
 
-``` xml
+```xml
 <rolePrecedence >
    < rolePrecedenceEntry >...</ rolePrecedenceEntry >
 </ rolePrecedence >

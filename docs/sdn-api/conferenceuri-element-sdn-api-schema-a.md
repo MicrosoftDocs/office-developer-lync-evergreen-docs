@@ -45,7 +45,7 @@ Sip URI used for the conference. This field is obfuscated unless hidepii is set 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="ConferenceURI" type="xs:anyURI" minOccurs="0"></xs:element>
 ```
 

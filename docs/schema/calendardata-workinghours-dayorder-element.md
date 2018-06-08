@@ -20,7 +20,7 @@ Holds the order of a week day (specified in a DayOfWeek element) in a month when
 Root Element  
   Next Element  
 
-``` xml
+```xml
 <DayOrder>Positional number of a given week day in a month</DayOrder>
 ```
 
@@ -72,7 +72,7 @@ An integer value between 1 and 4 or 5.
 
 The following XML code snippet shows the standard time in a given time zone:
 
-``` xml
+```xml
 <StandardTime>
     <Bias>0</Bias>
     <Time>02:00:00</Time>

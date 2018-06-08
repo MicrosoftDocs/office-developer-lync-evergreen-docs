@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a phone line made available to reach the user.
 
-``` xml
+```xml
 <ui:phone xmlns:ui="http://schemas.microsoft.com/2006/09/sip/options/userInformation" 
        type="ui:phoneTypeEnumEx" 
        [anyAttri]="anyAttribute">
@@ -158,7 +158,7 @@ None
 
 The following XML snippet shows a userInformation category instance value containing two types (work and mobile) of phone numbers
 
-``` xml
+```xml
 <userInformation xmlns="http://schemas.microsoft.com/2006/09/sip/options/userInformation">
     <callHandlingList>
        <lastPhone>

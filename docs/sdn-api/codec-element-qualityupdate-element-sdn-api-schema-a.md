@@ -44,7 +44,7 @@ Describes the last codec used for the media.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Codec" type="CodecType"></xs:element>
 ```
 

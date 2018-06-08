@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the capability for a presentity to handle images of the ISF format.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/service">
      <isfInk 

@@ -45,7 +45,7 @@ The source of the reported media stream.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="From" type="QualityEndPointType"></xs:element>
 ```
 

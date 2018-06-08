@@ -46,7 +46,7 @@ Maximum bit rate, in bits per second, sent or received for a video stream and co
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="BitRateMax" type="xs:string"></xs:element>
 ```
 

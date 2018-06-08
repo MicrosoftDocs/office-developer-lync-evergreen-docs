@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a container manifest specifying prescribed container semantics for enhanced presence category publications
 
-``` xml
+```xml
 <containerManifest [anyAttribute]="anyValue">
    <containers>...</containers>
    <members>...</members>

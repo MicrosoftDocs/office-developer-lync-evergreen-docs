@@ -17,7 +17,7 @@ dev_langs:
 
 The name of the state or province in a contact’s address.
 
-``` xml
+```xml
 <state updated="DateTime" [anyAttr]="string" LCID="lcid">string</state>
 ```
 

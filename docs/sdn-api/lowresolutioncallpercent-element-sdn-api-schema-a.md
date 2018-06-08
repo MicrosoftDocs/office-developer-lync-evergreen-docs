@@ -45,7 +45,7 @@ Percentage of time of the call where resolution is low. Threshold is 120 pixels 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="LowResolutionCallPercent">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

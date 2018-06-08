@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies an availability number to indicate the presentity’s availability status.
 
-``` xml
+```xml
 <st:availability xmlns:st="http://schemas.microsoft.com/2006/09/sip/state">xs:unsignedInt</st:availability>
 ```
 

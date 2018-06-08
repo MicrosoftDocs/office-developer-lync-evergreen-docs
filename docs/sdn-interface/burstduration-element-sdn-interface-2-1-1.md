@@ -1,5 +1,5 @@
 ﻿---
-title: BurstDuration element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+title: BurstDuration element (Lync SDN Interface 2.1.1)
 TOCTitle: BurstDuration element
 ms:assetid: bf8780b5-e253-40ed-c082-bf1018903342
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912680(v=office.15)
@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# BurstDuration element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# BurstDuration element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 The average burst duration, as specified in \[RFC3611\] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. (ms)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="BurstDuration" >
     

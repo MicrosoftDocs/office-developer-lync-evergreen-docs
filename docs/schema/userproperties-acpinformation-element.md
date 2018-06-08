@@ -17,7 +17,7 @@ dev_langs:
 
 Contains the information of the audio conference provider for the user
 
-``` xml
+```xml
 <up:acpInformation xmlns:up="http://schemas.microsoft.com/2006/09/sip/categories" 
        default="xs:boolean" 
        [anyAttri]="anyAttribute">

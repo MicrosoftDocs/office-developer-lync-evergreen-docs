@@ -20,7 +20,7 @@ Specifies how to display alerts when the user is in the Do Not Disturb state.
 [alerts category instance value element](alerts-category-instance-value-element.md)  
   alertsWhenDoNotDisturb Element  
 
-``` xml
+```xml
 <al:alertsWhenDoNotDisturb 
     xmlns:al="http://schemas.microsoft.com/2006/09/sip/alerts">
    token

@@ -55,7 +55,7 @@ Managed SIP applications are appropriate for the following scenarios:
 
 After deciding the kind of application that you need, use an XML or text editor to write the content of the application manifest by using the following template:
 
-``` xml
+```xml
 <?xml version="1.0" ?>
 <lc:applicationManifest
  lc:appUri="URI"

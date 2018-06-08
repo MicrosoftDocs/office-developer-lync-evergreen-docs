@@ -17,7 +17,7 @@ dev_langs:
 
 Contact’s name as part of the identity.
 
-``` xml
+```xml
 <name updated="DateTime" [[anyAttr]]="String">
     <displayName updated="DateTime" [anyAttr]="String" LCID="lcid">string</displayName>
     <extension xmlns="http://schemas.microsoft.com/2006/09/sip/commontypes">

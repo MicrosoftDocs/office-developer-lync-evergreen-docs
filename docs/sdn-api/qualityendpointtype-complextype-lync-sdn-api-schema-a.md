@@ -44,7 +44,7 @@ dev_langs:
 
 ## Definition
 
-``` xml
+```xml
 <xs:complexType name="QualityEndPointType">
     <xs:sequence>
         <xs:element name="URI" type="xs:anyURI"></xs:element>

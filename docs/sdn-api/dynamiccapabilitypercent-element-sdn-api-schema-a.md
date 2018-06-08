@@ -45,7 +45,7 @@ Percentage of time that the client is running under capability of less than 70% 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="DynamicCapabilityPercent">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

@@ -45,7 +45,7 @@ UTC time when the report is processed.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="TimeStamp" type="xs:dateTime" minOccurs="0"></xs:element>
 ```
 

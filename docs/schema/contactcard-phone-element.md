@@ -17,7 +17,7 @@ dev_langs:
 
 Information about the contact’s phone, including the display name and email address.
 
-``` xml
+```xml
 <phone updated="DateTime" [[anyAttr]]="String" type="phoneTypeToken">    <uri updated="DateTime" [anyAttr]="String">TEL URI string</uri>    <displayString updated="DateTime" [anyAttr]="String" LCID="lcid">string</displayString>    <extension xmlns="http://schemas.microsoft.com/2006/09/sip/commontypes">        <[[any]] >custom element</[[any]]>    </extension>    <delimiter xmlns="http://schemas.microsoft.com/2006/09/sip/commontypes" />    <end xmlns="http://schemas.microsoft.com/2006/09/sip/commontypes" /></phone>
 ```
 

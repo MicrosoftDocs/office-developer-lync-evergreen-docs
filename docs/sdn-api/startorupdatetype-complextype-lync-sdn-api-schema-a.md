@@ -43,7 +43,7 @@ dev_langs:
 
 ## Definition
 
-``` xml
+```xml
 <xs:complexType name="StartOrUpdateType">
     <xs:sequence>
         <xs:element name="EndPoint" type="EndPointType" minOccurs="0" maxOccurs="2"></xs:element>

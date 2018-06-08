@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the device type where the presence state is published.
 
-``` xml
+```xml
 <st:device xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" >st:deviceTypeEnumEx </st:device>
 ```
 

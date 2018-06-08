@@ -17,7 +17,7 @@ dev_langs:
 
 The display of a phone number of a contact.
 
-``` xml
+```xml
 <displayString updated="DateTime" [anyAttr]="String" LCID="lcid">string</displayString>
 ```
 

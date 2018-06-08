@@ -45,7 +45,7 @@ Indicates that this endpoint is of the Lync Room System type or not, when the se
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="EPType" type="xs:string" minOccurs="0"></xs:element>
 ```
 

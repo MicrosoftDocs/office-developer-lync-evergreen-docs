@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the offset in minutes from UTC of the local time zone where the presence state is published.
 
-``` xml
+```xml
 <st:timeZoneName xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" >xs:long</st:timeZoneName>
 ```
 

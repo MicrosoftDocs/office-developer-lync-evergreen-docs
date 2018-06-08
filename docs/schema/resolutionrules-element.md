@@ -17,7 +17,7 @@ dev_langs:
 
 Contains a list of resolution rules that can be applied to a member when its occurrence constraints are violated.
 
-``` xml
+```xml
 <resolutionRules>
    <resolutionRule>...</resolutionRule>
 </resolutionRules>

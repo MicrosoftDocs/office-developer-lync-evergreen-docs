@@ -17,7 +17,7 @@ dev_langs:
 
 Holds a personal or Out of Office message as a presence note.
 
-``` xml
+```xml
 <body xmlns="http://schemas.microsoft.com/2006/09/sip/note"
       uri="uri"
       type="noteTypeEnumEx" 

@@ -17,7 +17,7 @@ dev_langs:
 
 The zip/postal code of a contact’s address.
 
-``` xml
+```xml
     <zipcode updated="DateTime" [anyAttr]="string" LCID="lcid">string</zipcode>
 ```
 

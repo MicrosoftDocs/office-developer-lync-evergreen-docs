@@ -17,7 +17,7 @@ dev_langs:
 
 The country code in a contact’s address.
 
-``` xml
+```xml
 <countryCode>country code token</countryCode>
 ```
 

@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the abstract base type of any presence state category instance value.
 
-``` xml
+```xml
 <st:state xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" 
        manual="xs:boolean" 
        startTime="xs:dateTime" 

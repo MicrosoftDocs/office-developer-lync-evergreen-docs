@@ -45,7 +45,7 @@ Received noise level in units of dB that is reported for audio streams when avai
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RecvNoiseLevel" type="xs:string"></xs:element>
 ```
 

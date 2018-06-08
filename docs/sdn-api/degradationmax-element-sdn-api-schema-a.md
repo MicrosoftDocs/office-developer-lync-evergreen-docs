@@ -45,7 +45,7 @@ Maximum degradation as the difference between the OverallMin and the maximum pos
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="DegradationMax" type="xs:string"></xs:element>
 ```
 

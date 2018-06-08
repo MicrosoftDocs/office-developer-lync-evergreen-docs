@@ -45,7 +45,7 @@ Connection-related properties regardless of the media stream and end points.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="ConnectionInfo">
     <xs:complexType>
         <xs:sequence>

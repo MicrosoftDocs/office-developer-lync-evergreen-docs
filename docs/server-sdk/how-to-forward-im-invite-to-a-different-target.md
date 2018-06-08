@@ -29,7 +29,7 @@ The following Microsoft SIP Processing Language (MSPL) script shows how to forwa
 
 
 
-``` xml
+```xml
 <?xml version="1.0"?>
 <r:applicationManifest
    r:appUri="http://www.contoso.com/ForwardInvite"

@@ -1,5 +1,5 @@
 ﻿---
-title: AudioTimestampErrorSpkMs element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+title: AudioTimestampErrorSpkMs element (Lync SDN Interface 2.1.1)
 TOCTitle: AudioTimestampErrorSpkMs element
 ms:assetid: ce1eef60-47b0-575e-c8d6-f9cd290fa3d5
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912675(v=office.15)
@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# AudioTimestampErrorSpkMs element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# AudioTimestampErrorSpkMs element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average error of speech render stream time stamp, in milliseconds, or the last 20 seconds of the call.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="AudioTimestampErrorSpkMs" >
     

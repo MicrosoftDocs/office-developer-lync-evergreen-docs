@@ -45,7 +45,7 @@ Properties of the media stream, including a selected set of quality metrics repo
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Properties">
     <xs:complexType>
         <xs:sequence maxOccurs="unbounded">

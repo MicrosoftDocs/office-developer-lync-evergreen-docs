@@ -46,7 +46,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="MaxBandwidth"  type="xs:string" minOccurs="0">
     

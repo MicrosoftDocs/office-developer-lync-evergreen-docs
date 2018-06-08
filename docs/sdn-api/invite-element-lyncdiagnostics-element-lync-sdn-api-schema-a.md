@@ -45,7 +45,7 @@ Event that an endpoint attempts to esablish a call. LDL will include this elemen
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Invite" type="InviteType" minOccurs="0"></xs:element>
 ```
 

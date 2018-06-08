@@ -1,5 +1,5 @@
 ﻿---
-title: BurstGapDensity element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+title: BurstGapDensity element (Lync SDN Interface 2.1.1)
 TOCTitle: BurstGapDensity element
 ms:assetid: aafb7bf5-952d-3e35-169c-e6a21cca30ff
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912681(v=office.15)
@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# BurstGapDensity element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# BurstGapDensity element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average burst gap density, as specified in \[RFC3611\] section 4.7.2, computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="BurstGapDensity" >
     

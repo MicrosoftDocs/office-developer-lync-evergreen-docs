@@ -45,7 +45,7 @@ Burst density in the processing time for remote desktop protocol (RDP) tiles. A 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RDPTileProcessingLatencyBurstDensity">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

@@ -45,7 +45,7 @@ Error event that a SIP call has failed and all active media streams for the corr
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Error" minOccurs="0" maxOccurs="unbounded">
     <xs:complexType>
         <xs:sequence>

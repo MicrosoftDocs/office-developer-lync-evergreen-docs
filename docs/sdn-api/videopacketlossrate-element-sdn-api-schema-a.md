@@ -44,7 +44,7 @@ Average fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="VideoPacketLossRate">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

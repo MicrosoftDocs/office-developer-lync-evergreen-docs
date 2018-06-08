@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a membership scope in a container used for grammar-based publication.
 
-``` xml
+```xml
 <member type="memberTypeEnumEx" 
         role="roleTypeEnumEx" 
         uri="xs:anyURI" 

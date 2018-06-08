@@ -1,5 +1,5 @@
 ﻿---
-title: AudioTimestampErrorMicMs element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+title: AudioTimestampErrorMicMs element  (Lync SDN Interface 2.1.1)
 TOCTitle: AudioTimestampErrorMicMs element
 ms:assetid: bc9c576f-3337-4ac7-58a9-0669094843b9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912668(v=office.15)
@@ -10,15 +10,12 @@ dev_langs:
 - xml
 ---
 
-# AudioTimestampErrorMicMs element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# AudioTimestampErrorMicMs element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Speaking device clock drift rate, relative to CPU clock. Average error of microphone-captured-stream time stamp, in milliseconds, for the last 20 seconds of a call.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +43,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="AudioTimestampErrorMicMs" >
     

@@ -17,7 +17,7 @@ dev_langs:
 
 The description about the contact.
 
-``` xml
+```xml
 <description>a string less than 1024 characters long</description>
 ```
 

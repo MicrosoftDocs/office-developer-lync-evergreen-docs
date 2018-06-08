@@ -46,7 +46,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="ResponsePhrase"  type="xs:string" minOccurs="0">
     

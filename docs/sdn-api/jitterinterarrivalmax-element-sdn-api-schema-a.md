@@ -45,7 +45,7 @@ Maximum inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This me
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="JitterInterArrivalMax" type="xs:string"></xs:element>
 ```
 

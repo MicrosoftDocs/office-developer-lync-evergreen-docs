@@ -17,7 +17,7 @@ dev_langs:
 
 Contains the currently selected privacy mode.
 
-``` xml
+```xml
 <privacyModeUserSelection>privacyModeUserSelectionEnumEx</privacyModeUserSelection>
 ```
 

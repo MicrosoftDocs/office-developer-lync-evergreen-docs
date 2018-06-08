@@ -45,7 +45,7 @@ Average fraction of frames lost on the video receiver side as computed over the 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="VideoFrameLossRate"></xs:element>
 ```
 

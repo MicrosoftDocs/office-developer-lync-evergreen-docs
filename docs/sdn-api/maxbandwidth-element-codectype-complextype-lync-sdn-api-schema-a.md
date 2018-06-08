@@ -46,7 +46,7 @@ Upper limit of the estimated bandwidth.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="MaxBandwidth" type="xs:string" minOccurs="0"></xs:element>
 ```
 

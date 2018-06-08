@@ -45,7 +45,7 @@ Denotes then time when the conversation ended. It is provided only in QualityUpd
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="EndTime" type="xs:dateTime" minOccurs="0"></xs:element>
 ```
 

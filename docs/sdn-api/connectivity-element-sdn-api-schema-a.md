@@ -46,7 +46,7 @@ Denotes whether the call is internal or external through the edge server. It is 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Connectivity" type="xs:string" minOccurs="0"></xs:element>
 ```
 

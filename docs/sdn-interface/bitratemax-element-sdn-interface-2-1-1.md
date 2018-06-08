@@ -1,5 +1,5 @@
 ﻿---
-title: BitRateMax element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+title: BitRateMax element (Lync SDN Interface 2.1.1)
 TOCTitle: BitRateMax element
 ms:assetid: 92cc02f1-7c23-81ee-7e0a-1736b026a424
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912672(v=office.15)
@@ -10,15 +10,12 @@ dev_langs:
 - xml
 ---
 
-# BitRateMax element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# BitRateMax element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Maximum bit rate, in bits per second, sent or received for a video stream and computed over the duration of the session. This metric is reported for video streams when available. (bits/s)
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +43,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="BitRateMax"  type="xs:string">
     

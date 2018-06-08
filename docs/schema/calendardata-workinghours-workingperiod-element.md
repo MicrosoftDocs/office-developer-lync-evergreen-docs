@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a work period of a given contact.
 
-``` xml
+```xml
 <WorkingPeriod>
     <StartTimeInMinutes>Start time of this working period</StartTimeInMinutes>
     <EndTimeInMinutes>End time of this working period</EndTimeInMinutes>
@@ -100,7 +100,7 @@ None
 
 The following XML code snippet shows a working period:
 
-``` xml
+```xml
       <WorkingPeriod>
         <DayOfWeek>Monday Tuesday Wednesday Thursday Friday</DayOfWeek>
         <StartTimeInMinutes>480</StartTimeInMinutes>

@@ -45,7 +45,7 @@ Source of the media stream.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="From" type="EndPointType" minOccurs="0"></xs:element>
 ```
 

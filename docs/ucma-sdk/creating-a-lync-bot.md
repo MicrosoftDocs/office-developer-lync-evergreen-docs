@@ -120,7 +120,7 @@ When you develop a generic bot (see [Creating a generic bot](creating-a-generic-
 
 3.  Create a configuration (config) file as shown here and use it to get the application urn and application user agent. Notice that the config file has a *startup* element that enables your UCMA 4.0 application to consume the UCMA v2.0 SDK.
     
-    ``` xml
+    ```xml
     <?xml version="1.0"?>
     <configuration>
       <startup useLegacyV2RuntimeActivationPolicy="true">

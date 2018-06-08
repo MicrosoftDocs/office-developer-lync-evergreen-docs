@@ -45,7 +45,7 @@ Percentage of the duration of a call that is using the VGA resolution. This metr
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="VGAQualityRatio"></xs:element>
 ```
 

@@ -45,7 +45,7 @@ Displays the limits applied. It is provided only in QualityUpdate events when Ca
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="AppliedBandwidthLimit" type="xs:unsignedInt" minOccurs="0"></xs:element>
 ```
 

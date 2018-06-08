@@ -45,7 +45,7 @@ Indicates if the source is registered within the enterprise (True) or not (False
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Inside" type="xs:string" minOccurs="0"></xs:element>
 ```
 

@@ -46,7 +46,7 @@ SIP URI of the user signed in via the endpoint as extracted from the SIP header.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="URI" type="xs:anyURI"></xs:element>
 ```
 

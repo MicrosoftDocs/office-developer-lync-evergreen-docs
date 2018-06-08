@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies an entry in the role-based precedence hierarchy.
 
-``` xml
+```xml
 <rolePrecedenceEntry type="roleTypeEnumEx" [anyAttribute]="anyValue">
    <ct:extension xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes" >...</ct:extension>
    <ct:delimiter xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes"/>

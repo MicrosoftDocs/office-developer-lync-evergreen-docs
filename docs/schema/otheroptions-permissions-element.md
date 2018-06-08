@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the permissions configuration in Microsoft Lync 2013.
 
-``` xml
+```xml
 <permissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="http://schemas.microsoft.com/2006/09/sip/options/otherOptions">

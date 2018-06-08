@@ -25,7 +25,7 @@ By default there are two publication grammars: one for the open-mode presence pu
 
 A container manifest is described by an XML element of \<[containerManifestList element](containermanifestlist-element.md)\>. It has the following high-level structure.
 
-``` xml
+```xml
 <provisionGroup name="publicationGrammar">
    <containerManifestList>
       <containerManifest>
@@ -42,7 +42,7 @@ The [containers element](containers-element.md) element declares what containers
 
 A category publication manifest is described by [categoryPublicationManifest element](categorypublicationmanifest-element.md) and it has the following high-level structure.
 
-``` xml
+```xml
 <categoryPublicationManifest>
    <publicationList>
       <publicationRule>...</publicationRule>

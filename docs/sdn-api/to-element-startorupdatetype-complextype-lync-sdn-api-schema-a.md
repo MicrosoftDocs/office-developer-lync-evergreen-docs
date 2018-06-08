@@ -45,7 +45,7 @@ Destination of the media stream.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="To" type="EndPointType" minOccurs="0"></xs:element>
 ```
 

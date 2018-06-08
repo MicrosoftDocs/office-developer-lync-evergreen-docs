@@ -17,7 +17,7 @@ dev_langs:
 
 Information about the contact’s phone, including the display name and email address.
 
-``` xml
+```xml
 <photo xmlns="http://schemas.microsoft.com/2006/09/sip/contactCard"
     updated="DateTime" [anyAttr]="String" type="token">
     <uri updated="DateTime" [anyAttr]="String">URI to the photo</uri>
@@ -154,7 +154,7 @@ There can be at most one sequence of version-dependent schema extensions that ar
 
 The following XML code snippet shows a contactCard category instance containing a contact’s work phone information, in addition to the company name, professional title and office location.
 
-``` xml
+```xml
 ```
 
 ## Element information

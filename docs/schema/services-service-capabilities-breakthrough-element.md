@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the presence capability for a presentity to break through.
 
-``` xml
+```xml
 <capabilities uri="uri" preferred="boolean" [anyAttr]="anyattr" 
               xmlns="http://schemas.microsoft.com/2006/09/sip/service">
      <breakthrough 

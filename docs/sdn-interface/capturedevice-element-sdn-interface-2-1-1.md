@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# CaptureDevice element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# CaptureDevice element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 The name of a capture device used to produce the media of this stream. This device is in the FROM endpoint and usually represents a microphone.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="CaptureDevice" >
     

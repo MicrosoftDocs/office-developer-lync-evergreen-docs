@@ -45,7 +45,7 @@ Minimum of the SendListenMOS for the stream over the duration of the session. Th
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="SendListenMOSMin"></xs:element>
 ```
 

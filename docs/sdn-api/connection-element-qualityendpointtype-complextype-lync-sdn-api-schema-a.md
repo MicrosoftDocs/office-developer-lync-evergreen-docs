@@ -44,7 +44,7 @@ Connection type such as "wired" or "wireless".
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Connection" type="xs:string" minOccurs="0"></xs:element>
 ```
 

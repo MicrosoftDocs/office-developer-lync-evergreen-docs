@@ -17,7 +17,7 @@ dev_langs:
 
 The professional title of the contact.
 
-``` xml
+```xml
 <title>locale-specifiable and last update-trackable string</title>
 ```
 

@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the occurrence constraint of the specified member.
 
-``` xml
+```xml
 <occurrenceConstraint type="occurrenceConstraintTypeEnumEx" [anyAttribute]="anyValue">
    <ct:delimiter/>
    <[any]>

@@ -17,7 +17,7 @@ dev_langs:
 
 Contains the names of specific routing rules for call forwarding.
 
-``` xml
+```xml
 <ro:flags xmlns:ro="http://schemas.microsoft.com/2006/09/sip/routing"
     name="string" value="flag-values-list" />
 ```

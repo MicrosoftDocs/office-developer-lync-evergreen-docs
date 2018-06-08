@@ -45,7 +45,7 @@ Indicates whether the call was incoming to a mediation server or outgoing from t
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="MediationServerLegPosition" type="xs:string" minOccurs="0"></xs:element>
 ```
 

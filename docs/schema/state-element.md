@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies an enhanced presence user state category instance value.
 
-``` xml
+```xml
 <st:state xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" 
        type="userState"
        manual="xs:boolean" 

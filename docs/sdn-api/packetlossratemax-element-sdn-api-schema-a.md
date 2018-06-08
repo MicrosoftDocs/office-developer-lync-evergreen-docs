@@ -45,7 +45,7 @@ Maximum fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="PacketLossRateMax"></xs:element>
 ```
 

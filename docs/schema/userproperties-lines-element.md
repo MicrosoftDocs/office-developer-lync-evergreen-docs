@@ -17,7 +17,7 @@ dev_langs:
 
 Contains the description of the user controlled phones received via in-band provisioning from the server.
 
-``` xml
+```xml
 <up:lines xmlns:up="http://schemas.microsoft.com/2006/09/sip/categories" >
    <up:line>up:phoneLineType</up:line>
    ...
@@ -93,7 +93,7 @@ Microsoft Lync 2013 publishes the userProperties category instance to the Self c
 
 The following XML snippet shows a userProperties category instance value.
 
-``` xml
+```xml
 <userProperties xmlns="http://schemas.microsoft.com/2006/09/sip/categories">
    <lines>
       <line lineType="Uc">tel:+1421112222;ext=12222</line>

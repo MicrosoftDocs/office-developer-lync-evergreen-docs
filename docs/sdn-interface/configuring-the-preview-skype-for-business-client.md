@@ -79,7 +79,7 @@ If you are running the latest preview Lync Client with Lync Server 2013, you wil
     
     The literal contents of the ocapi\_test.config file are as follows:
     
-    ``` xml
+    ```xml
     <?xml version="1.0"?>
     <settings>
         <InCallQosEnabled>true</InCallQosEnabled>

@@ -46,7 +46,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Contact"  type="xs:anyURI" minOccurs="0">
     

@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the ending time of a work period.
 
-``` xml
+```xml
     <EndTimeInMinutes>End time of this working period</EndTimeInMinutes>
 ```
 
@@ -69,7 +69,7 @@ The element value is a number in minutes starting from 00:00 (midnight) of the l
 
 The following XML code snippet shows a working period:
 
-``` xml
+```xml
       <WorkingPeriod>
         <DayOfWeek>Monday Tuesday Wednesday Thursday Friday</DayOfWeek>
         <StartTimeInMinutes>480</StartTimeInMinutes>

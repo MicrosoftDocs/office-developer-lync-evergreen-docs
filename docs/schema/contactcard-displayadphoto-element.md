@@ -17,7 +17,7 @@ dev_langs:
 
 A Boolean flag to indicate whether to display contact photo stored in Active Directory (True) or from a custom photo store (False).
 
-``` xml
+```xml
 <displayADPhoto>Boolean</displayADPhoto>
 ```
 

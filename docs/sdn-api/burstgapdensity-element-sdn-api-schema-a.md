@@ -44,7 +44,7 @@ Average burst gap density, as specified in \[RFC3611\] section 4.7.2, computed w
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="BurstGapDensity"></xs:element>
 ```
 

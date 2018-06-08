@@ -45,7 +45,7 @@ Conversational clarity index for remote party, as described in \[ITUP.562\] sect
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="ConversationalMOS" type="xs:string"></xs:element>
 ```
 

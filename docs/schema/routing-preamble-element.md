@@ -17,7 +17,7 @@ dev_langs:
 
 Contains specific routing rules to forward incoming calls.
 
-``` xml
+```xml
 <ro:preamble xmlns:ro="http://schemas.microsoft.com/2006/09/sip/routing">
     <ro:flags>...</ro:flags>
     <ro:wait>...</ro:wait>

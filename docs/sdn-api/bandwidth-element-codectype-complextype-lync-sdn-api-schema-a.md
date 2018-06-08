@@ -44,7 +44,7 @@ Lower limit of the estimated bandwidth.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Bandwidth" type="xs:string" minOccurs="0"></xs:element>
 ```
 

@@ -1,5 +1,5 @@
 ﻿---
-title: AppliedBandwidthLimit element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+title: AppliedBandwidthLimit element  (Lync SDN Interface 2.1.1)
 TOCTitle: AppliedBandwidthLimit element
 ms:assetid: c49466ac-4861-758c-78bb-15df1e44b4e2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912669(v=office.15)
@@ -10,15 +10,12 @@ dev_langs:
 - xml
 ---
 
-# AppliedBandwidthLimit element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# AppliedBandwidthLimit element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 This is the actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, and so on). This is not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+  
 
 ## Element information
 
@@ -46,7 +43,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="AppliedBandwidthLimit"  type="xs:unsignedInt" minOccurs="0">
     

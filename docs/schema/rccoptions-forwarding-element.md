@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies where and how to forward calls from the PBX phone.
 
-``` xml
+```xml
 <forwarding xmlns="http://schemas.microsoft.com/2006/09/sip/options/rccOptions">
    <mode>...</mode>
    <toPhoneType>...</toPhoneType>

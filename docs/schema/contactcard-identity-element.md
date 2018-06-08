@@ -17,7 +17,7 @@ dev_langs:
 
 The identity of the contact, including the display name and email address.
 
-``` xml
+```xml
 <identity updated="DateTime" [anyAttr]="String">
     <name updated="DateTime" [anyAttr]="String">
         <displayName updated="DateTime" [anyAttr]="String"

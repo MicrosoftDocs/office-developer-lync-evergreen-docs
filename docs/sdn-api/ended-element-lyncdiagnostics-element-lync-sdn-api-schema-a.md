@@ -45,7 +45,7 @@ Event that a Sip call has ended and all media stream terminated.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="Ended" maxOccurs="unbounded" minOccurs="0">
     <xs:complexType>
         <xs:sequence>

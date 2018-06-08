@@ -20,7 +20,7 @@ Specifies whether to display alerts to the user when someone adds the user to hi
 [alerts category instance value element](alerts-category-instance-value-element.md)  
   notifyAdditionToContactList Element  
 
-``` xml
+```xml
 <al:notifyAdditionToContactList
     xmlns:al="http://schemas.microsoft.com/2006/sip/alerts">boolean</al:notifyAdditionToContactList>
 ```

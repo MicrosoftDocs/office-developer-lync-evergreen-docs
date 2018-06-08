@@ -45,7 +45,7 @@ Difference between the OverallAvg value and the maximum possible MOS-LQO for the
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="DegradationAvg">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

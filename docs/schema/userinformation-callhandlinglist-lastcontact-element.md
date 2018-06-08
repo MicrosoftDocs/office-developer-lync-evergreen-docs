@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the contact that handled the last call.
 
-``` xml
+```xml
 <ui:lastContact xmlns:ui="http://schemas.microsoft.com/2006/09/sip/options/userInformation" >
    <ui:displayString>xs:token</ui:displayString>
    <ui:uri>xs:anyURI</ui:uri>
@@ -94,7 +94,7 @@ None
 
 The following XML snippet shows a userInformation category instance value containing two types (work and mobile) of phone numbers
 
-``` xml
+```xml
 <userInformation xmlns="http://schemas.microsoft.com/2006/09/sip/options/userInformation">
     <callHandlingList>
        <lastPhone>

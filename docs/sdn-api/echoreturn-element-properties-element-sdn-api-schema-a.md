@@ -45,7 +45,7 @@ Echo returns reported for audio streams, when available.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="EchoReturn"></xs:element>
 ```
 

@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the type of target to forward calls from the PBX phone.
 
-``` xml
+```xml
 <toPhoneType xmlns="http://schemas.microsoft.com/2006/09/sip/options/rccOptions">
 a phoneTypeEnumEx value
 </toPhoneType>

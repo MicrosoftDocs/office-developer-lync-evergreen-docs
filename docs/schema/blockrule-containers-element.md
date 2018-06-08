@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a list of containers to which a [blockRule element](blockrule-element.md) instance applies.
 
-``` xml
+```xml
 <allowedContainers type="containerIdType" [anyAttribute]="anyValue">
    <container>...</container>
 </ allowedContainers >

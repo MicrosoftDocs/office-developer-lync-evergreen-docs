@@ -45,7 +45,7 @@ Raw Session Description Protocol (SDP) data that is included as the payload of t
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RawSDP" type="xs:string" minOccurs="0"></xs:element>
 ```
 

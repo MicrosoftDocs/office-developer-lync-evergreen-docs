@@ -45,7 +45,7 @@ Average percentage of video frames lost as they are displayed to the user, inclu
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="LocalFrameLossPercentageAvg" type="xs:string"></xs:element>
 ```
 

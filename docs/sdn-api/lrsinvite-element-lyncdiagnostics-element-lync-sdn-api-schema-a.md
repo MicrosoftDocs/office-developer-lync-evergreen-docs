@@ -45,7 +45,7 @@ Event that a Lync Room System (LRS) endpoint (i.e., a Lync meeting room) attempt
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="LRSInvite"></xs:element>
 ```
 

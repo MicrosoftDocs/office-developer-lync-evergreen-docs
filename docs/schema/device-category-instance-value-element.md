@@ -17,7 +17,7 @@ dev_langs:
 
 Contains the information of the device, including the supported presence capabilities, with which the user logs in to Microsoft Lync Server 2013.
 
-``` xml
+```xml
 <device xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="http://schemas.microsoft.com/2006/09/sip/device"

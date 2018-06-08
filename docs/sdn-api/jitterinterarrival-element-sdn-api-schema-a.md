@@ -45,7 +45,7 @@ Average inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This me
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="JitterInterArrival">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

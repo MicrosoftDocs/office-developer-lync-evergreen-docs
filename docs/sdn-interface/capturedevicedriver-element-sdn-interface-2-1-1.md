@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# CaptureDeviceDriver element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# CaptureDeviceDriver element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Device driver name and version of the capture device used to produce the media of this stream
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
@@ -46,7 +42,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="CaptureDeviceDriver" >
     

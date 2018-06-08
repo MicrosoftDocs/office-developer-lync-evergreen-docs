@@ -19,7 +19,7 @@ You can edit the SDNManager.exe.config file to configure LSM. The SDNManager.exe
 
 The following example shows an example from the \<appSettings\> section in the configuration file that contains the necessary configuration settings:
 
-``` xml
+```xml
 <add key="mode" value="Database" />
 <add key="statedbserver" value="localhost" />
 <add key="statedbusername" value="" />

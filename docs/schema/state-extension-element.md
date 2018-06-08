@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies an application-specific extension to a presence state element.
 
-``` xml
+```xml
 <st:extension xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" >
    <[any]>any element</[any]>
 </st:extension>

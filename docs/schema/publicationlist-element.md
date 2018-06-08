@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a list of publication rules comprising a publication grammar for enhanced presence category instances.
 
-``` xml
+```xml
   <publicationList [anyAttribute]="anyType">
      <publicationRule 
           rulType="ruleTypeEnumEx" 

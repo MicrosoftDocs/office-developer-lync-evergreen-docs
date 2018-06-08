@@ -40,7 +40,7 @@ The following code example shows how the media configuration might be parsed by 
 
 The following example output is generated when the previous code statements are invoked.
 
-``` xml
+```xml
 LocationPolicyConfiguration:
 ElementXml = 
          <property name="EnhancedEmergencyServicesEnabled" xmlns="http://schemas.microsoft.com/2006/09/sip/provisiongrouplist-notification">false</property>

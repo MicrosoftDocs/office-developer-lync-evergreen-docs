@@ -45,7 +45,7 @@ Endpoint involved in the ended SIP call.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="EndPoint" type="EndPointType" maxOccurs="unbounded"></xs:element>
 ```
 

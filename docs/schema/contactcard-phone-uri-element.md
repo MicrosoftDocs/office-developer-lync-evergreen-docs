@@ -17,7 +17,7 @@ dev_langs:
 
 The TEL URI of a contact’s phone.
 
-``` xml
+```xml
 <uri updated="DateTime" [anyAttr]="String">TEL URI string</uri>
 ```
 

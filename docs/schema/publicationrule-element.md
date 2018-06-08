@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies a list of publication rules comprising a publication grammar for enhanced presence category instances.
 
-``` xml
+```xml
      <publicationRule 
           rulType="ruleTypeEnumEx" 
           categoryName="xs:string"
@@ -182,7 +182,7 @@ None
 
 The following example shows the publication rules for publishing note category instances used by Lync 2013.
 
-``` xml
+```xml
 <categoryPublicationManifest 
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
      xmlns:xsd="http://www.w3.org/2001/XMLSchema" 

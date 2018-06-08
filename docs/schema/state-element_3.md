@@ -16,7 +16,7 @@ dev_langs:
 
 Specifies an enhanced presence state category instance value according to the user’s calendar.
 
-``` xml
+```xml
 <st:state xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" 
           xmlns:ct="http://schemas.microsoft.com/2006/09/sip/commontypes"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

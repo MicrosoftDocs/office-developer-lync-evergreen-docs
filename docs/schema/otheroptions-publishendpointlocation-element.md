@@ -17,7 +17,7 @@ dev_langs:
 
 Contains a Boolean flag showing whether to publish the endpoint location or not.
 
-``` xml
+```xml
 <publishEndpointLocation>xs:boolean</publishEndpointLocation>
 ```
 

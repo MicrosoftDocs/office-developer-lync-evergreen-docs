@@ -45,7 +45,7 @@ Indicates if the user is on VPN (True) or not (False).
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="VPN" type="xs:string" minOccurs="0"></xs:element>
 ```
 

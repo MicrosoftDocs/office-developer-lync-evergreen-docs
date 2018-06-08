@@ -45,7 +45,7 @@ Average network propagation round-trip time as specified in \[RFC3550\] section 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RoundTrip">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

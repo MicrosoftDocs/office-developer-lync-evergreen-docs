@@ -45,7 +45,7 @@ Percentage of time of the call where frame rate is less than 7.5 frames per seco
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="LowFrameRateCallPercent">
     <xs:attribute name="Limit" type="xs:decimal" use="optional" />
 </xs:element>

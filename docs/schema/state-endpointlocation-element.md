@@ -17,7 +17,7 @@ dev_langs:
 
 Specifies the location of an endpoint.
 
-``` xml
+```xml
 <st:endpointLocation xmlns:st="http://schemas.microsoft.com/2006/09/sip/state" >st:endpointLocationEnumEx</st:endpointLocation> 
 ```
 

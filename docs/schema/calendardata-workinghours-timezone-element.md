@@ -17,7 +17,7 @@ dev_langs:
 
 Holds the user’s local time zone information.
 
-``` xml
+```xml
     <TimeZone>
       <Bias>480</Bias>
       <DaylightTime>...</DaylightTime>
@@ -100,7 +100,7 @@ None
 
 The following XML code snippet shows the US Pacific time zone information in a working-hours specification:
 
-``` xml
+```xml
     <TimeZone>
       <Bias>480</Bias>
       <StandardTime>

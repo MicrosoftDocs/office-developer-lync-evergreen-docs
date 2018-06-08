@@ -45,7 +45,7 @@ Port number of the relay.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="RelayPort" minOccurs="0"></xs:element>
 ```
 

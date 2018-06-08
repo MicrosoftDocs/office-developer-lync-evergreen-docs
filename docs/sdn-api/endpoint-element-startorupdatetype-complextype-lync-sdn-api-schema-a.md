@@ -45,7 +45,7 @@ Endpoint while the call is on-hold.
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="EndPoint" type="EndPointType" minOccurs="0" maxOccurs="2"></xs:element>
 ```
 

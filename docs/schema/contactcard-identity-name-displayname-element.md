@@ -17,7 +17,7 @@ dev_langs:
 
 The display name of the contact.
 
-``` xml
+```xml
 <displayName updated="DateTime" [anyAttr]="String"
     LCID="lcid">string</displayName>
 ```

@@ -44,7 +44,7 @@ Average burst gap duration, as specified in \[RFC3611\] section 4.7.2, computed 
 
 ## Definition
 
-``` xml
+```xml
 <xs:element name="BurstGapDuration" type="xs:string"></xs:element>
 ```
 

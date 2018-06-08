@@ -17,7 +17,7 @@ dev_langs:
 
 Holds a Message Waiting Indictor (MWI) instance that is provisioned from Microsoft Exchange Server 2010.
 
-``` xml
+```xml
 <mwi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="http://schemas.microsoft.com/2006/09/sip/mwi"
@@ -142,7 +142,7 @@ Exchange only sends MWI notifications to user accounts that are configured to us
 
 The following XML code example shows a mwi category instance that specifies that the local user’s Outlook Inbox holds 10 voice mails, two of which have not been heard.
 
-``` xml
+```xml
 <nt:mwi xmlns:nt="http://schemas.microsoft.com/2006/09/sip/mwi"
    messageWaiting=”true” unreadVoiceMailCount=”8” readVoiceMailCount=”2”>
 </nt:mwi>
