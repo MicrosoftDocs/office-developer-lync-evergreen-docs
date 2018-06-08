@@ -144,7 +144,7 @@ Notable ContactList control public properties and events relating to unified com
 
 The following example can be used for Silverlight and WPF application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ContactList Height="180" Width="500"/>
 </StackPanel>

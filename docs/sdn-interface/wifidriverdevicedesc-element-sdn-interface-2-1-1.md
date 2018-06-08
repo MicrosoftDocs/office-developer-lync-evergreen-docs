@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# WifiDriverDeviceDesc element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# WifiDriverDeviceDesc element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Wifi Driver Device description.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

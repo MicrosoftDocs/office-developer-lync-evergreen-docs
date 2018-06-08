@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Virtualization element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# Virtualization element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Type of virtualization used.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

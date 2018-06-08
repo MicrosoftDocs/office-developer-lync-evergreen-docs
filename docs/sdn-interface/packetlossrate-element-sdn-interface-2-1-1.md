@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# PacketLossRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# PacketLossRate element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average fraction lost computed over the duration of the session, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all available modalities and media types. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

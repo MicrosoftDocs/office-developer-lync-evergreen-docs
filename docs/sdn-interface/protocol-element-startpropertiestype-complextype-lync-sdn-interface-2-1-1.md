@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Protocol element (StartPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# Protocol element (StartPropertiesType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Transmission protocol of the media stream such as TCP or UDP.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

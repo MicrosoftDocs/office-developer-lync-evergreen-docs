@@ -79,7 +79,7 @@ Contacts and groups are available when the user is signed in to Lync 2013. Read 
     
     The following example gets a group based on a group name and then moves a contact from a source group to the target group.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Moves a contact from the selected group to a custom group whose
             /// name matches 
@@ -117,7 +117,7 @@ Contacts and groups are available when the user is signed in to Lync 2013. Read 
     
     The following example gets a group based on a group name and then moves a contact from a source group to the target group.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Copies a selected contact to a group specified by a group name string
             /// </summary>
@@ -140,7 +140,7 @@ Contacts and groups are available when the user is signed in to Lync 2013. Read 
 
 The following example declares a WPF window that presents a list of groups from a user’s contact list, a list of contacts in a selected group, and controls that give you the ability to move a contact from one group to another.
 
-``` xaml
+```xaml
 <Window x:Class="ContactMover.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -167,7 +167,7 @@ The following example declares a WPF window that presents a list of groups from 
 
 The following example is the interaction logic for the previously declared WPF window.
 
-``` csharp
+```csharp
  using System.Windows;
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Group;

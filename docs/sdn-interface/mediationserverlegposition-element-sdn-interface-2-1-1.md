@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# MediationServerLegPosition element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# MediationServerLegPosition element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It is provided only in QualityUpdate events.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

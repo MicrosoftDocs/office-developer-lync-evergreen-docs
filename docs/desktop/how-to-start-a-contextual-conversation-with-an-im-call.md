@@ -61,7 +61,7 @@ The following procedure works for Silverlight and WPF applications.
     
     Note that the empty braces in the [ApplicationId](http://go.microsoft.com/fwlink/?linkid=207179%26clcid=0x409) property escape the following ‘{’.
     
-    ``` xaml
+    ```xaml
     <StackPanel>
       <StackPanel.Resources>
         <controls:ConversationContextualInfo 

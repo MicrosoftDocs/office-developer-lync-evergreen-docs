@@ -123,7 +123,7 @@ The following example registers an event callback method on the [ApplicationShar
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised the conversation application sharing state changes.
         /// </summary>
@@ -166,7 +166,7 @@ The following example registers an event callback method on the [ApplicationShar
 
 The following example handles the **ControlRequestReceived** event by updating the Form UI with the name of the participant who is requesting control. A [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object representing the requesting participant is cached in the class field **\_resourceControllingContact**. This **Contact** is used in the **Accept** button click event handler to get the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object owned by the requesting participant.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when a conversation participant requests control of a locally owned resource.
         /// These requests always go to the resource owner, and not the current controller of the resource.
@@ -190,7 +190,7 @@ The following example handles the **ControlRequestReceived** event by updating t
 
 The following example calls the **ApplicationSharingModalityBeginAcceptControlRequest(AsyncCallback, object)** method to accept a resource control request after the user chooses to accept the request.
 
-``` csharp
+```csharp
        /// <summary>
        ///Accept another participants request to control locally owned and shared resource.
        ///The Accept button is enabled when the _sharingModality_ActionAvailabilityChanged event handler is called
@@ -216,7 +216,7 @@ The following example calls the **ApplicationSharingModalityBeginAcceptControlRe
 
 The following example declines a resource control request after the user chooses to decline the request. Decline the control request by calling the **ApplicationSharingModalityBeginDeclineControlRequest(AsyncCallback, object)** method on the requesting participant’s application sharing modality.
 
-``` csharp
+```csharp
         /// <summary>
         ///Decline another participants request to control locally owned and shared resource.
         ///The Decline button is enabled when the _sharingModality_ActionAvailabilityChanged event handler is
@@ -239,7 +239,7 @@ The following example declines a resource control request after the user chooses
 
 The following example is invoked by the platform thread when the previous asynchronous control request actions are completed.
 
-``` csharp
+```csharp
         /// <summary>
         /// Callback method for all asynchronous modality control methods.
         /// </summary>
@@ -275,7 +275,7 @@ After the user has accepted or declined another conversation participant’s req
 
 The following example updates the Form UI with the name of the participant who is controlling the locally shared resource.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when the participant that is controlling the shared conversation application resource
         /// changes. This event is raised locally even when the shared resource is not locally owned.

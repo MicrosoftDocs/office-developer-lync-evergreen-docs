@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Currently, neither LDL nor LSM supports multiple parallel installations. Please expect downtime of the Lync SDN Interface service during the upgrade, although in some cases it can be minimized. However, there is no downtime for the Lync service required for upgrading Lync SDN Interface. Regardless, please perform upgrades only during off-hours and with minimal load on all components. Generally, it is recommended that you perform the upgrade in multiple steps. The following process assumes you want the service to remain active as long as possible.
 
-## Upgrading from version 2.1 to 2.1.1
+## Upgrade from version 2.1 to 2.1.1
 
 Lync DialogListener 2.1 clients are compatible with LyncSDNManager 2.1.1. The database structure is basically compatible, although older version 2.1 LSM nodes may have issues interpreting some changes in the content once version 2.1.1 LSMs have written to it.
 
@@ -31,7 +31,7 @@ Lync DialogListener 2.1 clients are compatible with LyncSDNManager 2.1.1. The da
 
 6.  Install the LDL 2.1.1 component. Executing the registration script is not needed and therefore using the msiexec’s commandline option SKIPREGISTRATION=1 is recommended. In this case, the service needs to be started manually. (See more details in [Unattended installation of LSM](unattended-installation-of-lsm-and-ldl.md).)
 
-## Upgrading from version 2.0 to 2.1.1
+## Upgrade from version 2.0 to 2.1.1
 
 Neither the LDL nor the LSM components are compatible between 2.0 and 2.1.1. Consider using the newer LSM pool configuration in 2.1.1
 

@@ -161,7 +161,7 @@ The following example accepts two string parameters representing the URI of a us
 
 The contact setting, [ContactSetting](https://msdn.microsoft.com/en-us/library/jj267670\(v=office.15\)).**AccessLevel**, is set by calling into [Contact.BeginChangeSetting](https://msdn.microsoft.com/en-us/library/jj275533\(v=office.15\)) and passing both an enumerator for the property to be updated and an enumerator for the new property value.
 
-``` csharp
+```csharp
         /// <summary>
         /// Updates the privacy relationship of a contact specified by Uri
         /// </summary>

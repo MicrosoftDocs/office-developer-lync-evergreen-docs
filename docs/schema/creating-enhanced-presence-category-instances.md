@@ -52,7 +52,7 @@ In UCMA a generic category instance is represented by the PresenceCategoryWithMe
 
 The following code example shows how to create category instances for grammar-free publications. It is a method of the UcmaPublisher class that is introduced in [Preparing for category publications](preparing-for-category-publications.md).
 
-``` csharp
+```csharp
 public PresenceCategoryWithMetaData CreatePresenceCategoryInstance(
       string name, long instanceId, int containerId, string xmlValue)
 {
@@ -92,7 +92,7 @@ In grammar-based publications, specifications of the instance ID, container ID, 
 
 In Microsoft Unified Communications Managed API 4.0 instances of the [contactCard category instance value element](contactcard-category-instance-value-element.md), [note category instance value element](note-category-instance-value-element.md), [services category instance value element](services-category-instance-value-element.md) and [state category instance value elements](state-category-instance-value-elements.md) categories are further encapsulated by the more specific API classes of ContactCard, Note, Services and PresenceState. The following code example shows how to create such type-specific category instance in UCMA.
 
-``` csharp
+```csharp
 string _presenceNoteXml = null;
 
 Note pNoteXml = new Note("Personal note set by UcmaPublisher");

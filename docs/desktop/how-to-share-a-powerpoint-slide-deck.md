@@ -123,7 +123,7 @@ Before the logic in this topic runs in your application, a conversation must be 
 
 Add the following namespace declarations to your application.
 
-``` csharp
+```csharp
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Group;
 using Microsoft.Lync.Model.Conversation;
@@ -165,7 +165,7 @@ When the [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=o
 
 The following example finishes first three steps of the previous procedure. The fourth step is completed in a following code example.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when the availability of an action on the content sharing modality changes
         /// </summary>
@@ -228,7 +228,7 @@ The following example is invoked on the API platform thread when the **BeginCrea
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Called by platform when ShareableContent object is created. 
         /// Uploads the PowerPoint slide deck to the conversation content bin
@@ -276,7 +276,7 @@ The following example registers event callback methods on the new **SharingModal
 
 The following example enables or disables the content item sharing UI command buttons when the availability of actions on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object changes.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when the availability of an action on a ShareableContent object changes
         /// </summary>
@@ -333,7 +333,7 @@ To share a whiteboard, call the [ShareableContent.Present](https://msdn.microsof
 
 The following example presents the content item whose title is "Project Plan."
 
-``` csharp
+```csharp
             //Iterate on content collection of conversation content sharing modality,
             //looking for the content whose title matches the string selected in the
             //list.
@@ -390,7 +390,7 @@ Scrolling through an active PowerPoint presentation in a conversation involves m
 
 The following examples scroll backward and forward one slide in the active PowerPoint slide deck.
 
-``` csharp
+```csharp
         /// <summary>
         /// Scroll back one slide in the active PowerPoint slide deck.
         /// </summary>
@@ -504,7 +504,7 @@ Lync 2013 API conversation objects
 
 The following example declares the Windows Form shown in figure 1.
 
-``` csharp
+```csharp
 namespace ContentSharing
 {
     partial class ContentSharing_Form
@@ -1119,7 +1119,7 @@ namespace ContentSharing
 
 The following example is the interaction logic for the previous window declaration.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;

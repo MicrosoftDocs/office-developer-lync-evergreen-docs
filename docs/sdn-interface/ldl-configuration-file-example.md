@@ -12,12 +12,11 @@ dev_langs:
 
 # LDL configuration file example
 
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The following code sample is n example of the LDL configuration file.
 
-## A sample of LyncDialogListener.exe.config file
+## Sample of LyncDialogListener.exe.config file
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>

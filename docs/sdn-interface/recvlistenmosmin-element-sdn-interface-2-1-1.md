@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RecvListenMOSMin element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RecvListenMOSMin element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Minimum of the RecvListenMOS for the stream during the session. This metric is reported for audio streams when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

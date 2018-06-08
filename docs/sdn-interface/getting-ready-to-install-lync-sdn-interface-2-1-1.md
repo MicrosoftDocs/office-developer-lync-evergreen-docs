@@ -13,6 +13,8 @@ mtps_version: v=office.15
 
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
+## Prerequisites
+
 To ensure that the Lync SDN Interface 2.1.1 components are successfully installed and started, do the following before you run the installation packages:
 
 1.  Set up any required DNS records to define a round-robin fqdn pool or SRV records.
@@ -33,23 +35,19 @@ To ensure that the Lync SDN Interface 2.1.1 components are successfully installe
 
 
 > [!NOTE]
-> <P>You should install LSM, (run the LyncSDNManager.msi installer) on a separate application server to maximize the performance of the Lync Server Front End.</P>
+> You should install LSM, (run the LyncSDNManager.msi installer) on a separate application server to maximize the performance of the Lync Server Front End.
 
 
 
 ## In this section
 
-  - [Setting up DNS SRV record](setting-up-dns-srv-record.md)
-
-  - [Setting up SQL Server for SDNManager database](setting-up-sql-server-for-sdnmanager-database.md)
-
-  - [Installing certificates for the LDL, LSM and network controller](installing-certificates-for-the-ldl-lsm-and-network-controller.md)
-
-  - [Activating QoE recording](activating-qoe-recording.md)
+- [Setting up DNS SRV record](setting-up-dns-srv-record.md)
+- [Setting up SQL Server for SDNManager database](setting-up-sql-server-for-sdnmanager-database.md)
+- [Installing certificates for the LDL, LSM and network controller](installing-certificates-for-the-ldl-lsm-and-network-controller.md)
+- [Activating QoE recording](activating-qoe-recording.md)
 
 ## See also
 
-  - [Installing Lync SDN Interface 2.1.1](installing-lync-sdn-interface-2-1-1.md)
-
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+- [Installing Lync SDN Interface 2.1.1](installing-lync-sdn-interface-2-1-1.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

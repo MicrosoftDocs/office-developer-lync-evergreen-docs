@@ -170,7 +170,7 @@ The following table describes how to launch an application with a given **Extens
 
 To retrieve the *%user-id%* and *%contact-id%* arguments, add code to the application launched by the custom command.
 
-``` csharp
+```csharp
 static void Main(string[] args)
 {
   if (null == args || args.Length == 0)

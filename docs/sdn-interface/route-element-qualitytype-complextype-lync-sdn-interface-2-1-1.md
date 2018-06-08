@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Route element (QualityType complexType) (Lync SDN Interface 2.1.1)
+# Route element (QualityType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Network path of the media stream only provided in Lync 2013 and when the traceRoute feature is activated in Lync.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -63,7 +63,7 @@ To add Lync Controls to an existing WPF application, add project references for 
 
 3.  On the appropriate XAML page, add the following XAML text to declare the Lync Controls namespace.
     
-    ``` xaml
+    ```xaml
     xmlns:controls="clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls"
     ```
 
@@ -71,7 +71,7 @@ To add Lync Controls to an existing WPF application, add project references for 
     
     For more information, see [How to: Create a Silverlight page that displays a Lync presence control](how-to-create-a-silverlight-page-that-displays-a-lync-presence-control.md).
     
-    ``` xaml
+    ```xaml
     <StackPanel>
       <controls:MyStatusArea PhotoDisplayMode="Small"/>
     </StackPanel>
@@ -99,7 +99,7 @@ To add Lync Controls to an existing Silverlight application, add project referen
 
 3.  On the appropriate XAML page, add the following XAML text to declare the Lync 2013 namespace.
     
-    ``` xaml
+    ```xaml
     xmlns:controls="clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls"
     ```
 
@@ -107,7 +107,7 @@ To add Lync Controls to an existing Silverlight application, add project referen
     
     For more information, see [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md).
     
-    ``` xaml
+    ```xaml
     <StackPanel>
       <controls:MyStatusArea PhotoDisplayMode="Small"/>
     </StackPanel>

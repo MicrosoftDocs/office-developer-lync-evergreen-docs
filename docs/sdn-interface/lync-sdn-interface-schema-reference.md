@@ -12,14 +12,12 @@ mtps_version: v=office.15
 
 Reference documentation for the Lync SDN Interface 2.1.1 XML schema, **LyncSDNInterface.Schema.C.xsd**.
 
-
 **Applies to**: SharePoint Foundation 2013 | SharePoint Online | SharePoint Server 2013
 
 Following is reference documentation for the XML schema, **LyncSDNInterface.Schema.C.xsd**, that supports Lync SDN Interface 2.1.1.
 
 ## Lync SDN Interface 2.1.1 Schema Reference
 
-  - [Elements (Lync SDN Interface 2.1.1)](elements-lync-sdn-interface-2-1-1.md)
-
-  - [Types (Lync SDN Interface 2.1.1)](types-lync-sdn-interface-2-1-1.md)
+- [Elements (Lync SDN Interface 2.1.1)](elements-lync-sdn-interface-2-1-1.md)
+- [Types (Lync SDN Interface 2.1.1)](types-lync-sdn-interface-2-1-1.md)
 

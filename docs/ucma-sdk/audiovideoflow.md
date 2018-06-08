@@ -29,7 +29,7 @@ The [Audio](https://msdn.microsoft.com/en-us/library/hh161753\(v=office.15\)) pr
 
 The [Player](https://msdn.microsoft.com/en-us/library/hh383679\(v=office.15\)), [Recorder](https://msdn.microsoft.com/en-us/library/hh382678\(v=office.15\)), [ToneController](https://msdn.microsoft.com/en-us/library/hh348941\(v=office.15\)), [SpeechRecognitionConnector](https://msdn.microsoft.com/en-us/library/hh365919\(v=office.15\)), and [SpeechSynthesisConnector](https://msdn.microsoft.com/en-us/library/hh382006\(v=office.15\)) properties are considered to be devices. Although these devices are represented as properties on the **AudioVideoFlow** class, they are not automatically instantiated. Before any of these devices can be used, it must be created, and then attached to an **AudioVideoFlow** instance. The following code example shows the steps required to create a **Player** and attach it to an existing **AudioVideoFlow** instance.
 
-``` csharp
+```csharp
 Player myPlayer = new Player();
 myPlayer.AttachFlow(avFlow);
 ```

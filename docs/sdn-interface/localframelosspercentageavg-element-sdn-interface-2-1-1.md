@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# LocalFrameLossPercentageAvg element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# LocalFrameLossPercentageAvg element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 (Deprecated, use VideoLocalFrameLossPercentageAvg instead) Average percentage of video frames lost as they are displayed to the user, including frames recovered from network losses. This metric is reported for video streams when available. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

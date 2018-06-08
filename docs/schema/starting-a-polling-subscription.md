@@ -25,7 +25,7 @@ To stop the subscription, call the StartUnsubscribingToPresentities method on th
 
 The following code example shows how to start and stop a polling subscription.
 
-``` csharp
+```csharp
         #region Polling subscription
         public void SetPollingCategories(params string[] categoryNames)
         {

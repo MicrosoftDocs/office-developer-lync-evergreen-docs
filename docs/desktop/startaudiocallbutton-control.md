@@ -87,7 +87,7 @@ Notable StartAudioCallButton control public properties and events that are relat
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:StartAudioCallButton Source="sip:elise@contoso.com"/>
 </StackPanel>

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# VideoFrameLossRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# VideoFrameLossRate element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average fraction of frames lost on the video receiver side as computed over the duration of the session. This metric is reported for video streams when available. (frames/s)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

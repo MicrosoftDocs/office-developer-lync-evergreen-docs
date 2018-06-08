@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Properties element (ErrorType complexType) (Lync SDN Interface 2.1.1)
+# Properties element (ErrorType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Properties of the Error.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

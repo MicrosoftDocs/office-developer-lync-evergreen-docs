@@ -24,7 +24,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
 
 2.  Add to the UcwaApp class definition the following DiscoverRootResource method that obtains the root resource of a specified user using the Lync auto discovery service.
     
-    ``` csharp
+    ```csharp
             private async Task<UcwaHttpOperationResult> DiscoverRootResource(bool discoverFromInternalDomain = false)
             {
                 this.discoverFromInternalDomain = discoverFromInternalDomain;
@@ -63,7 +63,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     
     Given a Lync discovery service Url, the steps to get the root resource may be implemented as follows.
     
-    ``` csharp
+    ```csharp
             private async Task<UcwaHttpOperationResult> GetRootResource(string url, int maxTrials = 3)
             {
                 HttpWebResponse response;
@@ -85,7 +85,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     
     If the specified user is homed on a different server pool, a redirect resource will be returned. You must repeat the steps above to get the root resource using the redirected Url. Before doing that, you should make sure that the supplied redirect Url passes appropriate security checks. For more information on security checks on a redirect Url, see [Getting Started to Using UCWA](http://ucwa.skype.com/documentation/gettingstarted-rooturl). As an illustration, the work flow to get redirected root resource is shown in the following GetRedirectResource method.
     
-    ``` csharp
+    ```csharp
             private async Task<UcwaHttpOperationResult> GetRedirectResource(string redirectUrl, bool checkRedirectUrl = true)
             {
                 if (checkRedirectUrl && !RedirectUrlSecurityCheckPassed(redirectUrl))
@@ -111,7 +111,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
 
 3.  Add to the UcwaApp class definition the following GetUserResource method that authenticates the user and obtains an OAuth token required of the subsequent HTTP requests.
     
-    ``` csharp
+    ```csharp
             private async Task<UcwaHttpOperationResult> GetUserResource(string userResUri, string userName, string password, AuthenticationTypes authType = AuthenticationTypes.Password)
             {
                 this.IsSignedIn = false;
@@ -196,7 +196,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     
     Because the authentication service responds in JSON, the data can be parsed using the Windows.Data.Json namespace. This is shown in the following subroutine.
     
-    ``` csharp
+    ```csharp
             private string GetOAuthToken(string responseData)
             {
                 string oAuth20Token = null;
@@ -221,7 +221,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
 
 4.  Add to the UcwaApp class definition the following GetApplicationResource method that creates and returns an application resource bound to the local endpoint of the specified user.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Get an application resource bound to the user's local endpoint
             /// </summary>
@@ -250,7 +250,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     
     Throughout the application life cycle, you may need to get an updated application resource when the underlying states change. This can be done by submitting an HTTP GET request against the cached application Url. An implementation of this process is shown as follows.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// An overloaded member to get updated application resource, given the application uri.
             /// </summary>

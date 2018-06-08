@@ -78,7 +78,7 @@ Notable MyNoteBox control public properties and events relating to unified commu
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:MyNoteBox/>
 </StackPanel>

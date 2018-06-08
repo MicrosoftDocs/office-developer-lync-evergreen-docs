@@ -62,7 +62,7 @@ To promote or demote a participant in a meeting, the local user must be a meetin
     
     The following example verifies that the local participant is a presenter, gets a participant to be promoted, and then promotes the selected participant to a presenter.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Promotes a meeting attendee to the presenter role
             /// </summary>
@@ -110,7 +110,7 @@ To promote or demote a participant in a meeting, the local user must be a meetin
     
     The following example verifies that the local participant is a presenter, gets a participant to be promoted, and then promotes the selected participant to presenter.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Demotes a meeting presenter to a meeting attendee
             /// </summary>
@@ -149,7 +149,7 @@ To promote or demote a participant in a meeting, the local user must be a meetin
 
 The following example declares a WPF window that lets a user manage a meeting lobby, pin and lock participant video, and promote participants to the presenter role.
 
-``` xaml
+```xaml
 <Window x:Class="MeetingAccess.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -244,7 +244,7 @@ The following example declares a WPF window that lets a user manage a meeting lo
 
 The following example is the interaction logic for the window declared in the previous example.
 
-``` csharp
+```csharp
 using System.Windows;
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Conversation;

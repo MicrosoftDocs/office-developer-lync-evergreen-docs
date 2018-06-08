@@ -67,7 +67,7 @@ Platform extension media types match the media types that can be found on the "m
 
 Before registering an extension that supports existing media types, the application should call UnregisterPlatformExtension to clear the old extension that handled that media type, and then register the new extension, using RegisterPlatformExtension. The following example shows how to replace an existing audio extension.
 
-``` csharp
+```csharp
 ContosoMediaProviderFactory factory = new ContosoMediaProviderFactory();
 
 platform.UnregisterPlatformExtension(factory.ExtensionType, MediaType.Audio);
@@ -98,7 +98,7 @@ The **MediaTypes** property returns a list of all of the media types that are su
 
 A **Create** method defined on an instance of the **CallFactory** subclass is used to create an instance of a new **Call** subclass. Similarly, a **Create** method defined on an instance of the **MediaProviderFactory** subclass is used to create an instance of a new **MediaProvider** subclass. In either case, the particular type of instance that is created depends on the media types and additional information specified when **Create** is called. The **Create** method you implement on a subclass of **CallFactory** or **MediaProviderFactory** has the following declaration:
 
-``` csharp
+```csharp
 public object Create(IEnumerable<string> mediaTypes, FactoryContext context);
 ```
 

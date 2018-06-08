@@ -63,7 +63,7 @@ Meeting access types determine the ability of a person to join a meet-now meetin
     
     The following example gets the access type choice made by a user, verifies that the access type property can be set, and then sets the property.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Sets the conference access type property
             /// </summary>
@@ -124,7 +124,7 @@ Meeting access types determine the ability of a person to join a meet-now meetin
 
 The following example declares a WPF window that provides a Lync 2013 user with an application that manages meeting access for a new meet-now meeting.
 
-``` xaml
+```xaml
 <Window x:Class="MeetingAccess.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -205,7 +205,7 @@ The following example declares a WPF window that provides a Lync 2013 user with 
 
 The following example is the window interaction logic for the previously declared WPF window.
 
-``` csharp
+```csharp
 using System.Windows;
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Conversation;

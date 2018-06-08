@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# To element (QualityType complexType) (Lync SDN Interface 2.1.1)
+# To element (QualityType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Destination of the media stream.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

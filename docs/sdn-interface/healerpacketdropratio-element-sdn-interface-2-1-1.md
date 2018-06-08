@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# HealerPacketDropRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# HealerPacketDropRatio element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Ratio of audio packets dropped by a healer over total number of audio packets received by the healer. This metric is reported for all modalities/media types when available. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

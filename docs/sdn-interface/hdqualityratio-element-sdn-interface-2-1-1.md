@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# HDQualityRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# HDQualityRatio element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of the duration of a call that is using the HD720 resolution. This metric is reported for video streams when available. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

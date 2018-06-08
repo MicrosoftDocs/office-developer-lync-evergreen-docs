@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# JitterInterArrival element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# JitterInterArrival element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all available modalities/media types. (ms)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

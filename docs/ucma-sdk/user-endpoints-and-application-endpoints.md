@@ -69,7 +69,7 @@ When a **UserEndpoint** instance is created, a [UserEndpointSettings](https://ms
 
 The following code example shows how to set the **IsEndpointThrottled** property for an existing **UserEndpoint** instance named *userEP*.
 
-``` csharp
+```csharp
 SipEndpoint sipEP = userEP.InnerEndpoint as SipEndpoint;
 sipEP.IsEndpointThrottled = false;
 ```

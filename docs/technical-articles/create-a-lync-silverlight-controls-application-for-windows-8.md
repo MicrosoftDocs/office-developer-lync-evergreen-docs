@@ -10,59 +10,28 @@ dev_langs:
 - xaml
 ---
 
-# Lync 2013: Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro
-
-Learn how to use the Lync 2013 SDK to create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro.
-
+# Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro
 
 **Applies to**: Lync 2013 | Lync Server 2013 | Visual Studio | Windows
 
-**Provided by:**  John Clarkson, Microsoft Corporation
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Introduction<br />
-Creating the Lync Silverlight Controls application<br />
-Conclusion<br />
-Additional resources</p></td>
-<td><div class="caption">
-Watch the video: Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro
-</div>
-<br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/e7a3e9c5-e259-43f5-85ab-1f245a7f9ce9]</td>
-</tr>
-</tbody>
-</table>
-
-
-## Introduction
+Learn how to use the Lync 2013 SDK to create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro.
 
 Applications that are developed with the Lync 2013 SDK run on the Windows 8 desktop. This article describes how to create a Lync Silverlight Controls application by using Lync Controls and also discusses how to open the Silverlight application in Internet Explorer.
 
 ### Requirements
 
-  - Lync 2013 SDK.
+- Lync 2013 SDK
 
-  - Visual Studio 2010 and later versions of Visual Studio.
-
+- Visual Studio 2010 and later versions of Visual Studio
 
 > [!NOTE]
-> <P>To run the Lync Silverlight Controls application, you must sign in to the Lync client.</P>
+> To run the Lync Silverlight Controls application, you must sign in to the Lync client.
 
+**Internet Explorer and Silverlight application**
 
-
-Figure 1.
-
-  
 ![Internet Explorer and Silverlight application](images/Dn194313.UC15All_TA_SilverlightWin8_fig01(Office.15).png "Internet Explorer and Silverlight application")
 
-## Creating the Lync Silverlight Controls application
+## Create the Lync Silverlight Controls application
 
 To create the application, use Visual Studio to open a new project by using the Lync Silverlight Application template, and then drag three controls onto the Design pane.
 
@@ -76,11 +45,11 @@ To create the application, use Visual Studio to open a new project by using the 
 
 4.  Set the following StackPanel attributes.
     
-      - Orientation='Vertical'
+    - Orientation='Vertical'
     
-      - HorizontalAlignment='Left'
+    - HorizontalAlignment='Left'
     
-      - VerticalAlignment='Top'
+    - VerticalAlignment='Top'
 
 5.  Add attributes for Height and Width, and then set both to 300.
 
@@ -90,7 +59,7 @@ To create the application, use Visual Studio to open a new project by using the 
 
 8.  Drag the ContactList control onto the Design pane. Position the control under the ContactSearch control on the Design pane. This creates the XAML code in the following example.
     
-    ``` xaml
+    ```xaml
     <UserControl x:Class="LyncSilverlightApplication.MainPage"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -124,11 +93,8 @@ Using the Lync 2013 SDK to create a Lync Silverlight Controls application for Wi
 
 ## See also
 
-  - [Lync 2013 SDK documentation](../desktop/lync-2013-sdk-documentation.md)
-
-  - [Get started with Lync Controls](../desktop/get-started-with-lync-controls.md)
-
-  - [Lync Dev Center](http://msdn.microsoft.com/en-us/lync/default.aspx)
-
-  - [Download Center: Lync 2013 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=36824)
+- [Lync 2013 SDK documentation](../desktop/lync-2013-sdk-documentation.md)
+- [Get started with Lync Controls](../desktop/get-started-with-lync-controls.md)
+- [Lync Dev Center](http://msdn.microsoft.com/en-us/lync/default.aspx)
+- [Download Center: Lync 2013 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=36824)
 

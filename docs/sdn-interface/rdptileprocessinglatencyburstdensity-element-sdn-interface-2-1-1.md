@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RDPTileProcessingLatencyBurstDensity element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RDPTileProcessingLatencyBurstDensity element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Burst density in the processing time for remote desktop protocol (RDP) tiles. A "bursty" transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream. This metric is only reported for application sharing streams using Lync 2013.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

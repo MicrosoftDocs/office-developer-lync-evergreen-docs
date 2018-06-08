@@ -67,7 +67,7 @@ The following steps describe how to create and manage a conversation on the UCMA
     
     The properties in the next example identify the application.
     
-    ``` csharp
+    ```csharp
     channelOptions.ApplicationInstallerPath = "http://www.msn.com";
     channelOptions.ApplicationName = "Blue Yonder Airlines";
     channelOptions.ContextualData = "Contextual data from UCMA";
@@ -104,7 +104,7 @@ The following example also shows how to use the Conversation.BeginSendContextDat
 
 Use Conversation object methods appearing in the next example to send and receive contextual data in a conversation with a UCMA 4.0 application.
 
-``` csharp
+```csharp
 
 private void Initialize()
 {

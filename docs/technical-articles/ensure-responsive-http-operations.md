@@ -25,7 +25,7 @@ In this section we walk through the steps to make asynchronous HTTP requests to 
 
 3.  In the Transport.cs file, add the following using statements to the existing using statement block and the class to the public scope.
     
-    ``` csharp
+    ```csharp
     using System.Net;
     using System.IO;
     ```
@@ -50,7 +50,7 @@ In this section we walk through the steps to make asynchronous HTTP requests to 
 
 4.  Add the following code to implement general HTTP request submission operations.
     
-    ``` csharp
+    ```csharp
             private async Task<HttpWebResponse> SubmitRequest(string uri, string method, 
                                           KeyValuePair<string, string>[] requestHeaders, string requestData)
             {
@@ -62,7 +62,7 @@ In this section we walk through the steps to make asynchronous HTTP requests to 
     
     This SubmitRequest method is an asynchronous call. The use of the async keyword in the method signature is necessary because awaitable calls are made using the await pattern from within the method. As an example, the method parameter takes a string value of "GET", "POST", "PUT" and "DELETE". The implementation involves calling two helper methods, CreateRequest and GetResponse. Both are asynchronous operations as well. An implementation of these and other related helper methods are shown in the following code listing.
     
-    ``` csharp
+    ```csharp
             private async Task<HttpWebRequest> CreateRequest(string url, string method, KeyValuePair<string, string>[] requestHeaders, string requestBody)
             {
                 var fullUrl = this.ConvertToFullHttpUrl(url);
@@ -139,7 +139,7 @@ In this section we walk through the steps to make asynchronous HTTP requests to 
 
 5.  Add the following code as part of the Transport class definition to provide public-facing and method-specific HTTP request operations. The four methods (GetRequest, PostRequest, PutRequest and DeleteRequest) correspond to the HTTP GET, POST, PUT and DELETE operations supported in UCWA.
     
-    ``` csharp
+    ```csharp
             #region public-facing method-specific asynchronous request submissions, including GET, POST, PUT and DELETE
             private async Task<HttpWebResponse> GetRequest(string uri, params KeyValuePair<string, string>[] requestHeaders)
             {

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# VGAQualityRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# VGAQualityRatio element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of the duration of a call that is using the VGA resolution. This metric is reported for video streams when available. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# IncallEnabled element (EndPointType complexType) (Lync SDN Interface 2.1.1)
+# IncallEnabled element 
+
+(EndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Whether the endpoint (Lync client) is capable to send incall quality update messages. This flag does not indicate whether the client is configured to send incall QoE reports.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

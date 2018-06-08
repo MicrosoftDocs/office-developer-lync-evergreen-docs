@@ -49,7 +49,7 @@ The components of the meeting access key are encapsulated by the [Microsoft.Lync
 
 The following example builds a string by using conference access information properties. The string can be posted as a **Story** message to a persistent chat room or sent in an email message.
 
-``` csharp
+```csharp
         /// <summary>
         /// Creates a string that can be posted as a story message to a persistent chat room 
         /// </summary>

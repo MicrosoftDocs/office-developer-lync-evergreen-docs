@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# LowResolutionCallPercent element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# LowResolutionCallPercent element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of time of the call where resolution is low. Threshold is 120 pixels for smaller dimension. This metric is reported for video streams when available. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

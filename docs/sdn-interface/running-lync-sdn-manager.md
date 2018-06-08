@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Running Lync SDN Manager
 
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 This section describes how to run Lync SDN Manager as a Windows service and as a console application.
@@ -21,7 +20,7 @@ You can use the Windows Services to determine whether the service is running and
 
 In general, you run the Lync SDN Manager as a Windows service. In some cases, especially for debugging, you may want to run the LSM as a console application.
 
-## Running LSM as a Windows service
+## Run LSM as a Windows service
 
 1.  Start Windows Service application.
 

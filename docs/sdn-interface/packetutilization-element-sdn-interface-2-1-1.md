@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# PacketUtilization element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# PacketUtilization element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Number of Real-time Transport Protocol (RTP) packets received in the session. This metric is reported for all available modalities and media types.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

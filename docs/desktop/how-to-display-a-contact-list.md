@@ -177,7 +177,7 @@ Figure 1. My Contact List sample application
   
 ![A list of groups and contacts in a WPF window](images/JJ933244.LyncClientSDK_HowToDisplayContactList(Office.15).png "A list of groups and contacts in a WPF window")
 
-``` xaml
+```xaml
 <Window x:Class="MyContactList.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -197,7 +197,7 @@ Figure 1. My Contact List sample application
 
 The following example is the interaction logic for the window declared in the previous example.
 
-``` csharp
+```csharp
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;

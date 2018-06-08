@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# StartTime element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# StartTime element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 Denotes the time when the conversation started. It is provided only in QualityUpdate events.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

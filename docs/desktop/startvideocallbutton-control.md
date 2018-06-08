@@ -87,7 +87,7 @@ Notable StartVideoCallButton control public properties and events relating to un
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:StartVideoCallButton Source="sip:mary@contoso.com"/>
 </StackPanel>

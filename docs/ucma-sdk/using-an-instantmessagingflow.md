@@ -29,7 +29,7 @@ The InstantMessageFlow class raises a [RemoteComposingStateChanged](https://msdn
 
 The following code demonstrates creating an IM media flow, sending IM messages on the flow, and sending composing notifications. In this example, an IM message is sent in the call to one of the overloaded [BeginSendInstantMessage](https://msdn.microsoft.com/en-us/library/hh349533\(v=office.15\)) messages.
 
-``` csharp
+```csharp
 // Must be done before Establish is called.
 imCall.InstantMessagingFlowConfigurationRequested += IMCall_InstantMessagingFlowConfigurationRequested; 
 

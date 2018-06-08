@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Relay element (EndPointType complexType) (Lync SDN Interface 2.1.1)
+# Relay element (EndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 IP Address of the first relay used in the media traffic.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -61,7 +61,7 @@ The essential points of creating and using a **Recorder** instance appear in the
 
 <!-- end list -->
 
-``` csharp
+```csharp
 public void Run()
 {
 

@@ -178,7 +178,7 @@ The [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj2
 
 The following example updates a participant list in the UI with each [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) that is connected to the conversation.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the even raised when the state of an application sharing modality changes.
         /// </summary>
@@ -201,7 +201,7 @@ The following example updates a participant list in the UI with each [Microsoft.
 
 The following example handles the click event when a user presses the **Share Resource** button after the user selects a shareable resource from the list.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles click event on the Share Resource button. User must select a resource
         /// from the sharable resources list before clicking the button.
@@ -230,7 +230,7 @@ The following example handles the click event when a user presses the **Share Re
 
 The following example shares a resource by completing steps 2 through 7c in the previous procedure.
 
-``` csharp
+```csharp
         /// <summary>
         /// Shares the resource selected by the user.
         /// </summary>
@@ -285,7 +285,7 @@ The following example shares a resource by completing steps 2 through 7c in the 
 
 The following example handles the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event by invoking a UI thread delegate that takes a button and a Boolean argument. The button is the UI button to update, and the Boolean is the new value of the **Button.Enabled** property. The sample uses this logic to enable or disable a control action button when the availability of the action changes.
 
-``` csharp
+```csharp
         /// <summary>
         /// Event handler for sharing modality action availability change
         /// This method enables or disables the modality control action buttons on the UI according to

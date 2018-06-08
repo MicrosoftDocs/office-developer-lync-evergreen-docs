@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Properties element (QualityType complexType) (Lync SDN Interface 2.1.1)
+# Properties element (QualityType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determine a bad call.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

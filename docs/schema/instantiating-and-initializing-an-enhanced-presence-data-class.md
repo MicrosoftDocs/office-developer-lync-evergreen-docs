@@ -54,7 +54,7 @@ After you create the C\# classes using Unified Communications Enhanced Presence 
 
 Enhanced Presence note data is represented by a **\<note\>** element as defined in the note.xsd file. The structure of the **\<note\>** element is prescribed by the complex type named noteType. Xsd.exe, the XML Schema Definition executable program, translates this type into a C\# class of the same name. To generate a **\<note\>** element in a C\# application, you instantiate the noteType class and assign appropriate values to the newly created noteType instance, and then serialize this initialized noteType object into a **\<note\>** element according to the definition of the XSD type named noteType. These steps appear in the following example.
 
-``` csharp
+```csharp
             noteType note = new noteType();
             noteTypeBody body = new noteTypeBody();
             body.Value = "My Note Text2!";
@@ -83,7 +83,7 @@ In the state.xsd file, there is a complex type named machineState, but the XML e
 
 To generate an XML element for a machine state in a .NET Framework application, you must instantiate the machineState class, assign appropriate values, and then serialize the initialized machineState object into a **\<state\>** element that is prescribed by the stateType type.
 
-``` csharp
+```csharp
             uint _onlineAvail = 3500;
             machineState mState = new machineState();
             mState.availability = (uint)_onlineAvail;

@@ -35,7 +35,7 @@ The following list describes the steps an application must perform when it recei
 
 <!-- end list -->
 
-``` csharp
+```csharp
 public class ConferenceInvitationExample
 // This class is shown for demonstration purposes only. It is incomplete,
 // and so will fail to compile.

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ResponseCode element (ErrorProperties complexType) (Lync SDN Interface 2.1.1)
+# ResponseCode element (ErrorProperties complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 SIP Error code.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -12,12 +12,6 @@ dev_langs:
 
 # StartPropertiesType complexType (Lync SDN Interface 2.1.1)
 
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
-
 ## Type information
 
 <table>

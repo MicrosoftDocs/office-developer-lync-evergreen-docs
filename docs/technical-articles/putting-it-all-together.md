@@ -32,7 +32,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
 
 3.  In the newly created UcwaResource.cs file, add the using System.Xml.Linq and using System.IO statements to the using statement block and make the class public. The modified code file should looks like this.
     
-    ``` csharp
+    ```csharp
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -52,7 +52,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
 
 4.  Add to the UcwaResource class definition the following protected field:
     
-    ``` csharp
+    ```csharp
             protected XElement xElem = null;
     ```
     
@@ -60,7 +60,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
 
 5.  Add to the class definition the following class constructors:
     
-    ``` csharp
+    ```csharp
             #region Constructors
             public UcwaResource(Stream xmlStream)
             {
@@ -83,7 +83,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
 
 6.  Add to the UcwaResource class the following member definitions for parsing the attributes of a UCWA resource.
     
-    ``` csharp
+    ```csharp
             #region attributes of the resource element:
             private string GetAttributeValue(string attrName)
             {
@@ -97,7 +97,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
 
 7.  Add to the UcwaResource class the following member definitions for parsing the properties of a UCWA resource.
     
-    ``` csharp
+    ```csharp
             #region of Properties of the resource
             public IEnumerable<XElement> Properties { get { return xElem.Elements().Where(r => r.Name.LocalName == "property"); } }
             public IEnumerable<string> PropertyNames { get { return from prop in this.Properties select prop.Attribute("name").Value; } }
@@ -112,7 +112,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
 
 8.  Add to the class definition the following member definitions for parsing the links of a UCWA resource.
     
-    ``` csharp
+    ```csharp
             #region Links of the resource
             public IEnumerable<XElement> Links { get { return xElem.Elements().Where(l => l.Name.LocalName == "link"); } }
             public IEnumerable<string> LinkNames { get { return from link in this.Links select link.Attribute("rel").Value; } }
@@ -124,7 +124,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
 
 9.  Add to the class definition the following member definitions for parsing the embedded resources of a UCWA resource.
     
-    ``` csharp
+    ```csharp
             #region of the embedded resources
             public UcwaResource GetEmbeddedResource(string name) { return new UcwaResource(this.GetEmbeddedResourceElement(name)); }
             public IEnumerable<XElement> EmbeddedResourceElements { get { return xElem.Elements().Where(r => r.Name.LocalName == "resource"); } }
@@ -154,13 +154,13 @@ Making the application run involves executing various parts (as discussed above)
 
 1.  Open the MePage.xaml.cs file in the Visual Studio code editor and add a private class field to hold a UcwaApp instance.
     
-    ``` csharp
+    ```csharp
             UcwaApp UcwaApp;
     ```
 
 2.  Add the this.UcwaApp = new UcwaApp() statement to the beginning of the MePage constructor. The modified constructor looks as follows.
     
-    ``` csharp
+    ```csharp
             public MePage()
             {
                 this.UcwaApp = new UcwaApp();
@@ -174,7 +174,7 @@ Making the application run involves executing various parts (as discussed above)
 
 3.  Change the navigationHelper\_LoadState method as follows.
     
-    ``` csharp
+    ```csharp
             private async void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
             {
                 SignInParameter parameter = e.NavigationParameter as SignInParameter;
@@ -209,7 +209,7 @@ Making the application run involves executing various parts (as discussed above)
 
 4.  Add the class definition of SignInParameter to the namespace as follows.
     
-    ``` csharp
+    ```csharp
         public sealed class SignInParameter
         {
             internal string UserName { get; private set; }
@@ -226,7 +226,7 @@ Making the application run involves executing various parts (as discussed above)
 
 5.  Add the page navigation code to the button\_SignIn\_Clicked event handler in the MainPage.xaml.cs.
     
-    ``` csharp
+    ```csharp
             private void buttonSignIn_Clicked(object sender, RoutedEventArgs e)
             {
                 // Navigate to the MePage

@@ -54,7 +54,7 @@ There are three events available for [ContactManager](https://msdn.microsoft.com
 
 To register for events raised by the contacts and groups manager, include one line of code for each event. The following example registers the application for the **GroupAdded** event of the contacts and groups manager, designating the **manager\_GroupAdded** method as the method to be triggered by the event.
 
-``` csharp
+```csharp
 _LyncClient.ContactManager.GroupAdded += new EventHandler<Object, GroupCollectionChangedEventArgs>(manager_GroupAdded);
 ```
 
@@ -66,7 +66,7 @@ The following examples handle the events raised when a group is added or removed
 
 The following example handles the **GroupAdded** event by registering for events on the group.
 
-``` csharp
+```csharp
    /// Handler for event raised when a group is added.
         /// <param name="source">Object. The ContactManager instance that raised the event.</param>
         /// <param name="data">GroupCollectionChangedEventArgs. The event state object.</param>
@@ -87,7 +87,7 @@ The following example handles the **GroupAdded** event by registering for events
 
 The following example handles the **GroupRemoved** event by removing the registration for group events on the group and removing the group from the local group Dictionary\<string, Group\>.
 
-``` csharp
+```csharp
    /// Handler for event raised when a group is deleted.
         /// <param name="source">ContactsAndGroupsManager event source</param>
         /// <param name="data">GroupCollectionEventData event data</param>
@@ -125,7 +125,7 @@ The following example handles the **GroupRemoved** event by removing the registr
 
 The following example handles the search provider state changed event by checking the new status. If the search provider is synchronized, it notifies the user. In practice, your application should update a UI element to let a user choose the updated search provider before starting a new contact search.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised on the ContactManager when a search provider status has changed.
         /// </summary>

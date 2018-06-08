@@ -82,7 +82,7 @@ The prerequisites for admitting or denying admission to a meeting from the meeti
     
     The following example finds the participant whose display name matches a name from a meeting lobby list in the sample UI, verifies that the participant can be admitted, and then admits the participant.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Admits the selected person from the meeting lobby
             /// </summary>
@@ -123,7 +123,7 @@ The prerequisites for admitting or denying admission to a meeting from the meeti
     
     The following example admits all users waiting in a meeting lobby.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Admits all people waiting in the meeting lobby
             /// </summary>
@@ -163,7 +163,7 @@ The prerequisites for admitting or denying admission to a meeting from the meeti
     
     The following example finds the participant whose display name matches a name from a meeting lobby list in the sample UI, verifies that the participant can be admitted, and then admits the participant.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Denies meeting admission to the person selected in the lobby
             /// </summary>
@@ -205,7 +205,7 @@ The prerequisites for admitting or denying admission to a meeting from the meeti
     
     The following example denies all users waiting in a meeting lobby.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Admits all people waiting in the meeting lobby
             /// </summary>
@@ -235,7 +235,7 @@ The prerequisites for admitting or denying admission to a meeting from the meeti
 
 The following example declares a WPF window that lets a user control meeting access for a new meet-now meeting.
 
-``` xaml
+```xaml
 <Window x:Class="MeetingAccess.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"

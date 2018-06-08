@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# SpoiledTilePercentTotal element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# SpoiledTilePercentTotal element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Total percentage of the content that did not reach the viewer but was instead discarded and overwritten by fresh content. When available, this metric is only reported for application sharing streams and only for Lync 2013. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -110,7 +110,7 @@ Before the logic in this topic runs in your application, a conversation must be 
 
 Add the following namespace declarations to your application.
 
-``` csharp
+```csharp
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Group;
 using Microsoft.Lync.Model.Conversation;
@@ -122,7 +122,7 @@ using System.Collections.Generic;
 
 Add the following class field declarations to your application.
 
-``` csharp
+```csharp
         /// <summary>
         /// Lync client platform. The entry point to the API
         /// </summary>
@@ -235,7 +235,7 @@ A user can attach almost any type of file object to a conversation. If a valid l
 
 The following example opens a dialog box so that a user can select a file to attach to a conversation.
 
-``` csharp
+```csharp
             PickNativeFile_OpenFileDialog.RestoreDirectory = true;
             PickNativeFile_OpenFileDialog.Title = "Choose a native file";
             PickNativeFile_OpenFileDialog.FileName = "*.*";
@@ -250,7 +250,7 @@ The following example opens a dialog box so that a user can select a file to att
 
 The following example creates a new [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object and then attaches the selected native file to an active conversation.
 
-``` csharp
+```csharp
             if (((ContentSharingModality)_conversation.Modalities[ModalityTypes.ContentSharing]).State == ModalityState.Connected)
             {
                 try
@@ -311,7 +311,7 @@ Any native file or PowerPoint slide deck that has been uploaded to a conversatio
 
 The following example downloads any native file that is attached to a conversation at the time that the file is attached.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when an item is added to the content bin
         /// </summary>
@@ -348,7 +348,7 @@ The following example downloads any native file that is attached to a conversati
 
 The following example declares a Windows Form that presents a user with a meeting console that controls content sharing in a meeting.
 
-``` csharp
+```csharp
 namespace ContentSharing
 {
     partial class ContentSharing_Form
@@ -963,7 +963,7 @@ namespace ContentSharing
 
 The following example interacts with the Windows Form declared in the previous example.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;

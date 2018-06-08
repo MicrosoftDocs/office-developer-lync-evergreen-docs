@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Id element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# Id element (QualityEndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Identifier of the endpoint.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

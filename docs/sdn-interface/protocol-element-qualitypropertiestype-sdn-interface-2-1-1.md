@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Protocol element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# Protocol element (QualityPropertiesType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Transmission protocol of the call such as TCP or UDP.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

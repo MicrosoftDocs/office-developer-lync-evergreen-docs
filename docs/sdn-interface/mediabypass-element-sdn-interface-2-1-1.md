@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# MediaBypass element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# MediaBypass element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -23,7 +23,7 @@ In a typical application scenario, a contact list should display contact informa
 
 The following code example shows how these tasks are performed before receiving a contact list and the accompanying presence publications. It is an excerpt of a C\# class used throughout this section to show how to maintain a contact list in a UCMA application.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;

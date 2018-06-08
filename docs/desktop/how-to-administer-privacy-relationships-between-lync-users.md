@@ -51,7 +51,7 @@ The prerequisites for administering privacy relationships between Lync users are
 
 1.  Get the SIP URI strings of Lync users whom are selected in the UI contact list.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Sets the selected privacy relationship level for all selected contacts
             /// </summary>
@@ -82,7 +82,7 @@ The prerequisites for administering privacy relationships between Lync users are
     
     The following example sets the privacy relationship rule by calling the [Contact.BeginChangeSetting](https://msdn.microsoft.com/en-us/library/jj275533\(v=office.15\)) method.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Sets the privacy relationship for a Lync user specified by URI
             /// </summary>
@@ -122,7 +122,7 @@ The sample application shown in figure 1 is a WPF form with two Lync Controls: a
 
 The following example declares the UI shown in figure 1.
 
-``` xaml
+```xaml
 <Window x:Class="PrivacyRelationship.Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -181,7 +181,7 @@ The following example declares the UI shown in figure 1.
 
 The following example declares a partial class for the UI shown in figure 1.
 
-``` csharp
+```csharp
 using System;
 using System.Windows;
 using Microsoft.Lync.Model;

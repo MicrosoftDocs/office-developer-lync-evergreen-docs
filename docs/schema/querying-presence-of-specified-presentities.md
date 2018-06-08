@@ -21,7 +21,7 @@ Querying presence is an asynchronous process. Each query corresponds to a single
 
 The following code example shows how to query specified categories that are published by the specified presentities.
 
-``` csharp
+```csharp
         #region Querying remote presence
         public void QueryRemotePresence(string[] targets, string[] categories)
         {

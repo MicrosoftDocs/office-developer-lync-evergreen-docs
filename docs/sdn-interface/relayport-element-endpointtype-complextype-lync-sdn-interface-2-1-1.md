@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RelayPort element (EndPointType complexType) (Lync SDN Interface 2.1.1)
+# RelayPort element (EndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Port number of the relay.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

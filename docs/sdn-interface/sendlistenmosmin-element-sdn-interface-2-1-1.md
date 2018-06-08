@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# SendListenMOSMin element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# SendListenMOSMin element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Minimum of the SendListenMOS for the stream over the duration of the session. This metric is reported for audio streams when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -49,7 +49,7 @@ Use the following procedure to change the appearance of the control.
 
 3.  Add a style to set the [Background](https://msdn.microsoft.com/en-us/library/hh345162\(v=office.15\)) and [FontFamily](http://msdn2.microsoft.com/en-us/library/ms592513) properties on the control.
     
-    ``` xaml
+    ```xaml
     <Grid>
             <Grid.Resources>
                 <Style x:Key="MyContactListStyle" TargetType="Controls:ContactList">

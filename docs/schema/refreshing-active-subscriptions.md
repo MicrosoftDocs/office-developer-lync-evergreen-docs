@@ -21,7 +21,7 @@ Refreshing remote presence subscription is an asynchronous process. It applies t
 
 The following code example shows how to refresh all active remote subscriptions.
 
-``` csharp
+```csharp
         #region Refresh all remote presence views
         public void RefreshRemoteSubscription()
         {

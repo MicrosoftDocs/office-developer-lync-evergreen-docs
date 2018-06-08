@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Update element (MessageType complexType) (Lync SDN Interface 2.1.1)
+# Update element 
+
+(MessageType complexType) (Lync SDN Interface 2.1.1)
 
 Event that a media stream previously started has been updated. This event is raised when an update to core parameters of call have changed and the change is established, i.e., when the request is answered with a 200 OK response.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

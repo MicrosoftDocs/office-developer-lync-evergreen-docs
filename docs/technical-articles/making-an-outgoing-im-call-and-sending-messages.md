@@ -90,7 +90,7 @@ You also need to [Set up the UCWA event channel to receive incoming notification
 
 Create a class named UcwaAppCommunication to encapsulate communications for the application. The constructor takes a logged on [application](http://ucwa.skype.com/documentation/resources-application) resource with incoming notifications and IM messages enabled to initialize the UcwaAppCommunication object.
 
-``` csharp
+```csharp
     public class UcwaAppCommunication
     {
         UcwaApp ucwaApp;
@@ -115,7 +115,7 @@ Because the communication uses the event notifications, this is also a good plac
 
 To make an outgoing IM call, submit a POST request on the **startMessaging** resource, and specify the recipient SIP URI as well as one or more optional parameters. When you specify optional parameters, the data must be packaged as the payload to the POST request. If you don’t specify optional parameters, you can specify the required recipient’s SIP URI as a query parameter appended to the resource URI. The following code example shows the operations.
 
-``` csharp
+```csharp
         string operationId = Guid.NewGuid().ToString();
         string threadId = Guid.NewGuid().ToString();
 
@@ -135,7 +135,7 @@ To make an outgoing IM call, submit a POST request on the **startMessaging** res
 
 You can format the message body, requestInput, as shown.
 
-``` csharp
+```csharp
         string startMessagingInputFormat = "<?xml version=\"1.0\" encoding=\"utf-8\"?>" +
             "<input xmlns=\"http://schemas.microsoft.com/rtc/2012/03/ucwa\">" +
             "  <property name=\"operationId\">{0}</property>" +
@@ -155,7 +155,7 @@ When the request is successful, a series of events are raised at various stages 
 
 To monitor the progress of an outgoing call invitation, your application handles notifications from two event sources: the [communication](http://ucwa.skype.com/documentation/resources-communication) and the [conversation](http://ucwa.skype.com/documentation/resources-conversation) resources. Update the ProccessEvents method with the following code.
 
-``` csharp
+```csharp
         void ProcessEvents(string sender, IEnumerable<UcwaEvent> events)
         {
             switch (sender)
@@ -184,7 +184,7 @@ When the invitation is started, a conversation is also created in a connecting s
 
 In the following code example, the messageInvitation and communication resources are cached at each stage of the state transition so that the most up-to-date resources are available for the application. Alternatively, these resources can be made available only when the messagingInvitation or communication state changes to connected.
 
-``` csharp
+```csharp
         async void ProcessCommunicationEvents(IEnumerable<UcwaEvent> events)
         {
             foreach (var e in events)
@@ -237,7 +237,7 @@ The participant-added events contain information about the remote participant, i
 
 The following code example shows one way to fetch and cache the name of the remote participant when they’re added to the conversation and to delete the participant name from the cache when they’re removed. In addition, the most up-to-date [messaging](http://ucwa.skype.com/documentation/resources-messaging) resource is cached so that the resources it contains are available to the application. Alternatively, you can do this only for the **messaging**added event in the connected state and ignore the other **messaging** events.
 
-``` csharp
+```csharp
         async void ProcessConversationEvents(IEnumerable<UcwaEvent> events)
         {
             foreach (var e in events)
@@ -292,7 +292,7 @@ To send an IM in a conversation, submit a POST request on the [sendMessage](http
 
 You can send the message in plain text format, as shown in the following code example, where the message is input from a **TextBox** control. Make sure that the supported messaging modalities include plain text and the Content-Type is set to "text/plain". You can also send the HTML-formatted message, for example, \<span\>Hello\!\</span\>, if the supported messaging modalities include HTML. In this case, you need to specify the content type as "text/html" instead.
 
-``` csharp
+```csharp
         public async Task<UcwaAppOperationResult> SendMessage(string msg ="Hello, this is a test.")
         {
             if (operationId == null) operationId = Guid.NewGuid().ToString();
@@ -317,7 +317,7 @@ You can send the message in plain text format, as shown in the following code ex
 
 Typically, the POST request is initiated when the user enters a text and clicks a **Send** button on a UI page, as shown in the following example.
 
-``` csharp
+```csharp
         private async void SendButton_Click(object sender, RoutedEventArgs e)
         {
             var result = await this.ucwaApp.Communication.SendMessage(textBoxImInput.Text);

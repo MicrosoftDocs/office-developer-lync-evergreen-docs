@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RenderDevice element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RenderDevice element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 The name of a render device used to provide the media to for this stream. This device is in the TO endpoint and usually represents a speaker.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -131,7 +131,7 @@ A user can request control of a shared resource if his or her current participat
 
 The following example requests control of a resource shared by another user.
 
-``` csharp
+```csharp
         /// <summary>
         ///Request control of a remotely owned resource and shared resource.
         ///The Request button is enabled when the _sharingModality_ActionAvailabilityChanged event handler is called
@@ -166,7 +166,7 @@ The following example requests control of a resource shared by another user.
 
 The following example is called on the platform thread when the request control operation is completed.
 
-``` csharp
+```csharp
         /// <summary>
         /// Callback method for all asynchronous modality control methods.
         /// </summary>
@@ -237,7 +237,7 @@ When a conversation is started and no participant has shared a resource, every p
 
 The following example updates the text of a label in the UI with the current participation state of the local user.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when a participant participation state changes.
         /// </summary>
@@ -270,7 +270,7 @@ A user can release control of a shared resource if that user’s current partici
 
 The following example releases control of the shared resource after confirming that the local user can release control of the resource.
 
-``` csharp
+```csharp
         /// <summary>
         ///Release control of a remotely owned resource and shared resource.
         ///The Release button is enabled when the _sharingModality_ActionAvailabilityChanged event handler is
@@ -295,7 +295,7 @@ If you want to stop sharing a local resource, want to switch to a different loca
 
 The following example disconnects the conversation application sharing modality but leaves the conversation active.
 
-``` csharp
+```csharp
         /// <summary>
         /// Disconnects the conversation application sharing modality so that the user
         /// is no longer sharing or viewing a resource.
@@ -320,7 +320,7 @@ When your application has requested and released control of a shared resource, t
 
 The following example declares the Windows Form that is shown in figure 1. The resource sharing sample is a complete solution that uses all the methods, events, and properties of the application sharing modality to give a user all of the sharing features exposed by the modality.
 
-``` csharp
+```csharp
 namespace ShareResources
 {
     partial class ShareResources_Form
@@ -728,7 +728,7 @@ namespace ShareResources
 
 The following example interacts with the previously declared Windows Form. The code starts a conversation, chooses a shareable resource, starts the sharing session, and grants and revokes control of the shared resource.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# OverallAvgNetworkMOS element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# OverallAvgNetworkMOS element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average of MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, based on the audio codec used, the observed packet loss and inter-arrival packet jitter. This metric is reported for audio streams when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

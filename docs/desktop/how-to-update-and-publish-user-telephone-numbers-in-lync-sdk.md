@@ -56,13 +56,13 @@ The list in the upper left corner of the window is fixed at four items. When a u
 
 1.  The following example gets the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) object by calling the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/jj278213\(v=office.15\)) method.
     
-    ``` csharp
+    ```csharp
     _LyncClient = LyncClient.GetClient();
     ```
 
 2.  The following example registers for event raised when a user adds, changes, or removes a telephone number.
     
-    ``` csharp
+    ```csharp
     _LyncClient.Self.PhonesChanged += Self_PhonesChanged;
     ```
 
@@ -86,7 +86,7 @@ The list in the upper left corner of the window is fixed at four items. When a u
     </tbody>
     </table>
     
-    ``` csharp
+    ```csharp
                 try
                 {
                     phoneType = ContactEndpointType.HomePhone.ToString();
@@ -132,7 +132,7 @@ The following procedure describes how to clear the Boolean true value in the [Ph
     
     The following example removes a telephone number from the user’s contact card.
     
-    ``` csharp
+    ```csharp
                     if (_LyncClient.Self.CanSetPhone(selectedPhone.Endpoint.Type))
                     {
                         _LyncClient.Self.BeginSetPhone(
@@ -159,7 +159,7 @@ Adding the telephone number and publishing it on the contact card is performed b
     
     The following example publishes a new telephone number to the user’s contact card.
     
-    ``` csharp
+    ```csharp
                     if (_LyncClient.Self.CanSetPhone(selectedPhone.Endpoint.Type))
                     {
                         _LyncClient.Self.BeginSetPhone(
@@ -236,7 +236,7 @@ A user can clear the telephone number that is associated to a telephone type. If
 
 The following example declares the window shown in figure 1.
 
-``` xaml
+```xaml
 <Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -269,7 +269,7 @@ The following example declares the window shown in figure 1.
 
 The following example declares the application logic layer of the window in figure 1.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows;

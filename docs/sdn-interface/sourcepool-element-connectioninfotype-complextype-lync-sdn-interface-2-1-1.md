@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# SourcePool element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# SourcePool element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 Name of the Lync/Skype pool this message originated. If a QualityUpdate message is merged and originated from two pools only one is included here. Currently, the FQDN of one sourcepool is provided, expect a comma delimited list in future releases.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

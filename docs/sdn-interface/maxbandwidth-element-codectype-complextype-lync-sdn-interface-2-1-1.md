@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# MaxBandwidth element (CodecType complexType) (Lync SDN Interface 2.1.1)
+# MaxBandwidth element 
+
+(CodecType complexType) (Lync SDN Interface 2.1.1)
 
 Upper limit of the estimated bandwidth.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

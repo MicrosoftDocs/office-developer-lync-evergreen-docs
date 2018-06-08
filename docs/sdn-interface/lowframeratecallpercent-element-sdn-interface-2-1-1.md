@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# LowFrameRateCallPercent element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# LowFrameRateCallPercent element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of time of the call where frame rate is less than 7.5 frames per second. This metric is reported for video streams when available. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

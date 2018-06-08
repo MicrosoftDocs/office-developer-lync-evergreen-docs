@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RawSDP element (MessageType complexType) (Lync SDN Interface 2.1.1)
+# RawSDP element 
+
+(MessageType complexType) (Lync SDN Interface 2.1.1)
 
 Raw Session Description Protocol (SDP) data that is included as the payload of the underlying SIP messages of the Invite, LRSInvite and StartOrUpdate type, if the sendrawsdp entry is set to True in the LDL configuration file.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

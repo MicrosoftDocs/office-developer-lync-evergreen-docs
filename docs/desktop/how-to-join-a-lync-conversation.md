@@ -126,7 +126,7 @@ You execute the following steps within a method that handles [ConversationAdded]
 
 The following example accepts or rejects an incoming conversation invitation based on the modalities specified for the conversation.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles ConversationAdded state change event raised on ConversationsManager
         /// </summary>
@@ -177,7 +177,7 @@ The following example accepts or rejects an incoming conversation invitation bas
 
 The following example registers for participant events on the new conversation, accepts the conversation notification, and then connects to the conversation modality.
 
-``` csharp
+```csharp
         /// <summary>
         /// Registers for events on a new conversation and connects to audio/video modality if call is incoming.
         /// </summary>

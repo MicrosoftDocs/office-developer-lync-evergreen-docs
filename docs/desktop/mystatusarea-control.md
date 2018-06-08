@@ -107,7 +107,7 @@ Notable MyStatusArea control public properties and events relating to unified co
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:MyStatusArea PhotoDisplayMode="Small"/>
 </StackPanel>

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# QualityUpdate element (MessageType complexType) (Lync SDN Interface 2.1.1)
+# QualityUpdate element 
+
+(MessageType complexType) (Lync SDN Interface 2.1.1)
 
 Specifies the event that a call has ended and contains a report of the quality metrics of individual media streams. These quality metrics for a stream may include updates provided by both endpoints which are merged.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

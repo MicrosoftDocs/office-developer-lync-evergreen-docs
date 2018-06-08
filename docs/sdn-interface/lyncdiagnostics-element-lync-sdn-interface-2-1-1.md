@@ -14,12 +14,6 @@ dev_langs:
 
 The root element for output from the Lync SDN Manager.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

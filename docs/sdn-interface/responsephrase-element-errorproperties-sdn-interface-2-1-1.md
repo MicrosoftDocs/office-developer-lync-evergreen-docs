@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ResponsePhrase element (ErrorProperties complexType) (Lync SDN Interface 2.1.1)
+# ResponsePhrase element 
+
+(ErrorProperties complexType) (Lync SDN Interface 2.1.1)
 
 More info related to the error.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -17,7 +17,7 @@ dev_langs:
 
 The following example serializes a .NET Framework class into an XML string.
 
-``` csharp
+```csharp
 using System;
 using System.Xml;
 using System.Xml.Serialization;

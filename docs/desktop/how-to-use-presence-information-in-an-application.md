@@ -107,7 +107,7 @@ The following topics explain the nature of enhanced presence, how a user’s com
 
 The following example parses the capability details published by a contact and enables or disables radio buttons on the page UI according to the availability of a modality.
 
-``` csharp
+```csharp
             foreach (object capabilityObj in details)
             {
                 PresenceCapability capability = (PresenceCapability)capabilityObj;
@@ -159,7 +159,7 @@ The following example parses the capability details published by a contact and e
     
     The following example examines the collection of changed contact information types and updates radio buttons if the **CapabilityDetails** type is in the collection.
     
-    ``` csharp
+    ```csharp
                 if (e.ChangedContactInformation.Contains(ContactInformationType.CapabilityDetails) )
                 {
                     this.Dispatcher.Invoke(new NoParamDelegate(GetCapabilityDetails));
@@ -178,7 +178,7 @@ The following example parses the capability details published by a contact and e
     
     The following example declares a list of strings and adds a contact SIP address.
     
-    ``` csharp
+    ```csharp
                 List<string> invitedParticpants = new List<string>();
                 invitedParticpants.Add(_contact.Uri);
     ```
@@ -201,7 +201,7 @@ The following example parses the capability details published by a contact and e
     </tbody>
     </table>
     
-    ``` csharp
+    ```csharp
     automation.BeginStartConversation(selectedModality, invitedParticpants,null, null, null);
     ```
 
@@ -209,7 +209,7 @@ The following example parses the capability details published by a contact and e
 
 The following example declares a WPF page that shows the conversation modalities available for a given contact. The page lets the user select a modality and then start a conversation.
 
-``` xaml
+```xaml
 <Page x:Class="ContactCapabilities.StartConversation"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -246,7 +246,7 @@ Title="StartConversation" Background="AntiqueWhite">
 
 The following example takes the SIP address of a Lync 2013 user, gets a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object, queries for current capabilities, enables appropriate radio buttons, and starts a conversation with the contact using the selected modality.
 
-``` csharp
+```csharp
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;

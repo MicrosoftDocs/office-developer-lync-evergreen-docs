@@ -87,7 +87,7 @@ Notable StartInstantMessagingButton control public properties and events relatin
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:StartInstantMessagingButton Source="sip:elise@contoso.com" />
 </StackPanel>

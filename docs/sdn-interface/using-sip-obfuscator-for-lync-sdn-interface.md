@@ -33,6 +33,7 @@ To use SIP Obfuscator, do the following:
 
 To search for the data records associated with this user (sip:adama@contoso.com), you can search for the records containing sip:CE6AF05C9705A05E@contoso.com. An example of such an obfuscated data record is shown as follows:
 
+```xml
     <Start Type="audio">
         <From>
           <Id>87c1bcf104</Id>
@@ -41,9 +42,9 @@ To search for the data records associated with this user (sip:adama@contoso.com)
           ……
         </From>
     </Start>
-
+```
 
 > [!NOTE]
-> <P>IP addresses are never obfuscated in Lync SDN Interface because they are essential information for identifying the streams in the network.</P>
+> IP addresses are never obfuscated in Lync SDN Interface because they are essential information for identifying the streams in the network.
 
 

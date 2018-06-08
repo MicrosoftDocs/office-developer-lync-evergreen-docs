@@ -111,7 +111,7 @@ The following procedures show how to get the first two formats.
     
     The following example calls the **GetContactInformation** method and adds the returned string value to a list on the WPF page.
     
-    ``` csharp
+    ```csharp
     Capability_List.Items.Add("Summary: " + _contact.GetContactInformation(ContactInformationType.CapabilityString));
     ```
 
@@ -153,7 +153,7 @@ The following procedures show how to get the first two formats.
     </tbody>
     </table>
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Gets the details of capability to communicate in all possible modalities and displays the
             /// details in the list.
@@ -203,7 +203,7 @@ When a user’s availability changes or the user signs in to Lync 2013 from a de
 
 4.  If one of these contact information types has changed, get the new values and display them.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Raised when user information is republished. This event handler reloads the 
             /// capability list when the capability summary string or capability details are
@@ -245,7 +245,7 @@ This example is a WPF window that hosts a [Microsoft.Lync.Controls.ContactList](
 
 The following example declares a WPF window that hosts the contact list control.
 
-``` xaml
+```xaml
 <Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -266,7 +266,7 @@ The following example declares a WPF window that hosts the contact list control.
 
 The following example provides the code-behind logic for the main window. When a user is selected from the contact list, a new WPF page is created and set as the content of the main window.
 
-``` csharp
+```csharp
 using System;
 using System.Windows;
 using Microsoft.Lync.Model;
@@ -302,7 +302,7 @@ namespace ContactCapabilities
 
 The following example declares a WPF page that displays the communication modality capabilities of the selected user.
 
-``` xaml
+```xaml
 <Page
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -354,7 +354,7 @@ Title="CapabilityPage">
 
 The following example provides the code-behind logic for the previous WPF page, gets the current capabilities of the selected user, displays the capabilities in a list, and updates the list when the capabilities change.
 
-``` csharp
+```csharp
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# VideoPacketLossRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# VideoPacketLossRate element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over the duration of the session. This metric is reported for video streams when available. (packets/s)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -31,7 +31,7 @@ To deny the access to a chat room by a user, simply remove the user from the cha
 
 The following code example shows how to add a user to a chat room in a given role. The chat room is the first one managed by the currently signed-in user. The to-be-added user is identified by his email address ("johndoe@contoso.com") and retrieved by calling the [BeginFindUsersOrGroupsForRole(ChatRoomRole, Uri, String, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj266406\(v=office.15\)) and [EndFindUsersOrGroupsForRole(IAsyncResult)](https://msdn.microsoft.com/en-us/library/jj267864\(v=office.15\)).
 
-``` csharp
+```csharp
     PersistentChatServices chatServices = persistentChatEndpoint.PersistentChatServices;
     var roomSum = chatServices.EndBrowseChatRoomsIManage(
         chatServices.BeginBrowseChatRoomsIManage(null, null, 100)).FirstOrDefault();

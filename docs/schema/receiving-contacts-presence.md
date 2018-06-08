@@ -19,7 +19,7 @@ The subscription to contacts and groups category instances provides a mechanism 
 
 The following code example shows how to manage the subscription to contacts presence. It shows the programming tasks that are used to subscribe and unsubscribe to the contacts presence, to refresh an ongoing subscription to the contacts presence, and to make on-demand queries of the contacts presence. For more information about initializing a contacts presence subscription, see [Preparing to receive a contact list](preparing-to-receive-a-contact-list.md).
 
-``` csharp
+```csharp
         #region Managing contacts' presence subscription
 
         /// <summary>

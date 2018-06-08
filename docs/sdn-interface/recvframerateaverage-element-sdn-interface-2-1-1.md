@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RecvFrameRateAverage element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RecvFrameRateAverage element
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average frames per second received for all video streams and computed over the duration of the session. This metric is reported for video streams when available. (frames/s)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

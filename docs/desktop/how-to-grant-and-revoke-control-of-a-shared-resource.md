@@ -150,7 +150,7 @@ The following example completes the following steps.
 
 <!-- end list -->
 
-``` csharp
+```csharp
          /// <summary>
         ///Grant another participant control of a locally owned and shared resource.
         ///The Grant button is enabled when the _sharingModality_ActionAvailabilityChanged event handler is
@@ -185,7 +185,7 @@ The following example completes the following steps.
 
 The following example is invoked by the platform thread on completion of the asynchronous [ApplicationSharingModality.BeginGrantControl](https://msdn.microsoft.com/en-us/library/jj274501\(v=office.15\)).
 
-``` csharp
+```csharp
         /// <summary>
         /// Callback method for all asynchronous modality control methods.
         /// </summary>
@@ -271,7 +271,7 @@ When control of the locally shared resource is revoked, the Grant action is avai
 
 The following example revokes control of a locally owned and share resource that is controlled by a resource viewer. The **\_ResourceControllingContact** object is a class field of type [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)). It is filled in the previous example when the control of the resource changes as a result of a grant operation.
 
-``` csharp
+```csharp
         /// <summary>
         ///Revoke control of a remotely controlled resource and locally owned shared resource.
         ///The Revoke button is enabled when the _sharingModality_ActionAvailabilityChanged event handler is called
@@ -302,7 +302,7 @@ When your application has granted and revoked a locally shared resource, the res
 
 The following example declares the Windows form that is shown in figure 1. The resource sharing sample is a complete solution that uses all of the methods, events, and properties of the application sharing modality to give a user all of the sharing features exposed by the modality.
 
-``` csharp
+```csharp
 namespace ShareResources
 {
     partial class ShareResources_Form
@@ -710,7 +710,7 @@ namespace ShareResources
 
 The following example interacts with the previously declared Windows Form. The code starts a conversation, chooses a shareable resource, starts the sharing session, and grants and revokes control of the shared resource.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;

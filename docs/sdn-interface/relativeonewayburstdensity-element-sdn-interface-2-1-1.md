@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RelativeOneWayBurstDensity element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RelativeOneWayBurstDensity element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Total one-way burst density involving unsteady transmission. An unsteady transmission is one where data flows in random bursts as opposed to a steady stream. This metric measures data flow between the client and the server and is only reported for application sharing streams using Lync 2013.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

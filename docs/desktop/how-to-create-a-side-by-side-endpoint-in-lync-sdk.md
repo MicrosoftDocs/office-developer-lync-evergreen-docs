@@ -92,7 +92,7 @@ Creating a side-by-side endpoint is a one step process that involves calling the
 
   - Call the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/dn378084\(v=office.15\)) method. An object of the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) is returned.
     
-    ``` csharp
+    ```csharp
     //If sideBySide == false, a standard endpoint is created
      //Otherwise, a side-by-side endpoint is created
      LyncClient _LyncClient = LyncClient.GetClient(sideBySide);
@@ -102,7 +102,7 @@ Creating a side-by-side endpoint is a one step process that involves calling the
 
 The following example creates a standard endpoint or a side-by-side endpoint and then if Lync 2013 is in UI suppression mode, initializes the obtained endpoint.
 
-``` csharp
+```csharp
         /// <summary>
         /// Gets the Lync client, initializes if in UI suppression, and 
         /// starts the user sign in process

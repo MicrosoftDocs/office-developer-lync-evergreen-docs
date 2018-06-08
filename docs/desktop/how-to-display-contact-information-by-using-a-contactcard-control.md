@@ -82,7 +82,7 @@ Use a [Grid](http://msdn2.microsoft.com/en-us/library/ms610550) as a container f
 
 3.  Edit the Name and Source properties to provide valid values.
     
-    ``` xaml
+    ```xaml
     <Grid>
      <Grid.ColumnDefinitions>
       <ColumnDefinition/>

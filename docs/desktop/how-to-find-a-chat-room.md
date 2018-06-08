@@ -87,7 +87,7 @@ In addition to the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/
 
 The following example references the namespaces that are used in the following Windows Forms examples.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -98,7 +98,7 @@ using System.Collections;
 
 The following example declares the class fields that are referenced later in this topic.
 
-``` csharp
+```csharp
         /// <summary>
         /// The LyncClient class instance that encapsulates the Lync client platform
         /// </summary>
@@ -166,7 +166,7 @@ The following example gets the [Microsoft.Lync.Model.LyncClient](https://msdn.mi
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Gets the LyncClient instance that encapsulates the Lync client platform and registers
         /// for events on both LyncClient and the RoomManager. 
@@ -254,7 +254,7 @@ When the initial list of followed rooms is filled, you must handle two events on
 
 The following example updates the application UI by using the current state of the client, gets the user’s URI, checks the state of the room manager, and adds the title of every room in the followed room collection to a list in the chat room UI.
 
-``` csharp
+```csharp
         /// <summary>
         /// Loads a UI list box with the room title strings of all Persistent Chat rooms that
         /// the user has "followed"... added to the contact list.
@@ -296,7 +296,7 @@ The following example updates the application UI by using the current state of t
 
 The following examples handle the [RoomManager.FollowedRoomAdded](https://msdn.microsoft.com/en-us/library/jj278058\(v=office.15\)) and [RoomManager.FollowedRoomRemoved](https://msdn.microsoft.com/en-us/library/jj275522\(v=office.15\)) events.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when a user adds a chat room to the contact list
         /// </summary>
@@ -324,7 +324,7 @@ The following examples handle the [RoomManager.FollowedRoomAdded](https://msdn.m
 
 The following example adds a room title to the followed room list or removes the title, depending on which of the two previous event handlers invoked it.
 
-``` csharp
+```csharp
         //Delegate that is invoked by the Room Manager followed room collection events
         private delegate void UpdatedFollowedRoomListCallback(Room followedRoom);
 
@@ -413,7 +413,7 @@ The next procedure assumes that a user wants to participate in a chat room that 
 
 The following example starts an asynchronous query for a chat room based on a name supplied by a user.
 
-``` csharp
+```csharp
         /// <summary>
         /// Query for a chat room based on a partial or full room title.
         /// </summary>
@@ -441,14 +441,14 @@ The following example starts an asynchronous query for a chat room based on a na
 
 The following example declares private delegates that are invoked on the UI thread by platform thread callback methods.
 
-``` csharp
+```csharp
         private delegate void UpdateRoomUri_Textbox(string roomUri);
         public delegate void UpdateSearchRoomsResultCallback(string roomName);  
 ```
 
 The following example is called by the platform when the chat room query operation is finished.
 
-``` csharp
+```csharp
        /// <summary>
         /// Handles the asynchronous callback from the Lync API platform when the room query operation is completed
         /// </summary>
@@ -489,7 +489,7 @@ The following example is called by the platform when the chat room query operati
 
 The following examples comply with the delegate signatures in the previous delegate declarations. The example methods are invoked by the previous example and update UI controls to display the results of a room query.
 
-``` csharp
+```csharp
         /// <summary>
         /// Invoked to update a UI label text property with the Uri of a chat room to be joined.
         /// </summary>
@@ -659,7 +659,7 @@ The following example declares a Windows Form that accepts a string as a partial
 
 The following example is the interaction logic for the Form declared in the previous example.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;

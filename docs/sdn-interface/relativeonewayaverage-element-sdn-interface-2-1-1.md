@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RelativeOneWayAverage element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RelativeOneWayAverage element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average amount of one-way latency. Relative one-way latency measures the delay between the client and the server. This metric is only reported for application sharing streams using Lync 2013. (ms)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

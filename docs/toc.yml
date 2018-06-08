@@ -2602,8 +2602,6 @@
         href: technical-articles/provisioning-history-as-the-context-for-an-incoming-conversation.md
       - name: Performing batch requests
         href: technical-articles/performing-batch-requests.md
-      - name: Calling users back to a meeting
-        href: technical-articles/calling-users-back-to-a-meeting.md
     - name: Lync 2013 UI customization
       href: technical-articles/lync-2013-ui-customization.md
     - name: Lync developer sample applications

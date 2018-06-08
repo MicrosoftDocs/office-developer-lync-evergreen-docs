@@ -121,7 +121,7 @@ If both conditions are met, the conversation is duplicated and should be ignored
 
 The following example identifies a "shadow" conversation. This method should be called in the registered callback method for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the event raised when a new conversation is added. 
         /// </summary>

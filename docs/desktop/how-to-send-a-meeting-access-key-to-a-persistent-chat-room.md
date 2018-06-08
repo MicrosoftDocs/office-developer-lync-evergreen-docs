@@ -59,7 +59,7 @@ Use Lync 2013 API automation to start an audio conference that people can join f
 
 3.  In the callback method or lambda expression passed as the second argument in the previous method call, call the [Automation.EndMeetNow](https://msdn.microsoft.com/en-us/library/jj278119\(v=office.15\)) method and cache the [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) object that encapsulates the new meeting.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Starts a new meeting by using automation
             /// </summary>
@@ -101,7 +101,7 @@ Now that you have the access key to the new audio conference, you can post the k
     
     The following example reads the event data value to get the conference access key.
     
-    ``` csharp
+    ```csharp
                             ConferenceAccessInformation conferenceAccess = (ConferenceAccessInformation)e.Value;
     ```
 
@@ -109,7 +109,7 @@ Now that you have the access key to the new audio conference, you can post the k
     
     The following example handles the **PropertyChanged** event on the conversation, gets all components of the access key, and stores them in a **StringBuilder** to be used when the user clicks the **Post Access Key** button in the UI.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Handles event raised when interesting conversation properties changed. 
             /// Handler is only interested in conference properties
@@ -202,7 +202,7 @@ Now that you have the access key to the new audio conference, you can post the k
 
 4.  Send the access key to the selected chat room by calling the [Room.BeginSendMessage](https://msdn.microsoft.com/en-us/library/jj293980\(v=office.15\)) method.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Posts the meeting access key to the first followed chat room in the local
             /// user's folled chat room collection
@@ -273,7 +273,7 @@ Figure 1 shows the meet now access manager. This application starts new meet-now
 
 ![Meeting access manager with access key shown](images/JJ933163.LyncClientSDK_MeetingAccessKey(Office.15).jpg "Meeting access manager with access key shown")
 
-``` xaml
+```xaml
 <Window x:Class="MeetingAccess.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -361,7 +361,7 @@ Figure 1 shows the meet now access manager. This application starts new meet-now
 
 The following example is the interaction logic for the WPF window declared in the previous example.
 
-``` csharp
+```csharp
 using System.Windows;
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Conversation;

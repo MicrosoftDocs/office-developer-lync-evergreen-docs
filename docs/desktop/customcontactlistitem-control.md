@@ -117,7 +117,7 @@ Notable CustomContactListItem control public properties relating to unified comm
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <controls:CustomContactList>
   <controls:CustomContactListItem Source="sip:mary@contoso.com"/>
 </controls:CustomContactList>

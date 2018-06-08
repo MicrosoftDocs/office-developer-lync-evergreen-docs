@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RDPTileProcessingLatencyAverage element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RDPTileProcessingLatencyAverage element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average processing time for remote desktop protocol (RDP) tiles. A higher total value implies a longer delay in the viewing experience. When available, this metric is only reported for application sharing streams using Lync 2013. (ms)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

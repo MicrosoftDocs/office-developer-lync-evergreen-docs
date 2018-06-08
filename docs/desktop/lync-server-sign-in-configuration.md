@@ -79,7 +79,7 @@ The Lync 2013 API exposes a method on the [Microsoft.Lync.Model.SignInConfigurat
 
 The following example checks to see whether the client is signed out, removes the ″sip:″ substring from a SIP address obtained from a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object, and then calls the [SignInConfiguration.ForgetMe](https://msdn.microsoft.com/en-us/library/dn378085\(v=office.15\)) method.
 
-``` csharp
+```csharp
         /// <summary>
         /// Clears the credential cache of the credentials of a user
         /// </summary>

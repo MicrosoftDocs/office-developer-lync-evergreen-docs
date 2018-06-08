@@ -79,7 +79,7 @@ The sample application at the end of this topic displays a list of contacts for 
     </tbody>
     </table>
     
-    ``` csharp
+    ```csharp
             /// Loads a list box with existing contact list groups
             /// by iterating on the Groups collection of the ContactManager 
             /// property on LyncClient.
@@ -189,7 +189,7 @@ Deleting a contact from the user’s contact list requires that the contact is r
 
 2.  Call the **ContactManagerBeginRemoveContactFromAllGroups(Contact, AsyncCallback, Object)** method, passing the selected contact in the first argument.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// remove the selected contact from every group in the users contact list
             /// </summary>
@@ -217,7 +217,7 @@ Deleting a contact from the user’s contact list requires that the contact is r
 
 The following example declares a window that shows a list of groups and a list of contacts that are in the selected group.
 
-``` xaml
+```xaml
 <Window x:Class="GroupManager.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -251,7 +251,7 @@ The following example declares a window that shows a list of groups and a list o
 
 The following example handles platform events for the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) and events raised by the previous window.
 
-``` csharp
+```csharp
 using System.Windows;
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Group;

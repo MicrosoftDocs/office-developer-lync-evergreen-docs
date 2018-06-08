@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RoundTripMax element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RoundTripMax element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Maximum network propagation round-trip time as specified in \[RFC3550\] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

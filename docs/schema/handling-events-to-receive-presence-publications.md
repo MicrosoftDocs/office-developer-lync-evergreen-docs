@@ -17,7 +17,7 @@ dev_langs:
 
 The following code example shows how to receive remote presence in the event handlers for persistent and polling subscriptions as well as for queries.
 
-``` csharp
+```csharp
         #region Event handlers for persistent subscription 
         void PersistentPresenceReceivedEventHandler(object sender,
             RemotePresentitiesNotificationEventArgs e)

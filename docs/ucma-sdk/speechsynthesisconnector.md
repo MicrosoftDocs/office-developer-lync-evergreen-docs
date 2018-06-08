@@ -27,37 +27,37 @@ The following procedure describes the steps involved in creating and using a [Sp
 
 1.  The application uses the constructor to create a **SpeechSynthesisConnector** instance.
     
-    ``` csharp
+    ```csharp
     SpeechSynthesisConnector synthConnector = new SpeechSynthesisConnector();
     ```
 
 2.  The application then calls [AttachFlow](https://msdn.microsoft.com/en-us/library/hh348319\(v=office.15\)) to bind the **SpeechSynthesisConnector** instance to an **AudioVideoFlow** instance. In this code example, it is assumed that *AVFlow* has already been constructed, and is in the **Active** state.
     
-    ``` csharp
+    ```csharp
     synthConnector.AttachFlow(AVFlow);
     ```
 
 3.  The application then calls **SetOutputToAudioStream(Stream, SpeechAudioFormatInfo)** on the **SpeechSynthesizer** instance (assumed to have been previously constructed) to identify the stream to use as well as how the audio data will be formatted.
     
-    ``` csharp
+    ```csharp
     synthesizer.SetOutputToAudioStream(synthConnector.Stream, AudioFormat);
     ```
 
 4.  The application then calls **Start** on a **SpeechSynthesisConnector** instance, causing this device to start.
     
-    ``` csharp
+    ```csharp
     synthConnector.Start()
     ```
 
 5.  The application can then use **Speak** to utter a prompt.
     
-    ``` csharp
+    ```csharp
     synthesizer.Speak(prompt);
     ```
 
 6.  When the **Speak** operation is complete or after the **SpeakCompleted** event is raised, the application uses **Stop**, to stop the **SpeechSynthesisConnector** instance.
     
-    ``` csharp
+    ```csharp
     synthConnector.Stop();
     ```
     

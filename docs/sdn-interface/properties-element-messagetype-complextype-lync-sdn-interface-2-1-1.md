@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Properties element (MessageType complexType) (Lync SDN Interface 2.1.1)
+# Properties element (MessageType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Details of the Error or reason for ending the streams.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

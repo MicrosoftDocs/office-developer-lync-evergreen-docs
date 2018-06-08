@@ -27,7 +27,7 @@ When a subscription to the self-published contact list is in a Subscribed state,
 
 Adding a contact to an existing contact list is an asynchronous operation and involves calls to BeginAddContact/EndAddContact on the ContactGroupServices object. The following code example shows how this is implemented in a UCMA application.
 
-``` csharp
+```csharp
         public void AddContact(string contactUri, string contactData, string contactExtension, string contactName, int containerId)
         {
             if (_cgServices.CurrentState == CollaborationSubscriptionState.Subscribed) 
@@ -61,7 +61,7 @@ Adding a contact to an existing contact list is an asynchronous operation and in
 
 Removing a contact from an existing contact list is an asynchronous operation and involves calls to BeginDeleteContact/EndDeleteContact on the ContactGroupServices object. The following code example shows how this is implemented in a UCMA application.
 
-``` csharp
+```csharp
         public void DeleteContact(string contactUri)
         {
             if (_cgServices.CurrentState == CollaborationSubscriptionState.Subscribed)
@@ -99,7 +99,7 @@ Removing a contact from an existing contact list is an asynchronous operation an
 
 Updating a contact in an existing contact list is an asynchronous operation and involves calls to BeginUpdateContact/EndUpdateContact on the ContactGroupServices object. The following code example shows how this is implemented in a UCMA application.
 
-``` csharp
+```csharp
         public void UpdateContact(Contact contact)
         {
             if (_cgServices.CurrentState == CollaborationSubscriptionState.Subscribed)
@@ -129,7 +129,7 @@ Updating a contact in an existing contact list is an asynchronous operation and 
 
 Adding, deleting, and updating a group in an existing contact list are asynchronous operations and involve calls to BeginAddGroup/EndAddgroup, BeginDeleteGroup/EndDeleteGroup and BeginUpdateGroup/EndUpdateGroup on the ContactGroupServices object. The following code example shows how these are implemented in a UCMA application.
 
-``` csharp
+```csharp
         public void AddGroup(string groupName, string groupData)
         {
             if (_cgServices.CurrentState == CollaborationSubscriptionState.Subscribed)

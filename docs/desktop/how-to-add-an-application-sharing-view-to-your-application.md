@@ -97,7 +97,7 @@ The prerequisites for viewing a shared resource in UI suppression are as follows
 
 In order to return your window and docking container control to their original dimensions after the resource viewer is either closed or resized, you should cache the dimensions of these objects when your window is opened. The following example declares a structure to hold this cached information.
 
-``` csharp
+```csharp
     internal struct ControlDimensions
     {
         /// <summary>
@@ -115,7 +115,7 @@ In order to return your window and docking container control to their original d
 
 The following class field declarations are used by the application logic in this topic
 
-``` csharp
+```csharp
         /// <summary>
         /// Dimensions of the parent form and container control that
         /// will dock the application sharing view
@@ -133,7 +133,7 @@ The following class field declarations are used by the application logic in this
 
 Use the form load event to set values in the previously declared **ControlDimensions** structure. The panel width and height set in this example is an arbitrary value that works for the sample application and is used to set the width and height of the panel at runtime.
 
-``` csharp
+```csharp
         /// <summary>
         /// invoked when sample form is loaded. Initializes fields, gets API entry point, 
         /// registers for events on Lync Client and ConversationManager.
@@ -184,7 +184,7 @@ Register for the [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-u
     </tbody>
     </table>
     
-    ``` csharp
+    ```csharp
             void ConversationManager_ConversationAdded(object sender, ConversationManagerEventArgs e)
             {
     
@@ -206,41 +206,41 @@ Create a container control and dock the [Microsoft.Lync.Model.Conversation.Shari
     
     The following example docks the application sharing viewer when the new state of the application sharing modality is connected.
     
-    ``` csharp
+    ```csharp
                 //Modality will be connected for each particpant whethere they have accepted the sharing invite or not.
                 ApplicationSharingModality thisModality = (ApplicationSharingModality)sender;
     ```
 
 2.  Check to see if the new modality state is [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Connected**.
     
-    ``` csharp
+    ```csharp
                 if (e.NewState == ModalityState.Connected)
                 {
     ```
 
 3.  Check to see if this application sharing modality is owned by the conversation object itself.
     
-    ``` csharp
+    ```csharp
                     if (thisModality == _conversation.Modalities[ModalityTypes.ApplicationSharing])
                     {
     ```
 
 4.  Find out if the shared application is owned by the self participant. You can’t view a locally shared application resource.
     
-    ``` csharp
+    ```csharp
                         if (thisModality.Sharer != _conversation.SelfParticipant)
                         {
     ```
 
 5.  If the shared resource is not the self participant’s resource, then create a panel control and dock the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView](https://msdn.microsoft.com/en-us/library/dn378597\(v=office.15\)).
     
-    ``` csharp
+    ```csharp
     this.Invoke(new NoParamDelegate(DockAppShareView));
     ```
 
 The following example shows the complete modality state changed event callback method.
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the even raised when the state of an application sharing modality changes.
         /// </summary>
@@ -286,7 +286,7 @@ Showing the viewer in your application window involves getting the handle of the
 
 The following example registers for the application sharing viewer events that an application uses to respond to viewer size changes and then docks the viewer by providing the handle of the parent container control to the viewer by calling the [ApplicationSharingView.SetParent](https://msdn.microsoft.com/en-us/library/dn378610\(v=office.15\)) method.
 
-``` csharp
+```csharp
         /// <summary>
         /// Docks the application sharing view in a container control and then
         /// registers for view events
@@ -357,7 +357,7 @@ The default mode of the viewer is [Microsoft.Lync.Model.Conversation.Sharing.App
 
 1.  Get the user’s display mode choice and set the [ApplicationSharingView.DisplayMode](https://msdn.microsoft.com/en-us/library/dn378627\(v=office.15\)) property to the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/en-us/library/dn378658\(v=office.15\)) enumerator for the chosen mode.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Changes the view mode of the application sharing view
             /// </summary>
@@ -410,7 +410,7 @@ The default mode of the viewer is [Microsoft.Lync.Model.Conversation.Sharing.App
     </tbody>
     </table>
     
-    ``` csharp
+    ```csharp
                 //If viewer has a parent window, then it can be resynched.
                 if (_sharingModality.View.Properties[ApplicationSharingViewProperty.ParentWindow] != null)
                 {
@@ -428,7 +428,7 @@ The person who is sharing a resource such as Notepad.exe may use the mouse to dr
 
 1.  Check the display mode of the viewer. If it is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/en-us/library/dn378658\(v=office.15\))**.FitToParent**, then you can return from the event callback method after setting the container and application window to their original dimensions.
     
-    ``` csharp
+    ```csharp
                     //If user chose FitToParent, the parent container control is reset to original dimensions. 
                     if (_sharingModality.View.DisplayMode == ApplicationSharingViewDisplayMode.FitToParent)
                     {
@@ -440,7 +440,7 @@ The person who is sharing a resource such as Notepad.exe may use the mouse to dr
 
 2.  Check the view properties that are changed. If the properties are [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewProperty](https://msdn.microsoft.com/en-us/library/dn378657\(v=office.15\))**.Height** or [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewProperty](https://msdn.microsoft.com/en-us/library/dn378657\(v=office.15\))**.Width**, then the view dimensions have changed.
     
-    ``` csharp
+    ```csharp
                 //If the changed viewer property is a dimension property then resize parent container control
                 if (e.Property == ApplicationSharingViewProperty.Height || e.Property == ApplicationSharingViewProperty.Width)
                 {
@@ -450,7 +450,7 @@ The person who is sharing a resource such as Notepad.exe may use the mouse to dr
 
 The following example re-sizes the container control and the main form when the dimensions of the viewer change.
 
-``` csharp
+```csharp
         /// <summary>
         /// Sets dimensions for container control parent of application sharing view when the 
         /// dimensions of the view change
@@ -502,7 +502,7 @@ The following example gets the dimensions of an **ApplicationSharingView** and t
 
 <!-- end list -->
 
-``` csharp
+```csharp
         private delegate void ResizeFormForPanelDelegate(ApplicationSharingView view);
         /// <summary>
         /// Changes the dimensions of the main form and container control to fit
@@ -586,7 +586,7 @@ The following example gets the dimensions of an **ApplicationSharingView** and t
 
 This example resets the application window and container panel to the dimensions saved in the form load event.
 
-``` csharp
+```csharp
         /// <summary>
         /// resets the main window to the original dimensions for displayed
         /// view panel

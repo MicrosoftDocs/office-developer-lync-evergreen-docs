@@ -126,7 +126,7 @@ Notable PresenceIndicator control public properties and events relating to unifi
 
 The following sample code is for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF).
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:PresenceIndicator Source="sip:mary@contoso.com"/>
 </StackPanel>

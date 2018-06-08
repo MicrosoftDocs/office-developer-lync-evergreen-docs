@@ -23,7 +23,7 @@ To debug a SIP application that is loaded into a Lync Server 2013 deployment, tr
 
 MSPL supports tracing functionality through the built-in [Log](https://msdn.microsoft.com/en-us/library/hh364642\(v=office.15\)) function that can be called throughout the script block to log run-time data in the Windows Event Viewer log on the server or the ApiLogger utility that is distributed with Microsoft Lync Server 2013 SDK. The following example shows the C\# syntax for the **Log** function.
 
-``` csharp
+```csharp
 void Log(string name, bool detail, params string[] messages);
 ```
 

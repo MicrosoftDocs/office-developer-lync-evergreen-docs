@@ -40,7 +40,7 @@ As with presence publications, removing a category instance from a publication c
 
 On the API level, presence deletion can be exposed in a set of methods that are dedicated to this particular kind of operation. In the following example, the deletion is implemented as the asynchronous programming pattern of BeginDeletePresence/EndDeletePresence in UCMA. For grammar-free presence deletion, the BeginDeletePresence takes a collection of PresenceCategory objects in its input. For grammar-based presence deletion, the BeginDeletePresence method takes a collection of PresenceCategoryWithMetaData object in its input.
 
-``` csharp
+```csharp
         public void RequestGrammarBasedPresencePublicationRemoval(string categoryName)
         {
             CustomPresenceCategory category = new CustomPresenceCategory(categoryName, string.Empty /* null */);

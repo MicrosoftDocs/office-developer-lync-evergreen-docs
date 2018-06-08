@@ -29,7 +29,7 @@ The user services are exposed by the [UserServices](https://msdn.microsoft.com/e
 
 To find Persistent Chat users with matching first name, last name, or email address, call [BeginFindUsers(String, String, String, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj265879\(v=office.15\)) followed by [EndFindUsers(IAsyncResult, Boolean)](https://msdn.microsoft.com/en-us/library/jj267276\(v=office.15\)). The following code example shows how to find all users whose first name is John, whose last name is Doe, or whose email address is johndoe@contoso.com.
 
-``` csharp
+```csharp
          PersistentChatEndpoint chatEndpoint = …;
          PersistentChatUserServices ChatUserServices = chatEndpoint.PersistentChatServices.UserServices;
     bool moreAvailable;
@@ -46,7 +46,7 @@ The results are returned as a collection of [PersistentChatPrincipalSummary](htt
 
 To retrieve a Persistent Chat user of a given SIP URI, call [BeginGetUser(Uri, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj267227\(v=office.15\)) followed by [EndGetUser(IAsyncResult)](https://msdn.microsoft.com/en-us/library/jj266902\(v=office.15\)). The following code example shows how to get the complete user information from the first entry of a user query against a given first name, last name, or email address.
 
-``` csharp
+```csharp
 PersistentChatEndpoint chatEndpoint = ...;
 PersistentChatUserServices ChatUserServices = chatEndpoint.PersistentChatServices.UserServices;
 
@@ -73,7 +73,7 @@ In the example above, if the search returns an empty results set, the **GetUser*
 
 To get detailed information of Persistent Chat user group, call [BeginGetUserGroup(PersistentChatPrincipalSummary, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj267230\(v=office.15\)) followed by [EndGetUserGroup(IAsyncResult)](https://msdn.microsoft.com/en-us/library/jj267610\(v=office.15\)). The following code example shows how to get a Persistent Chat user group of a given name (groupName) intended for the specified chat room (roomUri).
 
-``` csharp
+```csharp
 PersistentChatEndpoint chatEndpoint = ...;
 
 public PersistentChatUserGroup GetUserGroup(Uri roomUri, string groupName)

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# MSDiagnosticsPublic element (ErrorProperties complexType) (Lync SDN Interface 2.1.1)
+# MSDiagnosticsPublic element (ErrorProperties complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Public info about the error.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

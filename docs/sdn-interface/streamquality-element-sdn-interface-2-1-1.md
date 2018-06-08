@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# StreamQuality element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# StreamQuality element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Estimated quality of the stream: Good, Poor, Bad
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

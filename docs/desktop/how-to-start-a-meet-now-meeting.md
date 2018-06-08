@@ -80,7 +80,7 @@ The following procedure shows how to start the meeting and get the [Microsoft.Ly
     
     A [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) object is returned. Use this object for operations such as docking and resizing the conversation window.
     
-    ``` csharp
+    ```csharp
                     _Automation.BeginMeetNow((ar) => 
                     {
                       _ConversationWindow = _Automation.EndMeetNow(ar);
@@ -148,7 +148,7 @@ There are two ways to get people into the new meeting. You can invite people dir
 
 5.  Read the properties of the [Microsoft.Lync.Model.Conversation.ConferenceAccessInformation](https://msdn.microsoft.com/en-us/library/jj266047\(v=office.15\)) object as in the following example.
     
-    ``` csharp
+    ```csharp
                         //These properties are used to invite people by creating an email (or text message, or IM)
                         //and adding the dial in number, external Url, internal Url, and conference Id
                         ConferenceAccessInformation conferenceAccess = (ConferenceAccessInformation)e.Value;
@@ -182,7 +182,7 @@ There are two ways to get people into the new meeting. You can invite people dir
 
 The following example declares a WPF window that starts meet-now meetings, sets the meeting access type, and manages the meeting lobby.
 
-``` xaml
+```xaml
 <Window x:Class="MeetingAccess.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"

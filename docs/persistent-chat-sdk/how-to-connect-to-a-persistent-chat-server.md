@@ -21,7 +21,7 @@ To call any Lync Server 2013 Persistent Chat API functionality, an application m
 
 In UCMA, a [LocalEndpoint](https://msdn.microsoft.com/en-us/library/hh349887\(v=office.15\)) is either a [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) or an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)). A client-side Lync Server 2013 Persistent Chat API application will most likely use **UserEndpoint**. An implementation of connecting to Lync Server 2013 computer on a **UserEndpoint** is illustrated as follows.
 
-``` csharp
+```csharp
     ClientPlatformSettings platformSettings = new ClientPlatformSettings(_appName, transport);
     CollaborationPlatform collabPlatform = new CollaborationPlatform(platformSettings);
     collabPlatform.EndStartup(collabPlatform.BeginStartup(null, null));
@@ -85,7 +85,7 @@ The SIP URI used to create an ApplicationEndpoint must correspond to an Active D
 
 When the [LocalEndpoint](https://msdn.microsoft.com/en-us/library/hh349887\(v=office.15\)) instance is connected to Lync Server 2013, the application can proceed to connect to a **PersistentChatEndpoint**. This is shown in the following code.
 
-``` csharp
+```csharp
      // Extract default Persistent Chat server uri via in-band provisioning
 
     ProvisioningData provisioningData = appEndpoint.EndGetProvisioningData(appEndpoint.BeginGetProvisioningData(null, null));

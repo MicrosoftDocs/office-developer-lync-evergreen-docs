@@ -137,7 +137,7 @@ Use the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us
     
     The following example handles the conversation added event.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// New conversation is added because the user added it or was invited to a conversation by another user
             /// </summary>
@@ -176,7 +176,7 @@ The subject of the conversation as provided by the conversation initiator is ava
     
     The following example handles the [Conversation.InitialContextReceived](https://msdn.microsoft.com/en-us/library/jj267349\(v=office.15\)) event.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Displays the initial context received string in the UI list box.  
             /// This event is not raised in this code when Lync is not in UI suppressed mode.
@@ -208,7 +208,7 @@ The subject of the conversation as provided by the conversation initiator is ava
     
     The following example gets the context data, which is formatted as plain text, and then adds the text as an item in the UI list box.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Displays the received context data string in the UI list box
             /// </summary>
@@ -237,7 +237,7 @@ The subject of the conversation as provided by the conversation initiator is ava
     
     The initial context and all additional context sending operations must include the application GUID and context data.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Sends initial conversation context when a) local user selected Start Conversation radio button 
             /// and b) the resulting new conversation is active.
@@ -320,7 +320,7 @@ The subject of the conversation as provided by the conversation initiator is ava
 
 The following example declares a WPF window that sends and receives contextual information in a conversation.
 
-``` xaml
+```xaml
 <Window x:Class="ContextSenderWindow.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -359,7 +359,7 @@ The following example declares a WPF window that sends and receives contextual i
 
 The following example is the interaction logic for the previous WPF declaration. The example starts a conversation or waits for a conversation invitation. When a conversation is established, the example sends contextual information and displays received contextual information.
 
-``` csharp
+```csharp
 using System;
 using System.Windows;
 using Microsoft.Lync.Model;

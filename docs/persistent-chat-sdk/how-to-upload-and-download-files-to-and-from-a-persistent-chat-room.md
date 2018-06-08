@@ -25,7 +25,7 @@ To upload a file to a joined chat room, call the [BeginUploadFile(ChatRoomFileUp
 
 The following code example shows how to upload a file to a chat room by using the Lync Server 2013 Persistent Chat API. The file is identified by the fileToUpload input parameter. The chat room is specified by the roomUri value. In the following example, the event handling of the [ProgressChanged](https://msdn.microsoft.com/en-us/library/jj266417\(v=office.15\)) event is implemented by the job\_ProgressChanged routine.
 
-``` csharp
+```csharp
 PersistentChatEndpoint chatEndpoint = ...;
 ChatRoomSession ChatSession = new ChatRoomSession(chatEndpoint);
 
@@ -50,7 +50,7 @@ void job_ProgressChanged(object sender, ChatRoomFileTransferProgressEventArgs e)
 
 One way to get a file is to use the **OpenFileDialog** control in the System.Windows.Forms namespace, as shown in the following code example.
 
-``` csharp
+```csharp
 static System.IO.FileInfo GetFileToOpen()
 {
     System.Windows.Forms.OpenFileDialog ofd = new System.Windows.Forms.OpenFileDialog();
@@ -67,7 +67,7 @@ To download a file from a joined chat room, call the [BeginDownloadFile(ChatRoom
 
 The following code example shows how to download a file from a chat room by using the Lync Server 2013 Persistent Chat API. The to-be-downloaded file is the first one retrieved from the given chat room. It is extracted from a [ChatMessage](https://msdn.microsoft.com/en-us/library/jj266914\(v=office.15\)) instance containing the file. The implementation is shown in the GetFileDownloadLink routine where the [MessagePartFileDownloadLink](https://msdn.microsoft.com/en-us/library/jj265937\(v=office.15\)) object (downloadLink) is obtained by casting the [MessagePart](https://msdn.microsoft.com/en-us/library/jj265942\(v=office.15\)) of a [ChatMessage](https://msdn.microsoft.com/en-us/library/jj266914\(v=office.15\)) in the chat room. The destinationPath variable specifies the location where the downloaded file is saved. The chat room is specified by the roomUri value. The event handling of the [ProgressChanged](https://msdn.microsoft.com/en-us/library/jj265868\(v=office.15\)) event uses the same job\_ProgressChanged routine that is used to upload the file job.
 
-``` csharp
+```csharp
 public void DownloadFile(Uri roomUri, string destinationPath)
 {
     if (!ChatSession.IsFilePostAllowed)

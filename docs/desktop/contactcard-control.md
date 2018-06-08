@@ -97,7 +97,7 @@ Notable ContactCard control public properties and events relating to unified com
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ContactCard Source="sip:elise@contoso.com" />
 </StackPanel>

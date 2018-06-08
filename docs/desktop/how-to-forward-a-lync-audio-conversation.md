@@ -123,7 +123,7 @@ The client call forwarding operation should be started as soon as an audio call 
 
 ### Class field declarations
 
-``` csharp
+```csharp
         private LyncClient _LyncClient;
 ```
 
@@ -147,7 +147,7 @@ The following example handles the [ConversationAdded](https://msdn.microsoft.com
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles ConversationAdded state change event raised on ConversationsManager
         /// </summary>

@@ -82,7 +82,7 @@ Notable ContactSearch control public properties relating to unified communicatio
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ContactSearch/>
 </StackPanel>

@@ -110,7 +110,7 @@ The essential points of creating and using a **Player** instance are shown in th
 
 <!-- end list -->
 
-``` csharp
+```csharp
 public void Run()
 {
   // Initialize and start the platform.

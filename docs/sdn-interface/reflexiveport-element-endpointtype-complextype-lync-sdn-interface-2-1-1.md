@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ReflexivePort element (EndPointType complexType) (Lync SDN Interface 2.1.1)
+# ReflexivePort element 
+
+(EndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Port used on the NAT.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

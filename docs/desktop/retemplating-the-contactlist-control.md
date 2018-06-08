@@ -55,7 +55,7 @@ To customize the template that is used to display top-level group nodes on the C
 
 1.  The template for a group-level node is applied to an internal control type called [ContactListGroupItem](https://msdn.microsoft.com/en-us/library/hh345694\(v=office.15\)). This control is not directly accessible from the ContactList template. To get a copy of the template for a ContactListGroupItem control, you must temporarily add an instance of ContactListGroupItem to your form, and then edit a copy of its template.
     
-    ``` xaml
+    ```xaml
     <controls:ContactListGroupItem/> <!-- For temporary use -->
     ```
 
@@ -63,7 +63,7 @@ To customize the template that is used to display top-level group nodes on the C
     
     If you accepted the suggested name for the new style, output that resembles the following appears.
     
-    ``` xaml
+    ```xaml
         <Style x:Key="ContactListGroupItemStyle1" 
             TargetType="{x:Type controls:ContactListGroupItem}">
     ```
@@ -74,7 +74,7 @@ To customize the template that is used to display top-level group nodes on the C
     
     When complete, you can use the new style and template in your ContactList control by setting the GroupItemContainerStyle property.
     
-    ``` xaml
+    ```xaml
         <controls:ContactList 
             GroupItemContainerStyle="{StaticResource ContactListGroupItemStyle1}"/>
     ```
@@ -93,7 +93,7 @@ These views are sometimes referred to as OneLine and TwoLines view, respectively
 
 1.  The template for a contact-level node is applied to an internal control type called ContactListItem. This control is not directly accessible from the ContactList template. To get a copy of the template for a ContactListItem, you must temporarily add an instance of ContactListItem to your form, and then edit a copy of its template.
     
-    ``` xaml
+    ```xaml
     <controls:ContactListItem/> <!-- For temporary use -->
     ```
 
@@ -103,7 +103,7 @@ These views are sometimes referred to as OneLine and TwoLines view, respectively
     
     For example, you can modify the template used to display person-type contacts in TwoLines view by customizing the data template that is identified by the key PersonContactItemDataTemplateTwoLines template. After you make your changes, apply the new template by setting the following property on the ContactList control.
     
-    ``` xaml
+    ```xaml
     <controls:ContactList PersonTwoLineItemTemplate=
             "{StaticResource PersonContactItemDataTemplateTwoLines}"/>
     ```

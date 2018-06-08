@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# MSDiagnosticsClient element (ErrorProperties complexType) (Lync SDN Interface 2.1.1)
+# MSDiagnosticsClient element (ErrorProperties complexType)
+
+(Lync SDN Interface 2.1.1)
 
 Info about the error related to and reported by the client.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

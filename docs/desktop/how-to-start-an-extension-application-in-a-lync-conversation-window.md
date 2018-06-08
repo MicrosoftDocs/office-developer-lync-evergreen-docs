@@ -111,14 +111,14 @@ The following procedure shows how to create a WPF window that is used to start a
 
 3.  In MainWindow.xaml.cs, add the following using statements.
     
-    ``` csharp
+    ```csharp
     using Microsoft.Lync.Model;
     using Microsoft.Lync.Model.Extensibility;
     ```
 
 4.  Add the following declarations to the **Window** class.
     
-    ``` csharp
+    ```csharp
     ApplicationRegistration myApplicationRegistration;
     bool _UseRuntimeReg = false;
     ConversationWindow cWindow;
@@ -186,7 +186,7 @@ The following procedure shows how to create a WPF window that is used to start a
     </tbody>
     </table>
     
-    ``` csharp
+    ```csharp
                 Dictionary<AutomationModalitySettings, object> modalitySettings = new Dictionary<AutomationModalitySettings, object>();
     
                 //Set the GUID of the CWE to be opened in the conversation window.
@@ -236,7 +236,7 @@ The following procedure shows how to create a WPF window that is used to start a
 
 The following example declares a WPF window that starts a new IM conversation and opens a CWE application in the new conversation window.
 
-``` xaml
+```xaml
 <Window x:Class="AutomationPhoneCall.Page1"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -257,7 +257,7 @@ The following example declares a WPF window that starts a new IM conversation an
 
 The following example is the interaction logic for the previous window declaration. The example opens a starts a new conversation by opening a [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) and then opening an extensibility pane with a CWE application that is loaded from its default host server or a server specified at runtime.
 
-``` csharp
+```csharp
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;

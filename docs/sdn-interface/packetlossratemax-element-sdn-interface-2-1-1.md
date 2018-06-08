@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# PacketLossRateMax element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# PacketLossRateMax element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Maximum fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over the duration of the session. This metric is reported for all available modalities/media types. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

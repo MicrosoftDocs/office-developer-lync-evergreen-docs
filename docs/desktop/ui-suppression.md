@@ -52,7 +52,7 @@ There are three methods to determine the current UI suppression mode:
 
   - Check the [LyncClient.InSuppressedMode](https://msdn.microsoft.com/en-us/library/jj275500\(v=office.15\)) property.
     
-    ``` csharp
+    ```csharp
     if (LyncClient.GetClient().InSuppressedMode == true)
     {
         MessageBox.Show("Lync is configured for full UI suppression");

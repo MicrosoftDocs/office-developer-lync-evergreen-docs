@@ -21,7 +21,7 @@ A conversation can be created initially as a conference, or an existing two-part
 
 The following code demonstrates creating a conference session and then joining the conference.
 
-``` csharp
+```csharp
 ConferenceSession conferenceSession = conversation.ConferenceSession;
 ConferenceJoinOptions cjo = new ConferenceJoinOptions();
 cjo.JoinAsTrustedApplication = false;

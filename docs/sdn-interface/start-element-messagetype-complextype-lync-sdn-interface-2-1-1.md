@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Start element (MessageType complexType) (Lync SDN Interface 2.1.1)
+# Start element 
+
+(MessageType complexType) (Lync SDN Interface 2.1.1)
 
 Event that a media stream is started. Every Start element contains a report about a particular media stream. This event is raised when the call is established, i.e., when the call is picked up and the SIP INVITE is answered with a 200 OK response.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

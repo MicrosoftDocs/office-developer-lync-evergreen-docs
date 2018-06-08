@@ -63,7 +63,7 @@ UCMA 4.0 allows the [PresentityType](https://msdn.microsoft.com/en-us/library/hh
 
 In the following example, an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) instance is created and initialized with several properties on an [ApplicationEndpointSettings](https://msdn.microsoft.com/en-us/library/hh349433\(v=office.15\)) instance that are appropriate for a bot.
 
-``` csharp
+```csharp
 ApplicationEndpointSettings endpointSettings = new ApplicationEndpointSettings("sip:bot@contoso.com");
 endpointSettings.AutomaticPresencePublicationEnabled = true;
 endpointSettings.Presence.PresentityType = "automaton";

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RecvNoiseLevel element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RecvNoiseLevel element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Received noise level in units of dB that is reported for audio streams when available. Average energy level of received audio is classified as noise, mono signal or the left channel of stereo signal. (dB)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

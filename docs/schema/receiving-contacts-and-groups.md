@@ -26,7 +26,7 @@ After the ContactGroupServices object is initialized and the desired event handl
 
 The following code example shows how to start to receive a published contact list by using UCMA.
 
-``` csharp
+```csharp
         /// <summary>
         /// Start to receive the contacts and groups category instances. The results 
         /// are returned in ContactAdded or GroupAdded events
@@ -58,7 +58,7 @@ The results of this operation are returned in the NotificationReceived events th
 
 The following code example shows how to stop an active subscription to receive the contact list.
 
-``` csharp
+```csharp
         /// <summary>
         /// Stop receiving contacts and groups category instances
         /// </summary>

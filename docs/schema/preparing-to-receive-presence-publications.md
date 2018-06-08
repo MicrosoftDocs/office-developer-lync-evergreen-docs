@@ -39,7 +39,7 @@ For more information about event implementation, see [Handling events to receive
 
 The following code example shows how to prepare for remote presence subscriptions and queries. The example is an excerpt of the C\# **UcmaPresenceWatcher** class that is used to include the other programming aspects of presence subscription and query that appear in this section.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;

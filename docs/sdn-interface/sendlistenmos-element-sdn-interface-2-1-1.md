@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# SendListenMOS element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# SendListenMOS element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, for pre-encoded audio sent by the reporting entity during the session. This metric is reported for audio streams when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

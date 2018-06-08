@@ -193,7 +193,7 @@ The following example creates a new conversation by calling into the [AddConvers
 
 The following declarations provide this example with the ability to marshal event data to the UI thread from the Lync 2013 thread. UIUpdater is invoked using the UpdateFormControlDelegate so that updates to controls on the UI can be made.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;
@@ -215,7 +215,7 @@ namespace CustomAudioConversation
 
 The following example registers for conversation manager events and starts the conversation. Assume the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) was obtained using the steps in [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-``` csharp
+```csharp
 public void StartConversation()
 {
    _LyncClient.ConversationManager.ConversationAdded += ConversationManager_ConversationAdded;
@@ -227,7 +227,7 @@ public void StartConversation()
 
 The following example registers for conversation instance events and adds a participant to the new conversation after verifying that the added conversation is the one started in the previous example.
 
-``` csharp
+```csharp
         /// <summary>
         /// Called on the LyncClient worker thread by the ConversationManager instance when a conversation has been
         /// added to the Conversations collection on ConversationManager.
@@ -270,7 +270,7 @@ The previous example added a participant. This example handles the event raised 
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// ParticipantAdded callback handles ParticpantAdded event raised by Conversation
         /// </summary>
@@ -303,7 +303,7 @@ The following example calls [EndConnect](https://msdn.microsoft.com/en-us/librar
 
 Calling the [EndConnect](https://msdn.microsoft.com/en-us/library/jj274550\(v=office.15\)) method in the callback instead of in the UI thread prevents the example application from blocking while the call is connected.
 
-``` csharp
+```csharp
         /// <summary>
         /// Called on the LyncClient worker thread when an audio/video modality action completes.
         /// </summary>
@@ -358,7 +358,7 @@ This example handles the modality state change event that is raised when the con
 </tbody>
 </table>
 
-``` csharp
+```csharp
         /// <summary>
         /// Handles the Modality state changed event for a Conversation
         /// </summary>

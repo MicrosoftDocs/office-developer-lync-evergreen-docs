@@ -25,7 +25,7 @@ To stop the subscription, call the StartUnsubscribingToPresentities method on th
 
 The following code example shows how to start and stop a persistent subscription.
 
-``` csharp
+```csharp
         #region Persistent subscription
 
         public void StartPersistentSubscription(IEnumerable<string> uris)

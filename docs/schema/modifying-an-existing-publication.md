@@ -19,7 +19,7 @@ In Microsoft Lync Server 2013, modifying an existing publication means republish
 
 The following example updates an already published personal note presence category instance in the custom Container 1000 with a new message.
 
-``` csharp
+```csharp
 string presenceNoteValue = 
          "<note xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"" + 
          "      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"" + 
@@ -36,7 +36,7 @@ RequestGrammarFreePresencePublication(
 
 To change the expiration type (and the expiration time, if necessary) of this note category instance from endpoint-bound to static-bound, reset the **ExpiryPolicy** property and republish the modified category instance in a separate publication request.
 
-``` csharp
+```csharp
 pcm.ExpiryPolicy = PresenceCategoryWithMetaData.User;
 
 RequestGrammarFreePresencePublication(

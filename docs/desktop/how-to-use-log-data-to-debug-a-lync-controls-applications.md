@@ -53,7 +53,7 @@ Create a Lync WPF application with logging enabled and then add XAML code that c
 
 2.  In Page.xaml, add the following XAML, which sets the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property to an invalid URI.
     
-    ``` xaml
+    ```xaml
     <controls:StartInstantMessagingButton Source="sip:typo@contoso"/>
     ```
 

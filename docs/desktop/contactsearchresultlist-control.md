@@ -116,7 +116,7 @@ Notable ContactSearchResultList control public properties relating to unified co
 
 The following example can be used for Silverlight and WPF application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ContactSearchInputBox x:Name="searchInput"/>
   <controls:ContactSearchResultList

@@ -23,7 +23,7 @@ Microsoft Unified Communications Managed API 4.0 exposes in-band provisioning da
 
 In UCMA 4.0, the provisioning data are encapsulated by a LocalEndpoint object. You can obtain the publication grammars by reading the ContainerManifest and CategoryPublicationManifest properties on the LocalOwnerPresence instance of the established endpoint.
 
-``` csharp
+```csharp
     LocalEndpoint endpoint = …;
 
     string cpm = localEndpoint.LocalOwnerPresence.CategoryPublicationManifest;
@@ -32,13 +32,13 @@ In UCMA 4.0, the provisioning data are encapsulated by a LocalEndpoint object. Y
 
 You can receive the cached values of the other provisioning data by calling the GetProvisioningData method on the LocalEndpoint instance.
 
-``` csharp
+```csharp
     ProvisionData provData = endpoint.GetProvisioningData();
 ```
 
 To query the latest provisioning data on the server, make an asynchronous call to BeginGetProvisioningData/EndGetProvisioningData.
 
-``` csharp
+```csharp
     localEndpoint.EndGetProvisioningData(localEndpoint.BeginGetProvisioningData(null, null));
 ```
 

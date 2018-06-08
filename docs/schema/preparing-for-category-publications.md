@@ -35,7 +35,7 @@ In Microsoft Unified Communications Managed API 4.0, presence publication is man
 
 Before performing any of such operations, you must first obtain an instance of this type from the established LocalEndpoint instance and prep the LocalOwnerPresence object to suit your application needs. The following code snippet offers an example of what is involved in such preparation.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;

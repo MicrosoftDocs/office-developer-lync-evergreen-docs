@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# SpeakerGlitchRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# SpeakerGlitchRate element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average glitches per five minutes for the loudspeaker rendering. For good quality, this should be less than one per five minutes. This will not be reported by audio/video conferencing servers, mediation servers, or IP phones.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

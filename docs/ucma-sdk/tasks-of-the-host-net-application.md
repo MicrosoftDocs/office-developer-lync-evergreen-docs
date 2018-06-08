@@ -66,7 +66,7 @@ The following sequence includes sample code that illustrates the typical tasks t
 
 2.  Instantiate a VoiceXML [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance (*vxb* in the following sample) and add delegates to handle events that occur after an asynchronous [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance has been launched and the session is in progress.
     
-    ``` csharp
+    ```csharp
     vxb = new Browser(); 
     vxb.Transferring += new EventHandler(HandleTransferring);
     vxb.Transferred += new EventHandler(HandleTransferred);
@@ -77,13 +77,13 @@ The following sequence includes sample code that illustrates the typical tasks t
 
 3.  Bind a call handler, *AvCallReceived*, with the endpoint:
     
-    ``` csharp
+    ```csharp
     endpoint.RegisterForIncomingCall<AudioVideoCall>(AvCallReceived);
     ```
 
 4.  Accept the call and subscribe to the **StateChanged** event in the [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) class. After the value of the [StateChanged](https://msdn.microsoft.com/en-us/library/hh365997\(v=office.15\)) event switches to **Active**, the .NET application can call the Browser’s **SetAudioVideoCall()** method. Then the .NET application can call either the **Run(Uri, CookieContainer)** or the **RunAsync(Uri, CookieContainer)** method.
     
-    ``` csharp
+    ```csharp
     // Declare an instance of AudioVideoCall that will be passed to SetAudioVideoCall.
     private AudioVideoCall currentCall;
     

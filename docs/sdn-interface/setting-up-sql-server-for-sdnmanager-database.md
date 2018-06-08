@@ -21,7 +21,6 @@ The installer creates and configures a new database or joins a new LSM installat
 
 ## See also
 
-  - [Getting ready to install Lync SDN Interface 2.1.1](getting-ready-to-install-lync-sdn-interface-2-1-1.md)
-
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+- [Getting ready to install Lync SDN Interface 2.1.1](getting-ready-to-install-lync-sdn-interface-2-1-1.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

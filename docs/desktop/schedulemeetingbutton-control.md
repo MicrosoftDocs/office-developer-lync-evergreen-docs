@@ -87,7 +87,7 @@ Notable ScheduleMeetingButton control public properties and events relating to u
 
 The following example can be used for Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF) application development.
 
-``` xaml
+```xaml
 <StackPanel>
   <controls:ScheduleMeetingButton Source="sip:mary@contoso.com"/>
 </StackPanel>

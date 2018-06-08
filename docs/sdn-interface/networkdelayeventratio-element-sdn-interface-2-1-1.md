@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# NetworkDelayEventRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# NetworkDelayEventRatio element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of sessions the the NetworkDelayEvent event was fired when network latency is severe and impacting the experience by preventing interactive communication
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

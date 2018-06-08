@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# MSDiagnosticsPublic element (MessageProperties complexType) (Lync SDN Interface 2.1.1)
+# MSDiagnosticsPublic element (MessageProperties complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Lync-specific public diagnostics message.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -12,14 +12,13 @@ dev_langs:
 
 # Using the Lync SDN Interface 2.1
 
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 Lync service providers and customers can use the Lync SDN Interface to obtain call and quality data about the states of audio and video streams across the Lync network. The Lync SDN Interface relies on the Lync Dialog Listener component (LDL) to capture call and quality data and then dispatches the captured data to Lync SDN Manager (LSM) to process the raw data. The processed and aggregated data is then sent to network controllers, which can in turn correlate the data with their own observations from the network, readjust policies, or reallocate network resources to improve the service quality.
 
 For example, a Lync service provider or customer finds that conference calls initiated during a certain timeframe in a given geographical region experience more frequent dropped calls. To find out what happens, they can install and configure the Lync SDN Interface in their Lync topology and connect it with a Lync SDN-aware network controller. The combined information from Lync clients and the network manager will enable the service provider or customer to resolve issues within the Lync deployment by, for example, identifying a bottleneck in a segment of their network during specific Lync-related load patterns. As a result, they can adjust the network resources accordingly. In other cases, the analysis might result in a need to add more server resources or allocate additional PSTN ports/sessions to reduce the incidence of dropped calls.
 
-## Parsing the Lync call and quality data
+## Parse the Lync call and quality data
 
 The XML output from LSM consists of a set of messages that have \<LyncDiagnostics\> elements. Each message corresponds to a snapshot of the data stream in a call. A \<LyncDiagnostics\> element contains one \<ConnectionInfo\> child element and one or more of the \<Invite\>, \<Start\>, \<Error\>, \<InCallQuality\>, \<Ended\>, \<Bye\> and \<QualityUpdate\> elements. Optionally, a \<RawSDP\> element might be present to contain the SDP content of the SIP message that triggered this SDN message. These child elements fall into the following groups:
 
@@ -33,6 +32,7 @@ The XML output from LSM consists of a set of messages that have \<LyncDiagnostic
 
 The following is an example of a Lync SDN Interface message.
 
+```xml
     <LyncDiagnostics Version="C">
         <ConnectionInfo>
               …
@@ -57,6 +57,9 @@ The following is an example of a Lync SDN Interface message.
         </Start>
         …
     </LyncDiagnostics>
+```
+
+<br/>
 
 The **From** and **To** sections contain information related to the endpoints with the IP and Ports being most relevant for identifying the data streams (RTP). The RTCP streams use the same IP and the next port number (+1). A quality update section provides numerous properties related to the end points and streams, as shown in the following code example.
 
@@ -86,7 +89,6 @@ For more information about LSM-generated Lync SDN Interface 2.1.1 data, see [Lyn
 
 ## See also
 
-  - [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
-
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+- [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

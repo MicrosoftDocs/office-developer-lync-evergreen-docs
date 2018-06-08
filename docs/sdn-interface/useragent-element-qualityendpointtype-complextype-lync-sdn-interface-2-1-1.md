@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# UserAgent element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# UserAgent element (QualityEndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Lync client and version.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

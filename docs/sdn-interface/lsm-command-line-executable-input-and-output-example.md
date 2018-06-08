@@ -12,12 +12,11 @@ dev_langs:
 
 # LSM command-line executable input and output example
 
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 The following code sample shows the input and output resulting from running the LSM console application.
 
-## A sample of input and output of the LSM console application
+## Sample of input and output of the LSM console application
 
 ```xml
 C:\Program Files\Microsoft Lync Server\Microsoft Lync SDN Manager>SDNManager.exe /d

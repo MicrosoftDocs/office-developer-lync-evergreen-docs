@@ -73,7 +73,7 @@ When a Lync Control fails to initialize the connection to Lync 2013, the initial
 
 Use the following XAML code to display Lync Control initialization errors at runtime.
 
-``` xaml
+```xaml
 <StackPanel>
   <TextBlock HorizontalAlignment="Left" Text="Application Initialization Failed:" />
   <TextBox Text="{Binding InitializationFailed, ElementName=presence, Mode=OneWay}" />

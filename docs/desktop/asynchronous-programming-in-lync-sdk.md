@@ -55,7 +55,7 @@ A better way to sign the user in is to register for [Client.StateChanged](https:
 
 The following example uses an asynchronous code pattern to sign a user in to Lync 2013. The EndSignIn method is called on the platform thread by passing the call in the callback argument of BeginSignIn so that the lambda expression can be invoked on the platform thread when the operation is complete.
 
-``` csharp
+```csharp
         public void SignIn(string SIP, string Domain, string Password)
         {
             try

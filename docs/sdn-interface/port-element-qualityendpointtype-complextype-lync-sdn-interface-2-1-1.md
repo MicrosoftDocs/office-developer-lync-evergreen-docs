@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Port element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# Port element (QualityEndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Port number of the destination or source of the media stream used by this endpoint.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

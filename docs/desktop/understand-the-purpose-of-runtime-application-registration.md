@@ -45,7 +45,7 @@ When the internal automation application starts a new conversation window, it ca
 
 The following example overrides the default package by creating an instance of the [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](https://msdn.microsoft.com/en-us/library/jj293820\(v=office.15\)) class, configures it with new values, and creates an in-memory registration for the CWE application. The in-memory registration is used when the conversation window opens the extensibility tab to host the CWE application.
 
-``` csharp
+```csharp
         // Perform Run-Time Registration by using the ApplicationRegistration class.
         void PerformRunTimeRegistration()
         {

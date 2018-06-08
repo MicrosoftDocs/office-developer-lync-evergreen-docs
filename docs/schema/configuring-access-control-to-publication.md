@@ -21,7 +21,7 @@ If you intend to use containers specified by other applications, you need to res
 
 As shown in the following example, in Microsoft Unified Communications Managed API 4.0, adding or removing specified membership scopes to or from a specified container is encapsulated by the **ContainerUpdateOperation** class. The supported membership scopes include individual users as specified by the corresponding SIP URIs (for example, sip:user@contoso.com), network domains as described by the domain names (for example, contoso.com), or source network types as described by the fields of the **SourceNetwork** enumeration type. Configuring container memberships is asynchronous and involves calling **BeginUpdateContainerMembership** on a **LocalOwnerPresence** instance to submit the request and calling **EndUpdateContainerMembership** to receive the operational status of the process.
 
-``` csharp
+```csharp
 
 public void AddContainerMembership(int containerId, string[] domains, 
                                    string[] uris, SourceNetwork[] srcNets)
@@ -96,7 +96,7 @@ The above code snippet should be inserted into the UcmaPublisher class presented
 
 Using the previous example, the following statements add sip:user@contoso.com to the membership of Container 1000.
 
-``` csharp
+```csharp
 int containerId = 1000;
 string[] uris = new string[] { "sip:user@contoso.com" };
 string[] domains = null;
@@ -106,7 +106,7 @@ AddContainerMembership(containerId, domains, uris, srcNets);
 
 If Container 1000 does not exist, the server will create it upon receiving the **AddContainerMembership** request. Similarly, the following statements will remove the user from the container’s membership, if the container is already created and the user is a member of the container.
 
-``` csharp
+```csharp
 int containerId = 1000;
 string[] uris = new string[] { "sip:user@contoso.com" };
 string[] domains = null;

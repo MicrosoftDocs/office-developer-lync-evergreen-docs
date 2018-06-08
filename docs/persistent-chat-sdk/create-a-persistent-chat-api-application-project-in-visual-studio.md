@@ -27,7 +27,7 @@ dev_langs:
 
 5.  Import the Microsoft.Rtc.Collaboration, Microsoft.Rtc.Collaboration.PersistentChat and Microsoft.Rtc.Collaboration.PersistentChat.Management namespaces into the application project by inserting the following statements at the end of the using block in every code file referencing the Lync Server 2013 Persistent Chat API.
     
-    ``` csharp
+    ```csharp
     using Microsoft.Rtc.Collaboration;
     using Microsoft.Rtc.Collaboration.PersistentChat;
     using Microsoft.Rtc.Collaboration.PersistentChat.Management;

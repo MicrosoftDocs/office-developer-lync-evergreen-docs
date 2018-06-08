@@ -56,14 +56,14 @@ ContactSearchResultList uses a variety of [DataTemplate](http://msdn2.microsoft.
 
 1.  Before you begin, temporarily add a reference to the following namespace in your form.
     
-    ``` xaml
+    ```xaml
     xmlns:internal=
     "clr-namespace:Microsoft.Lync.Controls.Internal;assembly=Microsoft.Lync.Controls"
     ```
 
 2.  The template for a contact search result is applied to an internal control type called ContactSearchResultListItem. This control is not directly accessible from the ContactSearchResultList template. To get a copy of the templates used by ContactSearchResultListItem, you must temporarily add an instance of ContactSearchResultListItem to your form, and then edit a copy of its template.
     
-    ``` xaml
+    ```xaml
     <internal:ContactSearchResultListItem/> <!-- For temporary use -->
     ```
     
@@ -87,7 +87,7 @@ ContactSearchResultList uses a variety of [DataTemplate](http://msdn2.microsoft.
 
 4.  In the resulting set of resources, styles and templates used by the ContactSearchResultListItem control appear. The DataTemplate objects can be used to customize the appearance of contacts in the ContactSearchResultList control. For example, you can modify the template used to display person-type contacts by customizing the data template that is identified by the key PersonSearchResultItemDataTemplate template. After you make your changes, apply the new template by setting the following property on the ContactSearchResultList control.
     
-    ``` xaml
+    ```xaml
     <controls:ContactSearchResultList 
             PersonItemTemplate="{StaticResource PersonSearchResultItemDataTemplate}"/>
     ```

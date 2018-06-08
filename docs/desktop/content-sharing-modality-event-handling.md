@@ -57,7 +57,7 @@ A presenter has added a new shareable content item to the content bin. The [Cont
 
 The following example adds the title of the new content to a list in the UI and then enables a command button.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when an item is added to the content bin
         /// </summary>
@@ -111,7 +111,7 @@ A presenter has swapped one content bin sharing item for another item. The [Cont
 
 The following example gets the title of the newly shared content and then enables or disables the command buttons that are appropriate for the content type.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when one content bin item is moved off the sharing stage and is replaced by another
         /// </summary>
@@ -161,7 +161,7 @@ The presenter of the current active shareable content has changed or the active 
 
 The following example updates a label in the application UI with the name of the current presenter.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when the active presenter in the conversation changes
         /// </summary>

@@ -37,7 +37,7 @@ A client platform can be used with a small number of user endpoints to test the 
 
 The following examples show how to initialize and uninitialize a client platform.
 
-``` csharp
+```csharp
 private void Initialize()
 {
 

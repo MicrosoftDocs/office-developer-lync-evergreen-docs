@@ -71,7 +71,7 @@ Additional resources</p></td>
 
 The following example shows how to use the **Conversation.BeginSendInitialContext** method.
 
-``` csharp
+```csharp
 Dictionary<ContextType, object> context = new Dictionary<ContextType, object>();
 context.Add(ContextType.ApplicationId, "{d0722164-f660-470f-a933-e4853f215b77}");
 context.Add(ContextType.ApplicationData, "Some data string");
@@ -80,7 +80,7 @@ IAsyncResult res = conversation.BeginSendInitialContext(context, null, null);
 
 The following example implements the **Conversation.BeginSendContextData** method.
 
-``` csharp
+```csharp
 string appId = "{d0722164-f660-470f-a933-e4853f215b77}";
 string appData = "Some additional data";
 IAsyncResult res = conversation.BeginSendContextData(appId, "text/plain", appData, SendAdditionalContextCallback, null);
@@ -100,7 +100,7 @@ Use the **OnInitialContextReceived** and **OnInitialContextSent** events on the 
 
 The following example shows how to use the **BeginStartConversation** method and the values of the [AutomationModalitySettings](https://msdn.microsoft.com/en-us/library/jj276319\(v=office.15\)) enumerator to add rich context to Lync SDK conversations. Also, use the **Conversation.BeginSendInitialContext** method.
 
-``` csharp
+```csharp
 Dictionary<AutomationModalitySettings, object> _ModalitySettings = new Dictionary<AutomationModalitySettings, object>(); 
 
 // Add the process ID to the modality settings for the conversation.
@@ -127,7 +127,7 @@ _Automation.EndStartConversation(ar);
 
 To send a context link, use the **ContextType.HyperLink** enumeration.
 
-``` csharp
+```csharp
 Dictionary<ContextType, object> context = new Dictionary<ContextType, object>();
 context.Add(ContextType.HyperLink, "http://contoso.com");
 IAsyncResult res = conversation.BeginSendInitialContext(context, SendContextCallback, null);

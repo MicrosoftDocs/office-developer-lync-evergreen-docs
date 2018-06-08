@@ -49,7 +49,7 @@ We will continue from our [Introductory UCWA Windows Store application](http://c
 
 To set up the event channel and integrate it with other parts of our UCWA 1.0 application, let us first encapsulate the event channel in public-scoped class named UcwaAppEventChannel. For this, add the following class definition to the Visual Studio solution.
 
-``` csharp
+```csharp
 using System;
 using System.Linq;
 using System.Net;
@@ -82,7 +82,7 @@ In the above class definition, the event channel class is created with two exter
 
 Add the following member definition to the UcwaAppEventChannel class to open the event channel by starting a loop to poll the [events](http://ucwa.skype.com/documentation/resources-events) resource in a separate thread from the application’s main thread.
 
-``` csharp
+```csharp
         Windows.Foundation.IAsyncAction workItem;
         public void Start( )
         {
@@ -130,7 +130,7 @@ When the server returns event data in a response, the next event Uri is extracte
 
 To stop or cancel the running thread for events, add the following member definition to the UcwaAppEventChannel class to break the event loop.
 
-``` csharp
+```csharp
         public void Stop()
         {
             if (workItem != null && workItem.Status == Windows.Foundation.AsyncStatus.Started)
@@ -146,7 +146,7 @@ When the Stop() is called, the event channel will exit from the event loop. The 
 
 In a pending HTTP GET request, UCWA may hold the operation longer than the default timeout value set by the underlying [HttpClient](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient\(v=vs.118\).aspx) class. When this happens, the [GetAsync](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.getasync\(v=vs.118\).aspx) and the related methods will raise [TaskCanceledException](http://msdn.microsoft.com/en-us/library/system.threading.tasks.taskcanceledexception\(v=vs.110\).aspx). To prevent this from happening, we change the [Timeout](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.timeout\(v=vs.118\).aspx) value to 30 minutes on **HttpClient**. This can be done when the UcwaAppTransport class is initialized. This is illustrated as follows in one of the overloaded Initialize methods.
 
-``` csharp
+```csharp
         public void Initialize(HttpHeaderValueCollection<MediaTypeWithQualityHeaderValue> accept, AuthenticationHeaderValue authorization, Uri baseAddress)
         {
             Client = new HttpClient();
@@ -165,7 +165,7 @@ When a UCWA application remains idle for some time beyond the preconfigured time
 
 This can be done by setting a timer that submits an HTTP PUT request every 4 minutes or so. To enable this, add the following code snippet to the UcwaApp class after the [me](http://ucwa.skype.com/documentation/resources-me) resource is successfully obtained.
 
-``` csharp
+```csharp
                 // Set up a timer to post on reportMyActivity every four minutes
                 timer = new Timer((e) =>
                     {ReportMyActivity(this.ApplicationResource.GetEmbeddedResource("me").GetLinkUri("reportMyActivity"));}, 
@@ -181,7 +181,7 @@ It is assumed that the class variable timer is already declared in the UcwaApp c
 
 Processing the response from a PGET request involves handling the event data, including extracting the next event Uri, when the request succeeds and handling the exception when the request fails. The following sample implementation of the event handling routine is shown as an illustration.
 
-``` csharp
+```csharp
         private void HandleEvent(UcwaResource resource)
         {
             if (OnEventNotificationsReceived != null)
@@ -207,7 +207,7 @@ Here, processing of event data is deferred to upstream event handlers that are r
 
 The following sample implementation illustrates what kind of error conditions one may encounter.
 
-``` csharp
+```csharp
         private void HandleException(UcwaAppOperationResult result)
         {
             switch (result.StatusCode)
@@ -251,7 +251,7 @@ The following sample implementation illustrates what kind of error conditions on
 
 To hook up the event channel with the rest of your UCWA 1.0 application, add the following code snippets after the application resource is created and returned. A successfully created application resource is required in order to obtain the Uri of the events resource to start the event channel. In our example, this takes place in the UcwaApp class
 
-``` csharp
+```csharp
                 // Setup and start event channel
                 var eventsUri = this.ApplicationResource.GetLinkUri("events");
                 this.EventChannel = new UcwaAppEventChannel(eventsUri, this.Transport);
@@ -265,7 +265,7 @@ To hook up the event channel with the rest of your UCWA 1.0 application, add the
 
 Examples of the specified event handlers are shown as follows:
 
-``` csharp
+```csharp
         async void EventChannel_OnEventNotificationsReceived(UcwaEventsData events)
         {
             UcwaEventsData eventsData = events as UcwaEventsData;

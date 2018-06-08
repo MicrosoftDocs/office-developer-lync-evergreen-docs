@@ -49,7 +49,7 @@ Use the BeginSendInitialContext and BeginSendContextData methods to send and upd
 
 On the receiver side, use the [InitialContextReceived](https://msdn.microsoft.com/en-us/library/jj267349\(v=office.15\)) event to access data.
 
-``` csharp
+```csharp
 public void OnInitialContextReceived(Microsoft.Lync.Model.Conversation.Conversation eventSource, Microsoft.Lync.Model.Conversation.ContextEventArgs eventData)
         {
             try
@@ -70,7 +70,7 @@ public void OnInitialContextReceived(Microsoft.Lync.Model.Conversation.Conversat
 
 On the sender side, use the [InitialContextSent](https://msdn.microsoft.com/en-us/library/jj266032\(v=office.15\)) event to access data.
 
-``` csharp
+```csharp
 public void OnInitialContextSent(Microsoft.Lync.Model.Conversation.Conversation eventSource, Microsoft.Lync.Model.Conversation.ContextEventArgs eventData)
         {
             try
@@ -96,7 +96,7 @@ Use the GetApplicationData method on the Conversation object to access the most 
 
 Each LaunchLink has data embedded in the start URL. Clicking the link starts the application together with the corresponding application data and raises the [ConversationContextLinkClicked](https://msdn.microsoft.com/en-us/library/jj266979\(v=office.15\)) event. LaunchLink appears in the conversation history when a user sends or receives a contextual conversation tied to a contextual application whose registration data contains a Path value. Clicking the link executes the Path+Parameters values. If there is a %AppData% parameter in the Parameters value, it is replaced with the data embedded in the LaunchLink. The click also raises the LinkClicked event, which delivers the application data to the application if it is running. If the application is not running, the event is missed.
 
-``` csharp
+```csharp
 public void OnConversationContextLinkClicked(uc.Conversation eventSource, uc.ContextEventData eventData)
         {
             try

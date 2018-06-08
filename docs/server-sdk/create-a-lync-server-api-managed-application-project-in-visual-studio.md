@@ -39,7 +39,7 @@ To create a Microsoft Lync Server 2013 SIP Application API application, write an
 
 4.  Import the Microsoft.Rtc.Sip and other dependent namespaces into the application project by inserting the following statements at the end of the using block in every code file that references the Lync Server 2013 SIP Application API.
     
-    ``` csharp
+    ```csharp
     using Microsoft.Rtc.Sip;
     ```
 

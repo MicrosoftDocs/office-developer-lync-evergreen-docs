@@ -87,7 +87,7 @@ Before you can dock a conversation window, you must know how to start a conversa
 
 1.  Add a grid to the window and define three rows and three columns.
     
-    ``` xaml
+    ```xaml
             <Grid x:Uid="Grid_2">
                 <Grid.RowDefinitions>
                     <RowDefinition x:Uid="RowDefinition_1" Height="Auto"/>
@@ -107,7 +107,7 @@ Before you can dock a conversation window, you must know how to start a conversa
     
     The stack panel declares a location for the IM button and a text block that displays the name of the invited user.
     
-    ``` xaml
+    ```xaml
                 <StackPanel 
                     x:Uid="StackPanel_1" 
                     Grid.Row="0" 
@@ -138,7 +138,7 @@ Before you can dock a conversation window, you must know how to start a conversa
     </tbody>
     </table>
     
-    ``` xaml
+    ```xaml
                     <Controls:StartInstantMessagingButton 
                         x:Uid="_myStartIMButton" 
                         Grid.Row="0" 
@@ -164,14 +164,14 @@ Before you can dock a conversation window, you must know how to start a conversa
     </tbody>
     </table>
     
-    ``` xaml
+    ```xaml
                     <TextBlock x:Uid="TextBlock_1" Text="{Binding ElementName=_myStartIMButton, 
                         Path=DisplayName}"/>
     ```
 
 5.  Add a WindowsFormsHost control to the grid in the second row, second column.
     
-    ``` xaml
+    ```xaml
                 <WindowsFormsHost 
                     x:Uid="_windowsFormsHost" 
                     x:Name="_windowsFormsHost" 
@@ -188,7 +188,7 @@ Before you can dock a conversation window, you must know how to start a conversa
     
     This panel provides the scrolling feature of the sample.
     
-    ``` xaml
+    ```xaml
                             <wf:Panel 
                                 x:Uid="_scrollViewer"
                                 x:Name="_scrollViewer"
@@ -209,14 +209,14 @@ This procedure constructs the conversation manager wrapper class and registers f
 
 1.  Register for the **FrameworkElement.Loaded** and **FrameworkElement.Unloaded** events.
     
-    ``` csharp
+    ```csharp
                 Loaded += HandleLoaded;
                 Unloaded += HandleUnloaded;
     ```
 
 2.  Construct the view model class that encapsulates the [Microsoft.Lync.Model.Conversation.ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) and [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) objects.
     
-    ``` csharp
+    ```csharp
                 _dockingConversationVm = new DockingConversationViewModel();
     ```
 
@@ -224,7 +224,7 @@ This procedure constructs the conversation manager wrapper class and registers f
     
     The following example is taken from the sample Conversation manager model class and runs in the constructor that is called in the previous step.
     
-    ``` csharp
+    ```csharp
                 //Subscribe to the Lync ConversationManager's ConversationAdded and ConversationRemoved events
                 _lync.ConversationManager.ConversationAdded += ConversationManager_ConversationAdded;
                 _lync.ConversationManager.ConversationRemoved += ConversationManager_ConversationRemoved;
@@ -232,14 +232,14 @@ This procedure constructs the conversation manager wrapper class and registers f
 
 4.  Create the helper WindowFlash class that flashes the WPF window when the conversation window needs attention.
     
-    ``` csharp
+    ```csharp
                 _windowFlash = new WindowFlash(this, false);
                 
     ```
 
 5.  Register for the **Activated** event on the window so that you are notified that the window has the focus and flashing can stop.
     
-    ``` csharp
+    ```csharp
     Activated += MainWindowActivated;
     ```
 
@@ -262,14 +262,14 @@ When the window is loaded, a panel is created to nest in the scrollable panel th
 
 2.  Create a new panel control in the event handler.
     
-    ``` csharp
+    ```csharp
                 // Create the host for the conversation window.
                 _conversationWindowParentPanel = new Panel();
     ```
 
 3.  Add the new panel to the scroll viewing panel.
     
-    ``` csharp
+    ```csharp
                 _scrollViewer.Controls.Add(_conversationWindowParentPanel);
     ```
 
@@ -289,14 +289,14 @@ When the window is loaded, a panel is created to nest in the scrollable panel th
     
     When the button is clicked by the user, a conversation with the user specified by the address is started.
     
-    ``` csharp
+    ```csharp
                 //Set the source of the IM button to a SIP address
                 _myStartIMButton.Source = "dani@contoso.com";
     ```
 
 6.  Register for the **FrameworkElement.SizeChanged** event so that there is a response when a user changes the size of the WPF window.
     
-    ``` csharp
+    ```csharp
                 // Subscribe to the MainWindow.SizeChanged event so we can redock the conversation when layout changes happen.
                 SizeChanged += HandleWindowSizeChanged;
     ```
@@ -307,7 +307,7 @@ When a user clicks the **StartInstantMessagingButton** button, Lync 2013 opens a
 
 The sample uses this event to obtain an [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) object that represents the new conversation window by calling the [Automation.GetConversationWindow](https://msdn.microsoft.com/en-us/library/jj267667\(v=office.15\)) method. To respond to size change or attention events, the sample registers for the two events described in Resize the docking control when conversation window size changes.
 
-``` csharp
+```csharp
         /// <summary>
         /// This event is fired when the Conversation is created.  We use the automation
         /// API to get the ConversationWindow for the Conversation, and subscribe to important window events.”
@@ -376,14 +376,14 @@ If the dimensions of the scrolling panel are larger than the minimum dimensions 
     
     The following example handles the **ConversationWindowNeedsSizeChangedEvent** exposed by the helper Conversation manager model class. The helper class handles the [ConversationWindow.NeedsSizeChange](https://msdn.microsoft.com/en-us/library/jj277925\(v=office.15\)) event. The example reads the **MinSize** property on the helper class that returns a **Size** object for the new minimum size of the conversation window.
     
-    ``` csharp
+    ```csharp
                 int minWidth = _dockingConversationVm.MinSize.Width;
                 int minHeight = _dockingConversationVm.MinSize.Height;
     ```
 
 2.  Get the display area dimensions of the scrolling panel, excluding the width of horizontal and vertical scroll bars.
     
-    ``` csharp
+    ```csharp
                 int availWidthWithScrollbar = _scrollViewer.Size.Width - SystemInformation.VerticalScrollBarWidth;
                 int availableHeightWithScrollbar = _scrollViewer.Size.Height - SystemInformation.HorizontalScrollBarHeight;
     ```
@@ -392,7 +392,7 @@ If the dimensions of the scrolling panel are larger than the minimum dimensions 
     
     Displaying the scroll bar for one dimension shortens the other display dimension. For this reason, the new dimensions of the docking panel must be adapted to the display area of the scrolling panel with one or both scroll bars visible.
     
-    ``` csharp
+    ```csharp
                 bool NeedsHorizontalScrollbars = _scrollViewer.Size.Width < minWidth;
                 bool NeedsVerticalScrollbars = _scrollViewer.Size.Height < minHeight;
     
@@ -413,7 +413,7 @@ If the dimensions of the scrolling panel are larger than the minimum dimensions 
 
 4.  Set the dimensions of the docking panel to the larger of the minimum conversation window dimensions or the scrolling panel dimensions.
     
-    ``` csharp
+    ```csharp
                 int width = NeedsHorizontalScrollbars
                     ? minWidth : (NeedsVerticalScrollbars ? availWidthWithScrollbar : _scrollViewer.Size.Width);
                 int height = NeedsVerticalScrollbars
@@ -431,7 +431,7 @@ If the dimensions of the scrolling panel are larger than the minimum dimensions 
     
     The following example docks the conversation window by calling the **RedockConversation** method from the model view class by calling the [ConversationWindow.Dock](https://msdn.microsoft.com/en-us/library/jj294013\(v=office.15\)) method.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// This method redocks the conversation window. When the docked conversation window adds a new visual
             /// element(such as video, a participant list, desktop sharing e.t.c) it's size changes. To accomodate
@@ -470,7 +470,7 @@ The sample application from which the previous code examples are taken is provid
 
 The following example declares a window that will contain a docked conversation window.
 
-``` xaml
+```xaml
     
 <Window x:Uid="Window_1" x:Class="DockingConversationWindowSample.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -533,7 +533,7 @@ The following example declares a window that will contain a docked conversation 
 
 The following logic animates the previously declared view.
 
-``` csharp
+```csharp
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -833,7 +833,7 @@ namespace DockingConversationWindowSample
 
 The following example encapsulates the conversation manager and handles events for the conversation manager and conversation window.
 
-``` csharp
+```csharp
 using System;
 using System.Drawing;
 using Microsoft.Lync.Model;
@@ -1136,7 +1136,7 @@ namespace DockingConversationWindowSample
 
 This class makes a call to the **FlashWindow** method from the user32.dll to flash the WPF window when the conversation window needs attention.
 
-``` csharp
+```csharp
 using System;
 using System.Runtime.InteropServices;
 using System.Windows;

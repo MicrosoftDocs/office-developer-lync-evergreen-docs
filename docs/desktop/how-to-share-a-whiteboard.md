@@ -120,7 +120,7 @@ Before the logic in this topic runs in your application, a conversation must be 
 
 Add the following namespace declarations to your application.
 
-``` csharp
+```csharp
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Group;
 using Microsoft.Lync.Model.Conversation;
@@ -178,7 +178,7 @@ When the [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=o
 
 The following example finishes first three steps of the previous procedure. The fourth step is completed in a following code example.
 
-``` csharp
+```csharp
     if (((ContentSharingModality)_conversation.Modalities[ModalityTypes.ContentSharing]).CanInvoke(ModalityAction.CreateShareableWhiteboardContent))
     {
         string contentTitle = "Project Plan";
@@ -219,7 +219,7 @@ The following example registers event callback methods on the new **SharingModal
 
 The following example enables or disables the content item sharing UI buttons when the availability of actions on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object changes.
 
-``` csharp
+```csharp
         /// <summary>
         /// Raised when the availability of an action on a ShareableContent object changes
         /// </summary>
@@ -259,7 +259,7 @@ To share a whiteboard, call the [ShareableContent.Present](https://msdn.microsof
 
 The following example presents the content item whose title is "Project Plan."
 
-``` csharp
+```csharp
             //Iterate on content collection of conversation content sharing modality,
             //looking for the content whose title matches the string selected in the
             //list.
@@ -298,7 +298,7 @@ To stop sharing a whiteboard, call the [ShareableContent.StopPresenting](https:/
 
 The following example stops sharing the content item whose title is "Project Plan".
 
-``` csharp
+```csharp
         ShareableContent sharedContent = ((ContentSharingModality)_conversation.Modalities[ModalityTypes.ContentSharing]).ActiveContent;
         int hrReason;
         if (sharedContent.CanInvoke(ShareableContentAction.StopPresenting, out hrReason))
@@ -392,7 +392,7 @@ Lync 2013 API conversation objects
 
 The following example declares the window that is shown in figure 1.
 
-``` csharp
+```csharp
 namespace ContentSharing
 {
     partial class ContentSharing_Form
@@ -1007,7 +1007,7 @@ namespace ContentSharing
 
 The following example is the interaction logic for the window declared in the previous example.
 
-``` csharp
+```csharp
 using System;
 using System.Windows.Forms;
 using Microsoft.Lync.Model;

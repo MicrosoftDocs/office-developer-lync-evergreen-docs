@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ResponseCode element (MessageProperties complexType) (Lync SDN Interface 2.1.1)
+# ResponseCode element (MessageProperties complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Message describing the error.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Installing Lync SDN Manager
 
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 To install Lync SDN Manager:
@@ -43,7 +42,7 @@ To install Lync SDN Manager:
             
 
             > [!NOTE]
-            > <P>All the LSMs in the pool must be consistently configured with either Integrated Security or the same SQL user.</P>
+            > All the LSMs in the pool must be consistently configured with either Integrated Security or the same SQL user.
 
     
     2.  For the first LSM installation, as well as any independent alternative, in any given deployment, you must specify the submitUri for the LSM instances to post message to the network controllers. In a pooled configuration, other LSMs joining the same LSM pool will retrieve the submitUri value from the shared database. To set the submitUri:
@@ -72,7 +71,6 @@ To install Lync SDN Manager:
 
 ## See also
 
-  - [Installing Lync SDN Manager](installing-lync-sdn-manager.md)
-
-  - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
+- [Installing Lync SDN Manager](installing-lync-sdn-manager.md)
+- [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 

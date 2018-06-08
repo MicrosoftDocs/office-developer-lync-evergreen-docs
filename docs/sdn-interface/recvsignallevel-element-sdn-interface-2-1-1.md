@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# RecvSignalLevel element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# RecvSignalLevel element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Received signal level in units of dB. This metric is reported for audio streams when available. Average energy level of received audio is classified as mono speech, or left channel of stereo speech. (dB)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

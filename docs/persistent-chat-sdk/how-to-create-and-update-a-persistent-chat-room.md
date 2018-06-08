@@ -23,7 +23,7 @@ To create a chat room successfully, the caller must have been granted a role of 
 
 To determine whether a user has the permission to create a chat room, the application can search for chat room categories in which the user has been granted the permission. It can do so by calling the [BeginFindCategoriesWithCreateRights(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj267546\(v=office.15\)) and [EndFindCategoriesWithCreateRights(IAsyncResult)](https://msdn.microsoft.com/en-us/library/jj266355\(v=office.15\)) methods on [ChatRoomManagementServices](https://msdn.microsoft.com/en-us/library/jj266394\(v=office.15\)).
 
-``` csharp
+```csharp
     ChatRoomManagementServices chatRoomManagementServices = persistentChatEndpoint.PersistentChatServices.ChatRoomManagementServices;
     IAsyncResult asyncResult = chatRoomManagementServices.BeginFindCategoriesWithCreateRights(null, null);
     ReadOnlyCollection<ChatRoomCategorySummary> categories = chatRoomManagementServices.EndFindCategoriesWithCreateRights(asyncResult);
@@ -41,7 +41,7 @@ Programmatically, creation of a chat room using the Lync Server 2013 Persistent 
 
 The following code example shows how to create a chat room of a given name (chatRoomName) under a given chat room category (parentCategoryUri).
 
-``` csharp
+```csharp
     ChatRoomManagementServices chatRoomMgmt = persistentChatEndpoint.PersistentChatServices.ChatRoomManagementServices;
 
     ChatRoomSettings settings = new ChatRoomSettings(chatRoomName, parentCategoryUri);
@@ -50,7 +50,7 @@ The following code example shows how to create a chat room of a given name (chat
 
 The newly create chat room, as identified by roomUri, is of little use unless a list of members is assigned to it. Otherwise, nobody can participate in chat conversation in the room. The following code example shows how to add the current user to the chat room in the [Creator](https://msdn.microsoft.com/en-us/library/jj266929\(v=office.15\)) role.
 
-``` csharp
+```csharp
     // Add current user as member.            
     PersistentChatUserAdministrationServices userMgmt = persistentChatEndpoint.PersistentChatServices.UserAdministrationServices;
     PersistentChatUser user = userMgmt.EndGetUser(userMgmt.BeginGetUser(new Uri(persistentChatEndpoint.InnerEndpoint.OwnerUri), null, null));
@@ -70,7 +70,7 @@ The same programming pattern can be used to add the user to the chat room in the
 
 When a chat room is created, it can be updated. Commonly used updates include changing the privacy settings of the room. The following code example shows how to update a chat room to the specified privacy settings.
 
-``` csharp
+```csharp
     PersistentChatEndpoint chatEndpoint = ...;
     ChatRoomManagementServices ChatRoomServices = chatEndpoint.PersistentChatServices.ChatRoomManagementServices; 
 

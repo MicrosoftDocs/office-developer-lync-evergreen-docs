@@ -93,7 +93,7 @@ Figure 1. People search logic diagram.
     
     The following example iterates the contact collection returned by the [SearchResults.Contacts](https://msdn.microsoft.com/en-us/library/jj276984\(v=office.15\)) property.
     
-    ``` csharp
+    ```csharp
                     //All global address books
                     _LyncClient.ContactManager.BeginSearch(
                         searchName,
@@ -103,7 +103,7 @@ Figure 1. People search logic diagram.
     
     The following example ends the people search and adds the search results to a list of **Contact** objects.
     
-    ``` csharp
+    ```csharp
             /// Handles callback containing results of a search
             /// </summary>
             /// <param name="source"></param>
@@ -165,7 +165,7 @@ Figure 2. People search logic diagram.
     
     The following example iterates the contact collection returned by the [SearchResults.Contacts](https://msdn.microsoft.com/en-us/library/jj276984\(v=office.15\)) property.
     
-    ``` csharp
+    ```csharp
             /// <summary>
             /// Searches in a specified global address book for people whose names
             /// match the search string
@@ -247,7 +247,7 @@ It is better to ask for an event from Lync that tells you when a contact’s ava
 
 The following example is a helper class that looks a person up or searches for people in global address books. The SearchForGroupOrContact method takes a string to search, a string abbreviation of a global address list name, and a Boolean flag that tells the method to look the person up before starting a search. If the look up operation doesn’t return any people, a search is started.
 
-``` csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
