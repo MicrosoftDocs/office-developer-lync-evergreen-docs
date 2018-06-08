@@ -19,31 +19,13 @@ Learn how to add or remove a custom group from a user’s contact list in Micros
 
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Prerequisites<br />
-Custom group overview<br />
-Add a custom group<br />
-Add a distribution group<br />
-Remove a custom group<br />
-Rename a custom group<br />
-Code examples: Add, remove, and rename custom groups<br />
-Next steps<br />
-Additional resources</p></td>
-<td><div class="caption">
+
+<div class="caption">
 Watch the video: Add, rename, and delete custom groups in Lync
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/a5835343-787b-4041-9afc-bea073a748da]</td>
-</tr>
-</tbody>
-</table>
+&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/a5835343-787b-4041-9afc-bea073a748da]
+
 
 ## Custom group overview
 

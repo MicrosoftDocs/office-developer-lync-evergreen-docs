@@ -32,14 +32,17 @@ Create a Silverlight application<br />
 Embed the presence application in the HTML page<br />
 Next steps<br />
 Additional resources</p></td>
-<td><div class="caption">
-Watch the video: Add Lync Controls to a Web Application
-</div>
-<br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]</td>
 </tr>
 </tbody>
 </table>
+
+<div class="caption">
+Watch the video: Add Lync Controls to a Web Application
+</div>
+<br />
+
+&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+
 
 ## Prerequisites
 

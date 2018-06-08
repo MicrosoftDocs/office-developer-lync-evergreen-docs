@@ -24,7 +24,7 @@ Learn about programming Microsoft Lync 2013 conversations with Microsoft Lync 20
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-lync-conversations.md" class="uri">get-started-with-lync-conversations.md</a>   <a href="get-started-with-lync-conversations.md" class="uri">get-started-with-lync-conversations.md</a>   <a href="get-started-with-lync-conversations.md" class="uri">get-started-with-lync-conversations.md</a></p></td>
+<td><p><a href="get-started-with-lync-conversations.md#Start" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-lync-conversations.md#Do" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-lync-conversations.md#Learn" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
 </tr>
 </tbody>
 </table>
@@ -34,6 +34,8 @@ Learn about programming Microsoft Lync 2013 conversations with Microsoft Lync 20
 A Microsoft Lync 2013 conversation is a dialog in IM text, audio, video, or desktop sharing modalities between two or more Lync users. When only two people are in the conversation, the conversation involves only two computer endpoints. This is known as a peer-to-peer conversation. When more than two people are in the conversation, the conversation endpoints include the Lync Server 2013 endpoint that aggregates the conversation modalities so that all participants can see and hear the contributions of other participants.
 
 The Lync 2013 API exposes classes that encapsulate the endpoints, modalities, and participants in a conversation. These classes let you create an application that can give a user the same immersive experience that is available by using the Lync 2013 client.
+
+<a name="Start"></a> 
 
 ## Get started with Lync 2013 conversations
 
@@ -75,6 +77,7 @@ To understand how to work with Lync 2013 conversations, it is important to becom
 </tr>
 </tbody>
 </table>
+<a name="Do"></a> 
 
 ## What can you do with Lync 2013 conversations?
 
@@ -152,6 +155,7 @@ The following table lists basic tasks for working with Lync 2013 conversations.
 </tr>
 </tbody>
 </table>
+<a name="Learn"></a> 
 
 ## Beyond the basics: Learn more about Lync 2013 conversations
 

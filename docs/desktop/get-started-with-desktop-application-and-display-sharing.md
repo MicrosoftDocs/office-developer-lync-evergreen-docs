@@ -24,7 +24,7 @@ Learn the programming concepts and Microsoft Lync 2013 SDK object model for buil
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
+<td><p><a href="get-started-with-desktop-application-and-display-sharing.md#Start" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-desktop-application-and-display-sharing.md#Do" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="gget-started-with-desktop-application-and-display-sharing.md#Learn" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
 </tr>
 </tbody>
 </table>
@@ -34,6 +34,7 @@ Learn the programming concepts and Microsoft Lync 2013 SDK object model for buil
 Microsoft Lync 2013 provides a modality that allows a Lync conversation participant to share a resource such as a view of a Windows desktop, a running application, or a monitor with other conversation participants. The shared resource can be remotely controlled if the sharing participant allows it.
 
 The shared resource is displayed in a component of the Lync conversation window that is known as the sharing stage. It is not possible to share a computer resource through the Lync 2013 API without the use of the conversation window. For this reason, you cannot create a sharing application for use in a UI suppression scenario.
+<a name="Start"></a> 
 
 ## Get started with desktop, application, and display sharing
 
@@ -71,6 +72,7 @@ To understand how to work with resource sharing, it is important to become famil
 </tr>
 </tbody>
 </table>
+<a name="Do"></a> 
 
 ## What can you do with desktop, application, and display sharing?
 
@@ -110,6 +112,7 @@ The following table lists basic tasks for working with desktop, application, and
 </tr>
 </tbody>
 </table>
+<a name="Learn"></a> 
 
 ## Beyond the basics: Learn more about desktop, application, and display sharing
 

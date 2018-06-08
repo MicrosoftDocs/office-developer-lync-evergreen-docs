@@ -38,19 +38,25 @@ What is UI suppression?<br />
 Lync client state transitions, should I care?<br />
 Look for the causes of sign in failure<br />
 Additional resources</p></td>
-<td><div class="caption">
+<td>
+</tr>
+</tbody>
+</table>
+
+<div class="caption">
 Watch the video: Sign In to Lync with UI Suppressed
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/5d247b33-af17-45f6-ad7e-9be9f9f7e5cd]
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/5d247b33-af17-45f6-ad7e-9be9f9f7e5cd]
+
 <div class="caption">
 Watch the video: Sign In to Lync
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8a417ed0-bcab-4da7-b033-d1e2cdb784df]</td>
-</tr>
-</tbody>
-</table>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8a417ed0-bcab-4da7-b033-d1e2cdb784df]</td>
+
 
 ## Prerequisites
 

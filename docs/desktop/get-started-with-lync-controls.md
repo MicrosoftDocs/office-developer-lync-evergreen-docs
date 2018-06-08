@@ -125,7 +125,9 @@ With Microsoft Lync Controls, application developers can implement many of the f
 </tr>
 </tbody>
 </table>
+
 <a name="BeyondTheBasics"></a> 
+
 ## Beyond the basics: Learn more about Lync Controls
 
 The following table lists advanced concepts for working with Lync Controls.

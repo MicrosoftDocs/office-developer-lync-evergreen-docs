@@ -16,30 +16,16 @@ Learn how to add a Microsoft Lync 2013 SDK PresenceIndicator control to a Silve
 
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Prerequisites<br />
-Create a Silverlight application<br />
-Create a WPF application<br />
-Code example: Silverlight presence display page<br />
-Additional resources</p></td>
-<td><p><br />
-</p>
-<p></p></td>
-<td><div class="caption">
+<div class="caption">
 Watch the video: Add Presence to a WPF Application
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
-<p></p></td>
-</tr>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
+
+
+<table>
+<tbody>
 <tr class="even">
 <td><p></p></td>
 <td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
@@ -47,6 +33,7 @@ Watch the video: Add Presence to a WPF Application
 </tr>
 </tbody>
 </table>
+
 
 ## Prerequisites
 
