@@ -410,7 +410,7 @@ http://contos/sites/main/CustomActivities.xsd">
 </customStates>
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

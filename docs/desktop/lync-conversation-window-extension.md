@@ -64,7 +64,7 @@ There are two ways to specify CWE dimensions:
 
   - During Install Registration, use the ExtensibilityWindowSize registry key for the CWE application. For more information, see [Register contextual conversation packages](register-contextual-conversation-packages.md).
 
-## Additional resources
+## See also
 
 [Beyond the basics: Lync conversations](beyond-the-basics-lync-conversations.md)
 

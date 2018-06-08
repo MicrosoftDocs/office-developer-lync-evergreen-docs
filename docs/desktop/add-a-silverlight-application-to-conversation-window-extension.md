@@ -53,7 +53,7 @@ In Lync SDK Silverlight applications, use the LyncClient.GetHostingConversation 
 Conversation currentConversation = (Conversation) LyncClient.GetHostingConversation();
 ```
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

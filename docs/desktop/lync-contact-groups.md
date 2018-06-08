@@ -62,7 +62,7 @@ A custom contact group is a group that your application has full programmatic co
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Get started with Lync contact lists](get-started-with-lync-contact-lists.md)
 

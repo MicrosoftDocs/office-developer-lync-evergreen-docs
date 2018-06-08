@@ -96,7 +96,7 @@ Following are features and behaviors that have been added or updated in the Lync
 
   - For additional updates, please see the Release Notes.
 
-## Additional resources
+## See also
 
   - [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
 

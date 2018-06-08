@@ -139,7 +139,7 @@ After you create the UI control elements that appear in figure 1, the topics in 
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Persistent Chat](beyond-the-basics-persistent-chat.md)
 

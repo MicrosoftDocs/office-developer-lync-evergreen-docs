@@ -221,7 +221,7 @@ private void SendAdditionalDataCallBack(IAsyncResult asyncResult)
 }
 ```
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

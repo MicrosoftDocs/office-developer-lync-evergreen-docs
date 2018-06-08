@@ -649,7 +649,7 @@ namespace MeetingAccess
 
   - [How to: Admit or deny people in the meeting lobby](how-to-admit-or-deny-people-in-the-meeting-lobby.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync meetings](what-you-can-do-with-lync-meetings.md)
 

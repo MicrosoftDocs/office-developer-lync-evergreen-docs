@@ -53,7 +53,7 @@ For localization information, see the MSDN Library article [Localizing Silverlig
 
 For localization information, see the MSDN Library article [Localizing a WPF Application](http://go.microsoft.com/fwlink/?linkid=204378%26clcid=0x409).
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync Controls](beyond-the-basics-lync-controls.md)
 

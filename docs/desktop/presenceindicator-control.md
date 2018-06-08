@@ -132,7 +132,7 @@ The following sample code is for Microsoft Silverlight and Microsoft Windows Pre
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

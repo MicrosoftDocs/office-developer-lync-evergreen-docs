@@ -53,7 +53,7 @@ Learn how to programmatically start a resource sharing conversation, get local s
 
   - [How to: Add an application sharing view to your application](how-to-add-an-application-sharing-view-to-your-application.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

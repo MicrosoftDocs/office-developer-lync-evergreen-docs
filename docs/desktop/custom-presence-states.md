@@ -78,7 +78,7 @@ If an administrator has provisioned Lync Server 2013 with a set of custom activi
 
 The provisioned custom activities are found by calling the [Self.GetPublishableCustomAvailabilityStates](https://msdn.microsoft.com/en-us/library/jj275943\(v=office.15\)) method. A list of [Microsoft.Lync.Model.CustomAvailabilityState](https://msdn.microsoft.com/en-us/library/jj267650\(v=office.15\)) is returned for the LCID specified in the method argument. Before publishing a custom activity, you must find a custom activity with the desired availability, LCID, and activity string. When found, you publish user availability with the specified custom activity ID.
 
-## Additional resources
+## See also
 
   - [How to: Display and publish custom availability in Lync SDK](how-to-display-and-publish-custom-availability-in-lync-sdk.md)
 

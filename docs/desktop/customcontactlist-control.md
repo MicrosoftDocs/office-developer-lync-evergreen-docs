@@ -120,7 +120,7 @@ The following example can be used for Microsoft Silverlight and Microsoft Window
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

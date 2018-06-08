@@ -69,7 +69,7 @@ By using a combination of Lync Controls, you can reproduce most of the features 
 
   - [How to: Display a customized list of team contacts in Lync SDK](how-to-display-a-customized-list-of-team-contacts-in-lync-sdk.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync Controls](get-started-with-lync-controls.md)
 

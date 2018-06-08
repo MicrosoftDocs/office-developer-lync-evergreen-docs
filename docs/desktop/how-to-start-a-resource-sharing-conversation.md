@@ -2148,7 +2148,7 @@ namespace ShareResources
 
   - [How to: Get a shareable resource and share it in a conversation](how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md)
 
-## Additional resources
+## See also
 
   - [What you can do with desktop, application, and display sharing](what-you-can-do-with-desktop-application-and-display-sharing.md)
 

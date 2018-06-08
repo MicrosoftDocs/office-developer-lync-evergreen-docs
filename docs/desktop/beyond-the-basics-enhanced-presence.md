@@ -44,7 +44,7 @@ You might need to create a set of custom user presence states that refine genera
 
   - [Custom presence states](custom-presence-states.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics in Lync 2013 SDK](beyond-the-basics-in-lync-2013-sdk.md)
 

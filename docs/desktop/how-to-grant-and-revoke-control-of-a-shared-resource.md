@@ -1751,7 +1751,7 @@ Read the following topics to learn about requesting control of a resource that a
 
   - [How to: Accept or decline a request to control a shared resource](how-to-accept-or-decline-a-request-to-control-a-shared-resource.md)
 
-## Additional resources
+## See also
 
   - [What you can do with desktop, application, and display sharing](what-you-can-do-with-desktop-application-and-display-sharing.md)
 

@@ -119,7 +119,7 @@ The **DistributionGroup** class lets you perform the following operations.
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Get started with Lync contact lists](get-started-with-lync-contact-lists.md)
 

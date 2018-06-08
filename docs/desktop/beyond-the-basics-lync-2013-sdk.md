@@ -52,7 +52,7 @@ If your users expect to be able to forward calls to mobile or home phones, your 
 
   - [Lync platform status codes](lync-platform-status-codes.md)
 
-## Additional resources
+## See also
 
   - [Core concepts: Lync 2013 SDK](core-concepts-lync-2013-sdk.md)
 

@@ -275,7 +275,7 @@ Before moving on to enabling UCWA features, let us finish setting up the remaini
     
     We will use these UI elements to show the properties of the UCWA me resource. This will be shown in the Inspect Local Presence and User Data section. Before we do that, we need to [Ensure responsive HTTP operations](ensure-responsive-http-operations.md).
 
-## Additional resources
+## See also
 
   - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
 

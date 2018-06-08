@@ -531,7 +531,7 @@ namespace FilterMessageAddIn
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

@@ -150,7 +150,7 @@ The following example can be used for Silverlight and WPF application developmen
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

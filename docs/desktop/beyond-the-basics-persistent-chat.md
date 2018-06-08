@@ -42,7 +42,7 @@ Learn about creating a Lync 2013 Persistent Chat window that accesses messages p
 
   - [Create a custom Persistent Chat client](create-a-custom-persistent-chat-client.md)
 
-## Additional resources
+## See also
 
   - [Get started with Persistent Chat](get-started-with-persistent-chat.md)
 

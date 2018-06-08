@@ -106,7 +106,7 @@ The following example checks to see whether the client is signed out, removes th
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics in Lync 2013 SDK](beyond-the-basics-in-lync-2013-sdk.md)
 

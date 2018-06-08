@@ -64,7 +64,7 @@ The following list presents core programming tasks in a hierarchy that starts wi
 
   - [How to: Handle delegated Lync audio calls](how-to-handle-delegated-lync-audio-calls.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync conversations](get-started-with-lync-conversations.md)
 

@@ -78,7 +78,7 @@ Microsoft Lync 2013 SDK includes the following components:
 
   - [Lync 2013 class libraries reference](lync-2013-class-libraries-reference.md)
 
-## Additional resources
+## See also
 
   - [Microsoft Online Privacy Notice](http://go.microsoft.com/fwlink/?linkid=207069)
 

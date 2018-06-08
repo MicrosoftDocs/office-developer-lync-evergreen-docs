@@ -19,7 +19,7 @@ mtps_version: v=office.15
 
   - [Configuring Lync SDN Interface 2.1.1 Lync SDN Manager](configuring-lync-sdn-interface-2-1-1-lync-sdn-manager.md)
 
-## Additional resources
+## See also
 
   - [Overview of Lync SDN Interface 2.1.1](overview-of-lync-sdn-interface-2-1-1.md)
 

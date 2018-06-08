@@ -176,7 +176,7 @@ To do an unattended uninstall, do the following:
 
   - **For LSM**: In the command line, type C:\\Windows\\System32\\msiexec.exe /X{60A580F2-7B7A-4665-9696-07BE5D9AF15F}
 
-## Additional resources
+## See also
 
   - [Installing Lync SDN Manager](installing-lync-sdn-manager.md)
 

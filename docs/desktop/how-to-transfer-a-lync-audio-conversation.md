@@ -478,7 +478,7 @@ The following example is called using the delegate declared as a class field. Th
         }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

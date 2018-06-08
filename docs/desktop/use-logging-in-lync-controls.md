@@ -154,7 +154,7 @@ To write log entries, first override the Write and WriteExtended methods. In the
 
 Use the TraceLogListener object to provide trace output in Lync Controls WPF applications.
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync Controls](beyond-the-basics-lync-controls.md)
 

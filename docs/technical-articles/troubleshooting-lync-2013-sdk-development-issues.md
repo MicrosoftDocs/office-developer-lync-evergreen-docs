@@ -101,7 +101,7 @@ If your application is running on a computer where the Lync client is not instal
 
 Users report errors when installing Lync 2013 SDK on a computer where Visual Studio 2013 is installed. Lync 2013 SDK requires Microsoft Visual Studio 2010 SP1 or Visual Studio 2012. For the full list of Lync 2013 SDK prerequisites, see the Application Development section in the MSDN article [Get started with Lync 2013 SDK](../desktop/get-started-with-lync-2013-sdk.md).
 
-## Additional resources
+## See also
 
   - [Lync 2013 technical articles](lync-2013-technical-articles.md)
 

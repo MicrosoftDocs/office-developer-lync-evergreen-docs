@@ -494,7 +494,7 @@ namespace TelephoneNumberAdmin
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do in Lync SDK](what-you-can-do-in-lync-sdk.md)
 

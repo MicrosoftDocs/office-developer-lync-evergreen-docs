@@ -179,7 +179,7 @@ The following example updates a label in the application UI with the name of the
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Content sharing](beyond-the-basics-content-sharing.md)
 

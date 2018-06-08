@@ -287,7 +287,7 @@ The following table describes the three optional parameters for the Parameters v
     "ExtensibilityWindowSize"=dword:00000001
     "Parameters"="%AppData%,%AppId%"
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

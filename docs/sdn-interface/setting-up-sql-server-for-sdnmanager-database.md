@@ -19,7 +19,7 @@ To minimize hardware investments, we recommend that you use the Lync Backend SQL
 
 The installer creates and configures a new database or joins a new LSM installation with an existing database.
 
-## Additional resources
+## See also
 
   - [Getting ready to install Lync SDN Interface 2.1.1](getting-ready-to-install-lync-sdn-interface-2-1-1.md)
 

@@ -70,7 +70,7 @@ The signed-in user is represented by the **Self** class and is represented by a 
 
 The **Contact** object telephone list is used to populate a contact card in your application UI. You cannot update a user’s telephone numbers by using the **Contact** object. You must use the **Self** object to update or publish telephone numbers to the user’s contact card.
 
-## Additional resources
+## See also
 
   - [Beyond the basics in Lync 2013 SDK](beyond-the-basics-in-lync-2013-sdk.md)
 

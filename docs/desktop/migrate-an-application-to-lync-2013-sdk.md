@@ -163,7 +163,7 @@ The following example identifies a "shadow" conversation. This method should be 
         }
 ```
 
-## Additional resources
+## See also
 
   - [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md)
 

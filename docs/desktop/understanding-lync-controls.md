@@ -200,7 +200,7 @@ Use the following Lync Controls to implement Lync 2013 features in applications.
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

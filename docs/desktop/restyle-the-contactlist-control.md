@@ -65,7 +65,7 @@ Use the following procedure to change the appearance of the control.
     
     If the property values described in the previous step are used, the control background color is now blue and the font family is now Courier New.
 
-## Additional resources
+## See also
 
 [Customizing Lync Controls](customizing-lync-controls.md)
 

@@ -501,7 +501,7 @@ Now that you have created an application sharing feature in your application, yo
 
   - [How to: Add an application sharing view to your application](how-to-add-an-application-sharing-view-to-your-application.md)
 
-## Additional resources
+## See also
 
   - [What you can do with desktop, application, and display sharing](what-you-can-do-with-desktop-application-and-display-sharing.md)
 

@@ -133,7 +133,7 @@ context.Add(ContextType.HyperLink, "http://contoso.com");
 IAsyncResult res = conversation.BeginSendInitialContext(context, SendContextCallback, null);
 ```
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

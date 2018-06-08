@@ -62,7 +62,7 @@ If you are building an application such as a kiosk application whose purpose is 
 
   - [Call delegation in Lync](call-delegation-in-lync.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync conversations](get-started-with-lync-conversations.md)
 

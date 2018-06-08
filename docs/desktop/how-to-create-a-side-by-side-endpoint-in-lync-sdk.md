@@ -193,7 +193,7 @@ After you have created either a standard or side-by-side Lync endpoint, you are 
 
   - [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md)
 
-## Additional resources
+## See also
 
   - [What you can do in Lync SDK](what-you-can-do-in-lync-sdk.md)
 

@@ -192,7 +192,7 @@ static void Main(string[] args)
 
 Removing the GUID subkey removes the appropriate custom commands from the Lync 2013 UI.
 
-## Additional resources
+## See also
 
 [Beyond the basics: Lync 2013 SDK](beyond-the-basics-lync-2013-sdk.md)
 

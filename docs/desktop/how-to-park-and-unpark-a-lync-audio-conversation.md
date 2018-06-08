@@ -239,7 +239,7 @@ The next example is the callback method for the call to the [BeginPark](https://
 
 For an example of starting an audio conversation in order to pick up a parked call, see [How to: Start a Lync audio conversation](how-to-start-a-lync-audio-conversation.md). Use the friendly orbit URI or safe retrieve orbit URI string to get a [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) to be added to the new audio conversation.
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

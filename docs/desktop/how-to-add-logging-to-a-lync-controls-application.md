@@ -166,7 +166,7 @@ Run the application and then browse to the text file on the local computer and r
     Loaded ContactItem Hash: 56864589
     Control 'ContactSearchInputBox' entering 'OnLoaded'
 
-## Additional resources
+## See also
 
   - [What you can do in Lync SDK](what-you-can-do-in-lync-sdk.md)
 

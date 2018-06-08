@@ -106,7 +106,7 @@ The following table lists the meeting object model classes in the order that you
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Core concepts: Lync meetings](core-concepts-lync-meetings.md)
 

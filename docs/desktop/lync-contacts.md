@@ -142,7 +142,7 @@ The [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj26
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [How to: Search for a contact, distribution group, or chat room](https://msdn.microsoft.com/en-us/library/jj933159\(v=office.15\))
 

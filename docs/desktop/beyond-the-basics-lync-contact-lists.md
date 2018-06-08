@@ -42,7 +42,7 @@ Advanced contact list features include contact list event handling for applicati
 
   - [Advanced contact search](advanced-contact-search.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync contact lists](get-started-with-lync-contact-lists.md)
 

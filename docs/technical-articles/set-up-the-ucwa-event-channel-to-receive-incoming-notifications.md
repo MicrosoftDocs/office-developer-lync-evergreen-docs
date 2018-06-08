@@ -313,7 +313,7 @@ Examples of the specified event handlers are shown as follows:
 
 Here, it is assumed that the upstream event handler is registered from a UI thread that will display the error messages and other warnings to the user.
 
-## Additional resources
+## See also
 
   - [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0.
 

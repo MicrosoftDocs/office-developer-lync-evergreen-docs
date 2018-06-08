@@ -139,7 +139,7 @@ Lists developer videos for the six Lync APIs that offer client, server, middle-t
 
   - [Using VoiceXML in a UCMA 3.0 core application](http://channel9.msdn.com/posts/using-voicexml-in-a-ucma-30-core-application)
 
-## Additional resources
+## See also
 
   - [Channel9](http://channel9.msdn.com/tags/lync)
 

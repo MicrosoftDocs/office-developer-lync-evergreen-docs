@@ -72,7 +72,7 @@ Figure 1. Chat room message object model
   
 ![Chat room message class model diagram](images/JJ937304.LyncClientSDK_RoomMessageModel(Office.15).jpg "Chat room message class model diagram")
 
-## Additional resources
+## See also
 
   - [Core concepts: Persistent Chat](core-concepts-persistent-chat.md)
 

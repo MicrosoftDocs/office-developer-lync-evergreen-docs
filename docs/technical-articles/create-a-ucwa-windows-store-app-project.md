@@ -42,7 +42,7 @@ That’s it. We now have created a basic Windows Store App project in C\#/XAML. 
 
 We now move on to adding the UCWA-specific programming tasks to the application project.
 
-## Additional resources
+## See also
 
   - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
 

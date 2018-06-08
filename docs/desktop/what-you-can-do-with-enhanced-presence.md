@@ -58,7 +58,7 @@ The topics in this section show how to programmatically gett contact enhanced pr
 
   - [How to: Change the privacy relationship between Lync users](how-to-change-the-privacy-relationship-between-lync-users.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

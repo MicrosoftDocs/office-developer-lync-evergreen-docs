@@ -85,7 +85,7 @@ The following table describes the meeting admission types.
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync meetings](beyond-the-basics-lync-meetings.md)
 

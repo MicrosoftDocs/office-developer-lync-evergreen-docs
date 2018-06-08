@@ -345,7 +345,7 @@ The following example handles the [Modality.ActionAvailabilityChanged](https://m
 
   - [How to: Grant and revoke control of a shared resource](how-to-grant-and-revoke-control-of-a-shared-resource.md)
 
-## Additional resources
+## See also
 
   - [What you can do with desktop, application, and display sharing](what-you-can-do-with-desktop-application-and-display-sharing.md)
 

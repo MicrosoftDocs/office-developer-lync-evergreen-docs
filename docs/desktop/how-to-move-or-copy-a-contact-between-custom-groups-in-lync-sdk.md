@@ -352,7 +352,7 @@ namespace ContactMover
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync contact lists](what-you-can-do-with-lync-contact-lists.md)
 

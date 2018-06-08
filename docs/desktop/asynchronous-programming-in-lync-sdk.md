@@ -99,7 +99,7 @@ The following example uses an asynchronous code pattern to sign a user in to Lyn
     }
 ```
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

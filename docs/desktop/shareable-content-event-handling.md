@@ -153,7 +153,7 @@ The following example writes to the system console with the ID of a content bin 
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Content sharing](beyond-the-basics-content-sharing.md)
 

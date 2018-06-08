@@ -99,7 +99,7 @@ The following table shows the five rules and lists the restrictions on enhanced 
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [How to: Administer privacy relationships between Lync users](how-to-administer-privacy-relationships-between-lync-users.md)
 

@@ -89,7 +89,7 @@ The Microsoft Lync 2013 API is designed to be easy to use by anyone familiar wit
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md)
 

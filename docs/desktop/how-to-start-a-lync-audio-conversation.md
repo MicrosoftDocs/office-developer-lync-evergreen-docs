@@ -385,7 +385,7 @@ This example handles the modality state change event that is raised when the con
 
   - [How to: Forward a Lync audio conversation](how-to-forward-a-lync-audio-conversation.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

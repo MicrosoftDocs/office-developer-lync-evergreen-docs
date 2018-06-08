@@ -182,7 +182,7 @@ The following table describes the behavior differences between chat rooms repres
 1 The user must be joined to the room.  
 2 The user must be joined to the room and be assigned the Presenter role by an administrator.
 
-## Additional resources
+## See also
 
   - [Core concepts: Persistent Chat](core-concepts-persistent-chat.md)
 

@@ -47,7 +47,7 @@ To ensure that the Lync SDN Interface 2.1.1 components are successfully installe
 
   - [Activating QoE recording](activating-qoe-recording.md)
 
-## Additional resources
+## See also
 
   - [Installing Lync SDN Interface 2.1.1](installing-lync-sdn-interface-2-1-1.md)
 

@@ -122,7 +122,7 @@ To create the application, use Visual Studio to open a new project by using the 
 
 Using the Lync 2013 SDK to create a Lync Silverlight Controls application for Windows 8 resembles creating a Windows 7 application. Like Silverlight applications in earleir versions of Windows, it is possible to start a Windows 8 Silverlight application from the browser history list.
 
-## Additional resources
+## See also
 
   - [Lync 2013 SDK documentation](../desktop/lync-2013-sdk-documentation.md)
 

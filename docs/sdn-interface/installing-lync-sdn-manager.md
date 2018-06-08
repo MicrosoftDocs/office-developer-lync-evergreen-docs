@@ -70,7 +70,7 @@ To install Lync SDN Manager:
 
 9.  In the wizard completed panel, click **Finish** to exit the installation wizard.
 
-## Additional resources
+## See also
 
   - [Installing Lync SDN Manager](installing-lync-sdn-manager.md)
 

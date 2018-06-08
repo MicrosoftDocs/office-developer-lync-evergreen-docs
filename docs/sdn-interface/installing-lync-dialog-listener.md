@@ -56,7 +56,7 @@ Follow these steps to use the LDL Setup Wizard to install the Lync SDN Interface
 
 9.  In the wizard completed panel, choose **Finish** to exit the installation wizard.
 
-## Additional resources
+## See also
 
   - [Installing Lync SDN Manager](installing-lync-sdn-manager.md)
 

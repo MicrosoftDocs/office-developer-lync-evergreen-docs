@@ -205,7 +205,7 @@ Use Runtime Registration for flexible package setup. Use the ApplicationRegistra
 
   - [Client support scenarios](client-support-scenarios.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync conversations](beyond-the-basics-lync-conversations.md)
 

@@ -42,7 +42,7 @@ The first topic in this section defines the concept of meeting content sharing i
 
   - [Content sharing modality](content-sharing-modality.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

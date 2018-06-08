@@ -156,7 +156,7 @@ When Microsoft Lync 2010 is running under a 32-bit OS:
 
 To add a custom menu command to the Lync 2013 client menu, add subkeys under the following key: **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands**. For more information about setting custom commands, see [Add custom commands to Lync menus](add-custom-commands-to-lync-menus.md).
 
-## Additional resources
+## See also
 
   - [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md)
 

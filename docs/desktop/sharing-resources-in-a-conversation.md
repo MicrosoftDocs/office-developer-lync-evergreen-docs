@@ -201,7 +201,7 @@ The methods in the following table let you share resources. Control of locally s
 
   - [How to: Request and release control of a shared resource](how-to-request-and-release-control-of-a-shared-resource.md)
 
-## Additional resources
+## See also
 
   - [Core concepts: Desktop, application, and display sharing in Lync SDK](core-concepts-desktop-application-and-display-sharing-in-lync-sdk.md)
 

@@ -64,7 +64,7 @@ To get the connection state, check the following properties:
 
 For more information about checking connection state, see [Troubleshooting Lync Controls applications](troubleshooting-lync-controls-applications.md).
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

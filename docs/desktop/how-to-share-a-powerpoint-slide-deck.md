@@ -2758,7 +2758,7 @@ namespace ContentSharing
 
   - [How to: Attach a file to the content stage of a conversation](how-to-attach-a-file-to-the-content-stage-of-a-conversation.md)
 
-## Additional resources
+## See also
 
   - [What you can do with content sharing](what-you-can-do-with-content-sharing.md)
 

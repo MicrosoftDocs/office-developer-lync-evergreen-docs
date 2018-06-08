@@ -143,7 +143,7 @@ The following example registers a CWE application called "GenericCWEApp" by addi
 
   - [How to: Start an extension application in a Lync conversation window](how-to-start-an-extension-application-in-a-lync-conversation-window.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

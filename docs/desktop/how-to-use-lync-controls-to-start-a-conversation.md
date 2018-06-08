@@ -155,7 +155,7 @@ namespace LyncWpfApplication2
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

@@ -807,7 +807,7 @@ namespace PostMessage
 
   - [How to: Read messages sent to a chat room](how-to-read-messages-sent-to-a-chat-room.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

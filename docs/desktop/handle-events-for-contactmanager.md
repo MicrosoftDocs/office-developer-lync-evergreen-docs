@@ -158,7 +158,7 @@ The following example handles the search provider state changed event by checkin
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync contact lists](beyond-the-basics-lync-contact-lists.md)
 

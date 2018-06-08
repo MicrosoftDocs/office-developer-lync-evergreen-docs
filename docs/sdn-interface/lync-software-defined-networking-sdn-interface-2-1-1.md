@@ -23,7 +23,7 @@ The Lync SDN Interface 2.1.1 reference contains the following documentation:
 
   - [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md)
 
-## Additional resources
+## See also
 
   - [Quality of Experience (QoE) Database Schema](http://technet.microsoft.com/en-us/library/gg398687.aspx)
 

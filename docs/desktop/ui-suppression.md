@@ -127,7 +127,7 @@ You can build a custom unified communications application or enhance your line-o
 
   - Lync 2013 feature restrictions that range from no restrictions to the implementation of a single feature.
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync 2013 SDK](beyond-the-basics-lync-2013-sdk.md)
 

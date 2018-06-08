@@ -63,7 +63,7 @@ Restyle a Lync Control by changing property values to control the appearance of 
 
   - [Lync Controls styles and templates](lync-controls-styles-and-templates.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync Controls](beyond-the-basics-lync-controls.md)
 

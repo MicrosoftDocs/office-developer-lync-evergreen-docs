@@ -70,7 +70,7 @@ The following table shows the support matrix between receiving devices and sendi
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

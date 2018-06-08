@@ -78,7 +78,7 @@ Using these Lync Controls, application developers can embed unified communicatio
 
   - [ContactSearchResultList control](contactsearchresultlist-control.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

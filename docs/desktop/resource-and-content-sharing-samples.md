@@ -92,7 +92,7 @@ The following sample application demonstrates how to share whiteboards, PowerPoi
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Code samples: Lync SDK](code-samples-lync-sdk.md)
 

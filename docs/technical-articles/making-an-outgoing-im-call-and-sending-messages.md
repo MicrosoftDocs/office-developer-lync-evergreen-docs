@@ -333,7 +333,7 @@ Typically, the POST request is initiated when the user enters a text and clicks 
 
 That’s it for the basic steps to place an outgoing IM call and to send the first message. In the next article, I'll cover the other end of the process, including the basic steps to accept an IM call and to receive incoming messages.
 
-## Additional resources
+## See also
 
   - [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0.
 

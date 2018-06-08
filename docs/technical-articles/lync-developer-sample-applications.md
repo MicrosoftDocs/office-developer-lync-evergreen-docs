@@ -222,7 +222,7 @@ Use the Lync Server 2013 Persistent Chat SDK to build group chat applications th
 
   - [Lync Server 2013 Persistent Chat: Maintain load-balance on the server](http://code.msdn.microsoft.com/lync-server-2013-maintain-6b7eb57a)
 
-## Additional resources
+## See also
 
   - [Channel9](http://channel9.msdn.com/tags/lync)
 

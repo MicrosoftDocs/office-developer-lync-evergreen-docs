@@ -283,7 +283,7 @@ To parse the messages, you can use the [UrlDecode](http://msdn.microsoft.com/en-
 
 Here, [UrlDecode](http://msdn.microsoft.com/en-us/library/system.net.webutility.urldecode\(v=vs.110\).aspx) translates the URL-encoded string into an HTML string and [HtmlUtilities.ConvertToText](http://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.data.html.htmlutilities.converttotext.aspx) removes the HTML tags to extract the plain text value of the \<span\> element. For a plain text message, skip the call to [ConvertToText](http://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.data.html.htmlutilities.converttotext.aspx).
 
-## Additional resources
+## See also
 
   - [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0
 

@@ -209,7 +209,7 @@ The contact setting, [ContactSetting](https://msdn.microsoft.com/en-us/library/j
         }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

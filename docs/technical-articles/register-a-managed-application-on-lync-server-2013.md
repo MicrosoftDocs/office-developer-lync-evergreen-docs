@@ -147,7 +147,7 @@ The following list contains some common errors seen when registering an applicat
 </table>
 
 
-## Additional resources
+## See also
 
   - [Lync 2013 technical articles](lync-2013-technical-articles.md)
 

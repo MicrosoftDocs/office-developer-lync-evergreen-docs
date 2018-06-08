@@ -119,7 +119,7 @@ The following example builds a string by using conference access information pro
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync meetings](beyond-the-basics-lync-meetings.md)
 

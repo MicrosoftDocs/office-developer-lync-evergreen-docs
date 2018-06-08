@@ -427,7 +427,7 @@ After learning how to remove a contact from a contact list, you should learn how
 
   - [How to: Display a contact list](how-to-display-a-contact-list.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync contact lists](what-you-can-do-with-lync-contact-lists.md)
 

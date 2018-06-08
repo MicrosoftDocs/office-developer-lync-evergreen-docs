@@ -393,7 +393,7 @@ The following example checks the pending message string for the substring "bla\!
         }
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Persistent Chat](beyond-the-basics-persistent-chat.md)
 

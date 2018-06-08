@@ -106,7 +106,7 @@ Using the Lync 2013 SDK to create a Lync WPF Controls application for Windows 8 
 
 Like other Windows desktop applications, Lync WPF applications can be installed on and started from the Windows 8 Start screen. But, because the Lync 2013 SDK was built for earlier Windows versions, applications developed with it run on the desktop rather than on the Start screen.
 
-## Additional resources
+## See also
 
   - [Lync 2013 SDK documentation](../desktop/lync-2013-sdk-documentation.md)
 

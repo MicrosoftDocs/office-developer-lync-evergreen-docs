@@ -46,7 +46,7 @@ The procedure appearing in [Editing the template of a Lync Control](editing-the-
 
   - [Retemplating the CustomContactList control](retemplating-the-customcontactlist-control.md)
 
-## Additional resources
+## See also
 
 [Editing Lync Control visual templates](editing-lync-control-visual-templates.md)
 

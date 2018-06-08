@@ -57,7 +57,7 @@ Figure 1. Custom contact list built with the Lync client API
 
   - [How to: Search for a distribution group](how-to-search-for-a-distribution-group.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync contact lists](get-started-with-lync-contact-lists.md)
 

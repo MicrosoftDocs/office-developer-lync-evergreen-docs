@@ -762,7 +762,7 @@ The following example is the interaction logic for the previously declared WPF w
         }
     }
 
-## Additional resources
+## See also
 
   - [What you can do with Lync meetings](what-you-can-do-with-lync-meetings.md)
 

@@ -177,7 +177,7 @@ In this section we walk through the steps to make asynchronous HTTP requests to 
 
 When using the above Transport class to access UCWA resources, make sure that the OAuthToken properties is set whenever the user is authenticated or re-authenticated. If a relative Uri is used to specify a UCWA resource, the Host property must be set as well.
 
-## Additional resources
+## See also
 
   - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
 

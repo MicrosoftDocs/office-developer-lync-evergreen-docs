@@ -412,7 +412,7 @@ The types in the following table have been changed by adding additional members.
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md)
 

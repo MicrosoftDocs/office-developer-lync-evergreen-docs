@@ -27,7 +27,7 @@ We recommend that you run **LyncSDNManager.msi** before you run the **LyncDialog
 
   - [Unattended installation of LSM and LDL](unattended-installation-of-lsm-and-ldl.md)
 
-## Additional resources
+## See also
 
   - [Overview of Lync SDN Interface 2.1.1](overview-of-lync-sdn-interface-2-1-1.md)
 

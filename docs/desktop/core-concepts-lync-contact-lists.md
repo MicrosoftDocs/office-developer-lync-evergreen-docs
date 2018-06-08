@@ -56,7 +56,7 @@ Figure 1. Lync 2013 client contact list with programmable components called out
 
   - [Lync contacts](lync-contacts.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync contact lists](get-started-with-lync-contact-lists.md)
 

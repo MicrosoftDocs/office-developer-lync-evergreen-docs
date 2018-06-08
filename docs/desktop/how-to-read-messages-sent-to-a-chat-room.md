@@ -1011,7 +1011,7 @@ The following code interacts with the form declared in the previous example. Thi
 
   - [How to: Find a chat room](how-to-find-a-chat-room.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

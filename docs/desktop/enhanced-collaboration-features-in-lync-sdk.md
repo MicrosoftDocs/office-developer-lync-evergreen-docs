@@ -69,7 +69,7 @@ The following table describes the new collaboration features in Microsoft Lync 2
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md)
 

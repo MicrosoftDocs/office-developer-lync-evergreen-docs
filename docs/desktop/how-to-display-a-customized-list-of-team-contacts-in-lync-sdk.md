@@ -117,7 +117,7 @@ The following example declares a WPF page that contains a [Microsoft.Lync.Contro
 </Window>
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

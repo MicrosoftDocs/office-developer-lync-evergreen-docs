@@ -24,7 +24,7 @@ The Lync SDN API 2.0 reference contains the following documentation:
   - [Lync SDN API 2.0 reference](lync-sdn-api-2-0-reference.md)
   - [Overview of Lync SDN API 2.0](overview-of-lync-sdn-api-2-0.md)
 
-## Additional resources
+## See also
 
   - [Lync SDN API download](http://www.microsoft.com/en-us/download/details.aspx?id=39714)
   - [Quality of Experience (QoE) Database Schema](http://technet.microsoft.com/en-us/library/gg398687.aspx)

@@ -70,7 +70,7 @@ Advanced features include access to a user’s followed room list, the ability t
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md)
 

@@ -768,7 +768,7 @@ The following example is the interaction logic for the window declared in the pr
 
   - [How to: Pin and lock a participant video](how-to-pin-and-lock-a-participant-video.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync meetings](what-you-can-do-with-lync-meetings.md)
 

@@ -84,7 +84,7 @@ The **From** and **To** sections contain information related to the endpoints wi
 
 For more information about LSM-generated Lync SDN Interface 2.1.1 data, see [Lync SDN Interface Schema Reference](lync-sdn-interface-schema-reference.md).
 
-## Additional resources
+## See also
 
   - [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
 

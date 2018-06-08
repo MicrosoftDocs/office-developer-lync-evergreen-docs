@@ -70,7 +70,7 @@ This article contains the following topics.
 
   - [Putting it all together](putting-it-all-together.md)
 
-## Additional resources
+## See also
 
   - [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx): If you’re new to building Windows Store apps, I highly recommend this step-by-step guide with clear instructions to creating a Windows RT application using C\# or Visual Basic.
 

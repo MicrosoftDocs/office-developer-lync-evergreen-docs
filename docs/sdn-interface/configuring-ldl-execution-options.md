@@ -48,7 +48,7 @@ Here, the submituri value specifies the URI to locate the LSM or LSM pool. For H
 
 The alternativeuri value specifies the URI of a second single LSM, to which LDL will fail over when its connection to the primary LSM is lost. The clientcertificateid contains the thumbprint of an installed client certificate for authentication of this LDL to the LSM if HTTPS is used and mutual authentication is required. The checkdns entry is used to override the submituri specification. If it is set to true, the LDL is forced to use the URI defined in the DNS SRV record to locate the LSM. (See [Setting up DNS SRV record](setting-up-dns-srv-record.md))
 
-## Additional resources
+## See also
 
   - [Configuring Lync SDN Interface 2.1.1 Lync Dialog Listener](configuring-lync-sdn-interface-2-1-1-lync-dialog-listener.md)
 

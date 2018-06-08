@@ -172,7 +172,7 @@ Within ContactCardDetailsPersonDataTemplate, insert the following XAML into the 
 
 When you run the application and expand the Contact Card, **My Custom Tab** appears in the details section.
 
-## Additional resources
+## See also
 
 [Visual template editing for Lync Controls that use contentPresenters](visual-template-editing-for-lync-controls-that-use-contentpresenters.md)
 

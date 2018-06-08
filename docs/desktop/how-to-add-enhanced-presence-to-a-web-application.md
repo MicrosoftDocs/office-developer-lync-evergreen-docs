@@ -96,7 +96,7 @@ After adding the presence control to a Silverlight page, the next tasks are to a
 
   - [How to: Use Lync Controls to start a conversation](how-to-use-lync-controls-to-start-a-conversation.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

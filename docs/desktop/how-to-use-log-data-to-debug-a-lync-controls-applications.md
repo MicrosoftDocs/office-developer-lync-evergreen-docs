@@ -92,7 +92,7 @@ Review the message created by a malformed URI after you exited Lync 2013 in the 
 
 4.  Build and run the application.
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

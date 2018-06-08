@@ -125,7 +125,7 @@ In the conversation object hierarchy, each child object is obtained by reading a
 
 To react to all these changes and keep your UI up to date, you have to register for events on all these conversation objects. The best way to do this is to either iterate on all child objects in a collection at the time that the parent object is added or register for events on a new child object at the time that it is added to the parent collection.
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

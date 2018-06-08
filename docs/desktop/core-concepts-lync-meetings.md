@@ -65,7 +65,7 @@ The topic in this section describes the Lync 2013 API object model that exposes 
 
   - [Lync meet-now meeting object model](lync-meet-now-meeting-object-model.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

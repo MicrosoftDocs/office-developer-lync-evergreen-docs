@@ -145,7 +145,7 @@ The following example shows a Silverlight presence display page.
         </Grid>
     </UserControl>
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

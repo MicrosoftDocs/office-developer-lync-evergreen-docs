@@ -47,7 +47,7 @@ Figure 2. Detailed Lync SDN Interface 2.1.1 architecture, with two Lync clients,
   
 ![Architecture of Lync SDN Interface](images/Dn785192.architecture_lync_sdn_api(Office.15).png "Architecture of Lync SDN Interface")
 
-## Additional resources
+## See also
 
   - [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
 

@@ -44,7 +44,7 @@ The first topic in this section defines the concept of resource sharing in Lync 
 
   - [Application sharing for UI suppression mode](application-sharing-for-ui-suppression-mode.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

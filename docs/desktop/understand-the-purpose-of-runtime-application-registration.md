@@ -67,7 +67,7 @@ The following example overrides the default package by creating an instance of t
         }
 ```
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

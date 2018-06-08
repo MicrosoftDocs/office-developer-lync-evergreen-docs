@@ -61,7 +61,7 @@ Figure 3. Deployment of Lync SDN Interface with LSM collocated with LDL
   
 ![Deploying Lync SDNI with LSM collocated with LDL](images/Dn785194.Lync_sdn_interface_deploy_with_lsm_colloated_with_ldl(Office.15).png "Deploying Lync SDNI with LSM collocated with LDL")
 
-## Additional resources
+## See also
 
   - [Understanding Lync SDN Interface 2.1.1](understanding-lync-sdn-interface-2-1-1.md)
 

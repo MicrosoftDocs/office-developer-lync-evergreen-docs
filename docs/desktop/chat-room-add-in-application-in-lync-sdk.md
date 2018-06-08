@@ -116,7 +116,7 @@ The following table lists the classes and enumerations in the [Microsoft.Lync.Mo
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Core concepts: Persistent Chat](core-concepts-persistent-chat.md)
 

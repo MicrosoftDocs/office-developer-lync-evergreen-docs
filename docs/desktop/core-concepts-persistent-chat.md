@@ -98,7 +98,7 @@ For information about the capabilities of an add-in, see <a href="chat-room-add-
 
   - [Chat room messages](chat-room-messages.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

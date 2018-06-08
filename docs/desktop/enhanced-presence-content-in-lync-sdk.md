@@ -41,7 +41,7 @@ The Lync 2013 model allows a user to publish two kinds of notes that are display
 
 The Lync 2013 API gives the ability to both obtain the enhanced presence information published by a user and publish enhanced presence information on behalf of the local user. Before obtaining a user’s presence information, an application must inform Lync Server 2013 that the local user is interested in any enhanced presence published by another user. This is known as subscribing to enhanced presence. For information about this process, see [Presence publication and subscription in Lync SDK](presence-publication-and-subscription-in-lync-sdk.md).
 
-## Additional resources
+## See also
 
   - [Core concepts: Enhanced presence](core-concepts-enhanced-presence.md)
 

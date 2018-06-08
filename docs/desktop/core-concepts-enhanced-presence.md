@@ -42,7 +42,7 @@ Enhanced presence is the user-specific collection of information that describes 
 
   - [Presence publication and subscription in Lync SDK](presence-publication-and-subscription-in-lync-sdk.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

@@ -496,7 +496,7 @@ Features include the following:
 Path: *%PROGRAMFILES(X86)%*\\Microsoft Office 2013\\LyncSDK\\Samples  
 \\ProposalTracker\\ProposalTracker.sln
 
-## Additional resources
+## See also
 
   - [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md)
 

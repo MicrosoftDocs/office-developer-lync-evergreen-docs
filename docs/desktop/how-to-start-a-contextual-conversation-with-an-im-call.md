@@ -94,7 +94,7 @@ The following procedure works for Silverlight and WPF applications.
 
 8.  On the receiving computer, use the [GetApplicationData](http://go.microsoft.com/fwlink/?linkid=210831%26clcid=0x409) method to retrieve the data or trap one of the [Conversation](http://go.microsoft.com/fwlink/?linkid=210832%26clcid=0x409) object events.
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

@@ -471,7 +471,7 @@ namespace SimpleContactList
 
   - [How to: Search for a distribution group](how-to-search-for-a-distribution-group.md)
 
-## Additional resources
+## See also
 
   - [Advanced contact search](advanced-contact-search.md)
 

@@ -863,7 +863,7 @@ namespace RoomQuery
 
   - [How to: View chat room participants](how-to-view-chat-room-participants.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

@@ -869,7 +869,7 @@ The following table lists the system status codes that are exposed as **StatusCo
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync 2013 SDK](beyond-the-basics-lync-2013-sdk.md)
 

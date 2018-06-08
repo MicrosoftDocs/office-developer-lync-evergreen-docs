@@ -115,7 +115,7 @@ To add Lync Controls to an existing Silverlight application, add project referen
 
 5.  Build and run the application.
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

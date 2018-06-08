@@ -96,7 +96,7 @@ The **Source** property expects the following types of localizable strings:
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

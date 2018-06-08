@@ -32,7 +32,7 @@ Learn about the concepts that you need to know before you use Microsoft Lync 201
 
   - [Lync Controls reference](lync-controls-reference.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md)
 

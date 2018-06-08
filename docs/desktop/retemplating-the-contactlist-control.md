@@ -177,7 +177,7 @@ The following table identifies the templates that can be used to customize the a
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
 [Visual template editing for Lync Controls that use contentPresenters](visual-template-editing-for-lync-controls-that-use-contentpresenters.md)
 

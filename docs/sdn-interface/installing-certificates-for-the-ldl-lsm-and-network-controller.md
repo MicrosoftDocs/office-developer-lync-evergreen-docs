@@ -156,7 +156,7 @@ The selected values (without spaces) must be specified in the **clientcertificat
 
 
 
-## Additional resources
+## See also
 
   - [Getting ready to install Lync SDN Interface 2.1.1](getting-ready-to-install-lync-sdn-interface-2-1-1.md)
 

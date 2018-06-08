@@ -87,7 +87,7 @@ The topics in this section are grouped by Lync 2013 feature and should be review
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Lync 2013 SDK general reference](lync-2013-sdk-general-reference.md)
 

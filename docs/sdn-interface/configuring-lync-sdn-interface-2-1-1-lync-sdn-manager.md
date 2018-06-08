@@ -51,7 +51,7 @@ Depending on how Lync SDN Interface is deployed, you can set or reset the LSM co
 
   - [Configuring LSM to send messages to network controllers](configuring-lsm-to-send-messages-to-network-controllers.md)
 
-## Additional resources
+## See also
 
   - [Configuring Lync SDN Interface 2.1.1](configuring-lync-sdn-interface-2-1-1.md)
 

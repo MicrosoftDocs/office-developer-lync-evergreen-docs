@@ -50,7 +50,7 @@ You can enable LDL to check SRV record to discover the LSM locations by selectin
 
     <add key="checkdns" value="True"/>
 
-## Additional resources
+## See also
 
   - [Getting ready to install Lync SDN Interface 2.1.1](getting-ready-to-install-lync-sdn-interface-2-1-1.md)
 

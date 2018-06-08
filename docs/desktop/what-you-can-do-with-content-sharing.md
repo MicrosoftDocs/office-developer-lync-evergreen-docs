@@ -60,7 +60,7 @@ The topics in this section show how to programmatically start a content sharing 
 
   - [How to: Attach a file to the content stage of a conversation](how-to-attach-a-file-to-the-content-stage-of-a-conversation.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

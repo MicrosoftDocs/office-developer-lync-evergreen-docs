@@ -665,7 +665,7 @@ namespace GetParticipants
 
   - [Create a custom Persistent Chat client](create-a-custom-persistent-chat-client.md)
 
-## Additional resources
+## See also
 
   - [What you can do with Persistent Chat](what-you-can-do-with-persistent-chat.md)
 

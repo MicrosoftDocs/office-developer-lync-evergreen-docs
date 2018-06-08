@@ -479,7 +479,7 @@ The following example gets a [Microsoft.Lync.Model.Contact](https://msdn.microso
         }
     }
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

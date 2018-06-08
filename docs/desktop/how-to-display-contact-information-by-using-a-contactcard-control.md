@@ -115,7 +115,7 @@ Use a Grid as a container for a group of ContactCard controls.
 
 2.  In Window1.xaml, replace the existing Grid control with the example XAML text from step 2 in the previous procedure, edit the XAML, and then complete the remaining steps as described in that procedure.
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

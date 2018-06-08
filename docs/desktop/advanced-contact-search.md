@@ -134,7 +134,7 @@ The [SearchOptions](https://msdn.microsoft.com/en-us/library/jj274803\(v=office.
 
 A search field is an index that a search provider uses to enable a search through its data store. Not all of the search fields enumerated by [SearchFields](https://msdn.microsoft.com/en-us/library/jj276185\(v=office.15\)) are supported as indexes by individual search providers. If you specify a search on a search provider using a search field that is not supported as an index, no search results are returned. If you are not sure whether a search provider supports a specific search field, you can use the [SearchFields](https://msdn.microsoft.com/en-us/library/jj276185\(v=office.15\))**.AllFields** enumerator in the search. In this case, the search is conducted on the search provider using whatever indexes are supported by the search provider.
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync contact lists](beyond-the-basics-lync-contact-lists.md)
 

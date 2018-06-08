@@ -180,7 +180,7 @@ The events that are raised on the application sharing modalities in the conversa
 
   - [Application sharing modality event handling](application-sharing-modality-event-handling.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics in Lync 2013 SDK](beyond-the-basics-in-lync-2013-sdk.md)
 

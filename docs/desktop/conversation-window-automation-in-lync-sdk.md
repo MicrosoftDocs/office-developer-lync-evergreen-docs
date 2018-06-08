@@ -62,7 +62,7 @@ A conversation window can be made context-aware at the time it is started. That 
 
 The [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/en-us/library/jj278382\(v=office.15\)) namespace contains the five classes and three enumerations that are responsible for exposing the automation feature. The [Automation](https://msdn.microsoft.com/en-us/library/jj293816\(v=office.15\)) class is the entry point into the automation feature and provides the method that starts the conversation window and returns a reference to the new conversation window. The [ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) class represents a started conversation window. The enumerations and other classes of the namespace support the conversation modality options and docking feature in automation.
 
-## Additional resources
+## See also
 
   - [Core concepts: Lync conversations](core-concepts-lync-conversations.md)
 

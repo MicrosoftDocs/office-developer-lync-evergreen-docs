@@ -55,7 +55,7 @@ The concepts described in the following topics are essential for understanding h
 
   - [Conversation window automation in Lync SDK](conversation-window-automation-in-lync-sdk.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync conversations](get-started-with-lync-conversations.md)
 

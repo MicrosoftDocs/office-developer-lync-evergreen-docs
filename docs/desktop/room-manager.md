@@ -61,7 +61,7 @@ If the URI of a chat room is known, you can get the corresponding [Microsoft.Lyn
 
 The followed room collection is the set of chat rooms selected by the user to receive activity notifications. These are the rooms that your application interacts with most frequently. For this reason, the collection is always provisioned on the local endpoint when a user signs in to Lync 2013. For more information about followed rooms, see [Chat rooms](chat-rooms.md).
 
-## Additional resources
+## See also
 
   - [Core concepts: Persistent Chat](core-concepts-persistent-chat.md)
 

@@ -519,7 +519,7 @@ Now that you know how to discover the communication modalities of a Lync 2013 us
 
   - [How to: Start a Lync IM conversation](how-to-start-a-lync-im-conversation.md)
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

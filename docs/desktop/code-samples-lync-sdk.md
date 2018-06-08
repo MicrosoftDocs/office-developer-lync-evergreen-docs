@@ -120,7 +120,7 @@ Features:
 
 Path: *%PROGRAMFILES%\\*Microsoft Lync\\SDK\\Samples \\ProposalTracker or *%PROGRAMFILES(X86)%*\\Microsoft Lync\\SDK\\Samples \\ProposalTracker
 
-## Additional resources
+## See also
 
   - [Lync 2013 SDK general reference](lync-2013-sdk-general-reference.md)
 

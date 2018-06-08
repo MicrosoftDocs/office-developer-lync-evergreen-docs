@@ -23,7 +23,7 @@ Microsoft Lync 2013 SDK includes the following class libraries.
 
 [Lync 2013 WPF class libraries](https://msdn.microsoft.com/en-us/library/office/jj933125.aspx)
 
-## Additional resources
+## See also
 
 [Lync 2013 SDK documentation](lync-2013-sdk-documentation.md)
 

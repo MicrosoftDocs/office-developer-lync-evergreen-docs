@@ -2574,7 +2574,7 @@ namespace ContentSharing
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with content sharing](what-you-can-do-with-content-sharing.md)
 

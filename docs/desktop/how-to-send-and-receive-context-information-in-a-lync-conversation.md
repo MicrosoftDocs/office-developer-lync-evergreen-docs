@@ -730,7 +730,7 @@ namespace ContextSenderWindow
 }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with Lync conversations](what-you-can-do-with-lync-conversations.md)
 

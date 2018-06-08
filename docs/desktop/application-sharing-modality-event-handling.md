@@ -96,7 +96,7 @@ Your application should always show the name of the current resource controller.
 
 The owner of a resource can give permission to another participant to control a resource. Permission can be granted when requested by another user or permission can be offered to another user without a prior request. For information about handling control requests, see [How to: Accept or decline a request to control a shared resource](how-to-accept-or-decline-a-request-to-control-a-shared-resource.md).
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Desktop, application, and display sharing](beyond-the-basics-desktop-application-and-display-sharing.md)
 

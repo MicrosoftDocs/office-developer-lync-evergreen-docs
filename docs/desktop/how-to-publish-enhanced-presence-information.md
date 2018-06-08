@@ -227,7 +227,7 @@ To reset a user’s current availability to the default availability calculated 
 
   - [How to: Use presence information in an application](how-to-use-presence-information-in-an-application.md)
 
-## Additional resources
+## See also
 
   - [What you can do with enhanced presence](what-you-can-do-with-enhanced-presence.md)
 

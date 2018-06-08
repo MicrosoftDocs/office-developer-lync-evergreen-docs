@@ -457,7 +457,7 @@ The following properties on [MyStatusArea](https://msdn.microsoft.com/en-us/libr
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
 [Customizing Lync Controls](customizing-lync-controls.md)
 

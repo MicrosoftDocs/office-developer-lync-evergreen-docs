@@ -255,7 +255,7 @@ Many of the same Lync options that can be set by the user can also be set by you
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Lync 2013 SDK general reference](lync-2013-sdk-general-reference.md)
 

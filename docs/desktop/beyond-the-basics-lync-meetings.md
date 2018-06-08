@@ -44,7 +44,7 @@ The topics in this section describe the programming concepts that make these fea
 
   - [Meeting lobby management](meeting-lobby-management.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics in Lync 2013 SDK](beyond-the-basics-in-lync-2013-sdk.md)
 

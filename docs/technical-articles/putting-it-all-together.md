@@ -238,7 +238,7 @@ Making the application run involves executing various parts (as discussed above)
 
 This concludes our UCWA **Hello, World\!** app for Windows Store. It covers a simple, but self-contained app development process for building a UCWA Windows Store application using C\#/XAML/XML. I hope this introduction provides you with a starting point to explore further the design and development of UCWA apps for Windows Store.
 
-## Additional resources
+## See also
 
   - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
 

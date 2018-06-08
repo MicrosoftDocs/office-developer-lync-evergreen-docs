@@ -86,7 +86,7 @@ A **Conversation** object exposes a modality collection that always includes eve
 
 By default, **InstantMessageModality** is in a **F:Microsoft.Lync.Model.Conversation.ModalityState.Connected** state when a conversation is created. This means that you can send and receive IM text as soon as a conversation starts. The exception to this rule is where one or more of the conversation endpoints is incapable of rendering or capturing IM text. For example, an audio conversation between a Lync 2013 client and a person using a public switched telephone network (PSTN) telephone. As long as all endpoints in a conversation support a given modality, you can activate the modality by calling the [Modality.BeginConnect](https://msdn.microsoft.com/en-us/library/jj268193\(v=office.15\)) method. When connected, you can use the conversation mode encapsulated by the modality.
 
-## Additional resources
+## See also
 
   - [Core concepts: Lync conversations](core-concepts-lync-conversations.md)
 

@@ -48,7 +48,7 @@ The topics in this section show how to programmatically read message sent to a P
 
   - [How to: Create a chat room add-in](how-to-create-a-chat-room-add-in.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

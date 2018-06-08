@@ -46,7 +46,7 @@ The concepts described in this section give you the information you need to make
 
   - [Customizing Lync Controls](customizing-lync-controls.md)
 
-## Additional resources
+## See also
 
   - [Get started with Lync Controls](get-started-with-lync-controls.md)
 

@@ -83,7 +83,7 @@ Use the following XAML code to display Lync Control initialization errors at run
 </StackPanel>
 ```
 
-## Additional resources
+## See also
 
   - [Beyond the basics: Lync Controls](beyond-the-basics-lync-controls.md)
 

@@ -26,7 +26,7 @@ Learn about the basic programming patterns used to write code with Microsoft Lyn
 
   - [Lync endpoint types](lync-endpoint-types.md)
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

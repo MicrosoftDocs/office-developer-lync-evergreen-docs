@@ -154,7 +154,7 @@ Lync SDN Manager logging configuration
 
 
 
-## Additional resources
+## See also
 
   - [Configuring Lync SDN Interface 2.1.1 Lync Dialog Listener](configuring-lync-sdn-interface-2-1-1-lync-dialog-listener.md)
 

@@ -116,7 +116,7 @@ public void OnConversationContextLinkClicked(uc.Conversation eventSource, uc.Con
 
 Use the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event for conversation handling. ConversationAdded provides access to [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) and [ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) objects. To review example code that shows how to use the ConversationAdded event, see [How to: Start a Lync IM conversation](how-to-start-a-lync-im-conversation.md).
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

@@ -37,7 +37,7 @@ This series of articles shows you how to use UCWA to make asynchronous calls to 
 
   - [Answer an incoming IM call and receive messages](answer-an-incoming-im-call-and-receive-messages.md)
 
-## Additional resources
+## See also
 
   - [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx) — If you’re new to building Windows Store apps, read this step-by-step guide to create a Windows Store application using C\# or Visual Basic.
 

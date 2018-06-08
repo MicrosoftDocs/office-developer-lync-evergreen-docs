@@ -47,7 +47,7 @@ The topics in this section show how to programmatically define a meeting access 
 
   - [How to: Send a meeting access key to a Persistent Chat room](how-to-send-a-meeting-access-key-to-a-persistent-chat-room.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

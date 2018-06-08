@@ -54,7 +54,7 @@ In this method, the package registration data is typically added to the Lync 201
 
 In this method, the application registration data is added to the Lync 2013 registration pool at runtime by the Lync 2013 application. By using Runtime Registration, the developer can decide to manage the contextual experience by selecting one of several alternative packages to install. For an example that shows how to perform Runtime Registration, see [How to: Install a CWE application in Lync SDK](how-to-install-a-cwe-application-in-lync-sdk.md).
 
-## Additional resources
+## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
 

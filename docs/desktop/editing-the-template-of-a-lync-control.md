@@ -156,7 +156,7 @@ The process used to edit a Microsoft Lync Control template requires comprehensio
     
     The presence photo is now enhanced for camera shy persons.
 
-## Additional resources
+## See also
 
 [Editing Lync Control visual templates](editing-lync-control-visual-templates.md)
 

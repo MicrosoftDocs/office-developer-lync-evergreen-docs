@@ -151,7 +151,7 @@ The following table lists advanced concepts for working with enhanced presence.
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md)
 

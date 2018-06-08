@@ -29,7 +29,7 @@ The following topics include the information you need to customize a Lync 2013 c
 
   - [What you can do with desktop, application, and display sharing](../desktop/what-you-can-do-with-desktop-application-and-display-sharing.md)
 
-## Additional resources
+## See also
 
   - [Lync developer roadmap](https://msdn.microsoft.com/en-us/library/dn645389\(v=office.15\))
 

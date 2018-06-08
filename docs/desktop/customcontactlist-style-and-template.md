@@ -58,7 +58,7 @@ The following sample shows the default Windows Presentation Foundation style and
      </Setter>
     </Style>
 
-## Additional resources
+## See also
 
 [Customizing Lync Controls](customizing-lync-controls.md)
 

@@ -80,7 +80,7 @@ The properties listed in the following table are common to most Lync Controls in
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Lync Controls reference](lync-controls-reference.md)
 

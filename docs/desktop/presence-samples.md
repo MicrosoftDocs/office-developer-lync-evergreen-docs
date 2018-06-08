@@ -120,7 +120,7 @@ The quick-start samples in the following table show how to publish and get prese
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Code samples: Lync SDK](code-samples-lync-sdk.md)
 

@@ -55,7 +55,7 @@ Microsoft Lync 2013 client supports all applications that reference the Lync 201
 
 If multiple versions of the Lync client are installed on a computer, the most recent version of the client process starts when your application initializes the process by calling the [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/jj278213\(v=office.15\)) method. If the starting process is not configured for UI suppression, the client UI is shown on the desktop. To avoid this, be sure to set UI suppression for all version of the client that you install on a computer.
 
-## Additional resources
+## See also
 
   - [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md)
 

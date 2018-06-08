@@ -80,7 +80,7 @@ The following sample applications demonstrate how to add chat room features to y
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Code samples: Lync SDK](code-samples-lync-sdk.md)
 

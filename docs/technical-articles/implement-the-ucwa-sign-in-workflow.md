@@ -338,7 +338,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     
     For a newly created UCWA application to receive incoming notifications, it must make the local user available to receive incoming notifications. This is done by issuing an HTTP POST request on the makeMeAvailable resource. (In this tutorial, the operation is exposed as the PostMakeMeAvailable method on the UcwaAppMe class encapsulating the me resource.) As a consequence, more resources become accessible to the application. You should get an updated application resource in order to access the newly available resources.
 
-## Additional resources
+## See also
 
   - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
 

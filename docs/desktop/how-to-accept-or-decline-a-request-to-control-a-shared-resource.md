@@ -292,7 +292,7 @@ The following example updates the Form UI with the name of the participant who i
         }
 ```
 
-## Additional resources
+## See also
 
   - [What you can do with desktop, application, and display sharing](what-you-can-do-with-desktop-application-and-display-sharing.md)
 

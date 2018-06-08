@@ -46,7 +46,7 @@ The [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/j
 
   - [How to: Administer privacy relationships between Lync users](how-to-administer-privacy-relationships-between-lync-users.md)
 
-## Additional resources
+## See also
 
   - [How do I in Lync 2013 SDK](how-do-i-in-lync-2013-sdk.md)
 

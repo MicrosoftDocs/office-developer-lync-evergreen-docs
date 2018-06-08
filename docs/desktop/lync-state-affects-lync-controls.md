@@ -1109,7 +1109,7 @@ The following table describes how the ContactSearchResultList control responds t
 </tbody>
 </table>
 
-## Additional resources
+## See also
 
   - [Core concepts in Lync 2013 SDK](core-concepts-in-lync-2013-sdk.md)
 

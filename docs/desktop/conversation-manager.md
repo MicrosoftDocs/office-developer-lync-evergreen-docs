@@ -68,7 +68,7 @@ If you are interested in reacting to any of these kinds of conversation-starting
 
 The conversation invitation action and all Lync 2013 API method call actions raise the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event and must be handled by your application.
 
-## Additional resources
+## See also
 
   - [Core concepts: Lync conversations](core-concepts-lync-conversations.md)
 

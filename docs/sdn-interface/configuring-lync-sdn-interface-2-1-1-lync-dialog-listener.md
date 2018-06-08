@@ -37,7 +37,7 @@ This section explains how to configure Lync Dialog Listener in the LyncDialogLis
 
   - [Configuring LDL execution options](configuring-ldl-execution-options.md)
 
-## Additional resources
+## See also
 
   - [Configuring Lync SDN Interface 2.1.1](configuring-lync-sdn-interface-2-1-1.md)
 

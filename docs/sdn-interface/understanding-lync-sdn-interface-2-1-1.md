@@ -55,7 +55,7 @@ In Lync SDN Interface 2.1.1, the call and quality data is defined by the Lync SD
 
   - [In-call QoE algorithm and throttling](in-call-qoe-algorithm-and-throttling.md)
 
-## Additional resources
+## See also
 
   - [Overview of Lync SDN Interface 2.1.1](overview-of-lync-sdn-interface-2-1-1.md)
 

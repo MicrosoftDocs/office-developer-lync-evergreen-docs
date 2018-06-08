@@ -62,7 +62,7 @@ As shareable content items are uploaded to a conversation or removed from a conv
 
   - [Shareable content event handling](shareable-content-event-handling.md)
 
-## Additional resources
+## See also
 
   - [Beyond the basics in Lync 2013 SDK](beyond-the-basics-in-lync-2013-sdk.md)
 
