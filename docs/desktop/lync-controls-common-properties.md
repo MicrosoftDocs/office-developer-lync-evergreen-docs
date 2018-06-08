@@ -14,7 +14,7 @@ mtps_version: v=office.15
 
 Learn about the common properties of the Microsoft Lync 2013Lync Controls.
 
-**Last modified:** February 14, 2013
+
 
 ***Applies to:** Lync 2013*
 

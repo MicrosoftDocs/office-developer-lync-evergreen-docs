@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about handling the events raised by the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) object in Microsoft Lync 2013 SDK.
 
-**Last modified:** February 12, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

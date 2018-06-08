@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how use Microsoft Lync 2013 SDK to get the communication modalities that a Microsoft Lync 2013 user can use to participate in conversations.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -15,12 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Registering an application extension for a conversation context channel  
-Conversation context channel data traffic and limitations  
-Typical conversation context channel scenario  
-Using the ConversationContextChannel class  
-ConversationContextChannel state transitions  
+ 
 
 The [ConversationContextChannel](https://msdn.microsoft.com/en-us/library/hh161849\(v=office.15\)) class enables a endpoint to launch and interact with a Conversation Extension window in Lync 2013.
 

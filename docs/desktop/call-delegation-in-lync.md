@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Microsoft Lync 2013 SDK class that lets your application handle audio calls delegated to the local Lync 2013 user.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about adding Microsoft Lync 2013 features to your application by using the API classes in Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

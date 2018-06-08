@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the capabilities of the Lync 2013 API to let your application manage a Lync 2013 user’s telephone list, which includes adding a telephone number, changing a telephone number, publishing a telephone number on the contact card, and removing a number from the contact card.
 
-**Last modified:** January 07, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

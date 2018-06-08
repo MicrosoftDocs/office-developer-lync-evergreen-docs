@@ -15,11 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-AudioVideoFlow properties  
-AudioVideoFlow methods  
-Negotiation between local and remote endpoints  
-AudioVideoFlow state transitions  
+  
 
 An [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instance represents a media connection with a single remote participant.
 

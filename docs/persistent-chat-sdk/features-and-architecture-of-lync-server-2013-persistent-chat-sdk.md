@@ -15,10 +15,7 @@ Learn about the Persistent Chat features that are distributed with the Microsoft
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Persistent Chat endpoint  
-Persistent Chat services  
-Persistent Chat room session  
+ 
 
 The Lync Server 2013 Persistent Chat API provides the programming interface for Persistent Chat in a Lync Server deployment. The API enables an application to support the following three major Persistent Chat feature sets:
 

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn how to use control restyling and visual template modification to change the appearance of Microsoft Lync Controls.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

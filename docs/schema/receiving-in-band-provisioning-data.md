@@ -12,7 +12,6 @@ dev_langs:
 
 # Receiving in-band provisioning data
 
-
 **Applies to:** Lync 2013 | Lync Server 2013
 
 The enhanced presence publication and subscription infrastructure is also used to roam configuration data through in-band provisioning. The data includes server configuration, location profile, various policies, as well as user settings. It is stored on the server but is needed by a client at various stages in an application.
@@ -44,29 +43,17 @@ To query the latest provisioning data on the server, make an asynchronous call t
 
 ## In this section
 
-  - 
-
-  - [Parsing endpoint configuration](parsing-endpoint-configuration.md)  
-
-  - [Parsing location policy](parsing-location-policy.md)
-
-  - [Parsing location profile](parsing-location-profile.md)
-
-  - [Parsing media configuration](parsing-media-configuration.md)
-
-  - [Parsing meeting policy](parsing-meeting-policy.md)
-
-  - [Parsing mobility policy](parsing-mobility-policy.md)
-
-  - [Parsing server configuration](parsing-server-configuration.md)
-
-  - [Parsing unified communications policy](parsing-unified-communications-policy.md)
-
-  - [Parsing user settings](parsing-user-settings.md)
+- [Parsing endpoint configuration](parsing-endpoint-configuration.md)  
+- [Parsing location policy](parsing-location-policy.md)
+- [Parsing location profile](parsing-location-profile.md)
+- [Parsing media configuration](parsing-media-configuration.md)
+- [Parsing meeting policy](parsing-meeting-policy.md)
+- [Parsing mobility policy](parsing-mobility-policy.md)
+- [Parsing server configuration](parsing-server-configuration.md)
+- [Parsing unified communications policy](parsing-unified-communications-policy.md)
+- [Parsing user settings](parsing-user-settings.md)
 
 ## See also
 
-#### Concepts
-
-[General features of Enhanced Presence](general-features-of-enhanced-presence.md)
+- [General features of Enhanced Presence](general-features-of-enhanced-presence.md)
 

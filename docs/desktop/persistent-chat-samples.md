@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Persistent Chat-related quick-start samples that are installed with Microsoft Lync 2013 SDK.
 
-**Last modified:** December 07, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

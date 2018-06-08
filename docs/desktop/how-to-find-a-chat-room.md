@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to query for a Microsoft Lync 2013 Persistent Chat room by using methods in Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn how the system status code hexadecimal values map to a class of Lync 2013 API exceptions and about the condition that causes the error.
 
-**Last modified:** December 21, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

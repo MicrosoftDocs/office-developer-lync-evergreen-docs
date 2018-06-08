@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to create a subscription to the enhanced presence published by a user.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

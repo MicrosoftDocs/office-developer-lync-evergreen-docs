@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about how Microsoft Lync 2013 SDK represents the people who are participating in a Microsoft Lync 2013 conversation.
 
-**Last modified:** December 11, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

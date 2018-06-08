@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concept of customizing the visual template of Microsoft Lync 2013 Controls to provide a customized visual appearance in your application.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

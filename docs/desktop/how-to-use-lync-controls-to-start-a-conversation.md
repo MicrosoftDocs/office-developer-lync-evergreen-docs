@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to implement a click-to-call feature in your WPF or Silverlight page by using any of several different kinds of Lync Controls.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

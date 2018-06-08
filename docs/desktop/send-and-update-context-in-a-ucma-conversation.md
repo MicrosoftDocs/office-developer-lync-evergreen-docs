@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK and Lync 2013 to participate in a Microsoft Unified Communications Managed API 4.0 conversation.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

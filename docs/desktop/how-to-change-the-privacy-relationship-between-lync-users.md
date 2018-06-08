@@ -14,9 +14,9 @@ dev_langs:
 
 Learn about how to programmatically change the privacy relationship between two Microsoft Lync 2013 contacts by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

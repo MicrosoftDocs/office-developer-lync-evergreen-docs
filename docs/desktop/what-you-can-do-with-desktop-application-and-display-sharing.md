@@ -10,9 +10,8 @@ mtps_version: v=office.15
 
 # What you can do with desktop, application, and display sharing
 
-**Last modified:** July 19, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

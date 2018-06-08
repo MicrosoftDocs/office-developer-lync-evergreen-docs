@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn how to create a registry (.reg) file that registers a Microsoft Lync 2013 Conversation Window Extension (CWE) on a computer so that the CWE can be opened in a Lync 2013 conversation window.
 
-**Last modified:** February 14, 2014
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

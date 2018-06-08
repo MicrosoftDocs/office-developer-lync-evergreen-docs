@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Microsoft Lync 2013 SDK maintains the features of Microsoft Lync 2010 SDK and introduces a new set of features that give developers the ability to add enhanced collaboration features such as desktop sharing and Persistent Chat to their applications.
 
-**Last modified:** July 30, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

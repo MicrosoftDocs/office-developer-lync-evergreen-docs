@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about making your application UI responsive to the events raised by Microsoft Lync 2013 API content sharing modality in Lync 2013 conversations.
 
-**Last modified:** January 04, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

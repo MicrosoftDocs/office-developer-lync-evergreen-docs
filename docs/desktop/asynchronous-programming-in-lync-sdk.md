@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about using callback delegated methods to complete asynchronous Microsoft Lync 2013 API operations and obtain operation results.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

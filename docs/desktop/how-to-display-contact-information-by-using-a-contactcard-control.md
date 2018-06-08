@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use the Lync Controls ContactCard in a WPF window or Silverlight page to display contact information for a Lync user.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

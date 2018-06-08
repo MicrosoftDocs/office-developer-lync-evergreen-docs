@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to programmatically lock and pin meeting participant video feeds in a Microsoft Lync 2013 meet-now meeting by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -13,11 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+ 
 
 Sample name: ToneController
 
@@ -29,27 +25,27 @@ The application places an audio/video call to the designated target, after initi
 
 ## Features
 
-  - Basic audio/video call placement
+- Basic audio/video call placement
 
-  - Platform an endpoint initialization
+- Platform an endpoint initialization
 
-  - **AudioVideoFlow** handling and control.
+- **AudioVideoFlow** handling and control.
 
-  - Attaching an **AudioVideoFlow** to a **ToneController**.
+- Attaching an **AudioVideoFlow** to a **ToneController**.
 
-  - Using **ToneController** to receive DTMF or Fax tones from the remote side.
+- Using **ToneController** to receive DTMF or Fax tones from the remote side.
 
-  - Sending tones.
+- Sending tones.
 
 ## Prerequisites
 
-  - Microsoft Lync Server 2013.
+- Microsoft Lync Server 2013.
 
-  - Two users capable of sending and receiving audio calls.
+- Two users capable of sending and receiving audio calls.
 
-  - The credentials for each user, and a client capable of signing in to Lync Server 2013.
+- The credentials for each user, and a client capable of signing in to Lync Server 2013.
 
-  - A client signed in to Lync Server 2013.
+- A client signed in to Lync Server 2013.
 
 ## Running the sample
 

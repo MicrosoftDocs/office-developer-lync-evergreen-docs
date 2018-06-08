@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how the Microsoft Lync 2013 call park feature can be used programmatically with Microsoft Lync 2013 SDK and provides a call hold and call park feature.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

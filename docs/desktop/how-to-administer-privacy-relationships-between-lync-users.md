@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to set the privacy relationship between the signed-in Lync 2013 user and another Lync user by calling a single method in the Microsoft Lync 2013 API.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

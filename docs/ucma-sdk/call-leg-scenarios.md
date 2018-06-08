@@ -15,11 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Incoming-idle scenario  
-Connecting incoming-idle call legs - two-party call  
-Connecting incoming-idle call legs - conference call  
-Click-to-call scenario  
+ 
 
 The [BackToBackCall](https://msdn.microsoft.com/en-us/library/hh365598\(v=office.15\)) class can be used in two scenarios:
 

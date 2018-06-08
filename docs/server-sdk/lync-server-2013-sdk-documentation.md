@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 The Microsoft Lync Server 2013 SDK includes the Microsoft Lync Server 2013 SIP Application API documentation, library (ServerAgent.DLL), application development tools, and sample applications.
 
-**Last modified:** August 16, 2013
+
 
 **Applies to:** Lync 2013 | Lync Server 2013
 

@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to configure Lync Server 2013 sign-in settings using the Lync 2013 API to create a custom sign-in settings dialog box in your application and clear the sign-in credential cache.
 
-**Last modified:** January 10, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

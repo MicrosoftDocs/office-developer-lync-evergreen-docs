@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to update and publish a user’s telephone numbers by using Microsoft Lync 2013 SDK to build a custom UI.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

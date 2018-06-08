@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about using Microsoft Lync 2013 SDK to handle meeting content sharing events and shared content item presentation in Lync 2013 meetings.
 
-**Last modified:** February 19, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

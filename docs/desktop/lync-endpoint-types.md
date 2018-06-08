@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about writing a Microsoft Lync 2013 SDK enabled application that uses side-by-side Microsoft Lync 2013 endpoints to sign in to Lync with a unique set of user credentials for each endpoint.
 
-**Last modified:** December 07, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 ## Lync endpoints
 

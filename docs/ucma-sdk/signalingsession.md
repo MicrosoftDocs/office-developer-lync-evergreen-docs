@@ -13,16 +13,6 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Signaling session properties  
-Signaling session participants  
-Signaling session events  
-Initiating and accepting a signaling session  
-Sending and receiving messages inside a signaling session  
-Negotiating media capabilities in a signaling session  
-Declining and leaving a signaling session  
-Redirecting a signaling session to another target  
-Referring another participant to the remote participant  
 
 A signaling session provides the control channel in which one endpoint can invite another endpoint to participate in some activity or exchange media descriptions required to establish media communication. Two endpoints can use an established signaling session to exchange short control messages as well as text messages between each other. The supported message types are enumerated in the [MessageType](https://msdn.microsoft.com/en-us/library/hh349721\(v=office.15\)) enumerated type. The endpoints can also renegotiate the media description anytime in a session. Normally, media is described using Session Description Protocol (SDP) as defined in RFC 2327. However, other payload types can be used in a signaling session as well.
 

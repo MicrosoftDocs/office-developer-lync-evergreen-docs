@@ -15,10 +15,7 @@ Learn about new Microsoft Lync Server 2013 Persistent Chat API prerequisites.
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Hardware requirements  
-Software requirements  
-Technical prerequisites  
+ 
 
 The following items are new requirements for the current release of Lync Server 2013 Persistent Chat API.
 

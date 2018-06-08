@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about designing a Lync 2013 Persistent Chat room add-in that displays messages that a Microsoft Unified Communications Managed API (UCMA) bot has posted to the hosting chat room and then filters the pending message posts of the local user.
 
-**Last modified:** January 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

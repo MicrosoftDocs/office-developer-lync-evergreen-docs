@@ -14,7 +14,7 @@ dev_langs:
 
 Learn about how to add a Microsoft Lync 2013 API application sharing view object to your application to view shared applications in Microsoft Lync 2013 UI suppression mode.
 
-**Last modified:** July 19, 2013
+
 
 ***Applies to:** Lync 2013*
 

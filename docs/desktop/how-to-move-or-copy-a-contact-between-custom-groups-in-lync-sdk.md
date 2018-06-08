@@ -15,7 +15,7 @@ dev_langs:
 
 Learn how to programmatically move or copy a Microsoft Lync 2013 contact from one Lync 2013 group to another in a user’s contact list.
 
-**Last modified:** July 01, 2013
+
 
 <table>
 <colgroup>
@@ -33,7 +33,7 @@ Learn how to programmatically move or copy a Microsoft Lync 2013 contact from on
 </tbody>
 </table>
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

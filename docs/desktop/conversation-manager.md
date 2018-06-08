@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about how the Microsoft Lync 2013 SDK **ConversationManager** class lets you start new conversations and online meetings.
 
-**Last modified:** December 11, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

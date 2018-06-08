@@ -15,10 +15,7 @@ Learn about the Microsoft Lync Server 2013 Persistent Chat SDK SampleLoadTest ap
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-To set up the project in Visual Studio 2010  
-To add the source code to the project  
-Requirements  
+ 
 
 
 > [!NOTE]

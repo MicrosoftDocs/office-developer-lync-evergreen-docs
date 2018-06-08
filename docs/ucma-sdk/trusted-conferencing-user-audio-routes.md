@@ -15,11 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Silent monitoring  
-Private audio channel  
-Supervisor barge-in  
-Adding to and removing from the default mix  
+
 
 This topic describes a number of operations that can be performed after a trusted conferencing user has joined a conference.
 

@@ -12,16 +12,11 @@ mtps_version: v=office.15
 
 Learn about the programming concepts and Microsoft Lync 2013 SDK object model that you use to add Lync 2013 Persistent Chat features to your application.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-What is Persistent Chat?  
-Get started with Persistent Chat  
-What can you do with Persistent Chat?  
-Beyond the basics: Learn more about Persistent Chat  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+
 
 <table>
 <colgroup>

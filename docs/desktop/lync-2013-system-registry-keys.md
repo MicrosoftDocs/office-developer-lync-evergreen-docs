@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the computer registry keys that Microsoft Lync 2013 creates in a computer system registry.
 
-**Last modified:** January 14, 2014
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

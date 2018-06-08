@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn how to run a Microsoft Lync 2013 API-enabled application on a computer where multiple versions of the Lync client is installed.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

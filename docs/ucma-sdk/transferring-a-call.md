@@ -15,11 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Attended transfer  
-Supervised transfer  
-Unattended transfer  
-Customizing call transfer behaviors  
+ 
 
 This topic discusses attended, supervised, and unattended call transfers for a two-party audio/video conversation.
 
@@ -31,11 +27,11 @@ This topic discusses attended, supervised, and unattended call transfers for a t
 
 The process of a call transfer involves three participants:
 
-  - The Transferor is the participant who initiates the transfer.
+- The Transferor is the participant who initiates the transfer.
 
-  - The Transferee is the participant who is transferred from the primary call to the transferred call.
+- The Transferee is the participant who is transferred from the primary call to the transferred call.
 
-  - The Transfer Target is the participant to whom the Transferee is transferred.
+- The Transfer Target is the participant to whom the Transferee is transferred.
 
 After the primary call is established, either participant can transfer the call. To accomplish a transfer, the Transferor sends a REFER message to the Transferee, causing the Transferee to send an INVITE to the Transfer Target participant.
 

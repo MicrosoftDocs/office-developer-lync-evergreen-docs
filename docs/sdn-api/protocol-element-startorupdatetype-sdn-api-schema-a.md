@@ -19,10 +19,7 @@ Transmission protocol of the media stream such as TCP or UDP.
 
 **Applies to**: Lync 2013
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+
 
 ## Element information
 

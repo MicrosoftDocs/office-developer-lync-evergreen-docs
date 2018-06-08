@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the basic process architecture of the Microsoft Lync 2013 Controls and their relation to the Microsoft Lync 2013 client application.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

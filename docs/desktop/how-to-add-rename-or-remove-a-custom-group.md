@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to add or remove a custom group from a user’s contact list in Microsoft Lync 2013 by using Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to automate opening a new Microsoft Lync 2013 conversation window to host an audio conversation with another Lync 2013 client.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

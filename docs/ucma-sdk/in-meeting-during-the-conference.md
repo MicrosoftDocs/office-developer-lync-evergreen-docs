@@ -13,17 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Join the conference lobby  
-Manage the conference lobby  
-Change the lobby bypass assignment  
-Change the access level of a conference  
-Change the automatic leader role Assignment  
-Conference termination countdown  
-Conference recording  
-Inviting new participants  
-Mute-All mode  
-Entry-Exit announcement  
+ 
 
 From the perspective of an end-user, there are two main types of conferences:
 

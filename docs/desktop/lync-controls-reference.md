@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn how to use Microsoft Lync Controls to integrate Microsoft Lync 2013 features such as presence, instant messaging (IM) calls, voice calls, and search into applications.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

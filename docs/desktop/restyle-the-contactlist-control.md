@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to restyle the [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control by changing property values to alter the appearance of the control.
 
-**Last modified:** February 12, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

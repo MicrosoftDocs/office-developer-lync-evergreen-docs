@@ -12,11 +12,11 @@ mtps_version: v=office.15
 
 Learn about how you use the Microsoft Lync 2013 SDK to create Microsoft Lync 2013 client conversation window extensions, add Lync features to your existing application, or create a custom client to substitute for a suppressed Lync 2013 user interface.
 
-**Last modified:** April 03, 2013
+
 
 ![Conceptual overview topic](images/JJ937254.mod_icon_badge_conoverview(Office.15).png "Conceptual overview topic")
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+**Applies to**: Lync 2013 | Lync Server 2013
 
 Microsoft Lync 2013 SDK is designed for software developers who are building custom Microsoft Lync 2013 client applications. It is also used to embed client collaboration functionality in line-of-business (LOB) applications that interoperate with Lync 2013 and Microsoft Lync Server 2013. By using the Lync 2013 API, a developer can provide the client features of instant messaging (IM), voice, video, application sharing, and meeting session functionality in a custom client or LOB application.
 

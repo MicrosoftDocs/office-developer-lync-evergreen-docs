@@ -12,16 +12,11 @@ mtps_version: v=office.15
 
 Learn about programming Microsoft Lync 2013 conversations with Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-What is a Lync 2013 conversation?  
-Get started with Lync 2013 conversations  
-What can you do with Lync 2013 conversations?  
-Beyond the basics: Learn more about Lync 2013 conversations  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+
 
 <table>
 <colgroup>

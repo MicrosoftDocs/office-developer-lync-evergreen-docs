@@ -16,9 +16,9 @@ dev_langs:
 
 Use custom commands embedded in the Lync 2013 UI to launch applications on the Microsoft Windows desktop. Custom commands are menu items added by the developer to the Lync 2013 UI.
 
-**Last modified:** August 29, 2014
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

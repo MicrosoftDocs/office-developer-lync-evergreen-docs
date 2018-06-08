@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how use the Microsoft Lync 2013 API to obtain and set Microsoft Lync Server 2013 connection settings that let a user sign in to different Lync front-end servers.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -13,11 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+ 
 
 Sample name: AVFlow-Mute
 

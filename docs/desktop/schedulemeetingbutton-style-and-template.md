@@ -14,14 +14,11 @@ mtps_version: v=office.15
 
 Learn about the style and template for the [ScheduleMeetingButton](https://msdn.microsoft.com/en-us/library/hh363440\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-ScheduleMeetingButton parts  
-Default style and template  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+
 
 There are no states or [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the ScheduleMeetingButton control.
 

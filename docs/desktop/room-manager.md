@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Microsoft Lync 2013 Persistent Chat room manager class that is part of Microsoft Lync 2013 SDK.
 
-**Last modified:** December 11, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

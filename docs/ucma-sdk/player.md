@@ -15,11 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Modes of operation  
-Playback speed  
-Player arrangements  
-Example – using a player  
+ 
 
 The [Player](https://msdn.microsoft.com/en-us/library/hh349780\(v=office.15\)) class represents an entity that is capable of playing media to one or more media flows, and as such, provides a simple, scalable way to play an audio segment in a Windows Media Audio (WMA) file to multiple listeners. A **Player** instance renders the media that is represented by an instance of a subclass of the [MediaSource](https://msdn.microsoft.com/en-us/library/hh348635\(v=office.15\)) abstract base class. The output from a **Player** instance goes to one or more [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instances.
 

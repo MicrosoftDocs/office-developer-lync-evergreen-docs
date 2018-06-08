@@ -13,14 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Description  
-Available voice services  
-Setting up the application  
-Program design  
-Architecture  
-Known issues  
-Disclaimer  
+
 
 Sample name: VoiceCompanion
 
@@ -44,15 +37,15 @@ This sample demonstrates how to create a **CollaborationPlatform** instance usin
 
 ## Available voice services
 
-  - Contact list service
+- Contact list service
     
     Using this service, the user can be connected to users from his/her contact list via speech recognition. Before connecting the user to the contact, Voice Companion checks the contact presence status. If not available, the user is prompted with the option of setting a callback when the contact becomes available.
 
-  - International number dial-up service.
+- International number dial-up service.
     
     The PSTN phone user can dial an international phone number through her corporate network thereby potentially leveraging cheaper rates for business calls.
 
-  - Conferencing service
+- Conferencing service
     
     The PSTN phone user can setup an ad-hoc conference and invite users to this conference either by selecting them from her contact list or entering a phone number. The PSTN user can do so without interrupting the conference (the PSTN user is isolated from the conference while being prompted).
 
@@ -62,19 +55,19 @@ An application with ID "urn:application:voicecompanion" needs to be configured i
 
 PowerShell Commands - The following PowerShell commands are relevant for setting up the application:
 
-  - New-CsTrustedApplication
+- New-CsTrustedApplication
     
     Create a new application in the topology. You need to assign a listening port for the application using this command.
 
-  - New-CsTrustedApplicationPool
+- New-CsTrustedApplicationPool
     
     Create a pool for this application. This is useful if you intend to run multiple application instances as the demand increases.
 
-  - New-CsTrustedApplicationComputer
+- New-CsTrustedApplicationComputer
     
     Create a computer in the pool created by the previous cmdlet.
 
-  - New-CsTrustedApplicationEndpoint
+- New-CsTrustedApplicationEndpoint
     
     Create the application endpoint for the application. Note that the same instance of the application endpoint can be run from different computers. However, any number of endpoints could be assigned to this application to allow different numbers to be used for contacting the application.
 
@@ -146,15 +139,15 @@ This component is used to determine the list of contacts of the customer and the
 
 There are there voice services available for the customer:
 
-  - Get Contact Service
+- Get Contact Service
     
     This service looks up the presence of the contact and offers a callback option to the customer if the contact is not immediately available.
 
-  - International Dial-in Service
+- International Dial-in Service
     
     This service provides a way to connect the customer with another phone number. When the call is business related, this service makes it possible to make the call as if had been made from within the corporate network. Note that the user identity is used to make the call.
 
-  - Conference Service
+- Conference Service
     
     This service is used to make a conference call. The customer can bring a number of contacts and phone numbers into the conference by pressing \#1 and \#2 to perform these tasks. While performing these tasks, the application has the ability to interact only with the customer (others will not hear any of the interactions with the application).
 
@@ -166,15 +159,15 @@ There are various workflows used in the application to accomplish the user exper
 
 The Voice Companion sample has the following known issues:
 
-  - Voice Companion throws a **NullReferenceException** if it receives a phone call from a user whose phone number is not in the reverse-number lookup list.
+- Voice Companion throws a **NullReferenceException** if it receives a phone call from a user whose phone number is not in the reverse-number lookup list.
     
     Workaround: Configure Voice Companion with as many phone numbers as feasible.
 
-  - Voice Companion throws an **ArgumentException** if it receives an instant message from a user whose IM URI is not in the reverse-number lookup list.
+- Voice Companion throws an **ArgumentException** if it receives an instant message from a user whose IM URI is not in the reverse-number lookup list.
     
     Workaround: Configure Voice Companion with as many IM URIs as feasible.
 
-  - Voice Companion is unable to add a URI and then remove it, in some circumstances.
+- Voice Companion is unable to add a URI and then remove it, in some circumstances.
     
     If a user adds a URI to the reverse-number lookup list, and then removes a logically equivalent but not literally equivalent URI, Voice Companion is unable to complete the operation. For example, if a logged in user sends an instant message to Voice Companion with the text, add tel:+14255551212, and then later sends this text, remove 4255551212, Voice Companion responds with this message: Telephone number does not exist or you do not own the telephone number. Voice Companion is unable to determine that these two telephone numbers are the same.
     

@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to send contextual data in a Microsoft Lync 2013 conversation when the UI Lync clients at all endpoints has been suppressed.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

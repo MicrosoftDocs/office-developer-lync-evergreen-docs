@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to remove a contact from a Microsoft Lync 2013 user’s contact list by calling methods from the Microsoft Lync 2013 API.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

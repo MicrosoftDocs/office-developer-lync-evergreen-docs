@@ -16,10 +16,7 @@ dev_langs:
 
 **Applies to**: Lync 2013
 
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
+ 
 
 ## Type information
 

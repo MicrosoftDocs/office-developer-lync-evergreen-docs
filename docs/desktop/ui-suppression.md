@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about the UI suppression operating mode in the Microsoft Lync 2013 client and the most common scenario that uses the Lync 2013 client in UI suppression mode.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

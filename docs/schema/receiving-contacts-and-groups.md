@@ -15,10 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Starting to receive contacts and groups  
-Stopping contacts and groups subscription  
-Refreshing the contact list  
+
 
 After the ContactGroupServices object is initialized and the desired event handlers are registered with it, an application can start to receive the self-published contact list by submitting a SUBSCRIBE request that contains *contacts* and *groups* category names in the message body. In Microsoft Unified Communications Managed API 4.0, the operation is asynchronous and the SUBSCRIBE request corresponds to the call to BeginSubscribe/EndSubscribe on the ContactGroupServices object. The results are returned in the NotificationReceived events that are raised by the ContactGroupServices object.
 

@@ -16,7 +16,7 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 ContactCard control.
 
-**Last modified:** February 14, 2013
+
 
 ***Applies to:** Lync 2013*
 

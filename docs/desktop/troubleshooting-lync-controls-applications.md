@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about troubleshooting Microsoft Lync 2013 Controls application by using [UCBase](https://msdn.microsoft.com/en-us/library/hh364242\(v=office.15\)) class read-only properties to display Microsoft Lync Control initialization errors at runtime.
 
-**Last modified:** December 26, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

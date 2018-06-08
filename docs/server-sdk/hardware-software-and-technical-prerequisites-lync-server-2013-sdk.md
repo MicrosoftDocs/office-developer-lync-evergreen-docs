@@ -15,10 +15,7 @@ Learn about the Microsoft Lync Server 2013 SDK hardware, software, and technical
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Hardware requirements  
-Software requirements  
-Technical requirements  
+ 
 
 ## Hardware requirements
 

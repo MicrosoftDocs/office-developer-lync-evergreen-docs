@@ -15,11 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Configuring trusted domains for the CollaborationPlatform  
-Maintaining a dynamic list of trusted domains  
-TrustedDomainMode differences  
-Setting ConnectionContext on an outgoing call  
+
 
 Microsoft Unified Communications Managed API 4.0 is able to interoperate with third-party SIP peers such as IP-PBXs and SIP PSTN gateways. This topic describes the APIs on the [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.15\)) and related classes that developers must understand when they create applications that interoperate with SIP gateways.
 

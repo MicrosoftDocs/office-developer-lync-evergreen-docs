@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concept of localizing a Lync 2013 API-enabled application by showing custom user activity strings instead of the default activity strings that included with an installation of Lync Server 2013.
 
-**Last modified:** December 26, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

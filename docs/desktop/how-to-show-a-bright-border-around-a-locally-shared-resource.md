@@ -14,7 +14,7 @@ dev_langs:
 
 Learn about adding a UI hint such as a bright border around a process or desktop shared out by the Microsoft Lync 2013 API
 
-**Last modified:** July 22, 2013
+
 
 ***Applies to:** Lync 2013*
 

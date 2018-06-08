@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the basic programming patterns used to write code with Microsoft Lync 2013 SDK.
 
-**Last modified:** April 09, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 ## In this section
 

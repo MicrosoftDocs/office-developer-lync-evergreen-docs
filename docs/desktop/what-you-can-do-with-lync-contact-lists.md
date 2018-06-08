@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core Lync contact list programming tasks you can do with the Microsoft Lync 2013 API, including searching for new contacts and distribution groups, adding and removing contacts from the user’s list, adding and removing custom groups, and displaying custom views of a user’s contact list.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

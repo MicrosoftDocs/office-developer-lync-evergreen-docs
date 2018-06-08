@@ -14,10 +14,9 @@ mtps_version: v=office.15
 
 This section of the MSDN Library provides technical articles to help you get started developing solutions that take advantage of Lync 2013.
 
-## Technical articles
+- [Create a Lync WPF Controls application for Windows 8 and Windows 8 Pro](create-a-lync-wpf-controls-application-for-windows-8.md)
 
-[Create a Lync WPF Controls application for Windows 8 and Windows 8 Pro](create-a-lync-wpf-controls-application-for-windows-8.md)
-[Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro](create-a-lync-silverlight-controls-application-for-windows-8.md)
+- [Create a Lync Silverlight Controls application for Windows 8 and Windows 8 Pro](create-a-lync-silverlight-controls-application-for-windows-8.md)
 
 ## See also
 

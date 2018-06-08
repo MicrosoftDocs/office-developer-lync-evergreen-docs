@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to start a Microsoft Lync 2013 meet-now meeting and register for meeting lobby events by using Microsoft Lync 2013 SDK.
 
-**Last modified:** September 26, 2014
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

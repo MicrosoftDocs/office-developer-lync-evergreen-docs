@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about making your application UI responsive to the events raised by Microsoft Lync 2013 API application sharing modality in Lync 2013 conversations.
 
-**Last modified:** January 09, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

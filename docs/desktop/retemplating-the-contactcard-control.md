@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about advanced visual template editing for Microsoft Lync 2013 Controls that inherit the ContactContactPresenter control.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

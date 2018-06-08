@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Trust in a Microsoft Lync Control application is determined by the source of the contextual information offered to the user. If context comes from an installed application, an offer of trust is present. If context comes from a URL, there is less trust.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

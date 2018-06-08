@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core conversation-related programming tasks you can do with Microsoft Lync 2013 SDK. These tasks include starting new conversations, accepting invitations to join conversations, docking Microsoft Lync 2013 conversation windows in your application, holding and transferring audio conversations, and handling delegated calls.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Use the default CWE application registration package in custom Lync 2013 automation applications to specify an extensibility tab application on the receiver side of a conversation.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Microsoft Lync 2013 Persistent Chat room add-in feature through the scenarios in which the add-in is used and the classes and methods that are used to create an add-in.
 
-**Last modified:** May 31, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

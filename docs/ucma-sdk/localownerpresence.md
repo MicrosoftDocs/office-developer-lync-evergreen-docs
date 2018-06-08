@@ -13,13 +13,8 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Presence publication  
-Presence categories provided by UCMA 4.0  
-Presence subscription and notification handling  
-Relationship level management  
-Managing watchers  
-LocalOwnerPresence state transitions  
+
+ 
 
 The [LocalOwnerPresence](https://msdn.microsoft.com/en-us/library/hh382370\(v=office.15\)) class has members that a presentity can use to publish its presence information to Microsoft Lync Server 2013.
 

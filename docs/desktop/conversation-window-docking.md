@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Lync 2013 conversation window docking feature that lets you host a conversation window inside a container control in your application by using Microsoft Lync 2013 SDK.
 
-**Last modified:** January 11, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

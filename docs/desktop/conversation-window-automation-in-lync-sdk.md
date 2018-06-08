@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about Microsoft Lync 2013 conversation window automation in Microsoft Lync 2013 SDK and how conversation window automation lets you integrate Lync 2013 into an application with very little code and in a short time.
 
-**Last modified:** April 16, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

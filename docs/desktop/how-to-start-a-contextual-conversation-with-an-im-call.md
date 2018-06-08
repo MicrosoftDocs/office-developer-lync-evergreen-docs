@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use the Microsoft Lync Control [ContextualInformation](https://msdn.microsoft.com/en-us/library/hh363342\(v=office.15\)) property to add the sender’s context to an instant messaging (IM) conversation, using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF).
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

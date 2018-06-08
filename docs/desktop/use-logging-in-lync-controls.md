@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to use the **LogListener** object to record logging information in Microsoft Lync Controls applications, for both Microsoft Silverlight and Microsoft Windows Presentation Foundation (WPF).
 
-**Last modified:** December 26, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

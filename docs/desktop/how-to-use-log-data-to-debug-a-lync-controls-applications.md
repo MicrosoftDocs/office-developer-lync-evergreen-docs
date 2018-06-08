@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use log data to debug a Microsoft Windows Presentation Foundation (WPF) application that contains Microsoft Lync Controls. This topic builds on [How to: Add logging to a Lync Controls application](how-to-add-logging-to-a-lync-controls-application.md), which describes how to enable logging.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

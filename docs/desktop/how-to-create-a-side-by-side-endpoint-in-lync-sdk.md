@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to create a side-by-side Microsoft Lync 2013
 
-**Last modified:** June 04, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

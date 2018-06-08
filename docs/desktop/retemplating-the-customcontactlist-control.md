@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about visual template editing for individual parts of the CustomContactList control by using a step-by-step procedure to generate a visual template for a control part and adding elements to the template.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about advanced concepts such as UI suppression, sign-in settings, and telephone number administration in Microsoft Lync 2013 SDK.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

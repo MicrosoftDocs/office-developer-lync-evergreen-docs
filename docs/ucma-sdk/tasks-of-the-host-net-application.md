@@ -15,36 +15,33 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Launching the browser  
-Example of .NET application tasks  
-Remarks  
+  
 
 The host .NET application that you create performs tasks before, during, and after a VoiceXML session to support automated processing of calls.
 
 Before the VoiceXML session:
 
-  - Instantiate a [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance.
+- Instantiate a [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance.
 
-  - Register for events that the **Browser** generates during a session.
+- Register for events that the **Browser** generates during a session.
 
-  - Listen for calls at a UCMA endpoint.
+- Listen for calls at a UCMA endpoint.
 
-  - Take calls that arrive at the UCMA endpoint.
+- Take calls that arrive at the UCMA endpoint.
 
-  - Verify that a call is established and active.
+- Verify that a call is established and active.
 
-  - Connect to audio devices in UCMA.
+- Connect to audio devices in UCMA.
 
-  - Launch an instance of the **Browser** and bind it to an active call.
+- Launch an instance of the **Browser** and bind it to an active call.
 
 During the VoiceXML session:
 
-  - Respond to events from the **Browser**.
+- Respond to events from the **Browser**.
 
 After the VoiceXML session:
 
-  - Handle the call when the **Browser** exits the VoiceXML application, if required.
+- Handle the call when the **Browser** exits the VoiceXML application, if required.
 
 The following example illustrates a typical instantiation and launching of an asynchronous instance of the VoiceXML **Browser** (vxb) in Microsoft Unified Communications Managed API 4.0.
 
@@ -122,21 +119,21 @@ The following sequence includes sample code that illustrates the typical tasks t
 
 6.  Take appropriate action when the **Browser** exits the page, which occurs after any of the following take place:
     
-      - An error occurs in attempting to load the VoiceXML start page. The members of the **ExitReason** enumeration indicate possible errors that prevented loading the VoiceXML start page, such as **PageNotFound** or **MalFormedXml**.
+    - An error occurs in attempting to load the VoiceXML start page. The members of the **ExitReason** enumeration indicate possible errors that prevented loading the VoiceXML start page, such as **PageNotFound** or **MalFormedXml**.
     
-      - The VoiceXML interpreter encounters an event thrown within the VoiceXML page that is not handled by the VoiceXML **\<error\>** element.
+    - The VoiceXML interpreter encounters an event thrown within the VoiceXML page that is not handled by the VoiceXML **\<error\>** element.
     
-      - The application calls the **StopAsync()** method.
+    - The application calls the **StopAsync()** method.
     
-      - The VoiceXML interpreter executes an **\<exit\>** or a **\<disconnect\>** element.
+    - The VoiceXML interpreter executes an **\<exit\>** or a **\<disconnect\>** element.
     
-      - The VoiceXML interpreter arrives at the end of a dialog and there is no successor element.
+    - The VoiceXML interpreter arrives at the end of a dialog and there is no successor element.
     
-      - The VoiceXML interpreter executes a **\<transfer bridge="false"\>** element or a **\<transfer type="blind"\>** element.
+    - The VoiceXML interpreter executes a **\<transfer bridge="false"\>** element or a **\<transfer type="blind"\>** element.
     
-      - The VoiceXML interpreter executes a **\<transfer type="consultation"\>** element in which the call transfer is successful.
+    - The VoiceXML interpreter executes a **\<transfer type="consultation"\>** element in which the call transfer is successful.
     
-      - The audio stream disconnects.
+    - The audio stream disconnects.
     
 
     > [!NOTE]

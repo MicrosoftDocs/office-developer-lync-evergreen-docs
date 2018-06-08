@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concept of contact presence publication and subscription in Microsoft Lync 2013 SDK.
 
-**Last modified:** December 10, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

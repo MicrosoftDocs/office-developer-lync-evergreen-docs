@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the part of the Microsoft Lync 2013 SDK object model that lets you programmatically start meetings and manage meeting access, the meeting lobby, and meeting presenters.
 
-**Last modified:** April 16, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

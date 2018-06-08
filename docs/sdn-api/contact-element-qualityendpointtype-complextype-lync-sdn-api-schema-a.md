@@ -19,10 +19,7 @@ SIP URI of the user as extracted from the Contact header of the underlying SIP m
 
 **Applies to**: Lync 2013
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+
 
 ## Element information
 

@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about the properties of the Microsoft Lync 2013 StartVideoCallButton control.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

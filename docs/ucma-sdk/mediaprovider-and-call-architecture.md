@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-MediaProvider and Call interaction  
-SdpContentDescription and offer/answer  
-In this section  
+ 
 
 The [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)) abstract class is intended to provide an abstraction of the link between the Signaling layer and Session Description Protocol (SDP) negotiation. A **MediaProvider** subclass facilitates offer/answer negotiation in a signaling session when an application initiates an outgoing call or accepts an incoming call. The [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) abstract class is intended to provide an abstraction of a call that uses a particular media type. A **Call** subclass instance invokes methods on the associated **MediaProvider** subclass instance to get an offer or answer, or to set an answer on the associated **MediaProvider** subclass instance.
 

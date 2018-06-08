@@ -13,16 +13,13 @@ mtps_version: v=office.15
 
 **Applies to**: Lync 2013
 
-**In this article**  
-UCMA 3.0 applications in a coexistence environment: Mixed Lync Server 2010 and Lync Server 2013 topology  
-UCMA 2.0 applications in a coexistence environment: Mixed Office Communications Server 2007 R2 and Lync Server 2013 topology  
-Direct deployment of UCMA applications against "green field" Lync Server 2013  
+ 
 
 The coexistence environments described in this topic refer to topologies that consist of *two* Communications Server or Lync Server versions. The two topology mixes described here are the following.
 
-  - Microsoft Lync Server 2010 in coexistence with Microsoft Lync Server 2013
+- Microsoft Lync Server 2010 in coexistence with Microsoft Lync Server 2013
 
-  - Microsoft Office Communications Server 2007 in coexistence with Microsoft Lync Server 2013
+- Microsoft Office Communications Server 2007 in coexistence with Microsoft Lync Server 2013
 
 For information about the third possibility, in which Office Communications Server 2007 is in coexistence with Lync Server 2010, see [UCMA 2.0 Core applications: Coexistence, migration, and upgrade scenarios](ucma-2-0-core-applications-coexistence-migration-and-upgrade-scenarios.md) or [UCMA 3.0 Core applications: Coexistence and deployment scenarios](ucma-3-0-core-applications-coexistence-and-deployment-scenarios.md).
 

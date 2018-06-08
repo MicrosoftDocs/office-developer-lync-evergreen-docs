@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn how the state of Microsoft Lync 2013 affect Microsoft Lync 2013 Controls.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

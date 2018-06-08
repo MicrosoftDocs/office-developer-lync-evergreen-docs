@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the components of Microsoft Lync 2013 enhanced presence and how it is implemented in Microsoft Lync 2013 SDK.
 
-**Last modified:** December 10, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the nature of shareable content in a Microsoft Lync 2013 conversation and what content sharing feature that Microsoft Lync 2013 SDK lets you build into your application.
 
-**Last modified:** December 12, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

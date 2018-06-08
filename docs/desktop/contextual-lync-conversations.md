@@ -17,9 +17,9 @@ dev_langs:
 
 Learn about the concept of contextual conversations in Lync 2013 and about application scenarios, application development models, and contextual extension application package registration.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

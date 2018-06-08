@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about using the Microsoft Lync 2013 SDK to give your application a conversation application sharing stage feature while in Microsoft Lync 2013 UI suppression mode.
 
-**Last modified:** July 18, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

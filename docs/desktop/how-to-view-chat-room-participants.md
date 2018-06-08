@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to display and maintain a roster of Microsoft Lync 2013 users who have joined a Lync 2013 chat room.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

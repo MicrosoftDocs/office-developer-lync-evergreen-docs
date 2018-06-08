@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core Microsoft Lync 2013 meeting-related programming tasks you can do with the Microsoft Lync 2013 API. These tasks include defining a meeting access policy, managing the display of shared content and meeting video, assigning meeting presenters, and starting meet-now meetings.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

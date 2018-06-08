@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to use members of the [Microsoft.Lync.Model](https://msdn.microsoft.com/en-us/library/jj274810\(v=office.15\)) namespace to provide contact presence and presence updates to build a custom Lync contact list UI.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

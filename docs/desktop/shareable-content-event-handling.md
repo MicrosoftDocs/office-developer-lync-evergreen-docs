@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about making your Microsoft Lync 2013 SDK-enabled application UI more responsive by handling events raised on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) class.
 
-**Last modified:** January 07, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -15,11 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Adding a contact to a contact list  
-Removing a contact from a contact list  
-Updating a contact in a contact list  
-Adding, deleting, and updating a group  
+ 
 
 When a subscription to the self-published contact list is in a Subscribed state, an application can add another contact or group to the existing contact list, remove a contact or group from the contact list, and update a contact or group in the list. These operations can be identified as publications of contacts or groups category instances. In UCMA, they are exposed by the related methods of the ContactGroupServices object.
 

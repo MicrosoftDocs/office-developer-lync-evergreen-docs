@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the concepts for adding Lync features to your application by using Microsoft Lync 2013 SDK.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

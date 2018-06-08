@@ -190,9 +190,8 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     Contained in this WWW-Authenticate header is the Uri of the OAuth token provider as specified by the MsRtcOAuth href parameter value, together with allowed authentication types as specified by the grant\_type parameter value. Here, a user can be authenticated using a Windows security credentials or password. If enabled, a user can also anonymously join a meeting. To continue, the href value, parsed into the oAuthHref variable. A POST request is then submitted against this Uri, together with the user name and password specified as the payload of the request.
     
     The response from the MsRtcOAuth provider contains the required oAuth token for the user in the response body, an example of which is shown as follows.
-    
-    ```json{"access_token":"cwt=AAEBHAEFAAAAAAAFFQAAAIxVppb2z4Dxaju2058FAACBEPoG3XyftjBYhE5zTT0buHeCAotbgyDsTGw1VRfC0jPIQlfoa9VU-7UZoTtyNvTaXSKdEGRMToYI85tyCISt0AgNEPoG3XyftjBYhE5zTT0buHc","expires_in":27402,"ms_rtc_identityscope":"local","token_type":"Bearer"}
-    ```
+     
+     `{"access_token":"cwt=AAEBHAEFAAAAAAAFFQAAAIxVppb2z4Dxaju2058FAACBEPoG3XyftjBYhE5zTT0buHeCAotbgyDsTGw1VRfC0jPIQlfoa9VU-7UZoTtyNvTaXSKdEGRMToYI85tyCISt0AgNEPoG3XyftjBYhE5zTT0buHc","expires_in":27402,"ms_rtc_identityscope":"local","token_type":"Bearer"}`
     
     Because the authentication service responds in JSON, the data can be parsed using the Windows.Data.Json namespace. This is shown in the following subroutine.
     

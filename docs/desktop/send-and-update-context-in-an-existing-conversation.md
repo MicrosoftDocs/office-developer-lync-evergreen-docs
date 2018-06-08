@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to send and update data in existing conversations by using Microsoft Lync 2013 SDK methods.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

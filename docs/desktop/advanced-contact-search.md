@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about custom Lync contact search by using Microsoft Lync 2013 SDK.
 
-**Last modified:** January 15, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

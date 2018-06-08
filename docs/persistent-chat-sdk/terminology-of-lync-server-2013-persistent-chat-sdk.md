@@ -15,21 +15,6 @@ Learn about Microsoft Lync Server 2013 Persistent Chat SDK terminology.
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-A  
-C  
-E  
-H  
-I  
-J  
-K  
-L  
-M  
-P  
-R  
-S  
-U  
-V  
 
 ## A
 

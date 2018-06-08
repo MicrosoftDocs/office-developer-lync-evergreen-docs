@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to attach a native file to a Lync 2013 conversation and then download a file from a conversation by using the Microsoft Lync 2013 API.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

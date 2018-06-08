@@ -15,10 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-RealTimeEndpoint  
-SipEndpoint  
-SipPeerToPeerEndpoint  
+ 
 
 An endpoint is a routable entity in a SIP network. A real-time communications application creates a real-time endpoint to enable a user to communicate in real time with other users, using multiple devices of a variety of types. Each device corresponds to a unique endpoint for the user. For example, a user sending an instant message from a desktop client does so through an endpoint. The same user answering a call on a mobile phone does so through another endpoint. The situation is known as Multiple Points of Presence (MPOP).
 

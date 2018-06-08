@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Microsoft Lync 2013 SDK includes new collaboration classes and shows how to use the new classes to add features to an application.
 
-**Last modified:** February 18, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

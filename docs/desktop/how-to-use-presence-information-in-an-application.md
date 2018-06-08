@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to use the presence information published by a Lync 2013 contact to make an application more responsive to changes in a user’s willingness and ability to communicate in specific modes.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

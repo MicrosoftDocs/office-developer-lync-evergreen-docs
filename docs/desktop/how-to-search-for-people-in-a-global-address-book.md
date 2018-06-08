@@ -14,7 +14,7 @@ dev_langs:
 
 Learn how to use the Microsoft Lync 2013 SDK to search for people in the Microsoft Office 2013 Unified Contact Store or other global address books.
 
-**Last modified:** July 01, 2013
+
 
 ***Applies to:** Lync 2013*
 

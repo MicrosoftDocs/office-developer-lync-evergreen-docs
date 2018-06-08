@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the components of a typical custom Lync 2013 Persistent Chat window that is built by using Microsoft Lync 2013 SDK.
 
-**Last modified:** January 03, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

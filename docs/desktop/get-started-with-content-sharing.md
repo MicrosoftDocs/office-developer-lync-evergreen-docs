@@ -12,16 +12,10 @@ mtps_version: v=office.15
 
 Learn about the programming concepts and Microsoft Lync 2013 SDK object model for building an application that controls the content sharing stage in a Microsoft Lync 2013 conversation window.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-What is content sharing?  
-Get started with content sharing  
-What can you do with content sharing?  
-Beyond the basics: Learn more about content sharing  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+ 
 
 <table>
 <colgroup>

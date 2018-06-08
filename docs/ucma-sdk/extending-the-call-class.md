@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Call base class  
-Abstract properties on the Call class  
-Abstract methods on the Call class  
+
 
 By default, UCMA 4.0 provides call controls for the audio and message media types. These call controls are, respectively, the [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) and [InstantMessagingCall](https://msdn.microsoft.com/en-us/library/hh161841\(v=office.15\)) classes. A developer can extend the UCMA 4.0 platform by creating a custom call control for an additional media type. Adding a custom call control entails creating new classes that inherit from the [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)), [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)), and [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.15\)) abstract classes, as well as creating implementations of the factory classes that are used to generate instances of the new **Call** and **MediaProvider** subclasses. Much of the functionality of the abstract base classes is inherited by the new derived classes and can be reused and exposed publicly without further modifications. This topic describes the abstract properties and methods that must be defined in a **Call** subclass.
 

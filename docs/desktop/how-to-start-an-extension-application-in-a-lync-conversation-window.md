@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to set Microsoft Lync 2013 Conversation Window Extension (CWE) properties, set CWE size and hosting location at runtime, and then start an IM conversation.
 
-**Last modified:** June 02, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

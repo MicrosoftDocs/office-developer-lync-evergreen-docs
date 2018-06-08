@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to publish Microsoft Lync 2013 presence information such as the availability and personal note of a Lync 2013 contact by using methods in Microsoft Lync 2013 SDK.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

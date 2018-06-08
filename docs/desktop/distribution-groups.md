@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Lync 2013 distribution group and the classes and events in the Microsoft Lync 2013 SDK that let you programmatically iterate on the contacts and any nested distribution groups.
 
-**Last modified:** December 10, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

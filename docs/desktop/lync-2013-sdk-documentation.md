@@ -17,10 +17,7 @@ Microsoft Lync 2013 SDK is designed for software developers who are building cus
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Lync 2013 SDK components  
-In this SDK  
-Additional resources  
+
 
 By using Lync 2013, a developer can provide instant messaging (IM), voice, video, application sharing, and meeting session functionality in a custom client or LOB application.
 

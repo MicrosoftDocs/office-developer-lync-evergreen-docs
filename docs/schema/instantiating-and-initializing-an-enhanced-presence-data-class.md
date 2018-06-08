@@ -15,10 +15,6 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Include generated classes in Visual Studio projects  
-Instantiate and initialize the Enhanced Presence data class for note  
-Instantiate and initialize the Enhanced Presence data class for machine state  
 
 To generate the XML elements for Enhanced Presence data in a .NET Framework application, you must add the generated classes or their references to the application's project, instantiate desired presence data classes, assign appropriate values to the presence object, and then serialize them into their XML representation. The first three steps are discussed in this topic, and the fourth step is discussed in [Serializing an Enhanced Presence data object to an XML element](serializing-an-enhanced-presence-data-object-to-an-xml-element.md).
 

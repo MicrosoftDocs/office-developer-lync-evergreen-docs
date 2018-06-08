@@ -14,7 +14,7 @@ dev_langs:
 
 Learn about searching for and expanding Exchange 2013 distribution groups by using the Microsoft Lync 2013 API.
 
-**Last modified:** June 06, 2013
+
 
 ***Applies to:** Lync 2013*
 

@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to use Microsoft Lync 2013 SDK to start a Microsoft Lync 2013 meet-now audio conference. You can then send the meeting access key to a Persistent Chat room so that the room participants can join the conference by clicking a meeting URL in the chat room message or by calling an auto-attendant telephone number.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

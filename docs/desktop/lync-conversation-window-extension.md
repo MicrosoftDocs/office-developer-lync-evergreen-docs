@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about the Conversation Window Extension (CWE) feature of the Lync 2013 client conversation window and how is opened, closed, and sized.
 
-**Last modified:** June 02, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -15,12 +15,7 @@ Learn about Microsoft Lync Server 2013 Persistent Chat API programming concepts.
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Persistent Chat rooms  
-Chat room categories  
-Roles  
-Scope  
-User and user groups  
+
 
 The Lync Server 2013 Persistent Chat API exposes functionality for building a wide variety of applications, including automated chat Bots, administrative tools, simple mobile or Web clients, and gateways or interfaces to bridge the Persistent Chat room application with other systems.
 

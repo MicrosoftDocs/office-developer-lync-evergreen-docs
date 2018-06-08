@@ -16,17 +16,11 @@ dev_langs:
 
 Learn how to display and publish custom Microsoft Lync 2013 presence in an application by using Microsoft Lync 2013 SDK.
 
-**Last modified:** December 07, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-Prerequisites  
-Custom user activity window  
-Get custom presence states  
-Publish a custom presence state  
-Code examples: Custom user activity window  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+
 
 <table>
 <colgroup>

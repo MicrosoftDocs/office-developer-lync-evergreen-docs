@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Learn about how Microsoft Lync 2013 SDK represents the communication modes in a Microsoft Lync 2013 conversation.
 
-**Last modified:** April 09, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

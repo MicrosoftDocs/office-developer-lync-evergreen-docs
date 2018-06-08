@@ -13,11 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Lobby management capability  
-Lobby join  
-Conference lobby API  
-LobbyManager class  
+
 
 The conference lobby is a virtual room in which participants in a multi-party conversation (a conference session) wait until the presenters of in the meeting are ready to begin.
 

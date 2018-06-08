@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to add Microsoft Lync Controls to an existing HTML Web application using Microsoft Silverlight.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

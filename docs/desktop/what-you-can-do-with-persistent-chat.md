@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core Persistent Chat tasks that you can do with the Microsoft Lync 2013 API, including reading message sent to a Persistent Chat room, sending messages to a chat room, finding chat rooms, viewing a chat room roster, filtering outgoing chat room messages, and extending chat room functionality with an add-in.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

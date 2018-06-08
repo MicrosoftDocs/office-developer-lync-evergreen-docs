@@ -15,11 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Registering and unregistering platform extensions  
-Managing media types  
-Creating factory classes for custom call and MediaProvider subclasses  
-Managing media types  
+
 
 After creating subclasses of the [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)), [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)), and [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.15\)) classes, you must create factory classes for the **Call** and **MediaProvider** subclasses. These factory classes are subclasses of the [CallFactory](https://msdn.microsoft.com/en-us/library/hh384820\(v=office.15\)) and [MediaProviderFactory](https://msdn.microsoft.com/en-us/library/hh382428\(v=office.15\)) abstract classes. These factory classes create instances of the **Call** and **MediaProvider** subclasses that you created previously. After the factory classes are created, they must be registered with the platform. If the custom media type is replacing an existing media type, the existing extension must be unregistered first. If the custom media type is not replacing an existing media type, applications should be designed to attempt to remove the media type before adding it.
 

@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to dock a Microsoft Lync 2013 conversation window inside a WPF window and respond to conversation window sizing and attention events to prevent the conversation window from undocking when its size changes.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

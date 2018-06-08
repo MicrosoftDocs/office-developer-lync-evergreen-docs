@@ -17,14 +17,12 @@ This series of articles shows you how to use UCWA to make asynchronous calls to 
 
 ## In this series
 
-- [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-    
-    - [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
-    - [Enable fluid user interface](enable-fluid-user-interface.md) 
-    - [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)   
-    - [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)
-    - [Putting it all together](putting-it-all-together.md)
-
+- [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md) 
+  - [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
+  - [Enable fluid user interface](enable-fluid-user-interface.md) 
+  - [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)   
+  - [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)
+  - [Putting it all together](putting-it-all-together.md)
 - [Set up the UCWA event channel to receive incoming notifications](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md)
 - [Making an outgoing IM call and sending messages](making-an-outgoing-im-call-and-sending-messages.md)
 - [Answer an incoming IM call and receive messages](answer-an-incoming-im-call-and-receive-messages.md)

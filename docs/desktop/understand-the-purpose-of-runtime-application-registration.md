@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about the purpose of runtime registration of CWE applications in Microsoft Lync 2013 SDK.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

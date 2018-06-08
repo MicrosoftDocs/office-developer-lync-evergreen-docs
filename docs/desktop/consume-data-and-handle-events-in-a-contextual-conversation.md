@@ -16,9 +16,9 @@ dev_langs:
 
 Use Microsoft .NET Framework code and Microsoft Lync 2013 SDK to consume contextual data and handle events in a Lync 2013 conversation.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Unified Communications Managed API 4.0 SDK documentation
 
 
-**Last modified:** August 16, 2013
+
 
 **Applies to:** Lync 2013 | Lync Server 2013
 

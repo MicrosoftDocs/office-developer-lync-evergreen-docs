@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about displaying Microsoft Silverlight applications in Lync 2013 CWE during Lync 2013 conversations.
 
-**Last modified:** February 14, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

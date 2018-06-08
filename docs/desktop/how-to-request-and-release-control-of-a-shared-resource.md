@@ -14,9 +14,9 @@ dev_langs:
 
 Learn about using Microsoft Lync 2013 SDK to request control of a computer resource that is shared by another Lync 2013 conversation participant.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

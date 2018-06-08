@@ -14,9 +14,9 @@ dev_langs:
 
 Understand the essential elements of the Lync sign in process in a Microsoft Lync 2013 SDK-enabled application. Learn about the conditions that prevent your app from signing a user in to Lync and how your code can gracefully recover from these conditions.
 
-**Last modified:** April 26, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 Your Lync 2013 API-enabled application can get contact presence and conversations as long as the user is signed in to Lync. A user can sign in to Lync by using your application if you have coded a Lync 2013 API sign in feature. Alternatively, a user can sign in using the Lync client itself as long as the client UI is not suppressed. The Lync 2013 API-based sign in process described in this article applies to the Lync UI suppression scenario and the standard Lync scenario.
 

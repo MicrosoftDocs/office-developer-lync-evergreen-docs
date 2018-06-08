@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to create a simple Microsoft Silverlight application that sends and receives information in conversation context and use Microsoft Lync 2013 SDK to run it in Microsoft Lync 2013 Conversation Window Extension (CWE).
 
-**Last modified:** June 02, 2015
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about the application strategies used in developing Microsoft Lync 2013 Controls applications.
 
-**Last modified:** February 22, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

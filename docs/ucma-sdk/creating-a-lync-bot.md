@@ -17,10 +17,7 @@ dev_langs:
 
 **Applies to**: Lync 2013
 
-**In this article**  
-Create a trusted application and a trusted application endpoint for the UC bot  
-Instantiate the UCBotHost environment  
-Deploy the UC bot using a Windows Service  
+ 
 
 To create a bot that runs in Lync, complete the steps in the following procedure.
 

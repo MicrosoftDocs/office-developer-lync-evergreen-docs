@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 The Microsoft Lync 2013 API includes new types to enable the features described in [What's new in Lync 2013 SDK](what-s-new-in-lync-2013-sdk.md).
 
-**Last modified:** April 05, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

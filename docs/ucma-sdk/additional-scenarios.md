@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Enterprise-wide instant messaging automata (IM Bots) and interactive voice response systems  
-Conferencing  
-Web applications  
+ 
 
 In addition to the other scenarios listed in this section, you can use Microsoft Unified Communications Managed API 4.0 to create the kinds of applications listed in this topic. For information about types of applications, see [Trusted applications](trusted-applications.md).
 

@@ -12,16 +12,11 @@ mtps_version: v=office.15
 
 Learn the core and advanced concepts about Microsoft Lync Controls and what you can do with them.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
 
-**In this article**  
-What are Lync Controls?  
-Get started with Lync Controls  
-What can you do with Lync Controls?  
-Beyond the basics: Learn more about Lync Controls  
-Additional resources  
+**Applies to**: Lync 2013 | Lync Server 2013
+
+
 
 <table>
 <colgroup>

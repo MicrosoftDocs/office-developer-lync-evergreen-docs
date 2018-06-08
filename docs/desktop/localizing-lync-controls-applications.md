@@ -16,9 +16,9 @@ dev_langs:
 
 Learn about localizing the strings displayed on the Microsoft Lync 2013 Controls that are in Microsoft Lync 2013 SDK.
 
-**Last modified:** December 26, 2012
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

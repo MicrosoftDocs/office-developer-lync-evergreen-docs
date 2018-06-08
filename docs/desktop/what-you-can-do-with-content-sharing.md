@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn about the core content sharing tasks you can do with the Microsoft Lync 2013 API, including starting a content sharing conversation, adding a whiteboard and PowerPoint slide deck to the conversation, saving and clearing whiteboard annotations, and attaching native files to the conversation sharing stage.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

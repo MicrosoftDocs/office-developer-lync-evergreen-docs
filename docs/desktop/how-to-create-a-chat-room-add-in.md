@@ -15,7 +15,7 @@ dev_langs:
 
 Learn how to create a chat room add-in that displays Microsoft Unified Communications Managed API (UCMA) bot messages and filters a local user’s messages before they are posted to the chat room.
 
-**Last modified:** June 07, 2013
+
 
 ***Applies to:** Lync 2013*
 

@@ -12,9 +12,9 @@ mtps_version: v=office.15
 
 Learn how to use the Microsoft Lync 2013 API to programmatically implement enhanced presence features, including getting contact enhanced presence, displaying presence in a ContactCard, getting available communication modes from a contact, publishing enhanced presence, and subscribing to enhanced presence.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

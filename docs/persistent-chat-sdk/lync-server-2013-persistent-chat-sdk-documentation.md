@@ -15,7 +15,7 @@ The Microsoft Lync Server 2013 Persistent Chat SDK includes the Microsoft Lync S
 
 The Lync Server 2013 Persistent Chat API managed code library is built over Microsoft Unified Communications Managed API 4.0. The library contains the main assembly called Microsoft.Rtc.Collaboration.PersistentChat.dll, and dependent assemblies called Microsoft.Rtc.Collaboration.dll and SIPEPS.dll. The dependent assemblies are part of the UCMA runtime.
 
-**Last modified:** August 16, 2013
+
 
 **Applies to:** Lync 2013 | Lync Server 2013
 

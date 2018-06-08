@@ -10,18 +10,11 @@ mtps_version: v=office.15
 
 # PublishAlwaysOnline (QuickStart)
 
-
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+**Sample name**: PublishAlwaysOnline
 
-Sample name: PublishAlwaysOnline
-
-Sample location: %ProgramFiles%\\Microsoft UCMA 4.0\\SDK\\Core\\Sample Applications\\QuickStarts\\PublishAlwaysOnline
+**Sample location**: %ProgramFiles%\\Microsoft UCMA 4.0\\SDK\\Core\\Sample Applications\\QuickStarts\\PublishAlwaysOnline
 
 ## Description
 
@@ -33,22 +26,21 @@ Throughout the lifetime of the process, the sample application listens for the *
 
 ## Features
 
-  - 
-  - Custom presence publication
+- Custom presence publication
 
-  - **ApplicationEndpoint** establishment
+- **ApplicationEndpoint** establishment
 
-  - **ApplicationEndpointSettings** creation by registering a delegate with **RegisterForApplicationEndpointSettings**
+- **ApplicationEndpointSettings** creation by registering a delegate with **RegisterForApplicationEndpointSettings**
 
-  - Endpoint state change notification handling
+- Endpoint state change notification handling
 
 ## Prerequisites
 
-  - Lync Server 2013.
+- Lync Server 2013
 
-  - Provisioned trusted application endpoint.
+- Provisioned trusted application endpoint
 
-## Running the sample
+## Run the sample
 
 1.  Supply the user credentials in the accompanying app.config file, or you will be prompted for them when you run the sample.
 

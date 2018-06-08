@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-  
-Typical call flow  
-Related features  
+ 
 
 Microsoft Unified Communications Managed API 4.0 allows a user to be notified of changing conditions to be able to react in real time.
 

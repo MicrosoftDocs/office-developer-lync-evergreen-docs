@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how to use the [CustomContactList](https://msdn.microsoft.com/en-us/library/hh346321\(v=office.15\)) control in Microsoft Lync Control applications to display an arbitrary customized list of contacts, using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF). Each item in the contacts list is provided by a [CustomContactListItem](https://msdn.microsoft.com/en-us/library/hh346017\(v=office.15\)) control.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

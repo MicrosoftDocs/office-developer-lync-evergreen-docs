@@ -16,9 +16,9 @@ dev_langs:
 
 Learn how to migrate your existing Microsoft Lync 2010 SDK-enabled application to Microsoft Lync 2013 SDK. The migration tasks include changes to assemblies that are referenced in your project and the installation of the latest Microsoft Silverlight development support tools.
 
-**Last modified:** April 05, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

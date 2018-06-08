@@ -14,9 +14,9 @@ dev_langs:
 
 Learn how Microsoft Lync 2013 SDK lets you code an application window to display chat room messages as they are posted to a Microsoft Lync 2013 chat room.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>

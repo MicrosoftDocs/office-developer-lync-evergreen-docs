@@ -12,11 +12,7 @@ mtps_version: v=office.15
 
 
 **Applies to:** Lync 2013 | Lync Server 2013
-
-**In this article**  
-Predefined container  
-Custom containers  
-Container membership types  
+ 
 
 Enhanced Presence containers play an important role in controlling how to make presence available to presence watchers. A container is a place on the server for a presence publisher to drop publishable presence category instances. The server ensures that the newly published category instances are dispatched to registered presence subscribers or to the allowed presence watchers who have submitted a query request.
 

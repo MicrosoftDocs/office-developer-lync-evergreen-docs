@@ -13,14 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-When should I use WMI and when should I use PowerShell?  
-Migrating trusted service entries using Microsoft Lync Server 2010 Topology Builder or PowerShell cmdlets  
-Verify that trusted service entries migrated successfully  
-Associate the existing backward-compatible legacy pool with the Lync Server 2010 registrar  
-Get OCSCore.MSI from the Office Communications Server 2007 R2 installer  
-Install the UCMA 2.0 application  
-Add AllowedDomains using WBemTest  
+ 
 
 The sections in this topic provide detailed information about migrating applications from previous UCMA versions to current versions, in topologies that can consist of different Microsoft Communications Server/Lync Server 2010 versions.
 

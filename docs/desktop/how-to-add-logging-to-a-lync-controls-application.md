@@ -15,9 +15,9 @@ dev_langs:
 
 Learn how to add logging to a Microsoft Windows Presentation Foundation (WPF) application that contains Microsoft Lync Controls. The application writes log entries to a file on the local computer when the Initialized event on the [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control occurs.
 
-**Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+
+**Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
 <colgroup>
