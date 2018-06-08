@@ -13,10 +13,9 @@ dev_langs:
 
 # Implement the UCWA sign-in workflow
 
-Signing in to UCWA is the first step of any UCWA application. The process involves discovering the UCWA root resource, from which the user authentication can proceed. Once the user is authenticated, a UCWA application resource is created and bound to the local endpoint. These tasks are demonstrated in the steps below and implemented in a separate C\# class file (namely, UcwaApp.cs).
-
-
 **Applies to:** Lync 2013 | Lync Server 2013
+
+Signing in to UCWA is the first step of any UCWA application. The process involves discovering the UCWA root resource, from which the user authentication can proceed. Once the user is authenticated, a UCWA application resource is created and bound to the local endpoint. These tasks are demonstrated in the steps below and implemented in a separate C\# class file (namely, UcwaApp.cs).
 
 ## Sign in to UCWA with specified user name and password
 
@@ -184,7 +183,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     
     The first attempt to get the UCWA [user](http://ucwa.skype.com/documentation/resources-user) resource results in a 401 Unauthorized response. Its headers include one named WWW-Authenticate with a value similar to the following.
     
-    ``` html
+    ```html
     Bearer trusted_issuers="00000002-0000-0ff1-ce00-000000000000@contoso.com", client_id="00000004-0000-0ff1-ce00-000000000000",MsRtcOAuth href="https://lyncweb.contoso.com/WebTicket/oauthtoken",grant_type="urn:microsoft.rtc:windows,urn:microsoft.rtc:anonmeeting,password"
     ```
     
@@ -192,7 +191,8 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     
     The response from the MsRtcOAuth provider contains the required oAuth token for the user in the response body, an example of which is shown as follows.
     
-        {"access_token":"cwt=AAEBHAEFAAAAAAAFFQAAAIxVppb2z4Dxaju2058FAACBEPoG3XyftjBYhE5zTT0buHeCAotbgyDsTGw1VRfC0jPIQlfoa9VU-7UZoTtyNvTaXSKdEGRMToYI85tyCISt0AgNEPoG3XyftjBYhE5zTT0buHc","expires_in":27402,"ms_rtc_identityscope":"local","token_type":"Bearer"}
+    ```json{"access_token":"cwt=AAEBHAEFAAAAAAAFFQAAAIxVppb2z4Dxaju2058FAACBEPoG3XyftjBYhE5zTT0buHeCAotbgyDsTGw1VRfC0jPIQlfoa9VU-7UZoTtyNvTaXSKdEGRMToYI85tyCISt0AgNEPoG3XyftjBYhE5zTT0buHc","expires_in":27402,"ms_rtc_identityscope":"local","token_type":"Bearer"}
+    ```
     
     Because the authentication service responds in JSON, the data can be parsed using the Windows.Data.Json namespace. This is shown in the following subroutine.
     
@@ -215,8 +215,9 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     
     The corresponding OAuth ticket is constructed as follows,
     
+    ```json
         Bearer cwt=AAEBHAEFAAAAAAAFFQAAAIxVppb2z4Dxaju2058FAACBEPoG3XyftjBYhE5zTT0buHeCAotbgyDsTGw1VRfC0jPIQlfoa9VU-7UZoTtyNvTaXSKdEGRMToYI85tyCISt0AgNEPoG3XyftjBYhE5zTT0buHc
-    
+    ```
     And it is then set as the Authorization header value for the next GET HTTP request against the user resource. This time, the HTTP request should return a status of OK.
 
 4.  Add to the UcwaApp class definition the following GetApplicationResource method that creates and returns an application resource bound to the local endpoint of the specified user.
@@ -266,7 +267,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
 
 5.  Add to the UcwaApp class definition the following SignIn method that implements the workflow to log the user by calling DiscoverRootResource, GetUserResource and then GetApplicationResource methods.
     
-    ``` 
+    ```csharp 
             public async Task<HttpStatusCode> SignIn(string userName, string password)
             {
                 this.userName = userName;
@@ -340,15 +341,10 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
 
 ## See also
 
-  - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-
-  - [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
-
-  - [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
-
-  - [Enable fluid user interface](enable-fluid-user-interface.md)
-
-  - [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)
-
-  - [Putting it all together](putting-it-all-together.md)
+- [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
+- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
+- [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
+- [Enable fluid user interface](enable-fluid-user-interface.md)
+- [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)
+- [Putting it all together](putting-it-all-together.md)
 

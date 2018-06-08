@@ -2598,10 +2598,6 @@
         href: technical-articles/making-an-outgoing-im-call-and-sending-messages.md
       - name: Answer an incoming IM call and receive messages
         href: technical-articles/answer-an-incoming-im-call-and-receive-messages.md
-      - name: Provisioning history as the context for an incoming conversation
-        href: technical-articles/provisioning-history-as-the-context-for-an-incoming-conversation.md
-      - name: Performing batch requests
-        href: technical-articles/performing-batch-requests.md
     - name: Lync 2013 UI customization
       href: technical-articles/lync-2013-ui-customization.md
     - name: Lync developer sample applications

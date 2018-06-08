@@ -49,7 +49,7 @@ For a list of prerequisites, see [How to: Create a Silverlight page that display
 
 You can use your own Web application or create one using the following HTML. The object tag contains the Silverlight application and determines how much space it occupies in the HTML page.
 
-``` html
+```html
 <html>
 <head>
 </head>

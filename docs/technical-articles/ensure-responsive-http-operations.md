@@ -12,10 +12,9 @@ dev_langs:
 
 # Ensure responsive HTTP operations
 
-In this section we walk through the steps to make asynchronous HTTP requests to access UCWA resources. Windows Store apps require asynchronous calls to ensure their responsiveness and uses the new (async/await) asynchronous programming pattern. The HTTP operations are implemented using the System.Net namespace.
-
-
 **Applies to:** Lync 2013 | Lync Server 2013
+
+In this section we walk through the steps to make asynchronous HTTP requests to access UCWA resources. Windows Store apps require asynchronous calls to ensure their responsiveness and uses the new (async/await) asynchronous programming pattern. The HTTP operations are implemented using the System.Net namespace.
 
 ## Enable responsive app through asynchronous programming patterns
 
@@ -32,6 +31,7 @@ In this section we walk through the steps to make asynchronous HTTP requests to 
     
     The modified class definition now looks as follows.
     
+    ```csharp    
         using System;
         using System.Collections.Generic;
         using System.Linq;
@@ -47,7 +47,7 @@ In this section we walk through the steps to make asynchronous HTTP requests to 
             {
             }
         }
-
+    ```
 4.  Add the following code to implement general HTTP request submission operations.
     
     ```csharp
@@ -163,7 +163,7 @@ In this section we walk through the steps to make asynchronous HTTP requests to 
 
 6.  Add the following code to complete the class definition. They include the class constructor and a few public properties. By default, this transport works message payloads of the XML format. A caller of this class may override the content type by setting the ContentType property.
     
-    ``` 
+    ```csharp 
             public Transport()
             {
                 this.ContentType = "application/xml";
@@ -179,15 +179,10 @@ When using the above Transport class to access UCWA resources, make sure that th
 
 ## See also
 
-  - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-
-  - [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
-
-  - [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
-
-  - [Enable fluid user interface](enable-fluid-user-interface.md)
-
-  - [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)
-
-  - [Putting it all together](putting-it-all-together.md)
+- [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
+- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
+- [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
+- [Enable fluid user interface](enable-fluid-user-interface.md)
+- [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)
+- [Putting it all together](putting-it-all-together.md)
 

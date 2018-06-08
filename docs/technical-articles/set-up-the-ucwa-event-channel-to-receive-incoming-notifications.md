@@ -12,18 +12,9 @@ dev_langs:
 
 # Set up the UCWA event channel to receive incoming notifications
 
-Learn how to set up an event channel in your Microsoft Unified Communications Web API 1.0 Windows Store app in C\#/XAML and XML. Setting up the event channel is necessary to enable many UCWA 1.0 features, including receiving presence updates of contacts, conducting instant messaging, audio/video calls or online meetings, and so on.
-
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2013
 
-**In this article**  
-Set up the event channel  
-Start and stop the event loop  
-Initialize a pending HTTP GET request  
-Process PGET responses  
-Hook up the event channel  
-Additional resources  
+Learn how to set up an event channel in your Microsoft Unified Communications Web API 1.0 Windows Store app in C\#/XAML and XML. Setting up the event channel is necessary to enable many UCWA 1.0 features, including receiving presence updates of contacts, conducting instant messaging, audio/video calls or online meetings, and so on.
 
 The UCWA 1.0 event channel allows a UCWA 1.0 application to receive application data, including call invitations, whenever the data are available. Although the application can poll the server to receive many kinds of the application data, such as the user info about the local user, it must rely on the event channel to enable the user to receive any incoming call. You can build your application in such a way that the event channel is the sole mechanism to receive application data.
 
@@ -315,13 +306,9 @@ Here, it is assumed that the upstream event handler is registered from a UI thre
 
 ## See also
 
-  - [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0.
-
-  - UCWA 1.0[Event Channel Details](http://ucwa.skype.com/documentation/gettingstarted-events).
-
-  - UCWA 1.0[events](http://ucwa.skype.com/documentation/resources-events) resource reference page.
-
-  - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md). More additional resources are listed therein.
-
-  - [Download the Visual Studio solution of the accompanying sample code](http://code.msdn.microsoft.com/lync-2013-open-an-event-d4b6cb62).
+- [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0.
+- UCWA 1.0[Event Channel Details](http://ucwa.skype.com/documentation/gettingstarted-events).
+- UCWA 1.0[events](http://ucwa.skype.com/documentation/resources-events) resource reference page.
+- [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md). More additional resources are listed therein.
+- [Download the Visual Studio solution of the accompanying sample code](http://code.msdn.microsoft.com/lync-2013-open-an-event-d4b6cb62).
 

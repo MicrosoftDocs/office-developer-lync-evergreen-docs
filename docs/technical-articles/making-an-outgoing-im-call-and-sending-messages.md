@@ -14,18 +14,6 @@ dev_langs:
 
 Learn how to make outgoing IM calls to a contact and then send outgoing IM messages to the remote participant in your UCWA 1.0 Windows Store app in C\#/XMAL and XML.
 
-
-**In this article**  
-Before you start  
-Overview of the process for making outgoing calls  
-Get ready to make a call  
-Make an outgoing IM call  
-Handle events to monitor the progress of a call invitation  
-Process communication-sourced events for outgoing calls  
-Handle conversation-sourced events for outgoing calls  
-Send outgoing IMs  
-Additional resources  
-
 To ensure the success of a call and the exchange of messages during a conversation, your instant messaging (IM) application will need to handle appropriate event notifications. In this article, I’ll explain what basic events to catch and how to process them in order to run a basic IM call and conversation.
 
 In UCWA, to make an IM call, you submit a POST request on the [startMessaging](http://ucwa.skype.com/documentation/resources-startmessaging) resource and include at least the SIP URI of the user you’re calling. This sends an invitation to the specified user via the UCWA event channel. When the recipient answers the call, the caller is notified that the call state changed from connecting to connected.
@@ -36,15 +24,15 @@ After the call is connected, participants can send messages to other participant
 
 Complete the following tasks before you start the process described in this article:
 
-  - Create your [application](http://ucwa.skype.com/documentation/resources-application).
+- Create your [application](http://ucwa.skype.com/documentation/resources-application).
 
-  - Start the [event channel](http://ucwa.skype.com/documentation/programmingconcepts-events).
+- Start the [event channel](http://ucwa.skype.com/documentation/programmingconcepts-events).
 
-  - Sign in to UCWA.
+- Sign in to UCWA.
 
-  - Enable the application to receive incoming notifications and incoming IM messages.
+- Enable the application to receive incoming notifications and incoming IM messages.
 
-  - Retrieve the updated [application](http://ucwa.skype.com/documentation/resources-application) resource.
+- Retrieve the updated [application](http://ucwa.skype.com/documentation/resources-application) resource.
 
 For more information, see [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md) and [Set up the UCWA event channel to receive incoming notifications](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md).
 
@@ -62,13 +50,13 @@ To make an outgoing IM call by using UCWA:
     
     After a conversation is connected, a series of modality- or functionality-related events will also appear in the event channel. You can use these events to determine which of the following modalities is currently available in your application:
     
-      - [Messaging](http://ucwa.skype.com/documentation/resources-messaging)
+    - [Messaging](http://ucwa.skype.com/documentation/resources-messaging)
     
-      - [AudioVideo](http://ucwa.skype.com/documentation/resources-audiovideo)
+    - [AudioVideo](http://ucwa.skype.com/documentation/resources-audiovideo)
     
-      - [ApplicationSharing](http://ucwa.skype.com/documentation/resources-applicationsharing)
+    - [ApplicationSharing](http://ucwa.skype.com/documentation/resources-applicationsharing)
     
-      - [DataCollaboration](http://ucwa.skype.com/documentation/resources-datacollaboration)
+    - [DataCollaboration](http://ucwa.skype.com/documentation/resources-datacollaboration)
     
     Because you started the call by using the **startMessaging** resource, only the messaging modality will be connected while all others remain in the disconnected state. If the messaging modality is in the disconnected state, you can enable or reenable it by calling the [addMessaging](http://ucwa.skype.com/documentation/resources-addmessaging) resource.
 
@@ -219,17 +207,17 @@ You implement the NotifyResourceStateChange method to forward the state changes 
 
 After a conversation is created as part of the call invitation, the recipient is added as a participant and the messaging modality is added to the conversation. These activities are accompanied by the following event notifications from the [conversation](http://ucwa.skype.com/documentation/resources-conversation) resource:
 
-  - [participant](http://ucwa.skype.com/documentation/resources-participant)added or updated
+- [participant](http://ucwa.skype.com/documentation/resources-participant) added or updated
 
-  - [messaging](http://ucwa.skype.com/documentation/resources-messaging)added or updated
+- [messaging](http://ucwa.skype.com/documentation/resources-messaging) added or updated
 
 The newly added [messaging](http://ucwa.skype.com/documentation/resources-messaging) resource contains the link to the [sendMessage](http://ucwa.skype.com/documentation/resources-sendmessage) resource, which is used to send outgoing messages. It also contains the other messaging-related operational resources:
 
-  - [stopMessaging](http://ucwa.skype.com/documentation/resources-stopmessaging) — Used to end the call.
+- [stopMessaging](http://ucwa.skype.com/documentation/resources-stopmessaging) — Used to end the call.
 
-  - [setIsTyping](http://ucwa.skype.com/documentation/resources-setistyping) — Used to notify others that a user is typing.
+- [setIsTyping](http://ucwa.skype.com/documentation/resources-setistyping) — Used to notify others that a user is typing.
 
-  - [typingParticipant](http://ucwa.skype.com/documentation/resources-typingparticipant) — Used to identify the person typing.
+- [typingParticipant](http://ucwa.skype.com/documentation/resources-typingparticipant) — Used to identify the person typing.
 
 Some of these resources might not be available when a messaging resource is in the connecting state.
 
@@ -335,17 +323,11 @@ That’s it for the basic steps to place an outgoing IM call and to send the fir
 
 ## See also
 
-  - [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0.
-
-  - UCWA 1.0 [Event Channel Details](http://ucwa.skype.com/documentation/gettingstarted-events)
-
-  - UCWA 1.0 [events](http://ucwa.skype.com/documentation/resources-events) resource reference page
-
-  - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-
-  - [Setting up the UCWA event channel to receive incoming notifications](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md)
-
-  - [Answer an incoming IM call and receive messages](answer-an-incoming-im-call-and-receive-messages.md)
-
-  - [Lync 2013: UCWA Windows Store app to start and accept IM calls](http://code.msdn.microsoft.com/lync-2013-ucwa-windows-2f0ce645)
+- [Getting Started](http://ucwa.skype.com/documentation/getting-started) with UCWA 1.0.
+- UCWA 1.0 [Event Channel Details](http://ucwa.skype.com/documentation/gettingstarted-events)
+- UCWA 1.0 [events](http://ucwa.skype.com/documentation/resources-events) resource reference page
+- [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
+- [Setting up the UCWA event channel to receive incoming notifications](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md)
+- [Answer an incoming IM call and receive messages](answer-an-incoming-im-call-and-receive-messages.md)
+- [Lync 2013: UCWA Windows Store app to start and accept IM calls](http://code.msdn.microsoft.com/lync-2013-ucwa-windows-2f0ce645)
 

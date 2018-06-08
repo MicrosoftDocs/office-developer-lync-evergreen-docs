@@ -12,15 +12,9 @@ dev_langs:
 
 # Putting it all together
 
-Now we are ready to hook up the underlying UCWA plumbing into our Windows Store app to make our application run end-to-end.
-
-
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**In this article**  
-Parse UCWA resources in XML  
-Make the application run end-to-end  
-Additional resources  
+Now we are ready to hook up the underlying UCWA plumbing into our Windows Store app to make our application run end-to-end.
 
 ## Parse UCWA resources in XML
 
@@ -240,19 +234,10 @@ This concludes our UCWA **Hello, World\!** app for Windows Store. It covers a si
 
 ## See also
 
-  - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-
-  - [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
-
-  - [Enable fluid user interface](enable-fluid-user-interface.md)
-
-  - [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)
-
-  - [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)
-
-## See also
-
-#### Other resources
-
-[Create a UCWA Windows Store app using C\#/XAML and XML](http://code.msdn.microsoft.com/create-a-ucwa-windows-2c48d3f9)
+- [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
+- [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
+- [Enable fluid user interface](enable-fluid-user-interface.md)
+- [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)
+- [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)
+- [Create a UCWA Windows Store app using C\#/XAML and XML](http://code.msdn.microsoft.com/create-a-ucwa-windows-2c48d3f9)
 
