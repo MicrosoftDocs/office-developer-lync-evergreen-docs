@@ -1,5 +1,5 @@
 ﻿---
-title: EchoPercentMicIn element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: EchoPercentMicIn element  (Lync SDN API Schema A)
 TOCTitle: EchoPercentMicIn element
 ms:assetid: 2d53eb73-6fb0-c23e-debf-b8f8eeb50ee6
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455031(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EchoPercentMicIn element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# EchoPercentMicIn element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Percentage of time when echo is detected in the audio from the capture or microphone device prior to echo cancellation. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

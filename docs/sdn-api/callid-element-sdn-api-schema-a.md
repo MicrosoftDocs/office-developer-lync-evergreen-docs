@@ -1,5 +1,5 @@
 ﻿---
-title: CallId element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: CallId element (Lync SDN API Schema A)
 TOCTitle: CallId element
 ms:assetid: ae622b7c-6156-b3dc-d639-07aba2fd3115
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455022(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# CallId element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# CallId element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Unique identifier for the SIP call. This field should be used to correlate messages referring to the same call.
 
-
-**Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013  
 
 ## Element information
 

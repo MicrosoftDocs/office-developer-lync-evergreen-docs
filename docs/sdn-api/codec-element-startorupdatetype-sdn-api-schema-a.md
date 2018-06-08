@@ -1,5 +1,5 @@
 ﻿---
-title: Codec element (Properties element) (StartOrUpdateType complexType) (Lync SDN API Schema A)
+title: Codec element (StartOrUpdateType complexType) (Lync SDN API Schema A)
 TOCTitle: Codec element (Properties element) (StartOrUpdateType complexType)
 ms:assetid: 410acce4-c1d2-5be8-8af4-b97ed958588f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775110(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Codec element (Properties element) (StartOrUpdateType complexType) (Lync SDN API Schema A)
+# Codec element (StartOrUpdateType complexType)
+
+(Properties element) (StartOrUpdateType complexType) (Lync SDN API Schema A)
 
 Codec and estimates for the bandwidth that the codecs will use. This list contains all codecs that are agreed upon by the two endpoints. Both end-points may decide to switch amoung these codecs at any time (without additional signalling).
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

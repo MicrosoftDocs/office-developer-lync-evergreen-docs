@@ -1,5 +1,5 @@
 ﻿---
-title: Codec element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: Codec element (QualityUpdate element) (Lync SDN API Schema A)
 TOCTitle: Codec element (Properties element) (QualityUpdate element) (LyncDiagnostics element)
 ms:assetid: 2eea8bee-366c-cbf6-ae25-da326948002b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775109(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# Codec element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# Codec element (QualityUpdate element)
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Describes the last codec used for the media.
 
-
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

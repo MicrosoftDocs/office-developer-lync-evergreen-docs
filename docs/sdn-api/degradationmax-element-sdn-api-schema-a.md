@@ -1,5 +1,5 @@
 ﻿---
-title: DegradationMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: DegradationMax element (Lync SDN API Schema A)
 TOCTitle: DegradationMax element
 ms:assetid: 54c05f82-cce2-94e6-8641-71606d2cd19a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455025(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# DegradationMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# DegradationMax element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Maximum degradation as the difference between the OverallMin and the maximum possible MOS-LQO for the audio codec used in the session. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

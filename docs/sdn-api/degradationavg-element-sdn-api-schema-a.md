@@ -1,5 +1,5 @@
 ﻿---
-title: DegradationAvg element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: DegradationAvg element  (Lync SDN API Schema A)
 TOCTitle: DegradationAvg element
 ms:assetid: 3c7d45dd-e152-87e3-bf21-17be004e3e93
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455024(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# DegradationAvg element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# DegradationAvg element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Difference between the OverallAvg value and the maximum possible MOS-LQO for the audio codec used in the session. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

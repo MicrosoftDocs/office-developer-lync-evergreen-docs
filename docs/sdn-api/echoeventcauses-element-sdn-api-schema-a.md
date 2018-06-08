@@ -1,5 +1,5 @@
 ﻿---
-title: EchoEventCauses element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: EchoEventCauses element (Lync SDN API Schema A)
 TOCTitle: EchoEventCauses element
 ms:assetid: 64d4599d-e895-c7a3-ca8c-245ca28fff05
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455029(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EchoEventCauses element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# EchoEventCauses element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Reasons of device echo detection and reported for audio streams when available. The causes are coded by the following bit flags: "0x01" - Sample timestamps from capture or render device were poor quality. "0x04" - High level of echo remained after echo cancellation. "0x10" - Signal from capture device had significant instances of maximum signal level.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

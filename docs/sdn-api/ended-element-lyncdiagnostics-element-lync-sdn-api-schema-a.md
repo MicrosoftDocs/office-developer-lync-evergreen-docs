@@ -1,5 +1,5 @@
 ﻿---
-title: Ended element (LyncDiagnostics element) (Lync SDN API Schema A)
+title: Ended element  (Lync SDN API Schema A)
 TOCTitle: Ended element
 ms:assetid: 2db9c396-fc3c-625f-ae00-badd5c7bfe70
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455034(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Ended element (LyncDiagnostics element) (Lync SDN API Schema A)
+# Ended element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Event that a Sip call has ended and all media stream terminated.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -1,5 +1,5 @@
 ﻿---
-title: EchoPercentSend element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: EchoPercentSend element (Lync SDN API Schema A)
 TOCTitle: EchoPercentSend element
 ms:assetid: 419e680b-51b4-7a95-89fb-e7b2d524f9e6
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455032(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EchoPercentSend element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# EchoPercentSend element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Percentage of time when echo is detected in the audio from the capture or microphone device after echo cancellation. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

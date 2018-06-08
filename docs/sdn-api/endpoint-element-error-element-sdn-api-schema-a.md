@@ -1,5 +1,5 @@
 ﻿---
-title: EndPoint element (Error element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: EndPoint element (Error element) (Lync SDN API Schema A)
 TOCTitle: EndPoint element (Error element) (LyncDiagnostics element)
 ms:assetid: 0f594427-7f0d-a03a-0e0b-d59245295aca
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455037(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EndPoint element (Error element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# EndPoint element (Error element) 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Endpoint involved in the error event.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

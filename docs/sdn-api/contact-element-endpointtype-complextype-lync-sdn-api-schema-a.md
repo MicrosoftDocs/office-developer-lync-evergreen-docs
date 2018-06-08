@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Contact element (EndPointType complexType) (Lync SDN API Schema A)
+# Contact element (EndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 SIP URI of the user as extracted from the Contact header of the underlying SIP message. This field is obfuscated unless hidepii is set to false in the LDL configuration file.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

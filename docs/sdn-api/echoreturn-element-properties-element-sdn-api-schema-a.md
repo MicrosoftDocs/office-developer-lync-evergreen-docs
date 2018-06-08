@@ -1,5 +1,5 @@
 ﻿---
-title: EchoReturn element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: EchoReturn element (Lync SDN API Schema A)
 TOCTitle: EchoReturn element
 ms:assetid: 6a72fbf3-8150-b6e8-4916-ec3ad4531cde
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455033(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EchoReturn element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# EchoReturn element
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Echo returns reported for audio streams, when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

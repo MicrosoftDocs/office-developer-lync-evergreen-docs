@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Contact element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# Contact element (QualityEndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 SIP URI of the user as extracted from the Contact header of the underlying SIP message. This field is obfuscated unless hidepii is set to false in the LDL configuration file.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ConferenceId element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: ConferenceId element (Lync SDN API Schema A)
 TOCTitle: ConferenceId element
 ms:assetid: b04092ca-fbd6-bacc-750f-6640f9899f16
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454990(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# ConferenceId element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# ConferenceId element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Identifier to correlate call legs that belong to the same conference.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

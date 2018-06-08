@@ -1,5 +1,5 @@
 ﻿---
-title: AppliedBandwidthLimit element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: AppliedBandwidthLimit element (Lync SDN API Schema A)
 TOCTitle: AppliedBandwidthLimit element
 ms:assetid: 0532dc39-5e76-3b4b-c91b-78cce2a3e9c4
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775104(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# AppliedBandwidthLimit element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# AppliedBandwidthLimit element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Displays the limits applied. It is provided only in QualityUpdate events when Call Admission Control is used.
 
-
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+ 
 
 ## Element information
 

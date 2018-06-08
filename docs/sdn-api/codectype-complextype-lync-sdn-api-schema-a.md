@@ -10,8 +10,9 @@ dev_langs:
 - xml
 ---
 
-# CodecType complexType (Lync SDN API Schema A)
+# CodecType complexType 
 
+(Lync SDN API Schema A)
 
 **Applies to**: Lync 2013
 

@@ -1,5 +1,5 @@
 ﻿---
-title: CSEQ element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: CSEQ element (Lync SDN API Schema A)
 TOCTitle: CSEQ element
 ms:assetid: 41e3904b-243b-5d13-ed31-ff6d0f2821f2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455014(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# CSEQ element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# CSEQ element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Call sequence number as part of SIP standard that needs to be used to filter for unrelated error messages. This field is not provided for QualityUpdates.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

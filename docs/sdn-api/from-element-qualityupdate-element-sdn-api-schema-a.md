@@ -1,5 +1,5 @@
 ﻿---
-title: From element (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: From element (QualityUpdate element) (Lync SDN API Schema A)
 TOCTitle: From element (QualityUpdate element) (LyncDiagnostics element)
 ms:assetid: 96d5b074-7af1-f644-5bba-6282ce8fb957
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455067(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# From element (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# From element (QualityUpdate element) 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 The source of the reported media stream.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

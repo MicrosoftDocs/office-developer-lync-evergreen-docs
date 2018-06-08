@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EPType element (EndPointType complexType) (Lync SDN API Schema A)
+# EPType element (EndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 Indicates that this endpoint is of the Lync Room System type or not, when the sendmeetingroominfo option is set to True in the LDL configeration.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

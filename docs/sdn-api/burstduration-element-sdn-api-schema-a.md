@@ -1,5 +1,5 @@
 ﻿---
-title: BurstDuration element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: BurstDuration element (Lync SDN API Schema A)
 TOCTitle: BurstDuration element
 ms:assetid: 68273225-955f-267d-4963-6f77cb3fcf34
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454987(v=office.15)
@@ -10,17 +10,15 @@ dev_langs:
 - xml
 ---
 
-# BurstDuration element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# BurstDuration element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 The average burst duration, as specified in \[RFC3611\] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. (ms)
 
 
 **Applies to**: Lync 2013
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

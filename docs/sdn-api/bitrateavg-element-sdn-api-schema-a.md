@@ -1,5 +1,5 @@
 ﻿---
-title: BitRateAvg element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: BitRateAvg element (Lync SDN API Schema A)
 TOCTitle: BitRateAvg element
 ms:assetid: e8dff2ed-d78d-d366-e615-fc3d8059dba6
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454992(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# BitRateAvg element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# BitRateAvg element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average bit rate, in bits per second, sent or received for a video stream and computed over the duration of the session. This includes raw video and transport bits. This metric is reported for video streams when available. (bits/s)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

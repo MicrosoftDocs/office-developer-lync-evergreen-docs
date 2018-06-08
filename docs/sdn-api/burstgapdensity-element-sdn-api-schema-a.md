@@ -1,5 +1,5 @@
 ﻿---
-title: BurstGapDensity element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: BurstGapDensity element (Lync SDN API Schema A)
 TOCTitle: BurstGapDensity element
 ms:assetid: 0c8b54f6-db82-7a5e-2387-dc5962dc811a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454989(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# BurstGapDensity element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# BurstGapDensity element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average burst gap density, as specified in \[RFC3611\] section 4.7.2, computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available.
 
-
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

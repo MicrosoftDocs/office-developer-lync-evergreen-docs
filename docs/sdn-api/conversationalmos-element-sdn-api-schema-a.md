@@ -1,5 +1,5 @@
 ﻿---
-title: ConversationalMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: ConversationalMOS element (Lync SDN API Schema A)
 TOCTitle: ConversationalMOS element
 ms:assetid: 98e11e67-4e9e-d57f-7007-8eb179e2c93f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455016(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# ConversationalMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# ConversationalMOS element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Conversational clarity index for remote party, as described in \[ITUP.562\] section 6.3. This metric is reported for all available modalities and media types.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

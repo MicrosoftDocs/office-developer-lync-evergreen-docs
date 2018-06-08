@@ -1,5 +1,5 @@
 ﻿---
-title: EndTime element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: EndTime element  (Lync SDN API Schema A)
 TOCTitle: EndTime element
 ms:assetid: f59c6b9c-9b2f-de3e-87d1-bc13c0b742b9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455038(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EndTime element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# EndTime element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Denotes then time when the conversation ended. It is provided only in QualityUpdate events.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

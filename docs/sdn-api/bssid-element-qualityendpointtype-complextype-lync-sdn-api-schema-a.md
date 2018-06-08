@@ -1,5 +1,5 @@
 ﻿---
-title: BSSID element (QualityEndPointType complexType) (Lync SDN API Schema A)
+title: BSSID element (Lync SDN API Schema A)
 TOCTitle: BSSID element
 ms:assetid: 04c7638a-417b-3432-6bec-a81c4ef773d8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775106(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# BSSID element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# BSSID element 
+
+(QualityEndPointType complexType) (Lync SDN API Schema A)
 
 Id of an access point for a WiFi/wireless connection.
 
 
-**Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013 
 
 ## Element information
 

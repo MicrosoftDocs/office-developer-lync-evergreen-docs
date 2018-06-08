@@ -1,5 +1,5 @@
 ﻿---
-title: HDQualityRatio element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: HDQualityRatio element (Lync SDN API Schema A)
 TOCTitle: HDQualityRatio element
 ms:assetid: e2f335cb-5bef-0db9-54cf-3aafe623f239
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439213(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# HDQualityRatio element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# HDQualityRatio element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Percentage of the duration of a call that is using the HD720 resolution. This metric is reported for video streams when available. (percent)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

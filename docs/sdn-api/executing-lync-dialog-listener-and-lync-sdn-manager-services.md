@@ -10,18 +10,15 @@ mtps_version: v=office.15
 
 # Executing Lync Dialog Listener and Lync SDN Manager services
 
-
 **Applies to:** Lync 2013 | Lync Server 2013
 
 This section describes how to execute the Lync Dialog Listener and Lync SDN Manager services.
-
-## Executing the Lync Dialog Listener service
 
 The Lync SDN API 2.0 Setup Wizards will install, configure, and start the Lync Dialog Listener and Lync SDN Manager services. These services are configured by default with the automatic startup type. However, you can restart it by after the configuration is changed or the service failed.
 
 You can use the Windows Services to verify if the services are indeed automatically started and, if not, reconfigure them to be started automatically. The Windows Services panel also let you change the credentials used to run the service, access the Lync server (if you are in the RTC Server Administrator group) as well optionally access the QoE database when using a Windows-trusted database connection..
 
-### Managing the Lync Dialog Listener service
+## Manage the Lync Dialog Listener service
 
 1.  Start the Windows Service application.
 
@@ -33,7 +30,7 @@ You can use the Windows Services to verify if the services are indeed automatica
       
     ![Lync Dialog Listener Properties sheet](images/Dn439304.lync_sdn_api_ldl_properties(Office.15).png "Lync Dialog Listener Properties sheet")  
 
-### Managing Lync SDN Manager service
+## Manage Lync SDN Manager service
 
 1.  Start Windows Service application.
 
@@ -43,7 +40,7 @@ You can use the Windows Services to verify if the services are indeed automatica
     
     ![Lync SDN Manager properties](images/Dn785214.lync_sdn_mgr_properties(Office.15).png "Lync SDN Manager properties")
 
-### Verifying operations of Lync Dialog Listener service
+## Verify operations of Lync Dialog Listener service
 
 To confirm that the installation is successful, do the following:
 
@@ -51,7 +48,7 @@ To confirm that the installation is successful, do the following:
 
 2.  After running the Lync SDN API 2.0 Setup Wizard, you can confirm that the installation is successful by checking the LyncDiagnostics.log file and verifying that an entry analogous to the following line is logged in the log file.  
       
-    2013-04-18T14:17:31.7693761-07:00\[Info\]Lync DialogListener Diagnostics Service started.
+    `2013-04-18T14:17:31.7693761-07:00[Info]Lync DialogListener Diagnostics Service started.`
 
-3.  The log file is located in the directory specified during the setup. By default, this is the %temp%\\SDN directory. You can change this value to a custom directory path by using the Lync SDN API 2.0 Setup wizard during the installation or by editing the LyncDialogListener.exe.config file after the installation.
+3.  The log file is located in the directory specified during the setup. By default, this is the `%temp%\SDN` directory. You can change this value to a custom directory path by using the Lync SDN API 2.0 Setup Wizard during the installation or by editing the LyncDialogListener.exe.config file after the installation.
 

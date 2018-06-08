@@ -1,5 +1,5 @@
 ﻿---
-title: Connectivity element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: Connectivity element  (Lync SDN API Schema A)
 TOCTitle: Connectivity element
 ms:assetid: cebebb42-22b2-4fa6-7807-75097dfaae9c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454995(v=office.15)
@@ -10,17 +10,15 @@ dev_langs:
 - xml
 ---
 
-# Connectivity element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# Connectivity element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Denotes whether the call is internal or external through the edge server. It is provided only in QualityUpdate events.
 
 
 **Applies to**: Lync 2013
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -1,5 +1,5 @@
 ﻿---
-title: BurstDensity element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: BurstDensity element (Lync SDN API Schema A)
 TOCTitle: BurstDensity element
 ms:assetid: 5c2a0920-27aa-71fc-28cb-7c0cda95a4a8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454988(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# BurstDensity element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# BurstDensity element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average burst density, as specified in \[RFC3611\] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. The fraction of RTP data packets within burst periods since the beginning of reception that were either lost or discarded. This value is expressed as a fixed point number with the binary point at the left edge of the field. It is calculated by dividing the total number of packets lost or discarded (excluding duplicate packet discards) within burst periods by the total number of packets expected within the burst periods, multiplying the result of the division by 256, limiting the maximum value to 255 (to avoid overflow), and taking the integer part. This field MUST be populated and MUST be set to zero if no packets have been received.
 
-
-**Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+**Applies to**: Lync 2013 
 
 ## Element information
 

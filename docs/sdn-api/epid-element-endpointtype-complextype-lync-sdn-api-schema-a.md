@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EPId element (EndPointType complexType) (Lync SDN API Schema A)
+# EPId element (EndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 Endpoint Id of the endpoint.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

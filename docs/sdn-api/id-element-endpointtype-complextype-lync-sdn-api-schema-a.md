@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Id element (EndPointType complexType) (Lync SDN API Schema A)
+# Id element (EndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 Identifier of the endpoint.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -1,5 +1,5 @@
 ﻿---
-title: CorrelationId element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: CorrelationId element  (Lync SDN API Schema A)
 TOCTitle: CorrelationId element
 ms:assetid: 955eb989-a4c2-2389-4d4d-8f07187c9ac0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455015(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# CorrelationId element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# CorrelationId element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Identifier to correlate two SIP calls where mediation server is involved. Both SIP calls belong to the same conversation.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

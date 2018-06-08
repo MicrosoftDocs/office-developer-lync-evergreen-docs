@@ -1,5 +1,5 @@
 ﻿---
-title: ConnectionInfo element (LyncDiagnostics element) (Lync SDN API Schema A)
+title: ConnectionInfo element (Lync SDN API Schema A)
 TOCTitle: ConnectionInfo element
 ms:assetid: d60bd27c-678f-e500-7259-fee25b2d3118
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454994(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# ConnectionInfo element (LyncDiagnostics element) (Lync SDN API Schema A)
+# ConnectionInfo element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Connection-related properties regardless of the media stream and end points.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

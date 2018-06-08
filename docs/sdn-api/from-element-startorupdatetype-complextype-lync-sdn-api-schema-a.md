@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# From element (StartOrUpdateType complexType) (Lync SDN API Schema A)
+# From element (StartOrUpdateType complexType) 
+
+(Lync SDN API Schema A)
 
 Source of the media stream.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

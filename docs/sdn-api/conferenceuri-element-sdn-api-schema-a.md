@@ -1,5 +1,5 @@
 ﻿---
-title: ConferenceURI element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: ConferenceURI element (Lync SDN API Schema A)
 TOCTitle: ConferenceURI element
 ms:assetid: 59c78e4b-161d-6352-02d5-98b57bbe9622
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454991(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# ConferenceURI element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# ConferenceURI element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Sip URI used for the conference. This field is obfuscated unless hidepii is set to false in configuration.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

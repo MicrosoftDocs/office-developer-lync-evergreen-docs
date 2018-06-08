@@ -1,5 +1,5 @@
 ﻿---
-title: ConversationId element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: ConversationId element  (Lync SDN API Schema A)
 TOCTitle: ConversationId element
 ms:assetid: d6affa3d-1983-880a-8fdf-f310b7026d3f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455007(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# ConversationId element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# ConversationId element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Identifier to correlate different SIP calls involved in the same conversation. In some cases Lync uses different SIP calls for different modalities. This identifier permits correlating these SIP calls in the same conversation.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

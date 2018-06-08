@@ -1,5 +1,5 @@
 ﻿---
-title: FrameRate element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: FrameRate element 
 TOCTitle: FrameRate element
 ms:assetid: 1d5935d7-9c91-49ff-0aec-a9e9f2f884b1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455061(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# FrameRate element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# FrameRate element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average frame rate (in frames per second). When available, this metric is only reported for application sharing streams and only for Lync 2013. (frames/s)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -1,5 +1,5 @@
 ﻿---
-title: DynamicCapabilityPercent element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: DynamicCapabilityPercent element  (Lync SDN API Schema A)
 TOCTitle: DynamicCapabilityPercent element
 ms:assetid: a4903b10-2c9f-db33-d879-8ab3a0bc6d66
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455030(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# DynamicCapabilityPercent element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# DynamicCapabilityPercent element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Percentage of time that the client is running under capability of less than 70% of expected capability for this type of CPU. Inbound and Outbound are identical because it measures the capability of the client instead of the channel. This metric is reported for video streams when available. (percent)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

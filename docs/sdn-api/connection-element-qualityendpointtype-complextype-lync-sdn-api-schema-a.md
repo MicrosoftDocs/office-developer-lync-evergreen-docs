@@ -1,5 +1,5 @@
 ﻿---
-title: Connection element (QualityEndPointType complexType) (Lync SDN API Schema A)
+title: Connection element (Lync SDN API Schema A)
 TOCTitle: Connection element
 ms:assetid: e6b8e6a2-4346-48d4-c9c8-ffb11425de69
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775112(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# Connection element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# Connection element 
+
+(QualityEndPointType complexType) (Lync SDN API Schema A)
 
 Connection type such as "wired" or "wireless".
 
-
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

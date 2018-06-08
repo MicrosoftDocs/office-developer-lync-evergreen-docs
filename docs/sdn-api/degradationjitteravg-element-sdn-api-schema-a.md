@@ -1,5 +1,5 @@
 ﻿---
-title: DegradationJitterAvg element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: DegradationJitterAvg element (Lync SDN API Schema A)
 TOCTitle: DegradationJitterAvg element
 ms:assetid: d5540f26-2179-d8ed-ab8c-ee85959b1cde
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455027(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# DegradationJitterAvg element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# DegradationJitterAvg element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average fraction of the degradation jitter average applies to inter-arrival packet jitter. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

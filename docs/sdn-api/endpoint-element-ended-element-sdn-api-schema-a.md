@@ -1,5 +1,5 @@
 ﻿---
-title: EndPoint element (Ended element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: EndPoint element (Ended element) (Lync SDN API Schema A)
 TOCTitle: EndPoint element (Ended element) (LyncDiagnostics element)
 ms:assetid: e63f3c63-61a4-d8e4-173a-8dd5ec28cf59
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455035(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EndPoint element (Ended element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# EndPoint element (Ended element) 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Endpoint involved in the ended SIP call.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

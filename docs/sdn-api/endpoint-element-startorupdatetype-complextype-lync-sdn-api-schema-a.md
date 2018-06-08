@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# EndPoint element (StartOrUpdateType complexType) (Lync SDN API Schema A)
+# EndPoint element (StartOrUpdateType complexType) 
+
+(Lync SDN API Schema A)
 
 Endpoint while the call is on-hold.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

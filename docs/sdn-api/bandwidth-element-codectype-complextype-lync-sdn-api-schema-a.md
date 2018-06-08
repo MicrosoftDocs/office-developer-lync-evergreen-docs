@@ -1,5 +1,5 @@
 ﻿---
-title: Bandwidth element (CodecType complexType) (Lync SDN API Schema A)
+title: Bandwidth element (Lync SDN API Schema A)
 TOCTitle: Bandwidth element
 ms:assetid: ad870978-98bb-481d-8e89-6fe512f95865
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775105(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# Bandwidth element (CodecType complexType) (Lync SDN API Schema A)
+# Bandwidth element 
+
+(CodecType complexType) (Lync SDN API Schema A)
 
 Lower limit of the estimated bandwidth.
 
-
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

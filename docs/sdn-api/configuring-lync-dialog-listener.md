@@ -10,10 +10,10 @@ mtps_version: v=office.15
 
 # Configuring Lync Dialog Listener
 
-
 **Applies to:** Lync 2013 | Lync Server 2013
 
-**Note**: The steps presented in this section are optional unless you want to modify the default configurations.
+> [!NOTE] 
+> The steps presented in this section are optional unless you want to modify the default configurations.
 
 The configuration settings affect how the listener service behaves and these options are specified in the LyncDialogListener.exe.config file.
 
@@ -21,25 +21,21 @@ The configuration files are located in the Lync SDN API 2.0 installation directo
 
 ![The configuration files are located in the Lync SDN API’s installation directory. By default, the path to this directory is C:\\Program Files\\Microsoft Lync Server\\Microsoft Lync SDN API\\.](images/Dn439303.lync_sdn_api_installation_directory(Office.15).png "The configuration files are located in the Lync SDN API’s installation directory. By default, the path to this directory is C:\\Program Files\\Microsoft Lync Server\\Microsoft Lync SDN API\\.")
 
-## Configuring Lync Dialog Listener
+The following section describes how to configure Lync Dialog Listener.
 
-This section describes how to configure Lync Dialog Listener.
-
-### Configuring Lync Dialog Listener logging options
+## Configure Lync Dialog Listener logging options
 
 Follow these steps to modify the Lync Dialog Listener logging configuration.
 
-  - Navigate to the API installation directory.
+1. Navigate to the API installation directory.
 
-  - Open the LyncDialogListener.exe.config file with a text editor.
+2. Open the LyncDialogListener.exe.config file with a text editor.
 
-  - Search for the \<loggingConfiguration\> section and make appropriate changes to entries under the \<Listeners\> elements.
+3. Search for the \<loggingConfiguration\> section and make appropriate changes to entries under the \<Listeners\> elements.
 
 
 > [!NOTE]
-> <P>The configuration file can be conveniently inspected and modified using the Microsoft Enterprise Library Configuration Tool. For more information, see <A href="http://msdn.microsoft.com/en-us/library/ff648951.aspx">Microsoft Enterprise Library</A>.</P>
-
-
+> The configuration file can be conveniently inspected and modified using the Microsoft Enterprise Library Configuration Tool. For more information, see [Microsoft Enterprise Library](http://msdn.microsoft.com/en-us/library/ff648951.aspx).
 
 Each entry (an \<add\> element) under \<listeners\> corresponds to a specified type of logging. Modifications can include adding a new \<add\> entry to enable the specified type of logging, removing an \<add\> entry to disable the specified type of logging, and changing an existing \<add\> entry to modify the specified type of logging.
 
@@ -76,9 +72,9 @@ The Lync Dialog Listener service default configuration supports the following ty
 </tbody>
 </table>
 
-
 The following example shows the LNEAppLog type of logging options containing a modified logging file path (in the boldface text).
 
+```xml
     <listeners>
       <add name="LNEAppLog"
     type="…" 
@@ -93,18 +89,21 @@ The following example shows the LNEAppLog type of logging options containing a m
     traceOutputOptions="LogicalOperationStack, 
     DateTime, Timestamp, ProcessId, ThreadId, Callstack"/>
     </listeners>
+```
 
 By default, the LyncSDNAPI.msi will set logging levels to be in release mode. To turn on debug mode, you will need to change the configuration setting. To increase the logging level for debugging purposes, change the following switchValue option from under the \<categorySources\> in the LyncDialogListener.exe.config file. For example to turn off logging, set the switchValue option to "Off", as shown as follows:
 
+```xml
     <add switchValue="Off" name="Debug">
             <listeners>
               <add name="LNEAppLog" />
             </listeners>
         </add>
+```
 
 To activate logging for debugging, set the switchValue option to "All" as shown as follows:
 
-``` 
+```xml 
 <add switchValue="All" name="Debug">
         <listeners>
           <add name="LNEAppLog" />
@@ -113,13 +112,13 @@ To activate logging for debugging, set the switchValue option to "All" as shown 
 
 ```
 
-### Configuring Lync Dialog Listener execution options
+## Configure Lync Dialog Listener execution options
 
-Follow the steps below to modify the Lync Dialog Listener (LDL) execution configuration.
+Follow these steps to modify the Lync Dialog Listener (LDL) execution configuration.
 
-1.  Navigate to the API installation directory
+1.  Navigate to the API installation directory.
 
-2.  Open the LyncDialogListener.exe.config file with a text editor
+2.  Open the LyncDialogListener.exe.config file with a text editor.
 
 3.  Search for the \<appSettings\> section and make appropriate changes to relevant entries therein.
 
@@ -192,9 +191,9 @@ The configuration for executing the LDL service is flexible. The following table
 </tbody>
 </table>
 
-
 The following example shows an excerpt of a Lync Dialog Listener execution configuration, specifying where (submituri) to post the diagnostic data (sendrawsdp, sendallcallqoe, sendmeetingroominfo), how to submit the data, and what quality of experience metrics (qualityThresholdLevel, audio-DegradationAvgOptimal, audio-DegradationAvgAcceptable) to use in provisioning of the Lync network diagnostic data to a network management system.
 
+```xml
     <appSettings>
         <add key="submituri" value="http://www.contoso.com/SDNWebService/PostStuffHere" />
         <add key="hidepii" value="true" />
@@ -208,9 +207,11 @@ The following example shows an excerpt of a Lync Dialog Listener execution confi
         <add key="audio-DegradationAvgAcceptable" value="1" />
     ……
       </appSettings>
+```
 
 At the bottom of the configuration file is a list of optional Quality of Experience fields which can be changed to customize individual threshold levels. These by default match the default values of thresholds within the Quality of Experience database. The full list of these fields is as follows:
 
+```xml
     <add key="audio-DegradationAvgOptimal" value="0.6" />
         <add key="audio-DegradationAvgAcceptable" value="1" />
         <add key="audio-RoundTripOptimal" value="200" />
@@ -263,4 +264,4 @@ At the bottom of the configuration file is a list of optional Quality of Experie
         <add key="applicationsharing-RelativeOneWayAverageAcceptable" value="1.75" />
         <add key="applicationsharing-RDPTileProcessingLatencyAverageOptimal" value="200" />
         <add key="applicationsharing-RDPTileProcessingLatencyAverageAcceptable" value="400" />
-
+```

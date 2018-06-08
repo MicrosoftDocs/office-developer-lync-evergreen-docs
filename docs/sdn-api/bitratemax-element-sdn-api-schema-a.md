@@ -1,5 +1,5 @@
 ﻿---
-title: BitRateMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: BitRateMax element (Lync SDN API Schema A)
 TOCTitle: BitRateMax element
 ms:assetid: 1d353424-fe4b-44f6-510d-4fb3c81ede05
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455003(v=office.15)
@@ -10,17 +10,15 @@ dev_langs:
 - xml
 ---
 
-# BitRateMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# BitRateMax element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Maximum bit rate, in bits per second, sent or received for a video stream and computed over the duration of the session. This metric is reported for video streams when available. (bits/s)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+ 
 
 ## Element information
 

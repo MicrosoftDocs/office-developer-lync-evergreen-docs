@@ -1,5 +1,5 @@
 ﻿---
-title: BurstGapDuration element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: BurstGapDuration element (Lync SDN API Schema A)
 TOCTitle: BurstGapDuration element
 ms:assetid: 3d902eab-b734-16c4-6504-dd7d8fb0d1b5
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455011(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# BurstGapDuration element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# BurstGapDuration element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average burst gap duration, as specified in \[RFC3611\] section 4.7.2, computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. (ms)
 
-
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

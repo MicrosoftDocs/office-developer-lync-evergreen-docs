@@ -1,5 +1,5 @@
 ﻿---
-title: Caller element (InviteType complexType) (Lync SDN API Schema A)
+title: Caller element  (Lync SDN API Schema A)
 TOCTitle: Caller element
 ms:assetid: 1713dc3b-7cfe-c63e-2adf-c2be5682a786
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775108(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# Caller element (InviteType complexType) (Lync SDN API Schema A)
+# Caller element 
+
+(InviteType complexType) (Lync SDN API Schema A)
 
 Properties of the caller.
 
-
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

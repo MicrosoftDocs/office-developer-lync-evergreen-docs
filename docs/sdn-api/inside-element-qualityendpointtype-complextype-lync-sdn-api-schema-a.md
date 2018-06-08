@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Inside element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# Inside element 
+
+(QualityEndPointType complexType) (Lync SDN API Schema A)
 
 Indicates if the source is registered within the enterprise (True) or not (False).
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
