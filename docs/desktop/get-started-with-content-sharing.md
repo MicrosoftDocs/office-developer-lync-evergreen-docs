@@ -14,7 +14,7 @@ Learn about the programming concepts and Microsoft Lync 2013 SDK object model fo
 
 **Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What is content sharing?  
@@ -34,20 +34,13 @@ Additional resources
 </tbody>
 </table>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="caption">
+<div class="caption">
 Watch the video: Share file attachments in online meetings
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]</td>
-</tr>
-</tbody>
-</table>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]
+
 
 ## What is content sharing?
 

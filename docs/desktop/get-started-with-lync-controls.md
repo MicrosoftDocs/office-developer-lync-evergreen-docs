@@ -14,7 +14,7 @@ Learn the core and advanced concepts about Microsoft Lync Controls and what you 
 
 **Last modified:** July 01, 2013
 
-***Applies to:** Lync 2013 | Lync Server 2013*
+***Applies to:** Lync 2013 | Lync Server 2013*
 
 **In this article**  
 What are Lync Controls?  
@@ -29,25 +29,18 @@ Additional resources
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-lync-controls.md" class="uri">get-started-with-lync-controls.md</a>   <a href="get-started-with-lync-controls.md" class="uri">get-started-with-lync-controls.md</a>   <a href="get-started-with-lync-controls.md" class="uri">get-started-with-lync-controls.md</a></p></td>
+<td><p><a href="get-started-with-lync-controls.md" class="uri">get-started-with-lync-controls.md</a>   <a href="get-started-with-lync-controls.md" class="uri">get-started-with-lync-controls.md</a>   <a href="get-started-with-lync-controls.md" class="uri">get-started-with-lync-controls.md</a></p></td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="caption">
+<div class="caption">
 Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]</td>
-</tr>
-</tbody>
-</table>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+
 
 ## What are Lync Controls?
 

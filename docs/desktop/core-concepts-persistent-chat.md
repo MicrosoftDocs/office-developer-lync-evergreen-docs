@@ -20,7 +20,8 @@ Learn about the foundational Microsoft Lync 2013 SDK objects that make up the pr
 
 
 Watch the video: What’s new with the Lync 2013 Persistent Chat API
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
 
 
 ## Persistent Chat overview
