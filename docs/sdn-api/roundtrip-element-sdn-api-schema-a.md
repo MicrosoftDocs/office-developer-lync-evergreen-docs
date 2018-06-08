@@ -1,5 +1,5 @@
 ﻿---
-title: RoundTrip element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RoundTrip element  (Lync SDN API Schema A)
 TOCTitle: RoundTrip element
 ms:assetid: a6cb4bf8-c2eb-4dd7-8d8b-df707c476aac
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439265(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RoundTrip element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RoundTrip element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average network propagation round-trip time as specified in \[RFC3550\] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

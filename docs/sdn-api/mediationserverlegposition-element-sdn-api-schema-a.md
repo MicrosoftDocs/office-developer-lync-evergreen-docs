@@ -1,5 +1,5 @@
 ﻿---
-title: MediationServerLegPosition element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: MediationServerLegPosition element  (Lync SDN API Schema A)
 TOCTitle: MediationServerLegPosition element
 ms:assetid: 1551fe15-1bfe-bf2f-25eb-4f5820f02479
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775127(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# MediationServerLegPosition element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# MediationServerLegPosition element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It is provided only in QualityUpdate events.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

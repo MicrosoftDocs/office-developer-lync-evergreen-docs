@@ -1,5 +1,5 @@
 ﻿---
-title: RecvListenMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RecvListenMOS element (Lync SDN API Schema A)
 TOCTitle: RecvListenMOS element
 ms:assetid: d17bb386-a60a-d9c9-51d8-94bc0d7b5710
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439254(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RecvListenMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RecvListenMOS element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, for decoded audio received by the reporting entity during the session. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

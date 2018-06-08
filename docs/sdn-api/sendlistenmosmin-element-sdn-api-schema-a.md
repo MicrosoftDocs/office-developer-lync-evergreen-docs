@@ -1,5 +1,5 @@
 ﻿---
-title: SendListenMOSMin element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: SendListenMOSMin element  (Lync SDN API Schema A)
 TOCTitle: SendListenMOSMin element
 ms:assetid: beb3e392-52ce-80db-880e-32de3040c909
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439278(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# SendListenMOSMin element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# SendListenMOSMin element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Minimum of the SendListenMOS for the stream over the duration of the session. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

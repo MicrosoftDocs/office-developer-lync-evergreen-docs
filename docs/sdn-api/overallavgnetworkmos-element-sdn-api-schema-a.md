@@ -1,5 +1,5 @@
 ﻿---
-title: OverallAvgNetworkMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: OverallAvgNetworkMOS element  (Lync SDN API Schema A)
 TOCTitle: OverallAvgNetworkMOS element
 ms:assetid: e5093a51-3d7b-be87-5ed6-f507930c8bab
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439246(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# OverallAvgNetworkMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# OverallAvgNetworkMOS element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average of MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, based on the audio codec used, the observed packet loss and inter-arrival packet jitter. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

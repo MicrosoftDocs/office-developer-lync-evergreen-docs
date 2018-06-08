@@ -1,5 +1,5 @@
 ﻿---
-title: VideoFrameLossRate element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: VideoFrameLossRate element  (Lync SDN API Schema A)
 TOCTitle: VideoFrameLossRate element
 ms:assetid: b320fdde-11b2-211f-ccc8-e6faa66cec28
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439281(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# VideoFrameLossRate element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# VideoFrameLossRate element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average fraction of frames lost on the video receiver side as computed over the duration of the session. This metric is reported for video streams when available. (frames/s)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

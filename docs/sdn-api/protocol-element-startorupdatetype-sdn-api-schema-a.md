@@ -1,5 +1,5 @@
 ﻿---
-title: Protocol element (Properties element) (StartOrUpdateType complexType) (Lync SDN API Schema A)
+title: Protocol element  (StartOrUpdateType complexType) (Lync SDN API Schema A)
 TOCTitle: Protocol element (Properties element) (StartOrUpdateType complexType)
 ms:assetid: 7771173a-4089-525a-1628-d324d39249e7
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775135(v=office.15)
@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Protocol element (Properties element) (StartOrUpdateType complexType) (Lync SDN API Schema A)
+# Protocol element (StartOrUpdateType complexType)
+
+(Properties element) (StartOrUpdateType complexType) (Lync SDN API Schema A)
 
 Transmission protocol of the media stream such as TCP or UDP.
 

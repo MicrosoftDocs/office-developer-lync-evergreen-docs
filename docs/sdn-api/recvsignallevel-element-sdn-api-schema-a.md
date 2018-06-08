@@ -1,5 +1,5 @@
 ﻿---
-title: RecvSignalLevel element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RecvSignalLevel element (Lync SDN API Schema A)
 TOCTitle: RecvSignalLevel element
 ms:assetid: 38b86ea5-c1ae-2557-90e6-ac090d4b6fe8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439255(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RecvSignalLevel element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RecvSignalLevel element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Received signal level in units of dB. This metric is reported for audio streams when available. Average energy level of received audio is classified as mono speech, or left channel of stereo speech. (dB)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

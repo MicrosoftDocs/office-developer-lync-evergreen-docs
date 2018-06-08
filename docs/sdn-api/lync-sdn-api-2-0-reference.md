@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Lync SDN API 2.0 reference
 
-
 **Applies to**: Lync 2013
 
 The Microsoft Lync SDN API data consists of schematized XML elements presented in this documentation set. With this release, there are two schema versions. The latest schema version begins a new "lettered" versioning system, while the previous version was using a "numbered" versioning system. The Lync SDN API 2.0 product is paired by default with Lync SDN API Schema version A. For the purposes of backwards compatibility, refer to the documentation for the previous schema, [Lync SDN API Schema version 1.0](lync-software-defined-networking-api-2-0.md). The following table explains how to pair each Lync SDN API release with each Lync SDN API Schema.

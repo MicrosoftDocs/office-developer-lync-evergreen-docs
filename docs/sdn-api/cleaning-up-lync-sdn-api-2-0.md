@@ -24,9 +24,11 @@ To unregister Lync Dialog Listener as a Lync Server application, run the Remove-
 
 2.  Issue the following cmdlet:  
       
-    Remove-CsServerApplication -Identity \<app identity\>  
+    ```powershell
+    Remove-CsServerApplication -Identity <app identity>  
+    ```
       
-    Where \<app identity\> is the application identity string. For example, "Service:registrar:pool1.contoso.com/Diagnostics". You can follow the example shown in [Installing Lync SDN API 2.0 components](installing-lync-sdn-api-2-0-components.md) to use Get-CsServerApplication cmdlet to find out the \<app identity\> of the application.
+    Where \<app identity\> is the application identity string; for example, "Service:registrar:pool1.contoso.com/Diagnostics". You can follow the example shown in [Installing Lync SDN API 2.0 components](installing-lync-sdn-api-2-0-components.md) to use Get-CsServerApplication cmdlet to find out the \<app identity\> of the application.
 
 ## Uninstall the Lync Dialog Listener (LDL)
 

@@ -1,5 +1,5 @@
 ﻿---
-title: VGAQualityRatio element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: VGAQualityRatio element (Lync SDN API Schema A)
 TOCTitle: VGAQualityRatio element
 ms:assetid: 3c907683-0dd7-e082-7680-2b92278a5e8f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439301(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# VGAQualityRatio element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# VGAQualityRatio element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Percentage of the duration of a call that is using the VGA resolution. This metric is reported for video streams when available. (percent)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

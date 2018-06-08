@@ -1,5 +1,5 @@
 ﻿---
-title: RecvListenMOSMin element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RecvListenMOSMin element (Lync SDN API Schema A)
 TOCTitle: RecvListenMOSMin element
 ms:assetid: 0a8aa5ac-6dac-1381-e5de-fe85f6ff62a6
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439257(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RecvListenMOSMin element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RecvListenMOSMin element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Minimum of the RecvListenMOS for the stream during the session. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

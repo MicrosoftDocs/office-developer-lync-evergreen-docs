@@ -1,5 +1,5 @@
 ﻿---
-title: StartTime element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: StartTime element (Lync SDN API Schema A)
 TOCTitle: StartTime element
 ms:assetid: 4e2165d7-d631-8459-e0c0-2b3aae6f605b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439296(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# StartTime element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# StartTime element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Denotes the time when the conversation started. It is provided only in QualityUpdate events.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

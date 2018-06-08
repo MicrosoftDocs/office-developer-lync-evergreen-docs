@@ -14,7 +14,6 @@ dev_langs:
 
 This topic shows the schema definition for LyncSdnApi.Schema.A.xsd.
 
-
 **Applies to:** Lync 2013 | Lync Server 2013
 
 ``` xml

@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# IP element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# IP element (QualityEndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 IP address of the the media stream source or destination.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

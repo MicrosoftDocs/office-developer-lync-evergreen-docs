@@ -1,5 +1,5 @@
 ﻿---
-title: MSDiagnosticsClient element (Properties element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: MSDiagnosticsClient element  (Lync SDN API Schema A)
 TOCTitle: MSDiagnosticsClient element
 ms:assetid: 24d28145-4b9e-64f6-c491-204c5d115d5b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775129(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# MSDiagnosticsClient element (Properties element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# MSDiagnosticsClient element 
+
+(Properties element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Lync-specific diagnostics message from the client.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

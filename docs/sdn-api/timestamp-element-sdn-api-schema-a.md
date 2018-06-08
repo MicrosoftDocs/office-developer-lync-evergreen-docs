@@ -1,5 +1,5 @@
 ﻿---
-title: TimeStamp element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: TimeStamp element  (Lync SDN API Schema A)
 TOCTitle: TimeStamp element
 ms:assetid: 25080730-5bef-6839-b760-13f7e57b8781
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439266(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# TimeStamp element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# TimeStamp element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 UTC time when the report is processed.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

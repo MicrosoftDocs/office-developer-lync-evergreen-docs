@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Properties element (LyncDiagnostics element) (Lync SDN API Schema A)
+# Properties element (LyncDiagnostics element) 
+
+(Lync SDN API Schema A)
 
 Details of the Error.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

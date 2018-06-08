@@ -1,5 +1,5 @@
 ﻿---
-title: RDPTileProcessingLatencyBurstDensity element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RDPTileProcessingLatencyBurstDensity element (Lync SDN API Schema A)
 TOCTitle: RDPTileProcessingLatencyBurstDensity element
 ms:assetid: dba6ed4d-c951-cc5e-b508-f16e7628ac67
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439252(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RDPTileProcessingLatencyBurstDensity element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RDPTileProcessingLatencyBurstDensity element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Burst density in the processing time for remote desktop protocol (RDP) tiles. A "bursty" transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream. This metric is only reported for application sharing streams using Lync 2013.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

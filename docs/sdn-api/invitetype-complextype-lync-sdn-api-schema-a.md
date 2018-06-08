@@ -10,15 +10,12 @@ dev_langs:
 - xml
 ---
 
-# InviteType complexType (Lync SDN API Schema A)
+# InviteType complexType 
+
+(Lync SDN API Schema A)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
 
 ## Type information
 

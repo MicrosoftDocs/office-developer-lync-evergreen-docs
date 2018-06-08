@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RelayPort element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# RelayPort element 
+
+(QualityEndPointType complexType) (Lync SDN API Schema A)
 
 Port number of the relay.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

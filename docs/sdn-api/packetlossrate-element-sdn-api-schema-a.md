@@ -1,5 +1,5 @@
 ﻿---
-title: PacketLossRate element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: PacketLossRate element  (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: PacketLossRate element
 ms:assetid: 8ee27adc-5cb8-77c1-2a50-5c940a2fe34a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439248(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# PacketLossRate element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# PacketLossRate element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average fraction lost computed over the duration of the session, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all available modalities and media types. (percent)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -1,5 +1,5 @@
 ﻿---
-title: OverallMinNetworkMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: OverallMinNetworkMOS element  (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: OverallMinNetworkMOS element
 ms:assetid: 6c24d189-21ed-e88f-2840-a24105bc9c22
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439247(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# OverallMinNetworkMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# OverallMinNetworkMOS element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Minimum of MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, based on the audio codec used, the observed packet loss and inter-arrival packet jitter. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

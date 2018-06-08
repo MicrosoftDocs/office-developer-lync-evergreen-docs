@@ -1,5 +1,5 @@
 ﻿---
-title: RecvFrameRateAverage element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RecvFrameRateAverage element  (Lync SDN API Schema A)
 TOCTitle: RecvFrameRateAverage element
 ms:assetid: 81d919eb-736e-78fe-00a0-df727475f0c0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439253(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RecvFrameRateAverage element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RecvFrameRateAverage element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average frames per second received for all video streams and computed over the duration of the session. This metric is reported for video streams when available. (frames/s)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -1,5 +1,5 @@
 ﻿---
-title: RelativeOneWayAverage element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RelativeOneWayAverage element (Lync SDN API Schema A)
 TOCTitle: RelativeOneWayAverage element
 ms:assetid: 0348bec9-9da1-c1a3-7624-2bfe38923813
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439258(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RelativeOneWayAverage element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RelativeOneWayAverage element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average amount of one-way latency. Relative one-way latency measures the delay between the client and the server. This metric is only reported for application sharing streams using Lync 2013. (ms)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

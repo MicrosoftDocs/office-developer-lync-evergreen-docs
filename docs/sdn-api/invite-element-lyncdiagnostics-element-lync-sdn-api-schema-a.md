@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Invite element (LyncDiagnostics element) (Lync SDN API Schema A)
+# Invite element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Event that an endpoint attempts to esablish a call. LDL will include this element in its output if the sendcallinvites entry is set to True (activated) in the LDL configuration file. In addition, LDL will also notifies any SIP Invite messages (re-invites), not just the first one. Following this message Earlymedia may be flowing but this element is not intended to report on early media streams.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

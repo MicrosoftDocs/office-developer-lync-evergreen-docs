@@ -10,17 +10,15 @@ dev_langs:
 - xml
 ---
 
-# MaxBandwidth element (CodecType complexType) (Lync SDN API Schema A)
+# MaxBandwidth element 
+
+(CodecType complexType) (Lync SDN API Schema A)
 
 Upper limit of the estimated bandwidth.
 
 
 **Applies to**: Lync 2013
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

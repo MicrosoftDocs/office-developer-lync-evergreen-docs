@@ -1,5 +1,5 @@
 ﻿---
-title: SpoiledTilePercentAverage element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: SpoiledTilePercentAverage element  (Lync SDN API Schema A)
 TOCTitle: SpoiledTilePercentAverage element
 ms:assetid: 58640be4-d970-1ee9-d540-78d28aabff9c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439267(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# SpoiledTilePercentAverage element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# SpoiledTilePercentAverage element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average percentage of the content that did not reach the viewer but was instead discarded and overwritten by fresh content. When available, this metric is only reported for application sharing streams and only for Lync 2013. (percent)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

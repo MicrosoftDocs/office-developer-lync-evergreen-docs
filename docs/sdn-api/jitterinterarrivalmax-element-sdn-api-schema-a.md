@@ -1,5 +1,5 @@
 ﻿---
-title: JitterInterArrivalMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: JitterInterArrivalMax element  (Lync SDN API Schema A)
 TOCTitle: JitterInterArrivalMax element
 ms:assetid: 7d51261a-c597-9db3-5683-2a101e892beb
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455068(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# JitterInterArrivalMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# JitterInterArrivalMax element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Maximum inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

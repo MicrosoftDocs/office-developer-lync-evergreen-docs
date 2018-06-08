@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# LRSInvite element (LyncDiagnostics element) (Lync SDN API Schema A)
+# LRSInvite element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Event that a Lync Room System (LRS) endpoint (i.e., a Lync meeting room) attempts to establish a call. LDL sends LRSInvite messages depending on how the LDL configuration is set. If the sendmeetingroominfo entry is set to True (activated) and the sendcallinvites entry is set to false (deactivated), LDL send LRSInvite when the call is made from a Lync meeting room. If the sendcallinvites and sendmeetingroominfo entries are both activated, LDL will not send LRSInvite because the Inivte element will already contain the necessary information about which endpoints are of meeting rooms.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

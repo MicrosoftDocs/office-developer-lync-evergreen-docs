@@ -1,5 +1,5 @@
 ﻿---
-title: VideoPacketLossRate element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: VideoPacketLossRate element  (Lync SDN API Schema A)
 TOCTitle: VideoPacketLossRate element
 ms:assetid: 304d24c7-f412-b23e-2055-959ce5432cac
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439283(v=office.15)
@@ -10,17 +10,13 @@ dev_langs:
 - xml
 ---
 
-# VideoPacketLossRate element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# VideoPacketLossRate element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over the duration of the session. This metric is reported for video streams when available. (packets/s)
 
-
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

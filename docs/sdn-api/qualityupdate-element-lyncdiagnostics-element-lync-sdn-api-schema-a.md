@@ -1,5 +1,5 @@
 ﻿---
-title: QualityUpdate element (LyncDiagnostics element) (Lync SDN API Schema A)
+title: QualityUpdate element  (Lync SDN API Schema A)
 TOCTitle: QualityUpdate element
 ms:assetid: 4948a34e-0ffe-2282-2e77-010f3db136db
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439275(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# QualityUpdate element (LyncDiagnostics element) (Lync SDN API Schema A)
+# QualityUpdate element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Specifies the event that a SIP call has ended and contains an updated report of the quality metrics of individual media streams. These quality metrics for a stream may include updates provided by other endpoints during the call. By default, LDL raises this event (and thus reports the quality updates) only if the call quality is under the quality thresholds defined in the QoE database or in the LDL configuration file. Alterantively, you can configure Lync Dialog Listener (LDL) to send all quality updates. Quality updates are based on individual streams instead of the call.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

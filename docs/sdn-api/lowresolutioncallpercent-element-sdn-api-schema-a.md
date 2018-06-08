@@ -1,5 +1,5 @@
 ﻿---
-title: LowResolutionCallPercent element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: LowResolutionCallPercent element  (Lync SDN API Schema A)
 TOCTitle: LowResolutionCallPercent element
 ms:assetid: 7539e8be-ea1a-7076-56a1-4972f9f77e08
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439216(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# LowResolutionCallPercent element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# LowResolutionCallPercent element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Percentage of time of the call where resolution is low. Threshold is 120 pixels for smaller dimension. This metric is reported for video streams when available. (percent)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

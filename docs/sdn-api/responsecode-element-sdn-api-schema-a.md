@@ -1,5 +1,5 @@
 ﻿---
-title: ResponseCode element (Properties element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: ResponseCode element  (Lync SDN API Schema A)
 TOCTitle: ResponseCode element
 ms:assetid: 258d235f-f85c-9657-b2d9-ec61e14d0c83
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775138(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# ResponseCode element (Properties element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# ResponseCode element 
+
+(Properties element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Message describing the error.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

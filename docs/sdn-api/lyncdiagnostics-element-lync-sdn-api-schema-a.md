@@ -10,17 +10,15 @@ dev_langs:
 - xml
 ---
 
-# LyncDiagnostics element (Lync SDN API Schema A)
+# LyncDiagnostics element 
+
+(Lync SDN API Schema A)
 
 The root element for output from the Lync SDN Manager.
 
 
 **Applies to**: Lync 2013
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

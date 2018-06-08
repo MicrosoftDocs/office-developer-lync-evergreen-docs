@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Relay element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# Relay element 
+
+(QualityEndPointType complexType) (Lync SDN API Schema A)
 
 IP Address of the first relay used in the media traffic.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

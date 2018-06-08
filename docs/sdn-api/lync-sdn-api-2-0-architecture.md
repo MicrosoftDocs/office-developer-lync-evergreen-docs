@@ -10,24 +10,23 @@ mtps_version: v=office.15
 
 # Lync SDN API 2.0 architecture
 
-
 **Applies to:** Lync 2013 | Lync Server 2013
 
 Conceptually, the Lync SDN API 2.0 consists of the following components:
 
-  - A Lync Dialog Listener (LDL) that captures signaling and diagnostic observations about media traffic between or among Lync endpoints.
+- A Lync Dialog Listener (LDL) that captures signaling and diagnostic observations about media traffic between or among Lync endpoints.
 
-  - A Lync SDN Manager (LSM) that collects the data from one or more LDLs and distributes to third-party network management systems.
+- A Lync SDN Manager (LSM) that collects the data from one or more LDLs and distributes to third-party network management systems.
 
-  - One or more network management systems supporting a restful Web service to receive and analyze the diagnostic data posted from the LSM.
+- One or more network management systems supporting a restful Web service to receive and analyze the diagnostic data posted from the LSM.
 
 ## Lync SDN API architecture
 
 A graphical illustration of the Lync SDN API 2.0 is presented in Figure 1.
 
-![Architecture of Lync SDN API](images/Dn439293.architecture_lync_sdn_api(Office.15).png "Architecture of Lync SDN API")
-
 **Figure 1: Architecture of the Lync SDN API 2.0**
+
+![Architecture of Lync SDN API](images/Dn439293.architecture_lync_sdn_api(Office.15).png "Architecture of Lync SDN API")
 
 The types of Lync media traffic involving two or more Lync endpoints include audio and video calls, as well as application-sharing.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Properties element (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: Properties element (QualityUpdate element) (Lync SDN API Schema A)
 TOCTitle: Properties element (QualityUpdate element) (LyncDiagnostics element)
 ms:assetid: 175f3116-f334-fb01-1260-9e866e73c873
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439244(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Properties element (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# Properties element (QualityUpdate element) 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determinine a bad call.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

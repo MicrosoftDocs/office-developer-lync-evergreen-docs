@@ -1,5 +1,5 @@
 ﻿---
-title: MSDiagnostics element (Properties element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: MSDiagnostics element  (Lync SDN API Schema A)
 TOCTitle: MSDiagnostics element
 ms:assetid: c8c0dd3a-09bb-181a-c7bf-4192495fe3a2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775128(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# MSDiagnostics element (Properties element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# MSDiagnostics element 
+
+(Properties element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Lync-specific diagnostics message for this error.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

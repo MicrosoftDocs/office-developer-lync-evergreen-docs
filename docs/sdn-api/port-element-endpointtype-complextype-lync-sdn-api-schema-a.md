@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Port element (EndPointType complexType) (Lync SDN API Schema A)
+# Port element (EndPointType complexType) 
+
+(Lync SDN API Schema A)
 
 Port number of the destination or source of the media stream used by this endpoint.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

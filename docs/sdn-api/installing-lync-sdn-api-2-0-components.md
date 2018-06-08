@@ -16,7 +16,7 @@ Complete the prerequisites and run the API installation wizard to install the Ly
 
 There are two .msi packages to install the Lync SDN API 2.0: the Lync Dialog Listener (LDL) installer (lyncsdnapi.msi), and the Lync SDN Manager (LSM) installer (lyncsdnmanager.msi).
 
-## Before you install the LDL
+## Before you install the Lync Dialog Listener
 
 The following prerequisistes must be met before the LDL can be installed and started successfully:
 
@@ -77,7 +77,7 @@ Follow these steps to use the Lync SDN API 2.0 Setup Wizard to install the Lync 
       
     ![Click Finish to exit the installation wizard](images/Dn439302.lync_sdn_api_wizard_6(Office.15).png "Click Finish to exit the installation wizard")  
 
-## Install the LSM
+## Install the Lync SDN Manager
 
 1.  Copy the LyncSDNManager.msi package to the server that will act as the LSM role.
 
@@ -107,7 +107,7 @@ Follow these steps to use the Lync SDN API 2.0 Setup Wizard to install the Lync 
       
     ![Lync SDN Manager completed setup dialog box](images/Dn439302.LSM_finish(Office.15).png "Lync SDN Manager completed setup dialog box")  
 
-## Install certificates for use with Lync SDN Manager over SSL
+## Install certificates for use with the Lync SDN Manager over SSL
 
 Installing certificates is required for the following purposes:
 

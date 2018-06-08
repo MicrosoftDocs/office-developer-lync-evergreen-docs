@@ -1,5 +1,5 @@
 ﻿---
-title: JitterInterArrival element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: JitterInterArrival element  (Lync SDN API Schema A)
 TOCTitle: JitterInterArrival element
 ms:assetid: 3de209fa-0ed2-325f-f078-d5591445ac8c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455066(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# JitterInterArrival element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# JitterInterArrival element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all available modalities/media types. (ms)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

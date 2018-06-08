@@ -1,5 +1,5 @@
 ﻿---
-title: PacketUtilization element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: PacketUtilization element  (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: PacketUtilization element
 ms:assetid: 7bdf4d37-ef03-03e7-a123-cf125d9ad495
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439235(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# PacketUtilization element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# PacketUtilization element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Number of Real-time Transport Protocol (RTP) packets received in the session. This metric is reported for all available modalities and media types.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

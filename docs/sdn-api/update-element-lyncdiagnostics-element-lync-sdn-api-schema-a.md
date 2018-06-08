@@ -1,5 +1,5 @@
 ﻿---
-title: Update element (LyncDiagnostics element) (Lync SDN API Schema A)
+title: Update element  (Lync SDN API Schema A)
 TOCTitle: Update element
 ms:assetid: fad934e2-4406-3e60-a39a-0b85a596dadf
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775142(v=office.15)
@@ -10,17 +10,15 @@ dev_langs:
 - xml
 ---
 
-# Update element (LyncDiagnostics element) (Lync SDN API Schema A)
+# Update element 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Event that a media stream is started. Every Start element contains a report about a particular media stream. This event is raised when the call is established, i.e., when the call is picked up and the SIP INVITE is answered with a 200 OK response. The LyncDiagnostics element will not contain any event elements (e.g., Invite, LRSInvite, Start, Update, etc.), when all media streams are inactive (usually when the call is on-hold).
 
 
 **Applies to**: Lync 2013
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

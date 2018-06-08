@@ -1,5 +1,5 @@
 ﻿---
-title: Protocol element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: Protocol element  (QualityUpdate element) (Lync SDN API Schema A)
 TOCTitle: Protocol element (Properties element) (QualityUpdate element) (LyncDiagnostics element)
 ms:assetid: 2fc8009f-ed3d-5ffc-dd3f-039ade5a283d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439274(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Protocol element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# Protocol element (QualityUpdate element)
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Transmission protocol of the call such as TCP or UDP.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

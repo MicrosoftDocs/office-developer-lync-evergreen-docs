@@ -1,5 +1,5 @@
 ﻿---
-title: RecvNoiseLevel element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RecvNoiseLevel element (Lync SDN API Schema A)
 TOCTitle: RecvNoiseLevel element
 ms:assetid: 39e26f79-86b7-9a4b-4253-a354c86b58cb
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439256(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RecvNoiseLevel element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RecvNoiseLevel element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Received noise level in units of dB that is reported for audio streams when available. Average energy level of received audio is classified as noise, mono signal or the left channel of stereo signal. (dB)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

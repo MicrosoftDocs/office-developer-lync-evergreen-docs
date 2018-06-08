@@ -1,5 +1,5 @@
 ﻿---
-title: MediaBypass element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: MediaBypass element  (Lync SDN API Schema A)
 TOCTitle: MediaBypass element
 ms:assetid: 51ecb6cc-765a-79b6-f4f8-e32c4669d0a4
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439233(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# MediaBypass element (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# MediaBypass element 
+
+(ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

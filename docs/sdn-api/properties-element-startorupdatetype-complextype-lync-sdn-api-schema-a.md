@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# Properties element (StartOrUpdateType complexType) (Lync SDN API Schema A)
+# Properties element (StartOrUpdateType complexType)
+
+ (Lync SDN API Schema A)
 
 Properties of the started or updated media stream.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

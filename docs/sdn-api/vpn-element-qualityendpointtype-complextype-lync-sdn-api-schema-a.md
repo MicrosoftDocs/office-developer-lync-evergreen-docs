@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# VPN element (QualityEndPointType complexType) (Lync SDN API Schema A)
+# VPN element 
+
+(QualityEndPointType complexType) (Lync SDN API Schema A)
 
 Indicates if the user is on VPN (True) or not (False).
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

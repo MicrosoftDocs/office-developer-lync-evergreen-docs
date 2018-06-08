@@ -1,5 +1,5 @@
 ﻿---
-title: To element (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: To element (QualityUpdate element) (Lync SDN API Schema A)
 TOCTitle: To element (QualityUpdate element) (LyncDiagnostics element)
 ms:assetid: 821362f3-7e50-2022-4061-d627ccc1f3bd
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439290(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# To element (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# To element (QualityUpdate element) 
+
+(LyncDiagnostics element) (Lync SDN API Schema A)
 
 Destination of the media stream.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

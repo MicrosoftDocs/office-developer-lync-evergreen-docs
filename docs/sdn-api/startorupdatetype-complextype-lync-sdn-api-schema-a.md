@@ -10,15 +10,12 @@ dev_langs:
 - xml
 ---
 
-# StartOrUpdateType complexType (Lync SDN API Schema A)
+# StartOrUpdateType complexType 
+
+(Lync SDN API Schema A)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
 
 ## Type information
 

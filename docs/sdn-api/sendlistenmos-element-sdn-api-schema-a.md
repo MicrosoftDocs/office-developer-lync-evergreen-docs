@@ -1,5 +1,5 @@
 ﻿---
-title: SendListenMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: SendListenMOS element  (Lync SDN API Schema A)
 TOCTitle: SendListenMOS element
 ms:assetid: 5270dcb0-ad29-552d-c6ea-29c25ebca8dc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439272(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# SendListenMOS element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# SendListenMOS element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, for pre-encoded audio sent by the reporting entity during the session. This metric is reported for audio streams when available.
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

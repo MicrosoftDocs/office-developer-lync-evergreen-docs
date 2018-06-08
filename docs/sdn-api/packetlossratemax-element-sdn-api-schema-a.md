@@ -1,5 +1,5 @@
 ﻿---
-title: PacketLossRateMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: PacketLossRateMax element (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: PacketLossRateMax element
 ms:assetid: 26a34ada-139b-380e-cae6-6badbfa9af65
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439249(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# PacketLossRateMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# PacketLossRateMax element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Maximum fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over the duration of the session. This metric is reported for all available modalities/media types. (percent)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

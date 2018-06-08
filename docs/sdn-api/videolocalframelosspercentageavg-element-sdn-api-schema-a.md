@@ -1,5 +1,5 @@
 ﻿---
-title: VideoLocalFrameLossPercentageAvg element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: VideoLocalFrameLossPercentageAvg element  (Lync SDN API Schema A)
 TOCTitle: VideoLocalFrameLossPercentageAvg element
 ms:assetid: e999075e-d02a-0fb5-1cb4-6c0df00d8039
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439282(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# VideoLocalFrameLossPercentageAvg element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# VideoLocalFrameLossPercentageAvg element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average percentage of video frames lost as they are displayed to the user. This includes frames recovered from network losses. This metric is reported for video streams when available. (percent)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

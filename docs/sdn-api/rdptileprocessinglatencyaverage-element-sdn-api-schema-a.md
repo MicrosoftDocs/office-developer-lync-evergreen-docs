@@ -1,5 +1,5 @@
 ﻿---
-title: RDPTileProcessingLatencyAverage element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RDPTileProcessingLatencyAverage element (Lync SDN API Schema A)
 TOCTitle: RDPTileProcessingLatencyAverage element
 ms:assetid: 7a193ec3-1d11-18c8-78aa-e3c521bf3c99
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439251(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RDPTileProcessingLatencyAverage element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RDPTileProcessingLatencyAverage element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Average processing time for remote desktop protocol (RDP) tiles. A higher total value implies a longer delay in the viewing experience. When available, this metric is only reported for application sharing streams using Lync 2013. (ms)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

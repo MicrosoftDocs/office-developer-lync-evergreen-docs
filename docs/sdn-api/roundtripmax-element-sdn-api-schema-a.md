@@ -1,5 +1,5 @@
 ﻿---
-title: RoundTripMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+title: RoundTripMax element  (Lync SDN API Schema A)
 TOCTitle: RoundTripMax element
 ms:assetid: e1be0ed2-f807-a65f-b1c3-6ec0993745d6
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439268(v=office.15)
@@ -10,17 +10,14 @@ dev_langs:
 - xml
 ---
 
-# RoundTripMax element (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
+# RoundTripMax element 
+
+(Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
 Maximum network propagation round-trip time as specified in \[RFC3550\] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)
 
 
 **Applies to**: Lync 2013
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
