@@ -675,13 +675,13 @@
         - name: Properties element (StartOrUpdateType complexType)
           href: sdn-api/properties-element-startorupdatetype-complextype-lync-sdn-api-schema-a.md
         - name: Protocol element (Properties element) (QualityUpdate element) (LyncDiagnostics element)
-          href: sdn-api/protocol-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/protocol-element-qualityupdate-element-sdn-api-schema-a.md
         - name: Protocol element (Properties element) (StartOrUpdateType complexType)
           href: sdn-api/protocol-element-startorupdatetype-sdn-api-schema-a.md
         - name: QualityUpdate element
           href: sdn-api/qualityupdate-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md
         - name: RatioConcealedSamplesAvg element
-          href: sdn-api/ratioconcealedsamplesavg-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/ratioconcealedsamplesavg-element-sdn-api-schema-a.md
         - name: RawSDP element
           href: sdn-api/rawsdp-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md
         - name: RDPTileProcessingLatencyAverage element
@@ -689,15 +689,15 @@
         - name: RDPTileProcessingLatencyBurstDensity element
           href: sdn-api/rdptileprocessinglatencyburstdensity-element-sdn-api-schema-a.md
         - name: RecvFrameRateAverage element
-          href: sdn-api/recvframerateaverage-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/recvframerateaverage-element-sdn-api-schema-a.md
         - name: RecvListenMOS element
-          href: sdn-api/recvlistenmos-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/recvlistenmos-element-sdn-api-schema-a.md
         - name: RecvListenMOSMin element
-          href: sdn-api/recvlistenmosmin-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/recvlistenmosmin-element-sdn-api-schema-a.md
         - name: RecvNoiseLevel element
-          href: sdn-api/recvnoiselevel-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/recvnoiselevel-element-sdn-api-schema-a.md
         - name: RecvSignalLevel element
-          href: sdn-api/recvsignallevel-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/recvsignallevel-element-sdn-api-schema-a.md
         - name: RelativeOneWayAverage element
           href: sdn-api/relativeonewayaverage-element-sdn-api-schema-a.md
         - name: RelativeOneWayBurstDensity element
@@ -709,19 +709,19 @@
         - name: ResponseCode element
           href: sdn-api/responsecode-element-sdn-api-schema-a.md
         - name: RoundTrip element
-          href: sdn-api/roundtrip-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/roundtrip-element-sdn-api-schema-a.md
         - name: RoundTripMax element
-          href: sdn-api/roundtripmax-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/roundtripmax-element-sdn-api-schema-a.md
         - name: Route element
           href: sdn-api/route-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md
         - name: SendListenMOS element
-          href: sdn-api/sendlistenmos-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/sendlistenmos-element-sdn-api-schema-a.md
         - name: SendListenMOSMin element
-          href: sdn-api/sendlistenmosmin-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/sendlistenmosmin-element-sdn-api-schema-a.md
         - name: SpoiledTilePercentAverage element
-          href: sdn-api/spoiledtilepercentaverage-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/spoiledtilepercentaverage-element-sdn-api-schema-a.md
         - name: SpoiledTilePercentTotal element
-          href: sdn-api/spoiledtilepercenttotal-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/spoiledtilepercenttotal-element-sdn-api-schema-a.md
         - name: Start element
           href: sdn-api/start-element-lyncdiagnostics-element-lync-sdn-api-schema-a.md
         - name: StartTime element
@@ -739,13 +739,13 @@
         - name: URI element (QualityEndPointType complexType)
           href: sdn-api/uri-element-qualityendpointtype-complextype-lync-sdn-api-schema-a.md
         - name: VGAQualityRatio element
-          href: sdn-api/vgaqualityratio-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/vgaqualityratio-element-sdn-api-schema-a.md
         - name: VideoFrameLossRate element
-          href: sdn-api/videoframelossrate-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/videoframelossrate-element-sdn-api-schema-a.md
         - name: VideoLocalFrameLossPercentageAvg element
-          href: sdn-api/videolocalframelosspercentageavg-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/videolocalframelosspercentageavg-element-sdn-api-schema-a.md
         - name: VideoPacketLossRate element
-          href: sdn-api/videopacketlossrate-element-properties-element-qualityupdate-element-sdn-api-schema-a.md
+          href: sdn-api/videopacketlossrate-element-sdn-api-schema-a.md
         - name: VPN element
           href: sdn-api/vpn-element-qualityendpointtype-complextype-lync-sdn-api-schema-a.md
       - name: Types (Lync SDN API Schema A)
