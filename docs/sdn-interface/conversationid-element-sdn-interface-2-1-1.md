@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ConversationId element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# ConversationId element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 Identifier to correlate different SIP calls involved in the same conversation. In some cases Lync uses different SIP calls for different modalities. This identifier permits correlating these SIP calls in the same conversation.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

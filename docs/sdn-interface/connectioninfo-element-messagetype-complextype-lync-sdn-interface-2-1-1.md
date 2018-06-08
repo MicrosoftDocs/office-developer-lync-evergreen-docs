@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ConnectionInfo element (MessageType complexType) (Lync SDN Interface 2.1.1)
+# ConnectionInfo element 
+
+(MessageType complexType) (Lync SDN Interface 2.1.1)
 
 Connection-related properties regardless of the media stream and end points.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -18,6 +18,8 @@ Lync SDN Interface 2.1.1 uses the logging infrastructure of the [Enterprise Libr
 
 The Enterprise Libraries includes a configuration tool that provides an intuitive graphical user interface for adding and changing settings for the logging configuration. You can use this tool to configure the LDL logging options. This article explains how to configure the logging options in the LyncDialogListener.exe.config file.
 
+## Set logging configurations
+
 To manually set the most common logging configurations:
 
 1. Navigate to the LDL installation directory.
@@ -57,9 +59,11 @@ The following example shows the LNEAppLog type of logging options containing a m
 </listeners>
 ```
 
+## Lync Dialog Listener service logging types
+
 The Lync Dialog Listener service default configuration supports the following types of logging.
 
-Lync Dialog Listener logging configuration
+### Lync Dialog Listener logging configuration
 
 <table>
 <colgroup>
@@ -92,10 +96,11 @@ Lync Dialog Listener logging configuration
 </tbody>
 </table>
 
+## Lync SDN Manager logging types
 
-The LSM default configuration supports the following types of logging:
+The LSM default configuration supports the following types of logging.
 
-Lync SDN Manager logging configuration
+### Lync SDN Manager logging configuration
 
 <table>
 <colgroup>
@@ -143,7 +148,6 @@ Lync SDN Manager logging configuration
 </tr>
 </tbody>
 </table>
-
 
 
 > [!WARNING]

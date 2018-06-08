@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# EchoEventCauses element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# EchoEventCauses element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Reasons of device echo detection and reported for audio streams when available. The causes are coded with the following bit flags: "0x01" - Sample timestamps from capture or render device were poor quality. "0x04" - High level of echo remained after echo cancellation. "0x10" - Signal from capture device had significant instances of maximum signal level.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

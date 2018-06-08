@@ -10,16 +10,12 @@ mtps_version: v=office.15
 
 # Configuring LSM using command prompt
 
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 As a new feature introduced in Lync SDN Interface 2.1.1 (and 2.1), you can now use the command-line tool (SDNManager.exe) to get and set limits as quality metrics of call streams in the Lync QoEMetrics database. You can also replay sequences of logged messages for testing.
 
-
 > [!NOTE]
-> <P>The command line tool can be used while the service is running. The service will pick up parameter changes as well as report the current parameter settings for the service.</P>
-
-
+> The command line tool can be used while the service is running. The service will pick up parameter changes as well as report the current parameter settings for the service.
 
 The executable is located in the LSM installation directory. By default, it is **C:\\Microsoft Lync Server\\Lync SDN Manager**.
 
@@ -29,13 +25,13 @@ To get or set an LSM configuration setting, run SDNManager.exe to start the appr
 
 To get help on available commands, do the following at the command prompt:
 
-    C > SDNManager.exe /?
+`C > SDNManager.exe /?`
 
 This produces the following output:
 
+```
     Lync SDN Manager  2.1, Build Version: 6.0.XXXX.X, Schema Version: C
     Copyright (C) Microsoft Corporation.  All rights reserved.
-    
     
         /?        Help
     
@@ -75,32 +71,41 @@ This produces the following output:
                         using the client certificate thumbprint.
     
               […] designates an optional parameter.
+```
 
-The following is an example of to get the configuration settings using SDNManager.exe.
+## Examples
 
-    c:>SDNManager.exe /d
+The following is an example of getting the configuration settings using SDNManager.exe.
+
+```
+c:>SDNManager.exe /d
     Response code: SUCCESS Detail: Logical Version 1
+```
 
 An example of the corresponding output will look like this:
 
+```xml
     <Configuration Version="1.0">
       <parameter key="submituri">http://localhost:9333/Log/putstuffhere</parameter>
       <parameter key="mode">Cache</parameter>
       <parameter key="hidepii">true</parameter>
       …
     </Configuration>
+```
 
 For a complete example of the output, see [Appendix to Lync SDN Interface 2.1.1](appendix-to-lync-sdn-interface-2-1-1.md).
 
+## Modify settings
+
 To modify a setting, use the /p command, specifying a configuration option as the input parameter. The following example shows how to modify the hidepii option to disable SIP obfuscation for a specified LDL service:
 
-    C:\>SDNManager.exe /p hidepii=false https://sdnhost.contoso.com/LDL 23991123649b4cfcb48ccf14f2d08601221caa2c
+`C:\>SDNManager.exe /p hidepii=false https://sdnhost.contoso.com/LDL 23991123649b4cfcb48ccf14f2d08601221caa2c`
 
 In this example, the change prevents obfuscating personally identifiable information (PII) in an LSM service (as identified by https://sdnhost.contoso.com/LDL) with a client certificate thumbprint (23991123649b4cfcb48ccf14f2d08601221caa2c) for authentication.
 
 In addition, you can also get all the threshold settings from the Lync Server QoEMetrics database. The LSM will use the downloaded thresholds to update the corresponding settings in memory or in the SDNManager database. This is shown in the following example:
 
-    C:\>SDNManager.exe /q myLyncBackEnd\monitoring
+`C:\>SDNManager.exe /q myLyncBackEnd\monitoring`
 
 Here, myLyncBackEnd\\monitoring is the SQL Server hosting the Lync Server QoEMetrics database. The threshold limits used for determining the stream quality will be updated.
 

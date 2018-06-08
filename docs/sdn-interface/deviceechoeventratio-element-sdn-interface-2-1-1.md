@@ -10,15 +10,12 @@ dev_langs:
 - xml
 ---
 
-# DeviceEchoEventRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# DeviceEchoEventRatio element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of sessions the DeviceEchoEvent event was fired when a device or setup is causing echo beyond the compensatory ability of the system.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

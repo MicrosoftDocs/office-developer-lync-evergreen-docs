@@ -12,7 +12,6 @@ dev_langs:
 
 # Configuring LSM using the configuration file
 
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 You can edit the SDNManager.exe.config file to configure LSM. The SDNManager.exe.config file is located in the default installation directory, where you will also find SDNManager.exe.
@@ -27,7 +26,6 @@ The following example shows an example from the \<appSettings\> section in the c
 ```
 
 Here, the Mode entry describes the operational mode of the LSM. All LSM in a LSM pool must have the same setting. Valid settings are Cache, Database, or Split. The StateDbServer, StateDbUserName, and StateDbPassword entries describe the connection to the shared LSM database. If no user name is specified, integrated security is used. The statedbserver value can be an SQL Server name (e.g., localhost) or an SQL Server instance name (e.g., localhost/LsmDb).
-
 
 > [!NOTE]
 > <UL>

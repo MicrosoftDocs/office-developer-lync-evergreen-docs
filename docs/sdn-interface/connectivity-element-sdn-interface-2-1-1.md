@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Connectivity element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# Connectivity element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 (Obsolete) The inclusion of Relay Ip/port indicates that a particular endpoint uses a media relay (edge server) and if not access the remote address directly. It is provided only in QualityUpdate events.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

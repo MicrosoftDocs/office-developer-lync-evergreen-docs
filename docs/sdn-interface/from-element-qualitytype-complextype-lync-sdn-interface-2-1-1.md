@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# From element (QualityType complexType) (Lync SDN Interface 2.1.1)
+# From element (QualityType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 The source of the reported media stream.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

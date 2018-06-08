@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# DegradationJitterAvg element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# DegradationJitterAvg element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average fraction of the degradation jitter average applies to inter-arrival packet jitter. This metric is reported for audio streams when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

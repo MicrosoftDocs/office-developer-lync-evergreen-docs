@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# CPUNumberOfCores element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# CPUNumberOfCores element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Number of CPU cores in the endpoint device.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

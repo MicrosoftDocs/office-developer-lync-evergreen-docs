@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# EchoReturn element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# EchoReturn element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Echo returns reported for audio streams, when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# ConversationalMOS element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# ConversationalMOS element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Conversational clarity index for remote party, as described in \[ITUP.562\] section 6.3. This metric is reported for all available modalities and media types. This field is unused and deprecated for Lync clients 2013 and beyond.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

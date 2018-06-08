@@ -12,7 +12,6 @@ dev_langs:
 
 # Configuring LSM execution options
 
-
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
 You can change some parameters by editing the SDNManager.exe.config file or by using the SDNManager.exe command line tool, depending on whether LSM is deployed as a singleton or settings are maintained in a database. The parameters listed below affect how LSM runs.
@@ -116,6 +115,8 @@ In addition to the configuration settings in the previous table, the configurati
 There are two threshold values for each metrics: Optimal and Acceptable. They define the three quality bands for each modality. For a call stream to have the Good quality, all the quality metrics must be below (i.e., better than) the Optimal level. A call is of poor quality when all the metrics are below the Acceptable threshold level and one or more of them are above the Optimal threshold. A call is bad when one or more of the metrics are above/worse than the Acceptable threshold.
 
 You can modify these thresholds using the SDNManager.exe /p command or using the SDNManager.exe /q command. The /p command updates the value individually and the /q command downloads all of the thresholds from the Lync Server QoEMetrics database and have the values updated.
+
+## Example
 
 The following example shows some stream quality thresholds as configured in the SDNManager.exe.config.file:
 

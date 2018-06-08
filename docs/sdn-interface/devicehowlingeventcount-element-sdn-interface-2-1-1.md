@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# DeviceHowlingEventCount element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# DeviceHowlingEventCount element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Number of times during a session the DeviceHowlingEvent event was fired when audio feedback loop, caused by multiple endpoints sharing the audio path, is detected.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

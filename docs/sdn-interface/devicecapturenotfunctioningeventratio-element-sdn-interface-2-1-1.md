@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# DeviceCaptureNotFunctioningEventRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# DeviceCaptureNotFunctioningEventRatio element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of sessions the DeviceCaptureNotFunctioning event was fired when the capture device currently being used for the session is not functioning correctly and, possibly, preventing one-way audio from working correctly.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

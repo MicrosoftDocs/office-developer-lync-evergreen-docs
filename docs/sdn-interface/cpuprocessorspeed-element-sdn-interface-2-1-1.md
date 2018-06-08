@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# CPUProcessorSpeed element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# CPUProcessorSpeed element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Processor speed rating.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# DegradationPacketLossAvg element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# DegradationPacketLossAvg element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average fraction of the DegradationAvg that was caused by packet loss. This metric is reported for audio streams when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

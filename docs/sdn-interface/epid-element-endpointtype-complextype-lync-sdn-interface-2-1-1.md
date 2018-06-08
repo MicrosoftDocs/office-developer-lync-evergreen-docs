@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# EPId element (EndPointType complexType) (Lync SDN Interface 2.1.1)
+# EPId element (EndPointType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Endpoint Id of the endpoint.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

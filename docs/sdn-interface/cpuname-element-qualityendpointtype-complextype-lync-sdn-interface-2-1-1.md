@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# CPUName element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# CPUName element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Name of the CPU.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

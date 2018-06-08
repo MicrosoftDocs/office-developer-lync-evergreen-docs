@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# FrameRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# FrameRate element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Average frame rate (in frames per second). When available, this metric is only reported for application sharing streams and only for Lync 2013. (frames/s)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# Connection element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# Connection element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 Connection type such as "wired" or "wireless".
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

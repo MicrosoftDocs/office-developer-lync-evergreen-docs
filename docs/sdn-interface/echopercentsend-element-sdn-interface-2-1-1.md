@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# EchoPercentSend element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# EchoPercentSend element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of time when echo is detected in the audio from the capture or microphone device after echo cancellation. This metric is reported for audio streams when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

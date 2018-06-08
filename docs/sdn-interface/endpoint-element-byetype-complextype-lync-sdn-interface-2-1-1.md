@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# EndPoint element (ByeType complexType) (Lync SDN Interface 2.1.1)
+# EndPoint element (ByeType complexType) 
+
+(Lync SDN Interface 2.1.1)
 
 Endpoint involved in the ended SIP call.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

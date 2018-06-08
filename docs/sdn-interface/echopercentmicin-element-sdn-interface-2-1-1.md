@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# EchoPercentMicIn element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# EchoPercentMicIn element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of time when echo is detected in the audio from the capture or microphone device prior to echo cancellation. This metric is reported for audio streams when available.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

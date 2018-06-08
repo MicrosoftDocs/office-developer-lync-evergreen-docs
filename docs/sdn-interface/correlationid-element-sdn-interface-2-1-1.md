@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# CorrelationId element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
+# CorrelationId element 
+
+(ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
 Identifier to correlate two SIP calls where mediation server is involved. Both SIP calls belong to the same conversation.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

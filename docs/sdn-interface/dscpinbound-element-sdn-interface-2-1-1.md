@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# DSCPInbound element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
+# DSCPInbound element 
+
+(QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 
 QoS category marking when the stream is received on this endpoint. This field is populated only from Lync clients newer than Lync 2013.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

@@ -10,15 +10,11 @@ dev_langs:
 - xml
 ---
 
-# DynamicCapabilityPercent element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
+# DynamicCapabilityPercent element 
+
+(QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
 Percentage of time that the client is running under capability of less than 70% of expected capability for this type of CPU. Inbound and Outbound are identical because it measures the capability of the client instead of the channel. This metric is reported for video streams when available. (percent)
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 
