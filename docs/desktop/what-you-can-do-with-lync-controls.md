@@ -16,37 +16,27 @@ Learn about the core tasks you can do with the Lync Controls in Microsoft Lync 2
 
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-What can you do with Lync Controls?<br />
-In this section<br />
-Additional resources</p></td>
-<td><p></p></td>
-<td><div class="caption">
+
+<div class="caption">
 Watch the video: Localizing Lync Control Applications
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8ce8874e-1f52-4954-94e8-6a190e7f27c9]
-<p><br />
-</p>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8ce8874e-1f52-4954-94e8-6a190e7f27c9]
+
 <div class="caption">
 Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]</td>
-</tr>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+
+<table>
+<tbody>
 <tr class="even">
 <td><p></p></td>
 <td><p><img src="images/JJ933112.mod_icon_CodeGallery(Office.15).png" title="Code samples" alt="Code samples" /></p></td>
-<td><p><br />
-<a href="http://code.msdn.microsoft.com/lync-2013-add-contactcard-e80d73f2">Add ContactCard controls to a WPF app to show contact info</a></p></td>
+<td><p><a href="http://code.msdn.microsoft.com/lync-2013-add-contactcard-e80d73f2">Add ContactCard controls to a WPF app to show contact info</a></p></td>
 </tr>
 </tbody>
 </table>

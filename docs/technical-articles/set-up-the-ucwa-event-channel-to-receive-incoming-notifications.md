@@ -115,9 +115,9 @@ Add the following member definition to the UcwaAppEventChannel class to open the
         }
 ```
 
-Here, GetResourceAsync(uri) is called to perform an HTTP GET request. Using the async/await programming pattern, the call is blocked until the server has events to return. Care must be taken to ensure that the call is not prematurely time out. For details, see [Initialize a pending HTTP GET request](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md) in this article.
+Here, GetResourceAsync(uri) is called to perform an HTTP GET request. Using the async/await programming pattern, the call is blocked until the server has events to return. Care must be taken to ensure that the call is not prematurely time out. For details, see [Initialize a pending HTTP GET request](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md#Initialize) in this article.
 
-When the server returns event data in a response, the next event Uri is extracted from the returned [events](http://ucwa.skype.com/documentation/resources-events) resource for the event loop to continue. In the meantime, HandleEvents is called to forward event data to registered event handlers for processing. If an unsuccessful response is returned, HandleException is called. The detailed discussions of these methods are the topics of the [Process PGET responses](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md) section.
+When the server returns event data in a response, the next event Uri is extracted from the returned [events](http://ucwa.skype.com/documentation/resources-events) resource for the event loop to continue. In the meantime, HandleEvents is called to forward event data to registered event handlers for processing. If an unsuccessful response is returned, HandleException is called. The detailed discussions of these methods are the topics of the [Process PGET responses](set-up-the-ucwa-event-channel-to-receive-incoming-notifications.md#Process) section.
 
 To stop or cancel the running thread for events, add the following member definition to the UcwaAppEventChannel class to break the event loop.
 
@@ -133,6 +133,8 @@ To stop or cancel the running thread for events, add the following member defini
 
 When the Stop() is called, the event channel will exit from the event loop. The application will then not receive any more event notifications.
 
+<a name="Initialize"></a>
+ 
 ## Initialize a pending HTTP GET request
 
 In a pending HTTP GET request, UCWA may hold the operation longer than the default timeout value set by the underlying [HttpClient](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient\(v=vs.118\).aspx) class. When this happens, the [GetAsync](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.getasync\(v=vs.118\).aspx) and the related methods will raise [TaskCanceledException](http://msdn.microsoft.com/en-us/library/system.threading.tasks.taskcanceledexception\(v=vs.110\).aspx). To prevent this from happening, we change the [Timeout](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.timeout\(v=vs.118\).aspx) value to 30 minutes on **HttpClient**. This can be done when the UcwaAppTransport class is initialized. This is illustrated as follows in one of the overloaded Initialize methods.
@@ -167,6 +169,7 @@ This can be done by setting a timer that submits an HTTP PUT request every 4 min
 ```
 
 It is assumed that the class variable timer is already declared in the UcwaApp class.
+<a name="Process"></a> 
 
 ## Process PGET responses
 

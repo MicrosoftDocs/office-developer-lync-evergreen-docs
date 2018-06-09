@@ -18,29 +18,13 @@ Learn how to use Microsoft Lync 2013 SDK to programmatically start a Microsoft L
 
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Prerequisites<br />
-IM conversation programming overview<br />
-Start an IM conversation<br />
-Handle events<br />
-Send and receive messages<br />
-Code examples: Lync IM conversations<br />
-Additional resources</p></td>
-<td><div class="caption">
+<div class="caption">
 Watch the video: Start an IM conversation
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/b50363b0-139b-4333-aa4f-898286190d9e]</td>
-</tr>
-</tbody>
-</table>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/b50363b0-139b-4333-aa4f-898286190d9e]
+
 
 ## Prerequisites
 

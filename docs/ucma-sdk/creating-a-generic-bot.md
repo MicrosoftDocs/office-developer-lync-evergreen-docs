@@ -27,6 +27,7 @@ You can create a generic bot in four steps.
 3.  Handle feedback events (Optional)
 
 4.  Test your bot
+<a name="Create"></a>
 
 ## Create message handlers
 
@@ -54,7 +55,7 @@ The following steps should be performed before you implement a single-state mess
     
       - *BuildABot.Core.MessageHandlers.SingleStateMessageHandler*, if your message handler doesn't need to support conversational state.
 
-5.  Add the following attribute to your message handler class: \[Export(typeof(MessageHandler))\]. The Export attribute is defined in the System.ComponentModel.Composition namespace, which belongs to .NET 4.0 MEF (Managed Extensibility Framework). Using such an attribute will enable your bot to automatically consume the message handler you're developing, as long as the message handler assembly (DLL) is visible to the assembly where the bot is defined. For more information, see [Add the bot to your host environment](creating-a-generic-bot.md)).
+5.  Add the following attribute to your message handler class: \[Export(typeof(MessageHandler))\]. The Export attribute is defined in the System.ComponentModel.Composition namespace, which belongs to .NET 4.0 MEF (Managed Extensibility Framework). Using such an attribute will enable your bot to automatically consume the message handler you're developing, as long as the message handler assembly (DLL) is visible to the assembly where the bot is defined. For more information, see [Add the bot to your host environment](creating-a-generic-bot.md#Add)).
 
 For a single-state message handler, your code should look like this, at this point.
 
@@ -73,7 +74,7 @@ namespace BuildABot.Samples.MessageHandlers
 
 
 > [!NOTE]
-> <P>Build a Bot also provides support for you to implement your message handler class in the same project/assembly in which your bot is defined. For more information, see <A href="creating-a-generic-bot.md">Add the bot to your host environment</A>). However, creating one or more class library projects for your message handlers is the recommended guideline.</P>
+> <P>Build a Bot also provides support for you to implement your message handler class in the same project/assembly in which your bot is defined. For more information, see <A href="creating-a-generic-bot.md#Add">Add the bot to your host environment</A>). However, creating one or more class library projects for your message handlers is the recommended guideline.</P>
 
 
 
@@ -106,11 +107,11 @@ public TimeMessageHandler()
 </tr>
 <tr class="even">
 <td><p>2nd</p></td>
-<td><p>The second parameter (<em>initialHandlingText</em>) is the &quot;initial handling text&quot;. If the bot selects this message handler to process the user message and create a reply, the bot will use the initial handling text for an immediate reply, even though the message handler might still be processing the user message to create the final reply. In the example, the initial handling text is a static string. To build a dynamic initial handling text that takes variables into account, see <a href="creating-a-generic-bot.md">Dynamic initial handling text</a>.</p></td>
+<td><p>The second parameter (<em>initialHandlingText</em>) is the &quot;initial handling text&quot;. If the bot selects this message handler to process the user message and create a reply, the bot will use the initial handling text for an immediate reply, even though the message handler might still be processing the user message to create the final reply. In the example, the initial handling text is a static string. To build a dynamic initial handling text that takes variables into account, see <a href="creating-a-generic-bot.md#Dynamic">Dynamic initial handling text</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>3rd</p></td>
-<td><p>The third parameter (<em>requiresFeedback</em>) indicates whether feedback should be requested to the user after this message handler is done. For more information, see <a href="creating-a-generic-bot.md">Handle feedback events</a>.</p></td>
+<td><p>The third parameter (<em>requiresFeedback</em>) indicates whether feedback should be requested to the user after this message handler is done. For more information, see <a href="creating-a-generic-bot.md#Handle">Handle feedback events</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>4th</p></td>
@@ -119,6 +120,7 @@ public TimeMessageHandler()
 </tbody>
 </table>
 
+<a name="Custom"></a>
 
 ### Custom message handling confidence logic
 
@@ -143,7 +145,7 @@ public override MessageHandlingResponse CanHandle(Message message)
     return response;
 }
 ```
-
+<a name="Dynamic"></a>
 ### Dynamic initial handling text
 
 The base *MessageHandler* constructor enables you to specify static initial handling text. In some situations you might want to have dynamic text, which is created according to the user input or other non-static variable. An example follows in the following conversation.
@@ -169,7 +171,7 @@ protected override string GetInitialHandlingText()
 }
 ```
 
-*GetInitialHandlingText* is called by the default *MessageHandler.CanHandle* implementation (for more information, see [Custom message handling confidence logic](creating-a-generic-bot.md)). If you override *CanHandle* to provide your own *MessageHandlingResponse*, you might need to call *GetInitialHandlingText* explicitly to set the *InitialHandlingText* property of the *MessageHandlingResponse* object, as shown in the following example.
+*GetInitialHandlingText* is called by the default *MessageHandler.CanHandle* implementation (for more information, see [Custom message handling confidence logic](creating-a-generic-bot.md#Custom)). If you override *CanHandle* to provide your own *MessageHandlingResponse*, you might need to call *GetInitialHandlingText* explicitly to set the *InitialHandlingText* property of the *MessageHandlingResponse* object, as shown in the following example.
 
 ```csharp
 public virtual MessageHandlingResponse CanHandle(Message message)
@@ -528,10 +530,11 @@ The following extension methods are useful for adding QA objects to a *QAMessage
     ```
     
     In the preceding code sample, whenever the user sends a message that corresponds to any of the string parameters (second parameter and beyond), the *GetSalute* method is called to get the reply. This way, you do not need to manually add one *QA* object for each possible user message.
+<a name="Add"></a>
 
 ## Add the bot to your host environment
 
-After message handlers are implemented (see [Create message handlers](creating-a-generic-bot.md)), you are now left with the task of adding the bot to your host environment. The application can be a console (command prompt) application, Windows forms application, ASP.NET application, or other. If you want your bot to run as a Lync agent, Build a Bot offers an even more specialized API for you to accomplish this. For more information, see [Creating a Lync bot](creating-a-lync-bot.md).
+After message handlers are implemented (see [Create message handlers](creating-a-generic-bot.md#Create)), you are now left with the task of adding the bot to your host environment. The application can be a console (command prompt) application, Windows forms application, ASP.NET application, or other. If you want your bot to run as a Lync agent, Build a Bot offers an even more specialized API for you to accomplish this. For more information, see [Creating a Lync bot](creating-a-lync-bot.md).
 
 ### To add a bot to your host environment
 
@@ -559,7 +562,7 @@ After message handlers are implemented (see [Create message handlers](creating-a
     }
     ```
     
-    Note that the *ReplyEventArgs* class provides additional information to help your host environment print the bot's replies, such as the original *Message* entered by the user as well as the *MessageHandler* that handled the reply. The *ReplyContext* property indicates whether the reply is actually a message handler's initial handling text (see [Create message handlers](creating-a-generic-bot.md)), a regular conversation reply message, a request for feedback, or a response after user feedback is provided. For more information about Bot feedback, see [Handle feedback events](creating-a-generic-bot.md).
+    Note that the *ReplyEventArgs* class provides additional information to help your host environment print the bot's replies, such as the original *Message* entered by the user as well as the *MessageHandler* that handled the reply. The *ReplyContext* property indicates whether the reply is actually a message handler's initial handling text (see [Create message handlers](creating-a-generic-bot.md#Create)), a regular conversation reply message, a request for feedback, or a response after user feedback is provided. For more information about Bot feedback, see [Handle feedback events](creating-a-generic-bot.md#Handle).
 
 4.  Get user input and call the bot's *ProcessMessage* method to make the bot invoke its message handlers in order to handle user messages. In the following example, the Main method repeatedly receives user messages and asks the bot to process them, stopping when the user enters "exit".
     
@@ -587,6 +590,7 @@ The *Bot* class also exposes additional functionality that might be useful to yo
   - The *ConversationReplyCount* property indicates the interaction number (that is, how many times the bot replied) for the conversation being handled by the current message handler. If another handler starts handling the user message, the conversation count restarts. This way, this property is more useful for multi-state message handlers.
 
   - For more specialized behavior, you can implement your own bot by overriding the *Bot* class. Then, you can override the *PreProcessMessageContent* method if you always need to change or decorate user messages in any way (for example, by adding quotes to or trimming every user message).
+<a name="Handle"></a>
 
 ## Handle feedback events
 

@@ -74,7 +74,7 @@ The current localized presence state is the last state that was published by a c
 
 ### To display the user’s current localized or customized presence state
 
-1.  To get the current state, call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/hh348218\(v=office.15\)) method on the [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/hh365096\(v=office.15\)) object value of the [Self.Contact](https://msdn.microsoft.com/en-us/library/hh365190\(v=office.15\)) property, passing the [ContactInformationType.CustomActivity](https://msdn.microsoft.com/en-us/library/gg279606\(v=office.15\)) enumerator.
+1.  To get the current state, call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/hh348218\(v=office.15\)) method on the [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/hh365096\(v=office.15\)) object value of the [Self.Contact](https://msdn.microsoft.com/en-us/library/hh365190\(v=office.15\)) property, passing the ContactInformationType.CustomActivity enumerator.
     
     ```csharp
                 //Get list of all LocaleString objects - list encapsulates the customized and localized activity strings

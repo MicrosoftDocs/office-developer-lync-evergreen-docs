@@ -19,41 +19,28 @@ Learn how to use Microsoft Lync 2013 SDK to send contextual data in a Microsoft 
 
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Prerequisites<br />
-Register a context package<br />
-Handle the ConversationAdded event<br />
-Get the conversation subject from the InitialContextReceived event<br />
-Get additional conversation context information from the ContextDataReceived event<br />
-Send initial context data in a new conversation<br />
-Send additional context data in a conversation<br />
-Code examples: Context sending window<br />
-Additional resources</p></td>
-<td><div class="caption">
+
+<div class="caption">
 Watch the video: Lync Contextual Data Part 1: Send Data With An IM Message
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/f1447b18-a319-4252-9ee1-39694128bdd4]
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/f1447b18-a319-4252-9ee1-39694128bdd4]
+
 <div class="caption">
 Watch the video: Lync Contextual Data Part 2: Methods and Events
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/820fb295-e1f8-4c44-a31d-cf2a28d272ee]
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/820fb295-e1f8-4c44-a31d-cf2a28d272ee]
+
 <div class="caption">
 Watch the video: Lync Contextual Data Part 3: Passing an Image File
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/b6aaf29e-4c59-491f-a947-a88e1f791204]</td>
-</tr>
-</tbody>
-</table>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/b6aaf29e-4c59-491f-a947-a88e1f791204]
+
 
 ## Prerequisites
 

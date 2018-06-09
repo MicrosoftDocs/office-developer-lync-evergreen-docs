@@ -24,26 +24,19 @@ Learn the core and advanced concepts about Microsoft Lync Controls and what you 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-lync-controls.md" class="uri">get-started-with-lync-controls.md</a>   <a href="get-started-with-lync-controls.md" class="uri">get-started-with-lync-controls.md</a>   <a href="get-started-with-lync-controls.md" class="uri">get-started-with-lync-controls.md</a></p></td>
+<td><p><a href="get-started-with-lync-controls.md#GetStarted" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-lync-controls.md#WhatCanYouDo" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-lync-controls.md#BeyondTheBasics" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="caption">
+<div class="caption">
 Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]</td>
-</tr>
-</tbody>
-</table>
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+
+<a name="GetStarted"></a> 
 ## What are Lync Controls?
 
 Lync Controls are a set of WPF and Silverlight controls that can be dropped on your application window or page to provide fully functional Lync 2013 client UI components in your application.
@@ -101,6 +94,7 @@ To understand how to work with Lync Controls, it is important to become familiar
 </tbody>
 </table>
 
+<a name="WhatCanYouDo"></a> 
 ## What can you do with Lync Controls?
 
 With Microsoft Lync Controls, application developers can implement many of the features that are supported by Lync 2013. The following table lists basic tasks for working with Lync Controls.
@@ -131,6 +125,8 @@ With Microsoft Lync Controls, application developers can implement many of the f
 </tr>
 </tbody>
 </table>
+
+<a name="BeyondTheBasics"></a> 
 
 ## Beyond the basics: Learn more about Lync Controls
 

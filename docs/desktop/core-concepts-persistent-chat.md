@@ -15,12 +15,14 @@ mtps_version: v=office.15
 Learn about the foundational Microsoft Lync 2013 SDK objects that make up the programmable components of a Microsoft Lync 2013 Persistent Chat room.
 
 
-
 **Applies to**: Lync 2013 | Lync Server 2013
 
-
+<div class="caption">
 Watch the video: What’s new with the Lync 2013 Persistent Chat API
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
+</div>
+<br />
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
 
 
 ## Persistent Chat overview

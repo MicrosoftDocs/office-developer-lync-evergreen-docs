@@ -23,29 +23,24 @@ Learn about the programming concepts and Microsoft Lync 2013 SDK object model fo
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
+<td><p><a href="get-started-with-content-sharing.md#Start" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md#Do" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md#Learn" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="caption">
+<div class="caption">
 Watch the video: Share file attachments in online meetings
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]</td>
-</tr>
-</tbody>
-</table>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]
+
 
 ## What is content sharing?
 
 Content sharing in a conversation or meeting involves making a common whiteboard available for all conversation participants to annotate or control. PowerPoint slide decks can also be shared on the common content sharing stage of a Lync 2013 conversation window. To enable offline collaboration, native files such as Word documents, Excel spreadsheets, or text files can be uploaded to and downloaded from the conversation content sharing stage.
+
+<a name="Start"></a> 
 
 ## Get started with content sharing
 
@@ -88,6 +83,8 @@ To understand how to work with content sharing, it is important to become famili
 </tbody>
 </table>
 
+<a name="Do"></a>
+
 ## What can you do with content sharing?
 
 The following table lists basic tasks for working with content sharing.
@@ -126,6 +123,8 @@ The following table lists basic tasks for working with content sharing.
 </tr>
 </tbody>
 </table>
+
+<a name="Learn"></a>
 
 ## Beyond the basics: Learn more about content sharing
 

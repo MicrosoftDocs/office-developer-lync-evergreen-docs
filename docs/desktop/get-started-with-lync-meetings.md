@@ -24,7 +24,7 @@ Learn about the programming concepts and Microsoft Lync 2013 SDK object model th
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-lync-meetings.md" class="uri">get-started-with-lync-meetings.md</a>   <a href="get-started-with-lync-meetings.md" class="uri">get-started-with-lync-meetings.md</a>   <a href="get-started-with-lync-meetings.md" class="uri">get-started-with-lync-meetings.md</a></p></td>
+<td><p><a href="get-started-with-lync-meetings.md#Start"" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-lync-meetings.md#Do" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-lync-meetings.md#Learn" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
 </tr>
 </tbody>
 </table>
@@ -32,6 +32,7 @@ Learn about the programming concepts and Microsoft Lync 2013 SDK object model th
 ## What is Microsoft Lync 2013 meeting lifecycle management?
 
 The classes in the [Microsoft.Lync.Model.Conversation](https://msdn.microsoft.com/en-us/library/jj276168\(v=office.15\)) and [Microsoft.Lync.Model.Conversation.Sharing](https://msdn.microsoft.com/en-us/library/jj274504\(v=office.15\)) namespaces are the building blocks for features let you manage the lifecycle of an online Lync 2013 meeting. With these classes, you can start an online meeting, set the meeting access rule, invite participants, promote and demote participants, remove participants, control the content sharing stage of a meeting conversation window, and end meetings.
+<a name="Start"></a> 
 
 ## Get started with Lync meetings
 
@@ -73,6 +74,7 @@ To understand how to work with Lync meetings, it is important to become familiar
 </tr>
 </tbody>
 </table>
+<a name="Do"></a> 
 
 ## What can you do with Lync meetings?
 
@@ -128,6 +130,7 @@ The following table lists basic tasks for working with Lync meetings.
 </tr>
 </tbody>
 </table>
+<a name="Learn"></a> 
 
 ## Beyond the basics: Learn more about Lync meetings
 

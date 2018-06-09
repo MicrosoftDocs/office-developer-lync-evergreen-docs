@@ -18,31 +18,14 @@ Learn how to use Microsoft Lync 2013 SDK to programmatically share a PowerPoint 
 
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-PowerPoint sharing overview<br />
-Prerequisites<br />
-First steps<br />
-Upload a PowerPoint deck to a conversation<br />
-Share a PowerPoint deck<br />
-Scroll through PowerPoint slides in a conversation<br />
-Application state after you complete all tasks<br />
-Code examples: Quick meeting console<br />
-Additional resources</p></td>
-<td><div class="caption">
+
+<div class="caption">
 Watch the video: Share PowerPoint slides in online meetings
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/07b2a385-8f2a-4745-abda-243d2a5dc26d]</td>
-</tr>
-</tbody>
-</table>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/07b2a385-8f2a-4745-abda-243d2a5dc26d]
+
 
 ## PowerPoint sharing overview
 

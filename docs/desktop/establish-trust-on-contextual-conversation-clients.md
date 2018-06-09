@@ -36,7 +36,7 @@ Additional resources</p></td>
 
 ## Not trusted - context provided by contextual link
 
-Contextual link is the simplest form of context for Lync 2013 applications. The developer uses the [HyperLink](https://msdn.microsoft.com/en-us/library/gg267182\(v=office.15\)) enumerated value to add a URL to the message. The message recipient sees the following message along with the URL and should evaluate the circumstances and decide whether to trust the URL: A contextual link has been provided with this conversation. If the link below looks suspicious, do not click it.
+Contextual link is the simplest form of context for Lync 2013 applications. The developer uses the HyperLink enumerated value to add a URL to the message. The message recipient sees the following message along with the URL and should evaluate the circumstances and decide whether to trust the URL: A contextual link has been provided with this conversation. If the link below looks suspicious, do not click it.
 
 For an example of an application that sends a contextual link message, see [How to: Start a contextual conversation with an IM call](how-to-start-a-contextual-conversation-with-an-im-call.md).
 

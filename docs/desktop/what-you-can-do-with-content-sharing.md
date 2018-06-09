@@ -16,25 +16,15 @@ Learn about the core content sharing tasks you can do with the Microsoft Lync 20
 
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Core content sharing tasks<br />
-In this section<br />
-Additional resources</p></td>
-<td><p><br />
-</p></td>
-<td><div class="caption">
+<div class="caption">
 Watch the video: Share PowerPoint slides in online meetings
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/07b2a385-8f2a-4745-abda-243d2a5dc26d]</td>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/07b2a385-8f2a-4745-abda-243d2a5dc26d]
+
+<table>
+<tbody>
 </tr>
 <tr class="even">
 <td><p></p></td>

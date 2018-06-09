@@ -98,6 +98,7 @@ New-CSTrustedApplicationEndpoint –ApplicationId $ApplicationId -TrustedApplica
 Enter the information that you are prompted for by this script.
 
 If a trusted application was successfully created, you will see a message as "End point created: - \<Display Name\>".
+<a name="InstantiateUCBotHostEnv"></a>
 
 ## Instantiate the UCBotHost environment
 
@@ -169,7 +170,7 @@ When you develop a generic bot (see [Creating a generic bot](creating-a-generic-
 
 ## Deploy the UC bot using a Windows Service
 
-You will probably want to run your bot as a Windows service in the background, instead of as a console application. When your test console application shows that everything seems to be working correctly (for more information, see [Instantiate the UCBotHost environment](creating-a-lync-bot.md)), you can now move to a Windows Service implementation.
+You will probably want to run your bot as a Windows service in the background, instead of as a console application. When your test console application shows that everything seems to be working correctly (for more information, see [Instantiate the UCBotHost environment](creating-a-lync-bot.md#InstantiateUCBotHostEnv)), you can now move to a Windows Service implementation.
 
 ### To deploy your application as a Windows service
 
@@ -187,7 +188,7 @@ You will probably want to run your bot as a Windows service in the background, i
     
       - Any other assemblies that your message handlers depend on
 
-3.  Add to your Windows Service project the same config file you added in the [Instantiate the UCBotHost environment](creating-a-lync-bot.md) section.
+3.  Add to your Windows Service project the same config file you added in the [Instantiate the UCBotHost environment](creating-a-lync-bot.md#InstantiateUCBotHostEnv) section.
 
 4.  In the "service launcher" class of the Windows Service project, create a method containing the *UCBotHost* initialization. This is very similar to the code that was shown in the "Instantiate the UCBotHost environment" section.
     

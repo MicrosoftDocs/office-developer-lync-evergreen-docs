@@ -15,27 +15,14 @@ mtps_version: v=office.15
 Microsoft Lync 2013 SDK includes new Persistent Chat classes and shows how to use the new classes to add features to an application.
 
 
-
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Persistent Chat features<br />
-Additional resources</p></td>
-<td><div class="caption">
+<div class="caption">
 Watch the video: What’s new with the Lync 2013 Persistent Chat API
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]</td>
-</tr>
-</tbody>
-</table>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
 
 ## Persistent Chat features
 

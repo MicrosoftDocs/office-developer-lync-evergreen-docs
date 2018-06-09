@@ -13,18 +13,16 @@ mtps_version: v=office.15
 Learn the programming concepts and Microsoft Lync 2013 SDK object model for building a Microsoft Lync 2013 contact list in an application UI.
 
 
-
 **Applies to**: Lync 2013 | Lync Server 2013
 
  
-
 <table>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-content-sharing.md" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
+<td><p><a href="get-started-with-lync-contact-lists.md#Start" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-lync-contact-lists.md#Do" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-lync-contact-lists.md#Learn" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
 </tr>
 </tbody>
 </table>
@@ -32,6 +30,7 @@ Learn the programming concepts and Microsoft Lync 2013 SDK object model for buil
 ## What is a Lync contact list?
 
 Microsoft Lync 2013 SDK provides programmatic access to the Lync 2013 contact list object model under the contact list that is displayed in the Lync 2013 client when a user signs in to Lync. The contact list object model exposes classes, methods, properties, and events that let you do simple tasks such as updating the client contact list by adding a new contact or renaming a custom group. If your application requirements include showing a view of the Lync contact list within your own UI, you can build and maintain that list by using the contact list object model. An example of this is an application that replaces the Lync UI that is configured for UI-suppression mode. For more information, see [UI suppression](ui-suppression.md).
+<a name="Start"></a> 
 
 ## Get started with Lync contact lists
 
@@ -73,6 +72,7 @@ To understand how to work with Lync contact lists, it is important to become fam
 </tr>
 </tbody>
 </table>
+<a name="Do"></a> 
 
 ## What can you do with a Lync contact list?
 
@@ -112,6 +112,7 @@ The following table lists basic tasks for working with Lync contact lists.
 </tr>
 </tbody>
 </table>
+<a name="Learn"></a> 
 
 ## Beyond the basics: Learn more about Lync contact lists
 

@@ -15,29 +15,16 @@ mtps_version: v=office.15
 Use Microsoft Lync Controls to integrate Microsoft Lync 2013 features such as search, presence, instant messaging (IM) calls, and voice calls into .NET applications and Microsoft Silverlight browser applications.
 
 
-
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Implement features with Lync Controls<br />
-Application options<br />
-Lync Controls<br />
-Additional resources</p></td>
-<td><div class="caption">
+
+<div class="caption">
 Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]</td>
-</tr>
-</tbody>
-</table>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+
 
 ## Implement features with Lync Controls
 
