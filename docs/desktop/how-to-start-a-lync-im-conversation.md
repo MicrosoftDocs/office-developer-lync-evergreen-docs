@@ -22,7 +22,8 @@ Learn how to use Microsoft Lync 2013 SDK to programmatically start a Microsoft L
 Watch the video: Start an IM conversation
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/b50363b0-139b-4333-aa4f-898286190d9e]
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/b50363b0-139b-4333-aa4f-898286190d9e]
 
 
 ## Prerequisites

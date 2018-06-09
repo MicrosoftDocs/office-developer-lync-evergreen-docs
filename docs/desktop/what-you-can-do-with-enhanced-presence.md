@@ -20,7 +20,8 @@ Learn how to use the Microsoft Lync 2013 API to programmatically implement enhan
 Watch the video: Add Presence to a WPF Application
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
 
 
 ## Core enhanced presence tasks

@@ -24,7 +24,7 @@ Learn the programming concepts and Microsoft Lync 2013 SDK object model for buil
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-desktop-application-and-display-sharing.md#Start" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-desktop-application-and-display-sharing.md#Do" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="gget-started-with-desktop-application-and-display-sharing.md#Learn" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
+<td><p><a href="get-started-with-desktop-application-and-display-sharing.md#Start" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-desktop-application-and-display-sharing.md#Do" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-desktop-application-and-display-sharing.md#Learn" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
 </tr>
 </tbody>
 </table>

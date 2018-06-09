@@ -22,26 +22,7 @@ Your Lync 2013 API-enabled application can get contact presence and conversation
 
 If the user is signed in, her contact list is visible, she can publish her presence and see the presence of other people, and she can start or join conversations. If you application is not able to do these things, then the user is probably not signed in to Lync. This article helps you get a user signed in by showing you the best way to sign a user in, how to deal with any Lync exceptions, and react to unexpected client state changes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Example: UserSignIn class<br />
-<br />
-Prerequisites<br />
-One Lync endpoint, multiple processes<br />
-What is UI suppression?<br />
-Lync client state transitions, should I care?<br />
-Look for the causes of sign in failure<br />
-Additional resources</p></td>
-<td>
-</tr>
-</tbody>
-</table>
+
 
 <div class="caption">
 Watch the video: Sign In to Lync with UI Suppressed
@@ -49,7 +30,7 @@ Watch the video: Sign In to Lync with UI Suppressed
 <br />
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/5d247b33-af17-45f6-ad7e-9be9f9f7e5cd]
-
+<br />
 <div class="caption">
 Watch the video: Sign In to Lync
 </div>

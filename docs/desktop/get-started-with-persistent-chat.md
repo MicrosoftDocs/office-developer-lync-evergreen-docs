@@ -20,7 +20,7 @@ Learn about the programming concepts and Microsoft Lync 2013 SDK object model th
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started-with-persistent-chat.md#Start"" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="gget-started-with-persistent-chat.md#Do" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-persistent-chat.md#Learn" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
+<td><p><a href="get-started-with-persistent-chat.md#Start"" class="uri"><img src="images/JJ933215.mod_icon_getstartbox(Office.15).gif"/></a>   <a href="get-started-with-persistent-chat.md#Do" class="uri"><img src="images/JJ933215.mod_icon_dobox(Office.15).gif"/></a>   <a href="get-started-with-persistent-chat.md#Learn" class="uri"><img src="images/JJ933215.mod_icon_startbox(Office.15).gif"/></a></p></td>
 </tr>
 </tbody>
 </table>

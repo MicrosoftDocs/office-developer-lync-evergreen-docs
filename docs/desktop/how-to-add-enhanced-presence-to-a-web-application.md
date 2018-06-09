@@ -18,30 +18,12 @@ Learn how to add Microsoft Lync Controls to an existing HTML Web application usi
 
 **Applies to**: Lync 2013 | Lync Server 2013
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>In this article</strong><br />
-Prerequisites<br />
-Start with an existing Web application<br />
-Create a Silverlight application<br />
-Embed the presence application in the HTML page<br />
-Next steps<br />
-Additional resources</p></td>
-</tr>
-</tbody>
-</table>
-
 <div class="caption">
 Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
 
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
 
 
 ## Prerequisites

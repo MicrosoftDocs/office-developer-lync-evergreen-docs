@@ -24,7 +24,8 @@ Learn how to add or remove a custom group from a user’s contact list in Micros
 Watch the video: Add, rename, and delete custom groups in Lync
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/a5835343-787b-4041-9afc-bea073a748da]
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/a5835343-787b-4041-9afc-bea073a748da]
 
 
 ## Custom group overview

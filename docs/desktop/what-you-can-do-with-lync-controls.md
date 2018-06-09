@@ -21,13 +21,15 @@ Learn about the core tasks you can do with the Lync Controls in Microsoft Lync 2
 Watch the video: Localizing Lync Control Applications
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8ce8874e-1f52-4954-94e8-6a190e7f27c9]
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8ce8874e-1f52-4954-94e8-6a190e7f27c9]
 
 <div class="caption">
 Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
-&gt; [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]<
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]<
 
 <table>
 <tbody>

@@ -13,11 +13,9 @@ mtps_version: v=office.15
 Learn the programming concepts and Microsoft Lync 2013 SDK object model for building a Microsoft Lync 2013 contact list in an application UI.
 
 
-
 **Applies to**: Lync 2013 | Lync Server 2013
 
  
-
 <table>
 <colgroup>
 <col style="width: 100%" />
