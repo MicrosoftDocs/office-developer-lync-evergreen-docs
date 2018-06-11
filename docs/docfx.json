@@ -21,8 +21,11 @@
     "resource": [
       {
         "files": [
-          "**/*.png",
-          "**/*.jpg"
+              "**/*.png",
+              "**/*.jpg",
+              "**/*.gif",
+              "**/*.bmp",
+              "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",
@@ -35,10 +38,25 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/lync/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+    "breadcrumb_path": "/lync/breadcrumb/toc.json",
+    "extendBreadcrumb": true,
+	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
+	   "ms.suite": "office",
+	   "ms.prod" : "lync",
+	   "ms.author": "o365devx",
+	   "author": "o365devx",
+	   "ms.topic": "conceptual",
+	   "ms.technology": "sdk"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+ 	 "ms.technology": 
+       { 
+      "sdn-api/**.md" : "sdn",
+		 "sdn-interface/**.md" : "sdn",
+		 "schema/**.md" : "schema",
+		 "technical-articles/**.md" : "dev-overview"
+       }
+	 },
     "template": [],
     "dest": "officedocs-dev-lync-docs",
     "markdownEngineName": "markdig"
