@@ -12,48 +12,38 @@ mtps_version: v=office.15
 
 This section discusses the Microsoft Lync Server 2013 SIP Application API, which is distributed with Microsoft Lync Server 2013 SDK, to help you get started writing server-side SIP applications.
 
-
 **Applies to**: Lync Server 2013
 
 ## In this section
 
-  - [What's new in Lync Server 2013 SDK](what-s-new-in-lync-server-2013-sdk.md)
+- [What's new in Lync Server 2013 SDK](what-s-new-in-lync-server-2013-sdk.md)
     
-    Discusses features that are introduced in Lync Server 2013 SDK.
+  Discusses features that are introduced in Lync Server 2013 SDK.
 
-  - [Get started with Lync Server 2013 SDK](get-started-with-lync-server-2013-sdk.md)
+- [Get started with Lync Server 2013 SDK](get-started-with-lync-server-2013-sdk.md)
     
-    Details the requirements and some tips to use the SDK.
+  Details the requirements and some tips to use the SDK.
 
-  - [Learn the basics of Lync Server 2013 SDK](learn-the-basics-of-lync-server-2013-sdk.md)
+- [Learn the basics of Lync Server 2013 SDK](learn-the-basics-of-lync-server-2013-sdk.md)
     
-    Provides a quick orientation about the Microsoft Lync Server 2013 API.
+  Provides a quick orientation about the Microsoft Lync Server 2013 API.
 
-  - [Scenarios for using the Lync Server 2013 API](scenarios-for-using-the-lync-server-2013-api.md)
+- [Scenarios for using the Lync Server 2013 API](scenarios-for-using-the-lync-server-2013-api.md)
     
-    Introduces Lync Server 2013 API application scenarios.
+  Introduces Lync Server 2013 API application scenarios.
 
-  - [How to use Lync Server 2013 SDK](how-to-use-lync-server-2013-sdk.md)
+- [How to use Lync Server 2013 SDK](how-to-use-lync-server-2013-sdk.md)
     
-    Provides instructions for using the SDK to build, deploy, and test a Lync Server SIP application.
+  Provides instructions for using the SDK to build, deploy, and test a Lync Server SIP application.
 
-  - [Code samples (Lync Server 2013 SDK)](code-samples-lync-server-2013-sdk.md)
+- [Code samples (Lync Server 2013 SDK)](code-samples-lync-server-2013-sdk.md)
     
-    Lists the sample codes that are distributed with this SDK.
+  Lists the sample codes that are distributed with this SDK.
 
 ## See also
 
-#### Reference
-
-[Microsoft.Rtc.Sip](https://msdn.microsoft.com/en-us/library/jj266253\(v=office.15\))
-
-#### Concepts
-
-[Lync Server 2013 SDK documentation](lync-server-2013-sdk-documentation.md)
-
-#### Other resources
-
-[SIP application manifest reference](https://msdn.microsoft.com/en-us/library/dn439110\(v=office.15\))
-
-[MSPL scripting reference](https://msdn.microsoft.com/en-us/library/hh364711\(v=office.15\))
+- [Microsoft.Rtc.Sip](https://msdn.microsoft.com/en-us/library/jj266253\(v=office.15\))
+- [Lync Server 2013 SDK documentation](lync-server-2013-sdk-documentation.md)
+- [SIP application manifest reference](https://msdn.microsoft.com/en-us/library/dn439110\(v=office.15\))
+- [MSPL scripting reference](https://msdn.microsoft.com/en-us/library/hh364711\(v=office.15\))
 

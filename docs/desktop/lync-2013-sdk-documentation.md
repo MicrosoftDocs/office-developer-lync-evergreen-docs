@@ -14,10 +14,7 @@ mtps_version: v=office.15
 
 Microsoft Lync 2013 SDK is designed for software developers who are building custom Microsoft Lync 2013 applications or embed collaboration functionality in line-of-business (LOB) applications that interoperate with other custom Lync SDK clients or with Lync 2013 and Microsoft Lync Server 2013.
 
-
 **Applies to:** Lync 2013 | Lync Server 2013
-
-
 
 By using Lync 2013, a developer can provide instant messaging (IM), voice, video, application sharing, and meeting session functionality in a custom client or LOB application.
 
@@ -71,19 +68,14 @@ Microsoft Lync 2013 SDK includes the following components:
 
 ## In this SDK
 
-  - [Lync 2013 SDK general reference](lync-2013-sdk-general-reference.md)
-
-  - [Lync 2013 class libraries reference](lync-2013-class-libraries-reference.md)
+- [Lync 2013 SDK general reference](lync-2013-sdk-general-reference.md)
+- [Lync 2013 class libraries reference](lync-2013-class-libraries-reference.md)
 
 ## See also
 
-  - [Microsoft Online Privacy Notice](http://go.microsoft.com/fwlink/?linkid=207069)
-
-  - [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md)
-
-  - [Object model expansion](object-model-expansion.md)
-
-  - [Accessibility in Microsoft Products](http://go.microsoft.com/fwlink/?linkid=205790)
-
-  - [Copyright notice (Lync 2013 SDK)](https://msdn.microsoft.com/en-us/library/jj945832\(v=office.15\))
+- [Microsoft Online Privacy Notice](http://go.microsoft.com/fwlink/?linkid=207069)
+- [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md)
+- [Object model expansion](object-model-expansion.md)
+- [Accessibility in Microsoft Products](http://go.microsoft.com/fwlink/?linkid=205790)
+- [Copyright notice (Lync 2013 SDK)](https://msdn.microsoft.com/en-us/library/jj945832\(v=office.15\))
 
