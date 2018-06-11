@@ -45,9 +45,18 @@
 	   "ms.prod" : "lync",
 	   "ms.author": "o365devx",
 	   "author": "o365devx",
-	   "ms.topic": "conceptual"
+	   "ms.topic": "conceptual",
+	   "ms.technology": "sdk"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+ 	"ms.technology": 
+       { 
+         "sdn-api/**.md" : "sdn",
+		 "sdn-interface/**.md" : "sdn",
+		 "schema/**.md" : "schema",
+		 "technical-articles/**.md" : "dev-overview"
+       }
+	},
     "template": [],
     "dest": "officedocs-dev-lync-docs",
     "markdownEngineName": "markdig"
