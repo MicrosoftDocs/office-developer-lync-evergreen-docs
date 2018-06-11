@@ -38,8 +38,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/lync/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
+    "breadcrumb_path": "/lync/breadcrumb/toc.json",
+    "extendBreadcrumb": true,
 	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
 	   "ms.suite": "office",
 	   "ms.prod" : "lync",
@@ -49,14 +49,14 @@
 	   "ms.technology": "sdk"
     },
     "fileMetadata": {
- 	"ms.technology": 
+ 	 "ms.technology": 
        { 
-         "sdn-api/**.md" : "sdn",
+      "sdn-api/**.md" : "sdn",
 		 "sdn-interface/**.md" : "sdn",
 		 "schema/**.md" : "schema",
 		 "technical-articles/**.md" : "dev-overview"
        }
-	},
+	 },
     "template": [],
     "dest": "officedocs-dev-lync-docs",
     "markdownEngineName": "markdig"
