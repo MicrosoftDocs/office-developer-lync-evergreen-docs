@@ -330,7 +330,7 @@ namespace ShareResources
 
         }
         /// <summary>
-        /// Shows the shared resouce "chrome" around the shared process
+        /// Shows the shared resource "chrome" around the shared process
         /// </summary>
         /// <param name="selectedResourceObject"></param>
         private void ShowProcessChrome(SharingResource selectedResourceObject)
