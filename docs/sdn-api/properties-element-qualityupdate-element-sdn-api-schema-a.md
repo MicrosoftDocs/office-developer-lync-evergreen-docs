@@ -414,8 +414,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Minimum of the SendListenMOS for the stream over the duration of the session. This metric is reported for audio streams when available.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="spoiledtilepercentaverage-element-sdn-api-schema-a
-">SpoiledTilePercentAverage</a></p></td>
+<td><p><a href="spoiledtilepercentaverage-element-sdn-api-schema-a">SpoiledTilePercentAverage</a></p></td>
 <td><p>xs:decimal</p></td>
 <td><p>Average percentage of the content that did not reach the viewer but was instead discarded and overwritten by fresh content. When available, this metric is only reported for application sharing streams and only for Lync 2013. (percent)</p></td>
 </tr>
