@@ -699,7 +699,7 @@ namespace SimpleContactList
 
         #endregion
 
-        #region pubic events
+        #region public events
 
         //ContactManagerModel registers for this event to listen for changes in presence items
         //event generic type is declared in  UCInterfaces.EventArgs
