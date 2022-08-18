@@ -2568,7 +2568,7 @@
     - name: VoiceXML API Class Library
       href: https://msdn.microsoft.com/en-us/library/office/dn435961.aspx
   - name: Unified Communications Web API 2.0 (Skype)
-    href: https://docs.microsoft.com/en-us/skype-sdk/ucwa/unifiedcommunicationswebapi2_0  
+    href: /skype-sdk/ucwa/unifiedcommunicationswebapi2_0  
   - name: Technical articles
     href: technical-articles/lync-2013-technical-articles.md
     items:
