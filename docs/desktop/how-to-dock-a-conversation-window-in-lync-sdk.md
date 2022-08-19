@@ -434,7 +434,7 @@ If the dimensions of the scrolling panel are larger than the minimum dimensions 
     ```csharp
             /// <summary>
             /// This method redocks the conversation window. When the docked conversation window adds a new visual
-            /// element(such as video, a participant list, desktop sharing e.t.c) it's size changes. To accomodate
+            /// element(such as video, a participant list, desktop sharing e.t.c) it's size changes. To accommodate
             /// this new element the conversation window will increase/decrease it's size accordingly. During this
             /// process we will have to redock the newly changed window into the parent window. panelHandle is the
             /// Handle property of the parent window where docking will occur.
