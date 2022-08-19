@@ -16,8 +16,6 @@ dev_langs:
 
 Learn about displaying Microsoft Silverlight applications in Lync 2013 CWE during Lync 2013 conversations.
 
-
-
 **Applies to**: Lync 2013 | Lync Server 2013
 
 <table>
@@ -37,7 +35,7 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-## Displaying a Silverlight application
+## Display a Silverlight application
 
 When a Lync SDK contextual conversation starts, the application registered with the appropriate GUID opens. A Web application opens in CWE, otherwise the application opens on the desktop. To display a Silverlight application in CWE, embed the application in an HTML page and register the HTML application.
 
@@ -45,7 +43,7 @@ For more information about displaying a Silverlight application in CWE, see [How
 
 For more information about registering applications, see Register contextual conversation packages\_Retired.
 
-## Accessing the Conversation object
+## Access the Conversation object
 
 In Lync SDK Silverlight applications, use the LyncClient.GetHostingConversation method to get the **Conversation** object that hosts CWE.
 
@@ -56,4 +54,3 @@ Conversation currentConversation = (Conversation) LyncClient.GetHostingConversat
 ## See also
 
   - [Contextual Lync conversations](contextual-lync-conversations.md)
-
