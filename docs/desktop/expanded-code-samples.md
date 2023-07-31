@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937259(v=office.15)
 ms:contentKeyID: 50877078
 ms.date: 02/11/2016
 mtps_version: v=office.15
+description: Explore Microsoft Lync 2013 SDK Expanded Code Samples: Quick-start samples, end-to-end solutions, Presence, Contact, Conversation, and more. Download now.
 ---
 
 # Expanded code samples
