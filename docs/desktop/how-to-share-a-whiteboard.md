@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Learn How to Share a Whiteboard in Lync 2013 using Microsoft Lync 2013 SDK. Enhance collaboration with virtual whiteboards in Lync conversations.
 ---
 
 # How to: Share a whiteboard
