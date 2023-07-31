@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933114(v=office.15)
 ms:contentKeyID: 50877248
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Learn Lync 2013 API Exception Classes & Error Conditions: Discover how system status codes map to Lync Platform exceptions and their causes.
 ---
 
 # Lync platform status codes
