@@ -9,6 +9,7 @@ mtps_version: v=office.15
 dev_langs:
 - csharp
 - xaml
+description: Learn to create a subscription to Enhanced Presence Content in Microsoft Lync 2013 SDK. Boost your Lync Server 2013 capabilities today.
 ---
 
 # How to: Subscribe to enhanced presence content
