@@ -1,4 +1,4 @@
-﻿---
+---
 title: Build a Bot (sample)
 TOCTitle: Build a Bot (sample)
 ms:assetid: e04d7016-553d-4780-953a-fa373d2d2400
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454823(v=office.15)
 ms:contentKeyID: 57103672
 ms.date: 07/25/2014
 mtps_version: v=office.15
+description: Learn to Build a Bot with Microsoft's UCMA SDK: Create Conversational Agents for Lync, Web, and More. Boost Your Applications Today.
 ---
 
 # Build a Bot (sample)
