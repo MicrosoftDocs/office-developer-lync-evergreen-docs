@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Learn how to send messages to a Microsoft Lync 2013 Persistent Chat room using SDK methods. Boost collaboration and communication with ease.
 ---
 
 # How to: Send a message to a chat room
