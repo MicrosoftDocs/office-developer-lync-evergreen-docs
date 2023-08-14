@@ -9,6 +9,7 @@ mtps_version: v=office.15
 dev_langs:
 - csharp
 - xaml
+description: Learn to start a Microsoft Lync 2013 Meet-Now meeting & register for lobby events with Lync 2013 SDK. Boost your collaboration skills today.
 ---
 
 # How to: Start a meet-now meeting

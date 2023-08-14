@@ -1,4 +1,4 @@
-﻿---
+---
 title: Publication grammar, privacy, and interoperability
 TOCTitle: Publication grammar, privacy, and interoperability
 ms:assetid: d09a0e0c-21c4-47b3-a790-7a454af80596
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454682(v=office.15)
 ms:contentKeyID: 57093212
 ms.date: 02/11/2016
 mtps_version: v=office.15
+description: Learn Microsoft Lync Server 2013 Publication Grammar for Privacy & Interoperability. Enhance presence features & avoid conflicts.
 ---
 
 # Publication grammar, privacy, and interoperability

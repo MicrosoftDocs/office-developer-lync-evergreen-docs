@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hardware, software, and technical prerequisites (Lync Server 2013 Persistent Chat SDK)
 TOCTitle: Hardware, software, and technical prerequisites
 ms:assetid: efe7bd39-bad3-4704-9eb9-2713d0aba750
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439206(v=office.15)
 ms:contentKeyID: 57101299
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Discover Microsoft Lync Persistent Chat SDK Hardware, Software, and Technical Prerequisites for optimal performance. Learn more now.
 ---
 
 # Hardware, software, and technical prerequisites (Lync Server 2013 Persistent Chat SDK)

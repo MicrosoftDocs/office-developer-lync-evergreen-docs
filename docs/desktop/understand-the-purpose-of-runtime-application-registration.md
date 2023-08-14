@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Discover the Purpose of Runtime Application Registration in Microsoft Lync 2013 SDK. Learn to override properties & enhance CWE applications.
 ---
 
 # Understand the purpose of runtime application registration
