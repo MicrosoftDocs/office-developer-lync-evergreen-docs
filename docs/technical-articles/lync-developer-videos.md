@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync developer videos
 TOCTitle: Lync developer videos
 ms:assetid: 4b608467-e3a4-4c3c-8c67-2076626c688f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn495336(v=office.15)
 ms:contentKeyID: 60569235
 ms.date: 07/25/2014
 mtps_version: v=office.15
+description: Discover Lync Developer Videos for client, server, and web extensibility on Microsoft's Learn platform. Enhance your Lync Server 2013 skills now.
 ---
 
 # Lync developer videos
