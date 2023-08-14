@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Learn to search for people in Microsoft Lync 2013's Global Address Book using the SDK. Find contacts, start conversations, and more.
 ---
 
 # How to: Search for people in a global address book
