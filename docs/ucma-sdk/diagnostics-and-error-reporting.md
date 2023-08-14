@@ -1,4 +1,4 @@
-﻿---
+---
 title: Diagnostics and error reporting
 TOCTitle: Diagnostics and error reporting
 ms:assetid: 6c2b33a0-a4f3-444f-a5fb-fb905bdd2f37
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466074(v=office.15)
 ms:contentKeyID: 57103068
 ms.date: 07/25/2014
 mtps_version: v=office.15
+description: Improve diagnostics & error reporting with Microsoft Lync, UCMA SDK, and Lync Server 2013. Efficiently discover, diagnose, and resolve failures.
 ---
 
 # Diagnostics and error reporting
