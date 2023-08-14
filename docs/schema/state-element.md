@@ -1,4 +1,4 @@
-﻿---
+---
 title: state[@type='userState'] element
 TOCTitle: state[@type='userState'] element
 ms:assetid: f2f8dce0-3d18-4ebe-b60a-5deb70be81d1
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - xml
+description: Learn Microsoft Lync Schema: Discover State Element, Enhanced Presence User State Category Instance & Attributes. Boost your Lync 2013 knowledge.
 ---
 
 # state\[\@type='userState'\] element
