@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933232(v=office.15)
 ms:contentKeyID: 50877377
 ms.date: 07/24/2014
 mtps_version: v=office.15
-description: Discover What You Can Do with Lync Contact Lists: search, add/remove contacts, manage custom groups, and display custom views using Microsoft Lync 2013 API.
+description: "Discover What You Can Do with Lync Contact Lists: search, add/remove contacts, manage custom groups, and display custom views using Microsoft Lync 2013 API."
 ---
 
 # What you can do with Lync contact lists

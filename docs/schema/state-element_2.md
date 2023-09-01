@@ -8,7 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - xml
-description: Learn Microsoft Lync: Discover Enhanced Presence Machine State Category Instance, Schema, Attributes & Elements. Boost Your Lync Server 2013 Knowledge.
+description: "Learn Microsoft Lync: Discover Enhanced Presence Machine State Category Instance, Schema, Attributes & Elements. Boost Your Lync Server 2013 Knowledge."
 ---
 
 # state\[\@type='machineState'\] element

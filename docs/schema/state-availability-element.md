@@ -8,7 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - xml
-description: Learn Microsoft Lync Schema: Discover State Availability Element, its attributes, and availability number ranges for user status. Boost your Lync knowledge.
+description: "Learn Microsoft Lync Schema: Discover State Availability Element, its attributes, and availability number ranges for user status. Boost your Lync knowledge."
 ---
 
 # state/availability element
