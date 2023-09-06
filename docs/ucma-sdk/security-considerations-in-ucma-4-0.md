@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466093(v=office.15)
 ms:contentKeyID: 57103188
 ms.date: 07/25/2014
 mtps_version: v=office.15
-description: Discover Security Considerations in UCMA 4.0: Learn best practices for Lync & Lync Server 2013 with Microsoft's UCMA SDK. Enhance app safety today.
+description: "Discover Security Considerations in UCMA 4.0: Learn best practices for Lync & Lync Server 2013 with Microsoft's UCMA SDK. Enhance app safety today."
 ---
 
 # Security considerations in UCMA 4.0

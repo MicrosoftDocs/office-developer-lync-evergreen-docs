@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933179(v=office.15)
 ms:contentKeyID: 50877318
 ms.date: 07/24/2014
 mtps_version: v=office.15
-description: Discover What's New in Lync 2013 SDK: Enhanced Collaboration Features, Desktop Sharing, Persistent Chat & More. Upgrade Your Applications Today.
+description: "Discover What's New in Lync 2013 SDK: Enhanced Collaboration Features, Desktop Sharing, Persistent Chat & More. Upgrade Your Applications Today."
 ---
 
 # What's new in Lync 2013 SDK

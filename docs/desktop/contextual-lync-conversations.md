@@ -9,7 +9,7 @@ mtps_version: v=office.15
 dev_langs:
 - xaml
 - csharp
-description: Discover Contextual Lync Conversations: Boost productivity with Lync 2013, application scenarios, development models, and package registration.
+description: "Discover Contextual Lync Conversations: Boost productivity with Lync 2013, application scenarios, development models, and package registration."
 ---
 
 # Contextual Lync conversations
