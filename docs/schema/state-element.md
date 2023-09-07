@@ -8,7 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - xml
-description: Learn Microsoft Lync Schema: Discover State Element, Enhanced Presence User State Category Instance & Attributes. Boost your Lync 2013 knowledge.
+description: "Learn Microsoft Lync Schema: Discover State Element, Enhanced Presence User State Category Instance & Attributes. Boost your Lync 2013 knowledge."
 ---
 
 # state\[\@type='userState'\] element
