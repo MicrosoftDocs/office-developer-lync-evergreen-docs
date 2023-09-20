@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Lync 2013: Create a Lync WPF Controls application for Windows 8 and Windows 8 Pro'
 TOCTitle: 'Lync 2013: Create a Lync WPF Controls application for Windows 8 and Windows 8 Pro'
 ms:assetid: 9ae7fe3e-427e-4dc9-99cf-4924ebe7ef1e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn194144(v=office.15)
 ms:contentKeyID: 52822157
 ms.date: 07/25/2014
 mtps_version: v=office.15
+description: Learn to create a Lync WPF Controls application for Windows 8 using the Lync 2013 SDK. Detailed guide on using Visual Studio and pinning the app to Start screen.
 ---
 
 # Create a Lync WPF Controls application for Windows 8 and Windows 8 Pro

@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933123(v=office.15)
 ms:contentKeyID: 50877263
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Master Microsoft Lync 2013 meetings with our comprehensive guide. Learn to manage meeting lifecycle, share content, admit participants, and more.
 ---
 
 # Get started with Lync meetings

@@ -1,4 +1,4 @@
-﻿---
+---
 title: General application activation
 TOCTitle: General application activation
 ms:assetid: 029f3c80-dea6-4338-b622-b9f1338d2432
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466115(v=office.15)
 ms:contentKeyID: 57103409
 ms.date: 07/25/2014
 mtps_version: v=office.15
+description: Learn how to activate general applications on Microsoft Lync Server 2013. This guide provides detailed steps on creating a pool of trusted application computers, requesting certificates, and more.
 ---
 
 # General application activation

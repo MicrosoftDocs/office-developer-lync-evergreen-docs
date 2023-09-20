@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933122(v=office.15)
 ms:contentKeyID: 50877257
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Master Microsoft Lync 2013's Persistent Chat features with our comprehensive guide. Learn to create chat rooms, post messages, and develop add-in applications.
 ---
 
 # Get started with Persistent Chat
