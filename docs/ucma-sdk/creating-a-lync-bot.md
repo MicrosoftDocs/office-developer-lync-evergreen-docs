@@ -1,4 +1,4 @@
-﻿---
+---
 title: Creating a Lync bot
 TOCTitle: Creating a Lync bot
 ms:assetid: bede739a-ec48-4e6d-b52c-acbf04b245bb
@@ -10,6 +10,7 @@ dev_langs:
 - powershell
 - xml
 - csharp
+description: Learn how to create a Lync bot with Microsoft's step-by-step guide. Includes setup, testing, and deployment using a Windows Service.
 ---
 
 # Creating a Lync bot
