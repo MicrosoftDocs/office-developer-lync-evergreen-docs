@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configuring LSM using the configuration file
 TOCTitle: Configuring LSM using the configuration file
 ms:assetid: 91a71769-df75-49a6-b305-8d202f6a5d12
@@ -8,6 +8,7 @@ ms.date: 02/16/2015
 mtps_version: v=office.15
 dev_langs:
 - xml
+description: Learn how to configure LSM using the SDNManager.exe.config file on Lync 2010/2013. Discover operational modes, database connections, and change persistence.
 ---
 
 # Configuring LSM using the configuration file

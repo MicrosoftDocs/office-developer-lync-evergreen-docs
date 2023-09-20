@@ -9,6 +9,7 @@ mtps_version: v=office.15
 dev_langs:
 - csharp
 - xaml
+description: Master Microsoft Lync 2013 SDK to send and receive contextual data in conversations. Watch videos, learn prerequisites, and explore code examples.
 ---
 
 # How to: Send and receive context information in a Lync conversation

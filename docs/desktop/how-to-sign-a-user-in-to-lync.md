@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Learn how to sign a user into Lync with Microsoft's detailed guide. Understand the process, handle exceptions, and manage unexpected client state changes.
 ---
 
 # How to: Sign a user in to Lync

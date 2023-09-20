@@ -1,4 +1,4 @@
-﻿---
+---
 title: Setting up the DNS SRV record
 TOCTitle: Setting up DNS SRV record
 ms:assetid: 1dee6627-bd71-46e9-adb8-f2166fd8a97e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785198(v=office.15)
 ms:contentKeyID: 62952682
 ms.date: 02/16/2015
 mtps_version: v=office.15
+description: Learn how to set up DNS SRV records for Lync SDN Manager Service with our step-by-step guide. Domain administrator privileges required.
 ---
 
 # Setting up the DNS SRV record
