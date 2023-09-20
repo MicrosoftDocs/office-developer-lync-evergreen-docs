@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Master Microsoft Lync 2013 API content sharing modality with this comprehensive guide. Learn to make your UI responsive to events in Lync 2013 conversations.
 ---
 
 # Content sharing modality event handling

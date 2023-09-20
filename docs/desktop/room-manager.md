@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933081(v=office.15)
 ms:contentKeyID: 50877210
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Master the Microsoft Lync 2013 Persistent Chat room manager class with our comprehensive guide. Learn to access and manage chat rooms effectively.
 ---
 
 # Room manager

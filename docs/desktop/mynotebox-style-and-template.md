@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937324(v=office.15)
 ms:contentKeyID: 50877157
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Master the MyNoteBox control with our detailed guide. Learn to modify the default ControlTemplate for a unique appearance on Lync 2013.
 ---
 
 # MyNoteBox style and template
