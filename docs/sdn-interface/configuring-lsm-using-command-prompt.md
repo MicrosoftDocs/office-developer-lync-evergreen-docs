@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configuring LSM using command prompt
 TOCTitle: Configuring LSM using command prompt
 ms:assetid: 3720e38a-b444-4a90-9a1b-cad39292ffdf
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785211(v=office.15)
 ms:contentKeyID: 62952691
 ms.date: 02/16/2015
 mtps_version: v=office.15
+description: Learn how to configure LSM using command prompt for Lync SDN Interface. Get and set limits, replay sequences, and modify settings with ease.
 ---
 
 # Configuring LSM using command prompt

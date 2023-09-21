@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937300(v=office.15)
 ms:contentKeyID: 50877125
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Master Microsoft Lync 2013 with our comprehensive guide. Learn about contact attributes, finding contacts, and more. Perfect for Lync Server 2013 users.
 ---
 
 # Lync contacts

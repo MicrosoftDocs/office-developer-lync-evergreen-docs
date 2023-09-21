@@ -9,6 +9,7 @@ mtps_version: v=office.15
 dev_langs:
 - xaml
 - csharp
+description: Master Microsoft Lync 2013 with this comprehensive guide on adding, renaming, or removing custom groups. Includes video tutorial and SDK usage.
 ---
 
 # How to: Add, rename, or remove a custom group

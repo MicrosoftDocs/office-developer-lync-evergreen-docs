@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Learn to start a Microsoft Lync 2013 conversation, invite users, and send instant messages with our comprehensive guide. Perfect for developers.
 ---
 
 # How to: Start a Lync IM conversation

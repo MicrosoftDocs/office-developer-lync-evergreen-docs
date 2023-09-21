@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933072(v=office.15)
 ms:contentKeyID: 50877200
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Master Microsoft Lync 2013 SDK with our comprehensive guide on meeting lobby management and meeting admission types. Learn more now.
 ---
 
 # Meeting lobby management

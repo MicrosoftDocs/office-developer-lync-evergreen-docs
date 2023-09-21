@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937268(v=office.15)
 ms:contentKeyID: 50877086
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Master Lync 2013 distribution groups with Microsoft's comprehensive guide. Learn to programmatically iterate contacts, manage nested groups, and more.
 ---
 
 # Distribution groups

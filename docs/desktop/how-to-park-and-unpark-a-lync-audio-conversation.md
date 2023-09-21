@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Master the Microsoft Lync 2013 call park feature with this comprehensive guide. Learn how to park and unpark Lync audio conversations effectively.
 ---
 
 # How to: Park and unpark a Lync audio conversation

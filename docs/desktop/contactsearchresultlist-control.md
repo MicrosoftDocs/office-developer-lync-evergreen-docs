@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - xaml
+description: Master the Microsoft Lync 2013 ContactSearchResultList control. Learn its properties, usage, and how to display search results effectively. Perfect for developers.
 ---
 
 # ContactSearchResultList control
