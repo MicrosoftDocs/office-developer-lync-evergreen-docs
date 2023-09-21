@@ -29,7 +29,7 @@ Activation is needed not only for deploying a ready-to-ship application, but als
 
 
 > [!NOTE]
-> <P>It is recommended that the computer running the trusted application be joined to the domain in which Lync Server 2013 is running. However, if there is no intent to run Lync Server 2013 PowerShell cmdlets from the application server or to make use of UCMA auto-provisioning capabilities, then the application can be run on a computer that is not joined to the domain.</P>
+> <P>It's recommended that the computer running the trusted application be joined to the domain in which Lync Server 2013 is running. However, if there is no intent to run Lync Server 2013 PowerShell cmdlets from the application server or to make use of UCMA auto-provisioning capabilities, then the application can be run on a computer that is not joined to the domain.</P>
 
 
 

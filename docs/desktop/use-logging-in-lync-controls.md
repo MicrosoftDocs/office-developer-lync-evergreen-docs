@@ -53,7 +53,7 @@ Additional resources</p></td>
 <tbody>
 <tr class="odd">
 <td><p>When logging is used in WPF or Silverlight applications, personal information such as telephone numbers can appear in logs. To protect confidential information, ensure that logs are saved to a secure location.</p>
-<p>In Silverlight applications, I/O operations typically are restricted to isolated storage and do not use the file system of the operating system. It is possible to work around this restriction by logging to a Web service or by using COM to access the local file system.</p></td>
+<p>In Silverlight applications, I/O operations typically are restricted to isolated storage and do not use the file system of the operating system. It's possible to work around this restriction by logging to a Web service or by using COM to access the local file system.</p></td>
 </tr>
 </tbody>
 </table>

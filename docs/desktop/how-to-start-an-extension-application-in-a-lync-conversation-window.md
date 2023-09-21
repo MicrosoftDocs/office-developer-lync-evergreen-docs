@@ -181,7 +181,7 @@ The following procedure shows how to create a WPF window that is used to start a
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>You must always set the <a href="https://msdn.microsoft.com/library/jj276319(v=office.15)">AutomationModalitySettings</a><strong>.ApplicationId</strong> modality property before you can open a non-default CWE application. Only create an <strong>ApplicationRegistration</strong> object if you are overriding the install-time registration. If a default CWE application is registered on a computer, it starts for every new conversation, even if no application ID is set. A default CWE application cannot be overridden by a runtime <strong>ApplicationRegistration</strong> object.</p></td>
+    <td><p>You must always set the <a href="https://msdn.microsoft.com/library/jj276319(v=office.15)">AutomationModalitySettings</a><strong>.ApplicationId</strong> modality property before you can open a non-default CWE application. Only create an <strong>ApplicationRegistration</strong> object if you're overriding the install-time registration. If a default CWE application is registered on a computer, it starts for every new conversation, even if no application ID is set. A default CWE application cannot be overridden by a runtime <strong>ApplicationRegistration</strong> object.</p></td>
     </tr>
     </tbody>
     </table>

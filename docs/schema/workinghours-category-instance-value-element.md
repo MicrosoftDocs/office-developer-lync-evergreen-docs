@@ -189,7 +189,7 @@ The following XML code snippet of a **workingHours** category instance shows the
       </WorkingHours> 
     </calendarData>
 
-The workingHours category instance is used to determine the time period when inbound call routing should be applied or blocked. It is a private category instance intended for local use only.
+The workingHours category instance is used to determine the time period when inbound call routing should be applied or blocked. It's a private category instance intended for local use only.
 
 ## Element information
 

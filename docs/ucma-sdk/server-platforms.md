@@ -51,7 +51,7 @@ In UCMA 4.0 the [CollaborationPlatform](https://msdn.microsoft.com/library/hh385
 
 ## Manual provisioning
 
-To manually provision a trusted application, one should first create a **CollaborationPlatform** instance using an initialized [ServerPlatformSettings](https://msdn.microsoft.com/library/hh382156\(v=office.15\)) instance. The **ServerPlatformSettings** instance must be supplied with all of the trusted application configuration data-local FQDN, listening port, application GRUU, and certificate. Each **ApplicationEndpoint** instance must also be provisioned with a manually populated [ApplicationEndpointSettings](https://msdn.microsoft.com/library/hh349433\(v=office.15\)) instance for which the [OwnerUri](https://msdn.microsoft.com/library/hh161899\(v=office.15\)) and [OwnerPhoneUri](https://msdn.microsoft.com/library/hh385129\(v=office.15\)) properties are appropriately initialized. If any of the settings changes (such as the certificate), it is the responsibility of the application to discover such changes by offline means and to apply the new values to the **CollaborationPlatform** instance or **ApplicationEndpoint** instances, depending on which setting changed.
+To manually provision a trusted application, one should first create a **CollaborationPlatform** instance using an initialized [ServerPlatformSettings](https://msdn.microsoft.com/library/hh382156\(v=office.15\)) instance. The **ServerPlatformSettings** instance must be supplied with all of the trusted application configuration data-local FQDN, listening port, application GRUU, and certificate. Each **ApplicationEndpoint** instance must also be provisioned with a manually populated [ApplicationEndpointSettings](https://msdn.microsoft.com/library/hh349433\(v=office.15\)) instance for which the [OwnerUri](https://msdn.microsoft.com/library/hh161899\(v=office.15\)) and [OwnerPhoneUri](https://msdn.microsoft.com/library/hh385129\(v=office.15\)) properties are appropriately initialized. If any of the settings changes (such as the certificate), it's the responsibility of the application to discover such changes by offline means and to apply the new values to the **CollaborationPlatform** instance or **ApplicationEndpoint** instances, depending on which setting changed.
 
 ## Auto-provisioning
 
@@ -78,7 +78,7 @@ The following list shows the steps that are required to use auto-provisioning in
     // Populate other properties on platformSettings.
     platform = new CollaborationPlatform(platformSettings);
     
-    // Register a handler to be alerted of each endpoint’s configuration as it is discovered.
+    // Register a handler to be alerted of each endpoint’s configuration as it's discovered.
     platform.RegisterForApplicationEndpointSettings(ApplicationEndpointDiscoveredHandler);
     
     // Register a handler to be alerted of non-fatal failures after initial startup has succeeded.
@@ -136,5 +136,5 @@ The following list shows the steps that are required to use auto-provisioning in
     
     An auto-provisioned **CollaborationPlatform** instance cannot be started successfully unless the provisioning data for the application is successfully fetched. If the application is not configured correctly, or a connection to Active Directory cannot be made, or Central Management Store is not running, **CollaborationPlatform** startup will fail, causing a [ProvisioningFailureException](https://msdn.microsoft.com/library/hh385160\(v=office.15\)) exception to be thrown. The application should alert the administrator in such a case to take corrective action.
     
-    After the **CollaborationPlatform** instance is started, it is resilient to failures in accessing provisioning data or faulty configuration. For example, if a new certificate is incorrectly configured for the machine while it is running or if Active Directory connectivity is lost, UCMA continues using the existing settings, but raises the [ProvisioningFailed](https://msdn.microsoft.com/library/hh365940\(v=office.15\)) event on the **CollaborationPlatform** instance. The application must alert the administrator of this failure so that prompt action can be taken to configure a certificate correctly or restore Active Directory connectivity.
+    After the **CollaborationPlatform** instance is started, it's resilient to failures in accessing provisioning data or faulty configuration. For example, if a new certificate is incorrectly configured for the machine while it's running or if Active Directory connectivity is lost, UCMA continues using the existing settings, but raises the [ProvisioningFailed](https://msdn.microsoft.com/library/hh365940\(v=office.15\)) event on the **CollaborationPlatform** instance. The application must alert the administrator of this failure so that prompt action can be taken to configure a certificate correctly or restore Active Directory connectivity.
 

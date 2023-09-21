@@ -21,7 +21,7 @@ Retrieving a contact list is an asynchronous process. Contacts and groups are re
 
 In a typical application scenario, a contact list should display contact information, presence status, and other relevant data about each contact. In a Microsoft Lync Server 2013 deployment, this kind of information about a contact is obtained by using a separate subscription to the appropriate presence category instances that are published by the contact. Hence, the preparation involves setting up this remote presence subscription.
 
-The following code example shows how these tasks are performed before receiving a contact list and the accompanying presence publications. It is an excerpt of a C\# class used throughout this section to show how to maintain a contact list in a UCMA application.
+The following code example shows how these tasks are performed before receiving a contact list and the accompanying presence publications. It's an excerpt of a C\# class used throughout this section to show how to maintain a contact list in a UCMA application.
 
 ```csharp
 using System;

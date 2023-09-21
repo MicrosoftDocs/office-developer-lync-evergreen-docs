@@ -36,7 +36,7 @@ The following standard exception classes are adopted by UCMA 4.0:
 The following custom exception classes are implemented in UCMA 4.0:
 
   - **RealTimeException**  
-    Except for **RealTimeInvalidOperationException**, this is the root class for the exceptions that are specific to UCMA 4.0 and later. It is thrown when the error condition cannot be mapped to any other exception types.
+    Except for **RealTimeInvalidOperationException**, this is the root class for the exceptions that are specific to UCMA 4.0 and later. It's thrown when the error condition cannot be mapped to any other exception types.
 
   - **AuthenticationException**  
     Thrown when a 401 response was received in authentication. It exposes the failed response data (**ResponseData**) and parsed values of authentication-specific headers.

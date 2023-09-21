@@ -49,7 +49,7 @@ avmcu.BeginDialOut(
     null /*state*/);
 ```
 
-After joining, the supervisor has no audio routes and cannot hear anything or be heard by anyone. It is now necessary to add audio routes that allow the audio from the existing participants to be heard by the supervisor. This can be accomplished with code similar to what is shown in the following example.
+After joining, the supervisor has no audio routes and cannot hear anything or be heard by anyone. It's now necessary to add audio routes that allow the audio from the existing participants to be heard by the supervisor. This can be accomplished with code similar to what is shown in the following example.
 
 ```csharp
 List<OutgoingAudioRoute> outgoingRoutes = new List<OutgoingAudioRoute>();

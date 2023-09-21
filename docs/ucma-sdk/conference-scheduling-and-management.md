@@ -57,10 +57,10 @@ A PSTN user can join the conference provided that the conference organizer has s
 
 An application can join an *ad hoc* conference using the [BeginJoin(ConferenceJoinOptions, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh348502\(v=office.15\)) method. Microsoft Unified Communications Managed API 4.0 schedules a conference that is valid for eight hours and adds an MCU for each **ConferenceMcuSessionFactory** registered in the platform.
 
-Before joining the conference, it is recommended that the application register for the roster events on the [ConferenceSession](https://msdn.microsoft.com/library/hh349315\(v=office.15\)) instance and the other [McuSession](https://msdn.microsoft.com/library/hh384975\(v=office.15\)) instances the application is interested in.
+Before joining the conference, it's recommended that the application register for the roster events on the [ConferenceSession](https://msdn.microsoft.com/library/hh349315\(v=office.15\)) instance and the other [McuSession](https://msdn.microsoft.com/library/hh384975\(v=office.15\)) instances the application is interested in.
 
 ```csharp
-// It is sufficient for most applications to monitor the roster on the conversation level.
+// It's sufficient for most applications to monitor the roster on the conversation level.
 
 // Monitor new participants joining the conference.
 conversation.RemoteParticipantAttendanceChanged += Conversation_RemoteAttendanceChanged;
@@ -148,7 +148,7 @@ Applications that require more roster details can subscribe to the [ParticipantE
 
 The **ConferenceSession**.**ParticipantEndpointAttendanceChanged** event notifies the application of endpoints joining and leaving the Focus. A like-named event is exposed on **McuSession** subclasses to notify an application of endpoints joining and leaving the MCU. An application can detect changes to the properties of the endpoints by the **ParticipantEndpointPropertiesChanged** event.
 
-As with conference commands, an application receives MCU-related events even if there is no active media flow with that MCU. This allows applications to monitor the roster before the media is established. For this reason, it is important for the application to register for the applicable **McuSession** subclass events before the **ConferenceSession**.**BeginJoin** method is called.
+As with conference commands, an application receives MCU-related events even if there is no active media flow with that MCU. This allows applications to monitor the roster before the media is established. For this reason, it's important for the application to register for the applicable **McuSession** subclass events before the **ConferenceSession**.**BeginJoin** method is called.
 
 ## Adding a call to an MCU
 
@@ -164,11 +164,11 @@ AudioVideoCall avcall = new AudioVideoCall(conversation);
 avcall.BeginEstablish(EstablishCallback, state);
 ```
 
-As previously mentioned in this topic, in the Conference Commands and Events section, an MCU can become active after the **ConferenceSession** join operation has completed. If a call was established to an MCU that has not yet become active, UCMA 4.0 queues the call request and executes it within 30 seconds if the MCU becomes active. If the MCU does not become active within 30 seconds, so that the call operation fails, it is the application’s responsibility to try again, or monitor the state of the **McuSession** subclass and retry after it becomes active.
+As previously mentioned in this topic, in the Conference Commands and Events section, an MCU can become active after the **ConferenceSession** join operation has completed. If a call was established to an MCU that has not yet become active, UCMA 4.0 queues the call request and executes it within 30 seconds if the MCU becomes active. If the MCU does not become active within 30 seconds, so that the call operation fails, it's the application’s responsibility to try again, or monitor the state of the **McuSession** subclass and retry after it becomes active.
 
 ## McuSession operations
 
-During a conference it is possible to request an MCU to dial out to another participant. The MCU initiates a call to the required destination and reports the results to the application.
+During a conference it's possible to request an MCU to dial out to another participant. The MCU initiates a call to the required destination and reports the results to the application.
 
 An application might execute the following sample code for a situation in which two participants are in an audio conference discussing a problem and find that they need the help of a third person, Alice. One participant requests the AV MCU to dial out to the Alice’s cell phone so that she can become a conference participant.
 

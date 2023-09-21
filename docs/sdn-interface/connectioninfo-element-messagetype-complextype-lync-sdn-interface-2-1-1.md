@@ -113,7 +113,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <tr class="even">
 <td><p><a href="connectivity-element-sdn-interface-2-1-1.md">Connectivity</a></p></td>
 <td><p>xs:string</p></td>
-<td><p>(Obsolete) The inclusion of Relay Ip/port indicates that a particular endpoint uses a media relay (edge server) and if not access the remote address directly. It is provided only in QualityUpdate events.</p></td>
+<td><p>(Obsolete) The inclusion of Relay Ip/port indicates that a particular endpoint uses a media relay (edge server) and if not access the remote address directly. It's provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="conversationid-element-sdn-interface-2-1-1.md">ConversationId</a></p></td>
@@ -133,17 +133,17 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <tr class="even">
 <td><p><a href="endtime-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">EndTime</a></p></td>
 <td><p>xs:dateTime</p></td>
-<td><p>Denotes then time when the conversation ended. It is provided only in QualityUpdate events.</p></td>
+<td><p>Denotes then time when the conversation ended. It's provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="mediabypass-element-sdn-interface-2-1-1.md">MediaBypass</a></p></td>
 <td><p>xs:boolean</p></td>
-<td><p>Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.</p></td>
+<td><p>Denotes media bypass. It's provided only in QualityUpdate message when mediabypass was part of the call.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="mediationserverlegposition-element-sdn-interface-2-1-1.md">MediationServerLegPosition</a></p></td>
 <td><p>xs:string</p></td>
-<td><p>Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It is provided only in QualityUpdate events.</p></td>
+<td><p>Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It's provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="sourcepool-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">SourcePool</a></p></td>
@@ -153,7 +153,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <tr class="even">
 <td><p><a href="starttime-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">StartTime</a></p></td>
 <td><p>xs:dateTime</p></td>
-<td><p>Denotes the time when the conversation started. It is provided only in QualityUpdate events.</p></td>
+<td><p>Denotes the time when the conversation started. It's provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="timestamp-element-connectioninfotype-complextype-lync-sdn-interface-2-1-1.md">TimeStamp</a></p></td>
@@ -188,7 +188,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <td><p>Originator</p></td>
 <td><p>xs:string</p></td>
 <td><p>optional</p></td>
-<td><p>Indicates source endpoint (Endpoint Id) that provided the quality metrics used for this report. It is provided only in QualityUpdate events.</p></td>
+<td><p>Indicates source endpoint (Endpoint Id) that provided the quality metrics used for this report. It's provided only in QualityUpdate events.</p></td>
 <td><p>Values of the xs:string type.</p></td>
 </tr>
 </tbody>

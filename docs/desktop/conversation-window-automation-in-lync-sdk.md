@@ -40,7 +40,7 @@ Additional resources</p></td>
 
 Conversation window automation is a feature that lets you programmatically start a new Lync 2013 conversation window that hosts a conversation in any of the conversation modes supported by the Lync client. You provide a list of Lync user SIP addresses along with the desired conversation modes in the automation method call and a conversation window opens in the desired conversation mode and with the invited users. Automation lets you create a parent/child relationship between a container control in your application as parent and the conversation window as child. This relationship docks the conversation window in your application as though it was an organic part of your application.
 
-A conversation window can be made context-aware at the time it is started. That is, the conversation window can be extended to provide conversation participants with contextual information from the launching application. For example, if your application is an accounts payable (AP) system and you start a conversation window from within an AP screen for a given payable transaction, the details of the transaction can be shown in the conversation window so that users have context for conversing.
+A conversation window can be made context-aware at the time it's started. That is, the conversation window can be extended to provide conversation participants with contextual information from the launching application. For example, if your application is an accounts payable (AP) system and you start a conversation window from within an AP screen for a given payable transaction, the details of the transaction can be shown in the conversation window so that users have context for conversing.
 
 <table>
 <colgroup>

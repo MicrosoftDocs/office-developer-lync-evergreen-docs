@@ -14,7 +14,7 @@ dev_langs:
 
 (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
-Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.
+Denotes media bypass. It's provided only in QualityUpdate message when mediabypass was part of the call.
 
 
 **Applies to**: Lync 2013

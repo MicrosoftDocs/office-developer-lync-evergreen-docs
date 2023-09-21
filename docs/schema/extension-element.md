@@ -86,7 +86,7 @@ None
 
 ## Remarks
 
-Where it is defined in an enhanced presence schema, this element can be used to support application-specific custom extension of the elements. The child elements specifying the extension can be of any name and in any namespace.
+Where it's defined in an enhanced presence schema, this element can be used to support application-specific custom extension of the elements. The child elements specifying the extension can be of any name and in any namespace.
 
 ## Example
 

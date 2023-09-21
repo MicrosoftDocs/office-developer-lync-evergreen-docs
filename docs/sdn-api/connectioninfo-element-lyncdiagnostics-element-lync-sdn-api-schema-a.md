@@ -129,7 +129,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <tr class="even">
 <td><p><a href="connectivity-element-sdn-api-schema-a.md">Connectivity</a></p></td>
 <td><p>xs:string</p></td>
-<td><p>Denotes whether the call is internal or external through the edge server. It is provided only in QualityUpdate events.</p></td>
+<td><p>Denotes whether the call is internal or external through the edge server. It's provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="conversationid-element-sdn-api-schema-a.md">ConversationId</a></p></td>
@@ -149,22 +149,22 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <tr class="even">
 <td><p><a href="endtime-element-sdn-api-schema-a.md">EndTime</a></p></td>
 <td><p>xs:dateTime</p></td>
-<td><p>Denotes then time when the conversation ended. It is provided only in QualityUpdate events.</p></td>
+<td><p>Denotes then time when the conversation ended. It's provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="mediabypass-element-sdn-api-schema-a.md">MediaBypass</a></p></td>
 <td><p>xs:string</p></td>
-<td><p>Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.</p></td>
+<td><p>Denotes media bypass. It's provided only in QualityUpdate message when mediabypass was part of the call.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="mediationserverlegposition-element-sdn-api-schema-a.md">MediationServerLegPosition</a></p></td>
 <td><p>xs:string</p></td>
-<td><p>Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It is provided only in QualityUpdate events.</p></td>
+<td><p>Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It's provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="starttime-element-sdn-api-schema-a.md">StartTime</a></p></td>
 <td><p>xs:dateTime</p></td>
-<td><p>Denotes the time when the conversation started. It is provided only in QualityUpdate events.</p></td>
+<td><p>Denotes the time when the conversation started. It's provided only in QualityUpdate events.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="timestamp-element-sdn-api-schema-a.md">TimeStamp</a></p></td>

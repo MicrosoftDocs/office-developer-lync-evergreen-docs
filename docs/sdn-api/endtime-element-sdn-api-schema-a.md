@@ -14,7 +14,7 @@ dev_langs:
 
 (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
-Denotes then time when the conversation ended. It is provided only in QualityUpdate events.
+Denotes then time when the conversation ended. It's provided only in QualityUpdate events.
 
 
 **Applies to**: Lync 2013

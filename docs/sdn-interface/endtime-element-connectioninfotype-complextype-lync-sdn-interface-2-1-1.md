@@ -14,7 +14,7 @@ dev_langs:
 
 (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
-Denotes then time when the conversation ended. It is provided only in QualityUpdate events.
+Denotes then time when the conversation ended. It's provided only in QualityUpdate events.
 
 ## Element information
 

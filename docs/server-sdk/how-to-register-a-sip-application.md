@@ -17,7 +17,7 @@ Learn how to compile and then register a SIP application manifest with the Micro
 
 **Applies to**: Lync Server 2013
 
-When the application manifest is created and the Microsoft SIP Processing Language (MSPL) script is inserted into it, you can register the application manifest with the Lync Server 2013 computer on which the SIP application runs. Registering the SIP application manifest is also known as registering the SIP application. For a script-only SIP application, the registration also loads the manifest into the server and the embedded MSPL script is then ready to be invoked. For a managed SIP application, the registration of the application does not load the manifest. Instead, it is loaded into the server by the managed SIP application that is running. In either case, the application manifest should be compiled successfully before the registration continues.
+When the application manifest is created and the Microsoft SIP Processing Language (MSPL) script is inserted into it, you can register the application manifest with the Lync Server 2013 computer on which the SIP application runs. Registering the SIP application manifest is also known as registering the SIP application. For a script-only SIP application, the registration also loads the manifest into the server and the embedded MSPL script is then ready to be invoked. For a managed SIP application, the registration of the application does not load the manifest. Instead, it's loaded into the server by the managed SIP application that is running. In either case, the application manifest should be compiled successfully before the registration continues.
 
 ## Compiling a SIP application manifest
 

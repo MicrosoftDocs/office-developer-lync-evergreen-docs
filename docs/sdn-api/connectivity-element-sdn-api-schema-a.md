@@ -14,7 +14,7 @@ dev_langs:
 
 (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
-Denotes whether the call is internal or external through the edge server. It is provided only in QualityUpdate events.
+Denotes whether the call is internal or external through the edge server. It's provided only in QualityUpdate events.
 
 
 **Applies to**: Lync 2013

@@ -94,7 +94,7 @@ To add a new custom group, call the [BeginAddGroup](https://msdn.microsoft.com/l
 
 5.  Register for the [GroupAdded](https://msdn.microsoft.com/library/jj278290\(v=office.15\)) event on [ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)).
 
-6.  Call [BeginAddGroup](https://msdn.microsoft.com/library/jj266433\(v=office.15\)) on [ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)), passing a string containing the requested group name. If you want to block execution on your UI thread until the operation completes, call [EndAddGroup](https://msdn.microsoft.com/library/jj277049\(v=office.15\)) after the first call. To avoid blocking your UI thread, pass a **System.AsyncCallback** method into **BeginAddGroup**, and then call [EndAddGroup](https://msdn.microsoft.com/library/jj277049\(v=office.15\)) within the callback when it is invoked from the Lync thread.
+6.  Call [BeginAddGroup](https://msdn.microsoft.com/library/jj266433\(v=office.15\)) on [ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)), passing a string containing the requested group name. If you want to block execution on your UI thread until the operation completes, call [EndAddGroup](https://msdn.microsoft.com/library/jj277049\(v=office.15\)) after the first call. To avoid blocking your UI thread, pass a **System.AsyncCallback** method into **BeginAddGroup**, and then call [EndAddGroup](https://msdn.microsoft.com/library/jj277049\(v=office.15\)) within the callback when it's invoked from the Lync thread.
 
 The following figure illustrates the classes, methods, and events used in the process of adding a custom group and adding a contact to the group.
 
@@ -103,7 +103,7 @@ The following figure illustrates the classes, methods, and events used in the pr
 
 ## Add a distribution group
 
-A distribution group is created outside of the scope of this API. It is obtained and added to a user’s contact list using the Microsoft Lync 2013 API. For information about obtaining an existing distribution group, see [How to: Search for a contact or distribution group in Lync SDK](https://msdn.microsoft.com/library/jj933159\(v=office.15\)).
+A distribution group is created outside of the scope of this API. It's obtained and added to a user’s contact list using the Microsoft Lync 2013 API. For information about obtaining an existing distribution group, see [How to: Search for a contact or distribution group in Lync SDK](https://msdn.microsoft.com/library/jj933159\(v=office.15\)).
 
 When you have obtained a distribution group in a set of search results, add the distribution group to the contact list by calling into [BeginAddGroup](https://msdn.microsoft.com/library/jj266433\(v=office.15\)), passing the distribution group as the first argument.
 

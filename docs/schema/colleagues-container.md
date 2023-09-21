@@ -281,7 +281,7 @@ Category instances published by Lync 2013
 <div class="alert">
 
 > [!NOTE]
-> <P>The local user’s free-busy information is visible to the Colleagues, Workgroup, and Friends and Family container members, while it is not visible to the External Contacts container members.</P>
+> <P>The local user’s free-busy information is visible to the Colleagues, Workgroup, and Friends and Family container members, while it's not visible to the External Contacts container members.</P>
 
 
 </div></td>
@@ -331,7 +331,7 @@ Category instances published by Lync 2013
 <div class="alert">
 
 > [!NOTE]
-> <P>The OOF note is visible to the Workgroup container members, while it is not visible to the External Contacts container members.</P>
+> <P>The OOF note is visible to the Workgroup container members, while it's not visible to the External Contacts container members.</P>
 
 
 </div></td>

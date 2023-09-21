@@ -70,7 +70,7 @@ b2bCall.BeginEstablish(EstablishCompleted, b2bCall);
 
 ## Connecting incoming-idle call legs - conference call
 
-In an Incoming-Idle call in a conference, the customer call is hooked as back-to-back to a conference, and the agent joins the conference. The following illustration shows the relationships between the customer, the conference, and several agents. Advantages of this type of arrangement are the possibility of multiple agents in the conference simultaneously, conferencing command and control, and conference recording. The disadvantage of this arrangement is that it is less scalable than the two-party call, particularly if the MCU is distant geographically from the customer and agents.
+In an Incoming-Idle call in a conference, the customer call is hooked as back-to-back to a conference, and the agent joins the conference. The following illustration shows the relationships between the customer, the conference, and several agents. Advantages of this type of arrangement are the possibility of multiple agents in the conference simultaneously, conferencing command and control, and conference recording. The disadvantage of this arrangement is that it's less scalable than the two-party call, particularly if the MCU is distant geographically from the customer and agents.
 
 ![Relationship among customer, conference and agents](images/Dn466021.UCMA3-AspectArch(Office.15).jpg "Relationship among customer, conference and agents")
 

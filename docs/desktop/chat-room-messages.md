@@ -39,7 +39,7 @@ Additional resources</p></td>
 
 ## Message overview
 
-The [Microsoft.Lync.Model.Room.RoomMessage](https://msdn.microsoft.com/library/jj276207\(v=office.15\)) class encapsulates a message posted in a room. This class is not used to post messages to a room. A **RoomMessage** object has attributes that tell you who posted the message, the room it is posted to, the date and time the message was posted, the ID of the message, and the message text.
+The [Microsoft.Lync.Model.Room.RoomMessage](https://msdn.microsoft.com/library/jj276207\(v=office.15\)) class encapsulates a message posted in a room. This class is not used to post messages to a room. A **RoomMessage** object has attributes that tell you who posted the message, the room it's posted to, the date and time the message was posted, the ID of the message, and the message text.
 
 ## Retrieving room messages
 

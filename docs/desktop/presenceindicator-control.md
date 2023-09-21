@@ -40,7 +40,7 @@ Additional resources</p></td>
 
 ## Control overview
 
-The [PresenceIndicator](https://msdn.microsoft.com/library/hh345947\(v=office.15\)) control displays one of several icons that indicate the presence of a given user. It is a stand-alone control representing a single contact and enables access to the quick connect menu and the contact card for the user. The control also can display a photo for the given user. The following images display different options for the PhotoDisplayMode property. When the Source property is not set or when no photo is available, a stock silhouette image appears in the UI as shown.
+The [PresenceIndicator](https://msdn.microsoft.com/library/hh345947\(v=office.15\)) control displays one of several icons that indicate the presence of a given user. It's a stand-alone control representing a single contact and enables access to the quick connect menu and the contact card for the user. The control also can display a photo for the given user. The following images display different options for the PhotoDisplayMode property. When the Source property is not set or when no photo is available, a stock silhouette image appears in the UI as shown.
 
 ![PresenceIndicator Control](images/JJ933141.PresenceIndicatorControl(Office.15).png "PresenceIndicator Control")
 
@@ -48,7 +48,7 @@ The [PresenceIndicator](https://msdn.microsoft.com/library/hh345947\(v=office.15
 
 ## Quick connect menu
 
-The control reacts to two user actions: hover and click. When a user hovers over the icon, after about one second the quick connect menu appears. The quick connect menu displays the contact’s presence, starts IM, email, or audio calls and can be expanded to show detailed contact information. The quick connect menu disappears if it is not used. The user can keep the quick connect menu open by pinning it.
+The control reacts to two user actions: hover and click. When a user hovers over the icon, after about one second the quick connect menu appears. The quick connect menu displays the contact’s presence, starts IM, email, or audio calls and can be expanded to show detailed contact information. The quick connect menu disappears if it's not used. The user can keep the quick connect menu open by pinning it.
 
 ## Members
 
@@ -72,7 +72,7 @@ Notable PresenceIndicator control public properties and events relating to unifi
 <ul>
 <li><p>If the value is a string that does not contain the sip: or tel: prefix, the control performs a search, using the string specified as a search criteria, and loads the first contact in the result set matching the specified string. This behavior is not deterministic and yields the slowest performance.</p></li>
 <li><p>If the value is a SIP URI string qualified by the sip: or tel: prefix, the contact is loaded using an exact match of the specified URI. This behavior is deterministic and yields better performance.</p></li>
-<li><p>If the value is a Contact or DistributionGroup object, it is used without changes. This behavior is deterministic and yields the best performance.</p></li>
+<li><p>If the value is a Contact or DistributionGroup object, it's used without changes. This behavior is deterministic and yields the best performance.</p></li>
 </ul></td>
 </tr>
 <tr class="even">

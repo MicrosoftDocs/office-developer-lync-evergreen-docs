@@ -14,7 +14,7 @@ dev_langs:
 
 (Properties element) (QualityUpdate element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
-Displays the limits applied. It is provided only in QualityUpdate events when Call Admission Control is used.
+Displays the limits applied. It's provided only in QualityUpdate events when Call Admission Control is used.
 
 **Applies to**: Lync 2013
  

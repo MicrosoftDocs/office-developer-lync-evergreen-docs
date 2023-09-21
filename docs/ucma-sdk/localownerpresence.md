@@ -32,13 +32,13 @@ Category publication also involves version management, which is internally manag
 
 ### Manifest-based publication for UserEndpoint
 
-It is recommended that the following simplified asynchronous methods be used for user endpoints so that a consistent behavior is achieved when interoperating with Lync so that they can remain agnostic to container ID and instance ID details.
+It's recommended that the following simplified asynchronous methods be used for user endpoints so that a consistent behavior is achieved when interoperating with Lync so that they can remain agnostic to container ID and instance ID details.
 
   - [BeginPublishPresence(ICollection\<PresenceCategory\>, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh384771\(v=office.15\))
 
   - [EndPublishPresence(IAsyncResult)](https://msdn.microsoft.com/library/hh349982\(v=office.15\))
 
-The application can publish a collection of presence categories as a batch process using the aforementioned methods. UCMA 4.0 ensures that the presence categories will be published to the proper containers, providing instance IDs where relevant. It is to be noted that the categories must be subscribed to LocalOwnerPresence in order to use these methods. Any exception during the publication of an individual category in the list will result in the failure of the entire batch.
+The application can publish a collection of presence categories as a batch process using the aforementioned methods. UCMA 4.0 ensures that the presence categories will be published to the proper containers, providing instance IDs where relevant. It's to be noted that the categories must be subscribed to LocalOwnerPresence in order to use these methods. Any exception during the publication of an individual category in the list will result in the failure of the entire batch.
 
 Applications must provide the instance IDs for custom categories and the **ContactCard** category. For others, UCMA 4.0 automatically supplies them.
 
@@ -50,7 +50,7 @@ The corresponding methods to delete the published categories are the [BeginDelet
 
 For advanced usage scenarios, use the [BeginPublishPresence(ICollection\<PresenceCategoryWithMetaData\>, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh349916\(v=office.15\)) and [EndPublishPresence(IAsyncResult)](https://msdn.microsoft.com/library/hh349982\(v=office.15\)) methods.
 
-The [PresenceCategoryWithMetaData](https://msdn.microsoft.com/library/hh381915\(v=office.15\)) class encapsulates the **PresenceCategory** being published, together with other publishing details such as container ID, instance ID, version, and expiry type. It is expected that an advanced user will understand the impact of his publication and can manage relationship levels (watcher list).
+The [PresenceCategoryWithMetaData](https://msdn.microsoft.com/library/hh381915\(v=office.15\)) class encapsulates the **PresenceCategory** being published, together with other publishing details such as container ID, instance ID, version, and expiry type. It's expected that an advanced user will understand the impact of his publication and can manage relationship levels (watcher list).
 
 For application endpoints that are intended to persist their presence information; that is, that rarely change their presence information, developers can take advantage of the simplified presence publication mechanism that UCMA 4.0 offers.
 
@@ -119,7 +119,7 @@ To delete the published categories, use the [BeginDeletePresence(ICollection\<Pr
 
   - **CustomPresenceCategory**
     
-    If a UCMA 4.0 application is intended to publish a custom category or a well-known category for which the API does not have a strongly-typed implementation, the application can do so by instantiating a [CustomPresenceCategory](https://msdn.microsoft.com/library/hh348294\(v=office.15\)) with the name and a string representing the XML content. Optionally, an instance ID can be supplied. Otherwise, the value is automatically determined, provided that it is a well-known category in the Lync Server 2013 subsystem (defined in the server manifest).
+    If a UCMA 4.0 application is intended to publish a custom category or a well-known category for which the API does not have a strongly-typed implementation, the application can do so by instantiating a [CustomPresenceCategory](https://msdn.microsoft.com/library/hh348294\(v=office.15\)) with the name and a string representing the XML content. Optionally, an instance ID can be supplied. Otherwise, the value is automatically determined, provided that it's a well-known category in the Lync Server 2013 subsystem (defined in the server manifest).
 
 ## Presence subscription and notification handling
 
@@ -161,7 +161,7 @@ The following table shows the events on the **LocalOwnerPresence** class and the
 
 ### Category notification parsing
 
-For [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) instances, key publishing APIs cannot be used unless the object referred to by the [LocalOwnerPresence](https://msdn.microsoft.com/library/hh348476\(v=office.15\)) property is in the **Subscribed** state. For [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)) instances, it is recommended, but not required, that **LocalOwnerPresence** be in the **Subscribed** state.
+For [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) instances, key publishing APIs cannot be used unless the object referred to by the [LocalOwnerPresence](https://msdn.microsoft.com/library/hh348476\(v=office.15\)) property is in the **Subscribed** state. For [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)) instances, it's recommended, but not required, that **LocalOwnerPresence** be in the **Subscribed** state.
 
 The list of presence categories returned by the [AllCategories](https://msdn.microsoft.com/library/hh384873\(v=office.15\)) property on the [LocalPresentityNotificationEventArgs](https://msdn.microsoft.com/library/hh350176\(v=office.15\)) object can be extensive. For this reason, Lync Server 2013 filters this list to a smaller representative list that highlights categories published to the local owner’s self container. For user objects this is a different container for different categories representing the container that is most representative of that category. For contact objects, the list includes all categories in the container 0.
 
@@ -290,7 +290,7 @@ Because a subscriber can be present in multiple containers owned by a publisher,
 
 When a user is provisioned on Lync Server 2013, there are no ACLs in any of the containers except container 0, the container that allows access by every presentity ([SourceNetwork](https://msdn.microsoft.com/library/hh385294\(v=office.15\)).**Everyone**). Users who take advantage of presence services in UCMA 4.0 or those logged in to Microsoft Lync 2013 are "bootstrapped," which means that some containers are automatically assigned certain memberships as dictated by the server manifest. For example, in Lync Server 2013, users not operating in Private mode have members of their enterprise automatically assigned to the Colleagues (200) container, and members of federated networks are assigned to their Public (100) container.
 
-Lync Server 2013 relationship management APIs are designed under the assumption that relationship management is primarily of importance to **UserEndpoint** objects. Bootstrapping is not done for **ApplicationEndpoint** instances, as this endpoint type is usually intended to have its presence information available to all. It is for this reason that application endpoints publish data directly into container 0.
+Lync Server 2013 relationship management APIs are designed under the assumption that relationship management is primarily of importance to **UserEndpoint** objects. Bootstrapping is not done for **ApplicationEndpoint** instances, as this endpoint type is usually intended to have its presence information available to all. It's for this reason that application endpoints publish data directly into container 0.
 
 ## Managing watchers
 

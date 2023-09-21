@@ -48,7 +48,7 @@ The **HKEY\_CURRENT\_USER\\Software\\IM Providers\\Communicator** registry key v
 
 ## Conversation window application context packages
 
-This registry key value was used in prior versions. For Lync 2013, it is stored in a new location.
+This registry key value was used in prior versions. For Lync 2013, it's stored in a new location.
 
 The mechanism for setting the location of trusted Silverlight applications that are hosted in a Microsoft Lync 2013 Conversation Window Extension (CWE) has changed. To host your Microsoft Lync 2010 or Lync 2013 CWE application in a Lync 2013 conversation window, create a new key in the registry of the computer that is running the Lync 2013 client. You can host a CWE application on a local computer hard drive, on a network computer referenced by a UNC path, or on a Web site.
 
@@ -138,7 +138,7 @@ If your network topology includes multiple servers under a domain or subdomains 
 
 ## UI suppression flag
 
-This registry key value was used in prior versions. For Lync 2013, it is stored in a new location.
+This registry key value was used in prior versions. For Lync 2013, it's stored in a new location.
 
 The Microsoft Lync 2013 client uses the following registry key to get the current client UI suppression mode. The new Lync 2013 registry key is:
 

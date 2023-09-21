@@ -274,7 +274,7 @@ The following example shows the complete modality state changed event callback m
 
 ## Dock the viewer in your application window
 
-Showing the viewer in your application window involves getting the handle of the container control that you are docking the viewer into and then calling the [ApplicationSharingView.SetParent](https://msdn.microsoft.com/library/dn378610\(v=office.15\)) method.
+Showing the viewer in your application window involves getting the handle of the container control that you're docking the viewer into and then calling the [ApplicationSharingView.SetParent](https://msdn.microsoft.com/library/dn378610\(v=office.15\)) method.
 
 ### To dock the viewer
 
@@ -351,7 +351,7 @@ The following example registers for the application sharing viewer events that a
         }
 ```
 
-The default mode of the viewer is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/library/dn378658\(v=office.15\))**.FitToParent**. In this mode, changes in the dimensions of the shared resource are handled by changing the resolution of the viewer without changing the dimensions of the viewer. If you are concerned that a user will not be able to read text in a shared resource at high resolution, you should set the display mode of the viewer to [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/library/dn378658\(v=office.15\))**.ActualSize**. In this mode, the original resolution of the shared resource is preserved when its dimensions change. The dimension changed is handled by resizing the viewer.
+The default mode of the viewer is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/library/dn378658\(v=office.15\))**.FitToParent**. In this mode, changes in the dimensions of the shared resource are handled by changing the resolution of the viewer without changing the dimensions of the viewer. If you're concerned that a user will not be able to read text in a shared resource at high resolution, you should set the display mode of the viewer to [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/library/dn378658\(v=office.15\))**.ActualSize**. In this mode, the original resolution of the shared resource is preserved when its dimensions change. The dimension changed is handled by resizing the viewer.
 
 ### To set the viewer mode
 
@@ -365,8 +365,8 @@ The default mode of the viewer is [Microsoft.Lync.Model.Conversation.Sharing.App
             /// <param name="e"></param>
             private void autoSizeView_Checkbox_CheckedChanged(object sender, EventArgs e)
             {
-                //this throws an exception if you are sharing out the local resource. Only use this
-                //call if you are viewing a remote resource.
+                //this throws an exception if you're sharing out the local resource. Only use this
+                //call if you're viewing a remote resource.
                 if (_sharingModality.LocalSharedResources.Count > 0)
                 {
                     return;
@@ -426,7 +426,7 @@ The person who is sharing a resource such as Notepad.exe may use the mouse to dr
 
 ### To respond to viewer dimension changes
 
-1.  Check the display mode of the viewer. If it is [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/library/dn378658\(v=office.15\))**.FitToParent**, then you can return from the event callback method after setting the container and application window to their original dimensions.
+1.  Check the display mode of the viewer. If it's [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingViewDisplayMode](https://msdn.microsoft.com/library/dn378658\(v=office.15\))**.FitToParent**, then you can return from the event callback method after setting the container and application window to their original dimensions.
     
     ```csharp
                     //If user chose FitToParent, the parent container control is reset to original dimensions. 
@@ -576,7 +576,7 @@ The following example gets the dimensions of an **ApplicationSharingView** and t
                 this.Height = _windowSize._originalFormHeight;
                 _ViewPanel.Height = _windowSize._originalPanelHeight;
             }
-            //Resynchronize the view if it is docked in a parent container
+            //Resynchronize the view if it's docked in a parent container
             if (_sharingModality.View.Properties[ApplicationSharingViewProperty.ParentWindow] != null)
             {
                 _sharingModality.View.SyncRectangle();

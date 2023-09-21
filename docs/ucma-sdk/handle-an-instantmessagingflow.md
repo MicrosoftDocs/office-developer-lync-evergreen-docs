@@ -41,7 +41,7 @@ Applications specify their consumption mode using the [InstantMessageConsumption
 <tbody>
 <tr class="odd">
 <td><p><strong>ConsumedLocally</strong></p></td>
-<td><p>The message is consumed locally as soon as it is delivered. This is the default consumption mode.</p></td>
+<td><p>The message is consumed locally as soon as it's delivered. This is the default consumption mode.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ProxiedToRemoteEntity</strong></p></td>

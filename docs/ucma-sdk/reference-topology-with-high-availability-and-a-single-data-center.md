@@ -38,7 +38,7 @@ Reference topology with high availability and a single data center
 
   - **Exchange UM deployment** This reference topology includes an Exchange Unified Messaging (UM) Server, which runs Microsoft Exchange Server, not Lync Server 2013. The Exchange UM routing functionality for Lync Server 2013 runs on the Front End pool.
 
-  - **Edge Servers recommended**   Although deploying an Edge Server is not required, it is recommended for any size of deployment. It is also recommended when external or federated access is required. You can maximize your Lync Server 2013 investment by deploying an Edge Server to provide service to users currently outside your organization’s firewalls. The benefits include the following:
+  - **Edge Servers recommended**   Although deploying an Edge Server is not required, it's recommended for any size of deployment. It's also recommended when external or federated access is required. You can maximize your Lync Server 2013 investment by deploying an Edge Server to provide service to users currently outside your organization’s firewalls. The benefits include the following:
     
       - Your organization’s own users can use Lync Server 2013 functionality, if they are working from home or are out on the road.
     

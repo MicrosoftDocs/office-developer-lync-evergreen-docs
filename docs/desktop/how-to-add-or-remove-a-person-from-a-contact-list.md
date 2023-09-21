@@ -148,7 +148,7 @@ The sample application at the end of this topic displays a list of contacts for 
 
 ## Add a contact to the contact list
 
-To add a contact to the user’s contact list, get a contact object and add it to any of the custom groups in the contact list. Although you can add a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object to the contact list regardless of the origin of the contact, it is best to add contacts that publish presence availability. A contact that is obtained by using the search feature of the Lync 2013 API is guaranteed to publish presence availability. To learn how to search for a contact, see [How to: Search for a contact or distribution group in Lync SDK](https://msdn.microsoft.com/library/jj933159\(v=office.15\)).
+To add a contact to the user’s contact list, get a contact object and add it to any of the custom groups in the contact list. Although you can add a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object to the contact list regardless of the origin of the contact, it's best to add contacts that publish presence availability. A contact that is obtained by using the search feature of the Lync 2013 API is guaranteed to publish presence availability. To learn how to search for a contact, see [How to: Search for a contact or distribution group in Lync SDK](https://msdn.microsoft.com/library/jj933159\(v=office.15\)).
 
 ### To add a contact to the contact list
 

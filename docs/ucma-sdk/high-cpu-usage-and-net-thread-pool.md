@@ -17,7 +17,7 @@ If you experience unusually high CPU usage or an increase of CPU usage over time
 
 ## Determine whether your application is affected
 
-Profile the application to find where the process time is spent. If significant time is spent in lock contention methods inside the CLR thread pool, you are likely affected by this issue.
+Profile the application to find where the process time is spent. If significant time is spent in lock contention methods inside the CLR thread pool, you're likely affected by this issue.
 
 Alternatively, connect the debugger to the process (or load a dump of the process into the debugger) and run the \!threadpool command from the sos.dll extension DLL. If the queue length is very low (0, 1, or 2), but the total number of worker threads is equal to or very close to Max Limit of worker threads, your application is very likely affected by this issue.
 

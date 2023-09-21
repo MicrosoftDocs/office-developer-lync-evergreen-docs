@@ -65,7 +65,7 @@ void audioVideoCall_StateChanged(object sender, CallStateChangedEventArgs e)
 
 The settings of an **AudioVideoFlow** instance can also be changed by a call to **BeginApplyChanges**.
 
-In the following code example, which is shown only for purposes of illustration, it is assumed that *AVCall*, an [AudioVideoCall](https://msdn.microsoft.com/library/hh383901\(v=office.15\)) instance, previously has been created, and that the state of *audioVideoFlow* is **Active**.
+In the following code example, which is shown only for purposes of illustration, it's assumed that *AVCall*, an [AudioVideoCall](https://msdn.microsoft.com/library/hh383901\(v=office.15\)) instance, previously has been created, and that the state of *audioVideoFlow* is **Active**.
 
 ```csharp
 AudioVideoFlow audioVideoFlow;

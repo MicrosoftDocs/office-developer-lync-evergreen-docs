@@ -35,7 +35,7 @@ dev_langs:
 
 
 > [!NOTE]
-> <P>If Lync or Persistent Chat is already installed before the Lync Server 2013 Persistent Chat SDK is installed and an exception of the BadImageException type is thrown when you attempt to access the Lync Server 2013 Persistent Chat API after the Lync Server 2013 Persistent Chat SDK is installed, it is possible that a 32-bit image of a dependent component of the Lync Server 2013 Persistent Chat SDK (for example, SIPEPS.dll) is used instead of the 64-bit version. In this case, select the <STRONG>Platform Target</STRONG> of the <STRONG>Build</STRONG> options in the Visual Studio project file and make sure all the components share a common target. Alternatively, you might need to uninstall Lync or Persistent Chat, reinstall the Lync Server 2013 Persistent Chat SDK, and then reinstall Lync or the Persistent Chat client.</P>
+> <P>If Lync or Persistent Chat is already installed before the Lync Server 2013 Persistent Chat SDK is installed and an exception of the BadImageException type is thrown when you attempt to access the Lync Server 2013 Persistent Chat API after the Lync Server 2013 Persistent Chat SDK is installed, it's possible that a 32-bit image of a dependent component of the Lync Server 2013 Persistent Chat SDK (for example, SIPEPS.dll) is used instead of the 64-bit version. In this case, select the <STRONG>Platform Target</STRONG> of the <STRONG>Build</STRONG> options in the Visual Studio project file and make sure all the components share a common target. Alternatively, you might need to uninstall Lync or Persistent Chat, reinstall the Lync Server 2013 Persistent Chat SDK, and then reinstall Lync or the Persistent Chat client.</P>
 
 
 

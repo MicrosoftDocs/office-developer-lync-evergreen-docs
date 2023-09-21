@@ -81,11 +81,11 @@ This sample program uses an XML file that stores the \<callerid, sipuri\> mappin
 
 ### Logging
 
-The application supports a simple logging mechanism. See Program.cs to see how it is used.
+The application supports a simple logging mechanism. See Program.cs to see how it's used.
 
 ### User provisioning
 
-To use the application, users must know their PINs to authenticate themselves. Normally, a web site is used for setting up the PIN. Users can also use Microsoft Lync 2013 to update their PIN. An administrator can use PowerShell to update the PIN as well, as in the following example. Set-CSClientPin -identity sip:user1@contoso.com -Pin 23567It is possible to add the ability for a user to set his or her PIN using an IM call with the application. The application can use **UserEndpoint** to update the PIN. It is very important for the application to authenticate the user before updating the PIN.
+To use the application, users must know their PINs to authenticate themselves. Normally, a web site is used for setting up the PIN. Users can also use Microsoft Lync 2013 to update their PIN. An administrator can use PowerShell to update the PIN as well, as in the following example. Set-CSClientPin -identity sip:user1@contoso.com -Pin 23567It's possible to add the ability for a user to set his or her PIN using an IM call with the application. The application can use **UserEndpoint** to update the PIN. It's very important for the application to authenticate the user before updating the PIN.
 
 ## Program design
 
@@ -93,11 +93,11 @@ This section describes the basic infrastructure before the architecture is descr
 
 ### ComponentBase
 
-Every component in the application derives from the **ComponentBase** base class, which provides a mechanism to start and stop the component. All derived classes must implement **StartupCore** and **ShutdownCore** methods. The **CompleteStartup** and **CompleteShutdown** methods are provided by default for the class to indicate the corresponding operations are complete. It is the responsibility of the derived classes to call these methods when the startup or shutdown operations are complete. Every component can be given a unique name for identification purpose in log files.
+Every component in the application derives from the **ComponentBase** base class, which provides a mechanism to start and stop the component. All derived classes must implement **StartupCore** and **ShutdownCore** methods. The **CompleteStartup** and **CompleteShutdown** methods are provided by default for the class to indicate the corresponding operations are complete. It's the responsibility of the derived classes to call these methods when the startup or shutdown operations are complete. Every component can be given a unique name for identification purpose in log files.
 
 ### AsyncResult
 
-There are a couple of classes that provide asynchronous implementation that are primarily used by the component base. Derived classes need not use them. Instead, it is much easier to use the **AsyncTask** class which is described below.
+There are a couple of classes that provide asynchronous implementation that are primarily used by the component base. Derived classes need not use them. Instead, it's much easier to use the **AsyncTask** class which is described below.
 
 ### AsyncTask
 
@@ -125,7 +125,7 @@ Each incoming audio call or a callback session is handled by the customer sessio
 
 ### Service hub
 
-For speech or DTMF recognition of the customer while in a conference, it is necessary to create a pipe between the conference and the customer in the conference. This is done by creating a service channel (an audio call for the purpose of intercepting speech or DTMF commands from the user). The service hub is a trusted conversation created by the application endpoint. The application joins an *ad hoc* conference. In addition, it creates a primary call (first class participation in the conference is needed by the AV MCU to carry out some trusted operations such as muting all or removing the user from the default mix) followed by a service channel call. The service channel is wired with the customer.
+For speech or DTMF recognition of the customer while in a conference, it's necessary to create a pipe between the conference and the customer in the conference. This is done by creating a service channel (an audio call for the purpose of intercepting speech or DTMF commands from the user). The service hub is a trusted conversation created by the application endpoint. The application joins an *ad hoc* conference. In addition, it creates a primary call (first class participation in the conference is needed by the AV MCU to carry out some trusted operations such as muting all or removing the user from the default mix) followed by a service channel call. The service channel is wired with the customer.
 
 ### Customer endpoint
 

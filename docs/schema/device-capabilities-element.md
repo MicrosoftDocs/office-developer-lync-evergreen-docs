@@ -169,7 +169,7 @@ The following sections describe attributes, child elements, and parent elements.
 <tr class="odd">
 <td><p>breakthrough</p></td>
 <td><p>0 or 1</p></td>
-<td><p>Specifies the capability for breakthrough on this device. It is introduced in the Microsoft Office Communications Server 2007 R2 release.</p>
+<td><p>Specifies the capability for breakthrough on this device. It's introduced in the Microsoft Office Communications Server 2007 R2 release.</p>
 <p>When a user (such as an administrative assistant) has set his or her VoIP calls to be forwarded to another number, then a breakthrough capability allows calls from people in the user's contact list to go directly to the user's phone without being explicitly forwarded.</p></td>
 </tr>
 <tr class="even">

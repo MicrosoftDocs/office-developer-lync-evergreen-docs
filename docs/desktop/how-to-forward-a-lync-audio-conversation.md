@@ -113,8 +113,8 @@ The client call forwarding operation should be started as soon as an audio call 
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>If you are forwarding to one of the local user’s phones, get the appropriate <a href="https://msdn.microsoft.com/library/jj275506(v=office.15)">Phone</a> instance by calling into <a href="https://msdn.microsoft.com/library/jj266043(v=office.15)">GetPhone</a>. You read the <a href="https://msdn.microsoft.com/library/jj277017(v=office.15)">Endpoint</a> property to get a <a href="https://msdn.microsoft.com/library/jj276722(v=office.15)">ContactEndpoint</a> that is passed into <strong>BeginForward</strong>.</p>
-    <p>If you are forwarding to another user, get the appropriate <a href="https://msdn.microsoft.com/library/jj266463(v=office.15)">Contact</a> or <a href="https://msdn.microsoft.com/library/jj276722(v=office.15)">ContactEndpoint</a> instance. Call into <strong>Forward</strong> and pass the <strong>Contact</strong> instance obtained in the previous step.</p></td>
+    <td><p>If you're forwarding to one of the local user’s phones, get the appropriate <a href="https://msdn.microsoft.com/library/jj275506(v=office.15)">Phone</a> instance by calling into <a href="https://msdn.microsoft.com/library/jj266043(v=office.15)">GetPhone</a>. You read the <a href="https://msdn.microsoft.com/library/jj277017(v=office.15)">Endpoint</a> property to get a <a href="https://msdn.microsoft.com/library/jj276722(v=office.15)">ContactEndpoint</a> that is passed into <strong>BeginForward</strong>.</p>
+    <p>If you're forwarding to another user, get the appropriate <a href="https://msdn.microsoft.com/library/jj266463(v=office.15)">Contact</a> or <a href="https://msdn.microsoft.com/library/jj276722(v=office.15)">ContactEndpoint</a> instance. Call into <strong>Forward</strong> and pass the <strong>Contact</strong> instance obtained in the previous step.</p></td>
     </tr>
     </tbody>
     </table>

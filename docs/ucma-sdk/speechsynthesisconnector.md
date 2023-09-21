@@ -31,7 +31,7 @@ The following procedure describes the steps involved in creating and using a [Sp
     SpeechSynthesisConnector synthConnector = new SpeechSynthesisConnector();
     ```
 
-2.  The application then calls [AttachFlow](https://msdn.microsoft.com/library/hh348319\(v=office.15\)) to bind the **SpeechSynthesisConnector** instance to an **AudioVideoFlow** instance. In this code example, it is assumed that *AVFlow* has already been constructed, and is in the **Active** state.
+2.  The application then calls [AttachFlow](https://msdn.microsoft.com/library/hh348319\(v=office.15\)) to bind the **SpeechSynthesisConnector** instance to an **AudioVideoFlow** instance. In this code example, it's assumed that *AVFlow* has already been constructed, and is in the **Active** state.
     
     ```csharp
     synthConnector.AttachFlow(AVFlow);

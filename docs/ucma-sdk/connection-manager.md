@@ -75,7 +75,7 @@ When multiple **SipEndpoint** instances are present, Microsoft Communications Se
 
 The TCP server connection manager, implemented in the [RealTimeServerTcpConnectionManager](https://msdn.microsoft.com/library/hh382485\(v=office.15\)) class, can listen for incoming TCP connections. Otherwise, it inherits all the capabilities of the server connection manager. The application can provide an [IPEndPoint](http://msdn2.microsoft.com/library/fzszfbba) object to control how the listening is enabled. For example, setting [Port](http://msdn2.microsoft.com/library/5bawssed) to zero (0) indicates listening on any port. Specifying the [Address](http://msdn2.microsoft.com/library/9kx5cdw6) as **IPAddress.Any** indicates any IP v4 addresses are permissible. IP v6 addresses are not supported.
 
-It is recommended that you *not* use a TCP connection manager, as the less-trusted relationship with the server is not as secure and is more prone to failure, especially given that the owner of a given IP address can frequently change, or be spoofed.
+It's recommended that you *not* use a TCP connection manager, as the less-trusted relationship with the server is not as secure and is more prone to failure, especially given that the owner of a given IP address can frequently change, or be spoofed.
 
 ### TLS server connection manager
 

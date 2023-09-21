@@ -121,7 +121,7 @@ The following example method publishes a new personal note for the local user.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>In the example, a callback method is included as a parameter in the <strong>PublishPresenceItems</strong> method call. You should pass a null value in the callback parameter position if you are not interested in catching the result of the publication.</p></td>
+<td><p>In the example, a callback method is included as a parameter in the <strong>PublishPresenceItems</strong> method call. You should pass a null value in the callback parameter position if you're not interested in catching the result of the publication.</p></td>
 </tr>
 </tbody>
 </table>

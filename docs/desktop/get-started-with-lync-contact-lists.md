@@ -44,7 +44,7 @@ The prerequisites for working with Lync contact lists are as follows:
 
 ### Lync contact list essentials
 
-To understand how to work with Lync contact lists, it is important to become familiar with the concepts in the following table.
+To understand how to work with Lync contact lists, it's important to become familiar with the concepts in the following table.
 
 <table>
 <colgroup>

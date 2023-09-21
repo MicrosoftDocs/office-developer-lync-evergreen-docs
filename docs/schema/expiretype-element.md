@@ -106,7 +106,7 @@ None
 
 ## Remarks
 
-This element is optional. If it is unspecified, the publication is endpoint-bound.
+This element is optional. If it's unspecified, the publication is endpoint-bound.
 
 ## Example
 

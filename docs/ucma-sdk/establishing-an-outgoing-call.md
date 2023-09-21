@@ -50,7 +50,7 @@ audioVideoCall.BeginEstablish(calledParty, null, EndCallEstablish, audioVideoCal
 .
 .
 // Handler for the AudioVideoFlowConfigurationRequested event on the AudioVideoCall.
-// Flow created indicates that there is a flow present to begin media operations with, and that it is no longer null.
+// Flow created indicates that there is a flow present to begin media operations with, and that it's no longer null.
 public void audioVideoCall_FlowConfigurationRequested(object sender, AudioVideoFlowConfigurationRequestedEventArgs e)
 {
   Console.WriteLine("Flow Created.");

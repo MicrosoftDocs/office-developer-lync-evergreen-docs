@@ -134,7 +134,7 @@ Migrating a UCMA 2.0 application to Lync Server 2013
     
     In the preceding example, no move is occurring, so the pool represented by the **TargetApplicationPool** parameter is also the source application pool.
     
-    Each time you create a new contact object using the WMI tools (ApplicationProvisioner.exe), you must perform this step. If it is omitted, the contact object properties required by the Lync Server 2013 Registrar for routing are not populated. You cannot use Lync Server 2013 cmdlets to create new contact objects for your application, because the application pool is still a legacy pool.
+    Each time you create a new contact object using the WMI tools (ApplicationProvisioner.exe), you must perform this step. If it's omitted, the contact object properties required by the Lync Server 2013 Registrar for routing are not populated. You cannot use Lync Server 2013 cmdlets to create new contact objects for your application, because the application pool is still a legacy pool.
 
 4.  Verify that the **Move-CsApplicationEndpoint** cmdlet was successful by running the following cmdlet, and verifying that the output of the Registrar property points to the Lync Server 2013 Registrar.
     
@@ -150,7 +150,7 @@ Migrating a UCMA 2.0 application to Lync Server 2013
     
 
     > [!NOTE]
-    > <P>This point is emphasized to remind you to perform the verifications in these steps when a new contact object is added using PowerShell. PowerShell might not be available locally on the computer from which you are running the WMI tool for activating new contact objects.</P>
+    > <P>This point is emphasized to remind you to perform the verifications in these steps when a new contact object is added using PowerShell. PowerShell might not be available locally on the computer from which you're running the WMI tool for activating new contact objects.</P>
 
 
 
@@ -181,7 +181,7 @@ The following steps are the **recommended upgrade approach**.
 
 6.  Stop Lync Server 2013 Front End service and then restart it.
 
-7.  Install the application software in the trusted application pool created in step 3. Stop at the point you are asked to create a contact object for the application. For more information, see [Activating a UCMA 4.0 trusted application](activating-a-ucma-4-0-trusted-application.md).
+7.  Install the application software in the trusted application pool created in step 3. Stop at the point you're asked to create a contact object for the application. For more information, see [Activating a UCMA 4.0 trusted application](activating-a-ucma-4-0-trusted-application.md).
 
 8.  Run the **Move-CsApplicationEndpoint** cmdlet to move the contact object from the UCMA 2.0 application pool to the UCMA 4.0 application pool. Use the –**Force** parameter. Run this cmdlet with the needed values for each contact object that your application uses.
     
@@ -199,7 +199,7 @@ The following steps are the **recommended upgrade approach**.
     
     1.  Users are able to communicate with the new version of your application.
     
-    2.  You are now able to use Lync Server 2013 trusted application cmdlets to manage the existing contact objects and the new contact objects.
+    2.  You're now able to use Lync Server 2013 trusted application cmdlets to manage the existing contact objects and the new contact objects.
 
 The following illustration shows the topology after the upgrade has taken place. The computers used in the UCMA 2.0 trusted application pool can be reused for other purposes, if desired.
 
@@ -243,7 +243,7 @@ Deploying a UCMA 2.0 application against Lync Server 2013
     
     In the preceding example, no move is occurring, so the pool represented by the **TargetApplicationPool** parameter is also the source application pool.
     
-    Each time you create a new contact object using the WMI tools (ApplicationProvisioner.exe), you must perform this step. If it is omitted, the contact object properties required by the Lync Server 2013 Registrar for routing are not populated. You cannot use Lync Server 2013 cmdlets to create new contact objects for your application, because the application pool is still a legacy pool.
+    Each time you create a new contact object using the WMI tools (ApplicationProvisioner.exe), you must perform this step. If it's omitted, the contact object properties required by the Lync Server 2013 Registrar for routing are not populated. You cannot use Lync Server 2013 cmdlets to create new contact objects for your application, because the application pool is still a legacy pool.
 
 6.  Verify that the **Move-CsApplicationEndpoint** cmdlet was successful by running the following cmdlet, and verifying that the output of the Registrar property points to the Lync Server 2013 Registrar.
     
@@ -253,7 +253,7 @@ Deploying a UCMA 2.0 application against Lync Server 2013
     
     1.  Users are able to communicate with the application.
     
-    2.  You are still able to use the WMI tool (ApplicationProvisioner.exe) to create new additional contact objects.
+    2.  You're still able to use the WMI tool (ApplicationProvisioner.exe) to create new additional contact objects.
         
         Each time you add a new contact object, steps 4 and 5 must be performed.
 

@@ -35,7 +35,7 @@ To manage a Lync Server 2013 SIP application, you should inspect and modify the 
     Get-CsServerApplication –identity "service:registrar:lync-se.contoso.com/HelloWorld"
     ```
     
-    In the previous example, the identity parameter value corresponds to the assigned identity of the application when it is registered by using the **New-CsServerApplication** cmdlet, as discussed in [How to: Register a SIP application](how-to-register-a-sip-application.md).
+    In the previous example, the identity parameter value corresponds to the assigned identity of the application when it's registered by using the **New-CsServerApplication** cmdlet, as discussed in [How to: Register a SIP application](how-to-register-a-sip-application.md).
 
   - To change an application’s settings, you can call the **Set-CsServerApplication** cmdlet to supply appropriate parameter values. For example, the following cmdlet changes the priority of the HelloWorld application that is discussed in [How to: Register a SIP application](how-to-register-a-sip-application.md).
     

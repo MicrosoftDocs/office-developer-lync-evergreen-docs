@@ -72,7 +72,7 @@ Category instances published or used by Lync 2013
 <td><p>1</p></td>
 <td><ul>
 <li><p>Published to Container 400 as a static instance containing the user’s home, cell, and other phone numbers if any is specified.</p></li>
-<li><p>Published to Container 300 as a static instance containing the user’s cell phone number if it is specified.</p></li>
+<li><p>Published to Container 300 as a static instance containing the user’s cell phone number if it's specified.</p></li>
 <li><p>Published to Container 100, 200, and 32000 as static instances, each containing an empty value.</p></li>
 </ul></td>
 </tr>
@@ -201,9 +201,9 @@ Category instances published or used by Lync 2013
 <td><p></p></td>
 <td><p>0x24000000</p></td>
 <td><ul>
-<li><p>Published to Container 2 and 3 as a time-bounded instance containing the availability number of 6500 when the user sets the availability mode to <strong>Busy</strong>. By default, this publication expires in 24 hours if it is left unchanged.</p></li>
-<li><p>Published to Container 2 as a time-bounded instance containing the availability number of 9500 when the user sets the availability mode to <strong>Do Not Disturb</strong>. By default, this publication expires in 24 hours if it is left unchanged.</p></li>
-<li><p>Published to Container 3 as a time-bounded instance containing the availability number of 6900 (Busy with Urgent interruptions only) when the user sets the availability mode to <strong>Do Not Disturb</strong>. By default, this publication expires in 24 hours if it is left unchanged.</p></li>
+<li><p>Published to Container 2 and 3 as a time-bounded instance containing the availability number of 6500 when the user sets the availability mode to <strong>Busy</strong>. By default, this publication expires in 24 hours if it's left unchanged.</p></li>
+<li><p>Published to Container 2 as a time-bounded instance containing the availability number of 9500 when the user sets the availability mode to <strong>Do Not Disturb</strong>. By default, this publication expires in 24 hours if it's left unchanged.</p></li>
+<li><p>Published to Container 3 as a time-bounded instance containing the availability number of 6900 (Busy with Urgent interruptions only) when the user sets the availability mode to <strong>Do Not Disturb</strong>. By default, this publication expires in 24 hours if it's left unchanged.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">

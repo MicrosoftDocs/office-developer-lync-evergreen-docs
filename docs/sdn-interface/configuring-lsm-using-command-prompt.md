@@ -18,7 +18,7 @@ As a new feature introduced in Lync SDN Interface 2.1.1 (and 2.1), you can now u
 > [!NOTE]
 > The command line tool can be used while the service is running. The service will pick up parameter changes as well as report the current parameter settings for the service.
 
-The executable is located in the LSM installation directory. By default, it is **C:\\Microsoft Lync Server\\Lync SDN Manager**.
+The executable is located in the LSM installation directory. By default, it's **C:\\Microsoft Lync Server\\Lync SDN Manager**.
 
 ## Command-line commands
 

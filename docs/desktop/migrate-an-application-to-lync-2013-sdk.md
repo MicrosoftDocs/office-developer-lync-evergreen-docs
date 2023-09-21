@@ -57,7 +57,7 @@ Add new Lync SDK features to your application by using the classes and types des
 
 ## Side-by-side SDK installation
 
-If you have installed Microsoft Lync 2010 SDK on your computer, you should uninstall it before you install Microsoft Lync 2013 SDK. The assemblies, samples, and documentation are installed in different folders but the Microsoft.Office.UC.dll for both versions of the SDK is installed in the Global Assembly Cache. A side-by-side installation of the SDK versions might not destabilize your applications but it is not supported by Microsoft.
+If you have installed Microsoft Lync 2010 SDK on your computer, you should uninstall it before you install Microsoft Lync 2013 SDK. The assemblies, samples, and documentation are installed in different folders but the Microsoft.Office.UC.dll for both versions of the SDK is installed in the Global Assembly Cache. A side-by-side installation of the SDK versions might not destabilize your applications but it's not supported by Microsoft.
 
 Microsoft Lync 2013 SDK includes a new redistribution application (redist.msi) that installs a new version of Microsoft.Office.UC.dll that supports your Lync 2013 API-enabled application. Be sure to uninstall previous versions of the runtime on computers that host your application.
 
@@ -73,7 +73,7 @@ Silverlight browser applications for conversation window extension tabs and Pers
 
 ## Silverlight development tools
 
-If you develop Silverlight browser applications that use Microsoft Lync 2010 Controls and you are migrating these applications to Microsoft Lync 2013 Controls, you must download and install the following tools:
+If you develop Silverlight browser applications that use Microsoft Lync 2010 Controls and you're migrating these applications to Microsoft Lync 2013 Controls, you must download and install the following tools:
 
   - Silverlight 4 Tools for Visual Studio 2010 is the minimal requirement for Silverlight development. However, the Silverlight 5 runtime is required to support Conversation Window Extension applications and Persistent Chat window add-in applications that are hosted on Lync x64.
 

@@ -64,7 +64,7 @@ In the simplest form, the availability status is often used to describe the pres
 </table>
 
 
-For many applications, such a simple representation of the availability is an insufficient presence indicator. When a contact is busy, you may want to know if the individual is busy on the phone, in a meeting, catching up with the latest emails or working on another task. The additional information can help you decide the best way to reach the contact. Similarly, when you are away from the desk, you may want to let others know if you are on a lunch break, out of office, or in a meeting.
+For many applications, such a simple representation of the availability is an insufficient presence indicator. When a contact is busy, you may want to know if the individual is busy on the phone, in a meeting, catching up with the latest emails or working on another task. The additional information can help you decide the best way to reach the contact. Similarly, when you're away from the desk, you may want to let others know if you're on a lunch break, out of office, or in a meeting.
 
 ## Enhanced Presence
 
@@ -88,7 +88,7 @@ Enhanced presence data is described by enhanced presence category instances that
 
   - Enhanced presence category instances can be easily managed with the built-in support of version tracking, life-time management, and unique data identification schemes.
 
-As an example, let us compare the simple presence state with the enhanced presence state used by Lync 2013. In addition to the availability, the enhanced presence state contains other state information including the activity description, the endpoint location, and state types.
+As an example, let's compare the simple presence state with the enhanced presence state used by Lync 2013. In addition to the availability, the enhanced presence state contains other state information including the activity description, the endpoint location, and state types.
 
 <table>
 <colgroup>

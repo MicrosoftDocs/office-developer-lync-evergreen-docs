@@ -33,7 +33,7 @@ Learn the programming concepts and Microsoft Lync 2013 SDK object model for buil
 
 Microsoft Lync 2013 provides a modality that allows a Lync conversation participant to share a resource such as a view of a Windows desktop, a running application, or a monitor with other conversation participants. The shared resource can be remotely controlled if the sharing participant allows it.
 
-The shared resource is displayed in a component of the Lync conversation window that is known as the sharing stage. It is not possible to share a computer resource through the Lync 2013 API without the use of the conversation window. For this reason, you cannot create a sharing application for use in a UI suppression scenario.
+The shared resource is displayed in a component of the Lync conversation window that is known as the sharing stage. It's not possible to share a computer resource through the Lync 2013 API without the use of the conversation window. For this reason, you cannot create a sharing application for use in a UI suppression scenario.
 <a name="Start"></a> 
 
 ## Get started with desktop, application, and display sharing
@@ -48,7 +48,7 @@ The prerequisites for working with resource sharing are as follows:
 
 ### Desktop, application, and display sharing essentials
 
-To understand how to work with resource sharing, it is important to become familiar with the concepts in the following table.
+To understand how to work with resource sharing, it's important to become familiar with the concepts in the following table.
 
 <table>
 <colgroup>

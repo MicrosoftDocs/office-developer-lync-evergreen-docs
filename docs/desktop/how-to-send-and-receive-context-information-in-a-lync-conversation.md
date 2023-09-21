@@ -113,7 +113,7 @@ Use the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/libra
 
 ### To handle the ConversationAdded event
 
-1.  Read the state of the conversation IM modality. If it is not [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Notified**, then the conversation started locally and you must add a remote user as a participant.
+1.  Read the state of the conversation IM modality. If it's not [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Notified**, then the conversation started locally and you must add a remote user as a participant.
 
 2.  Register for the [Conversation.ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) event.
 

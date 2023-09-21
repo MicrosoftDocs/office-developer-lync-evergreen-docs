@@ -70,7 +70,7 @@ None
 
 ## Remarks
 
-This is a [state\[@type='userState'\] element](state-element.md) category instance with a registered category name of dndState. It is used as a Boolean flag to block incoming calls from any members of the container in which this category instance is published.
+This is a [state\[@type='userState'\] element](state-element.md) category instance with a registered category name of dndState. It's used as a Boolean flag to block incoming calls from any members of the container in which this category instance is published.
 
 ## Element information
 

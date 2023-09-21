@@ -21,7 +21,7 @@ Microsoft Unified Communications Managed API 4.0 is able to interoperate with th
 
 ## Configuring trusted domains for the CollaborationPlatform
 
-UCMA 4.0 can be used to create a **CollaborationPlatform** instance using the TCP, TLS or MTLS transport types. For security reasons, it is highly recommended that you use TLS or MTLS.
+UCMA 4.0 can be used to create a **CollaborationPlatform** instance using the TCP, TLS or MTLS transport types. For security reasons, it's highly recommended that you use TLS or MTLS.
 
 UCMA 4.0 supports two modes of trusted domains as specified in the [TrustedDomainMode](https://msdn.microsoft.com/library/hh381100\(v=office.15\)) enumeration: **CommunicationsServer** and **Other**. The **CommunicationsServer** value indicates that the trusted domain is a Microsoft Lync Server 2013 server or a Microsoft Edge Server. The **Other** value indicates that the trusted domain is a remote SIP peer, such as a SIP PSTN gateway or IP-PBX.
 
@@ -56,7 +56,7 @@ The following example demonstrates an implementation of a handler for the **Conn
 private void myConnectionAuthorizationRequested(object sender, 
 ConnectionAuthorizationRequestedEventArgs e)
 {
-  // Accept the incoming connection if it is from the known domain ″finance.contoso.com″, otherwise deny it.
+  // Accept the incoming connection if it's from the known domain ″finance.contoso.com″, otherwise deny it.
   if (e.Connection.MatchingDomainName == ″finance.contoso.com″)
   {
     e.Allow();
@@ -99,7 +99,7 @@ There are few differences in behavior between the **CommunicationsServer** and *
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p>The remote is assumed to be aware of the GRUU so that it is added as the contact header.</p></td>
+<td><p>The remote is assumed to be aware of the GRUU so that it's added as the contact header.</p></td>
 <td><p>The remote is assumed to be unaware of the GRUU so that connection information will be added as the contact header.</p></td>
 </tr>
 </tbody>

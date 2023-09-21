@@ -60,7 +60,7 @@ If necessary, copy the %progfile%\\Microsoft Lync Server 2013\\SDK\\Samples\\Con
     
 
     > [!NOTE]
-    > <P>&lt;lync.Server.Fdqn&gt; is the placeholder for the fully qualified domain name of the testing server. You may have to change the priority value so that it is larger than that of <STRONG>UserServices</STRONG> application installed by the system.</P>
+    > <P>&lt;lync.Server.Fdqn&gt; is the placeholder for the fully qualified domain name of the testing server. You may have to change the priority value so that it's larger than that of <STRONG>UserServices</STRONG> application installed by the system.</P>
 
     
         new-csServerApplication -uri " http://www.microsoft.com/LC/SDK/Samples/ContentModification" -identity "service:registrar:<lync.Server.Fdqn>/ContentModification" -critical $false -priority 6 -scriptname ContentModification.am -enabled $true

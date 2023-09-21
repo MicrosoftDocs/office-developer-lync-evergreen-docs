@@ -246,7 +246,7 @@ The following example enables or disables the content item sharing UI buttons wh
 
 ## Share a whiteboard
 
-To share a whiteboard, call the [ShareableContent.Present](https://msdn.microsoft.com/library/jj276346\(v=office.15\)) method on the content object that you want to share. If other content is being presented, it is displaced on the content sharing stage by the content sharing object on which you called the **Present** method.
+To share a whiteboard, call the [ShareableContent.Present](https://msdn.microsoft.com/library/jj276346\(v=office.15\)) method on the content object that you want to share. If other content is being presented, it's displaced on the content sharing stage by the content sharing object on which you called the **Present** method.
 
 ### To share a whiteboard
 
@@ -380,7 +380,7 @@ Lync 2013 API conversation objects
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>If you are no longer sharing the whiteboard, the status is <a href="https://msdn.microsoft.com/library/jj267322(v=office.15)">ShareableContentState</a><strong>.Online</strong>.</p></td>
+<td><p>If you're no longer sharing the whiteboard, the status is <a href="https://msdn.microsoft.com/library/jj267322(v=office.15)">ShareableContentState</a><strong>.Online</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -1389,7 +1389,7 @@ namespace ContentSharing
                         }
                         else
                         {
-                            MessageBox.Show("You are in sync with presenter");
+                            MessageBox.Show("You're in sync with presenter");
                         }
                     }
                 }

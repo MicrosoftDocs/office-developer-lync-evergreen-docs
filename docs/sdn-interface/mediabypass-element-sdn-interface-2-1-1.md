@@ -14,7 +14,7 @@ dev_langs:
 
 (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
-Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.
+Denotes media bypass. It's provided only in QualityUpdate message when mediabypass was part of the call.
 
 ## Element information
 

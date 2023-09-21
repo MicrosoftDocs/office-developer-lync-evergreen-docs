@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-In Microsoft Unified Communications Managed API (UCMA), an endpoint configuration specifies the features that are supported on an endpoint. It is exposed by a collection of name-value pairs known as the properties of the endpoint configuration.
+In Microsoft Unified Communications Managed API (UCMA), an endpoint configuration specifies the features that are supported on an endpoint. It's exposed by a collection of name-value pairs known as the properties of the endpoint configuration.
 
 The following code example shows how an endpoint configuration might be parsed by using UCMA.
 

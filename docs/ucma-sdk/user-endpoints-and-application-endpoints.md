@@ -21,7 +21,7 @@ The [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.
 
 The [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) class is an endpoint type that is primarily used to represent an endpoint for a user with a SIP identity.
 
-Each of the preceding endpoint types is derived from the abstract [LocalEndpoint](https://msdn.microsoft.com/library/hh349887\(v=office.15\)) class. Although it is possible to create a class derived from **LocalEndpoint**, developers should not attempt to do so, but should instead use the **UserEndpoint** and **ApplicationEndpoint** classes.
+Each of the preceding endpoint types is derived from the abstract [LocalEndpoint](https://msdn.microsoft.com/library/hh349887\(v=office.15\)) class. Although it's possible to create a class derived from **LocalEndpoint**, developers should not attempt to do so, but should instead use the **UserEndpoint** and **ApplicationEndpoint** classes.
 
 ## ApplicationEndpoint
 
