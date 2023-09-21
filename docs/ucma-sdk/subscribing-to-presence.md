@@ -61,11 +61,11 @@ Most of the problems described above are addressed by the [RemotePresenceView](h
 
   - There are several ways to deal with the problem of a large number of persistent subscriptions, resulting in an error response from Lync Server 2013.
     
-      - Because the limit is for each endpoint, the application can create multiple watcher endpoints to distribute the load.
+      - Because the limit's for each endpoint, the application can create multiple watcher endpoints to distribute the load.
     
-      - Because the limit is for each Lync Server 2013 pool, the administrator can distribute users across multiple pools to distribute the load.
+      - Because the limit's for each Lync Server 2013 pool, the administrator can distribute users across multiple pools to distribute the load.
     
-      - As a best practice for dealing with a large number of subscriptions, it is recommended that a UCMA 4.0 application limit the number of categories it subscribes to. This can be accomplished by supplying a filter when the endpoint is created. By limiting the number of categories, more subscriptions are allowed.
+      - As a best practice for dealing with a large number of subscriptions, it's recommended that a UCMA 4.0 application limit the number of categories it subscribes to. This can be accomplished by supplying a filter when the endpoint is created. By limiting the number of categories, more subscriptions are allowed.
 
   - If users in the public cloud (such as Windows Live Messenger or Yahoo™) are subscribed to, the default subscription mode in **RemotePresenceView** should be used. The polling mode is not inherently supported from a protocol perspective.
 

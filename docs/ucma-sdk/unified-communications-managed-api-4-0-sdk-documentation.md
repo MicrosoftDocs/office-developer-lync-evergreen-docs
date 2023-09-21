@@ -14,7 +14,7 @@ mtps_version: v=office.15
 
 Microsoft Unified Communications Managed API 4.0 enables developers to build applications that leverage the full power of the Microsoft Lync Server 2013 platform. Applications built on UCMA 4.0 incorporate unified communications concepts such as presence, call, conversation, and conference.
 
-Because UCMA 4.0 applications are software-based, rather than hardware-based, it is easier to add and customize communication and collaboration features. These applications can satisfy the needs of your users and the specific requirements your company, and meet industry- and organization-specific needs.
+Because UCMA 4.0 applications are software-based, rather than hardware-based, it's easier to add and customize communication and collaboration features. These applications can satisfy the needs of your users and the specific requirements your company, and meet industry- and organization-specific needs.
 
 UCMA 4.0 is an especially good fit for the following communications scenarios:
 

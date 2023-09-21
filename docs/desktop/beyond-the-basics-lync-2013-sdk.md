@@ -34,11 +34,11 @@ Additional resources</p></td>
 
 ## Advanced Lync SDK concepts
 
-The advanced features of Microsoft Lync 2013 SDK give you the ability to create applications that address a wider range of business scenarios. For example, you might be required to create a fully featured communication client whose branding is identified with your organization and a UI that conforms with the design guidelines of your organization. In this case, you should suppress the UI of the Lync 2013 client and replace it with your own. It is important to understand the limitations of developing a custom client for UI suppression as well as the additional development requirements of UI suppression.
+The advanced features of Microsoft Lync 2013 SDK give you the ability to create applications that address a wider range of business scenarios. For example, you might be required to create a fully featured communication client whose branding is identified with your organization and a UI that conforms with the design guidelines of your organization. In this case, you should suppress the UI of the Lync 2013 client and replace it with your own. It's important to understand the limitations of developing a custom client for UI suppression as well as the additional development requirements of UI suppression.
 
 You might need the flexibility to dynamically configure your custom client to sign a user in to different Microsoft Lync Server 2013 topologies. In this case, you should learn about sign-in configuration in the Microsoft Lync 2013 API.
 
-If your users expect to be able to forward calls to mobile or home phones, your application must be able to publish these phone numbers on behalf of a user. User telephone number administration is simple to code in the Lync 2013 API, but it is only useful in a scenario where your organization has suppressed the Lync 2013 UI and your application must replicate the phone number administration feature of the client.
+If your users expect to be able to forward calls to mobile or home phones, your application must be able to publish these phone numbers on behalf of a user. User telephone number administration is simple to code in the Lync 2013 API, but it's only useful in a scenario where your organization has suppressed the Lync 2013 UI and your application must replicate the phone number administration feature of the client.
 
 ## In this section
 

@@ -15,7 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-Self Container has an instance ID value of 1 (one). It is invisible to all users except the container owner or the local user. It is used to cache the user or application data. The data can be used to construct the local user’s contact information, to facilitate presence publication, and to establish communications sessions.
+Self Container has an instance ID value of 1 (one). It's invisible to all users except the container owner or the local user. It's used to cache the user or application data. The data can be used to construct the local user’s contact information, to facilitate presence publication, and to establish communications sessions.
 
 The following category instances are published to this container.
 
@@ -160,14 +160,14 @@ The following example shows a [userProperties category instance value element](
 </userProperties>
 ```
 
-The &lt;<strong>exumEnabled</strong>&gt; element represents a bit flags indicating whether voice mail is enabled for the user. A bit value of 1 indicates that voice mail is enabled. Otherwise, it is not enabled. The accompanying &lt;<strong>exumURL</strong>&gt; element contains the voice mail URL supported by the Microsoft Exchange Unified Messaging.
+The &lt;<strong>exumEnabled</strong>&gt; element represents a bit flags indicating whether voice mail is enabled for the user. A bit value of 1 indicates that voice mail is enabled. Otherwise, it's not enabled. The accompanying &lt;<strong>exumURL</strong>&gt; element contains the voice mail URL supported by the Microsoft Exchange Unified Messaging.
 
 </td>
 </tr>
 <tr class="odd">
 <td><p><a href="userinformation-category-instance-value-element.md">userInformation category instance value element</a></p></td>
 <td><p>0</p></td>
-<td><p>The <a href="userinformation-category-instance-value-element.md">userInformation category instance value element</a> category instance contains the sharable user information about the local user. The information includes various phone numbers that remote users can use to contact the local user. It is extracted from the server-provisioned data and/or provided by the user by using the <strong>Lync Options</strong> panel. The <a href="userinformation-category-instance-value-element.md">userInformation category instance value element</a> category instance is published by Lync 2013.
+<td><p>The <a href="userinformation-category-instance-value-element.md">userInformation category instance value element</a> category instance contains the sharable user information about the local user. The information includes various phone numbers that remote users can use to contact the local user. It's extracted from the server-provisioned data and/or provided by the user by using the <strong>Lync Options</strong> panel. The <a href="userinformation-category-instance-value-element.md">userInformation category instance value element</a> category instance is published by Lync 2013.
 
 The following example shows a [userInformation category instance value element](userinformation-category-instance-value-element.md) category instance.</p>
 

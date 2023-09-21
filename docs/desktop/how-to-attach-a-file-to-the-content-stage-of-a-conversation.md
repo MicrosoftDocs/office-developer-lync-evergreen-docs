@@ -28,7 +28,7 @@ Watch the video: Share file attachments in online meetings
 
 ## File attachment overview
 
-Learn how to select a native file and attach it to a conversation content bin. When the file is in the conversation content bin, it is available to be downloaded by all other conversation participants. The sample application shown in figure 1 is a Windows Forms application that implements the Lync 2013 API to let a user attach files to a conversation.
+Learn how to select a native file and attach it to a conversation content bin. When the file is in the conversation content bin, it's available to be downloaded by all other conversation participants. The sample application shown in figure 1 is a Windows Forms application that implements the Lync 2013 API to let a user attach files to a conversation.
 
 This topic does not describe how to transfer a file from one peer in a conversation to another peer in a conversation. Instead, the topic describes how to use the conversation [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/library/jj266998\(v=office.15\)) to attach files to a conversation so that all conversation participants can access the files. This file attachment technique requires Microsoft Lync Server 2013 resources and should only be used in the context of a group conversation.
 
@@ -187,7 +187,7 @@ A user can attach almost any type of file object to a conversation. If a valid l
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>If you are handling the <a href="https://msdn.microsoft.com/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a> event on the conversation content sharing modality, you should enable a file picking control in you UI when the <a href="https://msdn.microsoft.com/library/jj266957(v=office.15)">ModalityAction</a><strong>.CreateShareableNativeFileOnlyContent</strong> action is available.</p></td>
+    <td><p>If you're handling the <a href="https://msdn.microsoft.com/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a> event on the conversation content sharing modality, you should enable a file picking control in you UI when the <a href="https://msdn.microsoft.com/library/jj266957(v=office.15)">ModalityAction</a><strong>.CreateShareableNativeFileOnlyContent</strong> action is available.</p></td>
     </tr>
     </tbody>
     </table>
@@ -1328,7 +1328,7 @@ namespace ContentSharing
                         }
                         else
                         {
-                            MessageBox.Show("You are in sync with presenter");
+                            MessageBox.Show("You're in sync with presenter");
                         }
                     }
                 }

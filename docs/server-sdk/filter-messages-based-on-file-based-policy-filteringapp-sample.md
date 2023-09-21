@@ -63,7 +63,7 @@ If necessary, copy the %progfile%\\Microsoft Lync Server 2013\\SDK\\Samples\\Fil
     
 
     > [!NOTE]
-    > <P>&lt;lync.Server.Fdqn&gt; is the placeholder for the fully qualified domain name for the test server. You may have to change the priority value so that it is larger than the <STRONG>UserServices</STRONG> application value.</P>
+    > <P>&lt;lync.Server.Fdqn&gt; is the placeholder for the fully qualified domain name for the test server. You may have to change the priority value so that it's larger than the <STRONG>UserServices</STRONG> application value.</P>
 
     
         new-csServerApplication -uri " http://www.microsoft.com/LC/SDK/Samples/Filter" -identity "service:registrar:<lync.Server.Fdqn>/Filter" -critical $false -priority 6 -scriptname Filter.am -enabled $true

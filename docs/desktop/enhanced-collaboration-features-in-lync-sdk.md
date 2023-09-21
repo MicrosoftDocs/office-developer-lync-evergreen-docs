@@ -49,7 +49,7 @@ The following table describes the new collaboration features in Microsoft Lync 2
 <tbody>
 <tr class="odd">
 <td><p>Meeting video management</p></td>
-<td><p>The new meeting video management feature gives you control of the meeting video view while in gallery mode. If you are a meeting attendee or meeting presenter, you can use the Lync 2013 API to pin as many as three participant video streams in the gallery view.</p>
+<td><p>The new meeting video management feature gives you control of the meeting video view while in gallery mode. If you're a meeting attendee or meeting presenter, you can use the Lync 2013 API to pin as many as three participant video streams in the gallery view.</p>
 <p>As a meeting presenter, you can use the Lync 2013 API to lock as many as three participant video streams into the gallery views of all meeting participants. A locked video stream overrides video pinning choices made by meeting participants. This allows a meeting presenter, such as a lecturer, to be shown on the video gallery of all meeting attendees regardless of individual pinning choices.</p>
 <p>For information about meeting video management, see <a href="get-started-with-lync-meetings.md">Get started with Lync meetings</a>.</p></td>
 </tr>

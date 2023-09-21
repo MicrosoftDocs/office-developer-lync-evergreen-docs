@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 
 
-To understand the Microsoft Unified Communications Managed API 4.0 architecture, it is helpful to understand the classes that represent the key features of the architecture as described in [Key features of UCMA 4.0](key-features-of-ucma-4-0.md). It is also helpful to recognize that the architecture has been designed to enable these features.
+To understand the Microsoft Unified Communications Managed API 4.0 architecture, it's helpful to understand the classes that represent the key features of the architecture as described in [Key features of UCMA 4.0](key-features-of-ucma-4-0.md). It's also helpful to recognize that the architecture has been designed to enable these features.
 
 ## Architecture
 

@@ -22,7 +22,7 @@ The Lync SDN API 2.0 comes with a utility (SIPObfuscator.exe) that can be used t
 
 When privacy protection is turned on, any personal identifiable information in Lync network diagnostic data will be obfuscated. This means that any user identity will be replaced by an alias. For example, the SIP Uri of sip:adama@contoso.com may be replaced by sip:CE6AF05C9705A05E@contoso.com. When the network traffic patterns of an individual user needs to be specified in this situation, the SIP Obfuscator utility is provided to determine the obfuscated user identity (alias) for an explicit user identity.
 
-SIP Obfuscator is a Windows console application. It is is installed as part of the Lync SDN API 2.0 installation and can be found in the installation directory. By default, the path to this directory is C:\\Microsoft Files\\Microsoft Lync Server\\Microsoft Lync SDN API on a 64-bit machine.
+SIP Obfuscator is a Windows console application. It's is installed as part of the Lync SDN API 2.0 installation and can be found in the installation directory. By default, the path to this directory is C:\\Microsoft Files\\Microsoft Lync Server\\Microsoft Lync SDN API on a 64-bit machine.
 
 To use SIP Obfuscator, do the following:
 

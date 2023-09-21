@@ -29,7 +29,7 @@ If a Microsoft Lync 2013 client is being used, the endpoint must register an app
     
     The initial INVITE payload must be well-formed XML, and less than 4 KB in size. The INFO payload is an unrestricted, generic message.
 
-  - Application data can be refreshed and sent multiple times over the course of the call. It is treated as a ‘raw,’ two-way data pipe between applications, and can be used for everything from contextual data to commands outside the normal communication channels.
+  - Application data can be refreshed and sent multiple times over the course of the call. It's treated as a ‘raw,’ two-way data pipe between applications, and can be used for everything from contextual data to commands outside the normal communication channels.
 
   - Multiple applications can be spawned during the course of a call, with each such application having its own data channel. These data channels can be addressed separately by the application, to enable scenarios in which there are a basic set of controls provided to all users, and an advanced add-on for managers, super-users, and administrators.
     
@@ -91,7 +91,7 @@ conversationContextChannel.DataReceived += this.conversationContextChannel_DataR
 
 ### Establishing a ConversationContextChannel instance
 
-A **ConversationContextChannel** instance can be established only if the conversation that it is tied to is in the **Established** or **Conferenced** state.
+A **ConversationContextChannel** instance can be established only if the conversation that it's tied to is in the **Established** or **Conferenced** state.
 
 The following example shows the steps involved in establishing a **ConversationContextChannel** instance.
 

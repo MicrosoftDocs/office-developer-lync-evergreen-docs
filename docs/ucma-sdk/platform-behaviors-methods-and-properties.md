@@ -17,11 +17,11 @@ The following describes general UCMA 4.0 platform behavior:
 
   - **BeginXxx** methods can throw **InvalidOperationException** if the state of the object does not permit the operation to be carried out. An application is expected to have a catch block for all **BeginXxx** method calls to ensure that a worker thread does not throw such an exception, thereby causing the application to crash.
 
-  - Every method should specify in its XML comments all known exceptions that could be thrown by that method. Because a method invocation involves a tree of method calls, it is not possible to enumerate all possible exceptions. However, every attempt has been made to ensure that UCMA 4.0 methods throw only **RealtimeException** (or a class derived from this one), **InvalidOperationException**, **RealtimeInvalidOperationException**, or argument exceptions such as **ArgumentException**, **ArgumentNullException**.
+  - Every method should specify in its XML comments all known exceptions that could be thrown by that method. Because a method invocation involves a tree of method calls, it's not possible to enumerate all possible exceptions. However, every attempt has been made to ensure that UCMA 4.0 methods throw only **RealtimeException** (or a class derived from this one), **InvalidOperationException**, **RealtimeInvalidOperationException**, or argument exceptions such as **ArgumentException**, **ArgumentNullException**.
 
-  - All operations that are created as a result of a method invocation must complete within the time appropriate for the method, irrespective of how an application is written. Some operations depend on the behavior of a remote endpoint. For example, an INVITE operation can take a long time if the remote endpoint sends a "180 Ringing" response periodically without ever accepting the invitation. It is the application’s responsibility to create its own timers for such operations.
+  - All operations that are created as a result of a method invocation must complete within the time appropriate for the method, irrespective of how an application is written. Some operations depend on the behavior of a remote endpoint. For example, an INVITE operation can take a long time if the remote endpoint sends a "180 Ringing" response periodically without ever accepting the invitation. It's the application’s responsibility to create its own timers for such operations.
 
-  - A method that depends on an extensible media provider can hang due to a poor implementation, such as by not completing an asynchronous operation exposed by the provider. It is the responsibility of the provider to ensure that their implementation meets the requirements discussed here and to follow any other .NET guidelines.
+  - A method that depends on an extensible media provider can hang due to a poor implementation, such as by not completing an asynchronous operation exposed by the provider. It's the responsibility of the provider to ensure that their implementation meets the requirements discussed here and to follow any other .NET guidelines.
 
   - The **EndXxx** method will not throw **InvalidOperationException**. It can throw **ArgumentException** or **RealtimeException** or any exception that is derived from **RealtimeException**.
 
@@ -33,7 +33,7 @@ The following describes general UCMA 4.0 platform behavior:
 
   - None of the public objects of the platform will be used by the platform for locking unless explicitly called out.
 
-  - If the platform exposes a collection to the application, the collection is a snapshot of the actual internal collection; hence it should be safe for the application to enumerate that collection. Any changes to the original collection after the snapshot has been obtained will not be reflected in the collection returned to the application. Thus, it is recommended that the application use events to keep track of collections rather than to access the property that returns a snapshot.
+  - If the platform exposes a collection to the application, the collection is a snapshot of the actual internal collection; hence it should be safe for the application to enumerate that collection. Any changes to the original collection after the snapshot has been obtained will not be reflected in the collection returned to the application. Thus, it's recommended that the application use events to keep track of collections rather than to access the property that returns a snapshot.
 
   - When an asynchronous operation is completed, the platform will not keep any reference to the asynchronous result that corresponds to the operation.
 

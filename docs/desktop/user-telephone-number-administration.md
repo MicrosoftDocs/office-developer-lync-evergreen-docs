@@ -35,7 +35,7 @@ Additional resources</p></td>
 
 ## Lync telephone list administration
 
-Lync defines a set of four telephone number types that a user can add corresponding telephone numbers to. The Lync 2013 API exposes programmable types that let you create a telephone list administration interface in your application so that a user can create a list of telephone numbers where the user can be reached. Figure 1 shows a sample UI that lists the signed-in user’s telephone numbers. The text box, check box, and buttons on the right-hand side of the form let users change a telephone number, publish a number to their contact card, remove a number from their contact card, or remove a number from the list.
+Lync defines a set of four telephone number types that a user can add corresponding telephone numbers to. The Lync 2013 API exposes programmable types that let you create a telephone list administration interface in your application so that a user can create a list of telephone numbers where the user can be reached. Figure 1 shows a sample UI that lists the signed-in user’s telephone numbers. The text box, check box, and buttons on the right-hand side of the form let'sers change a telephone number, publish a number to their contact card, remove a number from their contact card, or remove a number from the list.
 
 The following WPF form shows a list of user phone numbers on the upper left, a text box, a **publish** check box, a **Save Edit** button, a **Remove** button, and a presence indicator with a user’s full name.
 

@@ -61,7 +61,7 @@ Create a Lync WPF application with logging enabled and then add XAML code that c
 
 ## Debug the Lync Is Not Running error
 
-To experience how easy it is to use log data, find the message created after exiting Lync 2013.
+To experience how easy it's to use log data, find the message created after exiting Lync 2013.
 
 ### To set up and run the Lync Is Not Running scenario
 
@@ -71,7 +71,7 @@ To experience how easy it is to use log data, find the message created after exi
     
     In the log file, output that resembles the following message appears.
     
-        2010-07-21T13:16:05.4663269-07:00 : Error : MThreadId=10 : Categories=LyncServiceProvider : Message=UCClientInitializationFailed:Microsoft Lync 4.0.7400.542 or later is not running and it is required for this application. Please start Lync to resolve this issue.
+        2010-07-21T13:16:05.4663269-07:00 : Error : MThreadId=10 : Categories=LyncServiceProvider : Message=UCClientInitializationFailed:Microsoft Lync 4.0.7400.542 or later is not running and it's required for this application. Please start Lync to resolve this issue.
 
 ## Debug a malformed URI
 

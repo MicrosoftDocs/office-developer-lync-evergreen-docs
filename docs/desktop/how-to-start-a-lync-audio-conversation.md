@@ -146,7 +146,7 @@ The following figure illustrates the classes, methods, and events used in the pr
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>If you add two or more participants to an audio conversation, the conversation is automatically converted to an audio conference and hosted on Microsoft Lync Server 2013. When it is converted to a conference, the conversation object is provisioned with conference properties that you can use to assign meeting access, lobby management, and presenter promotion. For information about audio meetings, see <a href="what-you-can-do-with-lync-meetings.md">What you can do with Lync meetings</a>.</p></td>
+    <td><p>If you add two or more participants to an audio conversation, the conversation is automatically converted to an audio conference and hosted on Microsoft Lync Server 2013. When it's converted to a conference, the conversation object is provisioned with conference properties that you can use to assign meeting access, lobby management, and presenter promotion. For information about audio meetings, see <a href="what-you-can-do-with-lync-meetings.md">What you can do with Lync meetings</a>.</p></td>
     </tr>
     </tbody>
     </table>
@@ -299,7 +299,7 @@ The previous example added a participant. This example handles the event raised 
 
 ### Conversation modality operation callback
 
-The following example calls [EndConnect](https://msdn.microsoft.com/library/jj274550\(v=office.15\)) to complete the connect operation. Because several different modality operations can be executed, it is important that your callback method determines which started operation triggers the asynchronous callback. The example uses the asynchronous state property of **IAsyncResult** to indicate the operation that was started on the UI thread.
+The following example calls [EndConnect](https://msdn.microsoft.com/library/jj274550\(v=office.15\)) to complete the connect operation. Because several different modality operations can be executed, it's important that your callback method determines which started operation triggers the asynchronous callback. The example uses the asynchronous state property of **IAsyncResult** to indicate the operation that was started on the UI thread.
 
 Calling the [EndConnect](https://msdn.microsoft.com/library/jj274550\(v=office.15\)) method in the callback instead of in the UI thread prevents the example application from blocking while the call is connected.
 

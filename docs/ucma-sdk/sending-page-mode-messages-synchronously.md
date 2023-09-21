@@ -15,7 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-The following code example shows how to send a simple text message synchronously in page mode. It is assumed that the endpoint is properly created and registered, if it is registration-based. In this example, the message is sent using a call to the [SendMessage(MessageType, RealTimeAddress, ContentType, \[\])](https://msdn.microsoft.com/library/hh349067\(v=office.15\)) method on the endpoint.
+The following code example shows how to send a simple text message synchronously in page mode. It's assumed that the endpoint is properly created and registered, if it's registration-based. In this example, the message is sent using a call to the [SendMessage(MessageType, RealTimeAddress, ContentType, \[\])](https://msdn.microsoft.com/library/hh349067\(v=office.15\)) method on the endpoint.
 
 ```csharp
 RealTimeEndpoint endpoint = ...; // Assumed to be created elsewhere

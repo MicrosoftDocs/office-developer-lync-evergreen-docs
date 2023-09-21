@@ -84,7 +84,7 @@ The leader of a conference hosted by Lync Server 2013 can modify the Access Leve
 
 
 > [!NOTE]
-> <P>An application developer should verify which allowed conference Access Levels (if any) can be used after joining a conference. The allowed conference Access Levels vary from conference to conference and cannot be inferred from the conferencing capabilities. For example, it is possible that no conference Access Level change is allowed when joining a Microsoft Office Communications Server 2007 R2 conference during migration.</P>
+> <P>An application developer should verify which allowed conference Access Levels (if any) can be used after joining a conference. The allowed conference Access Levels vary from conference to conference and cannot be inferred from the conferencing capabilities. For example, it's possible that no conference Access Level change is allowed when joining a Microsoft Office Communications Server 2007 R2 conference during migration.</P>
 
 
 

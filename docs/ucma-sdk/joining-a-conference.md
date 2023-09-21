@@ -44,5 +44,5 @@ To join a conference as a trusted user, an application should set the [JoinMode]
 
 ### Default join
 
-To join a conference as an ordinary user, an application should set the **JoinMode** property to **Default**, another value in the **JoinMode** enumeration. The application might be placed in the lobby, depending on the current conference access level. An application can also specify the maximum amount of time it is willing to wait for in the lobby using the [LobbyTimeout](https://msdn.microsoft.com/library/hh349095\(v=office.15\)) property on a **ConferenceJoinOptions** instance. The default timeout value is 15 minutes.
+To join a conference as an ordinary user, an application should set the **JoinMode** property to **Default**, another value in the **JoinMode** enumeration. The application might be placed in the lobby, depending on the current conference access level. An application can also specify the maximum amount of time it's willing to wait for in the lobby using the [LobbyTimeout](https://msdn.microsoft.com/library/hh349095\(v=office.15\)) property on a **ConferenceJoinOptions** instance. The default timeout value is 15 minutes.
 

@@ -20,7 +20,7 @@ The LDL Setup Wizards will install, configure, and start the Lync Dialog Listene
 In general, the Lync Dialog Listener executes as Windows Service. In some case, particularly for debugging and for replay, you can run LDL as a console application at the command prompt.
 
 > [!NOTE]
-> Unlike the LSM, you are not able to run the service and the command line tool at the same time.
+> Unlike the LSM, you're not able to run the service and the command line tool at the same time.
 
 ## Run LDL as a Windows service
 

@@ -208,7 +208,7 @@ The \<file\> element as it might appear in an application manifest file appears 
         <column name="valueTargetHost"/>
     </file>
 
-The handle name for the file in this example is "exampleFile", and it is a csv file. When the application loads this file in memory, it creates a hash table that contains two columns named "keyHostName" and "valueTargetName." By assigning the value "keyHostName" to the **keyColumnName** attribute, the example indicates that the values that are contained in the "keyHostName" column serves as key string indexers for the in-memory hash table.
+The handle name for the file in this example is "exampleFile", and it's a csv file. When the application loads this file in memory, it creates a hash table that contains two columns named "keyHostName" and "valueTargetName." By assigning the value "keyHostName" to the **keyColumnName** attribute, the example indicates that the values that are contained in the "keyHostName" column serves as key string indexers for the in-memory hash table.
 
 For more information about the content of the \<file\> element, see [file Element](https://msdn.microsoft.com/library/hh347232\(v=office.15\)).
 

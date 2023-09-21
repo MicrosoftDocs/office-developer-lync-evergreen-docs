@@ -41,7 +41,7 @@ Additional resources</p></td>
 
 ## Add-in overview
 
-A Persistent Chat room add-in is a Microsoft Silverlight browser application. It is hosted in the add-in pane of the Lync 2013 Persistent Chat room window. An add-in application uses the [LyncClient.GetHostingRoom](https://msdn.microsoft.com/library/jj276700\(v=office.15\)) method to return an entry point to the room. The room entry point lets an add-in obtain room message history, post new messages, intercept local messages to be posted, and obtain the room roster for display.
+A Persistent Chat room add-in is a Microsoft Silverlight browser application. It's hosted in the add-in pane of the Lync 2013 Persistent Chat room window. An add-in application uses the [LyncClient.GetHostingRoom](https://msdn.microsoft.com/library/jj276700\(v=office.15\)) method to return an entry point to the room. The room entry point lets an add-in obtain room message history, post new messages, intercept local messages to be posted, and obtain the room roster for display.
 
 The example in this topic obtains the hosting [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/library/jj266467\(v=office.15\)) of the chat window. After getting the room, the add-in registers for room messaging events to catch messages posted to the room by other user in addition to filtering messages to be sent by the local user.
 

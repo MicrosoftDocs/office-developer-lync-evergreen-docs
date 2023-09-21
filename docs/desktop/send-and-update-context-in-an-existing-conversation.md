@@ -54,11 +54,11 @@ Additional resources</p></td>
 <tbody>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/jj275891(v=office.15)">BeginSendInitialContext(IEnumerable&lt;KeyValuePair&lt;ContextType, Object&gt;&gt;, AsyncCallback, Object)</a></p></td>
-<td><p><strong>BeginSendInitialContext</strong> is the setup method. Call it first. This method can be used multiple times in a single conversation, for example, if there is a change in subject and additional data is needed. The data limit is 2,000 characters.</p></td>
+<td><p><strong>BeginSendInitialContext</strong> is the setup method. Call it first. This method can be used multiple times in a single conversation, for example, if there is a change in subject and additional data is needed. The data limit's 2,000 characters.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/jj278336(v=office.15)">BeginSendContextData(String, String, String, AsyncCallback, Object)</a></p></td>
-<td><p>Use <strong>BeginSendContextData</strong> for more advanced scenarios, such as implementing a command and response protocol, or exchanging large amounts of data. It can only be used after a session is established. However, it can be used again in an existing conversation as often as needed. The data limit is 64,000 characters.</p></td>
+<td><p>Use <strong>BeginSendContextData</strong> for more advanced scenarios, such as implementing a command and response protocol, or exchanging large amounts of data. It can only be used after a session is established. However, it can be used again in an existing conversation as often as needed. The data limit's 64,000 characters.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BeginStartConversation(String, Int32, AsyncCallback, Object)</strong></p></td>

@@ -19,7 +19,7 @@ Microsoft Unified Communications Managed API 4.0 permits automatic presence publ
 
 Automata and automated service applications that persist their presence information (such as by publishing "always online") can use new and simplified APIs to publish this information one time during endpoint startup. Similarly, user endpoints can have their presence information enabled at startup and can use the simplified APIs to maintain their presence information for the life of the endpoint. This functionality can be achieved by setting a single property.
 
-Using UCMA 4.0, it is also easy to modify or delete an existing presence publication. UCMA 4.0 can be used to delete or modify all publications that are made to different relationship levels to address different types of watchers.
+Using UCMA 4.0, it's also easy to modify or delete an existing presence publication. UCMA 4.0 can be used to delete or modify all publications that are made to different relationship levels to address different types of watchers.
 
 For more information, see [Presence, contacts, and groups](presence-contacts-and-groups.md).
 

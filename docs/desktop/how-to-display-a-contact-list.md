@@ -133,7 +133,7 @@ To fill a contact list from a custom group, start by getting a collection of [Gr
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>A contact’s properties and presence information might not be cached locally at the time you obtain the <strong>Contact</strong> instance and query for presence or read properties. For this reason, it is important that you handle the contact events you register for in the previous step. A <a href="https://msdn.microsoft.com/library/jj275543(v=office.15)">Contact.ContactInformationChanged</a> event is raised as each additional element of presence information pushed to the client from Microsoft Lync Server 2013.</p></td>
+    <td><p>A contact’s properties and presence information might not be cached locally at the time you obtain the <strong>Contact</strong> instance and query for presence or read properties. For this reason, it's important that you handle the contact events you register for in the previous step. A <a href="https://msdn.microsoft.com/library/jj275543(v=office.15)">Contact.ContactInformationChanged</a> event is raised as each additional element of presence information pushed to the client from Microsoft Lync Server 2013.</p></td>
     </tr>
     </tbody>
     </table>

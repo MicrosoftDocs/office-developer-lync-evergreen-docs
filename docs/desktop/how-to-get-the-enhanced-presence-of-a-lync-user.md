@@ -143,7 +143,7 @@ The following table lists the [Microsoft.Lync.Model.ContactInformationType](http
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/jj293279(v=office.15)">Uri</a></p></td>
-<td><p>This is a property that is read directly from the <strong>Contact</strong> object. It is the SIP URI of the contact.</p></td>
+<td><p>This is a property that is read directly from the <strong>Contact</strong> object. It's the SIP URI of the contact.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Photo</strong></p></td>

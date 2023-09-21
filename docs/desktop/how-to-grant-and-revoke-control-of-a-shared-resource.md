@@ -168,7 +168,7 @@ The following example completes the following steps.
             try
             {
                 //_particpantSharingModalities is a class field of type Dictionary<string, ApplicationSharingModality>.
-                //It is filled in the Conversation.ParticipantAdded event callback method of this sample.
+                //It's filled in the Conversation.ParticipantAdded event callback method of this sample.
                 ApplicationSharingModality sharingModality = (ApplicationSharingModality)_participantSharingModalities[Contact_ListBox.SelectedItem.ToString()];
  
                 //If the application sharing modality is available and the resource can still be granted then grant
@@ -224,7 +224,7 @@ The following example is invoked by the platform thread on completion of the asy
         }
 ```
 
-The following example handles the event raised when a conversation participant is granted control of the locally shared resource. It is important that you maintain a reference to the participant who is controlling a resource.
+The following example handles the event raised when a conversation participant is granted control of the locally shared resource. It's important that you maintain a reference to the participant who is controlling a resource.
 
 When revoking control of the resource, you must call the [ApplicationSharingModality.BeginRevokeControl](https://msdn.microsoft.com/library/jj277377\(v=office.15\)) method on the **ApplicationSharingModality** of that participant.
 
@@ -269,7 +269,7 @@ When control of the locally shared resource is revoked, the Grant action is avai
 
 ### Code example
 
-The following example revokes control of a locally owned and share resource that is controlled by a resource viewer. The **\_ResourceControllingContact** object is a class field of type [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)). It is filled in the previous example when the control of the resource changes as a result of a grant operation.
+The following example revokes control of a locally owned and share resource that is controlled by a resource viewer. The **\_ResourceControllingContact** object is a class field of type [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)). It's filled in the previous example when the control of the resource changes as a result of a grant operation.
 
 ```csharp
         /// <summary>

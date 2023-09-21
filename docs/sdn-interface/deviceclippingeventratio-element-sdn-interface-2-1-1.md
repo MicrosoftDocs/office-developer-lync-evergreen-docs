@@ -14,7 +14,7 @@ dev_langs:
 
 (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
-Percentage of sessions the DeviceClipping event was fired when a speaker clips the microphone, causing the remote listener receives clipping-induced distortions. It is important to avoid the microphone clipping.
+Percentage of sessions the DeviceClipping event was fired when a speaker clips the microphone, causing the remote listener receives clipping-induced distortions. It's important to avoid the microphone clipping.
 
 ## Element information
 

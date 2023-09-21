@@ -204,7 +204,7 @@ To get the chat rooms that a user has added to the local contact list, you must 
 
 1.  Check the state of the room manager. Proceed if the room manager is enabled.
 
-2.  Check to see whether the [RoomManager.FollowedRooms](https://msdn.microsoft.com/library/jj276520\(v=office.15\)) property is null. If it is not null, proceed to the next step.
+2.  Check to see whether the [RoomManager.FollowedRooms](https://msdn.microsoft.com/library/jj276520\(v=office.15\)) property is null. If it's not null, proceed to the next step.
 
 3.  Run a foreach loop over the collection of [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/library/jj266467\(v=office.15\)) objects returned by the **FollowedRooms** property.
 

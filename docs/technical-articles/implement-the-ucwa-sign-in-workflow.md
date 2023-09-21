@@ -217,7 +217,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
     ```json
         Bearer cwt=AAEBHAEFAAAAAAAFFQAAAIxVppb2z4Dxaju2058FAACBEPoG3XyftjBYhE5zTT0buHeCAotbgyDsTGw1VRfC0jPIQlfoa9VU-7UZoTtyNvTaXSKdEGRMToYI85tyCISt0AgNEPoG3XyftjBYhE5zTT0buHc
     ```
-    And it is then set as the Authorization header value for the next GET HTTP request against the user resource. This time, the HTTP request should return a status of OK.
+    And it's then set as the Authorization header value for the next GET HTTP request against the user resource. This time, the HTTP request should return a status of OK.
 
 4.  Add to the UcwaApp class definition the following GetApplicationResource method that creates and returns an application resource bound to the local endpoint of the specified user.
     

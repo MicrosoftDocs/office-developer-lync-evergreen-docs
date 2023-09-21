@@ -79,7 +79,7 @@ Microsoft Lync Server 2013 Persistent Chat supports Active Directory users and u
     An Active Directory container, such as a domain or organizational unit, can be used to define roles. When installed, the domain to which the administrator who performs the installation is assigned is used for the initial root category scope. User administrators can add additional principals to the root category scope as needed.
 
   - **AD Security Group or Distribution List**  
-    An Active Directory security group can be defined as a member of a Persistent Chat room. Because a security group can cross organizational boundaries, and because scope can only be narrowed, a security group cannot be used to manage the scope of a category unless it is explicitly defined on the parent category scope. This means that any security group to be used in this fashion must be defined on the root category scope and inherited by every subcategory scope list to the point in the category hierarchy where its usage is desired.
+    An Active Directory security group can be defined as a member of a Persistent Chat room. Because a security group can cross organizational boundaries, and because scope can only be narrowed, a security group cannot be used to manage the scope of a category unless it's explicitly defined on the parent category scope. This means that any security group to be used in this fashion must be defined on the root category scope and inherited by every subcategory scope list to the point in the category hierarchy where its usage is desired.
 
 ## See also
 

@@ -71,7 +71,7 @@ The following table lists the meeting object model classes in the order that you
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/jj276168(v=office.15)">Microsoft.Lync.Model.Conversation</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/jj266018(v=office.15)">ConversationManager</a></p></td>
-<td><p>The factory object used to create a new multi-party audio conference programmatically. Use this factory when in UI suppression mode and you are creating a complete meeting UI in your application.</p></td>
+<td><p>The factory object used to create a new multi-party audio conference programmatically. Use this factory when in UI suppression mode and you're creating a complete meeting UI in your application.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>

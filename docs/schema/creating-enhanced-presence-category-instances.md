@@ -15,7 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-On the protocol level, a category instance is represented by an XML string. To publish the category instance, you set up the XML string so it is used with the specified containers on the server. For example, the following SIP message shows what is sent over the wire in a request of publication for a note category instance.
+On the protocol level, a category instance is represented by an XML string. To publish the category instance, you set up the XML string so it's used with the specified containers on the server. For example, the following SIP message shows what is sent over the wire in a request of publication for a note category instance.
 
     SERVICE sip:adamb@contoso.com SIP/2.0
     FROM: <sip:adamb@contoso.com>;epid=6C801B691B;tag=127ef2ce7
@@ -50,7 +50,7 @@ On an API level, a category instance may be encapsulated by an API-specific type
 
 In UCMA a generic category instance is represented by the PresenceCategoryWithMetaData type. With this class, the attributes (such as category name, instance ID, container ID, version number, expiry policy and expiration time, etc.) of a category instance are exposed by the appropriate properties. The value of the category instance is specified by an XML string. UCMA requires that instances of this class be used in grammar-free publications.
 
-The following code example shows how to create category instances for grammar-free publications. It is a method of the UcmaPublisher class that is introduced in [Preparing for category publications](preparing-for-category-publications.md).
+The following code example shows how to create category instances for grammar-free publications. It's a method of the UcmaPublisher class that is introduced in [Preparing for category publications](preparing-for-category-publications.md).
 
 ```csharp
 public PresenceCategoryWithMetaData CreatePresenceCategoryInstance(

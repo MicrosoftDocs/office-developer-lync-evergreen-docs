@@ -67,7 +67,7 @@ To make a presence application interoperable with Lync 2013, the client must enf
 
   - Publish a given category data following the applicable publication rules as specified in the grammar. The expected behavior is discussed in [Presence category instances published or used by Lync](presence-category-instances-published-or-used-by-lync.md).
     
-    To help illustrate this point, let us look an example of publishing the following [note category instance value element](note-category-instance-value-element.md) category instance, created after a user has set a personal note message.
+    To help illustrate this point, let's look an example of publishing the following [note category instance value element](note-category-instance-value-element.md) category instance, created after a user has set a personal note message.
     
         <nt:note xmlns:nt="http://schemas.microsoft.com/2006/09/sip/note">
            <nt:body type="personal">I'm away today.</nt:body>

@@ -47,7 +47,7 @@ The prerequisites for working with Lync meetings are as follows:
 
 ### Lync meeting essentials
 
-To understand how to work with Lync meetings, it is important to become familiar with the concepts in the following table.
+To understand how to work with Lync meetings, it's important to become familiar with the concepts in the following table.
 
 <table>
 <colgroup>

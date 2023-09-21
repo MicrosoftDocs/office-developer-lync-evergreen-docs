@@ -135,7 +135,7 @@ Add the following class field declarations to your application.
 
 ## Save content annotations
 
-You can save the annotations that are made to any content in the content bin whether it is currently active or not. To save the annotations made to an [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) object, obtain the path and file name from the user and the annotation image file format to be applied to the saved image.
+You can save the annotations that are made to any content in the content bin whether it's currently active or not. To save the annotations made to an [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) object, obtain the path and file name from the user and the annotation image file format to be applied to the saved image.
 
 <table>
 <colgroup>
@@ -191,7 +191,7 @@ The following example saves the annotations made to the active shared content lo
 
 ## Clear content annotations
 
-You can clear the annotations that are made to any content in the content bin whether it is currently active or not. To clear the annotations made to an [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) object, call the [ShareableContent.ClearAllAnnotations](https://msdn.microsoft.com/library/jj275940\(v=office.15\)) method on the object.
+You can clear the annotations that are made to any content in the content bin whether it's currently active or not. To clear the annotations made to an [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) object, call the [ShareableContent.ClearAllAnnotations](https://msdn.microsoft.com/library/jj275940\(v=office.15\)) method on the object.
 
 ### Code example: Clear all annotations
 
@@ -1240,7 +1240,7 @@ namespace ContentSharing
                         }
                         else
                         {
-                            MessageBox.Show("You are in sync with presenter");
+                            MessageBox.Show("You're in sync with presenter");
                         }
 
                     }

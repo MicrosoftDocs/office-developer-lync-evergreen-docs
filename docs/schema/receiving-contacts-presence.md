@@ -23,7 +23,7 @@ The following code example shows how to manage the subscription to contacts pres
         #region Managing contacts' presence subscription
 
         /// <summary>
-        /// Start to receive contacts presence publications. It is called when the specified 
+        /// Start to receive contacts presence publications. It's called when the specified 
         /// contacts are added to the contact list
         /// </summary>
         /// <param name="contacts"></param>
@@ -40,7 +40,7 @@ The following code example shows how to manage the subscription to contacts pres
         }
 
         /// <summary>
-        /// Stop receiving contacts presence publications. It is called when the specified contacts
+        /// Stop receiving contacts presence publications. It's called when the specified contacts
         /// are deleted from the contact list
         /// </summary>
         /// <param name="sipUris"></param>

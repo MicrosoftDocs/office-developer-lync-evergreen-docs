@@ -240,7 +240,7 @@ The following example uses XAML to declare the add-in UI. The controls include a
 </UserControl>
 ```
 
-The following example interacts with the XAML user control of a Silverlight chat room add-in. When the user posts a message to the hosting chat room, this add-in catches the message before it is posted. If the message contains the filter string that is entered in the filter text box, the message post is canceled. Otherwise, the message is posted to the room
+The following example interacts with the XAML user control of a Silverlight chat room add-in. When the user posts a message to the hosting chat room, this add-in catches the message before it's posted. If the message contains the filter string that is entered in the filter text box, the message post is canceled. Otherwise, the message is posted to the room
 
 ```csharp
 using System;

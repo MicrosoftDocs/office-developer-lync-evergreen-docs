@@ -55,7 +55,7 @@ The following procedure describes the steps involved in creating and using a [Sp
     
     The stream remains open-ended (that is, a call to [Read](https://msdn.microsoft.com/library/hh384278\(v=office.15\)) will block when there are no media samples returned by the connector, rather than return "End of Stream") until the application calls **Stop**.
 
-5.  The application owns the stream as soon as it is returned by **Start**, so when it is finished with the stream, it should call **Dispose**.
+5.  The application owns the stream as soon as it's returned by **Start**, so when it's finished with the stream, it should call **Dispose**.
     
     ```csharp
     recoStream.Dispose();

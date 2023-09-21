@@ -91,7 +91,7 @@ The following topics explain how server auto-discovery works in Lync 2013.
 
 ## Read sign-in connection settings
 
-The sign-in connection settings are exposed by the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/library/jj266969\(v=office.15\)) class. It is not necessary to be signed in to Microsoft Lync 2013 to get this object and read the exposed properties.
+The sign-in connection settings are exposed by the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/library/jj266969\(v=office.15\)) class. It's not necessary to be signed in to Microsoft Lync 2013 to get this object and read the exposed properties.
 
 ### To read sign-in connection settings
 

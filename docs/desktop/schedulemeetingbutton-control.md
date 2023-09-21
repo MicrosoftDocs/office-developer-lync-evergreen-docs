@@ -39,7 +39,7 @@ Additional resources</p></td>
 
 ## Control overview
 
-Use the [ScheduleMeetingButton](https://msdn.microsoft.com/library/hh363440\(v=office.15\)) control in Microsoft Lync Control applications to open a Microsoft Outlook meeting invitation dialog box. The control is designed to mimic the functionality provided by the corresponding button on the Quick Connect toolbar of the ContactCard. As such, it must be bound to a contact using the Source property before it can be used. When clicked, it launches the Microsoft Outlook dialog box to initiate the desired action with that contact. This button is not a general-purpose Outlook Integration tool. It is intended to be used with other Lync Controls to provide a full set of collaboration options for interacting with a specific contact or distribution group.
+Use the [ScheduleMeetingButton](https://msdn.microsoft.com/library/hh363440\(v=office.15\)) control in Microsoft Lync Control applications to open a Microsoft Outlook meeting invitation dialog box. The control is designed to mimic the functionality provided by the corresponding button on the Quick Connect toolbar of the ContactCard. As such, it must be bound to a contact using the Source property before it can be used. When clicked, it launches the Microsoft Outlook dialog box to initiate the desired action with that contact. This button is not a general-purpose Outlook Integration tool. It's intended to be used with other Lync Controls to provide a full set of collaboration options for interacting with a specific contact or distribution group.
 
 ![ScheduleMeetingButton Control](images/JJ945534.ScheduleMeetingButtonControl(Office.15).png "ScheduleMeetingButton Control")
 
@@ -69,7 +69,7 @@ Notable ScheduleMeetingButton control public properties and events relating to u
 <ul>
 <li><p>If the value is a string that does not contain the sip: or tel: prefix, the control performs a search, using the string specified as a search criteria, and loads the first contact in the result set matching the specified string. This behavior is not deterministic and yields the slowest performance.</p></li>
 <li><p>If the value is a SIP URI string qualified by the sip: or tel: prefix, the contact is loaded using an exact match of the specified URI. This behavior is deterministic and yields better performance.</p></li>
-<li><p>If the value is a Contact or DistributionGroup object, it is used as-is. This behavior is deterministic and yields the best performance.</p></li>
+<li><p>If the value is a Contact or DistributionGroup object, it's used as-is. This behavior is deterministic and yields the best performance.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">

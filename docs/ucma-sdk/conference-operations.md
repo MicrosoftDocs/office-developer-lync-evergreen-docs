@@ -29,7 +29,7 @@ Microsoft Unified Communications Managed API 4.0 supports notifications to parti
 
 Termination countdown information can be monitored by registering for the [TerminationCountdownStatusChanged](https://msdn.microsoft.com/library/hh384066\(v=office.15\)) event on the [ConferenceSession](https://msdn.microsoft.com/library/hh349315\(v=office.15\)) class. The event indicates whether the countdown has been started or stopped, and if started, approximately how much time, in seconds, remains until the countdown expires. Actual termination will occur after that time and depends on server policies, so can vary from the time reported. If the termination is to happen in the past, the time will be reported as 0 seconds.
 
-It is possible that additional anonymous users may join a conference when the countdown is active, or the interval has expired. In such cases, these anonymous users will receive the notification upon joining the conference.
+It's possible that additional anonymous users may join a conference when the countdown is active, or the interval has expired. In such cases, these anonymous users will receive the notification upon joining the conference.
 
 ## Entry and exit announcements
 

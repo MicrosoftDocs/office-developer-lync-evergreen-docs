@@ -189,7 +189,7 @@ The following example creates a standard endpoint or a side-by-side endpoint and
 
 ## Next steps
 
-After you have created either a standard or side-by-side Lync endpoint, you are ready to take the next step.
+After you have created either a standard or side-by-side Lync endpoint, you're ready to take the next step.
 
   - [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md)
 

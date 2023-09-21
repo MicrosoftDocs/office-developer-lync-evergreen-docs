@@ -29,7 +29,7 @@ void Log(string name, bool detail, params string[] messages);
 
 The name parameter specifies the name of the log. It can be "Event, Error, or Debugr. The first two correspond to the Windows Event Viewer log. Debugr is the application-specific ApiLogger debug utility. The messages parameters contain zero or more messages that appear in the specified log. For the "Event" log, the supplied messages are logged as a warning in Windows Event Viewer. For the "Error" log, the supplied messages appear as an error in Windows Event Viewer.
 
-The level of detail for each message in the log is set with the second parameter. If it is false, only the "Method", "To", "From", and "Request-Uri" headers are logged, together with the date/time and the application URI. If it is true, the whole SIP message is logged.
+The level of detail for each message in the log is set with the second parameter. If it's false, only the "Method", "To", "From", and "Request-Uri" headers are logged, together with the date/time and the application URI. If it's true, the whole SIP message is logged.
 
 ## Using ApiLogger
 
@@ -80,7 +80,7 @@ The following table describes the ApiLogger error messages.
 </tr>
 <tr class="odd">
 <td><p>&quot;Cannot send two requests on the same transaction.&quot;</p></td>
-<td><p>The application is trying to send two different requests through the same <a href="https://msdn.microsoft.com/library/jj265716(v=office.15)">ClientTransaction</a> object. Check your code and ensure that you are not passing more than one <a href="https://msdn.microsoft.com/library/jj266237(v=office.15)">Request</a> object for the same <a href="https://msdn.microsoft.com/library/jj265716(v=office.15)">ClientTransaction</a> instance by calling the <a href="https://msdn.microsoft.com/library/jj266211(v=office.15)">SendRequest(Request)</a> method multiple times on it.</p></td>
+<td><p>The application is trying to send two different requests through the same <a href="https://msdn.microsoft.com/library/jj265716(v=office.15)">ClientTransaction</a> object. Check your code and ensure that you're not passing more than one <a href="https://msdn.microsoft.com/library/jj266237(v=office.15)">Request</a> object for the same <a href="https://msdn.microsoft.com/library/jj265716(v=office.15)">ClientTransaction</a> instance by calling the <a href="https://msdn.microsoft.com/library/jj266211(v=office.15)">SendRequest(Request)</a> method multiple times on it.</p></td>
 </tr>
 <tr class="even">
 <td><p>&quot;Cannot proxy multiple final responses.&quot;</p></td>

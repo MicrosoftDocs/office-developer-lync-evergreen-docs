@@ -291,7 +291,7 @@ The following example filters a pending message in the [Room.IsSendingMessage](h
                     {
                         //Update the message dictionary with the plain text and Rtf string updates.
 
-                        //It is not required that you replace both strings. You may replace one or the other
+                        //It's not required that you replace both strings. You may replace one or the other
                         _filteredMessage.MessageDictionary[RoomMessageFormat.PlainText] = message;
                         _filteredMessage.MessageDictionary[RoomMessageFormat.Rtf] = RtfMessage;
                         _room.SendFilteredMessage(_filteredMessage, RoomMessageFilteringAction.Replaced);

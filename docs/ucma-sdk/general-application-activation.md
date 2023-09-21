@@ -42,7 +42,7 @@ All of these steps, except for the firewall exceptions, are discussed in detail 
 
 ## Create a pool of trusted application computers
 
-All computers on which the application is to run must be added to the Lync Server 2013 topology document. It is recommended that you create a separate computer pool for a trusted application instead of running the application in the same pool where other Lync Server 2013 services are running. This step involves creating a new pool and adding application computers to it, and can be accomplished in either of two ways:
+All computers on which the application is to run must be added to the Lync Server 2013 topology document. It's recommended that you create a separate computer pool for a trusted application instead of running the application in the same pool where other Lync Server 2013 services are running. This step involves creating a new pool and adding application computers to it, and can be accomplished in either of two ways:
 
   - Using Microsoft Lync Server 2013 Topology Builder
 
@@ -186,9 +186,9 @@ To request certificates as a user running in the Trusted Application Operator ro
 
 7.  Click the **Add** button.
     
-    1.  If you are giving access to a user running in the Trusted Application Operator role, type the name of the user or security group to be given access.
+    1.  If you're giving access to a user running in the Trusted Application Operator role, type the name of the user or security group to be given access.
     
-    2.  If you are giving access to a trusted application computer, click the **Object Types** button, check **Computers**, click **OK**, and then type the computer name.
+    2.  If you're giving access to a trusted application computer, click the **Object Types** button, check **Computers**, click **OK**, and then type the computer name.
 
 8.  Click **Check Names** to double-check.
 
@@ -276,7 +276,7 @@ In the following procedure, the friendly name of the requested certificate will 
 
 ### Requesting a certificate using the certsrv Web interface
 
-To perform the steps in the following procedure, you must be a Domain Administrator on the computer running Active Directory Certificate Services. In this procedure you are configuring the certificate authority to allow Subject Alternative Names (SANs) in certificates.
+To perform the steps in the following procedure, you must be a Domain Administrator on the computer running Active Directory Certificate Services. In this procedure you're configuring the certificate authority to allow Subject Alternative Names (SANs) in certificates.
 
 1.  On the **Start** menu, click **Run**.
 
@@ -290,7 +290,7 @@ To perform the steps in the following procedure, you must be a Domain Administra
     
     Enter net start certsvc, and then click **OK**.
 
-To perform the steps in the following procedure, you must be in the Lync Server 2013 Administrator or Trusted Application Operator role. In this procedure you are requesting the certificate using the certsrv web interface. In the following example, the friendly name of the requested certificate will be set to trustedapps.contoso.com Pool, the certificate authority is on the machine ca.contoso.com.
+To perform the steps in the following procedure, you must be in the Lync Server 2013 Administrator or Trusted Application Operator role. In this procedure you're requesting the certificate using the certsrv web interface. In the following example, the friendly name of the requested certificate will be set to trustedapps.contoso.com Pool, the certificate authority is on the machine ca.contoso.com.
 
 1.  Launch Internet Explorer.
 
@@ -342,7 +342,7 @@ To perform the steps in the following procedure, you must be in the Lync Server 
 
 ### Enabling a trusted application service account to access certificates in a local certificate store
 
-To perform the steps in the following procedure, you must be in Trusted Application Operator role. In this procedure, you are granting the intended user or security group access to the newly requested or imported certificate. One of the actions that must be performed is to find the certificate, which can be done using FindPrivateKey.exe. For more information, see [Find Private Key Tool (FindPrivateKey.exe)](http://msdn.microsoft.com/library/ms732026.aspx).
+To perform the steps in the following procedure, you must be in Trusted Application Operator role. In this procedure, you're granting the intended user or security group access to the newly requested or imported certificate. One of the actions that must be performed is to find the certificate, which can be done using FindPrivateKey.exe. For more information, see [Find Private Key Tool (FindPrivateKey.exe)](http://msdn.microsoft.com/library/ms732026.aspx).
 
 1.  On the **Start** menu, select **All Programs**, select **Accessories**, right-click **Command-Prompt**, and then click **Run as administrator**.
 

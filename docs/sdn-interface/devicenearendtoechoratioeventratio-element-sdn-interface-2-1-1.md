@@ -14,7 +14,7 @@ dev_langs:
 
 (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 
-Percentage of sessions the DeviceNearEndToEcho event was fired when the user speech is too low compared to the echo being captured which impacts the users experience because it limits how easy it is to interrupt a user. The situation can be improved by reducing speaker volume or moving the microphone closer to the speaker.
+Percentage of sessions the DeviceNearEndToEcho event was fired when the user speech is too low compared to the echo being captured which impacts the users experience because it limits how easy it's to interrupt a user. The situation can be improved by reducing speaker volume or moving the microphone closer to the speaker.
 
 ## Element information
 

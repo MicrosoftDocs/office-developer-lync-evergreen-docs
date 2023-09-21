@@ -119,7 +119,7 @@ Learn about Microsoft Lync Server 2013 Persistent Chat SDK terminology.
     Refers to allowed members as specified on a Persistent Chat room category. The scope (the allowed members) of a category is defined as the list of users and user groups from which members of the category may be selected. A user cannot be a member of a chat room unless he or she is in scope on the parent category. The scope rules extend to all child nodes of the category, thus giving the category manager the ability to insure that no chat room in his or her area contains members outside of the organizations he or she wishes to collaborate with.
 
   - **Snapshot**  
-    An object which briefly describes a Persistent Chat room and the active user count of the chat room. It is returned from many of the Browse operations in the Microsoft Lync Server 2013 Persistent Chat API.
+    An object which briefly describes a Persistent Chat room and the active user count of the chat room. It's returned from many of the Browse operations in the Microsoft Lync Server 2013 Persistent Chat API.
 
   - **Story**  
     A lengthy Persistent Chat room message that includes of a story title, and a long message. The long message is hidden in the chat display, but remains searchable, and viewable when a user clicks the corresponding link that is shown.

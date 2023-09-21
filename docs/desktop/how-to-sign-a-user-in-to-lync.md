@@ -120,7 +120,7 @@ If you want to transition the shared Lync endpoint from **Uninitialized** to **S
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.SignedOut</strong></p></td>
-<td><p>The sign out process is finished. If the client is in UI suppression mode, it is ready to be shut down</p></td>
+<td><p>The sign out process is finished. If the client is in UI suppression mode, it's ready to be shut down</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/jj275269(v=office.15)">Microsoft.Lync.Model.ClientState</a><strong>.ShuttingDown</strong></p></td>
@@ -145,9 +145,9 @@ The Lync sign in process is pretty reliable and only fails when the user has pro
 
 ### Incorrect user credentials are submitted
 
-The Lync client shows two distinct reactions to incorrect user credentials at sign-in time. It is simple to predict which behavior Lync will show and let you code for either behavior. If the client is in [UI suppression](ui-suppression.md) mode and the user tries to sign in with incorrect credentials, sign-in is interrupted and the [LyncClient.CredentialRequested](https://msdn.microsoft.com/library/jj267649\(v=office.15\)) event is raised. Use this event to ask the user to re-type their credentials and then submit the updated credentials to complete the sign in. You can see an example of this credential submission process below.
+The Lync client shows two distinct reactions to incorrect user credentials at sign-in time. It's simple to predict which behavior Lync will show and let you code for either behavior. If the client is in [UI suppression](ui-suppression.md) mode and the user tries to sign in with incorrect credentials, sign-in is interrupted and the [LyncClient.CredentialRequested](https://msdn.microsoft.com/library/jj267649\(v=office.15\)) event is raised. Use this event to ask the user to re-type their credentials and then submit the updated credentials to complete the sign in. You can see an example of this credential submission process below.
 
-If the client UI is not suppressed, no event is raised for incorrect credentials. Instead, the client remains in the **SigningIn** state until the user completes signing in by using the Lync client. If you passed a callback method in the **BeginSignIn** call, it isn’t invoked until the user is signed in. Once the sign in is completed, your application is notified that the state is now **SignedIn**.
+If the client UI is not suppressed, no event is raised for incorrect credentials. Instead, the client remains in the **SigningIn** state until the user completes signing in by using the Lync client. If you passed a callback method in the **BeginSignIn** call, it'sn’t invoked until the user is signed in. Once the sign in is completed, your application is notified that the state is now **SignedIn**.
 
 ### Unexpected user is signed in
 
@@ -157,7 +157,7 @@ To be sure that the right user is always signed in, verify that the three string
 
 ### Sign in and auto-recovery delay
 
-These delays are the result of network bandwidth or server utilization issues. For this reason, you can’t correct the problem at the client. Instead, use the [LyncClient.SignInDelayed](https://msdn.microsoft.com/library/jj293478\(v=office.15\)) event to tell the user about the status of the sign in operation and how long it is taking. The only way that you can cancel the sign in operation is to call the **BeginSignOut** method. Call this method if the user doesn’t want to continue waiting.
+These delays are the result of network bandwidth or server utilization issues. For this reason, you can’t correct the problem at the client. Instead, use the [LyncClient.SignInDelayed](https://msdn.microsoft.com/library/jj293478\(v=office.15\)) event to tell the user about the status of the sign in operation and how long it's taking. The only way that you can cancel the sign in operation is to call the **BeginSignOut** method. Call this method if the user doesn’t want to continue waiting.
 
 ### Lost network connectivity
 
@@ -188,7 +188,7 @@ The procedure in this section handles three of the most likely client states tha
 
 5.  If the client state is **SignedOut** then the Lync client is initialized and running as a background process or a first class client UI. Sign the user in by calling [LyncClient.BeginSignIn](https://msdn.microsoft.com/library/jj274512\(v=office.15\)) method.
     
-    Don’t worry about the **Initializing** state. It is transient and unless there is an OS fault, the transition from **Uninitialized** through **SignedOut** is a small fraction of a second. In the **Initializing** state, no API calls method calls are allowed.
+    Don’t worry about the **Initializing** state. It's transient and unless there is an OS fault, the transition from **Uninitialized** through **SignedOut** is a small fraction of a second. In the **Initializing** state, no API calls method calls are allowed.
 
 6.  If the state of the client is **SigningIn**, then the Lync process is waiting for a response from Lync Server 2013.
 
@@ -345,7 +345,7 @@ The [LyncClient.CredentialRequested](https://msdn.microsoft.com/library/jj267649
 
 2.  If the credential type is **LyncAutodiscover**, then one or more elements of the credentials that the user typed are not valid. Call the [LyncClient.BeginSignOut](https://msdn.microsoft.com/library/jj277581\(v=office.15\)) method to abandon the sign in process and then start to sign the user in again. Be sure to ask the user for credentials again.
     
-    Although you can call the [CredentialRequestedEventArgs.Submit](https://msdn.microsoft.com/library/jj276532\(v=office.15\)) method to submit a replacement user name and password, you can’t submit a sign in URL. If the original sign in URL was not correct, the only way you can correct it is to sign out and then start the sign in operation over again after getting new credentials.
+    Although you can call the [CredentialRequestedEventArgs.Submit](https://msdn.microsoft.com/library/jj276532\(v=office.15\)) method to submit a replacement user name and password, you can’t submit a sign in URL. If the original sign in URL was not correct, the only way you can correct it's to sign out and then start the sign in operation over again after getting new credentials.
     
     ```csharp
             /// <summary>

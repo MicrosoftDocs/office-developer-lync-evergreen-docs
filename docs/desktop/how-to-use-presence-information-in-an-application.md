@@ -40,7 +40,7 @@ Additional resources</p></td>
 
 ## Presence overview
 
-If you have created a WPF or Silverlight page that uses Microsoft Lync 2013 Controls to start conversations with other users, you do not have to have the concepts in this topic. The Lync Controls implement these concepts to allow a new conversation to be started in an available modality if the intended user is willing and able to communicate. If you are creating a window that does not use Lync 2013 Controls, but makes calls into the Microsoft Lync 2013 API to obtain the presence of a user, this topic describes how to do this.
+If you have created a WPF or Silverlight page that uses Microsoft Lync 2013 Controls to start conversations with other users, you do not have to have the concepts in this topic. The Lync Controls implement these concepts to allow a new conversation to be started in an available modality if the intended user is willing and able to communicate. If you're creating a window that does not use Lync 2013 Controls, but makes calls into the Microsoft Lync 2013 API to obtain the presence of a user, this topic describes how to do this.
 
 ## Prerequisites
 

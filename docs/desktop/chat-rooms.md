@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Core concepts](images/JJ933133.mod_icon_CoreConcepts_long(Office.15).png "Core concepts")
 
-Learn about the Persistent Chat followed room feature as it is implemented in Microsoft Lync 2013 SDK.
+Learn about the Persistent Chat followed room feature as it's implemented in Microsoft Lync 2013 SDK.
 
 
 

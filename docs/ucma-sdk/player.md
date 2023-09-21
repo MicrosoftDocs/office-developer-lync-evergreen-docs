@@ -100,7 +100,7 @@ The essential points of creating and using a **Player** instance are shown in th
 
 11. Stop the player, using the player’s [Stop](https://msdn.microsoft.com/library/hh350156\(v=office.15\)) method.
 
-12. Close the source, using the [Close](https://msdn.microsoft.com/library/hh384406\(v=office.15\)) method on the **WmaFileSource** instance. An application must close the source when it is no longer needed. A source that is not closed can result in a memory leak.
+12. Close the source, using the [Close](https://msdn.microsoft.com/library/hh384406\(v=office.15\)) method on the **WmaFileSource** instance. An application must close the source when it's no longer needed. A source that is not closed can result in a memory leak.
 
 13. Detach the flow, using the player’s [DetachFlow](https://msdn.microsoft.com/library/hh383520\(v=office.15\)) method.
 
@@ -196,7 +196,7 @@ public void Run()
   // 11) Stop the player.
   player.Stop();
 
-  // 12) Source must be closed after it is no longer needed, otherwise memory will not be released even after garbage collection.
+  // 12) Source must be closed after it's no longer needed, otherwise memory will not be released even after garbage collection.
   source.Close();
 
   // 13) Player must be detached from the flow, otherwise if the player is rooted, it will keep the flow in memory.

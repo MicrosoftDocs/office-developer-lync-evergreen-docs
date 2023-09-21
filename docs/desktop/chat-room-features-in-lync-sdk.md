@@ -42,9 +42,9 @@ The following table describes the new Persistent Chat features in Microsoft Lync
 <tbody>
 <tr class="odd">
 <td><p>Chat room add-in</p></td>
-<td><p>The add-in application feature lets you create a Silverlight add-in application that is hosted in a Lync 2013 host chat room. The hosting chat room starts one associated add-in in a window extension when a user opens the chat room window. The Lync 2013 API gives the hosted add-in access to the room and all message history in the room. This includes message text entered by the local user before it is posted to the room. This pending message text can be intercepted and altered or canceled.<br />
+<td><p>The add-in application feature lets you create a Silverlight add-in application that is hosted in a Lync 2013 host chat room. The hosting chat room starts one associated add-in in a window extension when a user opens the chat room window. The Lync 2013 API gives the hosted add-in access to the room and all message history in the room. This includes message text entered by the local user before it's posted to the room. This pending message text can be intercepted and altered or canceled.<br />
 <br />
-Use the message-related API to format and filter message text before it is posted to a room. In addition, an add-in can programmatically generate room messages to be posted to the hosting room on behalf of the local user. If a middle-tier bot has joined the room, an add-in can listen for messages from the bot and then reformat the messages as human-friendly text and display the message directly in the add-in. For information about creating an add-in, see <a href="get-started-with-persistent-chat.md">Get started with Persistent Chat</a>.</p>
+Use the message-related API to format and filter message text before it's posted to a room. In addition, an add-in can programmatically generate room messages to be posted to the hosting room on behalf of the local user. If a middle-tier bot has joined the room, an add-in can listen for messages from the bot and then reformat the messages as human-friendly text and display the message directly in the add-in. For information about creating an add-in, see <a href="get-started-with-persistent-chat.md">Get started with Persistent Chat</a>.</p>
 <p></p></td>
 </tr>
 <tr class="even">

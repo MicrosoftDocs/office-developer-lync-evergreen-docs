@@ -51,7 +51,7 @@ A distribution group can contain other distribution groups in addition to a coll
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>A distribution group that contains a set of deeply nested distribution groups can quickly use up computer resources if automatically expanded to the deepest level. It is better to display the contacts in the top level distribution group plus the unexpanded distribution groups at that level. Let a user select an individual distribution group to expand to the next level and then display the users and groups at that level.</p></td>
+<td><p>A distribution group that contains a set of deeply nested distribution groups can quickly use up computer resources if automatically expanded to the deepest level. It's better to display the contacts in the top level distribution group plus the unexpanded distribution groups at that level. Let a user select an individual distribution group to expand to the next level and then display the users and groups at that level.</p></td>
 </tr>
 </tbody>
 </table>
@@ -83,7 +83,7 @@ A distribution group can contain other distribution groups in addition to a coll
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>A distribution group that contains a set of deeply nested distribution groups can quickly use up computer resources if automatically expanded to the deepest level. It is better to display the contacts in the top level distribution group plus the unexpanded distribution groups at that level. Let a user select an individual distribution group to expand to the next level and then display the users and groups at that level.</p></td>
+<td><p>A distribution group that contains a set of deeply nested distribution groups can quickly use up computer resources if automatically expanded to the deepest level. It's better to display the contacts in the top level distribution group plus the unexpanded distribution groups at that level. Let a user select an individual distribution group to expand to the next level and then display the users and groups at that level.</p></td>
 </tr>
 </tbody>
 </table>

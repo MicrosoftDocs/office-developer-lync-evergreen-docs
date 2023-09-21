@@ -90,7 +90,7 @@ The **Source** property expects the following types of localizable strings:
 <ul>
 <li><p>If the value is a string that does not contain the sip: prefix, the control performs a search, using the string specified as a search criteria, and loads the first contact in the result set matching the specified string. This behavior is not deterministic and yields the slowest performance.</p></li>
 <li><p>If the value is a SIP URI string qualified by the sip: prefix, the contact is loaded using an exact match of the specified URI. This behavior is deterministic and yields better performance.</p></li>
-<li><p>If the value is a <a href="https://msdn.microsoft.com/library/jj266463(v=office.15)">Contact</a> or <a href="https://msdn.microsoft.com/library/jj293432(v=office.15)">DistributionGroup</a> object, it is used without any changes. This behavior is deterministic and yields the best performance.</p></li>
+<li><p>If the value is a <a href="https://msdn.microsoft.com/library/jj266463(v=office.15)">Contact</a> or <a href="https://msdn.microsoft.com/library/jj293432(v=office.15)">DistributionGroup</a> object, it's used without any changes. This behavior is deterministic and yields the best performance.</p></li>
 </ul></td>
 </tr>
 </tbody>

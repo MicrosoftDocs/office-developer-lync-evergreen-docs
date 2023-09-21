@@ -23,7 +23,7 @@ The Microsoft Lync Server 2013 Persistent Chat API includes built-in logging cap
 
 
 
-The Lync Server 2013 Logging Tool, OcsLogger.exe, it is included in the Microsoft Unified Communications Managed API 4.0 SDK and is located in the %programfiles%\\Microsoft UCMA 4.0\\Core\\Tracing folder.
+The Lync Server 2013 Logging Tool, OcsLogger.exe, it's included in the Microsoft Unified Communications Managed API 4.0 SDK and is located in the %programfiles%\\Microsoft UCMA 4.0\\Core\\Tracing folder.
 
 ### To log traces and messages in a Lync Server 2013 Persistent Chat API application by using the Logging Tool
 

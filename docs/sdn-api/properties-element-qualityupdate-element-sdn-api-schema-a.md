@@ -186,7 +186,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <tr class="odd">
 <td><p><a href="appliedbandwidthlimit-element-sdn-api-schema-a.md">AppliedBandwidthLimit</a></p></td>
 <td><p>xs:unsignedInt</p></td>
-<td><p>Displays the limits applied. It is provided only in QualityUpdate events when Call Admission Control is used.</p></td>
+<td><p>Displays the limits applied. It's provided only in QualityUpdate events when Call Admission Control is used.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bitrateavg-element-sdn-api-schema-a.md">BitRateAvg</a></p></td>
@@ -201,7 +201,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <tr class="even">
 <td><p><a href="burstdensity-element-sdn-api-schema-a.md">BurstDensity</a></p></td>
 <td><p>Not defined</p></td>
-<td><p>Average burst density, as specified in [RFC3611] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. The fraction of RTP data packets within burst periods since the beginning of reception that were either lost or discarded. This value is expressed as a fixed point number with the binary point at the left edge of the field. It is calculated by dividing the total number of packets lost or discarded (excluding duplicate packet discards) within burst periods by the total number of packets expected within the burst periods, multiplying the result of the division by 256, limiting the maximum value to 255 (to avoid overflow), and taking the integer part. This field MUST be populated and MUST be set to zero if no packets have been received.</p></td>
+<td><p>Average burst density, as specified in [RFC3611] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. The fraction of RTP data packets within burst periods since the beginning of reception that were either lost or discarded. This value is expressed as a fixed point number with the binary point at the left edge of the field. It's calculated by dividing the total number of packets lost or discarded (excluding duplicate packet discards) within burst periods by the total number of packets expected within the burst periods, multiplying the result of the division by 256, limiting the maximum value to 255 (to avoid overflow), and taking the integer part. This field MUST be populated and MUST be set to zero if no packets have been received.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="burstduration-element-sdn-api-schema-a.md">BurstDuration</a></p></td>

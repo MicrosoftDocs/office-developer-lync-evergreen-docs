@@ -155,7 +155,7 @@ This element has no text value.
 
 ## Remarks
 
-A calendarData category instance element can contain either a **WorkingHours** child element or a **freeBusy** child element or both. Microsoft Lync 2013 uses separate calendarData elements for WorkingHours and freeBusy. It can be an empty element, especially when it is used to block remote users from accessing the local user’s calendar data.
+A calendarData category instance element can contain either a **WorkingHours** child element or a **freeBusy** child element or both. Microsoft Lync 2013 uses separate calendarData elements for WorkingHours and freeBusy. It can be an empty element, especially when it's used to block remote users from accessing the local user’s calendar data.
 
 ## Example
 

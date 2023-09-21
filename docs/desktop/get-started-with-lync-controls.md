@@ -53,7 +53,7 @@ The prerequisites for working with Lync Controls are as follows:
 
 ### Lync Controls essentials
 
-To understand how to work with Lync Controls, it is important to become familiar with the concepts in the following table.
+To understand how to work with Lync Controls, it's important to become familiar with the concepts in the following table.
 
 <table>
 <colgroup>

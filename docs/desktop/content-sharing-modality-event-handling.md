@@ -54,7 +54,7 @@ In addition, the **ContentSharingModality** raises all the events that it inheri
 
 ### ContentAdded event
 
-A presenter has added a new shareable content item to the content bin. The [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\)) event should be used to update your client UI with the title of a new content bin item. The event data state object provides a reference to the new [ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) object. You should register for events on the **ShareableContent** object when it is added to the content bin.
+A presenter has added a new shareable content item to the content bin. The [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\)) event should be used to update your client UI with the title of a new content bin item. The event data state object provides a reference to the new [ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) object. You should register for events on the **ShareableContent** object when it's added to the content bin.
 
 The following example adds the title of the new content to a list in the UI and then enables a command button.
 

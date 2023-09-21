@@ -38,7 +38,7 @@ The following code example shows how to use the Lync Server 2013 Persistent Chat
 
 
 > [!NOTE]
-> <P>An RTF message is sent along with a plain text message. When done this way, any legacy Persistent Chat client can still receive the chat message even if it is not RTF-enabled.</P>
+> <P>An RTF message is sent along with a plain text message. When done this way, any legacy Persistent Chat client can still receive the chat message even if it's not RTF-enabled.</P>
 
 
 

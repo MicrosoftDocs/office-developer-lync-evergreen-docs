@@ -58,7 +58,7 @@ Users report errors like "\<object\> does not contain a definition for ‘GetHos
 
 When trying to access the [LyncClient.GetClient](https://msdn.microsoft.com/library/office/microsoft.lync.model.lyncclient.getclient_di_3_uc_ocs14mreflyncctrsl.aspx) method, you may receive a null object or an error 'RPC Server is unavailable (0x800706BA)'. If the Lync client process is shut down and restarted you do not get a valid Lync client object at least until a user is logged in, and there may also be a short delay past that moment.
 
-One workaround is to get a property value from the client after it is invalid. This should cause an exception, and at that time Lync should invalidate the cached object. A valid client should now be available. Also, consider using code such as the following simple loop:
+One workaround is to get a property value from the client after it's invalid. This should cause an exception, and at that time Lync should invalidate the cached object. A valid client should now be available. Also, consider using code such as the following simple loop:
 
 ```csharp
     _lyncClient = LyncClient.GetClient();

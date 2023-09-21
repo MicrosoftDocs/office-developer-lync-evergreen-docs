@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Unified Communications Enhanced Presence Schemas for Lync Server 2013 documentation
 
 
-Microsoft Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2013 documents the Microsoft Lync Server 2013 enhanced presence subsystem that is used to support presence-aware applications. It is intended for application developers who publish or subscribe to enhanced presence in a Lync Server 2013 deployment with or without Microsoft Lync 2013 interoperability.
+Microsoft Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2013 documents the Microsoft Lync Server 2013 enhanced presence subsystem that is used to support presence-aware applications. It's intended for application developers who publish or subscribe to enhanced presence in a Lync Server 2013 deployment with or without Microsoft Lync 2013 interoperability.
 
 
 

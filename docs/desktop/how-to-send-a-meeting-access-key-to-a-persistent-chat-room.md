@@ -85,7 +85,7 @@ Use Lync 2013 API automation to start an audio conference that people can join f
             }
     ```
 
-4.  Get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) object and register for the [Conversation.PropertyChanged](https://msdn.microsoft.com/library/jj276330\(v=office.15\)) event so that you are notified when the access key property is available.
+4.  Get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) object and register for the [Conversation.PropertyChanged](https://msdn.microsoft.com/library/jj276330\(v=office.15\)) event so that you're notified when the access key property is available.
 
 ## Post the meeting access key to a chat room
 
@@ -269,7 +269,7 @@ Now that you have the access key to the new audio conference, you can post the k
 
 The meet-now access manager uses automation to start a new meet-now meeting with no participants. It launches a Lync 2013 conversation window, which requires that the Lync UI is not suppressed. After the meeting is started and the access key is shown in the middle text box, a user can click the **Post Meeting Key** button to post the key to the first followed Persistent Chat room.
 
-Figure 1 shows the meet now access manager. This application starts new meet-now meetings and lets a user post the access key to a followed chat room, set the meeting access type, and let users in from the meeting lobby.
+Figure 1 shows the meet now access manager. This application starts new meet-now meetings and lets a user post the access key to a followed chat room, set the meeting access type, and let'sers in from the meeting lobby.
 
 ![Meeting access manager with access key shown](images/JJ933163.LyncClientSDK_MeetingAccessKey(Office.15).jpg "Meeting access manager with access key shown")
 
