@@ -2,7 +2,7 @@
 title: DegradationJitterAvg element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DegradationJitterAvg element
 ms:assetid: 7457e92d-92f3-36a2-2dba-aa50ebdf87b7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912707(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912707(v=office.15)
 ms:contentKeyID: 64126877
 ms.date: 02/16/2015
 mtps_version: v=office.15

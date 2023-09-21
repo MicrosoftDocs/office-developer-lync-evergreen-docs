@@ -2,7 +2,7 @@
 title: Ended element (MessageType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Ended element
 ms:assetid: b62db6fd-429d-c840-ac63-e9f2a8fec9b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912727(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912727(v=office.15)
 ms:contentKeyID: 64126900
 ms.date: 02/16/2015
 mtps_version: v=office.15

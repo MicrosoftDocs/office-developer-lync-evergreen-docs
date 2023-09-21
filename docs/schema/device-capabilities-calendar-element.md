@@ -2,7 +2,7 @@
 title: device/capabilities/calendar element
 TOCTitle: device/capabilities/calendar element
 ms:assetid: 5212273a-f7c7-4adc-816c-10160b366580
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454743(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454743(v=office.15)
 ms:contentKeyID: 57093630
 ms.date: 07/24/2014
 mtps_version: v=office.15

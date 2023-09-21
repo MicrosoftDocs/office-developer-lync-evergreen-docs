@@ -2,7 +2,7 @@
 title: 'How to: Publish enhanced presence information'
 TOCTitle: 'How to: Publish enhanced presence information'
 ms:assetid: 2bc5760d-1b39-47fd-8f67-adf21bb83a16
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937288(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937288(v=office.15)
 ms:contentKeyID: 50877108
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -74,7 +74,7 @@ The prerequisites for publishing enhanced presence information are as follows:
 </tbody>
 </table>
 
-This process involves defining an array of contact information types and a Dictionary\<[PublishableContactInformationType](https://msdn.microsoft.com/en-us/library/jj293821\(v=office.15\)), object\> that holds the contact information to be published. Publishing a set of contact information items raises the [ContactInformationChanged](https://msdn.microsoft.com/en-us/library/jj275543\(v=office.15\)) event on the publishing contact. If the publishing contact is the local user, the event is raised both locally and for remote users who have subscribed to the local contact.
+This process involves defining an array of contact information types and a Dictionary\<[PublishableContactInformationType](https://msdn.microsoft.com/library/jj293821\(v=office.15\)), object\> that holds the contact information to be published. Publishing a set of contact information items raises the [ContactInformationChanged](https://msdn.microsoft.com/library/jj275543\(v=office.15\)) event on the publishing contact. If the publishing contact is the local user, the event is raised both locally and for remote users who have subscribed to the local contact.
 
 ## Publish enhanced presence information
 
@@ -84,23 +84,23 @@ The following illustration shows the classes, methods, and events used in the pr
 
 ### To publish enhanced presence information
 
-1.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
+1.  Get the [LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
     
     For information about signing in to Microsoft Lync Server 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-2.  Create a Dictionary\<[PublishableContactInformationType](https://msdn.microsoft.com/en-us/library/jj293821\(v=office.15\)), object\> of contact information types and the corresponding values to be updated.
+2.  Create a Dictionary\<[PublishableContactInformationType](https://msdn.microsoft.com/library/jj293821\(v=office.15\)), object\> of contact information types and the corresponding values to be updated.
     
-    The Dictionary you declare and instantiate is passed into [BeginPublishContactInformation](https://msdn.microsoft.com/en-us/library/jj278107\(v=office.15\)).
+    The Dictionary you declare and instantiate is passed into [BeginPublishContactInformation](https://msdn.microsoft.com/library/jj278107\(v=office.15\)).
 
-3.  Add a [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\)) and the corresponding publishable value to the dictionary you created previously.
+3.  Add a [ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\)) and the corresponding publishable value to the dictionary you created previously.
 
-4.  Read the [Self](https://msdn.microsoft.com/en-us/library/jj277589\(v=office.15\)) property to get an instance of [Self](https://msdn.microsoft.com/en-us/library/jj277683\(v=office.15\)).
+4.  Read the [Self](https://msdn.microsoft.com/library/jj277589\(v=office.15\)) property to get an instance of [Self](https://msdn.microsoft.com/library/jj277683\(v=office.15\)).
 
 5.  Optional: Declare and instantiate a state object such as a string and fill it with appropriate state information.
     
     The callback method you provide should access this state information to provide a context for the operation.
 
-6.  Call [BeginPublishContactInformation](https://msdn.microsoft.com/en-us/library/jj278107\(v=office.15\)), passing the dictionary, the callback method (or null), and the state object.
+6.  Call [BeginPublishContactInformation](https://msdn.microsoft.com/library/jj278107\(v=office.15\)), passing the dictionary, the callback method (or null), and the state object.
 
 ## Code examples: Publish presence information
 
@@ -177,7 +177,7 @@ The following example begins the asynchronous publication process.
         }
 ```
 
-The following example handles the [ContactInformationChanged](https://msdn.microsoft.com/en-us/library/jj275543\(v=office.15\)) event that is raised when the current contact information state changes. The example uses a message box to notify a user that presence has been updated and then removes the registration for [Contact](https://msdn.microsoft.com/en-us/library/jj275949\(v=office.15\)) information update events.
+The following example handles the [ContactInformationChanged](https://msdn.microsoft.com/library/jj275543\(v=office.15\)) event that is raised when the current contact information state changes. The example uses a message box to notify a user that presence has been updated and then removes the registration for [Contact](https://msdn.microsoft.com/library/jj275949\(v=office.15\)) information update events.
 
 ```csharp
         /// <summary>
@@ -202,7 +202,7 @@ The following example handles the [ContactInformationChanged](https://msdn.micro
 
 ### Reset availability to default contact availability
 
-To reset a user’s current availability to the default availability calculated by the Lync 2013 client, publish [ContactAvailability](https://msdn.microsoft.com/en-us/library/jj293978\(v=office.15\))**.None**.
+To reset a user’s current availability to the default availability calculated by the Lync 2013 client, publish [ContactAvailability](https://msdn.microsoft.com/library/jj293978\(v=office.15\))**.None**.
 
 ```csharp
         /// <summary>

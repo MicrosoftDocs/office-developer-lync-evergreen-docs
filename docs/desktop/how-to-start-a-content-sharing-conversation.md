@@ -2,7 +2,7 @@
 title: 'How to: Start a content sharing conversation'
 TOCTitle: 'How to: Start a content sharing conversation'
 ms:assetid: 5d48bccd-59b4-488f-9d47-2639a19e21df
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933060(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933060(v=office.15)
 ms:contentKeyID: 50877190
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -113,7 +113,7 @@ Understanding the following concepts is essential to using content sharing conve
 
 ## Set the application state
 
-Before the logic in this topic runs in your application, the Lync 2013 client must be running. Your application must hold a reference to the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) object in a class field and have an event callback registered on the [Client.StateChanged](https://msdn.microsoft.com/en-us/library/jj276368\(v=office.15\)) event.
+Before the logic in this topic runs in your application, the Lync 2013 client must be running. Your application must hold a reference to the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) object in a class field and have an event callback registered on the [Client.StateChanged](https://msdn.microsoft.com/library/jj276368\(v=office.15\)) event.
 
 ### Code example: Namespace declarations
 
@@ -145,7 +145,7 @@ Add the following class field declarations to your application.
 
 ### Code example: Form load event
 
-The following example signs the user in to Lync 2013 and registers event callback methods for the client and conversation manager events handled by the sample. The [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event is raised when the state of the [ConversationManager.Conversations](https://msdn.microsoft.com/en-us/library/jj276776\(v=office.15\)) property changes as a new conversation is started. For information about how to sign in to Lync 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
+The following example signs the user in to Lync 2013 and registers event callback methods for the client and conversation manager events handled by the sample. The [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event is raised when the state of the [ConversationManager.Conversations](https://msdn.microsoft.com/library/jj276776\(v=office.15\)) property changes as a new conversation is started. For information about how to sign in to Lync 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
 This code is added to the **Load** event handler for your form.
 
@@ -195,11 +195,11 @@ This code is added to the **Load** event handler for your form.
 
 ## Start a conversation
 
-Before starting a conversation, make sure that you register an event handler for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
+Before starting a conversation, make sure that you register an event handler for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event.
 
 ### To start a conversation
 
-1.  Create a new conversation by calling the [ConversationManager.AddConversation](https://msdn.microsoft.com/en-us/library/jj276176\(v=office.15\)) method.
+1.  Create a new conversation by calling the [ConversationManager.AddConversation](https://msdn.microsoft.com/library/jj276176\(v=office.15\)) method.
 
 2.  Register for events on the new conversation and add a user.
 
@@ -209,7 +209,7 @@ For information about starting a new IM conversation, see [How to: Start a Lync 
 
 ### Code example: Add a conversation
 
-The following example creates a conversation. The conversation is not started until a remote participant is added and initial IM text is sent. When the state of the [ConversationManager.Conversations](https://msdn.microsoft.com/en-us/library/jj276776\(v=office.15\)) property changes with the addition of the new conversation, the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event is raised.
+The following example creates a conversation. The conversation is not started until a remote participant is added and initial IM text is sent. When the state of the [ConversationManager.Conversations](https://msdn.microsoft.com/library/jj276776\(v=office.15\)) property changes with the addition of the new conversation, the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event is raised.
 
 Add this code to the **Click** event handler of a button on your form.
 
@@ -219,7 +219,7 @@ Add this code to the **Click** event handler of a button on your form.
 
 ### Code example: Conversation event registration
 
-The following example registers for events on the new conversation and content sharing modality and then adds a participant. After the new participant is added, the [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event callback is invoked.
+The following example registers for events on the new conversation and content sharing modality and then adds a participant. After the new participant is added, the [Conversation.ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) event callback is invoked.
 
 <table>
 <colgroup>
@@ -232,13 +232,13 @@ The following example registers for events on the new conversation and content s
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Adding a participant to a conversation is creating a reference to a locally cached <a href="https://msdn.microsoft.com/en-us/library/jj267311(v=office.15)">Microsoft.Lync.Model.Conversation.Participant</a> object and then adding the reference to the <a href="https://msdn.microsoft.com/en-us/library/jj293292(v=office.15)">Conversation.Participants</a> property of the conversation.</p>
-<p>To create an invitation that Lync Server 2013 sends to the user being invited to the conversation, send an IM message from the <a href="https://msdn.microsoft.com/en-us/library/jj266036(v=office.15)">Microsoft.Lync.Model.Conversation.InstantMessageModality</a> object in the conversation. Sending the initial IM text also starts the conversation.</p></td>
+<td><p>Adding a participant to a conversation is creating a reference to a locally cached <a href="https://msdn.microsoft.com/library/jj267311(v=office.15)">Microsoft.Lync.Model.Conversation.Participant</a> object and then adding the reference to the <a href="https://msdn.microsoft.com/library/jj293292(v=office.15)">Conversation.Participants</a> property of the conversation.</p>
+<p>To create an invitation that Lync Server 2013 sends to the user being invited to the conversation, send an IM message from the <a href="https://msdn.microsoft.com/library/jj266036(v=office.15)">Microsoft.Lync.Model.Conversation.InstantMessageModality</a> object in the conversation. Sending the initial IM text also starts the conversation.</p></td>
 </tr>
 </tbody>
 </table>
 
-Add the following code to the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event callback method.
+Add the following code to the [ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event callback method.
 
 ```csharp
 if (_conversation == e.Conversation)
@@ -264,7 +264,7 @@ if (_conversation == e.Conversation)
 
 ### Code example: Participant event registration
 
-The following example registers for the new participant’s [ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event and sends the first IM text if the new participant is not the local participant. The initial IM text forms the text of the invitation that the new user sees.
+The following example registers for the new participant’s [ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) event and sends the first IM text if the new participant is not the local participant. The initial IM text forms the text of the invitation that the new user sees.
 
 <table>
 <colgroup>
@@ -277,13 +277,13 @@ The following example registers for the new participant’s [ActionAvailabilityC
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>By registering for the <a href="https://msdn.microsoft.com/en-us/library/jj293249(v=office.15)">ActionAvailabilityChanged</a> event on the added participant’s content sharing modality, your application is notified if the local user is invited to share content presented by another participant.</p>
-<p>If another participant invites the local participant to share content, call the <a href="https://msdn.microsoft.com/en-us/library/jj276123(v=office.15)">Modality.Accept</a> method on that participant’s content sharing modality. If the invitation is accepted, the conversation content sharing modality is automatically connected by the platform.</p></td>
+<td><p>By registering for the <a href="https://msdn.microsoft.com/library/jj293249(v=office.15)">ActionAvailabilityChanged</a> event on the added participant’s content sharing modality, your application is notified if the local user is invited to share content presented by another participant.</p>
+<p>If another participant invites the local participant to share content, call the <a href="https://msdn.microsoft.com/library/jj276123(v=office.15)">Modality.Accept</a> method on that participant’s content sharing modality. If the invitation is accepted, the conversation content sharing modality is automatically connected by the platform.</p></td>
 </tr>
 </tbody>
 </table>
 
-Add this code to your callback on the [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event.
+Add this code to your callback on the [Conversation.ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) event.
 
 ```csharp
 ((Modality)e.Participant.Modalities[ModalityTypes.ContentSharing]).ActionAvailabilityChanged += _ParticipantsharingModality_ActionAvailabilityChanged;
@@ -307,22 +307,22 @@ if (!e.Participant.IsSelf)
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Do not register the same event callback method for both the conversation and participant’s <a href="https://msdn.microsoft.com/en-us/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a> event.</p></td>
+<td><p>Do not register the same event callback method for both the conversation and participant’s <a href="https://msdn.microsoft.com/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a> event.</p></td>
 </tr>
 </tbody>
 </table>
 
 ## Connect the ContentSharingModality object in a conversation
 
-Connect the [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) object in the conversation modalities collection before uploading a whiteboard to a conversation and then sharing it. You can connect the **ContentSharingModality** at any time after the conversation state is [ConversationState](https://msdn.microsoft.com/en-us/library/jj277587\(v=office.15\))**.Active**.
+Connect the [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/library/jj266998\(v=office.15\)) object in the conversation modalities collection before uploading a whiteboard to a conversation and then sharing it. You can connect the **ContentSharingModality** at any time after the conversation state is [ConversationState](https://msdn.microsoft.com/library/jj277587\(v=office.15\))**.Active**.
 
-After you call the [Modality.BeginConnect](https://msdn.microsoft.com/en-us/library/jj268193\(v=office.15\)) Method, the state of the modality changes from [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Disconnected** to [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Connecting** and then to [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Connected**.
+After you call the [Modality.BeginConnect](https://msdn.microsoft.com/library/jj268193\(v=office.15\)) Method, the state of the modality changes from [ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Disconnected** to [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Connecting** and then to [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Connected**.
 
 ### Code example: Content sharing modality connect
 
-The following example verifies that the content sharing modality state allows the connect action and then calls the [Modality.BeginConnect](https://msdn.microsoft.com/en-us/library/jj268193\(v=office.15\)) method. A lambda expression is used instead of a callback method in this example.
+The following example verifies that the content sharing modality state allows the connect action and then calls the [Modality.BeginConnect](https://msdn.microsoft.com/library/jj268193\(v=office.15\)) method. A lambda expression is used instead of a callback method in this example.
 
-Add the following code to the [Conversation.StateChanged](https://msdn.microsoft.com/en-us/library/jj278070\(v=office.15\)) event callback method.
+Add the following code to the [Conversation.StateChanged](https://msdn.microsoft.com/library/jj278070\(v=office.15\)) event callback method.
 
 ```csharp
 If (e.NewState == ConversationState.Active)
@@ -342,7 +342,7 @@ If (e.NewState == ConversationState.Active)
 
 The following example enables or disables the content-sharing action UI buttons on the sample form according to the current availability of a content sharing modality action.
 
-The sample application declares a UI button for each content-sharing modality action. By default, these buttons are disabled. When a modality action is available, the corresponding command button is enabled. These action state changes are reflected in the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event that is raised on the platform thread. To update the property of a control on the UI thread, code on the platform thread must create an instance of a delegate method and then invoke that delegate on the UI thread.
+The sample application declares a UI button for each content-sharing modality action. By default, these buttons are disabled. When a modality action is available, the corresponding command button is enabled. These action state changes are reflected in the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) event that is raised on the platform thread. To update the property of a control on the UI thread, code on the platform thread must create an instance of a delegate method and then invoke that delegate on the UI thread.
 
 ```csharp
         /// <summary>
@@ -424,17 +424,17 @@ Lync 2013 API conversation objects
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj274980(v=office.15)">Microsoft.Lync.Model.LyncClient</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj274980(v=office.15)">Microsoft.Lync.Model.LyncClient</a></p></td>
 <td><p>Client platform API entry point.</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275269(v=office.15)">ClientState</a><strong>.SignedIn</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj275269(v=office.15)">ClientState</a><strong>.SignedIn</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj276988(v=office.15)">Microsoft.Lync.Model.Conversation.Conversation</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj276988(v=office.15)">Microsoft.Lync.Model.Conversation.Conversation</a></p></td>
 <td><p>The content sharing conversation.</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277587(v=office.15)">ConversationState</a><strong>.Active</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277587(v=office.15)">ConversationState</a><strong>.Active</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj266998(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj266998(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality</a></p></td>
 <td><p>The conversation content sharing modality.</p>
 <div class="alert">
 <table>
@@ -453,7 +453,7 @@ Lync 2013 API conversation objects
 </tbody>
 </table>
 </div></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj293265(v=office.15)">ModalityState</a><strong>.Connected</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj293265(v=office.15)">ModalityState</a><strong>.Connected</strong></p></td>
 </tr>
 </tbody>
 </table>

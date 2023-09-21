@@ -2,7 +2,7 @@
 title: userProperties category instance value element
 TOCTitle: userProperties category instance value element
 ms:assetid: 119f5981-8205-43a4-8cbd-d6df439fba8d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438963(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438963(v=office.15)
 ms:contentKeyID: 57094001
 ms.date: 07/24/2014
 mtps_version: v=office.15

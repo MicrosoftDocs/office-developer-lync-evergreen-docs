@@ -2,7 +2,7 @@
 title: Remotely accessible category instances
 TOCTitle: Remotely accessible category instances
 ms:assetid: d62d52cd-77bc-4f3d-b608-1297d4fe0380
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454662(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454662(v=office.15)
 ms:contentKeyID: 57092993
 ms.date: 07/24/2014
 mtps_version: v=office.15

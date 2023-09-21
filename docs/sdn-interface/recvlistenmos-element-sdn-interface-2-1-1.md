@@ -2,7 +2,7 @@
 title: RecvListenMOS element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RecvListenMOS element
 ms:assetid: 3f9da170-2c75-aa1a-6156-d90d83e1db05
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912793(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912793(v=office.15)
 ms:contentKeyID: 64126962
 ms.date: 02/16/2015
 mtps_version: v=office.15

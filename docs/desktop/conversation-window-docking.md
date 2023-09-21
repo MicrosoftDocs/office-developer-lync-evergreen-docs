@@ -2,7 +2,7 @@
 title: Conversation window docking
 TOCTitle: Conversation window docking
 ms:assetid: 5ad30515-ac94-4db7-b87a-742c1a772d60
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933053(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933053(v=office.15)
 ms:contentKeyID: 50877182
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -78,7 +78,7 @@ The conversation window exposes two events related to docking. The first event i
 
 ### NeedsSizeChange event
 
-The [ConversationWindow.NeedsSizeChange](https://msdn.microsoft.com/en-us/library/jj277925\(v=office.15\)) event is raised when a conversation participant has changed the size of the conversation window by adding a visual element such as a video window or the content sharing stage. The event is raised whether the parent container control is large enough to contain the new size of the conversation window or not. If the surface area of the parent container control is not large enough to contain the resized conversation window, then the conversation window automatically undocks five seconds after the event is raised. To avoid undocking the conversation window, use the event callback method to resize the container control by setting its dimensions to either the minimum size or recommended size specified in the event data.
+The [ConversationWindow.NeedsSizeChange](https://msdn.microsoft.com/library/jj277925\(v=office.15\)) event is raised when a conversation participant has changed the size of the conversation window by adding a visual element such as a video window or the content sharing stage. The event is raised whether the parent container control is large enough to contain the new size of the conversation window or not. If the surface area of the parent container control is not large enough to contain the resized conversation window, then the conversation window automatically undocks five seconds after the event is raised. To avoid undocking the conversation window, use the event callback method to resize the container control by setting its dimensions to either the minimum size or recommended size specified in the event data.
 
 This event provides three sets of dimensions that you select among to set the new size of a container control. The three dimension sets include the following types:
 
@@ -92,7 +92,7 @@ The example found in [How to: Dock a conversation window in Lync SDK](how-to-doc
 
 ### NeedsAttention event
 
-This event can be raised when an application window does not have the focus and has docked a conversation window. The conversation window needs attention after a visual element of the conversation window is added, a new invitation prompt is displayed, or an IM message has arrived. The [ConversationWindow.NeedsAttention](https://msdn.microsoft.com/en-us/library/jj276832\(v=office.15\)) event is raised to signal the parent window that it must start flashing its border to warn the user.
+This event can be raised when an application window does not have the focus and has docked a conversation window. The conversation window needs attention after a visual element of the conversation window is added, a new invitation prompt is displayed, or an IM message has arrived. The [ConversationWindow.NeedsAttention](https://msdn.microsoft.com/library/jj276832\(v=office.15\)) event is raised to signal the parent window that it must start flashing its border to warn the user.
 
 ## See also
 

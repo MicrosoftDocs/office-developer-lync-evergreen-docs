@@ -2,7 +2,7 @@
 title: ConversationId element  (Lync SDN API Schema A)
 TOCTitle: ConversationId element
 ms:assetid: d6affa3d-1983-880a-8fdf-f310b7026d3f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455007(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455007(v=office.15)
 ms:contentKeyID: 57260883
 ms.date: 07/24/2014
 mtps_version: v=office.15

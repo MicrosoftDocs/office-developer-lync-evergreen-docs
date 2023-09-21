@@ -2,7 +2,7 @@
 title: ReflexivePort element (EndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: ReflexivePort element (EndPointType complexType)
 ms:assetid: c688d5ce-f50f-6c47-143c-ec8ddb6ba6f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912800(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912800(v=office.15)
 ms:contentKeyID: 64126969
 ms.date: 02/16/2015
 mtps_version: v=office.15

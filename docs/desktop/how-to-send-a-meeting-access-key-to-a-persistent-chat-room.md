@@ -2,7 +2,7 @@
 title: 'How to: Send a meeting access key to a Persistent Chat room'
 TOCTitle: 'How to: Send a meeting access key to a Persistent Chat room'
 ms:assetid: abb71964-129c-4540-96f1-0854c928cdc6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933163(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933163(v=office.15)
 ms:contentKeyID: 50877303
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -53,11 +53,11 @@ Use Lync 2013 API automation to start an audio conference that people can join f
 
 ### To start the meeting
 
-1.  Call the static [LyncClient.GetAutomation](https://msdn.microsoft.com/en-us/library/jj266970\(v=office.15\)) method to obtain the [Microsoft.Lync.Model.Extensibility.Automation](https://msdn.microsoft.com/en-us/library/jj293816\(v=office.15\)) object.
+1.  Call the static [LyncClient.GetAutomation](https://msdn.microsoft.com/library/jj266970\(v=office.15\)) method to obtain the [Microsoft.Lync.Model.Extensibility.Automation](https://msdn.microsoft.com/library/jj293816\(v=office.15\)) object.
 
-2.  Call the [Automation.BeginMeetNow](https://msdn.microsoft.com/en-us/library/jj277161\(v=office.15\)) method to start the meet-now meeting.
+2.  Call the [Automation.BeginMeetNow](https://msdn.microsoft.com/library/jj277161\(v=office.15\)) method to start the meet-now meeting.
 
-3.  In the callback method or lambda expression passed as the second argument in the previous method call, call the [Automation.EndMeetNow](https://msdn.microsoft.com/en-us/library/jj278119\(v=office.15\)) method and cache the [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) object that encapsulates the new meeting.
+3.  In the callback method or lambda expression passed as the second argument in the previous method call, call the [Automation.EndMeetNow](https://msdn.microsoft.com/library/jj278119\(v=office.15\)) method and cache the [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/library/jj293606\(v=office.15\)) object that encapsulates the new meeting.
     
     ```csharp
             /// <summary>
@@ -85,7 +85,7 @@ Use Lync 2013 API automation to start an audio conference that people can join f
             }
     ```
 
-4.  Get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) object and register for the [Conversation.PropertyChanged](https://msdn.microsoft.com/en-us/library/jj276330\(v=office.15\)) event so that you are notified when the access key property is available.
+4.  Get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) object and register for the [Conversation.PropertyChanged](https://msdn.microsoft.com/library/jj276330\(v=office.15\)) event so that you are notified when the access key property is available.
 
 ## Post the meeting access key to a chat room
 
@@ -93,11 +93,11 @@ Now that you have the access key to the new audio conference, you can post the k
 
 ### To get the access key
 
-1.  In the [Conversation.PropertyChanged](https://msdn.microsoft.com/en-us/library/jj276330\(v=office.15\)) event callback method, read the [ConversationPropertyChangedEventArgs.Property](https://msdn.microsoft.com/en-us/library/jj277087\(v=office.15\)) to get the conversation property that has changed.
+1.  In the [Conversation.PropertyChanged](https://msdn.microsoft.com/library/jj276330\(v=office.15\)) event callback method, read the [ConversationPropertyChangedEventArgs.Property](https://msdn.microsoft.com/library/jj277087\(v=office.15\)) to get the conversation property that has changed.
     
-    If the changed property is the [ConversationProperty](https://msdn.microsoft.com/en-us/library/jj266982\(v=office.15\))**.ConferenceAccessInformation** property, continue this procedure.
+    If the changed property is the [ConversationProperty](https://msdn.microsoft.com/library/jj266982\(v=office.15\))**.ConferenceAccessInformation** property, continue this procedure.
 
-2.  Get the [Microsoft.Lync.Model.Conversation.ConferenceAccessInformation](https://msdn.microsoft.com/en-us/library/jj266047\(v=office.15\)) object that encapsulates the access key.
+2.  Get the [Microsoft.Lync.Model.Conversation.ConferenceAccessInformation](https://msdn.microsoft.com/library/jj266047\(v=office.15\)) object that encapsulates the access key.
     
     The following example reads the event data value to get the conference access key.
     
@@ -178,9 +178,9 @@ Now that you have the access key to the new audio conference, you can post the k
 
 ### To post the access key to a chat room
 
-1.  Get the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) as the entry point to the managed object model.
+1.  Get the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) as the entry point to the managed object model.
 
-2.  Verify that the user is following at least one chat room by reading the **Count** property of the [RoomManager.FollowedRooms](https://msdn.microsoft.com/en-us/library/jj276520\(v=office.15\)) collection.
+2.  Verify that the user is following at least one chat room by reading the **Count** property of the [RoomManager.FollowedRooms](https://msdn.microsoft.com/library/jj276520\(v=office.15\)) collection.
 
 3.  Get one of the followed rooms.
     
@@ -200,7 +200,7 @@ Now that you have the access key to the new audio conference, you can post the k
     </tbody>
     </table>
 
-4.  Send the access key to the selected chat room by calling the [Room.BeginSendMessage](https://msdn.microsoft.com/en-us/library/jj293980\(v=office.15\)) method.
+4.  Send the access key to the selected chat room by calling the [Room.BeginSendMessage](https://msdn.microsoft.com/library/jj293980\(v=office.15\)) method.
     
     ```csharp
             /// <summary>

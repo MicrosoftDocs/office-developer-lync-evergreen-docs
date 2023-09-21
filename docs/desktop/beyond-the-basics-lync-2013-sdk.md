@@ -2,7 +2,7 @@
 title: 'Beyond the basics: Lync 2013 SDK'
 TOCTitle: Lync SDK
 ms:assetid: 855d0ddd-fbf4-4987-8482-1868e7be8e78
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933115(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933115(v=office.15)
 ms:contentKeyID: 50877247
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: AudioTimestampErrorSpkMs element (Lync SDN Interface 2.1.1)
 TOCTitle: AudioTimestampErrorSpkMs element
 ms:assetid: ce1eef60-47b0-575e-c8d6-f9cd290fa3d5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912675(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912675(v=office.15)
 ms:contentKeyID: 64126844
 ms.date: 02/16/2015
 mtps_version: v=office.15

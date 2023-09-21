@@ -2,7 +2,7 @@
 title: Enhanced Presence data
 TOCTitle: Enhanced Presence data
 ms:assetid: a608642f-450f-4836-b190-bb1b1b1dbceb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454619(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454619(v=office.15)
 ms:contentKeyID: 57093105
 ms.date: 07/24/2014
 mtps_version: v=office.15

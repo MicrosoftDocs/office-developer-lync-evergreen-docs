@@ -2,7 +2,7 @@
 title: Lync Controls styles and templates
 TOCTitle: Lync Controls styles and templates
 ms:assetid: 4e8665e9-316d-4552-9d6a-b30b994cf127
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937314(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937314(v=office.15)
 ms:contentKeyID: 50877155
 ms.date: 07/24/2014
 mtps_version: v=office.15

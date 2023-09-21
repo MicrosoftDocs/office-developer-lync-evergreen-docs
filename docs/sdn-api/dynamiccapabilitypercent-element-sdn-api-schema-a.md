@@ -2,7 +2,7 @@
 title: DynamicCapabilityPercent element  (Lync SDN API Schema A)
 TOCTitle: DynamicCapabilityPercent element
 ms:assetid: a4903b10-2c9f-db33-d879-8ab3a0bc6d66
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455030(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455030(v=office.15)
 ms:contentKeyID: 57260903
 ms.date: 07/24/2014
 mtps_version: v=office.15

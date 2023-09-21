@@ -2,7 +2,7 @@
 title: noteHistory category instance value element
 TOCTitle: noteHistory category instance value element
 ms:assetid: f72179d7-f2de-4f87-a9a7-a8b89a75b2c3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454764(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454764(v=office.15)
 ms:contentKeyID: 57093651
 ms.date: 07/24/2014
 mtps_version: v=office.15

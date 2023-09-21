@@ -2,7 +2,7 @@
 title: Signing in to Lync Server
 TOCTitle: Signing in to Lync Server
 ms:assetid: 6077336f-a5b3-421b-9adb-950de2c6e51e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454635(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454635(v=office.15)
 ms:contentKeyID: 57092875
 ms.date: 07/24/2014
 mtps_version: v=office.15

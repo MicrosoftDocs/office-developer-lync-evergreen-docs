@@ -2,7 +2,7 @@
 title: What you can do with Lync conversations
 TOCTitle: Lync conversations
 ms:assetid: aaa019f9-b512-4c6a-abf2-23d632c30b28
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933137(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933137(v=office.15)
 ms:contentKeyID: 50877266
 ms.date: 07/24/2014
 mtps_version: v=office.15

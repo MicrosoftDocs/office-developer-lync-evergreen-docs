@@ -2,7 +2,7 @@
 title: ContactSearchInputBox style and template
 TOCTitle: ContactSearchInputBox style and template
 ms:assetid: ff41861a-3aa7-45d3-89be-bc05ba69224e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933258(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933258(v=office.15)
 ms:contentKeyID: 50877404
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the style and template for the [ContactSearchInputBox](https://msdn.microsoft.com/en-us/library/hh379719\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the style and template for the [ContactSearchInputBox](https://msdn.microsoft.com/library/hh379719\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -20,7 +20,7 @@ Learn about the style and template for the [ContactSearchInputBox](https://msdn.
 
  
 
-There are no [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the ContactSearchInputBox control.
+There are no [Style](http://msdn.microsoft.com/library/system.windows.style\(vs.95\).aspx) properties for the ContactSearchInputBox control.
 
 ![ContactSearchInputBox Control](images/JJ945549.ContactSearchInputBoxControl(Office.15).png "ContactSearchInputBox Control")
 
@@ -44,17 +44,17 @@ The following table lists the named parts for the ContactSearchInputBox control.
 <tbody>
 <tr class="odd">
 <td><p>ClearButton</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.button.aspx">Button</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.button.aspx">Button</a></p></td>
 <td><p>Clears the search string.</p></td>
 </tr>
 <tr class="even">
 <td><p>SearchHint</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.contentcontrol.aspx">ContentControl</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.contentcontrol.aspx">ContentControl</a></p></td>
 <td><p>Provides the content of a search hint.</p></td>
 </tr>
 <tr class="odd">
 <td><p>TextSearch</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.textbox.aspx">TextBox</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.textbox.aspx">TextBox</a></p></td>
 <td><p>Use this part to display or edit the search string.</p></td>
 </tr>
 </tbody>

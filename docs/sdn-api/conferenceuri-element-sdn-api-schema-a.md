@@ -2,7 +2,7 @@
 title: ConferenceURI element (Lync SDN API Schema A)
 TOCTitle: ConferenceURI element
 ms:assetid: 59c78e4b-161d-6352-02d5-98b57bbe9622
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454991(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454991(v=office.15)
 ms:contentKeyID: 57260874
 ms.date: 07/24/2014
 mtps_version: v=office.15

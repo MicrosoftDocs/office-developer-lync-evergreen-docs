@@ -2,7 +2,7 @@
 title: Contact element (EndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Contact element (EndPointType complexType)
 ms:assetid: 82f8fecb-3659-e24f-dd37-e6117f23018e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912696(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912696(v=office.15)
 ms:contentKeyID: 64126866
 ms.date: 02/16/2015
 mtps_version: v=office.15

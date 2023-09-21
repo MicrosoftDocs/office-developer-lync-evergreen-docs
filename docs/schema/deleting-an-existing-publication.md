@@ -2,7 +2,7 @@
 title: Deleting an existing publication
 TOCTitle: Deleting an existing publication
 ms:assetid: d5517dea-b7e1-472d-ae06-4d1a5f8c9dc6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454649(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454649(v=office.15)
 ms:contentKeyID: 57092899
 ms.date: 07/24/2014
 mtps_version: v=office.15

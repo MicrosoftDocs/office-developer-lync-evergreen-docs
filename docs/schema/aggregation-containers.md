@@ -2,7 +2,7 @@
 title: Aggregation containers
 TOCTitle: Aggregation containers
 ms:assetid: fa4895ec-df80-45af-b11c-8ec30c145d09
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454670(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454670(v=office.15)
 ms:contentKeyID: 57093138
 ms.date: 07/24/2014
 mtps_version: v=office.15

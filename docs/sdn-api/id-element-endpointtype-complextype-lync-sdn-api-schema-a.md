@@ -2,7 +2,7 @@
 title: Id element (EndPointType complexType) (Lync SDN API Schema A)
 TOCTitle: Id element (EndPointType complexType)
 ms:assetid: 5c11b34d-700c-a76d-cbc0-926b6d656304
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775121(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775121(v=office.15)
 ms:contentKeyID: 62626095
 ms.date: 07/24/2014
 mtps_version: v=office.15

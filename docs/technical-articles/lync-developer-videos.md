@@ -2,7 +2,7 @@
 title: Lync developer videos
 TOCTitle: Lync developer videos
 ms:assetid: 4b608467-e3a4-4c3c-8c67-2076626c688f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn495336(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn495336(v=office.15)
 ms:contentKeyID: 60569235
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -122,10 +122,10 @@ Lists developer videos for the six Lync APIs that offer client, server, middle-t
 ## See also
 
 - [Channel9](http://channel9.msdn.com/tags/lync)
-- [Lync Server 2013](http://technet.microsoft.com/en-us/library/gg398616.aspx)
-- [Download the Lync 2013 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=36824)
-- [Download the UCMA 4.0 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=35463)
-- [Download the Lync Server 2013 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=35456)
-- [Download the Lync Server 2013 Persistent Chat SDK](http://www.microsoft.com/en-us/download/details.aspx?id=35458)
-- [Download the Unified Communications Enhanced Presence Schemas for Lync Server 2013](http://www.microsoft.com/en-us/download/details.aspx?id=35452)
+- [Lync Server 2013](http://technet.microsoft.com/library/gg398616.aspx)
+- [Download the Lync 2013 SDK](http://www.microsoft.com/download/details.aspx?id=36824)
+- [Download the UCMA 4.0 SDK](http://www.microsoft.com/download/details.aspx?id=35463)
+- [Download the Lync Server 2013 SDK](http://www.microsoft.com/download/details.aspx?id=35456)
+- [Download the Lync Server 2013 Persistent Chat SDK](http://www.microsoft.com/download/details.aspx?id=35458)
+- [Download the Unified Communications Enhanced Presence Schemas for Lync Server 2013](http://www.microsoft.com/download/details.aspx?id=35452)
 

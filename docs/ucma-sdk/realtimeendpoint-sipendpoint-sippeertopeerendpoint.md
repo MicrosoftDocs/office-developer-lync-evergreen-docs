@@ -2,7 +2,7 @@
 title: RealTimeEndpoint, SipEndpoint, SipPeerToPeerEndpoint
 TOCTitle: RealTimeEndpoint, SipEndpoint, SipPeerToPeerEndpoint
 ms:assetid: 4d8dea46-c93a-4ea9-b800-a578c0eb9fd7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466055(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466055(v=office.15)
 ms:contentKeyID: 57103048
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -21,31 +21,31 @@ An endpoint is a routable entity in a SIP network. A real-time communications ap
 
 ## RealTimeEndpoint
 
-In the UCMA 4.0 Signaling layer, an endpoint represents the local context for such real-time services such as establishing and maintaining a signaling session, a publication and subscription session, and page-mode messaging. In UCMA 4.0, such an endpoint is modeled by a [RealTimeEndpoint](https://msdn.microsoft.com/en-us/library/hh366081\(v=office.15\)) object, which is also referred to as a real-time endpoint. A real-time endpoint provides the entry point for all functionality defined in the Signaling layer.
+In the UCMA 4.0 Signaling layer, an endpoint represents the local context for such real-time services such as establishing and maintaining a signaling session, a publication and subscription session, and page-mode messaging. In UCMA 4.0, such an endpoint is modeled by a [RealTimeEndpoint](https://msdn.microsoft.com/library/hh366081\(v=office.15\)) object, which is also referred to as a real-time endpoint. A real-time endpoint provides the entry point for all functionality defined in the Signaling layer.
 
 A **RealTimeEndpoint** uses a default transport type for outgoing messages. The default transport type is used unless it is overridden by the transport parameter in the request URI.
 
 Every real-time endpoint is uniquely identified in one of three ways:
 
-  - A URI and a unique endpoint ID for the given URI. A client can assign an endpoint ID value when a real-time endpoint is created. Alternatively, it can leave the platform to specify the endpoint ID. In either case, the endpoint ID value is accessible from the Id property. When a real-time endpoint is a [SipEndpoint](https://msdn.microsoft.com/en-us/library/hh348350\(v=office.15\)), it can be routed to a user even when it has no GRUU. Microsoft Lync Server 2013 supports routing to a user or routing to a specific endpoint identified by a GRUU.
+  - A URI and a unique endpoint ID for the given URI. A client can assign an endpoint ID value when a real-time endpoint is created. Alternatively, it can leave the platform to specify the endpoint ID. In either case, the endpoint ID value is accessible from the Id property. When a real-time endpoint is a [SipEndpoint](https://msdn.microsoft.com/library/hh348350\(v=office.15\)), it can be routed to a user even when it has no GRUU. Microsoft Lync Server 2013 supports routing to a user or routing to a specific endpoint identified by a GRUU.
 
-  - Globally Routable User-Agent URI (GRUU), as defined in the SIP Internet-Draft (draft-ietf-sip-gruu-13). Endpoints identified by GRUU are routable. An endpoint's GRUU value can be created only by the server and becomes available to an application after the endpoint is registered successfully. The application can examine this GRUU value by reading the [Gruu](https://msdn.microsoft.com/en-us/library/hh382641\(v=office.15\)) property, provided that the endpoint remains registered.
+  - Globally Routable User-Agent URI (GRUU), as defined in the SIP Internet-Draft (draft-ietf-sip-gruu-13). Endpoints identified by GRUU are routable. An endpoint's GRUU value can be created only by the server and becomes available to an application after the endpoint is registered successfully. The application can examine this GRUU value by reading the [Gruu](https://msdn.microsoft.com/library/hh382641\(v=office.15\)) property, provided that the endpoint remains registered.
 
   - A SIP instance. For example, Microsoft Live Meeting console clients use a SIP instance to represent themselves and do not register themselves with the server.
 
 To discover and communicate with other users, use one of the following techniques:
 
-  - A mechanism such as a registration-free network or e-mail system that uses [SipPeerToPeerEndpoint](https://msdn.microsoft.com/en-us/library/hh161884\(v=office.15\)) objects.
+  - A mechanism such as a registration-free network or e-mail system that uses [SipPeerToPeerEndpoint](https://msdn.microsoft.com/library/hh161884\(v=office.15\)) objects.
 
-  - A SIP proxy to keep the presence information updated, that uses registration-based real-time endpoints, represented by [SipEndpoint](https://msdn.microsoft.com/en-us/library/hh348350\(v=office.15\)) objects.
+  - A SIP proxy to keep the presence information updated, that uses registration-based real-time endpoints, represented by [SipEndpoint](https://msdn.microsoft.com/library/hh348350\(v=office.15\)) objects.
 
 The following sections describe the two kinds of endpoints in more detail.
 
 ## SipEndpoint
 
-The [SipEndpoint](https://msdn.microsoft.com/en-us/library/hh348350\(v=office.15\)) class derives from the abstract **RealTimeEndpoint** class and registers with Lync Server 2013. A **SipEndpoint** instance must register with a SIP server before it can communicate with other endpoints of this type. An application can use a **SipEndpoint** instance to enable a user to publish or subscribe to data in subscription sessions or to send or receive invitations using signaling sessions.
+The [SipEndpoint](https://msdn.microsoft.com/library/hh348350\(v=office.15\)) class derives from the abstract **RealTimeEndpoint** class and registers with Lync Server 2013. A **SipEndpoint** instance must register with a SIP server before it can communicate with other endpoints of this type. An application can use a **SipEndpoint** instance to enable a user to publish or subscribe to data in subscription sessions or to send or receive invitations using signaling sessions.
 
-The **SipEndpoint** class has a number of constructors that can be used to create a **SipEndpoint** object depending on the specific usage. These overloaded constructors create the endpoint by supplying various parameters. After the endpoint is created, the application can optionally register it with the server. Even though registration is optional, it is highly recommended because some functionality, such as presence subscription, may not work without registration. For example, a **SipEndpoint** cannot receive incoming invitations without registration. After a successful registration, the application can terminate the registration at any time. When the endpoint is no longer needed, it can be disposed.A **SipEndpoint** can be used in conjunction with a [RealTimeServerConnectionManager](https://msdn.microsoft.com/en-us/library/hh383452\(v=office.15\)) instance or a [RealTimeClientConnectionManager](https://msdn.microsoft.com/en-us/library/hh382693\(v=office.15\)) instance.
+The **SipEndpoint** class has a number of constructors that can be used to create a **SipEndpoint** object depending on the specific usage. These overloaded constructors create the endpoint by supplying various parameters. After the endpoint is created, the application can optionally register it with the server. Even though registration is optional, it is highly recommended because some functionality, such as presence subscription, may not work without registration. For example, a **SipEndpoint** cannot receive incoming invitations without registration. After a successful registration, the application can terminate the registration at any time. When the endpoint is no longer needed, it can be disposed.A **SipEndpoint** can be used in conjunction with a [RealTimeServerConnectionManager](https://msdn.microsoft.com/library/hh383452\(v=office.15\)) instance or a [RealTimeClientConnectionManager](https://msdn.microsoft.com/library/hh382693\(v=office.15\)) instance.
 
 A **SipEndpoint** can be used for both TCP and TLS connections. A **SipEndpoint** caches the outbound connection used for registration and reuses it for sending subsequent SIP requests. If the connection is disconnected for some reason, a new one is automatically created when the next message is sent out. All messages are routed to a registration server (Lync Server 2013 is the only allowed registrar) or a proxy server.
 
@@ -63,7 +63,7 @@ The call to the **EndRegister**, which is not shown in the previous sample, woul
 
 ## SipPeerToPeerEndpoint
 
-The [SipPeerToPeerEndpoint](https://msdn.microsoft.com/en-us/library/hh161884\(v=office.15\)) class derives from the abstract [RealTimeEndpoint](https://msdn.microsoft.com/en-us/library/hh366081\(v=office.15\)) class. A **SipPeerToPeerEndpoint** can participate in signaling sessions and can send page-mode messages. Subscription sessions are not supported for this type of endpoint.
+The [SipPeerToPeerEndpoint](https://msdn.microsoft.com/library/hh161884\(v=office.15\)) class derives from the abstract [RealTimeEndpoint](https://msdn.microsoft.com/library/hh366081\(v=office.15\)) class. A **SipPeerToPeerEndpoint** can participate in signaling sessions and can send page-mode messages. Subscription sessions are not supported for this type of endpoint.
 
 A **SipPeerToPeerEndpoint** typically routes outbound SIP requests through an outbound SIP proxy server to other **SipPeerToPeerEndpoint** endpoints without registering with a registration server. When a SIP Proxy/Registrar is used, this endpoint type can communicate with a **SipEndpoint**.
 

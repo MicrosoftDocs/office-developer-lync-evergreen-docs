@@ -2,7 +2,7 @@
 title: Contact element (QualityEndPointType complexType) (Lync SDN API Schema A)
 TOCTitle: Contact element (QualityEndPointType complexType)
 ms:assetid: 46444871-edf3-f92c-a96a-adfd4a3e6813
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775114(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775114(v=office.15)
 ms:contentKeyID: 62626085
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'Beyond the basics: Lync conversations'
 TOCTitle: Lync conversations
 ms:assetid: b0d9e12e-87ec-4f91-952f-f376630d241b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933166(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933166(v=office.15)
 ms:contentKeyID: 50877304
 ms.date: 07/24/2014
 mtps_version: v=office.15

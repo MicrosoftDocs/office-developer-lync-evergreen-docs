@@ -2,7 +2,7 @@
 title: Parsing media configuration
 TOCTitle: Parsing media configuration
 ms:assetid: f96e1271-9004-4db7-819a-09614abc0c7c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454675(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454675(v=office.15)
 ms:contentKeyID: 57093272
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: VideoFrameLossRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: VideoFrameLossRate element
 ms:assetid: 1214376b-1a3f-09a1-af32-70e671a828da
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912838(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912838(v=office.15)
 ms:contentKeyID: 64127006
 ms.date: 02/16/2015
 mtps_version: v=office.15

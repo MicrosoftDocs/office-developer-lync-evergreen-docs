@@ -2,7 +2,7 @@
 title: BasicCallHandling (QuickStart)
 TOCTitle: BasicCallHandling (QuickStart)
 ms:assetid: c989d841-a7e8-4896-8dd0-479ac75bd571
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466144(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466144(v=office.15)
 ms:contentKeyID: 57103475
 ms.date: 07/25/2014
 mtps_version: v=office.15

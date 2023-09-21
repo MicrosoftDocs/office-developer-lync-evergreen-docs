@@ -2,7 +2,7 @@
 title: What you can do with Lync contact lists
 TOCTitle: Lync contact lists
 ms:assetid: f6009471-2aff-4e92-a7f9-4ab5bc4e88d0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933232(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933232(v=office.15)
 ms:contentKeyID: 50877377
 ms.date: 07/24/2014
 mtps_version: v=office.15

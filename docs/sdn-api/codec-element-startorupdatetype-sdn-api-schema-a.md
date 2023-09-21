@@ -2,7 +2,7 @@
 title: Codec element (StartOrUpdateType complexType) (Lync SDN API Schema A)
 TOCTitle: Codec element (Properties element) (StartOrUpdateType complexType)
 ms:assetid: 410acce4-c1d2-5be8-8af4-b97ed958588f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775110(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775110(v=office.15)
 ms:contentKeyID: 62626087
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: QualityUpdate element (MessageType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: QualityUpdate element
 ms:assetid: 993ad34a-4706-875f-212d-9c3eb706cfbb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912785(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912785(v=office.15)
 ms:contentKeyID: 64126954
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Debugging Lync SDN Manager
 TOCTitle: Debugging Lync SDN Manager
 ms:assetid: 5567fd7c-4567-47c4-8aa2-456564fcd087
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785215(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785215(v=office.15)
 ms:contentKeyID: 62952699
 ms.date: 02/16/2015
 mtps_version: v=office.15

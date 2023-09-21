@@ -2,7 +2,7 @@
 title: Start creating UCWA Windows Store apps
 TOCTitle: Start creating UCWA Windows Store apps
 ms:assetid: ae341e4b-e90e-4efe-87d4-5d2f797cba18
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn551187(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn551187(v=office.15)
 ms:contentKeyID: 60829953
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -28,7 +28,7 @@ Specifically, you will learn how to carry out the following programming tasks:
     
   Sign-in is the first step that every UCWA application must perform before other UCWA features become available. The process involves discovering the UCWA service address, getting the user authenticated, and creating a UCWA application resource.
     
-  Programming using UCWA involves initiating HTTP requests and processing responses to access and operate UCWA resources. To do so, this application uses [HttpWebRequest](http://msdn.microsoft.com/en-us/library/system.net.httpwebrequest\(v=vs.110\).aspx) and [HttpWebResponse](http://msdn.microsoft.com/en-us/library/system.net.httpwebresponse\(v=vs.110\).aspx) as well as other classes in the [System.Net namespace](http://msdn.microsoft.com/en-us/library/system.net\(v=vs.110\).aspx) for Windows Store apps. To showcase the versatility of UCWA, the application chooses XML as the content type for transporting the HTTP messages and uses the [System.Xml.Linq](http://msdn.microsoft.com/en-us/library/system.xml.linq\(v=vs.110\).aspx) namespace to parse the UCWA resources.
+  Programming using UCWA involves initiating HTTP requests and processing responses to access and operate UCWA resources. To do so, this application uses [HttpWebRequest](http://msdn.microsoft.com/library/system.net.httpwebrequest\(v=vs.110\).aspx) and [HttpWebResponse](http://msdn.microsoft.com/library/system.net.httpwebresponse\(v=vs.110\).aspx) as well as other classes in the [System.Net namespace](http://msdn.microsoft.com/library/system.net\(v=vs.110\).aspx) for Windows Store apps. To showcase the versatility of UCWA, the application chooses XML as the content type for transporting the HTTP messages and uses the [System.Xml.Linq](http://msdn.microsoft.com/library/system.xml.linq\(v=vs.110\).aspx) namespace to parse the UCWA resources.
 
 ## What is involved in signing in a user to UCWA?
 
@@ -48,7 +48,7 @@ Before the authentication can take place, the UCWA application must first locate
 
 A successful authentication must also be followed by obtaining a UCWA [application](http://ucwa.skype.com/documentation/resources-application) resource representing an instance of the application bound to the local endpoint of the signed-in user. When the application times out, the application resource must be updated. This may involve getting the user re-authenticated.
 
-Because UCWA-specific operations are carried out as HTTP requests and responses, it is natural to encapsulate them in a separate type. In this article, they are exposed as asynchronous methods on a Transport class, which can be reused for other applications as well. The asynchronous behavior is built upon the async/await[pattern](http://msdn.microsoft.com/en-us/library/vstudio/hh191443.aspx). It is required to ensure that the Windows Store app be responsive.
+Because UCWA-specific operations are carried out as HTTP requests and responses, it is natural to encapsulate them in a separate type. In this article, they are exposed as asynchronous methods on a Transport class, which can be reused for other applications as well. The asynchronous behavior is built upon the async/await[pattern](http://msdn.microsoft.com/library/vstudio/hh191443.aspx). It is required to ensure that the Windows Store app be responsive.
 
 A Windows Store app undergoes a much frequent change of states than traditional desktop applications. Managing the application’s states and life cycle is important to enable the Windows Store app fluid and to comply with the REST-ful requirements of UCWA.
 
@@ -62,15 +62,15 @@ A Windows Store app undergoes a much frequent change of states than traditional 
 
 ## See also
 
-- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx): If you’re new to building Windows Store apps, I highly recommend this step-by-step guide with clear instructions to creating a Windows RT application using C\# or Visual Basic.
+- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh974581.aspx): If you’re new to building Windows Store apps, I highly recommend this step-by-step guide with clear instructions to creating a Windows RT application using C\# or Visual Basic.
 
-- [Get a developer license (Windows Store apps)](http://msdn.microsoft.com/en-us/library/windows/apps/hh974578.aspx): To install and test a Windows RT application before submitting it to Windows Store, you can get a developer license for each machine on which you intent to run the app. This article tells you how to get and renew a developer license, valid for a 30-day period, from Visual Studio or at a command prompt.
+- [Get a developer license (Windows Store apps)](http://msdn.microsoft.com/library/windows/apps/hh974578.aspx): To install and test a Windows RT application before submitting it to Windows Store, you can get a developer license for each machine on which you intent to run the app. This article tells you how to get and renew a developer license, valid for a 30-day period, from Visual Studio or at a command prompt.
 
-- [How to Add and Remove Apps](http://technet.microsoft.com/en-us/library/hh852635.aspx): This article details the requirements and steps necessary for deploying an enterprise (or LOB) application using the mechanism of side-loading and, therefore, bypassing Windows Store all together. This could be a common scenario for UCWA apps.
+- [How to Add and Remove Apps](http://technet.microsoft.com/library/hh852635.aspx): This article details the requirements and steps necessary for deploying an enterprise (or LOB) application using the mechanism of side-loading and, therefore, bypassing Windows Store all together. This could be a common scenario for UCWA apps.
 
-- [Manage Client Access to the Windows Store](http://technet.microsoft.com/en-us/library/hh832040.aspx): In addition to configuring side-loading for deploying your Windows RT application without going through Windows Store, this article provides an entry point to other information useful for managing app access to Windows Store in an enterprise environment.
+- [Manage Client Access to the Windows Store](http://technet.microsoft.com/library/hh832040.aspx): In addition to configuring side-loading for deploying your Windows RT application without going through Windows Store, this article provides an entry point to other information useful for managing app access to Windows Store in an enterprise environment.
 
-- [Manage app lifecycle and state (Windows Store apps using C\#/VB and XAML)](http://msdn.microsoft.com/en-us/library/windows/apps/hh986968.aspx): It offers an introductory discussion of Windows app lifecycle and state management issues, with a hands-on tutorial.
+- [Manage app lifecycle and state (Windows Store apps using C\#/VB and XAML)](http://msdn.microsoft.com/library/windows/apps/hh986968.aspx): It offers an introductory discussion of Windows app lifecycle and state management issues, with a hands-on tutorial.
 
 - [UCWA API Resource reference library](http://ucwa.skype.com/documentation/api-reference): This is the official UCWA documentation site where you can find detailed specification of all the UCWA resources.
 

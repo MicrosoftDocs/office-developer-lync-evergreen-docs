@@ -2,7 +2,7 @@
 title: What's new in Lync Server 2013 Persistent Chat SDK
 TOCTitle: What's new
 ms:assetid: aad090a4-8a48-4a48-82db-2807822f9881
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439200(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439200(v=office.15)
 ms:contentKeyID: 57101265
 ms.date: 07/24/2014
 mtps_version: v=office.15

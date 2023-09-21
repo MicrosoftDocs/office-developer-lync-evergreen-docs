@@ -2,7 +2,7 @@
 title: userProperties/lines/line element
 TOCTitle: userProperties/lines/line element
 ms:assetid: 55ad992d-6e3e-4be2-a4bc-6fdfcc1ced66
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438972(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438972(v=office.15)
 ms:contentKeyID: 57094017
 ms.date: 07/24/2014
 mtps_version: v=office.15

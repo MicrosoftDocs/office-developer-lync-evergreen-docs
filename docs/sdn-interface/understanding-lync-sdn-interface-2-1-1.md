@@ -2,7 +2,7 @@
 title: Understanding Lync SDN Interface 2.1.1
 TOCTitle: Understanding Lync SDN Interface 2.1.1
 ms:assetid: 4c97bce1-4b8b-4c13-8ec6-99eed59d88fc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785193(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785193(v=office.15)
 ms:contentKeyID: 62952675
 ms.date: 02/16/2015
 mtps_version: v=office.15

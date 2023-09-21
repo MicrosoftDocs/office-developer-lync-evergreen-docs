@@ -2,7 +2,7 @@
 title: Installing Lync SDN Interface 2.1.1
 TOCTitle: Installing Lync SDN Interface 2.1.1
 ms:assetid: 69aa312c-0abb-438c-8588-0d756ba09a6d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785197(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785197(v=office.15)
 ms:contentKeyID: 62952681
 ms.date: 02/16/2015
 mtps_version: v=office.15

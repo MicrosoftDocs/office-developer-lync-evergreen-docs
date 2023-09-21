@@ -2,7 +2,7 @@
 title: LyncDiagnostics element (Lync SDN Interface 2.1.1)
 TOCTitle: LyncDiagnostics element
 ms:assetid: 77678a4c-9d37-25e9-ad58-1583ff843a1b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912753(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912753(v=office.15)
 ms:contentKeyID: 64126923
 ms.date: 02/16/2015
 mtps_version: v=office.15

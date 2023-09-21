@@ -2,7 +2,7 @@
 title: Modifying an existing publication
 TOCTitle: Modifying an existing publication
 ms:assetid: 707bce3e-97eb-4ca3-862d-de99ffa25e94
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454642(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454642(v=office.15)
 ms:contentKeyID: 57092887
 ms.date: 07/24/2014
 mtps_version: v=office.15

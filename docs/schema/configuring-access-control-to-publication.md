@@ -2,7 +2,7 @@
 title: Configuring access control to publication
 TOCTitle: Configuring access control to publication
 ms:assetid: cdb7f036-576f-4a7a-9dda-3753859de82d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454627(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454627(v=office.15)
 ms:contentKeyID: 57092871
 ms.date: 07/24/2014
 mtps_version: v=office.15

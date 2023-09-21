@@ -2,7 +2,7 @@
 title: What you can do with Persistent Chat
 TOCTitle: Persistent Chat
 ms:assetid: 6b7184cc-df70-4425-9043-4e8a471b29c7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933070(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933070(v=office.15)
 ms:contentKeyID: 50877201
 ms.date: 07/24/2014
 mtps_version: v=office.15

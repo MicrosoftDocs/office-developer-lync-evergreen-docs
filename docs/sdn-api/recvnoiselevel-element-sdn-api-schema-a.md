@@ -2,7 +2,7 @@
 title: RecvNoiseLevel element (Lync SDN API Schema A)
 TOCTitle: RecvNoiseLevel element
 ms:assetid: 39e26f79-86b7-9a4b-4253-a354c86b58cb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439256(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439256(v=office.15)
 ms:contentKeyID: 57260992
 ms.date: 07/24/2014
 mtps_version: v=office.15

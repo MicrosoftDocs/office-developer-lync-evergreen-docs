@@ -2,7 +2,7 @@
 title: MediationServerLegPosition element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: MediationServerLegPosition element
 ms:assetid: 8f2c8877-1931-9c48-56ce-32cb0294f795
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912761(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912761(v=office.15)
 ms:contentKeyID: 64126931
 ms.date: 02/16/2015
 mtps_version: v=office.15

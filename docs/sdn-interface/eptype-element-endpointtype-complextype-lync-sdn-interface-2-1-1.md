@@ -2,7 +2,7 @@
 title: EPType element (EndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: EPType element (EndPointType complexType)
 ms:assetid: 451b9ad3-7653-0c2c-01da-5a427515395e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912730(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912730(v=office.15)
 ms:contentKeyID: 64126897
 ms.date: 02/16/2015
 mtps_version: v=office.15

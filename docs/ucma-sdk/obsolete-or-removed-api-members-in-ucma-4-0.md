@@ -2,7 +2,7 @@
 title: Obsolete or removed API members in UCMA 4.0
 TOCTitle: Obsolete or removed API members in UCMA 4.0
 ms:assetid: 49725ca6-fa2b-4986-8ae3-2c66417a8301
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465992(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465992(v=office.15)
 ms:contentKeyID: 57102830
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -19,7 +19,7 @@ The following tables list the API members that are obsolete or have been removed
 
 ## Microsoft.Rtc.Collaboration namespace
 
-The following members of the [Microsoft.Rtc.Collaboration](https://msdn.microsoft.com/en-us/library/hh384297\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration](https://msdn.microsoft.com/library/hh384297\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -141,7 +141,7 @@ The following members of the [Microsoft.Rtc.Collaboration](https://msdn.microsof
 
 ## Microsoft.Rtc.Collaboration.AudioVideo namespace
 
-The following members of the [Microsoft.Rtc.Collaboration.AudioVideo](https://msdn.microsoft.com/en-us/library/hh365775\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration.AudioVideo](https://msdn.microsoft.com/library/hh365775\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -198,7 +198,7 @@ The following members of the [Microsoft.Rtc.Collaboration.AudioVideo](https://ms
 
 ## Microsoft.Rtc.Collaboration.ComponentModel namespace
 
-The following members of the [Microsoft.Rtc.Collaboration.ComponentModel](https://msdn.microsoft.com/en-us/library/hh384699\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration.ComponentModel](https://msdn.microsoft.com/library/hh384699\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -240,7 +240,7 @@ The following members of the [Microsoft.Rtc.Collaboration.ComponentModel](https:
 
 ## Microsoft.Rtc.Collaboration.ConferenceManagement namespace
 
-The following members of the [Microsoft.Rtc.Collaboration.ConferenceManagement](https://msdn.microsoft.com/en-us/library/hh381081\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration.ConferenceManagement](https://msdn.microsoft.com/library/hh381081\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -277,7 +277,7 @@ The following members of the [Microsoft.Rtc.Collaboration.ConferenceManagement](
 
 ## Microsoft.Rtc.Collaboration.ContactsGroups namespace
 
-The following members of the [Microsoft.Rtc.Collaboration.ContactsGroups](https://msdn.microsoft.com/en-us/library/hh381542\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration.ContactsGroups](https://msdn.microsoft.com/library/hh381542\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -304,7 +304,7 @@ The following members of the [Microsoft.Rtc.Collaboration.ContactsGroups](https:
 
 ## Microsoft.Rtc.Collaboration.Presence namespace
 
-The following members of the [Microsoft.Rtc.Collaboration.Presence](https://msdn.microsoft.com/en-us/library/hh350235\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration.Presence](https://msdn.microsoft.com/library/hh350235\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -341,7 +341,7 @@ The following members of the [Microsoft.Rtc.Collaboration.Presence](https://msdn
 
 ## Microsoft.Rtc.Signaling namespace
 
-The following members of the [Microsoft.Rtc.Signaling](https://msdn.microsoft.com/en-us/library/hh365949\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Signaling](https://msdn.microsoft.com/library/hh365949\(v=office.15\)) namespace are obsolete or removed in UCMA 4.0.
 
 <table>
 <colgroup>

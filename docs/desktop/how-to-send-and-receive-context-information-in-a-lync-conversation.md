@@ -2,7 +2,7 @@
 title: 'How to: Send and receive context information in a Lync conversation'
 TOCTitle: 'How to: Send and receive context information in a conversation'
 ms:assetid: ea5c0019-4d54-43cd-9025-d5a9a6a7f305
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933248(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933248(v=office.15)
 ms:contentKeyID: 50877394
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -26,21 +26,21 @@ Watch the video: Lync Contextual Data Part 1: Send Data With An IM Message
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/f1447b18-a319-4252-9ee1-39694128bdd4]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/f1447b18-a319-4252-9ee1-39694128bdd4]
 
 <div class="caption">
 Watch the video: Lync Contextual Data Part 2: Methods and Events
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/820fb295-e1f8-4c44-a31d-cf2a28d272ee]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/820fb295-e1f8-4c44-a31d-cf2a28d272ee]
 
 <div class="caption">
 Watch the video: Lync Contextual Data Part 3: Passing an Image File
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/b6aaf29e-4c59-491f-a947-a88e1f791204]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/b6aaf29e-4c59-491f-a947-a88e1f791204]
 
 
 ## Prerequisites
@@ -109,19 +109,19 @@ Your application must use the GUID from the previous example as an application I
 
 ## Handle the ConversationAdded event
 
-Use the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event to register for the [Conversation.InitialContextReceived](https://msdn.microsoft.com/en-us/library/jj267349\(v=office.15\)) event and [Conversation.ContextDataReceived](https://msdn.microsoft.com/en-us/library/jj275926\(v=office.15\)) event.
+Use the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event to register for the [Conversation.InitialContextReceived](https://msdn.microsoft.com/library/jj267349\(v=office.15\)) event and [Conversation.ContextDataReceived](https://msdn.microsoft.com/library/jj275926\(v=office.15\)) event.
 
 ### To handle the ConversationAdded event
 
-1.  Read the state of the conversation IM modality. If it is not [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Notified**, then the conversation started locally and you must add a remote user as a participant.
+1.  Read the state of the conversation IM modality. If it is not [Microsoft.Lync.Model.Conversation.ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Notified**, then the conversation started locally and you must add a remote user as a participant.
 
-2.  Register for the [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event.
+2.  Register for the [Conversation.ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) event.
 
-3.  Add a participant by calling the [Conversation.AddParticipant](https://msdn.microsoft.com/en-us/library/jj266479\(v=office.15\)) method.
+3.  Add a participant by calling the [Conversation.AddParticipant](https://msdn.microsoft.com/library/jj266479\(v=office.15\)) method.
 
-4.  Register for the [Conversation.InitialContextReceived](https://msdn.microsoft.com/en-us/library/jj267349\(v=office.15\)) event and [Conversation.ContextDataReceived](https://msdn.microsoft.com/en-us/library/jj275926\(v=office.15\)) event.
+4.  Register for the [Conversation.InitialContextReceived](https://msdn.microsoft.com/library/jj267349\(v=office.15\)) event and [Conversation.ContextDataReceived](https://msdn.microsoft.com/library/jj275926\(v=office.15\)) event.
 
-5.  Register for the [InstantMessageModality.InstantMessageReceived](https://msdn.microsoft.com/en-us/library/jj293201\(v=office.15\)) event.
+5.  Register for the [InstantMessageModality.InstantMessageReceived](https://msdn.microsoft.com/library/jj293201\(v=office.15\)) event.
     
     The following example handles the conversation added event.
     
@@ -154,15 +154,15 @@ Use the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us
 
 ## Get the conversation subject from the InitialContextReceived event
 
-The subject of the conversation as provided by the conversation initiator is available as application data in the [Conversation.InitialContextReceived](https://msdn.microsoft.com/en-us/library/jj267349\(v=office.15\)) event.
+The subject of the conversation as provided by the conversation initiator is available as application data in the [Conversation.InitialContextReceived](https://msdn.microsoft.com/library/jj267349\(v=office.15\)) event.
 
 ### To handle the InitialContextReceived event
 
-1.  Verify that the application ID from the [InitialContextEventArgs.ApplicationId](https://msdn.microsoft.com/en-us/library/jj293433\(v=office.15\)) property matches the GUID you assign to your application.
+1.  Verify that the application ID from the [InitialContextEventArgs.ApplicationId](https://msdn.microsoft.com/library/jj293433\(v=office.15\)) property matches the GUID you assign to your application.
 
-2.  Get the initial context string from the [InitialContextEventArgs.ApplicationData](https://msdn.microsoft.com/en-us/library/jj277565\(v=office.15\)) property.
+2.  Get the initial context string from the [InitialContextEventArgs.ApplicationData](https://msdn.microsoft.com/library/jj277565\(v=office.15\)) property.
     
-    The following example handles the [Conversation.InitialContextReceived](https://msdn.microsoft.com/en-us/library/jj267349\(v=office.15\)) event.
+    The following example handles the [Conversation.InitialContextReceived](https://msdn.microsoft.com/library/jj267349\(v=office.15\)) event.
     
     ```csharp
             /// <summary>
@@ -188,11 +188,11 @@ The subject of the conversation as provided by the conversation initiator is ava
 
 ### To handle the ContextDataReceived event
 
-1.  Verify that the application ID from the [InitialContextEventArgs.ApplicationId](https://msdn.microsoft.com/en-us/library/jj293433\(v=office.15\)) property matches the GUID you assign to your application.
+1.  Verify that the application ID from the [InitialContextEventArgs.ApplicationId](https://msdn.microsoft.com/library/jj293433\(v=office.15\)) property matches the GUID you assign to your application.
 
-2.  Get the MIME type of the context data in this event by reading the [ContextEventArgs.ContextDataType](https://msdn.microsoft.com/en-us/library/jj275527\(v=office.15\)) property.
+2.  Get the MIME type of the context data in this event by reading the [ContextEventArgs.ContextDataType](https://msdn.microsoft.com/library/jj275527\(v=office.15\)) property.
 
-3.  Parse the [ContextEventArgs.ContextData](https://msdn.microsoft.com/en-us/library/jj277173\(v=office.15\)) property text value according to the MIME type specified in step 2.
+3.  Parse the [ContextEventArgs.ContextData](https://msdn.microsoft.com/library/jj277173\(v=office.15\)) property text value according to the MIME type specified in step 2.
     
     The following example gets the context data, which is formatted as plain text, and then adds the text as an item in the UI list box.
     
@@ -219,9 +219,9 @@ The subject of the conversation as provided by the conversation initiator is ava
 
 ## Send initial context data in a new conversation
 
-1.  Verify that the new conversation is active by reading the new state of the conversation from the value of the [Conversation.State](https://msdn.microsoft.com/en-us/library/jj267978\(v=office.15\)) property.
+1.  Verify that the new conversation is active by reading the new state of the conversation from the value of the [Conversation.State](https://msdn.microsoft.com/library/jj267978\(v=office.15\)) property.
 
-2.  If the conversation state is [Microsoft.Lync.Model.Conversation.ConversationState](https://msdn.microsoft.com/en-us/library/jj277587\(v=office.15\))**.Active**, send the initial conversation context by calling the [Conversation.BeginSendInitialContext](https://msdn.microsoft.com/en-us/library/jj275891\(v=office.15\)) method, passing the GUID registered as the context package in an enumerable collection of [Microsoft.Lync.Model.Conversation.ContextType](https://msdn.microsoft.com/en-us/library/jj275691\(v=office.15\)) enumerator and object key/value pairs.
+2.  If the conversation state is [Microsoft.Lync.Model.Conversation.ConversationState](https://msdn.microsoft.com/library/jj277587\(v=office.15\))**.Active**, send the initial conversation context by calling the [Conversation.BeginSendInitialContext](https://msdn.microsoft.com/library/jj275891\(v=office.15\)) method, passing the GUID registered as the context package in an enumerable collection of [Microsoft.Lync.Model.Conversation.ContextType](https://msdn.microsoft.com/library/jj275691\(v=office.15\)) enumerator and object key/value pairs.
     
     The initial context and all additional context sending operations must include the application GUID and context data.
     
@@ -272,7 +272,7 @@ The subject of the conversation as provided by the conversation initiator is ava
 
 1.  Verify that the conversation state is still active.
 
-2.  Send the additional context data by calling the [Conversation.BeginSendContextData](https://msdn.microsoft.com/en-us/library/jj278336\(v=office.15\)) method.
+2.  Send the additional context data by calling the [Conversation.BeginSendContextData](https://msdn.microsoft.com/library/jj278336\(v=office.15\)) method.
     
     The following example sends additional context data specifying the GUID of the registered context package, a MIME type describing the format of the context data, and the context data itself.
     

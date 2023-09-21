@@ -2,7 +2,7 @@
 title: otherOptions/publishActivityHistory element
 TOCTitle: otherOptions/publishActivityHistory element
 ms:assetid: 5a78c52a-7f62-4ec7-9e3d-c9e7977f1baf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454767(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454767(v=office.15)
 ms:contentKeyID: 57093654
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: PacketLossRate element  (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: PacketLossRate element
 ms:assetid: 8ee27adc-5cb8-77c1-2a50-5c940a2fe34a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439248(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439248(v=office.15)
 ms:contentKeyID: 57260984
 ms.date: 07/24/2014
 mtps_version: v=office.15

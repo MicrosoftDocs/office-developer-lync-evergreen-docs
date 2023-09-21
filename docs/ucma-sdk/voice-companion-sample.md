@@ -2,7 +2,7 @@
 title: Voice Companion (sample)
 TOCTitle: Voice Companion (sample)
 ms:assetid: 4aa901e9-7de1-41cd-8978-49c832f15c07
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454820(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454820(v=office.15)
 ms:contentKeyID: 57103670
 ms.date: 07/25/2014
 mtps_version: v=office.15

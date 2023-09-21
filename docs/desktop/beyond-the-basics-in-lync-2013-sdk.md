@@ -2,7 +2,7 @@
 title: Beyond the basics in Lync 2013 SDK
 TOCTitle: Beyond the basics
 ms:assetid: ff41897b-443f-42c3-8180-0e9ad33cd4e5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933259(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933259(v=office.15)
 ms:contentKeyID: 50877405
 ms.date: 07/24/2014
 mtps_version: v=office.15

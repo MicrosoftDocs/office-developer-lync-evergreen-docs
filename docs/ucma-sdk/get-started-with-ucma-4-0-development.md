@@ -2,7 +2,7 @@
 title: Get started with UCMA 4.0 development
 TOCTitle: Get started with development
 ms:assetid: aa9d3dc8-a16a-4c1a-a1a4-c07c79730193
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465959(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465959(v=office.15)
 ms:contentKeyID: 57102448
 ms.date: 07/25/2014
 mtps_version: v=office.15

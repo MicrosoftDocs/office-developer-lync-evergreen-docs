@@ -2,7 +2,7 @@
 title: Create a UCWA Windows Store app project
 TOCTitle: Create a UCWA Windows Store app project
 ms:assetid: 2c080512-8a01-4739-98da-93e2d9f8d839
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn551188(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn551188(v=office.15)
 ms:contentKeyID: 60829952
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ description: Learn how to create a UCWA Windows Store app project using Visual S
 
 This tutorial walks you through the steps to create a UCWA Windows Store app project using Visual Studio.
 
-For more information, see [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx).
+For more information, see [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh974581.aspx).
 
 The procedures in this series of articles assume that Visual Studio 2013 is used.
 
@@ -43,7 +43,7 @@ We now move on to adding the UCWA-specific programming tasks to the application 
 ## See also
 
 - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
+- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh974581.aspx)
 - [Enable fluid user interface](enable-fluid-user-interface.md)
 - [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)
 - [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)

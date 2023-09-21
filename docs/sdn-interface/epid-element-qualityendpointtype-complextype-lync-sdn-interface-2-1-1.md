@@ -2,7 +2,7 @@
 title: EPId element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: EPId element (QualityEndPointType complexType)
 ms:assetid: 64d13c79-f1d1-e220-315d-6fde1d2eb1fe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912729(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912729(v=office.15)
 ms:contentKeyID: 64126894
 ms.date: 02/16/2015
 mtps_version: v=office.15

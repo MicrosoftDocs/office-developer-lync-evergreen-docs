@@ -2,7 +2,7 @@
 title: state/availability element
 TOCTitle: state/availability element
 ms:assetid: 01e355b5-6888-45be-8506-8c04089c91f1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438967(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438967(v=office.15)
 ms:contentKeyID: 57094010
 ms.date: 07/24/2014
 mtps_version: v=office.15

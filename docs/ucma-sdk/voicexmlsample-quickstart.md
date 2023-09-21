@@ -2,7 +2,7 @@
 title: VoiceXMLSample (QuickStart)
 TOCTitle: VoiceXMLSample (QuickStart)
 ms:assetid: e4b31dcb-3049-47b7-bdbe-a3cdc365b2b5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454832(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454832(v=office.15)
 ms:contentKeyID: 57103764
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -19,11 +19,11 @@ Sample location: %ProgramFiles%\\Microsoft UCMA 4.0\\SDK\\Core\\Sample Applicati
 
 ## Description
 
-This sample shows how to run a Microsoft Lync Server 2013 VoiceXML Browser object against a VoiceXML page and an Microsoft Unified Communications Managed API 4.0[AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) instance. The major steps are as follows.
+This sample shows how to run a Microsoft Lync Server 2013 VoiceXML Browser object against a VoiceXML page and an Microsoft Unified Communications Managed API 4.0[AudioVideoCall](https://msdn.microsoft.com/library/hh383901\(v=office.15\)) instance. The major steps are as follows.
 
-1.  Set up the UCMA 4.0 objects ([CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.15\)) and endpoints).
+1.  Set up the UCMA 4.0 objects ([CollaborationPlatform](https://msdn.microsoft.com/library/hh385176\(v=office.15\)) and endpoints).
 
-2.  Instantiate a [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) object.
+2.  Instantiate a [Browser](https://msdn.microsoft.com/library/gg452712\(v=office.15\)) object.
 
 3.  Subscribe to **Browser** events.
 

@@ -2,7 +2,7 @@
 title: UCMA 4.0 features
 TOCTitle: UCMA 4.0 features
 ms:assetid: 4dfe8247-1b67-4d66-9ca1-0b7f5d919385
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465948(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465948(v=office.15)
 ms:contentKeyID: 57102659
 ms.date: 07/25/2014
 mtps_version: v=office.15

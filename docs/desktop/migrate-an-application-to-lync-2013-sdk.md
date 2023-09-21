@@ -2,7 +2,7 @@
 title: Migrate an application to Lync 2013 SDK
 TOCTitle: Migrate an application to Lync 2013 SDK
 ms:assetid: f2c7ab6e-7e20-4043-9dba-c46f2e65490b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933253(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933253(v=office.15)
 ms:contentKeyID: 50877399
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -89,19 +89,19 @@ A code behavior change is a non-syntax API revision that changes the runtime beh
 
 ### Contact presence subscription changes
 
-The Lync 2013 API requires that every [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object that you want presence publication notification for is added to a [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)) before registering for the [Contact.ContactInformationChanged](https://msdn.microsoft.com/en-us/library/jj275543\(v=office.15\)) event. The Lync 2013 client maintains a contact subscription for all contacts that are scrolled into view on the client UI contact list. As contacts are scrolled out of view on the UI contact list, they are removed from the client-maintained contact subscription. If you want to continue to get presence publication notifications for out-of-view contacts, you must create and maintain a **ContactSubscription** object in your application logic.
+The Lync 2013 API requires that every [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object that you want presence publication notification for is added to a [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/library/jj268195\(v=office.15\)) before registering for the [Contact.ContactInformationChanged](https://msdn.microsoft.com/library/jj275543\(v=office.15\)) event. The Lync 2013 client maintains a contact subscription for all contacts that are scrolled into view on the client UI contact list. As contacts are scrolled out of view on the UI contact list, they are removed from the client-maintained contact subscription. If you want to continue to get presence publication notifications for out-of-view contacts, you must create and maintain a **ContactSubscription** object in your application logic.
 
 Contacts that have been obtained from a search operation through the API are not contained in the subscription maintained by the Lync client. To ensure that you get updated presence, maintain your own **ContactSubscription** for all contacts. For information about subscribing to contact presence, see [How to: Subscribe to enhanced presence content](how-to-subscribe-to-enhanced-presence-content.md).
 
 ### Collection class range exceptions
 
-Collection classes that implement the **this\[System.Int32\]** property threw an **IndexOutOfRange** exception when an invalid index was specified. With the behavior change, an invalid index causes the **ArgumentOutofRangeException** exception to be raised. The [Microsoft.Lync.Model.ContactEndpointCollection](https://msdn.microsoft.com/en-us/library/jj293449\(v=office.15\)) class shows an example of this change.
+Collection classes that implement the **this\[System.Int32\]** property threw an **IndexOutOfRange** exception when an invalid index was specified. With the behavior change, an invalid index causes the **ArgumentOutofRangeException** exception to be raised. The [Microsoft.Lync.Model.ContactEndpointCollection](https://msdn.microsoft.com/library/jj293449\(v=office.15\)) class shows an example of this change.
 
-Collection classes that implement the **this\[someKey\]** property threw an **IndexOutOfRange** exception when an invalid key was specified. With the behavior change, an invalid key causes the **KeyNotFoundException** exception to be raised. The [Microsoft.Lync.Model.ClientSettings](https://msdn.microsoft.com/en-us/library/jj293531\(v=office.15\)) class shows an example of this change.
+Collection classes that implement the **this\[someKey\]** property threw an **IndexOutOfRange** exception when an invalid key was specified. With the behavior change, an invalid key causes the **KeyNotFoundException** exception to be raised. The [Microsoft.Lync.Model.ClientSettings](https://msdn.microsoft.com/library/jj293531\(v=office.15\)) class shows an example of this change.
 
 ### Duplicated content sharing conversations
 
-If your application starts or accepts content sharing conversations in a non-UI suppression mode, your application should be able to identify and ignore duplicate content sharing conversation objects. The duplicated conversation object is exposed in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event. Your event handler for this event should identify and ignore the duplicated conversation.
+If your application starts or accepts content sharing conversations in a non-UI suppression mode, your application should be able to identify and ignore duplicate content sharing conversation objects. The duplicated conversation object is exposed in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event. Your event handler for this event should identify and ignore the duplicated conversation.
 
 The duplicated conversation is created after the content sharing modality is connected when these conditions are met:
 
@@ -113,13 +113,13 @@ The duplicated conversation is created after the content sharing modality is con
 
 The Lync 2013 API does not provide a way to see whether a user has made these conversation configuration selections. Detect a duplicated conversation by testing for these conditions:
 
-  - The [Conversation.SelfParticipant](https://msdn.microsoft.com/en-us/library/jj266427\(v=office.15\)) property returns null.
+  - The [Conversation.SelfParticipant](https://msdn.microsoft.com/library/jj266427\(v=office.15\)) property returns null.
 
-  - None of the conversation modalities are in the ModalityState.Notified state. Check for these conversation characteristics in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
+  - None of the conversation modalities are in the ModalityState.Notified state. Check for these conversation characteristics in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event.
 
 If both conditions are met, the conversation is duplicated and should be ignored.
 
-The following example identifies a "shadow" conversation. This method should be called in the registered callback method for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
+The following example identifies a "shadow" conversation. This method should be called in the registered callback method for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event.
 
 ```csharp
         /// <summary>

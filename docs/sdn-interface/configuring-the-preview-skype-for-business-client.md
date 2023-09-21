@@ -2,7 +2,7 @@
 title: Configuring the Preview Skype for Business Client
 TOCTitle: Configuring the Preview Skype for Business Client
 ms:assetid: 753f6ff9-d1ff-4770-80f8-f0e71ab92859
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785224(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785224(v=office.15)
 ms:contentKeyID: 62952707
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: contactCard/photo/hash element
 TOCTitle: contactCard/photo/hash element
 ms:assetid: 0a20d695-bdd7-4e86-a839-4559b31a2917
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454728(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454728(v=office.15)
 ms:contentKeyID: 57093433
 ms.date: 07/24/2014
 mtps_version: v=office.15

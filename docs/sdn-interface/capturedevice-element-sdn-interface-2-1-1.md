@@ -2,7 +2,7 @@
 title: CaptureDevice element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: CaptureDevice element
 ms:assetid: 4d21dcab-bd62-8379-4800-6a406dae8ba0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912687(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912687(v=office.15)
 ms:contentKeyID: 64126857
 ms.date: 02/16/2015
 mtps_version: v=office.15

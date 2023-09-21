@@ -2,7 +2,7 @@
 title: Get started with desktop, application, and display sharing
 TOCTitle: Desktop, application, and display sharing
 ms:assetid: fd565e29-da05-4cb5-9fd5-a786d3790e4e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933246(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933246(v=office.15)
 ms:contentKeyID: 50877392
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Creating Enhanced Presence data classes from the XML schemas
 TOCTitle: Creating Enhanced Presence data classes from the XML schemas
 ms:assetid: 188c95cc-f3ec-41e9-ab4b-11283f08c18e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454686(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454686(v=office.15)
 ms:contentKeyID: 57093253
 ms.date: 07/24/2014
 mtps_version: v=office.15

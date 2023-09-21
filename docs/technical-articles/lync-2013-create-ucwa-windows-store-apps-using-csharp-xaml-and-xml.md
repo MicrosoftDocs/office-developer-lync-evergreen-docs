@@ -2,7 +2,7 @@
 title: 'Lync 2013: Create UCWA Windows Store apps using C#/XAML and XML'
 TOCTitle: 'Lync 2013: Create UCWA Windows Store apps using C#/XAML and XML'
 ms:assetid: c71784f0-c7ba-4b78-90a9-d2a3ff1a9363
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn551186(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn551186(v=office.15)
 ms:contentKeyID: 60829943
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -29,7 +29,7 @@ This series of articles shows you how to use UCWA to make asynchronous calls to 
 
 ## See also
 
-- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx) &ndash; If you’re new to building Windows Store apps, read this step-by-step guide to create a Windows Store application using C\# or Visual Basic.
+- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh974581.aspx) &ndash; If you’re new to building Windows Store apps, read this step-by-step guide to create a Windows Store application using C\# or Visual Basic.
 
 - [UCWA Dev Portal](http://ucwa.skype.com/) &ndash; This is the official UCWA development portal where you can find interactive demo and sample code, written in JavaScript and JSON. You can also access the community forum for UCWA developers.
 

@@ -2,7 +2,7 @@
 title: Adjusting application performance
 TOCTitle: Adjusting application performance
 ms:assetid: cad3fdf3-04b0-4db0-9ef9-bf5e7929e87f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466096(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466096(v=office.15)
 ms:contentKeyID: 57103234
 ms.date: 07/25/2014
 mtps_version: v=office.15

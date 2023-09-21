@@ -2,7 +2,7 @@
 title: 'How to: Get the enhanced presence of a Lync user'
 TOCTitle: 'How to: Get the enhanced presence of a Lync user'
 ms:assetid: 795a04e4-89b0-4c6b-8844-3cb7267bb631
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933083(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933083(v=office.15)
 ms:contentKeyID: 50877211
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -42,9 +42,9 @@ Additional resources</p></td>
 
 ## Contact information and settings
 
-A [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) exposes two types of property collections:
+A [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) exposes two types of property collections:
 
-  - **Contact Information**: Read only. Contact information types are published by a local user for all other users to access according to established privacy relationships. Because of privacy relationship restrictions, a local user might not be able to access a contact information value published by a remote contact. When this happens, a call into [GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) returns a null value when type requested is not available. For more information about privacy relationships, see [How to: Administer privacy relationships between Lync users](how-to-administer-privacy-relationships-between-lync-users.md).
+  - **Contact Information**: Read only. Contact information types are published by a local user for all other users to access according to established privacy relationships. Because of privacy relationship restrictions, a local user might not be able to access a contact information value published by a remote contact. When this happens, a call into [GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) returns a null value when type requested is not available. For more information about privacy relationships, see [How to: Administer privacy relationships between Lync users](how-to-administer-privacy-relationships-between-lync-users.md).
 
   - **Contact Settings**: Read/Write. The setting choices for a contact are made by the local user and affect interaction with other users individually. For example, the local user John has added Mark to his contact list. John chooses the access level setting of "Workgroup" for the Mark’s contact instance. With this choice, John has given Mark access to his published contact information where appropriate for a member of John’s workgroup. Susan has also added Mark to her contact list but because Susan is in a different workgroup, she chose the access level setting of "Colleague" for Mark’s contact instance. Mark can now see Susan’s published contact information where appropriate for a member of the same enterprise.
 
@@ -85,7 +85,7 @@ The prerequisites for getting enhanced presence information published by a Lync 
 
 ## Get and display enhanced presence
 
-All elements of enhanced presence are obtained by getting a Lync user’s [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object and calling either one of the two overloads of the **GetContactInformation** method on the contact. You can get enhanced presence elements individually by using the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method overload or a collection of elements by calling the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method overload. Figure 1 shows a Windows form that displays elements of enhanced presence obtained by these methods.
+All elements of enhanced presence are obtained by getting a Lync user’s [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object and calling either one of the two overloads of the **GetContactInformation** method on the contact. You can get enhanced presence elements individually by using the [Contact.GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method overload or a collection of elements by calling the [Contact.GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method overload. Figure 1 shows a Windows form that displays elements of enhanced presence obtained by these methods.
 
 **Figure 1. Windows Form with enhance presence**
 
@@ -95,23 +95,23 @@ The following procedure shows how to get an individual enhanced presence element
 
 ### To get an enhanced presence element
 
-1.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance.
+1.  Get the [LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance.
 
-2.  Read the [Client.State](https://msdn.microsoft.com/en-us/library/jj274837\(v=office.15\)) property to verify that the client is signed in.
+2.  Read the [Client.State](https://msdn.microsoft.com/library/jj274837\(v=office.15\)) property to verify that the client is signed in.
     
-    For information about signing in to Microsoft Lync 2013, see [How to: Sign in to and out of Lync](https://msdn.microsoft.com/en-us/library/jj937241\(v=office.15\)).
+    For information about signing in to Microsoft Lync 2013, see [How to: Sign in to and out of Lync](https://msdn.microsoft.com/library/jj937241\(v=office.15\)).
 
 3.  Get a **Contact** instance.
     
-    For information about searching for a contact or distribution group, see [How to: Search for a contact, distribution group, or chat room](https://msdn.microsoft.com/en-us/library/jj933159\(v=office.15\)).
+    For information about searching for a contact or distribution group, see [How to: Search for a contact, distribution group, or chat room](https://msdn.microsoft.com/library/jj933159\(v=office.15\)).
 
-4.  Call the [GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method on the **Contact** instance.
+4.  Call the [GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method on the **Contact** instance.
 
-5.  Pass an enumerator of the [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\)) enumeration to specify the element of enhanced presence to return.
+5.  Pass an enumerator of the [ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\)) enumeration to specify the element of enhanced presence to return.
 
 6.  Display the returned value if the return type is **String**.
 
-The following table lists the [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\)) enumerators used to provide values for figure 1.
+The following table lists the [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\)) enumerators used to provide values for figure 1.
 
 <table>
 <colgroup>
@@ -126,43 +126,43 @@ The following table lists the [Microsoft.Lync.Model.ContactInformationType](http
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.DisplayName</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.DisplayName</strong></p></td>
 <td><p>Contact display name.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Availability</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Availability</strong></p></td>
 <td><p>Current availability of the contact.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Activity</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Activity</strong></p></td>
 <td><p>Current activity of the contact.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.OutOfficeNote</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.OutOfficeNote</strong></p></td>
 <td><p>Out of office note set by the user.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj293279(v=office.15)">Uri</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj293279(v=office.15)">Uri</a></p></td>
 <td><p>This is a property that is read directly from the <strong>Contact</strong> object. It is the SIP URI of the contact.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Photo</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Photo</strong></p></td>
 <td><p>User photo shown in the Lync 2013 client. For information about displaying the photo, see Display a Lync 2013 contact photo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Company</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Company</strong></p></td>
 <td><p>User employer name.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Department</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.Department</strong></p></td>
 <td><p>User department name.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.PrimaryEmailAddress</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.PrimaryEmailAddress</strong></p></td>
 <td><p>User’s primary email address.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.ContactEndpoints</strong></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.ContactEndpoints</strong></p></td>
 <td><p>The contact telephone numbers published by the user. For information about displaying individual telephone numbers, see Display a Lync 2013 telephone number.</p></td>
 </tr>
 </tbody>
@@ -170,11 +170,11 @@ The following table lists the [Microsoft.Lync.Model.ContactInformationType](http
 
 ## Display a Lync 2013 contact photo
 
-The contact photo is returned from the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method as a **Stream** object. The following procedures show how to display the picture in a Windows form and in a WPF window.
+The contact photo is returned from the [Contact.GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method as a **Stream** object. The following procedures show how to display the picture in a Windows form and in a WPF window.
 
 ### To display a Lync 2013 contact photo in a Windows form
 
-1.  On the contact whose photo is needed, call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method.
+1.  On the contact whose photo is needed, call the [Contact.GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method.
 
 2.  Cast the returned value to a **System.IO.Stream** object.
 
@@ -198,7 +198,7 @@ The contact photo is returned from the [Contact.GetContactInformation](https://m
 
 ### To display a Lync 2013 contact photo in a WPF window
 
-1.  On the contact whose photo is needed, call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method.
+1.  On the contact whose photo is needed, call the [Contact.GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method.
 
 2.  Cast the returned value to a **System.IO.Stream** object.
 
@@ -231,7 +231,7 @@ The contact photo is returned from the [Contact.GetContactInformation](https://m
 
 ### To get and display a telephone number
 
-1.  On the contact whose telephone numbers are needed, call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method.
+1.  On the contact whose telephone numbers are needed, call the [Contact.GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method.
 
 2.  Cast the returned property value to **List\<object\>**.
     
@@ -241,7 +241,7 @@ The contact photo is returned from the [Contact.GetContactInformation](https://m
     List<object> _endpoints = (List<object>)_Contact.GetContactInformation(ContactInformationType.ContactEndpoints);
     ```
 
-3.  Iterate on the object list and cast individual objects to [Microsoft.Lync.Model.ContactEndpoint](https://msdn.microsoft.com/en-us/library/jj276722\(v=office.15\)) to get the [ContactEndpoint.Type](https://msdn.microsoft.com/en-us/library/jj294021\(v=office.15\)) property.
+3.  Iterate on the object list and cast individual objects to [Microsoft.Lync.Model.ContactEndpoint](https://msdn.microsoft.com/library/jj276722\(v=office.15\)) to get the [ContactEndpoint.Type](https://msdn.microsoft.com/library/jj294021\(v=office.15\)) property.
     
     The following example iterates on the object list and breaks when the work telephone is found.
     
@@ -668,7 +668,7 @@ namespace SimpleContactList
 }
 ```
 
-The following example encapsulates a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object in a class that handles events on the **Contact** and exposes enhanced information as a set of public properties.
+The following example encapsulates a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object in a class that handles events on the **Contact** and exposes enhanced information as a set of public properties.
 
 ```csharp
 using System;

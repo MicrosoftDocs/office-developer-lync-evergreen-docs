@@ -2,7 +2,7 @@
 title: StartTime element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: StartTime element
 ms:assetid: 28174bf1-9c8a-ac94-6988-5683df2d43d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912829(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912829(v=office.15)
 ms:contentKeyID: 64126997
 ms.date: 02/16/2015
 mtps_version: v=office.15

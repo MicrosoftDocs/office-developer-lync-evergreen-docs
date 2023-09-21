@@ -2,7 +2,7 @@
 title: Hardware, software, and technical prerequisites (Lync Server 2013 SDK)
 TOCTitle: Hardware, software, and technical prerequisites
 ms:assetid: ec268f8b-2f32-4acc-9c75-9c448c24f83e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439060(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439060(v=office.15)
 ms:contentKeyID: 57096317
 ms.date: 07/24/2014
 mtps_version: v=office.15

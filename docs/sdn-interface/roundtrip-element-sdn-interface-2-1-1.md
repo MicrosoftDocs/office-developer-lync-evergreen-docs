@@ -2,7 +2,7 @@
 title: RoundTrip element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RoundTrip element
 ms:assetid: 3cda08b3-32c3-4f97-7f50-5ac72db8708e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912813(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912813(v=office.15)
 ms:contentKeyID: 64126982
 ms.date: 02/16/2015
 mtps_version: v=office.15

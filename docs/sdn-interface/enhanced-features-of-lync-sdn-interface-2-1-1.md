@@ -2,7 +2,7 @@
 title: Enhanced features of Lync SDN Interface 2.1.1
 TOCTitle: Enhanced features of Lync SDN Interface 2.1.1
 ms:assetid: a0ef6ad8-c0a2-425f-b236-dc4907efa22b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785195(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785195(v=office.15)
 ms:contentKeyID: 62952679
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'Core concepts: Lync 2013 SDK'
 TOCTitle: Lync SDK
 ms:assetid: e4d86c73-6aee-4beb-8549-b12b45676d04
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933238(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933238(v=office.15)
 ms:contentKeyID: 50877384
 ms.date: 07/24/2014
 mtps_version: v=office.15

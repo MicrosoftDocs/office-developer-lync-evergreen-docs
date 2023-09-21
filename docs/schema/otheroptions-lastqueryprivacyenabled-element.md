@@ -2,7 +2,7 @@
 title: otherOptions/lastQueryPrivacyEnabled element
 TOCTitle: otherOptions/lastQueryPrivacyEnabled element
 ms:assetid: db381e3b-75ae-4869-bab8-de3de05c8ff1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454772(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454772(v=office.15)
 ms:contentKeyID: 57093659
 ms.date: 07/24/2014
 mtps_version: v=office.15

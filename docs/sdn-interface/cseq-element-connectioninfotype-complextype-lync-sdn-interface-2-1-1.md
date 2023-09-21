@@ -2,7 +2,7 @@
 title: CSEQ element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: CSEQ element
 ms:assetid: 9cd658b4-47b7-9ea7-8193-8dd0b095fa5d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912705(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912705(v=office.15)
 ms:contentKeyID: 64126875
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: userProperties/acpInformation element
 TOCTitle: userProperties/acpInformation element
 ms:assetid: 5d31a364-930f-4fc0-825e-d13ada23112e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438974(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438974(v=office.15)
 ms:contentKeyID: 57094019
 ms.date: 07/24/2014
 mtps_version: v=office.15

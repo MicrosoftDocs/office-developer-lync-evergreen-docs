@@ -2,7 +2,7 @@
 title: Voice companion
 TOCTitle: Voice companion
 ms:assetid: 088fd5e6-bd3b-41d7-8675-07ba89833cea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465940(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465940(v=office.15)
 ms:contentKeyID: 57102435
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -57,11 +57,11 @@ The general call flow typical of the voice companion application is as follows:
 
 UCMA-based IVR applications include the full power of Microsoft.Speech-based speech recognition, text-to-speech, and DTMF handling. A user can call a UCMA application, be connected to a custom IVR (which can be VoiceXML-based), provide his or her information to the IVR, and then be connected to streaming music-on-hold. Meanwhile, the information that the user provides is passed to the application, allowing the application to intelligently route the call, fetch information from external sources, and play customized messages to the user.
 
-  - The [Player](https://msdn.microsoft.com/en-us/library/hh349780\(v=office.15\)), [Recorder](https://msdn.microsoft.com/en-us/library/hh381624\(v=office.15\)), and [ToneController](https://msdn.microsoft.com/en-us/library/hh349643\(v=office.15\)) classes can be used to implement an IVR workflow that involves playing prerecorded prompts, handling DTMF tones, and recording audio.
+  - The [Player](https://msdn.microsoft.com/library/hh349780\(v=office.15\)), [Recorder](https://msdn.microsoft.com/library/hh381624\(v=office.15\)), and [ToneController](https://msdn.microsoft.com/library/hh349643\(v=office.15\)) classes can be used to implement an IVR workflow that involves playing prerecorded prompts, handling DTMF tones, and recording audio.
 
-  - The [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) class can interpret VoiceXML code to implement workflow logic that involves TTS or speech recognition.
+  - The [Browser](https://msdn.microsoft.com/library/gg452712\(v=office.15\)) class can interpret VoiceXML code to implement workflow logic that involves TTS or speech recognition.
 
-  - The Connector objects (the [SpeechRecognitionConnector](https://msdn.microsoft.com/en-us/library/hh383253\(v=office.15\)) and [SpeechSynthesisConnector](https://msdn.microsoft.com/en-us/library/hh349773\(v=office.15\)) classes) can be used to implement an application that involves TTS or speech recognition.
+  - The Connector objects (the [SpeechRecognitionConnector](https://msdn.microsoft.com/library/hh383253\(v=office.15\)) and [SpeechSynthesisConnector](https://msdn.microsoft.com/library/hh349773\(v=office.15\)) classes) can be used to implement an application that involves TTS or speech recognition.
 
   - Recording and Music on Hold
     

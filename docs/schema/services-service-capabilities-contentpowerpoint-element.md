@@ -2,7 +2,7 @@
 title: services/service/capabilities/contentPowerPoint element
 TOCTitle: services/service/capabilities/contentPowerPoint element
 ms:assetid: d46e1cdb-342d-4f62-a9a6-5e4ed143b1f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454803(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454803(v=office.15)
 ms:contentKeyID: 57093892
 ms.date: 07/24/2014
 mtps_version: v=office.15

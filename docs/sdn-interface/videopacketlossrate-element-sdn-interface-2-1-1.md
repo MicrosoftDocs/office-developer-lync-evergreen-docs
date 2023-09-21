@@ -2,7 +2,7 @@
 title: VideoPacketLossRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: VideoPacketLossRate element
 ms:assetid: a9b0e433-a566-a9fd-96b3-cae3c7dd4e2b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912842(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912842(v=office.15)
 ms:contentKeyID: 64127010
 ms.date: 02/16/2015
 mtps_version: v=office.15

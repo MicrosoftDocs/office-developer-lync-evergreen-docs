@@ -2,7 +2,7 @@
 title: otherOptions/privacyModeUserSelection element
 TOCTitle: otherOptions/privacyModeUserSelection element
 ms:assetid: f84dbfdb-ea55-46c7-b939-f3a1b01f793a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454770(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454770(v=office.15)
 ms:contentKeyID: 57093657
 ms.date: 07/24/2014
 mtps_version: v=office.15

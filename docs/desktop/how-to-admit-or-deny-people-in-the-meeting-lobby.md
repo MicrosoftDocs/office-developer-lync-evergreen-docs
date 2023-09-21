@@ -2,7 +2,7 @@
 title: 'How to: Admit or deny people in the meeting lobby'
 TOCTitle: 'How to: Admit or deny people in the meeting lobby'
 ms:assetid: 29641e62-9ecf-46ea-b628-61c4d7c64a8e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937280(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937280(v=office.15)
 ms:contentKeyID: 50877109
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -73,13 +73,13 @@ The prerequisites for admitting or denying admission to a meeting from the meeti
 
 ### To admit one user
 
-1.  Get the conversation participants collection from the [Conversation.Participants](https://msdn.microsoft.com/en-us/library/jj293292\(v=office.15\)) property.
+1.  Get the conversation participants collection from the [Conversation.Participants](https://msdn.microsoft.com/library/jj293292\(v=office.15\)) property.
 
 2.  Iterate on the participants collection and get the participant that is selected to be admitted.
 
-3.  Verify that the participant can be admitted by calling the [Participant.CanAdmit](https://msdn.microsoft.com/en-us/library/jj277356\(v=office.15\)) method.
+3.  Verify that the participant can be admitted by calling the [Participant.CanAdmit](https://msdn.microsoft.com/library/jj277356\(v=office.15\)) method.
 
-4.  Admit the participant by calling the [Participant.BeginAdmit](https://msdn.microsoft.com/en-us/library/jj277810\(v=office.15\)) method.
+4.  Admit the participant by calling the [Participant.BeginAdmit](https://msdn.microsoft.com/library/jj277810\(v=office.15\)) method.
     
     The following example finds the participant whose display name matches a name from a meeting lobby list in the sample UI, verifies that the participant can be admitted, and then admits the participant.
     
@@ -114,13 +114,13 @@ The prerequisites for admitting or denying admission to a meeting from the meeti
 
 1.  Declare a **List\<Microsoft.Lync.Model.Conversation.Participant\>** object to hold the participants that you want to admit to the meeting.
 
-2.  Get the conversation participants collection from the [Conversation.Participants](https://msdn.microsoft.com/en-us/library/jj293292\(v=office.15\)) property.
+2.  Get the conversation participants collection from the [Conversation.Participants](https://msdn.microsoft.com/library/jj293292\(v=office.15\)) property.
 
-3.  Iterate on the participants collection and get the participants whose [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsInLobby** property value returns true.
+3.  Iterate on the participants collection and get the participants whose [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsInLobby** property value returns true.
 
 4.  Add each lobby participant to the list declared in step 1.
 
-5.  Admit the participant in the list by calling the [Conversation.BeginAdmitParticipants](https://msdn.microsoft.com/en-us/library/jj268271\(v=office.15\)) method.
+5.  Admit the participant in the list by calling the [Conversation.BeginAdmitParticipants](https://msdn.microsoft.com/library/jj268271\(v=office.15\)) method.
     
     The following example admits all users waiting in a meeting lobby.
     
@@ -154,13 +154,13 @@ The prerequisites for admitting or denying admission to a meeting from the meeti
 
 ### To deny one user
 
-1.  Get the conversation participants collection from the [Conversation.Participants](https://msdn.microsoft.com/en-us/library/jj293292\(v=office.15\)) property.
+1.  Get the conversation participants collection from the [Conversation.Participants](https://msdn.microsoft.com/library/jj293292\(v=office.15\)) property.
 
 2.  Iterate on the participants collection and get the participant that is selected to be admitted.
 
-3.  Verify that the participant can be denied by calling the [Participant.CanDeny](https://msdn.microsoft.com/en-us/library/jj268189\(v=office.15\)) method.
+3.  Verify that the participant can be denied by calling the [Participant.CanDeny](https://msdn.microsoft.com/library/jj268189\(v=office.15\)) method.
 
-4.  Deny the participant by calling the [Participant.BeginDeny](https://msdn.microsoft.com/en-us/library/jj276109\(v=office.15\)) method.
+4.  Deny the participant by calling the [Participant.BeginDeny](https://msdn.microsoft.com/library/jj276109\(v=office.15\)) method.
     
     The following example finds the participant whose display name matches a name from a meeting lobby list in the sample UI, verifies that the participant can be admitted, and then admits the participant.
     
@@ -196,13 +196,13 @@ The prerequisites for admitting or denying admission to a meeting from the meeti
 
 1.  Declare a **List\<Microsoft.Lync.Model.Conversation.Participant\>** object to hold the participants that you want to deny access to the meeting.
 
-2.  Get the conversation participants collection from the [Conversation.Participants](https://msdn.microsoft.com/en-us/library/jj293292\(v=office.15\)) property.
+2.  Get the conversation participants collection from the [Conversation.Participants](https://msdn.microsoft.com/library/jj293292\(v=office.15\)) property.
 
-3.  Iterate on the participants collection and get the participants whose [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsInLobby** property value returns true.
+3.  Iterate on the participants collection and get the participants whose [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsInLobby** property value returns true.
 
 4.  Add each lobby participant to the list declared in step 1.
 
-5.  Admit the participant in the list by calling the [Conversation.BeginDenyParticipants](https://msdn.microsoft.com/en-us/library/jj277184\(v=office.15\)) method.
+5.  Admit the participant in the list by calling the [Conversation.BeginDenyParticipants](https://msdn.microsoft.com/library/jj277184\(v=office.15\)) method.
     
     The following example denies all users waiting in a meeting lobby.
     

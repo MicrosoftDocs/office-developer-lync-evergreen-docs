@@ -2,7 +2,7 @@
 title: VPN element (QualityEndPointType complexType) (Lync SDN API Schema A)
 TOCTitle: VPN element
 ms:assetid: 8f3ae3df-bce7-7296-a56b-772019dffb3a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775144(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775144(v=office.15)
 ms:contentKeyID: 62626118
 ms.date: 07/24/2014
 mtps_version: v=office.15

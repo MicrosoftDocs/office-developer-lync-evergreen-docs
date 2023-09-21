@@ -2,7 +2,7 @@
 title: 'Core concepts: Lync meetings'
 TOCTitle: Lync meetings
 ms:assetid: 4f8087f1-d1c5-4e88-8a27-a81eee0062a5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933042(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933042(v=office.15)
 ms:contentKeyID: 50877170
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,7 +39,7 @@ Additional resources</p></td>
 
 ## What is a Lync 2013 meet-now meeting?
 
-From the perspective of the developer, a meet-now meeting is a multi-party capable audio conference that is started programmatically with a single method call. There is no need to configure a conference object with the modalities needed to start the meet-now meeting. The call to the [Automation.BeginMeetNow](https://msdn.microsoft.com/en-us/library/jj277161\(v=office.15\)) method starts an operation that activates an audio conference on Microsoft Lync Server 2013 that can be joined immediately. The [Automation.EndMeetNow](https://msdn.microsoft.com/en-us/library/jj278119\(v=office.15\)) method returns a [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) hosts the meet-now meeting and can be docked in your application. The **ConversationWindow** object gives you programmatic access to the meeting so that you can manage meeting access, presenters, and participant video.
+From the perspective of the developer, a meet-now meeting is a multi-party capable audio conference that is started programmatically with a single method call. There is no need to configure a conference object with the modalities needed to start the meet-now meeting. The call to the [Automation.BeginMeetNow](https://msdn.microsoft.com/library/jj277161\(v=office.15\)) method starts an operation that activates an audio conference on Microsoft Lync Server 2013 that can be joined immediately. The [Automation.EndMeetNow](https://msdn.microsoft.com/library/jj278119\(v=office.15\)) method returns a [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/library/jj293606\(v=office.15\)) hosts the meet-now meeting and can be docked in your application. The **ConversationWindow** object gives you programmatic access to the meeting so that you can manage meeting access, presenters, and participant video.
 
 <table>
 <colgroup>

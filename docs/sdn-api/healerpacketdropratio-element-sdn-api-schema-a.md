@@ -2,7 +2,7 @@
 title: HealerPacketDropRatio element  (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: HealerPacketDropRatio element
 ms:assetid: f4cb5b8c-4cb9-25bd-c20b-11d84079399b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439214(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439214(v=office.15)
 ms:contentKeyID: 57260951
 ms.date: 07/24/2014
 mtps_version: v=office.15

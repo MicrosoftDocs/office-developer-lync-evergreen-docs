@@ -2,7 +2,7 @@
 title: Lync 2013 SDK documentation
 TOCTitle: Lync 2013 SDK documentation
 ms:assetid: c46a20f0-2d18-4aa8-b7fb-980fd88135c9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933180(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933180(v=office.15)
 ms:contentKeyID: 50877319
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -78,5 +78,5 @@ Microsoft Lync 2013 SDK includes the following components:
 - [Get started with Lync 2013 SDK](get-started-with-lync-2013-sdk.md)
 - [Object model expansion](object-model-expansion.md)
 - [Accessibility in Microsoft Products](http://go.microsoft.com/fwlink/?linkid=205790)
-- [Copyright notice (Lync 2013 SDK)](https://msdn.microsoft.com/en-us/library/jj945832\(v=office.15\))
+- [Copyright notice (Lync 2013 SDK)](https://msdn.microsoft.com/library/jj945832\(v=office.15\))
 

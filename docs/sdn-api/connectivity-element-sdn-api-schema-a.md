@@ -2,7 +2,7 @@
 title: Connectivity element  (Lync SDN API Schema A)
 TOCTitle: Connectivity element
 ms:assetid: cebebb42-22b2-4fa6-7807-75097dfaae9c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454995(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454995(v=office.15)
 ms:contentKeyID: 57260875
 ms.date: 07/24/2014
 mtps_version: v=office.15

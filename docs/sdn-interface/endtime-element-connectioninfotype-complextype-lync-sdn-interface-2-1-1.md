@@ -2,7 +2,7 @@
 title: EndTime element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: EndTime element
 ms:assetid: e1b365b9-ce67-e385-e974-a00b6115430e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912725(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912725(v=office.15)
 ms:contentKeyID: 64126899
 ms.date: 02/16/2015
 mtps_version: v=office.15

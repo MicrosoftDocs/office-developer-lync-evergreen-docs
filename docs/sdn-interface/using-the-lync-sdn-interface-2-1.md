@@ -2,7 +2,7 @@
 title: Using the Lync SDN Interface 2.1
 TOCTitle: Using the Lync SDN Interface 2.1
 ms:assetid: 542be3ea-3144-4e21-b320-c479cb0397bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785190(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785190(v=office.15)
 ms:contentKeyID: 62952674
 ms.date: 02/16/2015
 mtps_version: v=office.15

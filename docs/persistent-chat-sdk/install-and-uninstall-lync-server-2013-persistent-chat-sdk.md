@@ -2,7 +2,7 @@
 title: Install and uninstall Lync Server 2013 Persistent Chat SDK
 TOCTitle: Install and uninstall Lync Server 2013 Persistent Chat SDK
 ms:assetid: 25cc0533-7156-482d-985c-7f26d30948e7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439205(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439205(v=office.15)
 ms:contentKeyID: 57101296
 ms.date: 07/24/2014
 mtps_version: v=office.15

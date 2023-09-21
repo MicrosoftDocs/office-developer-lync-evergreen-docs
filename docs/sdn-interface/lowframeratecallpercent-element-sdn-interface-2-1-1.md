@@ -2,7 +2,7 @@
 title: LowFrameRateCallPercent element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: LowFrameRateCallPercent element
 ms:assetid: 6f4f9517-3d04-70eb-b230-f66314b718c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912756(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912756(v=office.15)
 ms:contentKeyID: 64126926
 ms.date: 02/16/2015
 mtps_version: v=office.15

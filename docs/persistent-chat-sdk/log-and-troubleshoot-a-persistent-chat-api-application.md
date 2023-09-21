@@ -2,7 +2,7 @@
 title: Log and troubleshoot a Persistent Chat API application
 TOCTitle: Log and troubleshoot a Persistent Chat API application
 ms:assetid: 7fdb2465-f114-43b7-97ee-bc10ac93e260
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439207(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439207(v=office.15)
 ms:contentKeyID: 57101350
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ Learn how to create logs for and troubleshoot Microsoft Lync Server 2013 Persist
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-The Microsoft Lync Server 2013 Persistent Chat API includes built-in logging capabilities that can be enabled by a Lync Server 2013 Persistent Chat API application to trace the execution of the application. The logging is based on the [WPP Software Tracing](http://msdn.microsoft.com/en-us/library/ff556204\(v=vs.85\).aspx). The Microsoft Lync Server 2013 Logging Tool is provided to configure, start, stop, and analyze logs that are provided by the Persistent Chat library (Microsoft.Rtc.Collaboration.PersistentChat.DLL assembly) and other trace providers, also known as components. In addition, the Logging Tool includes a traffic view of SIP messages that are transported between the application and Lync Server 2013, including the server that is running Microsoft Lync Server 2013 Persistent Chat. The information can be useful for troubleshooting a Lync Server 2013 Persistent Chat API application.
+The Microsoft Lync Server 2013 Persistent Chat API includes built-in logging capabilities that can be enabled by a Lync Server 2013 Persistent Chat API application to trace the execution of the application. The logging is based on the [WPP Software Tracing](http://msdn.microsoft.com/library/ff556204\(v=vs.85\).aspx). The Microsoft Lync Server 2013 Logging Tool is provided to configure, start, stop, and analyze logs that are provided by the Persistent Chat library (Microsoft.Rtc.Collaboration.PersistentChat.DLL assembly) and other trace providers, also known as components. In addition, the Logging Tool includes a traffic view of SIP messages that are transported between the application and Lync Server 2013, including the server that is running Microsoft Lync Server 2013 Persistent Chat. The information can be useful for troubleshooting a Lync Server 2013 Persistent Chat API application.
 
 
 > [!NOTE]
@@ -53,5 +53,5 @@ The Lync Server 2013 Logging Tool, OcsLogger.exe, it is included in the Microsof
 
 #### Other resources
 
-[Lync Server 2013 Logging Tool](http://technet.microsoft.com/en-us/library/gg558599.aspx)
+[Lync Server 2013 Logging Tool](http://technet.microsoft.com/library/gg558599.aspx)
 

@@ -2,7 +2,7 @@
 title: StartPropertiesType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: StartPropertiesType complexType
 ms:assetid: 6c0b5a43-e42a-f8ab-e9a2-35b61d26ce0c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912859(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912859(v=office.15)
 ms:contentKeyID: 64127028
 ms.date: 02/16/2015
 mtps_version: v=office.15

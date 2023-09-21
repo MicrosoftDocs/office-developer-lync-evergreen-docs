@@ -2,7 +2,7 @@
 title: RelayPort element (QualityEndPointType complexType) (Lync SDN API Schema A)
 TOCTitle: RelayPort element
 ms:assetid: d179f3fb-c362-7e64-ea85-a9cd82ca2aa7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775137(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775137(v=office.15)
 ms:contentKeyID: 62626111
 ms.date: 07/24/2014
 mtps_version: v=office.15

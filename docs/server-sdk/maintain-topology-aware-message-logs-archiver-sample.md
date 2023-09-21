@@ -2,7 +2,7 @@
 title: Maintain topology-aware message logs (Archiver sample)
 TOCTitle: Maintain topology-aware message logs (Archiver sample)
 ms:assetid: 287720f8-95ce-4e67-b404-53ef2b82d0f3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439091(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439091(v=office.15)
 ms:contentKeyID: 57096245
 ms.date: 07/24/2014
 mtps_version: v=office.15

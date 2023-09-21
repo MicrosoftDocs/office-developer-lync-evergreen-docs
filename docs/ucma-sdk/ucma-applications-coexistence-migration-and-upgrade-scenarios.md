@@ -2,7 +2,7 @@
 title: 'UCMA applications: Coexistence, migration, and upgrade scenarios'
 TOCTitle: 'UCMA applications: Coexistence, migration, and upgrade scenarios'
 ms:assetid: 132c6c9c-f8e1-4d3f-aa8a-da35891b05d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466143(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466143(v=office.15)
 ms:contentKeyID: 57103476
 ms.date: 07/25/2014
 mtps_version: v=office.15

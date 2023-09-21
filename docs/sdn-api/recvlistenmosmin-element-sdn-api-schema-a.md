@@ -2,7 +2,7 @@
 title: RecvListenMOSMin element (Lync SDN API Schema A)
 TOCTitle: RecvListenMOSMin element
 ms:assetid: 0a8aa5ac-6dac-1381-e5de-fe85f6ff62a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439257(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439257(v=office.15)
 ms:contentKeyID: 57260993
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: CaptureDeviceDriver element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: CaptureDeviceDriver element
 ms:assetid: a3aba9f6-d1c3-a919-aaed-dbba9c4dc0bb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912688(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912688(v=office.15)
 ms:contentKeyID: 64126858
 ms.date: 02/16/2015
 mtps_version: v=office.15

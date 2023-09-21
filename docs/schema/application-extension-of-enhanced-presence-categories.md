@@ -2,7 +2,7 @@
 title: Application extension of Enhanced Presence categories
 TOCTitle: Application extension of Enhanced Presence categories
 ms:assetid: c421e268-877d-4ebe-a31e-d52dd3c38f6c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454683(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454683(v=office.15)
 ms:contentKeyID: 57093238
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Send and update context in an existing conversation
 TOCTitle: Send and update context in an existing conversation
 ms:assetid: cb42a093-51ce-4526-be46-ca6f27d2a4ac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945576(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945576(v=office.15)
 ms:contentKeyID: 51541393
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -53,16 +53,16 @@ Additional resources</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275891(v=office.15)">BeginSendInitialContext(IEnumerable&lt;KeyValuePair&lt;ContextType, Object&gt;&gt;, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj275891(v=office.15)">BeginSendInitialContext(IEnumerable&lt;KeyValuePair&lt;ContextType, Object&gt;&gt;, AsyncCallback, Object)</a></p></td>
 <td><p><strong>BeginSendInitialContext</strong> is the setup method. Call it first. This method can be used multiple times in a single conversation, for example, if there is a change in subject and additional data is needed. The data limit is 2,000 characters.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj278336(v=office.15)">BeginSendContextData(String, String, String, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj278336(v=office.15)">BeginSendContextData(String, String, String, AsyncCallback, Object)</a></p></td>
 <td><p>Use <strong>BeginSendContextData</strong> for more advanced scenarios, such as implementing a command and response protocol, or exchanging large amounts of data. It can only be used after a session is established. However, it can be used again in an existing conversation as often as needed. The data limit is 64,000 characters.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BeginStartConversation(String, Int32, AsyncCallback, Object)</strong></p></td>
-<td><p>Use the <strong>BeginStartConversation</strong> method and the values of the <a href="https://msdn.microsoft.com/en-us/library/jj276319(v=office.15)">AutomationModalitySettings</a> enumerator to add rich context to Lync SDK conversations.</p></td>
+<td><p>Use the <strong>BeginStartConversation</strong> method and the values of the <a href="https://msdn.microsoft.com/library/jj276319(v=office.15)">AutomationModalitySettings</a> enumerator to add rich context to Lync SDK conversations.</p></td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ Use the **OnInitialContextReceived** and **OnInitialContextSent** events on the 
 
 ## Add context to a conversation
 
-The following example shows how to use the **BeginStartConversation** method and the values of the [AutomationModalitySettings](https://msdn.microsoft.com/en-us/library/jj276319\(v=office.15\)) enumerator to add rich context to Lync SDK conversations. Also, use the **Conversation.BeginSendInitialContext** method.
+The following example shows how to use the **BeginStartConversation** method and the values of the [AutomationModalitySettings](https://msdn.microsoft.com/library/jj276319\(v=office.15\)) enumerator to add rich context to Lync SDK conversations. Also, use the **Conversation.BeginSendInitialContext** method.
 
 ```csharp
 Dictionary<AutomationModalitySettings, object> _ModalitySettings = new Dictionary<AutomationModalitySettings, object>(); 

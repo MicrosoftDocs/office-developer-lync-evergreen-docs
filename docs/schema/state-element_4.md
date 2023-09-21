@@ -2,7 +2,7 @@
 title: state[@type='aggregateState'] element
 TOCTitle: state[@type='aggregateState'] element
 ms:assetid: 5068097e-f2e0-4d96-82b5-b4747f4e71a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438960(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438960(v=office.15)
 ms:contentKeyID: 57093996
 ms.date: 07/24/2014
 mtps_version: v=office.15

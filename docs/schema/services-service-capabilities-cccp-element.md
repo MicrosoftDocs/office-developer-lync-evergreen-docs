@@ -2,7 +2,7 @@
 title: services/service/capabilities/CCCP element
 TOCTitle: services/service/capabilities/CCCP element
 ms:assetid: 19d058f0-c803-40f6-9d13-56b8a93e6c79
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454785(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454785(v=office.15)
 ms:contentKeyID: 57093672
 ms.date: 07/24/2014
 mtps_version: v=office.15

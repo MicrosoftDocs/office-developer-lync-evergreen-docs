@@ -2,7 +2,7 @@
 title: Configuring LSM to send messages to network controllers
 TOCTitle: Configuring LSM to send messages to network controllers
 ms:assetid: 1e008e31-4054-41f0-a80c-de615364b0f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785216(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785216(v=office.15)
 ms:contentKeyID: 62952700
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'How to: Create a managed SIP application'
 TOCTitle: 'How to: Create a managed SIP application'
 ms:assetid: 8bb54a38-b568-48d0-9b62-7ad4c4770e37
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439082(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439082(v=office.15)
 ms:contentKeyID: 57096239
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -67,9 +67,9 @@ foreach (string errorMessage in cee.ErrorMessages) {
 
 ### Initializing a ServerAgent object
 
-The common point of communication between the Lync Server 2013 computer and your application is a [ServerAgent](https://msdn.microsoft.com/en-us/library/jj266157\(v=office.15\)) object. This object sends and receives messages through Lync Server 2013 on behalf of your application.
+The common point of communication between the Lync Server 2013 computer and your application is a [ServerAgent](https://msdn.microsoft.com/library/jj266157\(v=office.15\)) object. This object sends and receives messages through Lync Server 2013 on behalf of your application.
 
-The [ServerAgent](https://msdn.microsoft.com/en-us/library/jj266157\(v=office.15\)) object must bind to the [ApplicationManifest](https://msdn.microsoft.com/en-us/library/jj265493\(v=office.15\)) object that is created in the previous section. As shown in the following example, this binding process is established when the **ServerAgent** is created.
+The [ServerAgent](https://msdn.microsoft.com/library/jj266157\(v=office.15\)) object must bind to the [ApplicationManifest](https://msdn.microsoft.com/library/jj265493\(v=office.15\)) object that is created in the previous section. As shown in the following example, this binding process is established when the **ServerAgent** is created.
 
 ```csharp
 try {
@@ -83,17 +83,17 @@ Console.WriteLine("The Lync Server computer is not available.");
 }
 ```
 
-The invocation of the previous ServerAgent constructor fails if the supplied application manifest does not compile with the MSPL compiler. In this case, a [NullReferenceException](http://msdn.microsoft.com/en-us/library/system.nullreferenceexception.aspx) is thrown. Therefore, your code should ensure that the application manifest compiles successfully before instantiating a **ServerAgent** instance.
+The invocation of the previous ServerAgent constructor fails if the supplied application manifest does not compile with the MSPL compiler. In this case, a [NullReferenceException](http://msdn.microsoft.com/library/system.nullreferenceexception.aspx) is thrown. Therefore, your code should ensure that the application manifest compiles successfully before instantiating a **ServerAgent** instance.
 
 Calling the previous constructor is applicable in a script-only application where the MSPL script is used to filter and process SIP messages and no messages are dispatched from the MSPL script to the managed code.
 
-If the managed application handles messages that are dispatched from the MSPL message filter, the managed application must implement a message handler that is used to process the SIP messages that are dispatched from the MSPL message filter. For example, if the message filter calls the [Dispatch](https://msdn.microsoft.com/en-us/library/hh364714\(v=office.15\)) function as shown in the following example, the managed application must have a message handler named OnInviteReceived.
+If the managed application handles messages that are dispatched from the MSPL message filter, the managed application must implement a message handler that is used to process the SIP messages that are dispatched from the MSPL message filter. For example, if the message filter calls the [Dispatch](https://msdn.microsoft.com/library/hh364714\(v=office.15\)) function as shown in the following example, the managed application must have a message handler named OnInviteReceived.
 
 ```csharp
 Dispatch("OnInviteReceived");
 ```
 
-In addition, the class implementing this method must also bind to the newly created [ServerAgent](https://msdn.microsoft.com/en-us/library/jj266157\(v=office.15\)) object as shown in the next example.
+In addition, the class implementing this method must also bind to the newly created [ServerAgent](https://msdn.microsoft.com/library/jj266157\(v=office.15\)) object as shown in the next example.
 
 ```csharp
 ServerAgent myServerAgent = new ServerAgent(myClassWithDispatchMethods, myAppManifest);
@@ -101,7 +101,7 @@ ServerAgent myServerAgent = new ServerAgent(myClassWithDispatchMethods, myAppMan
 
 ### Catching message dispatching events in an event loop
 
-When **Dispatch** is called from the MSPL script, a server event is raised. The managed application must catch this event to process the dispatched messages. To catch the event, the application can leverage the signaling capability of the [WaitHandle](https://msdn.microsoft.com/en-us/library/jj265810\(v=office.15\)) property that is exposed by the **ServerAgent** object in a loop. When the Lync Server instance receives a dispatched message, it raises a signal on the [WaitHandle](http://msdn.microsoft.com/en-us/library/9f7e54k1) object. The application can wait for the signal by calling [WaitOne](http://msdn.microsoft.com/en-us/library/58195swd) (or [WaitAny](http://msdn.microsoft.com/en-us/library/tdykks7z) if other application signals are being handled) on the **ServerAgent** object. If this method returns true (or a positive integer containing the index to the signaled callback in your handle array, in the case of **WaitAny**), the [ProcessEvent(Object)](https://msdn.microsoft.com/en-us/library/jj265491\(v=office.15\)) method must be called on the **ServerAgent** instance. The **ProcessEvent** passes the dispatched message to the event handler specified in the call to **Dispatch**.
+When **Dispatch** is called from the MSPL script, a server event is raised. The managed application must catch this event to process the dispatched messages. To catch the event, the application can leverage the signaling capability of the [WaitHandle](https://msdn.microsoft.com/library/jj265810\(v=office.15\)) property that is exposed by the **ServerAgent** object in a loop. When the Lync Server instance receives a dispatched message, it raises a signal on the [WaitHandle](http://msdn.microsoft.com/library/9f7e54k1) object. The application can wait for the signal by calling [WaitOne](http://msdn.microsoft.com/library/58195swd) (or [WaitAny](http://msdn.microsoft.com/library/tdykks7z) if other application signals are being handled) on the **ServerAgent** object. If this method returns true (or a positive integer containing the index to the signaled callback in your handle array, in the case of **WaitAny**), the [ProcessEvent(Object)](https://msdn.microsoft.com/library/jj265491\(v=office.15\)) method must be called on the **ServerAgent** instance. The **ProcessEvent** passes the dispatched message to the event handler specified in the call to **Dispatch**.
 
 Each application has its own process and is responsible for creating its own threads. The Microsoft Lync Server 2013 SIP Application Managed API does not require a specific threading model. However, the .NET Framework provides a **ThreadPool** class that can be used for this particular purpose. You can use **ThreadPool** to create a queue for events as shown in the following code example, which services a single input from the Lync Server 2013 computer.
 
@@ -161,7 +161,7 @@ To receive messages from the Lync Server 2013 computer, your application manifes
     Respond(200);
     }
 
-The previous script causes Lync Server 2013 to dispatch any message with a SIP method type of "MESSAGE" to the "OnMessageReceived" event handler in your application, passing the request as a [RequestReceivedEventArgs](https://msdn.microsoft.com/en-us/library/jj265762\(v=office.15\)) object. The following example shows how to define the handler.
+The previous script causes Lync Server 2013 to dispatch any message with a SIP method type of "MESSAGE" to the "OnMessageReceived" event handler in your application, passing the request as a [RequestReceivedEventArgs](https://msdn.microsoft.com/library/jj265762\(v=office.15\)) object. The following example shows how to define the handler.
 
 ```csharp
 public void OnMessageReceived(object sender, RequestReceivedEventArgs requestEventArgs) {
@@ -193,7 +193,7 @@ catch (Exception e)
 
 
 > [!NOTE]
-> <P>The method signature of your message handler must match that of the <A href="https://msdn.microsoft.com/en-us/library/jj266279(v=office.15)">RequestReceivedEventHandler</A> delegate, which takes an <STRONG>object</STRONG> as the first parameter, and a <STRONG>RequestReceivedEventArgs</STRONG> reference as the second parameter.</P>
+> <P>The method signature of your message handler must match that of the <A href="https://msdn.microsoft.com/library/jj266279(v=office.15)">RequestReceivedEventHandler</A> delegate, which takes an <STRONG>object</STRONG> as the first parameter, and a <STRONG>RequestReceivedEventArgs</STRONG> reference as the second parameter.</P>
 
 
 

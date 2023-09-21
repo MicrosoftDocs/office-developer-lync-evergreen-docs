@@ -2,7 +2,7 @@
 title: state/timeZoneBias element
 TOCTitle: state/timeZoneBias element
 ms:assetid: 3c3fb921-304a-483b-836d-30f8983bb917
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438961(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438961(v=office.15)
 ms:contentKeyID: 57093997
 ms.date: 07/24/2014
 mtps_version: v=office.15

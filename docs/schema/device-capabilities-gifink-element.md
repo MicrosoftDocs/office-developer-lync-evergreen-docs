@@ -2,7 +2,7 @@
 title: device/capabilities/gifInk element
 TOCTitle: device/capabilities/gifInk element
 ms:assetid: 831dde4f-cbe3-40ab-a7c5-6427372c9f75
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454754(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454754(v=office.15)
 ms:contentKeyID: 57093641
 ms.date: 07/24/2014
 mtps_version: v=office.15

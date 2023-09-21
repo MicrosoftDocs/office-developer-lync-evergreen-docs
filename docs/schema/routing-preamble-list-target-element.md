@@ -2,7 +2,7 @@
 title: routing/preamble/list/target element
 TOCTitle: routing/preamble/list/target element
 ms:assetid: 2b506b4a-c83a-4387-a523-75de8a8a4c87
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454781(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454781(v=office.15)
 ms:contentKeyID: 57093667
 ms.date: 07/24/2014
 mtps_version: v=office.15

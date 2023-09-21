@@ -2,7 +2,7 @@
 title: PresenceIndicator style and template
 TOCTitle: PresenceIndicator style and template
 ms:assetid: 9ad8b3ca-d397-4e65-b02b-5e3102fe2b92
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933141(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933141(v=office.15)
 ms:contentKeyID: 50877278
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the style and template for the [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the style and template for the [PresenceIndicator](https://msdn.microsoft.com/library/hh345947\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -20,7 +20,7 @@ Learn about the style and template for the [PresenceIndicator](https://msdn.micr
 
  
 
-There are no [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the PresenceIndicator control.
+There are no [Style](http://msdn.microsoft.com/library/system.windows.style\(vs.95\).aspx) properties for the PresenceIndicator control.
 
 ![PresenceIndicator Control](images/JJ933141.PresenceIndicatorControl(Office.15).png "PresenceIndicator Control")
 
@@ -46,12 +46,12 @@ The following table lists the named parts for the PresenceIndicator control.
 <tbody>
 <tr class="odd">
 <td><p>ViewBox</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.viewbox.aspx">ViewBox</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.viewbox.aspx">ViewBox</a></p></td>
 <td><p>Stretches and scales a single child to fill the available space.</p></td>
 </tr>
 <tr class="even">
 <td><p>PresenceColorGrid</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.grid.aspx">Grid</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.grid.aspx">Grid</a></p></td>
 <td><p>Hosts the presence color.</p></td>
 </tr>
 </tbody>

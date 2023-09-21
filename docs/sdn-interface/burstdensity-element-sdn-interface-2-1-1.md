@@ -2,7 +2,7 @@
 title: BurstDensity element  (Lync SDN Interface 2.1.1)
 TOCTitle: BurstDensity element
 ms:assetid: 5b4af8ef-e843-5ebc-0e81-5805ca98899f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912679(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912679(v=office.15)
 ms:contentKeyID: 64126848
 ms.date: 02/16/2015
 mtps_version: v=office.15

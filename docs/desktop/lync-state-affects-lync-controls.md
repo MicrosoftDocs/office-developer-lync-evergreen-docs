@@ -2,7 +2,7 @@
 title: Lync state affects Lync Controls
 TOCTitle: Lync state affects Lync Controls
 ms:assetid: e927e77f-6809-41ca-affe-7baf139e8bae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933218(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933218(v=office.15)
 ms:contentKeyID: 50877365
 ms.date: 07/24/2014
 mtps_version: v=office.15

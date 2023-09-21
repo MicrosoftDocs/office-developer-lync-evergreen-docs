@@ -2,7 +2,7 @@
 title: Scenarios for using Persistent Chat API
 TOCTitle: Scenarios for using Persistent Chat API
 ms:assetid: ede636b7-050b-4e7c-9006-50c724825257
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465899(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465899(v=office.15)
 ms:contentKeyID: 57101365
 ms.date: 07/24/2014
 mtps_version: v=office.15

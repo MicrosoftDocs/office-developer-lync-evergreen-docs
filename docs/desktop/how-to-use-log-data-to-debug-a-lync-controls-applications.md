@@ -2,7 +2,7 @@
 title: 'How to: Use log data to debug a Lync Controls applications'
 TOCTitle: 'How to: Use log data to debug a Lync Controls applications'
 ms:assetid: b495ddad-2ff9-4581-a680-24a760209dee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933145(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933145(v=office.15)
 ms:contentKeyID: 50877281
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -51,7 +51,7 @@ Create a Lync WPF application with logging enabled and then add XAML code that c
     
     For more information, see [How to: Add logging to a Lync Controls application](how-to-add-logging-to-a-lync-controls-application.md).
 
-2.  In Page.xaml, add the following XAML, which sets the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property to an invalid URI.
+2.  In Page.xaml, add the following XAML, which sets the [Source](https://msdn.microsoft.com/library/hh363511\(v=office.15\)) property to an invalid URI.
     
     ```xaml
     <controls:StartInstantMessagingButton Source="sip:typo@contoso"/>

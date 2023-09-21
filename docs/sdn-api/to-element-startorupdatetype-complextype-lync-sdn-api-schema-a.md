@@ -2,7 +2,7 @@
 title: To element (StartOrUpdateType complexType) (Lync SDN API Schema A)
 TOCTitle: To element (StartOrUpdateType complexType)
 ms:assetid: 9bdbb2e0-4605-5d1b-d5be-099425da5de9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775140(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775140(v=office.15)
 ms:contentKeyID: 62626114
 ms.date: 07/24/2014
 mtps_version: v=office.15

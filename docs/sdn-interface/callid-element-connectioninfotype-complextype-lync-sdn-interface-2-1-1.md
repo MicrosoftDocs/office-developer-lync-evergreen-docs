@@ -2,7 +2,7 @@
 title: CallId element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: CallId element
 ms:assetid: 07ab43a7-10f7-a03a-8617-549361e06960
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912686(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912686(v=office.15)
 ms:contentKeyID: 64126856
 ms.date: 02/16/2015
 mtps_version: v=office.15

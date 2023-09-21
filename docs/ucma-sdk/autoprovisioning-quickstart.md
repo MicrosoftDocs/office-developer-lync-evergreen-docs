@@ -2,7 +2,7 @@
 title: Autoprovisioning (QuickStart)
 TOCTitle: Autoprovisioning (QuickStart)
 ms:assetid: 1d165a95-177b-4710-bdd7-ee20292e1f9c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466139(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466139(v=office.15)
 ms:contentKeyID: 57103462
 ms.date: 07/25/2014
 mtps_version: v=office.15

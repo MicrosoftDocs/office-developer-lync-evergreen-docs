@@ -2,7 +2,7 @@
 title: Retemplating the ContactCard control
 TOCTitle: Retemplating the ContactCard control
 ms:assetid: bd545e3b-6ebe-420e-a0a2-c7a7003de68c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945577(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945577(v=office.15)
 ms:contentKeyID: 51541396
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,7 +39,7 @@ Additional resources</p></td>
 
 ## ContactCard control overview
 
-If you follow the steps in [Editing the template of a Lync Control](editing-the-template-of-a-lync-control.md) to retemplate a PresenceIndicator control, but perform the operation on a [ContactCard](https://msdn.microsoft.com/en-us/library/hh379168\(v=office.15\)) control, the operation generates new styles, templates, and other resources in your resource dictionary. The template for the ContactCard control can be found by searching for the following string.
+If you follow the steps in [Editing the template of a Lync Control](editing-the-template-of-a-lync-control.md) to retemplate a PresenceIndicator control, but perform the operation on a [ContactCard](https://msdn.microsoft.com/library/hh379168\(v=office.15\)) control, the operation generates new styles, templates, and other resources in your resource dictionary. The template for the ContactCard control can be found by searching for the following string.
 
 ```xaml
     <ControlTemplate TargetType="{x:Type controls:ContactCard}">
@@ -49,7 +49,7 @@ This template includes four parts, arranged in a simple vertical StackPanel:
 
   - The ContactNote instance, which appears at the top of the Microsoft Lync 2013 Contact Card.
 
-  - A [ContactContentPresenter](https://msdn.microsoft.com/en-us/library/hh346128\(v=office.15\)) instance that handles the primary contact information area of the Contact Card. This area is the part of the Contact Card that shows the contact’s name, photo, and basic information.
+  - A [ContactContentPresenter](https://msdn.microsoft.com/library/hh346128\(v=office.15\)) instance that handles the primary contact information area of the Contact Card. This area is the part of the Contact Card that shows the contact’s name, photo, and basic information.
 
   - A small Grid that defines the toolbar appearing at the bottom of the Contact Card.
 
@@ -67,7 +67,7 @@ Review the ContactCard template appearing in the resource dictionary that you pr
 
 Near the bottom of this template is a ContactContentPresenter control appears in a Grid called PART\_DetailsContainer. This control is responsible for displaying the set of tabs that show details about the contact when the user clicks the toggle button in the lower-right corner of the Contact Card. It uses a variety of different templates to accomplish this task. The next few paragraphs discuss how ContactContentPresenter controls work. In the last section of this topic, you add a custom tab option to a Contact Card by editing a data template.
 
-Like the [ContentPresenter](http://msdn2.microsoft.com/en-us/library/ms609804) control from which ContactContentPresenter is derived, ContactContentPresenter includes a Content property that is bound to an arbitrary data model. In this case, the data model is an internal structure that encapsulates the contact that was selected by the parent control’s Source property.
+Like the [ContentPresenter](http://msdn2.microsoft.com/library/ms609804) control from which ContactContentPresenter is derived, ContactContentPresenter includes a Content property that is bound to an arbitrary data model. In this case, the data model is an internal structure that encapsulates the contact that was selected by the parent control’s Source property.
 
 A ContentPresenter instance uses the template referenced by its ContentTemplate property to render the Content data. When using ContactContentPresenter, directly setting the Content property is not necessary. Instead, the ContactContentPresenter control supports automatic selection of this template, based on the type of contact that is provided.
 

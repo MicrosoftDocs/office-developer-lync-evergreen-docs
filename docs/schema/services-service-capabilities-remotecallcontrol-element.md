@@ -2,7 +2,7 @@
 title: services/service/capabilities/remoteCallControl element
 TOCTitle: services/service/capabilities/remoteCallControl element
 ms:assetid: 35df6cbb-6116-4dc5-8d75-12d810977432
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454793(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454793(v=office.15)
 ms:contentKeyID: 57093754
 ms.date: 07/24/2014
 mtps_version: v=office.15

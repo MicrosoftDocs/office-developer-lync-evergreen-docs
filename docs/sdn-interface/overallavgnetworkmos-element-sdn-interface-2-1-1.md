@@ -2,7 +2,7 @@
 title: OverallAvgNetworkMOS element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: OverallAvgNetworkMOS element
 ms:assetid: c9647021-6592-d603-a6ea-8cf308f7de23
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912775(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912775(v=office.15)
 ms:contentKeyID: 64126945
 ms.date: 02/16/2015
 mtps_version: v=office.15

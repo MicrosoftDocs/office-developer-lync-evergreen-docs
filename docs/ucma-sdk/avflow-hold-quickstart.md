@@ -2,7 +2,7 @@
 title: AVFlow-Hold (QuickStart)
 TOCTitle: AVFlow-Hold (QuickStart)
 ms:assetid: b2cb3951-b424-4678-ae0d-518a152c0c50
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466138(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466138(v=office.15)
 ms:contentKeyID: 57103460
 ms.date: 07/25/2014
 mtps_version: v=office.15

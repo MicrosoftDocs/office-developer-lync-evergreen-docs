@@ -2,7 +2,7 @@
 title: blockRule/containers element
 TOCTitle: blockRule/containers element
 ms:assetid: 1a6770d3-bd8f-485e-a1f4-6329765e320a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438987(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438987(v=office.15)
 ms:contentKeyID: 57094031
 ms.date: 07/24/2014
 mtps_version: v=office.15

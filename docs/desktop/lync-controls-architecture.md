@@ -2,7 +2,7 @@
 title: Lync Controls architecture
 TOCTitle: Lync Controls architecture
 ms:assetid: 2d7c1fac-8ec0-4e83-b494-5b09af844c90
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937293(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937293(v=office.15)
 ms:contentKeyID: 50877118
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -54,13 +54,13 @@ Each subsequent Lync Control opened by the application uses the existing connect
 
 To get the connection state, check the following properties:
 
-  - [IsSignedIn](https://msdn.microsoft.com/en-us/library/hh346560\(v=office.15\)) property
+  - [IsSignedIn](https://msdn.microsoft.com/library/hh346560\(v=office.15\)) property
 
-  - [InitializationError](https://msdn.microsoft.com/en-us/library/hh379166\(v=office.15\)) property
+  - [InitializationError](https://msdn.microsoft.com/library/hh379166\(v=office.15\)) property
 
-  - [IsInResiliencyMode](https://msdn.microsoft.com/en-us/library/hh363627\(v=office.15\)) property
+  - [IsInResiliencyMode](https://msdn.microsoft.com/library/hh363627\(v=office.15\)) property
 
-  - [InitializationErrorMessage](https://msdn.microsoft.com/en-us/library/hh379615\(v=office.15\)) property
+  - [InitializationErrorMessage](https://msdn.microsoft.com/library/hh379615\(v=office.15\)) property
 
 For more information about checking connection state, see [Troubleshooting Lync Controls applications](troubleshooting-lync-controls-applications.md).
 

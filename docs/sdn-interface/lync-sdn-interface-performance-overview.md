@@ -2,7 +2,7 @@
 title: Lync SDN Interface performance overview
 TOCTitle: Lync SDN Interface performance overview
 ms:assetid: 2ba10414-fcc4-40be-b87e-dc52f517c626
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912667(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912667(v=office.15)
 ms:contentKeyID: 64126837
 ms.date: 03/04/2016
 mtps_version: v=office.15

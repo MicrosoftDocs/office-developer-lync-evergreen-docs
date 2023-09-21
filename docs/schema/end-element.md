@@ -2,7 +2,7 @@
 title: end element
 TOCTitle: end element
 ms:assetid: fa2017e5-b3d8-4606-8262-909327de5cfb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439015(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439015(v=office.15)
 ms:contentKeyID: 57094058
 ms.date: 07/24/2014
 mtps_version: v=office.15

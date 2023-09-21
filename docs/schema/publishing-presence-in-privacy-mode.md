@@ -2,7 +2,7 @@
 title: Publishing presence in privacy mode
 TOCTitle: Publishing presence in privacy mode
 ms:assetid: 1f074e2b-002b-4846-8e79-2fe657be9f56
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454677(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454677(v=office.15)
 ms:contentKeyID: 57093155
 ms.date: 07/24/2014
 mtps_version: v=office.15

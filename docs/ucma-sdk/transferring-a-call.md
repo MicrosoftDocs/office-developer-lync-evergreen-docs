@@ -2,7 +2,7 @@
 title: Transferring a call
 TOCTitle: Transferring a call
 ms:assetid: 0ad597a8-d002-4708-9879-f7335a5f02f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465979(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465979(v=office.15)
 ms:contentKeyID: 57102770
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ This topic discusses attended, supervised, and unattended call transfers for a t
 
 
 > [!NOTE]
-> <P>Only the <A href="https://msdn.microsoft.com/en-us/library/hh383901(v=office.15)">AudioVideoCall</A> class provides call transfer functionality.</P>
+> <P>Only the <A href="https://msdn.microsoft.com/library/hh383901(v=office.15)">AudioVideoCall</A> class provides call transfer functionality.</P>
 
 
 
@@ -52,7 +52,7 @@ A supervised transfer is a type of attended transfer in which the transferor est
 
 
 > [!NOTE]
-> <P>Because the default <A href="https://msdn.microsoft.com/en-us/library/hh381449(v=office.15)">CallTransferType</A> is Attended, call transfers of this type can pass null as the second parameter of the <A href="https://msdn.microsoft.com/en-us/library/hh385216(v=office.15)">BeginTransfer(Call, CallTransferOptions, AsyncCallback, Object)</A> call.</P>
+> <P>Because the default <A href="https://msdn.microsoft.com/library/hh381449(v=office.15)">CallTransferType</A> is Attended, call transfers of this type can pass null as the second parameter of the <A href="https://msdn.microsoft.com/library/hh385216(v=office.15)">BeginTransfer(Call, CallTransferOptions, AsyncCallback, Object)</A> call.</P>
 
 
 
@@ -72,7 +72,7 @@ call.BeginTransfer(target, unattendedTransferOptions, userCallback, state);
 
 ## Customizing call transfer behaviors
 
-The [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) base class exposes protected methods to handle the incoming transfer and monitor the progress of the transfer. Derived classes can support transfer functionality by overriding the methods and exposing the event handler to the application.
+The [Call](https://msdn.microsoft.com/library/hh384235\(v=office.15\)) base class exposes protected methods to handle the incoming transfer and monitor the progress of the transfer. Derived classes can support transfer functionality by overriding the methods and exposing the event handler to the application.
 
 <table>
 <colgroup>
@@ -87,27 +87,27 @@ The [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) bas
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh381395(v=office.15)">HandleTransferReceived(CallTransferReceivedEventArgs)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh381395(v=office.15)">HandleTransferReceived(CallTransferReceivedEventArgs)</a></p></td>
 <td><p>Handles a transfer received event in a class derived from the <strong>Call</strong> class.</p>
 <p>protected abstract void HandleTransferReceived(CallTransferReceivedData e)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh366035(v=office.15)">HandleTransferNotificationReceived(TransferStateChangedEventArgs)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh366035(v=office.15)">HandleTransferNotificationReceived(TransferStateChangedEventArgs)</a></p></td>
 <td><p>Handles a transfer notification received event in a class derived from the <strong>Call</strong> class.</p>
 <p>protected abstract void HandleTransferNotification(ReferStateChangedEventArgs e)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh385216(v=office.15)">BeginTransfer(Call, CallTransferOptions, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh385216(v=office.15)">BeginTransfer(Call, CallTransferOptions, AsyncCallback, Object)</a></p></td>
 <td><p>Initiates a transfer request to the remote participant of the current call to replace an existing call in Attended mode.</p>
 <p>protected IAsyncResult BeginTransfer(Call callToReplace, CallTransferOptions callTransferOptions, AsyncCallback userCallback, object state)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh365622(v=office.15)">BeginTransfer(String, CallTransferOptions, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh365622(v=office.15)">BeginTransfer(String, CallTransferOptions, AsyncCallback, Object)</a></p></td>
 <td><p>Initiates a transfer request to the remote participant to transfer the given transfer target in Attended or Unattended mode.</p>
 <p>protected IAsyncResult BeginTransfer(string targetUri, CallTransferOptions callTransferOptions, AsyncCallback userCallback, object state)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh382131(v=office.15)">EndTransfer(IAsyncResult)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh382131(v=office.15)">EndTransfer(IAsyncResult)</a></p></td>
 <td><p>Determines whether the corresponding transfer operation completed successfully.</p>
 <p>This method waits if the operation has not yet completed.</p>
 <p>CallMessageData EndTransfer(IAsyncResult)</p></td>

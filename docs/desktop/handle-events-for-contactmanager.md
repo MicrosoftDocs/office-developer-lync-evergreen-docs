@@ -2,7 +2,7 @@
 title: Handle events for ContactManager
 TOCTitle: Handle events for ContactManager
 ms:assetid: a53758cd-b11f-4b9e-bfd8-c0dadde38a7a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945571(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945571(v=office.15)
 ms:contentKeyID: 51541386
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ dev_langs:
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about handling the events raised by the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) object in Microsoft Lync 2013 SDK.
+Learn about handling the events raised by the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)) object in Microsoft Lync 2013 SDK.
 
 
 
@@ -40,15 +40,15 @@ Additional resources</p></td>
 
 ## Event handling overview
 
-Event handlers triggered by events raised in the contacts and groups manager are a good place to stage the update of a contact list displayed in your user interface. In these event handlers, you can also register for or remove registration for the group’s contact events. For example, when a group is added, it triggers a [GroupAdded](https://msdn.microsoft.com/en-us/library/jj278290\(v=office.15\)) event. The event handler for this event should register for the [ContactAdded](https://msdn.microsoft.com/en-us/library/jj266994\(v=office.15\)) event and [ContactRemoved](https://msdn.microsoft.com/en-us/library/jj277068\(v=office.15\)) event for this new group.
+Event handlers triggered by events raised in the contacts and groups manager are a good place to stage the update of a contact list displayed in your user interface. In these event handlers, you can also register for or remove registration for the group’s contact events. For example, when a group is added, it triggers a [GroupAdded](https://msdn.microsoft.com/library/jj278290\(v=office.15\)) event. The event handler for this event should register for the [ContactAdded](https://msdn.microsoft.com/library/jj266994\(v=office.15\)) event and [ContactRemoved](https://msdn.microsoft.com/library/jj277068\(v=office.15\)) event for this new group.
 
-There are three events available for [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)):
+There are three events available for [ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)):
 
-  - [GroupAdded](https://msdn.microsoft.com/en-us/library/jj278290\(v=office.15\))
+  - [GroupAdded](https://msdn.microsoft.com/library/jj278290\(v=office.15\))
 
-  - [GroupRemoved](https://msdn.microsoft.com/en-us/library/jj276769\(v=office.15\))
+  - [GroupRemoved](https://msdn.microsoft.com/library/jj276769\(v=office.15\))
 
-  - [SearchProviderStateChanged](https://msdn.microsoft.com/en-us/library/jj274591\(v=office.15\))
+  - [SearchProviderStateChanged](https://msdn.microsoft.com/library/jj274591\(v=office.15\))
 
 ## Register for contacts and groups manager events
 

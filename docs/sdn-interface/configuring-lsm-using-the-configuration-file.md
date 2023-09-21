@@ -2,7 +2,7 @@
 title: Configuring LSM using the configuration file
 TOCTitle: Configuring LSM using the configuration file
 ms:assetid: 91a71769-df75-49a6-b305-8d202f6a5d12
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785210(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785210(v=office.15)
 ms:contentKeyID: 62952693
 ms.date: 02/16/2015
 mtps_version: v=office.15

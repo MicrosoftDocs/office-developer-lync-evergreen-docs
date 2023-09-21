@@ -2,7 +2,7 @@
 title: 'How to: Create a multi-threaded managed SIP application'
 TOCTitle: 'How to: Create a multi-threaded managed SIP application'
 ms:assetid: ba79c6fe-f761-43df-9bac-c5453981c3f0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439081(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439081(v=office.15)
 ms:contentKeyID: 57096238
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ Learn how to create a multi-threaded SIP application in a Microsoft Lync Server 
 
 For performance and efficiency, Lync Server 2013 events can be handled with worker threads from the .NET Framework thread pool.
 
-A simple approach is to use the .NET Framework thread pool and queue each event from the server (for example, use a call from [Dispatch](https://msdn.microsoft.com/en-us/library/hh364714\(v=office.15\))) as a user work item. In the next code sample, the server signals an event with the [WaitHandle](https://msdn.microsoft.com/en-us/library/jj265810\(v=office.15\)) property that is provided by the [ServerAgent](https://msdn.microsoft.com/en-us/library/jj266157\(v=office.15\)) instance. After the event is signaled, the application attempts to create a worker thread from the thread pool, which is then used to service the event. The [ProcessEvent(Object)](https://msdn.microsoft.com/en-us/library/jj265491\(v=office.15\)) event callback method is passed to the thread, which removes the event (the dispatch) from the server queue and processes it by passing the SIP message to the method that is specified in the Microsoft SIP Processing Language (MSPL) call to **Dispatch**.
+A simple approach is to use the .NET Framework thread pool and queue each event from the server (for example, use a call from [Dispatch](https://msdn.microsoft.com/library/hh364714\(v=office.15\))) as a user work item. In the next code sample, the server signals an event with the [WaitHandle](https://msdn.microsoft.com/library/jj265810\(v=office.15\)) property that is provided by the [ServerAgent](https://msdn.microsoft.com/library/jj266157\(v=office.15\)) instance. After the event is signaled, the application attempts to create a worker thread from the thread pool, which is then used to service the event. The [ProcessEvent(Object)](https://msdn.microsoft.com/library/jj265491\(v=office.15\)) event callback method is passed to the thread, which removes the event (the dispatch) from the server queue and processes it by passing the SIP message to the method that is specified in the Microsoft SIP Processing Language (MSPL) call to **Dispatch**.
 
 The next code sample demonstrates the basic structure that is used for threading dispatches from the server. It can be called directly from the **Main()** (entry point) method of your application, taking an instance of **ServerAgent** as a parameter.
 

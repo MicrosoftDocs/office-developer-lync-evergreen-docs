@@ -2,7 +2,7 @@
 title: legacyInterop category instance value element
 TOCTitle: legacyInterop category instance value element
 ms:assetid: 1d9ac6c5-a5bd-43d4-ac1b-e3335a1723c9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454762(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454762(v=office.15)
 ms:contentKeyID: 57093649
 ms.date: 07/24/2014
 mtps_version: v=office.15

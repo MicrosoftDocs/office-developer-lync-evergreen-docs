@@ -2,7 +2,7 @@
 title: userInformation/callHandlingList element
 TOCTitle: userInformation/callHandlingList element
 ms:assetid: 39b98666-1fe1-4824-aaba-cadfddf2e635
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454810(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454810(v=office.15)
 ms:contentKeyID: 57093954
 ms.date: 07/24/2014
 mtps_version: v=office.15

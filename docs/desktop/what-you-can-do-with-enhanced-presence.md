@@ -2,7 +2,7 @@
 title: What you can do with enhanced presence
 TOCTitle: Enhanced presence
 ms:assetid: 334a1474-8b40-41bb-9391-613e45652e69
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937296(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937296(v=office.15)
 ms:contentKeyID: 50877114
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ Watch the video: Add Presence to a WPF Application
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
 
 
 ## Core enhanced presence tasks

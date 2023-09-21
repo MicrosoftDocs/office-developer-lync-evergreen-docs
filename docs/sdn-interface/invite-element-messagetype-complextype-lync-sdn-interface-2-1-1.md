@@ -2,7 +2,7 @@
 title: Invite element (MessageType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Invite element
 ms:assetid: 9d3c3a00-a893-3d7b-0b51-98b290194a76
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912751(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912751(v=office.15)
 ms:contentKeyID: 64126921
 ms.date: 02/16/2015
 mtps_version: v=office.15

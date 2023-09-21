@@ -2,7 +2,7 @@
 title: Contact privacy relationship administration
 TOCTitle: Contact privacy relationship administration
 ms:assetid: d2d031e6-7e56-4500-b1dc-1b2fd9fa6f6e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933203(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933203(v=office.15)
 ms:contentKeyID: 50877345
 ms.date: 07/24/2014
 mtps_version: v=office.15

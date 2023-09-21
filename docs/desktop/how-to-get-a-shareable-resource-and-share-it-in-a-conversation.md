@@ -2,7 +2,7 @@
 title: 'How to: Get a shareable resource and share it in a conversation'
 TOCTitle: 'How to: Get a shareable resource and share it in a conversation'
 ms:assetid: 9626409f-cf49-4f1e-9212-045d990f1923
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933119(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933119(v=office.15)
 ms:contentKeyID: 50877253
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -88,37 +88,37 @@ Understanding the following concepts is essential to using resource sharing conv
 
 ## Share a resource
 
-The shareable resource list is a list of the locally shareable resource names. These names are added to the list in the order that they are read from the [ApplicationSharingModality.ShareableResources](https://msdn.microsoft.com/en-us/library/jj278380\(v=office.15\)) collection. For this reason, the selected index of the list is used in the Share Resources application to get the corresponding [Microsoft.Lync.Model.Conversation.Sharing.SharingResource](https://msdn.microsoft.com/en-us/library/jj293621\(v=office.15\)) instance from the collection.
+The shareable resource list is a list of the locally shareable resource names. These names are added to the list in the order that they are read from the [ApplicationSharingModality.ShareableResources](https://msdn.microsoft.com/library/jj278380\(v=office.15\)) collection. For this reason, the selected index of the list is used in the Share Resources application to get the corresponding [Microsoft.Lync.Model.Conversation.Sharing.SharingResource](https://msdn.microsoft.com/library/jj293621\(v=office.15\)) instance from the collection.
 
 ### To share a resource
 
-1.  Get the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object from the active conversation.
+1.  Get the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) object from the active conversation.
     
     This is shown in the following example.
 
-2.  Get a [Microsoft.Lync.Model.Conversation.Sharing.SharingResource](https://msdn.microsoft.com/en-us/library/jj293621\(v=office.15\)) object from the application sharing modality’s **ShareableResources** collection by the selected index.
+2.  Get a [Microsoft.Lync.Model.Conversation.Sharing.SharingResource](https://msdn.microsoft.com/library/jj293621\(v=office.15\)) object from the application sharing modality’s **ShareableResources** collection by the selected index.
 
-3.  Read the [SharingResource.Type](https://msdn.microsoft.com/en-us/library/jj275958\(v=office.15\)) property of the selected resource to determine the correct sharing method to call.
+3.  Read the [SharingResource.Type](https://msdn.microsoft.com/library/jj275958\(v=office.15\)) property of the selected resource to determine the correct sharing method to call.
 
-4.  Call the [ApplicationSharingModality.CanShare](https://msdn.microsoft.com/en-us/library/jj276997\(v=office.15\)) method to determine whether the selected resource can be shared.
+4.  Call the [ApplicationSharingModality.CanShare](https://msdn.microsoft.com/library/jj276997\(v=office.15\)) method to determine whether the selected resource can be shared.
 
-5.  If the sharing resource type is [Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType](https://msdn.microsoft.com/en-us/library/jj278136\(v=office.15\))**.Desktop**, call the [ApplicationSharingModality.BeginShareDesktop](https://msdn.microsoft.com/en-us/library/jj275900\(v=office.15\)) method.
+5.  If the sharing resource type is [Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType](https://msdn.microsoft.com/library/jj278136\(v=office.15\))**.Desktop**, call the [ApplicationSharingModality.BeginShareDesktop](https://msdn.microsoft.com/library/jj275900\(v=office.15\)) method.
 
-6.  If the sharing resource type is [SharingResourceType](https://msdn.microsoft.com/en-us/library/jj278136\(v=office.15\))**.Monitor** or [SharingResourceType](https://msdn.microsoft.com/en-us/library/jj278136\(v=office.15\))**.Process**, do the following:
+6.  If the sharing resource type is [SharingResourceType](https://msdn.microsoft.com/library/jj278136\(v=office.15\))**.Monitor** or [SharingResourceType](https://msdn.microsoft.com/library/jj278136\(v=office.15\))**.Process**, do the following:
     
-    1.  Obtain the process to share by getting the [Microsoft.Lync.Model.Conversation.Sharing.SharingResource](https://msdn.microsoft.com/en-us/library/jj293621\(v=office.15\)) from the [ApplicationSharingModality.ShareableResources](https://msdn.microsoft.com/en-us/library/jj278380\(v=office.15\)) collection on the conversation application sharing modality.
+    1.  Obtain the process to share by getting the [Microsoft.Lync.Model.Conversation.Sharing.SharingResource](https://msdn.microsoft.com/library/jj293621\(v=office.15\)) from the [ApplicationSharingModality.ShareableResources](https://msdn.microsoft.com/library/jj278380\(v=office.15\)) collection on the conversation application sharing modality.
     
-    2.  Call the [ApplicationSharingModality.BeginShareResources](https://msdn.microsoft.com/en-us/library/jj275502\(v=office.15\)) method, passing the sharing resource that was obtained in the previous step.
+    2.  Call the [ApplicationSharingModality.BeginShareResources](https://msdn.microsoft.com/library/jj275502\(v=office.15\)) method, passing the sharing resource that was obtained in the previous step.
 
 ## Handle the Modality.ActionAvailabilityChanged event
 
-Use the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event to prompt a user when a resource control action is available. The sample prompts the user by enabling or disabling one of a set of UI buttons for each action.
+Use the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) event to prompt a user when a resource control action is available. The sample prompts the user by enabling or disabling one of a set of UI buttons for each action.
 
-The [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event is raised on the conversation and participant **ApplicationSharingModality** objects when a control action is made available or not available. The event callback method for this event enables or disables buttons in the **Take a control action** group as action availability changes.
+The [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) event is raised on the conversation and participant **ApplicationSharingModality** objects when a control action is made available or not available. The event callback method for this event enables or disables buttons in the **Take a control action** group as action availability changes.
 
 Any presenter in an active conversation can share a resource at any time after the **ApplicationSharingModality** is connected. This event can be raised regardless of who is sharing a resource. For information about when to register for this event in a new sharing conversation, see [How to: Start a resource sharing conversation](how-to-start-a-resource-sharing-conversation.md).
 
-To set the **Enabled** property of a button, the event callback method reads the [Action](https://msdn.microsoft.com/en-us/library/jj276590\(v=office.15\)) property and the [IsAvailable](https://msdn.microsoft.com/en-us/library/jj293614\(v=office.15\)) property. The value of the **Action** property determines which button is set and the **IsAvailable** property value is used to set the **Button.Enabled** property value.
+To set the **Enabled** property of a button, the event callback method reads the [Action](https://msdn.microsoft.com/library/jj276590\(v=office.15\)) property and the [IsAvailable](https://msdn.microsoft.com/library/jj293614\(v=office.15\)) property. The value of the **Action** property determines which button is set and the **IsAvailable** property value is used to set the **Button.Enabled** property value.
 
 <table>
 <colgroup>
@@ -131,7 +131,7 @@ To set the **Enabled** property of a button, the event callback method reads the
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>The same event callback method for this event should be registered on all instances of the <a href="https://msdn.microsoft.com/en-us/library/jj275536(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality</a> object.</p></td>
+<td><p>The same event callback method for this event should be registered on all instances of the <a href="https://msdn.microsoft.com/library/jj275536(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality</a> object.</p></td>
 </tr>
 </tbody>
 </table>
@@ -154,9 +154,9 @@ To set the **Enabled** property of a button, the event callback method reads the
 
 ## Handle the Modality.ModalityStateChanged event
 
-Use the [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) event to update a UI list of users who have accepted an invitation to join the conversation.
+Use the [Modality.ModalityStateChanged](https://msdn.microsoft.com/library/jj278080\(v=office.15\)) event to update a UI list of users who have accepted an invitation to join the conversation.
 
-The [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) event is raised when the state of [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) objects for the conversation and each participant changes. When a participant’s modality state becomes [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Connected**, the participant has accepted the invitation. The participant can now view shared resources and if the participant is a presenter, can share a local resource.
+The [Modality.ModalityStateChanged](https://msdn.microsoft.com/library/jj278080\(v=office.15\)) event is raised when the state of [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) objects for the conversation and each participant changes. When a participant’s modality state becomes [ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Connected**, the participant has accepted the invitation. The participant can now view shared resources and if the participant is a presenter, can share a local resource.
 
 <table>
 <colgroup>
@@ -169,14 +169,14 @@ The [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj2
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>While it is a good practice to update your UI participant list with the name of each participant as each modality is connected, be prepared to remove a participant’s name if the participant declines the invitation or leaves the conversation. You are notified of this change in the <a href="https://msdn.microsoft.com/en-us/library/jj268280(v=office.15)">Conversation.ParticipantRemoved</a> event. If the participant is removed from the conversation before the his or her modality is connected, the participant declined the invitation.</p></td>
+<td><p>While it is a good practice to update your UI participant list with the name of each participant as each modality is connected, be prepared to remove a participant’s name if the participant declines the invitation or leaves the conversation. You are notified of this change in the <a href="https://msdn.microsoft.com/library/jj268280(v=office.15)">Conversation.ParticipantRemoved</a> event. If the participant is removed from the conversation before the his or her modality is connected, the participant declined the invitation.</p></td>
 </tr>
 </tbody>
 </table>
 
 ### Code example
 
-The following example updates a participant list in the UI with each [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) that is connected to the conversation.
+The following example updates a participant list in the UI with each [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) that is connected to the conversation.
 
 ```csharp
         /// <summary>
@@ -283,7 +283,7 @@ The following example shares a resource by completing steps 2 through 7c in the 
 
 ## Code example: Handle the Modality.ActionAvailabilityChanged event
 
-The following example handles the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event by invoking a UI thread delegate that takes a button and a Boolean argument. The button is the UI button to update, and the Boolean is the new value of the **Button.Enabled** property. The sample uses this logic to enable or disable a control action button when the availability of the action changes.
+The following example handles the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) event by invoking a UI thread delegate that takes a button and a Boolean argument. The button is the UI button to update, and the Boolean is the new value of the **Button.Enabled** property. The sample uses this logic to enable or disable a control action button when the availability of the action changes.
 
 ```csharp
         /// <summary>

@@ -2,7 +2,7 @@
 title: device/capabilities/breakthrough element
 TOCTitle: device/capabilities/breakthrough element
 ms:assetid: 2d37f77a-d54a-48c9-bad1-4b945ec9953f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454742(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454742(v=office.15)
 ms:contentKeyID: 57093629
 ms.date: 07/24/2014
 mtps_version: v=office.15

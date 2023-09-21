@@ -2,7 +2,7 @@
 title: Managing self-published contact lists
 TOCTitle: Managing self-published contact lists
 ms:assetid: 0006101d-f412-48c3-936f-62a783a43151
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454628(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454628(v=office.15)
 ms:contentKeyID: 57093092
 ms.date: 07/24/2014
 mtps_version: v=office.15

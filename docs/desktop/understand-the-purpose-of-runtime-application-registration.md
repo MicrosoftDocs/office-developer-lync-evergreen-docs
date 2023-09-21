@@ -2,7 +2,7 @@
 title: Understand the purpose of runtime application registration
 TOCTitle: Understand the purpose of runtime application registration
 ms:assetid: e9be8236-03f7-4fc7-92d9-809377882cf4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933219(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933219(v=office.15)
 ms:contentKeyID: 50877363
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -44,7 +44,7 @@ For example, an external-facing CWE application can be designated as the default
 
 When the internal automation application starts a new conversation window, it can override the default registration package and load the full version of the CWE application.
 
-The following example overrides the default package by creating an instance of the [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](https://msdn.microsoft.com/en-us/library/jj293820\(v=office.15\)) class, configures it with new values, and creates an in-memory registration for the CWE application. The in-memory registration is used when the conversation window opens the extensibility tab to host the CWE application.
+The following example overrides the default package by creating an instance of the [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](https://msdn.microsoft.com/library/jj293820\(v=office.15\)) class, configures it with new values, and creates an in-memory registration for the CWE application. The in-memory registration is used when the conversation window opens the extensibility tab to host the CWE application.
 
 ```csharp
         // Perform Run-Time Registration by using the ApplicationRegistration class.

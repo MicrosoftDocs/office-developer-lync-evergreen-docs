@@ -2,7 +2,7 @@
 title: Tasks of the host .NET application
 TOCTitle: Tasks of the host .NET application
 ms:assetid: 0dee2b50-283a-45de-ac00-bd2aca78c8a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466127(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466127(v=office.15)
 ms:contentKeyID: 57103420
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ The host .NET application that you create performs tasks before, during, and aft
 
 Before the VoiceXML session:
 
-- Instantiate a [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance.
+- Instantiate a [Browser](https://msdn.microsoft.com/library/gg452712\(v=office.15\)) instance.
 
 - Register for events that the **Browser** generates during a session.
 
@@ -47,7 +47,7 @@ The following example illustrates a typical instantiation and launching of an as
 
 ## Launching the browser
 
-In UCMA 4.0, there must always be an active call before the hosting .NET application launches the [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)). Normally, the call to the **Run(Uri, CookieContainer)** or **RunAsync(Uri, CookieContainer)** methods will be in the event handler for a received phone call.
+In UCMA 4.0, there must always be an active call before the hosting .NET application launches the [Browser](https://msdn.microsoft.com/library/gg452712\(v=office.15\)). Normally, the call to the **Run(Uri, CookieContainer)** or **RunAsync(Uri, CookieContainer)** methods will be in the event handler for a received phone call.
 
 
 > [!NOTE]
@@ -61,7 +61,7 @@ The following sequence includes sample code that illustrates the typical tasks t
 
 1.  Set up a UCMA 4.0 endpoint. (See ApplicationEndpoint.)
 
-2.  Instantiate a VoiceXML [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance (*vxb* in the following sample) and add delegates to handle events that occur after an asynchronous [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) instance has been launched and the session is in progress.
+2.  Instantiate a VoiceXML [Browser](https://msdn.microsoft.com/library/gg452712\(v=office.15\)) instance (*vxb* in the following sample) and add delegates to handle events that occur after an asynchronous [Browser](https://msdn.microsoft.com/library/gg452712\(v=office.15\)) instance has been launched and the session is in progress.
     
     ```csharp
     vxb = new Browser(); 
@@ -78,7 +78,7 @@ The following sequence includes sample code that illustrates the typical tasks t
     endpoint.RegisterForIncomingCall<AudioVideoCall>(AvCallReceived);
     ```
 
-4.  Accept the call and subscribe to the **StateChanged** event in the [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) class. After the value of the [StateChanged](https://msdn.microsoft.com/en-us/library/hh365997\(v=office.15\)) event switches to **Active**, the .NET application can call the Browser’s **SetAudioVideoCall()** method. Then the .NET application can call either the **Run(Uri, CookieContainer)** or the **RunAsync(Uri, CookieContainer)** method.
+4.  Accept the call and subscribe to the **StateChanged** event in the [AudioVideoCall](https://msdn.microsoft.com/library/hh383901\(v=office.15\)) class. After the value of the [StateChanged](https://msdn.microsoft.com/library/hh365997\(v=office.15\)) event switches to **Active**, the .NET application can call the Browser’s **SetAudioVideoCall()** method. Then the .NET application can call either the **Run(Uri, CookieContainer)** or the **RunAsync(Uri, CookieContainer)** method.
     
     ```csharp
     // Declare an instance of AudioVideoCall that will be passed to SetAudioVideoCall.

@@ -2,7 +2,7 @@
 title: calendarData/WorkingHours/DayOrder element
 TOCTitle: calendarData/WorkingHours/DayOrder element
 ms:assetid: 0d756fe0-6ec1-4b55-b31b-4e2afdc37c17
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454703(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454703(v=office.15)
 ms:contentKeyID: 57093390
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: LowResolutionCallPercent element  (Lync SDN API Schema A)
 TOCTitle: LowResolutionCallPercent element
 ms:assetid: 7539e8be-ea1a-7076-56a1-4972f9f77e08
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439216(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439216(v=office.15)
 ms:contentKeyID: 57260954
 ms.date: 07/24/2014
 mtps_version: v=office.15

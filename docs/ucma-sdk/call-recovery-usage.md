@@ -2,7 +2,7 @@
 title: Call recovery usage
 TOCTitle: Call recovery usage
 ms:assetid: 6891b977-0949-411a-8525-52414753d7d5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466066(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466066(v=office.15)
 ms:contentKeyID: 57103058
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-For an application that intends to wait for dialog healing, an event handler for the [RouteSetStatusChanged](https://msdn.microsoft.com/en-us/library/hh382697\(v=office.15\)) event should be patterned as shown in the following code example.
+For an application that intends to wait for dialog healing, an event handler for the [RouteSetStatusChanged](https://msdn.microsoft.com/library/hh382697\(v=office.15\)) event should be patterned as shown in the following code example.
 
 ```csharp
 private void RouteSetStatusChangedHandler(object sender, RouteSetStatusChangedEventArgs e)

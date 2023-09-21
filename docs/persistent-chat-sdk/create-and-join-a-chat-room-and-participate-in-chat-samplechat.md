@@ -2,7 +2,7 @@
 title: Create and join a chat room and participate in chat (SampleChat)
 TOCTitle: Create and join a chat room and participate in chat (SampleChat)
 ms:assetid: 19dd9501-1642-4609-b3e6-385718d09632
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465906(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465906(v=office.15)
 ms:contentKeyID: 57101412
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -25,7 +25,7 @@ Learn about the Microsoft Lync Server 2013 Persistent Chat SDK SampleChat applic
 
 This sample application shows how to use the Microsoft Lync Server 2013 Persistent Chat API to complete the following tasks:
 
-  - Connect to a Lync Server 2013 Persistent Chat on a [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\))-based [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj267567\(v=office.15\)).
+  - Connect to a Lync Server 2013 Persistent Chat on a [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\))-based [PersistentChatEndpoint](https://msdn.microsoft.com/library/jj267567\(v=office.15\)).
 
   - Create and join a chat room.
 

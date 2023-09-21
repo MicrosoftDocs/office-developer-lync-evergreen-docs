@@ -2,7 +2,7 @@
 title: UCMA 4.0 sample applications
 TOCTitle: UCMA 4.0 sample applications
 ms:assetid: be5bd554-f066-488b-a37b-9162b3e0e178
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466128(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466128(v=office.15)
 ms:contentKeyID: 57103421
 ms.date: 07/25/2014
 mtps_version: v=office.15

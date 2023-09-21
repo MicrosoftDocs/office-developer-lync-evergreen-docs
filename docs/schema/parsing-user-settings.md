@@ -2,7 +2,7 @@
 title: Parsing user settings
 TOCTitle: Parsing user settings
 ms:assetid: 195879fa-f58b-4f74-be85-a5e48b9a5738
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454652(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454652(v=office.15)
 ms:contentKeyID: 57093273
 ms.date: 07/24/2014
 mtps_version: v=office.15

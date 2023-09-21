@@ -2,7 +2,7 @@
 title: Trusted conferencing user conversation model
 TOCTitle: Trusted conferencing user conversation model
 ms:assetid: 49a76bad-e38e-4e1b-9660-490748041d32
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466016(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466016(v=office.15)
 ms:contentKeyID: 57102999
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-Using the Trusted Conferencing User model, an application can create multiple [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) instances in the context of a single [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) instance. This call structure allows for a closer alignment with the problem domain. An application not using this model must manage one conversation for each user, all of whom communicate with the same conference. The TCU model reduces management overhead for the application by having it manage only one conversation for each conference, resulting in fewer objects to manage.
+Using the Trusted Conferencing User model, an application can create multiple [AudioVideoCall](https://msdn.microsoft.com/library/hh383901\(v=office.15\)) instances in the context of a single [Conversation](https://msdn.microsoft.com/library/hh349224\(v=office.15\)) instance. This call structure allows for a closer alignment with the problem domain. An application not using this model must manage one conversation for each user, all of whom communicate with the same conference. The TCU model reduces management overhead for the application by having it manage only one conversation for each conference, resulting in fewer objects to manage.
 
 The following illustration shows the architecture of the TCU model.
 

@@ -2,7 +2,7 @@
 title: device/timezone element
 TOCTitle: device/timezone element
 ms:assetid: 43c22965-6ba6-4a2e-9681-a4a247453196
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454760(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454760(v=office.15)
 ms:contentKeyID: 57093647
 ms.date: 07/24/2014
 mtps_version: v=office.15

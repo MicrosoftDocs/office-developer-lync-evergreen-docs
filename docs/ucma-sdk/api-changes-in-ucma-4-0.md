@@ -2,7 +2,7 @@
 title: API changes in UCMA 4.0
 TOCTitle: API changes in UCMA 4.0
 ms:assetid: 7538dcf6-7fd0-475e-9c0b-da3f5da46917
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465976(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465976(v=office.15)
 ms:contentKeyID: 57102676
 ms.date: 07/25/2014
 mtps_version: v=office.15

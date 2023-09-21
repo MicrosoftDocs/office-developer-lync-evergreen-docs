@@ -2,7 +2,7 @@
 title: High availability and recovery
 TOCTitle: High availability and recovery
 ms:assetid: 9b356d12-2faa-44b6-a95c-0f7a3a5eb84c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466065(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466065(v=office.15)
 ms:contentKeyID: 57103061
 ms.date: 07/25/2014
 mtps_version: v=office.15

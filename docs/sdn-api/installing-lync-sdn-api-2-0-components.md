@@ -2,7 +2,7 @@
 title: Installing Lync SDN API 2.0 components
 TOCTitle: Installing Lync SDN API 2.0 components
 ms:assetid: 1ce71caf-b50f-4d15-b648-90bd0a219de8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439302(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439302(v=office.15)
 ms:contentKeyID: 57261038
 ms.date: 07/24/2014
 mtps_version: v=office.15

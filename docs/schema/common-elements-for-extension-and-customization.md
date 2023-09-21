@@ -2,7 +2,7 @@
 title: Common elements for extension and customization
 TOCTitle: Common elements for extension and customization
 ms:assetid: 3289cbe5-caf8-4374-be99-336ad0a7ccdc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439011(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439011(v=office.15)
 ms:contentKeyID: 57094054
 ms.date: 07/24/2014
 mtps_version: v=office.15

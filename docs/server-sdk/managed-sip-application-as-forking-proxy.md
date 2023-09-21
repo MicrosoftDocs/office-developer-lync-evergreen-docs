@@ -2,7 +2,7 @@
 title: Managed SIP application as forking proxy
 TOCTitle: Managed SIP application as forking proxy
 ms:assetid: 7d076640-0dc2-4994-bb14-e4a4cd7059c4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439071(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439071(v=office.15)
 ms:contentKeyID: 57096230
 ms.date: 02/11/2016
 mtps_version: v=office.15

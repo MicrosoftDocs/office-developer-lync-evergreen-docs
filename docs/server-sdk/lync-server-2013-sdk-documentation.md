@@ -2,7 +2,7 @@
 title: Lync Server 2013 SDK documentation
 TOCTitle: Lync Server 2013 SDK documentation
 ms:assetid: 3ca7044b-e351-45ef-af87-a93245ba39fa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454964(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454964(v=office.15)
 ms:contentKeyID: 57260571
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -31,13 +31,13 @@ This SDK is intended for the following audiences:
 ## In this SDK
 
 - [Lync Server 2013 SDK general reference](lync-server-2013-sdk-general-reference.md)
-- [Lync Server 2013 API references](https://msdn.microsoft.com/en-us/library/dn454963\(v=office.15\))
+- [Lync Server 2013 API references](https://msdn.microsoft.com/library/dn454963\(v=office.15\))
 
 ## See also
 
 - [Get started with Lync Server 2013 SDK](get-started-with-lync-server-2013-sdk.md)
 - [Learn the basics of Lync Server 2013 SDK](learn-the-basics-of-lync-server-2013-sdk.md)
-- [Copyright notice (Lync Server 2013 SDK)](https://msdn.microsoft.com/en-us/library/dn454965\(v=office.15\))
+- [Copyright notice (Lync Server 2013 SDK)](https://msdn.microsoft.com/library/dn454965\(v=office.15\))
 - [Microsoft Online Privacy Notice](http://go.microsoft.com/fwlink/?linkid=207069)
 - [Accessibility in Microsoft Products](http://go.microsoft.com/fwlink/?linkid=205790)
 

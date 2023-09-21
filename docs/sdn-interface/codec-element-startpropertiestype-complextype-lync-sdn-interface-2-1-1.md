@@ -2,7 +2,7 @@
 title: Codec element (StartPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Codec element (StartPropertiesType complexType)
 ms:assetid: 636a9666-bc43-09be-6880-441fc0b476cd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912690(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912690(v=office.15)
 ms:contentKeyID: 64126860
 ms.date: 02/16/2015
 mtps_version: v=office.15

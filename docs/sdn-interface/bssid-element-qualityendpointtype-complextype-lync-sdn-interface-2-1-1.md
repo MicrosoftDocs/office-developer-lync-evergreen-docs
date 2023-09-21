@@ -2,7 +2,7 @@
 title: BSSID element  (Lync SDN Interface 2.1.1)
 TOCTitle: BSSID element
 ms:assetid: bb75c81d-a8e5-f205-c04d-b590e4f5883f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912678(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912678(v=office.15)
 ms:contentKeyID: 64126847
 ms.date: 02/16/2015
 mtps_version: v=office.15

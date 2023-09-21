@@ -2,7 +2,7 @@
 title: Preparing for category publications
 TOCTitle: Preparing for category publications
 ms:assetid: 5c56c317-9710-450a-8c13-27146df9d806
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454650(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454650(v=office.15)
 ms:contentKeyID: 57092902
 ms.date: 07/24/2014
 mtps_version: v=office.15

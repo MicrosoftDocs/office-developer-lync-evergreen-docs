@@ -2,7 +2,7 @@
 title: Managing UCMA 4.0 applications
 TOCTitle: Managing UCMA 4.0 applications
 ms:assetid: 0666e40f-91b0-4549-aaa4-8180b53288f0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466088(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466088(v=office.15)
 ms:contentKeyID: 57103170
 ms.date: 07/25/2014
 mtps_version: v=office.15

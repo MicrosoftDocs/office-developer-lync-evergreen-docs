@@ -2,7 +2,7 @@
 title: IP element (EndPointType complexType) (Lync SDN API Schema A)
 TOCTitle: IP element (EndPointType complexType)
 ms:assetid: 372e6790-004e-72f7-2eea-fea785cbafd7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775124(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775124(v=office.15)
 ms:contentKeyID: 62626098
 ms.date: 07/24/2014
 mtps_version: v=office.15

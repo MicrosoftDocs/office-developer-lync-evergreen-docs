@@ -2,7 +2,7 @@
 title: VoiceXML support in UCMA 4.0
 TOCTitle: VoiceXML support in UCMA 4.0
 ms:assetid: 064392c2-b82a-4d1f-a239-8eabb8fae2c4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466119(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466119(v=office.15)
 ms:contentKeyID: 57103412
 ms.date: 07/25/2014
 mtps_version: v=office.15

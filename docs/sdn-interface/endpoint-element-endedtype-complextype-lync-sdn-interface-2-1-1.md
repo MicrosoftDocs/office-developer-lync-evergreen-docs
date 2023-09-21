@@ -2,7 +2,7 @@
 title: EndPoint element (EndedType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: EndPoint element (EndedType complexType)
 ms:assetid: cfbb40f5-0b51-9465-e54f-59e7afbf433e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912723(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912723(v=office.15)
 ms:contentKeyID: 64126893
 ms.date: 02/16/2015
 mtps_version: v=office.15

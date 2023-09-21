@@ -2,7 +2,7 @@
 title: CorrelationId element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: CorrelationId element
 ms:assetid: a929d8f5-d544-9227-36a7-da40eb9449b8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912701(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912701(v=office.15)
 ms:contentKeyID: 64126871
 ms.date: 02/16/2015
 mtps_version: v=office.15

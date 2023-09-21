@@ -2,7 +2,7 @@
 title: Editing the template of a Lync Control
 TOCTitle: Editing the template of a Lync Control
 ms:assetid: 6a7e723b-7a8a-4a25-bdac-4d8fb003c1ee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945546(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945546(v=office.15)
 ms:contentKeyID: 51541355
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ dev_langs:
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn how to use Microsoft Expression Blend 4 to edit the [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control template.
+Learn how to use Microsoft Expression Blend 4 to edit the [PresenceIndicator](https://msdn.microsoft.com/library/hh345947\(v=office.15\)) control template.
 
 
 
@@ -37,7 +37,7 @@ Additional resources</p></td>
 
 ## Editing overview
 
-The process used to edit a Microsoft Lync Control template requires comprehension of the standard process used to edit templates with Expression Blend. The [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control is a relatively simple control to retemplate. For information about retemplating complex templates, see [Create or modify a template](http://msdn.microsoft.com/en-us/library/cc294908\(v=expression.40\).aspx).
+The process used to edit a Microsoft Lync Control template requires comprehension of the standard process used to edit templates with Expression Blend. The [PresenceIndicator](https://msdn.microsoft.com/library/hh345947\(v=office.15\)) control is a relatively simple control to retemplate. For information about retemplating complex templates, see [Create or modify a template](http://msdn.microsoft.com/library/cc294908\(v=expression.40\).aspx).
 
 <table>
 <colgroup>
@@ -93,7 +93,7 @@ The process used to edit a Microsoft Lync Control template requires comprehensio
 
 8.  Choose the dictionary you created earlier, and then click **OK**.
     
-    The dictionary you created is now populated with a variety of [Style](http://msdn2.microsoft.com/en-us/library/ms600899) resources that are used by the PresenceIndicator control, as well as a copy of the existing PresenceIndicator style that you previously named.
+    The dictionary you created is now populated with a variety of [Style](http://msdn2.microsoft.com/library/ms600899) resources that are used by the PresenceIndicator control, as well as a copy of the existing PresenceIndicator style that you previously named.
     
     <table>
     <colgroup>

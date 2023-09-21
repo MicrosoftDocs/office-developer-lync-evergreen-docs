@@ -2,7 +2,7 @@
 title: state/meetingSubject element
 TOCTitle: state/meetingSubject element
 ms:assetid: b1cd1e00-d99b-4d5a-90ff-74f45c33d6dc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438962(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438962(v=office.15)
 ms:contentKeyID: 57093999
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Performance Counters provided by LSM and LDL
 TOCTitle: Performance Counters provided by LSM and LDL
 ms:assetid: 66a0c1f3-32a4-4e59-9646-824f28d332d0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785223(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785223(v=office.15)
 ms:contentKeyID: 62952706
 ms.date: 02/16/2015
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ description: Explore LSM and LDL's performance counters for Lync 2010 and 2013. 
 
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
-LDL and LSM provide a number of performance counters. They are described in the following table and may be accessed using [Perfmon](https://technet.microsoft.com/en-us/library/bb490957.aspx).
+LDL and LSM provide a number of performance counters. They are described in the following table and may be accessed using [Perfmon](https://technet.microsoft.com/library/bb490957.aspx).
 
 ## Performance counters by LSM
 

@@ -2,7 +2,7 @@
 title: state/extension element
 TOCTitle: state/extension element
 ms:assetid: 2460757d-6335-4e10-9783-e514ef919c2e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454812(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454812(v=office.15)
 ms:contentKeyID: 57093962
 ms.date: 07/24/2014
 mtps_version: v=office.15

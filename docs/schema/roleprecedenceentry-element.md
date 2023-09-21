@@ -2,7 +2,7 @@
 title: rolePrecedenceEntry element
 TOCTitle: rolePrecedenceEntry element
 ms:assetid: 575be034-ecdb-4ee3-8ec1-7f78f127fd0b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438991(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438991(v=office.15)
 ms:contentKeyID: 57094035
 ms.date: 07/24/2014
 mtps_version: v=office.15

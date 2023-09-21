@@ -2,7 +2,7 @@
 title: rccOptions/forwarding/toPhoneType element
 TOCTitle: rccOptions/forwarding/toPhoneType element
 ms:assetid: a60849ad-a754-4186-85c4-8030ea073c13
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438956(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438956(v=office.15)
 ms:contentKeyID: 57093976
 ms.date: 07/24/2014
 mtps_version: v=office.15

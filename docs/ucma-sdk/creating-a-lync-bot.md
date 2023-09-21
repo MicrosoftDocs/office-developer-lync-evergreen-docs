@@ -2,7 +2,7 @@
 title: Creating a Lync bot
 TOCTitle: Creating a Lync bot
 ms:assetid: bede739a-ec48-4e6d-b52c-acbf04b245bb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454840(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454840(v=office.15)
 ms:contentKeyID: 57103803
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -46,9 +46,9 @@ Some steps of this procedure are described in [Creating a generic bot](creating-
 
 ## Create a trusted application and a trusted application endpoint for the UC bot
 
-In typical production scenarios, your bot will run on an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) instance. You will need to create a trusted application and a trusted application endpoint in the Lync environment.
+In typical production scenarios, your bot will run on an [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)) instance. You will need to create a trusted application and a trusted application endpoint in the Lync environment.
 
-If your Lync server is not set up for provisioning UCMA 4.0 applications, see [Getting Started with Unified Communications Managed API 3.0](http://msdn.microsoft.com/en-us/gg412553).
+If your Lync server is not set up for provisioning UCMA 4.0 applications, see [Getting Started with Unified Communications Managed API 3.0](http://msdn.microsoft.com/gg412553).
 
 To create a trusted application and trusted application endpoint, use the following PowerShell script.
 

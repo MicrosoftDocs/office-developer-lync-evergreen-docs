@@ -2,7 +2,7 @@
 title: Get started with Lync 2013 SDK
 TOCTitle: Get started
 ms:assetid: e7cd673b-c786-4dbe-a6b4-940ffef372fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933215(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933215(v=office.15)
 ms:contentKeyID: 50877361
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -138,7 +138,7 @@ Microsoft Lync 2013 SDK gives you the ability to add a wide range of Lync featur
 
 If you want to add a set of Lync features to your WPF or Silverlight application and do not have the time to learn about the Lync 2013 API object model, you can use the suite of Microsoft Lync 2013 Controls to populate contact list and conversation features in your application. To do this, leverage your knowledge of XAML syntax and C\# to set control properties at either design or runtime. The Lync Controls requires that Microsoft Lync 2013 is installed and running on each computer that runs your application.
 
-You can also automate the starting of Lync 2013 conversations and docking Lync conversation windows within your application by using a few simple method calls from the [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/en-us/library/jj278382\(v=office.15\)) namespace. If you use this method to automate conversations, all you need is the SIP address of a Lync user to start a conversation, a container control in your application that hosts the docked conversation window, and a small amount of C\# code to manage docking the conversation window.
+You can also automate the starting of Lync 2013 conversations and docking Lync conversation windows within your application by using a few simple method calls from the [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/library/jj278382\(v=office.15\)) namespace. If you use this method to automate conversations, all you need is the SIP address of a Lync user to start a conversation, a container control in your application that hosts the docked conversation window, and a small amount of C\# code to manage docking the conversation window.
 
 If you want to extend the functionality of the Lync conversation window, you can use the full power of the Lync 2013 API object model to create conversation context-aware Silverlight applications that are hosted in an extension pane of the conversation window itself. The object model gives you read-write access to conversation modalities as well as the conversation participant list. Although the Conversation Window Extension (CWE) application is a Silverlight browser application, it has the practical complexity limitations that any browser application has when hosted in a Browser control on a form.
 
@@ -165,7 +165,7 @@ The following table lists basic tasks that are the building blocks of the previo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj937241(v=office.15)">How to: Sign in to and out of Lync</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj937241(v=office.15)">How to: Sign in to and out of Lync</a></p></td>
 <td><p>Shows how to code the sign in/sign out process using the Lync 2013 API in both UI-suppressed and non UI-suppressed scenarios.</p></td>
 </tr>
 <tr class="even">

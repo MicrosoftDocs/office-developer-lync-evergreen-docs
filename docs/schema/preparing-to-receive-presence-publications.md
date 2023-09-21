@@ -2,7 +2,7 @@
 title: Preparing to receive presence publications
 TOCTitle: Preparing to receive presence publications
 ms:assetid: b35c72f3-8201-4274-b33b-299943143de6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454656(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454656(v=office.15)
 ms:contentKeyID: 57092917
 ms.date: 07/24/2014
 mtps_version: v=office.15

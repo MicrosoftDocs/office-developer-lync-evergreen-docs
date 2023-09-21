@@ -2,7 +2,7 @@
 title: Customizing Lync Controls
 TOCTitle: Customizing Lync Controls
 ms:assetid: 1c1e3494-179b-40eb-afa7-0392bce33024
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937270(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937270(v=office.15)
 ms:contentKeyID: 50877089
 ms.date: 07/24/2014
 mtps_version: v=office.15

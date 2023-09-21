@@ -2,7 +2,7 @@
 title: Media stack performance counters
 TOCTitle: Media stack performance counters
 ms:assetid: c2476bf2-bb17-4f28-b69b-060fb21924e9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466085(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466085(v=office.15)
 ms:contentKeyID: 57103176
 ms.date: 07/25/2014
 mtps_version: v=office.15

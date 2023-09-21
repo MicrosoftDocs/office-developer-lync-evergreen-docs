@@ -2,7 +2,7 @@
 title: DeviceEchoEventRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DeviceEchoEventRatio element
 ms:assetid: 9970c801-398b-ff63-c87c-8c03ebee82fe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912713(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912713(v=office.15)
 ms:contentKeyID: 64126883
 ms.date: 02/16/2015
 mtps_version: v=office.15

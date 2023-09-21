@@ -2,7 +2,7 @@
 title: MicGlitchRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: MicGlitchRate element
 ms:assetid: 7709cd8c-cb03-119f-eb14-96d93da634d4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912763(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912763(v=office.15)
 ms:contentKeyID: 64126933
 ms.date: 02/16/2015
 mtps_version: v=office.15

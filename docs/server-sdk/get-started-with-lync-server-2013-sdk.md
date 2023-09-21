@@ -2,7 +2,7 @@
 title: Get started with Lync Server 2013 SDK
 TOCTitle: Get started
 ms:assetid: 4198c7c7-5bbe-44d0-8d97-41c305e5d02f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439058(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439058(v=office.15)
 ms:contentKeyID: 57096672
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -35,7 +35,7 @@ This section discusses the requirements and prerequisites for building a Microso
 
 [Lync Videos on Channel9](http://channel9.msdn.com/tags/lync)
 
-[Video demo, Lync Server 2013: Hello World (Part 1)](http://www.microsoft.com/resources/msdn/en-us/office/media/video/video.html?cid=ldc%26from=mscomldc%26videoid=7f863676-6ece-4389-9554-13607b84aa56)
+[Video demo, Lync Server 2013: Hello World (Part 1)](http://www.microsoft.com/resources/msdn/office/media/video/video.html?cid=ldc%26from=mscomldc%26videoid=7f863676-6ece-4389-9554-13607b84aa56)
 
-[Video demo, Lync Server 2013: Hello World (Part 2)](http://www.microsoft.com/resources/msdn/en-us/office/media/video/video.html?cid=ldc%26from=mscomldc%26videoid=d5037333-6c93-4453-865a-e80a3a5b88b1)
+[Video demo, Lync Server 2013: Hello World (Part 2)](http://www.microsoft.com/resources/msdn/office/media/video/video.html?cid=ldc%26from=mscomldc%26videoid=d5037333-6c93-4453-865a-e80a3a5b88b1)
 

@@ -2,7 +2,7 @@
 title: state element
 TOCTitle: state element
 ms:assetid: 35acb118-e3a6-473b-8f6a-83c740c1a162
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438964(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438964(v=office.15)
 ms:contentKeyID: 57094002
 ms.date: 07/24/2014
 mtps_version: v=office.15

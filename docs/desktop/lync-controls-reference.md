@@ -2,7 +2,7 @@
 title: Lync Controls reference
 TOCTitle: Lync Controls reference
 ms:assetid: 10ff2802-6006-49ef-bd11-d0b1416dc21d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937261(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937261(v=office.15)
 ms:contentKeyID: 50877079
 ms.date: 07/24/2014
 mtps_version: v=office.15

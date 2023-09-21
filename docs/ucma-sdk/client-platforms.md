@@ -2,7 +2,7 @@
 title: Client platforms
 TOCTitle: Client platforms
 ms:assetid: 10b3cb99-b1ab-4a21-97e4-b6106781b25b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466052(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466052(v=office.15)
 ms:contentKeyID: 57103045
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-When a [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.15\)) instance is created, it can be created as a client platform, a server platform, or as a provisioned application server platform. Each of the three **CollaborationPlatform** constructors can be used to create one type of platform.
+When a [CollaborationPlatform](https://msdn.microsoft.com/library/hh385176\(v=office.15\)) instance is created, it can be created as a client platform, a server platform, or as a provisioned application server platform. Each of the three **CollaborationPlatform** constructors can be used to create one type of platform.
 
 A client platform typically is used to support the creation of a large number of clients that can be used to simulate users connected to an application, for the purpose of carrying out stress and scalability testing on an implementation of an application server.
 

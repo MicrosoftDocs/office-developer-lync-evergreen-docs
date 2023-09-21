@@ -2,7 +2,7 @@
 title: RenderDevice element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RenderDevice element
 ms:assetid: dbdf2f1e-3e03-9b64-cef9-dd5cdea9e55b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912806(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912806(v=office.15)
 ms:contentKeyID: 64126974
 ms.date: 02/16/2015
 mtps_version: v=office.15

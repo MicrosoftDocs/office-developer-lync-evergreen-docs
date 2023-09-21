@@ -2,7 +2,7 @@
 title: Extension and customization of a category schema
 TOCTitle: Extension and customization of a category schema
 ms:assetid: 1b24b946-7938-40e0-9d6c-fe2cb2d9dfed
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454676(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454676(v=office.15)
 ms:contentKeyID: 57093182
 ms.date: 07/24/2014
 mtps_version: v=office.15

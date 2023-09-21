@@ -2,7 +2,7 @@
 title: BandwidthType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: BandwidthType complexType
 ms:assetid: 5d4e8631-5956-03b2-e971-99f1c9e48842
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912845(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912845(v=office.15)
 ms:contentKeyID: 64127013
 ms.date: 02/16/2015
 mtps_version: v=office.15

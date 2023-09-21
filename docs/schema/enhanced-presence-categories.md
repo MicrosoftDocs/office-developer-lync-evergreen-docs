@@ -2,7 +2,7 @@
 title: Enhanced Presence categories
 TOCTitle: Enhanced Presence categories
 ms:assetid: 2ec70dde-fe76-4a87-9eb4-e7516777e1a8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454620(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454620(v=office.15)
 ms:contentKeyID: 57093013
 ms.date: 07/24/2014
 mtps_version: v=office.15

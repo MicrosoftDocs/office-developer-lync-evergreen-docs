@@ -2,7 +2,7 @@
 title: otherOptions/Permissions/publishCalendarPresence element
 TOCTitle: otherOptions/Permissions/publishCalendarPresence element
 ms:assetid: 6fc824a4-8f97-4af7-8dbd-68e2160c52c3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454773(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454773(v=office.15)
 ms:contentKeyID: 57093660
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: InstantMessagingCall (QuickStart)
 TOCTitle: InstantMessagingCall (QuickStart)
 ms:assetid: 76574248-8d00-4c66-aad5-a5df2f9f7607
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454827(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454827(v=office.15)
 ms:contentKeyID: 57103703
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -31,7 +31,7 @@ The application initializes the platform, and logs in on behalf of a user. The s
 
   - Instant messaging message usage, including replying to incoming messages
 
-  - [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.15\)) handling and control
+  - [InstantMessagingFlow](https://msdn.microsoft.com/library/hh383312\(v=office.15\)) handling and control
 
 ## Prerequisites
 

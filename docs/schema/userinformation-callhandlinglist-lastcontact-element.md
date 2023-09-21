@@ -2,7 +2,7 @@
 title: userInformation/callHandlingList/lastContact element
 TOCTitle: userInformation/callHandlingList/lastContact element
 ms:assetid: b5298d2d-856c-4803-8ac0-5e03ef890fd8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438969(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438969(v=office.15)
 ms:contentKeyID: 57094014
 ms.date: 07/24/2014
 mtps_version: v=office.15

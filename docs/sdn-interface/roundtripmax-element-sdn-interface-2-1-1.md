@@ -2,7 +2,7 @@
 title: RoundTripMax element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RoundTripMax element
 ms:assetid: fb43b8bb-03e8-fefe-b902-07c5eb4e1989
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912815(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912815(v=office.15)
 ms:contentKeyID: 64126984
 ms.date: 02/16/2015
 mtps_version: v=office.15

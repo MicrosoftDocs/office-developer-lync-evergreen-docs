@@ -2,7 +2,7 @@
 title: RawSDP element (Lync SDN API Schema A)
 TOCTitle: RawSDP element
 ms:assetid: bf1a025e-d09e-1794-019e-5fbecf41fd5c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439250(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439250(v=office.15)
 ms:contentKeyID: 57260986
 ms.date: 07/24/2014
 mtps_version: v=office.15

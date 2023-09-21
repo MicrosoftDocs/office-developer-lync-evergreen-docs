@@ -2,7 +2,7 @@
 title: Register contextual conversation packages
 TOCTitle: Register contextual conversation packages
 ms:assetid: 1d9bdbb4-7602-4057-88cb-37b933acc3fc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945539(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945539(v=office.15)
 ms:contentKeyID: 51541340
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -90,7 +90,7 @@ Anytime a sales manager gets a call from an outside customer, she wants to see, 
 
 ### Runtime Registration
 
-In contrast with Install Registration, Runtime Registration uses an application to modify package registration data at runtime. Use Runtime Registration for flexible package setup and the security advantages. In this case, package registration data is added to the Lync 2013 registration pool and resets after the Lync 2013 user signs out. Use the [ApplicationRegistration](https://msdn.microsoft.com/en-us/library/jj293820\(v=office.15\)) class to perform Runtime Registration. For more information, see [How to: Install a CWE application in Lync SDK](how-to-install-a-cwe-application-in-lync-sdk.md).
+In contrast with Install Registration, Runtime Registration uses an application to modify package registration data at runtime. Use Runtime Registration for flexible package setup and the security advantages. In this case, package registration data is added to the Lync 2013 registration pool and resets after the Lync 2013 user signs out. Use the [ApplicationRegistration](https://msdn.microsoft.com/library/jj293820\(v=office.15\)) class to perform Runtime Registration. For more information, see [How to: Install a CWE application in Lync SDK](how-to-install-a-cwe-application-in-lync-sdk.md).
 
 Runtime Registration is a good choice for scenarios such as the following:
 

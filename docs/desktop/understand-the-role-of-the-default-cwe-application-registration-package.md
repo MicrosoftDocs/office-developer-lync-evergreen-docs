@@ -2,7 +2,7 @@
 title: Understand the role of the default CWE application registration package
 TOCTitle: Understand the role of the default CWE application registration package
 ms:assetid: 8e594256-6d06-44a4-80ee-07fe41969f9a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945568(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945568(v=office.15)
 ms:contentKeyID: 51541383
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -56,7 +56,7 @@ You must use Install Registration to register context packages on a computer. To
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>A default package cannot be overridden at runtime by using an <a href="https://msdn.microsoft.com/en-us/library/jj293820(v=office.15)">Microsoft.Lync.Model.Extensibility.ApplicationRegistration</a> object. The default package CWE application starts with every new conversation, even when application logic specifies another install-time or runtime override application for a different extensibility tab in the conversation window.</p></td>
+<td><p>A default package cannot be overridden at runtime by using an <a href="https://msdn.microsoft.com/library/jj293820(v=office.15)">Microsoft.Lync.Model.Extensibility.ApplicationRegistration</a> object. The default package CWE application starts with every new conversation, even when application logic specifies another install-time or runtime override application for a different extensibility tab in the conversation window.</p></td>
 </tr>
 </tbody>
 </table>

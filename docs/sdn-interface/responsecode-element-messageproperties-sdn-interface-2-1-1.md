@@ -2,7 +2,7 @@
 title: ResponseCode element (MessageProperties complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: ResponseCode element (MessageProperties complexType)
 ms:assetid: cd0aa12a-ce65-faf2-04d4-3f7e02441338
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912811(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912811(v=office.15)
 ms:contentKeyID: 64126980
 ms.date: 02/16/2015
 mtps_version: v=office.15

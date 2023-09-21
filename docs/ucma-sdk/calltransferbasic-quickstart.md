@@ -2,7 +2,7 @@
 title: CallTransferBasic (QuickStart)
 TOCTitle: CallTransferBasic (QuickStart)
 ms:assetid: 5a4b0a5a-4db1-45be-b9a7-c899066faaf0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454816(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454816(v=office.15)
 ms:contentKeyID: 57103650
 ms.date: 07/25/2014
 mtps_version: v=office.15

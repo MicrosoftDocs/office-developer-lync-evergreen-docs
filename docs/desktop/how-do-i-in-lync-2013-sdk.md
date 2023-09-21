@@ -2,7 +2,7 @@
 title: How do I in Lync 2013 SDK
 TOCTitle: How do I
 ms:assetid: 8a55ed45-0e48-4443-ac01-3dc80978df59
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933118(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933118(v=office.15)
 ms:contentKeyID: 50877252
 ms.date: 07/24/2014
 mtps_version: v=office.15

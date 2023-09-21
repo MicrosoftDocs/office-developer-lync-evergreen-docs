@@ -2,7 +2,7 @@
 title: EchoReturn element (Lync SDN API Schema A)
 TOCTitle: EchoReturn element
 ms:assetid: 6a72fbf3-8150-b6e8-4916-ec3ad4531cde
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455033(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455033(v=office.15)
 ms:contentKeyID: 57260909
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: calendarData/WorkingHours element
 TOCTitle: calendarData/WorkingHours element
 ms:assetid: 9e4d9ee0-e82b-4e38-b32a-3399c29df0cb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454695(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454695(v=office.15)
 ms:contentKeyID: 57093363
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Get started with Lync Controls
 TOCTitle: Lync Controls
 ms:assetid: 5955a65f-3cdd-4a6f-b4f9-9b2b93c4d368
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933051(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933051(v=office.15)
 ms:contentKeyID: 50877181
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -34,7 +34,7 @@ Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
 
 <a name="GetStarted"></a> 
 ## What are Lync Controls?
@@ -121,7 +121,7 @@ With Microsoft Lync Controls, application developers can implement many of the f
 </tr>
 <tr class="odd">
 <td><p><a href="how-to-display-a-customized-list-of-team-contacts-in-lync-sdk.md">How to: Display a customized list of team contacts in Lync SDK</a></p></td>
-<td><p>Demonstrates how to use the <a href="https://msdn.microsoft.com/en-us/library/hh346321(v=office.15)">CustomContactList</a> control in Microsoft Lync Controls applications to display an arbitrary customized list of contacts using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF). Each item in the contacts list is provided by a <a href="https://msdn.microsoft.com/en-us/library/hh346017(v=office.15)">CustomContactListItem</a> control.</p></td>
+<td><p>Demonstrates how to use the <a href="https://msdn.microsoft.com/library/hh346321(v=office.15)">CustomContactList</a> control in Microsoft Lync Controls applications to display an arbitrary customized list of contacts using Microsoft Silverlight or Microsoft Windows Presentation Foundation (WPF). Each item in the contacts list is provided by a <a href="https://msdn.microsoft.com/library/hh346017(v=office.15)">CustomContactListItem</a> control.</p></td>
 </tr>
 </tbody>
 </table>
@@ -154,7 +154,7 @@ The following table lists advanced concepts for working with Lync Controls.
 </tr>
 <tr class="odd">
 <td><p><a href="troubleshooting-lync-controls-applications.md">Troubleshooting Lync Controls applications</a></p></td>
-<td><p>Learn how to troubleshoot an application by using <a href="https://msdn.microsoft.com/en-us/library/hh364242(v=office.15)">UCBase</a> class read-only properties to display Microsoft Lync Controls initialization errors at runtime.</p></td>
+<td><p>Learn how to troubleshoot an application by using <a href="https://msdn.microsoft.com/library/hh364242(v=office.15)">UCBase</a> class read-only properties to display Microsoft Lync Controls initialization errors at runtime.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="use-logging-in-lync-controls.md">Use logging in Lync Controls</a></p></td>

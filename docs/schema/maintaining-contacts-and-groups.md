@@ -2,7 +2,7 @@
 title: Maintaining contacts and groups
 TOCTitle: Maintaining contacts and groups
 ms:assetid: 9233ed77-bebb-4ad4-aa9e-c19eb752d186
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454634(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454634(v=office.15)
 ms:contentKeyID: 57092876
 ms.date: 07/24/2014
 mtps_version: v=office.15

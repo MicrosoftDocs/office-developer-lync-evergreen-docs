@@ -2,7 +2,7 @@
 title: RelayPort element (EndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RelayPort element (EndPointType complexType)
 ms:assetid: 740f1780-aef9-20fe-f992-edf21679264a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912810(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912810(v=office.15)
 ms:contentKeyID: 64126979
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Lync Conversation Window Extension
 TOCTitle: Lync Conversation Window Extension
 ms:assetid: 5ad47eb4-d1b5-428b-b9fc-f88534e94160
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945545(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945545(v=office.15)
 ms:contentKeyID: 51541354
 ms.date: 06/09/2015
 mtps_version: v=office.15
@@ -48,19 +48,19 @@ CWE opens programmatically in the following scenarios:
 
   - When a registered context package opens in a conversation. For more information, see [Register contextual conversation packages](register-contextual-conversation-packages.md).
 
-  - Use the [BeginOpenExtensibilityWindow](https://msdn.microsoft.com/en-us/library/jj293519\(v=office.15\)) method.
+  - Use the [BeginOpenExtensibilityWindow](https://msdn.microsoft.com/library/jj293519\(v=office.15\)) method.
 
 CWE can also be opened manually by selecting an application from the contact card **Options** menu. For more information, see [Add custom commands to Lync menus](add-custom-commands-to-lync-menus.md).
 
 ## Closing Conversation Window Extension
 
-To close CWE, click the **Close** button on the tab at the bottom of the window or use the [CloseExtensibilityWindow](https://msdn.microsoft.com/en-us/library/jj275301\(v=office.15\)) method to close the window programatically. Otherwise, CWE closes when the conversation window closes.
+To close CWE, click the **Close** button on the tab at the bottom of the window or use the [CloseExtensibilityWindow](https://msdn.microsoft.com/library/jj275301\(v=office.15\)) method to close the window programatically. Otherwise, CWE closes when the conversation window closes.
 
 ## Conversation Window Extension size
 
 There are two ways to specify CWE dimensions:
 
-  - Use the [ConversationWindowExtensionSize](https://msdn.microsoft.com/en-us/library/jj278101\(v=office.15\)) enumeration.
+  - Use the [ConversationWindowExtensionSize](https://msdn.microsoft.com/library/jj278101\(v=office.15\)) enumeration.
 
   - During Install Registration, use the ExtensibilityWindowSize registry key for the CWE application. For more information, see [Register contextual conversation packages](register-contextual-conversation-packages.md).
 

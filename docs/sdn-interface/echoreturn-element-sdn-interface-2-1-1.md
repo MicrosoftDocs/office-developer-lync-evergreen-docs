@@ -2,7 +2,7 @@
 title: EchoReturn element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: EchoReturn element
 ms:assetid: 4ae0d937-4d0d-366b-50b0-2c46e392de5c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912722(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912722(v=office.15)
 ms:contentKeyID: 64126892
 ms.date: 02/16/2015
 mtps_version: v=office.15

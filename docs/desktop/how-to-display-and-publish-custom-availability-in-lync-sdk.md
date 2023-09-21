@@ -2,7 +2,7 @@
 title: 'How to: Display and publish custom availability in Lync SDK'
 TOCTitle: 'How to: Display and publish custom availability'
 ms:assetid: 469d0d64-620d-4d70-b719-53c2ccb7b4bb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937312(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937312(v=office.15)
 ms:contentKeyID: 50877144
 ms.date: 02/11/2016
 mtps_version: v=office.15
@@ -39,7 +39,7 @@ Learn how to display and publish custom Microsoft Lync 2013 presence in an appli
 
 The prerequisites for displaying and publishing custom availability are as follows:
 
-  - An administrator must configure custom presence states on the Microsoft Lync Server 2013 computer that a user signs in to from your application. For more information, see [Configuring Custom Presence States](http://technet.microsoft.com/en-us/library/gg398997.aspx).
+  - An administrator must configure custom presence states on the Microsoft Lync Server 2013 computer that a user signs in to from your application. For more information, see [Configuring Custom Presence States](http://technet.microsoft.com/library/gg398997.aspx).
 
   - The Microsoft Lync 2013 client must be signed in.
 
@@ -67,14 +67,14 @@ The current localized presence state is the last state that was published by a c
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>The logic in this procedure is used for any <a href="https://msdn.microsoft.com/en-us/library/hh365096(v=office.15)">Microsoft.Lync.Model.Contact</a> object. The contact can be the signed-in user <strong>Self</strong> contact, any contact in the user’s contact list, or any contact found by a contact search.</p></td>
+<td><p>The logic in this procedure is used for any <a href="https://msdn.microsoft.com/library/hh365096(v=office.15)">Microsoft.Lync.Model.Contact</a> object. The contact can be the signed-in user <strong>Self</strong> contact, any contact in the user’s contact list, or any contact found by a contact search.</p></td>
 </tr>
 </tbody>
 </table>
 
 ### To display the user’s current localized or customized presence state
 
-1.  To get the current state, call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/hh348218\(v=office.15\)) method on the [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/hh365096\(v=office.15\)) object value of the [Self.Contact](https://msdn.microsoft.com/en-us/library/hh365190\(v=office.15\)) property, passing the ContactInformationType.CustomActivity enumerator.
+1.  To get the current state, call the [Contact.GetContactInformation](https://msdn.microsoft.com/library/hh348218\(v=office.15\)) method on the [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/hh365096\(v=office.15\)) object value of the [Self.Contact](https://msdn.microsoft.com/library/hh365190\(v=office.15\)) property, passing the ContactInformationType.CustomActivity enumerator.
     
     ```csharp
                 //Get list of all LocaleString objects - list encapsulates the customized and localized activity strings
@@ -82,11 +82,11 @@ The current localized presence state is the last state that was published by a c
                     Contact.GetContactInformation(ContactInformationType.CustomActivity);
     ```
     
-    A list of [Microsoft.Lync.Model.LocaleString](https://msdn.microsoft.com/en-us/library/hh365116\(v=office.15\)) objects is returned as **system.object**.
+    A list of [Microsoft.Lync.Model.LocaleString](https://msdn.microsoft.com/library/hh365116\(v=office.15\)) objects is returned as **system.object**.
 
-2.  Iterate on the list of objects, casting each object to type [Microsoft.Lync.Model.LocaleString](https://msdn.microsoft.com/en-us/library/hh365116\(v=office.15\)).
+2.  Iterate on the list of objects, casting each object to type [Microsoft.Lync.Model.LocaleString](https://msdn.microsoft.com/library/hh365116\(v=office.15\)).
     
-      - Inside of the foreach loop, compare the [LocaleString.LocaleId](https://msdn.microsoft.com/en-us/library/hh379982\(v=office.15\)) property value to the current UI culture LCID. If they match, display the [LocaleString.Value](https://msdn.microsoft.com/en-us/library/hh348182\(v=office.15\)) property as the current custom activity in the user’s language.
+      - Inside of the foreach loop, compare the [LocaleString.LocaleId](https://msdn.microsoft.com/library/hh379982\(v=office.15\)) property value to the current UI culture LCID. If they match, display the [LocaleString.Value](https://msdn.microsoft.com/library/hh348182\(v=office.15\)) property as the current custom activity in the user’s language.
         
         <table>
         <colgroup>
@@ -179,15 +179,15 @@ A Lync Server 2013 computer can be configured to have custom presence states in 
     Dictionary<PublishableContactInformationType, object> stuffToPublish = new Dictionary<PublishableContactInformationType,object>();
     ```
 
-2.  Add an item to the dictionary where the key is [PublishableContactInformationType](https://msdn.microsoft.com/en-us/library/hh348070\(v=office.15\))**.CustomActivityId** and the value is the ID of the custom presence state to be published.
+2.  Add an item to the dictionary where the key is [PublishableContactInformationType](https://msdn.microsoft.com/library/hh348070\(v=office.15\))**.CustomActivityId** and the value is the ID of the custom presence state to be published.
     
     ```csharp
     stuffToPublish.Add(PublishableContactInformationType.CustomActivityId, _SelectedCustomAvailabilityId);
     ```
 
-3.  Publish the custom presence state by calling the [Self.BeginPublishContactInformation](https://msdn.microsoft.com/en-us/library/hh380629\(v=office.15\)) method.
+3.  Publish the custom presence state by calling the [Self.BeginPublishContactInformation](https://msdn.microsoft.com/library/hh380629\(v=office.15\)) method.
     
-    The following example publishes the selected custom presence. If an invalid custom presence ID is used, the [Microsoft.Lync.Model.ItemNotFoundException](https://msdn.microsoft.com/en-us/library/hh379971\(v=office.15\)) is raised.
+    The following example publishes the selected custom presence. If an invalid custom presence ID is used, the [Microsoft.Lync.Model.ItemNotFoundException](https://msdn.microsoft.com/library/hh379971\(v=office.15\)) is raised.
     
     ```csharp
                 try
@@ -410,5 +410,5 @@ http://contos/sites/main/CustomActivities.xsd">
 
   - [Custom presence states](custom-presence-states.md)
 
-  - [Configuring Custom Presence States](http://technet.microsoft.com/en-us/library/gg398997.aspx)
+  - [Configuring Custom Presence States](http://technet.microsoft.com/library/gg398997.aspx)
 

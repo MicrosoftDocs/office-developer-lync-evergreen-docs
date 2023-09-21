@@ -2,7 +2,7 @@
 title: Back-to-back user agent (feature)
 TOCTitle: Back-to-back user agent
 ms:assetid: 5e870c56-92ab-4610-9588-4c46561fad22
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465924(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465924(v=office.15)
 ms:contentKeyID: 57102418
 ms.date: 07/25/2014
 mtps_version: v=office.15

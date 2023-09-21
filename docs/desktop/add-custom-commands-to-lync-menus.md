@@ -2,7 +2,7 @@
 title: Add custom commands to Lync menus
 TOCTitle: Add custom commands to Lync menus
 ms:assetid: 111f20b1-07c8-452b-bb8d-4a52308311f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945535(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945535(v=office.15)
 ms:contentKeyID: 51541334
 ms.date: 09/02/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: What you can do with content sharing
 TOCTitle: Content sharing
 ms:assetid: ef1e2eb6-15c9-4715-94ec-c7e2d3b8e175
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933225(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933225(v=office.15)
 ms:contentKeyID: 50877369
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ Watch the video: Share PowerPoint slides in online meetings
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/07b2a385-8f2a-4745-abda-243d2a5dc26d]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/07b2a385-8f2a-4745-abda-243d2a5dc26d]
 
 <table>
 <tbody>

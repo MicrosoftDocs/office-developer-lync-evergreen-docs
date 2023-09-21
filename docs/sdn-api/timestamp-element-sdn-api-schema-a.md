@@ -2,7 +2,7 @@
 title: TimeStamp element  (Lync SDN API Schema A)
 TOCTitle: TimeStamp element
 ms:assetid: 25080730-5bef-6839-b760-13f7e57b8781
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439266(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439266(v=office.15)
 ms:contentKeyID: 57261002
 ms.date: 07/24/2014
 mtps_version: v=office.15

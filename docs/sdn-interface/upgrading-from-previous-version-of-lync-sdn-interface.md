@@ -2,7 +2,7 @@
 title: Upgrading from previous version of Lync SDN Interface
 TOCTitle: Upgrading from previous version of Lync SDN Interface
 ms:assetid: 8d3c28fa-dabe-4a52-9882-a6663ced5217
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912664(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912664(v=office.15)
 ms:contentKeyID: 64126835
 ms.date: 03/04/2016
 mtps_version: v=office.15

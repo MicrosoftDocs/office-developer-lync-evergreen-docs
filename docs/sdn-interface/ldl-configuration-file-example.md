@@ -2,7 +2,7 @@
 title: LDL configuration file example
 TOCTitle: LDL configuration file example
 ms:assetid: 6c325272-f444-4b8e-a9ac-80ebec5e2bff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785226(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785226(v=office.15)
 ms:contentKeyID: 62952709
 ms.date: 02/16/2015
 mtps_version: v=office.15

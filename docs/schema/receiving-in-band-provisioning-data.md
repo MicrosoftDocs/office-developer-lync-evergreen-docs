@@ -2,7 +2,7 @@
 title: Receiving in-band provisioning data
 TOCTitle: Receiving in-band provisioning data
 ms:assetid: a05215d3-f7ab-45d1-8452-2410640d2b5c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454636(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454636(v=office.15)
 ms:contentKeyID: 57092878
 ms.date: 07/24/2014
 mtps_version: v=office.15

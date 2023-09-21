@@ -2,7 +2,7 @@
 title: Self container
 TOCTitle: Self container
 ms:assetid: 16e2e653-ac09-4746-aabf-56e2d6802486
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454667(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454667(v=office.15)
 ms:contentKeyID: 57093130
 ms.date: 07/24/2014
 mtps_version: v=office.15

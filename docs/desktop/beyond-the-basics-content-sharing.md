@@ -2,7 +2,7 @@
 title: 'Beyond the basics: Content sharing'
 TOCTitle: Content sharing
 ms:assetid: 18424c72-2863-48f3-81c9-6deaecc42c5b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937267(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937267(v=office.15)
 ms:contentKeyID: 50877085
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -24,7 +24,7 @@ Watch the video: Share file attachments in online meetings
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]
 
 ## Advanced content sharing programming
 

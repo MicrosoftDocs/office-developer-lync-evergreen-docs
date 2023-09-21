@@ -2,7 +2,7 @@
 title: LocalFrameLossPercentageAvg element  (Lync SDN API Schema A)
 TOCTitle: LocalFrameLossPercentageAvg element
 ms:assetid: 1737ba2c-0766-f080-87ff-66b0eec9f559
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439215(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439215(v=office.15)
 ms:contentKeyID: 57260952
 ms.date: 07/24/2014
 mtps_version: v=office.15

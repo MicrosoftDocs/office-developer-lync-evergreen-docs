@@ -2,7 +2,7 @@
 title: PublishPresence (QuickStart)
 TOCTitle: PublishPresence (QuickStart)
 ms:assetid: d3ae55a9-9cf6-40aa-9cab-33aeceb2ae37
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454837(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454837(v=office.15)
 ms:contentKeyID: 57103777
 ms.date: 07/25/2014
 mtps_version: v=office.15

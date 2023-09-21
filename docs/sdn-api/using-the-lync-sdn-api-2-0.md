@@ -2,7 +2,7 @@
 title: Using the Lync SDN API 2.0
 TOCTitle: Using the Lync SDN API 2.0
 ms:assetid: 21e92d14-f20d-4bdb-9f2b-a01169abb401
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439294(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439294(v=office.15)
 ms:contentKeyID: 57261030
 ms.date: 07/24/2014
 mtps_version: v=office.15

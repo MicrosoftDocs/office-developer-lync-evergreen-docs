@@ -2,7 +2,7 @@
 title: Transactions performance counters
 TOCTitle: Transactions performance counters
 ms:assetid: 5bfe2e12-f59a-4e40-93fc-95537b26fbc8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466116(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466116(v=office.15)
 ms:contentKeyID: 57103408
 ms.date: 07/25/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Extending the CallFactory and MediaProviderFactory classes
 TOCTitle: Extending the CallFactory and MediaProviderFactory classes
 ms:assetid: 5e604df7-b1ed-4dfe-af25-6577f449af5f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466109(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466109(v=office.15)
 ms:contentKeyID: 57103378
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ dev_langs:
 
 
 
-After creating subclasses of the [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)), [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)), and [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.15\)) classes, you must create factory classes for the **Call** and **MediaProvider** subclasses. These factory classes are subclasses of the [CallFactory](https://msdn.microsoft.com/en-us/library/hh384820\(v=office.15\)) and [MediaProviderFactory](https://msdn.microsoft.com/en-us/library/hh382428\(v=office.15\)) abstract classes. These factory classes create instances of the **Call** and **MediaProvider** subclasses that you created previously. After the factory classes are created, they must be registered with the platform. If the custom media type is replacing an existing media type, the existing extension must be unregistered first. If the custom media type is not replacing an existing media type, applications should be designed to attempt to remove the media type before adding it.
+After creating subclasses of the [Call](https://msdn.microsoft.com/library/hh384235\(v=office.15\)), [MediaProvider](https://msdn.microsoft.com/library/hh383767\(v=office.15\)), and [MediaFlow](https://msdn.microsoft.com/library/hh366262\(v=office.15\)) classes, you must create factory classes for the **Call** and **MediaProvider** subclasses. These factory classes are subclasses of the [CallFactory](https://msdn.microsoft.com/library/hh384820\(v=office.15\)) and [MediaProviderFactory](https://msdn.microsoft.com/library/hh382428\(v=office.15\)) abstract classes. These factory classes create instances of the **Call** and **MediaProvider** subclasses that you created previously. After the factory classes are created, they must be registered with the platform. If the custom media type is replacing an existing media type, the existing extension must be unregistered first. If the custom media type is not replacing an existing media type, applications should be designed to attempt to remove the media type before adding it.
 
 The skills required for creating the factory classes are more extensive than those required for registering these classes with the platform. The two sections that follow describe how to register and unregister platform extensions, and provide tips on managing media types. These tasks can be allocated to less experienced developers. The last section in this topic describes how to create the factory classes, a task that should be assigned to more experienced developers.
 
@@ -40,12 +40,12 @@ The following methods are available for installing and uninstalling custom exten
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh366223(v=office.15)">RegisterPlatformExtension(MediaBasedFactory)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh366223(v=office.15)">RegisterPlatformExtension(MediaBasedFactory)</a></p></td>
 <td><p>Registers an extension with the platform. Extensions such as call factories that support specific media types can be registered only if there is no existing extension for the media type.</p>
 <p>public void RegisterPlatformExtension(MediaBasedFactory extension)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh349063(v=office.15)">UnregisterPlatformExtension(String, String)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh349063(v=office.15)">UnregisterPlatformExtension(String, String)</a></p></td>
 <td><p>Unregisters the extension, and returns the extension that was removed, or null if no extensions were installed. If an extension is returned, it can be saved for later installation.</p>
 <p>public MediaBasedFactory UnregisterPlatformExtension(string extensionType, string mediaType)</p></td>
 </tr>
@@ -82,7 +82,7 @@ When you remove extensions with multiple supported media types (for example, aud
 
 ## Creating factory classes for custom call and MediaProvider subclasses
 
-The [MediaBasedFactory](https://msdn.microsoft.com/en-us/library/hh383987\(v=office.15\)) abstract class is a common base for all factories (platform extensions) that are associated with a specific media type. The **CallFactory** and **MediaProviderFactory** abstract classes are derived from **MediaBasedFactory**. These classes belong to the Microsoft.Rtc.Collaboration.ComponentModel namespace and can be used to create custom **CallFactory** and **MediaProviderFactory** subclasses. Each of these classes implements the **ExtensionType** property in a way that is appropriate to the type of factory. To create a new **CallFactory** or **MediaProviderFactory**, create a class that inherits from the applicable abstract base class, and provide implementations of the following **MediaBasedFactory** members:
+The [MediaBasedFactory](https://msdn.microsoft.com/library/hh383987\(v=office.15\)) abstract class is a common base for all factories (platform extensions) that are associated with a specific media type. The **CallFactory** and **MediaProviderFactory** abstract classes are derived from **MediaBasedFactory**. These classes belong to the Microsoft.Rtc.Collaboration.ComponentModel namespace and can be used to create custom **CallFactory** and **MediaProviderFactory** subclasses. Each of these classes implements the **ExtensionType** property in a way that is appropriate to the type of factory. To create a new **CallFactory** or **MediaProviderFactory**, create a class that inherits from the applicable abstract base class, and provide implementations of the following **MediaBasedFactory** members:
 
   - **MediaTypes** property
 

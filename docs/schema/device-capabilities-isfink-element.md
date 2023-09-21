@@ -2,7 +2,7 @@
 title: device/capabilities/isfInk element
 TOCTitle: device/capabilities/isfInk element
 ms:assetid: 52de7616-97d5-4fe2-b9ce-ae76cd14853c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454752(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454752(v=office.15)
 ms:contentKeyID: 57093639
 ms.date: 07/24/2014
 mtps_version: v=office.15

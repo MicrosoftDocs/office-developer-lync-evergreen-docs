@@ -2,7 +2,7 @@
 title: Interoperating with Lync with publication grammars
 TOCTitle: Interoperating with Lync with publication grammars
 ms:assetid: 2f3cfcf4-2aa3-44c8-8ca7-9413f13e040b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454681(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454681(v=office.15)
 ms:contentKeyID: 57093215
 ms.date: 07/24/2014
 mtps_version: v=office.15

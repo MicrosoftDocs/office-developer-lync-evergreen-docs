@@ -2,7 +2,7 @@
 title: Implement the UCWA sign-in workflow
 TOCTitle: Implement the UCWA sign-in workflow
 ms:assetid: 469cc626-0a73-4136-bab2-9bb024dd56c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn551191(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn551191(v=office.15)
 ms:contentKeyID: 60829951
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -341,7 +341,7 @@ Signing in to UCWA is the first step of any UCWA application. The process involv
 ## See also
 
 - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
+- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh974581.aspx)
 - [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
 - [Enable fluid user interface](enable-fluid-user-interface.md)
 - [Ensure responsive HTTP operations](ensure-responsive-http-operations.md)

@@ -2,7 +2,7 @@
 title: ContactCard style and template
 TOCTitle: ContactCard style and template
 ms:assetid: 7214ea80-2c40-4d48-a12b-f2088feca660
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933075(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933075(v=office.15)
 ms:contentKeyID: 50877205
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the styles and templates for the [ContactCard](https://msdn.microsoft.com/en-us/library/hh379168\(v=office.15\)) control. You can modify the default [ControlTemplate](http://msdn.microsoft.com/en-us/library/system.windows.controls.controltemplate\(vs.95\).aspx) to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the styles and templates for the [ContactCard](https://msdn.microsoft.com/library/hh379168\(v=office.15\)) control. You can modify the default [ControlTemplate](http://msdn.microsoft.com/library/system.windows.controls.controltemplate\(vs.95\).aspx) to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -20,7 +20,7 @@ Learn about the styles and templates for the [ContactCard](https://msdn.microsof
 
  
 
-There are no states or [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the ContactCard control.
+There are no states or [Style](http://msdn.microsoft.com/library/system.windows.style\(vs.95\).aspx) properties for the ContactCard control.
 
 ![ContactCard](images/JJ945582.ContactCard_rtm(Office.15).png "ContactCard")
 
@@ -44,7 +44,7 @@ The following table lists the named parts for the ContactCard control.
 <tbody>
 <tr class="odd">
 <td><p>DetailsContainer</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.frameworkelement.aspx">FrameworkElement</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.frameworkelement.aspx">FrameworkElement</a></p></td>
 <td><p>Contains detailed information about the contact.</p></td>
 </tr>
 <tr class="even">
@@ -54,7 +54,7 @@ The following table lists the named parts for the ContactCard control.
 </tr>
 <tr class="odd">
 <td><p>ExpandDetailsToggleButton</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.primitives.togglebutton.aspx">ToggleButton</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.primitives.togglebutton.aspx">ToggleButton</a></p></td>
 <td><p>A button that expands or contracts the contact card.</p></td>
 </tr>
 </tbody>

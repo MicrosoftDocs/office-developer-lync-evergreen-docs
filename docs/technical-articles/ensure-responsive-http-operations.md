@@ -2,7 +2,7 @@
 title: Ensure responsive HTTP operations
 TOCTitle: Ensure responsive HTTP operations
 ms:assetid: d36fff17-9edf-44c0-b52f-d6b36211142b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn551193(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn551193(v=office.15)
 ms:contentKeyID: 60829950
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -180,7 +180,7 @@ When using the above Transport class to access UCWA resources, make sure that th
 ## See also
 
 - [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md)
-- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/en-us/library/windows/apps/hh974581.aspx)
+- [Create your first Windows Store app using C\# or Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh974581.aspx)
 - [Create a UCWA Windows Store app project](create-a-ucwa-windows-store-app-project.md)
 - [Enable fluid user interface](enable-fluid-user-interface.md)
 - [Implement the UCWA sign-in workflow](implement-the-ucwa-sign-in-workflow.md)

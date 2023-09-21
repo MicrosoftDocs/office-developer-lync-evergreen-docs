@@ -2,7 +2,7 @@
 title: Deactivation best practices
 TOCTitle: Deactivation best practices
 ms:assetid: ac1ed606-5d62-463f-9891-1308b3cf31dc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466141(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466141(v=office.15)
 ms:contentKeyID: 57103471
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ An application can be deactivated by following the steps in the following proced
     
     On the **Start** menu, select **All Programs**, select **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.
 
-2.  Remove the Active Directory contacts and [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) instances that you no longer need by running following PowerShell cmdlet.
+2.  Remove the Active Directory contacts and [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)) instances that you no longer need by running following PowerShell cmdlet.
     
     Remove-CsTrustedApplicationEndpoint -Identity sip:ExternalApp@mydomain.com
     

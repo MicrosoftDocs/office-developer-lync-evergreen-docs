@@ -2,7 +2,7 @@
 title: Conference recovery
 TOCTitle: Conference recovery
 ms:assetid: a857410d-7f32-4850-9815-e0be658781b2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466073(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466073(v=office.15)
 ms:contentKeyID: 57103067
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -17,9 +17,9 @@ UCMA 4.0 provides three levels of support for conference recovery to application
 
   - Focus Front-End failover
     
-    When UCMA 4.0 detects that the Focus has failed over to another Front End server, the [ConferenceSession](https://msdn.microsoft.com/en-us/library/hh349315\(v=office.15\)) state changes to **Reconnecting**. The state of any active **McuSession** subclass instance changes to the **Retrying** state. Note that any calls connected to the MCUs are not disconnected.
+    When UCMA 4.0 detects that the Focus has failed over to another Front End server, the [ConferenceSession](https://msdn.microsoft.com/library/hh349315\(v=office.15\)) state changes to **Reconnecting**. The state of any active **McuSession** subclass instance changes to the **Retrying** state. Note that any calls connected to the MCUs are not disconnected.
     
-    After failover is detected, pending conference operations fail immediately with an [OperationFailureException](https://msdn.microsoft.com/en-us/library/hh161725\(v=office.15\)) with [FailureReason](https://msdn.microsoft.com/en-us/library/hh381130\(v=office.15\)) set to **SessionRetrying**. Any **Begin***Xxx* method invoked on the **ConferenceSession** or an **McuSession** subclass fails with a [RealTimeInvalidOperationException](https://msdn.microsoft.com/en-us/library/hh349003\(v=office.15\)) with [FailureReason](https://msdn.microsoft.com/en-us/library/hh350167\(v=office.15\)) set to **RetryableOperation**.
+    After failover is detected, pending conference operations fail immediately with an [OperationFailureException](https://msdn.microsoft.com/library/hh161725\(v=office.15\)) with [FailureReason](https://msdn.microsoft.com/library/hh381130\(v=office.15\)) set to **SessionRetrying**. Any **Begin***Xxx* method invoked on the **ConferenceSession** or an **McuSession** subclass fails with a [RealTimeInvalidOperationException](https://msdn.microsoft.com/library/hh349003\(v=office.15\)) with [FailureReason](https://msdn.microsoft.com/library/hh350167\(v=office.15\)) set to **RetryableOperation**.
     
     The **ConferenceSession** attempts to reconnect to the conference only once. If that attempt fails, the **ConferenceSession** is terminated, otherwise the state of the **ConferenceSession** is again changed to the **Connected** state. A fresh roster notification is sent and events are raised for any changes that occur during the reconnection process. The state of the **McuSession** subclass changes again to active when the MCUs are reported to be activated on the server.
 

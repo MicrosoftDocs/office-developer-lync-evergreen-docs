@@ -2,7 +2,7 @@
 title: SIP Obfuscator for Lync SDN API
 TOCTitle: SIP Obfuscator for Lync SDN API
 ms:assetid: 891e4ef9-8763-41fa-ac5b-ce85fa15a13a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439306(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439306(v=office.15)
 ms:contentKeyID: 57261042
 ms.date: 07/24/2014
 mtps_version: v=office.15

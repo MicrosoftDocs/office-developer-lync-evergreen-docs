@@ -2,7 +2,7 @@
 title: Overview of Lync SDN Interface 2.1.1
 TOCTitle: Overview of Lync SDN Interface 2.1.1
 ms:assetid: 5cd64da2-e0bb-4558-9ccb-6e8fa01663fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785191(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785191(v=office.15)
 ms:contentKeyID: 62952676
 ms.date: 02/16/2015
 mtps_version: v=office.15

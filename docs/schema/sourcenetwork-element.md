@@ -2,7 +2,7 @@
 title: sourceNetwork element
 TOCTitle: sourceNetwork element
 ms:assetid: 428c35ac-2423-4dc2-884c-e96cca4fc373
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439006(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439006(v=office.15)
 ms:contentKeyID: 57094048
 ms.date: 07/24/2014
 mtps_version: v=office.15

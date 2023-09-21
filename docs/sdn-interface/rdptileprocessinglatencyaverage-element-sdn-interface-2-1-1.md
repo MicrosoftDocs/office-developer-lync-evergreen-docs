@@ -2,7 +2,7 @@
 title: RDPTileProcessingLatencyAverage element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RDPTileProcessingLatencyAverage element
 ms:assetid: af67f9fa-ad54-d0d1-a94c-c4842f205aef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912791(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912791(v=office.15)
 ms:contentKeyID: 64126960
 ms.date: 02/16/2015
 mtps_version: v=office.15

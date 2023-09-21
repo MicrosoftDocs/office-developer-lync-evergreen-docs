@@ -2,7 +2,7 @@
 title: Cleaning up Lync SDN Interface 2.1.1
 TOCTitle: Cleaning up Lync SDN Interface 2.1.1
 ms:assetid: 54465ebc-dbf3-4788-9326-bb1cd34427fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785220(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785220(v=office.15)
 ms:contentKeyID: 62952704
 ms.date: 02/16/2015
 mtps_version: v=office.15

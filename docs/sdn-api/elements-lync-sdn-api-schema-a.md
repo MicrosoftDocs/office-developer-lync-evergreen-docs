@@ -2,7 +2,7 @@
 title: Elements (Lync SDN API Schema A)
 TOCTitle: Elements (Lync SDN API Schema A)
 ms:assetid: 7b352ddc-60e2-dfdf-648f-fa3fdfdb91cd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455004(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455004(v=office.15)
 ms:contentKeyID: 57260886
 ms.date: 07/24/2014
 mtps_version: v=office.15

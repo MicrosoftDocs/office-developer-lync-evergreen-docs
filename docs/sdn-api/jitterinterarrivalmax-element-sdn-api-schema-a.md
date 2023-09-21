@@ -2,7 +2,7 @@
 title: JitterInterArrivalMax element  (Lync SDN API Schema A)
 TOCTitle: JitterInterArrivalMax element
 ms:assetid: 7d51261a-c597-9db3-5683-2a101e892beb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455068(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455068(v=office.15)
 ms:contentKeyID: 57260947
 ms.date: 07/24/2014
 mtps_version: v=office.15

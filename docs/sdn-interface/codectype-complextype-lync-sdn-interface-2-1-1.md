@@ -2,7 +2,7 @@
 title: CodecType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: CodecType complexType
 ms:assetid: c7cb3ee2-ed53-92d9-13ce-916db4e133d2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912850(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912850(v=office.15)
 ms:contentKeyID: 64127018
 ms.date: 02/16/2015
 mtps_version: v=office.15

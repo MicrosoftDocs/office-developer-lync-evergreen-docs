@@ -2,7 +2,7 @@
 title: contactCard/photo element
 TOCTitle: contactCard/photo element
 ms:assetid: 9b61765d-7e0f-49f1-83ed-e5bfaec1867a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454714(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454714(v=office.15)
 ms:contentKeyID: 57093401
 ms.date: 07/24/2014
 mtps_version: v=office.15

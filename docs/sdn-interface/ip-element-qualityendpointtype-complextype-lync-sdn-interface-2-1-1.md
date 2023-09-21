@@ -2,7 +2,7 @@
 title: IP element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: IP element (QualityEndPointType complexType)
 ms:assetid: ca9c1f7b-45bb-f6d8-de1b-8ee49bfa8869
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912752(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912752(v=office.15)
 ms:contentKeyID: 64126922
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: contactCard/phone element
 TOCTitle: contactCard/phone element
 ms:assetid: 964f5b37-6545-411c-8b96-ec5b0effd161
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454716(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454716(v=office.15)
 ms:contentKeyID: 57093403
 ms.date: 07/24/2014
 mtps_version: v=office.15

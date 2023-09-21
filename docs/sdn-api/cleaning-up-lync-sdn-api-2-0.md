@@ -2,7 +2,7 @@
 title: Cleaning up Lync SDN API 2.0
 TOCTitle: Cleaning up Lync SDN API 2.0
 ms:assetid: cde7eda9-d231-41b6-88bc-bd2fad2bd4d5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439305(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439305(v=office.15)
 ms:contentKeyID: 57261041
 ms.date: 07/24/2014
 mtps_version: v=office.15

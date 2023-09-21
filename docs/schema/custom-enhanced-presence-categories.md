@@ -2,7 +2,7 @@
 title: Custom Enhanced Presence categories
 TOCTitle: Custom Enhanced Presence categories
 ms:assetid: 4864d4a2-0a82-4198-ba85-579d8e3a8acf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454684(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454684(v=office.15)
 ms:contentKeyID: 57093244
 ms.date: 07/24/2014
 mtps_version: v=office.15

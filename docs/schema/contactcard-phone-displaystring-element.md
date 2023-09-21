@@ -2,7 +2,7 @@
 title: contactCard/phone/displayString element
 TOCTitle: contactCard/phone/displayString element
 ms:assetid: f5ca57aa-fa77-4bc3-b4f1-6e07972448e2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454747(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454747(v=office.15)
 ms:contentKeyID: 57093634
 ms.date: 07/24/2014
 mtps_version: v=office.15

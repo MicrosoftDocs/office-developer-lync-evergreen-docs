@@ -2,7 +2,7 @@
 title: New API members in UCMA 4.0
 TOCTitle: New API members in UCMA 4.0
 ms:assetid: dd83d64d-21b2-4ddf-a9a7-1ee4df15dcb0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465977(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465977(v=office.15)
 ms:contentKeyID: 57102751
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -19,7 +19,7 @@ The following tables list the API additions between Microsoft Unified Communicat
 
 ## Microsoft.Rtc.Collaboration namespace
 
-The following members of the [Microsoft.Rtc.Collaboration](https://msdn.microsoft.com/en-us/library/hh384297\(v=office.15\)) namespace are new in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration](https://msdn.microsoft.com/library/hh384297\(v=office.15\)) namespace are new in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -187,7 +187,7 @@ The following members of the [Microsoft.Rtc.Collaboration](https://msdn.microsof
 
 ## Microsoft.Rtc.Collaboration.AudioVideo namespace
 
-The following members of the [Microsoft.Rtc.Collaboration.AudioVideo](https://msdn.microsoft.com/en-us/library/hh365775\(v=office.15\)) namespace are new in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration.AudioVideo](https://msdn.microsoft.com/library/hh365775\(v=office.15\)) namespace are new in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -268,7 +268,7 @@ The following members of the [Microsoft.Rtc.Collaboration.AudioVideo](https://ms
 <tr class="odd">
 <td><p>MuteAllModeAssignment enumeration</p></td>
 <td><p>New enumeration</p>
-<p>See <a href="https://msdn.microsoft.com/en-us/library/jj728862(v=office.15)">MuteAllModeAssignment</a>.</p></td>
+<p>See <a href="https://msdn.microsoft.com/library/jj728862(v=office.15)">MuteAllModeAssignment</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>MuteOptions class</p></td>
@@ -281,12 +281,12 @@ The following members of the [Microsoft.Rtc.Collaboration.AudioVideo](https://ms
 <tr class="even">
 <td><p>VideoSource class</p></td>
 <td><p>New class</p>
-<p>See <a href="https://msdn.microsoft.com/en-us/library/jj728877(v=office.15)">VideoSource</a>.</p></td>
+<p>See <a href="https://msdn.microsoft.com/library/jj728877(v=office.15)">VideoSource</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>VideoSourceMode enumeration</p></td>
 <td><p>New enumeration</p>
-<p>See <a href="https://msdn.microsoft.com/en-us/library/jj728962(v=office.15)">VideoSourceMode</a>.</p></td>
+<p>See <a href="https://msdn.microsoft.com/library/jj728962(v=office.15)">VideoSourceMode</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -294,7 +294,7 @@ The following members of the [Microsoft.Rtc.Collaboration.AudioVideo](https://ms
 
 ## Microsoft.Rtc.Collaboration.ComponentModel namespace
 
-The following members of the [Microsoft.Rtc.Collaboration.ComponentModel](https://msdn.microsoft.com/en-us/library/hh384699\(v=office.15\)) namespace are new in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration.ComponentModel](https://msdn.microsoft.com/library/hh384699\(v=office.15\)) namespace are new in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -315,7 +315,7 @@ The following members of the [Microsoft.Rtc.Collaboration.ComponentModel](https:
 <tr class="even">
 <td><p>NetworkStackHint enumeration</p></td>
 <td><p>New enumeration</p>
-<p>See <a href="https://msdn.microsoft.com/en-us/library/jj728941(v=office.15)">NetworkStackHint</a>.</p></td>
+<p>See <a href="https://msdn.microsoft.com/library/jj728941(v=office.15)">NetworkStackHint</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>OfferAnswerContext class</p></td>
@@ -331,7 +331,7 @@ The following members of the [Microsoft.Rtc.Collaboration.ComponentModel](https:
 
 ## Microsoft.Rtc.Collaboration.Presence namespace
 
-The following members of the [Microsoft.Rtc.Collaboration.Presence](https://msdn.microsoft.com/en-us/library/hh350235\(v=office.15\)) namespace are new in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Collaboration.Presence](https://msdn.microsoft.com/library/hh350235\(v=office.15\)) namespace are new in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -384,7 +384,7 @@ The following members of the [Microsoft.Rtc.Collaboration.Presence](https://msdn
 
 ## Microsoft.Rtc.Signaling namespace
 
-The following members of the [Microsoft.Rtc.Signaling](https://msdn.microsoft.com/en-us/library/hh365949\(v=office.15\)) namespace are new in UCMA 4.0.
+The following members of the [Microsoft.Rtc.Signaling](https://msdn.microsoft.com/library/hh365949\(v=office.15\)) namespace are new in UCMA 4.0.
 
 <table>
 <colgroup>
@@ -402,7 +402,7 @@ The following members of the [Microsoft.Rtc.Signaling](https://msdn.microsoft.co
 <td><p>AddressFamilyHint enumeration</p></td>
 <td><p>New enumeration</p>
 <p>Members: All, IpV4Only, IpV6Only</p>
-<p>See <a href="https://msdn.microsoft.com/en-us/library/jj728964(v=office.15)">AddressFamilyHint</a>.</p></td>
+<p>See <a href="https://msdn.microsoft.com/library/jj728964(v=office.15)">AddressFamilyHint</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>ConnectionContext class</p></td>
@@ -465,7 +465,7 @@ The following members of the [Microsoft.Rtc.Signaling](https://msdn.microsoft.co
 <tr class="even">
 <td><p>RealTimeEndpointSettings class</p></td>
 <td><p>New class</p>
-<p>See <a href="https://msdn.microsoft.com/en-us/library/jj728811(v=office.15)">RealTimeEndpointSettings</a>.</p></td>
+<p>See <a href="https://msdn.microsoft.com/library/jj728811(v=office.15)">RealTimeEndpointSettings</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RealTimeServerConnectionManager class</p></td>
@@ -524,7 +524,7 @@ The following members of the [Microsoft.Rtc.Signaling](https://msdn.microsoft.co
 <tr class="even">
 <td><p>SipEndpointSettings class</p></td>
 <td><p>New class</p>
-<p>See <a href="https://msdn.microsoft.com/en-us/library/jj728926(v=office.15)">SipEndpointSettings</a>.</p></td>
+<p>See <a href="https://msdn.microsoft.com/library/jj728926(v=office.15)">SipEndpointSettings</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SipPeerToPeerEndpoint class</p></td>
@@ -561,7 +561,7 @@ The following members of the [Microsoft.Rtc.Signaling](https://msdn.microsoft.co
 <tr class="even">
 <td><p>SipPeerToPeerEndpointSettings class</p></td>
 <td><p>New class</p>
-<p>See <a href="https://msdn.microsoft.com/en-us/library/jj728825(v=office.15)">SipPeerToPeerEndpointSettings</a>.</p></td>
+<p>See <a href="https://msdn.microsoft.com/library/jj728825(v=office.15)">SipPeerToPeerEndpointSettings</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>StartListeningOptions class</p></td>

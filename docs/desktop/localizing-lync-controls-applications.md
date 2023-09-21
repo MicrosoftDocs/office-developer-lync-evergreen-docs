@@ -2,7 +2,7 @@
 title: Localizing Lync Controls applications
 TOCTitle: Localizing Lync Controls applications
 ms:assetid: 46d3185a-b8d6-4cae-b259-bab5748edcfc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937328(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937328(v=office.15)
 ms:contentKeyID: 50877161
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'How to: Start an extension application in a Lync conversation window'
 TOCTitle: 'How to: Start an extension application in a conversation window'
 ms:assetid: a31d8832-bfa4-4f2d-98ae-479dea5cd081
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933131(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933131(v=office.15)
 ms:contentKeyID: 50877261
 ms.date: 06/09/2015
 mtps_version: v=office.15
@@ -142,7 +142,7 @@ The following procedure shows how to create a WPF window that is used to start a
     </tbody>
     </table>
     
-    This example overrides the install-time registration CWE application by creating an [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](https://msdn.microsoft.com/en-us/library/jj293820\(v=office.15\)) object, setting property values appropriately, and adding the registration.
+    This example overrides the install-time registration CWE application by creating an [Microsoft.Lync.Model.Extensibility.ApplicationRegistration](https://msdn.microsoft.com/library/jj293820\(v=office.15\)) object, setting property values appropriately, and adding the registration.
     
     ``` 
                 string appId = "{FA44026B-CC48-42DA-AAA8-B849BCB43A21}";
@@ -168,7 +168,7 @@ The following procedure shows how to create a WPF window that is used to start a
                 }
     ```
     
-    The following example automates the start of a new Lync 2013 conversation window using runtime CWE application registration set in the previous example. After the conversation window is opened, the runtime registration override must be removed with a call to the [ApplicationRegistration.RemoveRegistration](https://msdn.microsoft.com/en-us/library/jj276189\(v=office.15\)) method.
+    The following example automates the start of a new Lync 2013 conversation window using runtime CWE application registration set in the previous example. After the conversation window is opened, the runtime registration override must be removed with a call to the [ApplicationRegistration.RemoveRegistration](https://msdn.microsoft.com/library/jj276189\(v=office.15\)) method.
     
     <table>
     <colgroup>
@@ -181,7 +181,7 @@ The following procedure shows how to create a WPF window that is used to start a
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>You must always set the <a href="https://msdn.microsoft.com/en-us/library/jj276319(v=office.15)">AutomationModalitySettings</a><strong>.ApplicationId</strong> modality property before you can open a non-default CWE application. Only create an <strong>ApplicationRegistration</strong> object if you are overriding the install-time registration. If a default CWE application is registered on a computer, it starts for every new conversation, even if no application ID is set. A default CWE application cannot be overridden by a runtime <strong>ApplicationRegistration</strong> object.</p></td>
+    <td><p>You must always set the <a href="https://msdn.microsoft.com/library/jj276319(v=office.15)">AutomationModalitySettings</a><strong>.ApplicationId</strong> modality property before you can open a non-default CWE application. Only create an <strong>ApplicationRegistration</strong> object if you are overriding the install-time registration. If a default CWE application is registered on a computer, it starts for every new conversation, even if no application ID is set. A default CWE application cannot be overridden by a runtime <strong>ApplicationRegistration</strong> object.</p></td>
     </tr>
     </tbody>
     </table>
@@ -255,7 +255,7 @@ The following example declares a WPF window that starts a new IM conversation an
 </Window>
 ```
 
-The following example is the interaction logic for the previous window declaration. The example opens a starts a new conversation by opening a [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) and then opening an extensibility pane with a CWE application that is loaded from its default host server or a server specified at runtime.
+The following example is the interaction logic for the previous window declaration. The example opens a starts a new conversation by opening a [Microsoft.Lync.Model.Extensibility.ConversationWindow](https://msdn.microsoft.com/library/jj293606\(v=office.15\)) and then opening an extensibility pane with a CWE application that is loaded from its default host server or a server specified at runtime.
 
 ```csharp
 using System.Collections.Generic;

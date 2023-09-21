@@ -2,7 +2,7 @@
 title: JitterInterArrival element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: JitterInterArrival element
 ms:assetid: 1963813f-dedb-3bee-700a-c67534c75d6e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912745(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912745(v=office.15)
 ms:contentKeyID: 64126915
 ms.date: 02/16/2015
 mtps_version: v=office.15

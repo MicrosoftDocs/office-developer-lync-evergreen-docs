@@ -2,7 +2,7 @@
 title: Parsing location profile
 TOCTitle: Parsing location profile
 ms:assetid: f684c168-0770-4e43-8eab-f0e71f4cf6a2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454637(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454637(v=office.15)
 ms:contentKeyID: 57093102
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: ResponseCode element  (Lync SDN API Schema A)
 TOCTitle: ResponseCode element
 ms:assetid: 258d235f-f85c-9657-b2d9-ec61e14d0c83
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775138(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775138(v=office.15)
 ms:contentKeyID: 62626112
 ms.date: 07/24/2014
 mtps_version: v=office.15

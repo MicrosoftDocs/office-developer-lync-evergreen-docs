@@ -2,7 +2,7 @@
 title: Setting up SQL Server for SDNManager database
 TOCTitle: Setting up SQL Server for SDNManager database
 ms:assetid: 2b38badb-b30d-4003-8d18-c84c150feb91
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785200(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785200(v=office.15)
 ms:contentKeyID: 62952684
 ms.date: 02/16/2015
 mtps_version: v=office.15

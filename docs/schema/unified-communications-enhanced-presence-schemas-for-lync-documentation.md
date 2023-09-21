@@ -2,7 +2,7 @@
 title: Unified Communications Enhanced Presence Schemas for Lync Server 2013 documentation
 TOCTitle: Unified Communications Enhanced Presence Schemas for Lync Server 2013 documentation
 ms:assetid: 644a59e5-5128-46df-bff2-617b22c67621
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454614(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454614(v=office.15)
 ms:contentKeyID: 57092861
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -25,7 +25,7 @@ Microsoft Unified Communications Enhanced Presence Schemas for Microsoft Lync Se
 
 #### Concepts
 
-[Copyright notice (Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2013)](https://msdn.microsoft.com/en-us/library/dn481209\(v=office.15\))
+[Copyright notice (Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2013)](https://msdn.microsoft.com/library/dn481209\(v=office.15\))
 
 #### Other resources
 

@@ -2,7 +2,7 @@
 title: Migration and coexistence details (UCMA 2.0 and UCMA 3.0)
 TOCTitle: Migration and coexistence details (UCMA 2.0 and UCMA 3.0)
 ms:assetid: 969fa41d-6941-4327-9fd3-5879153b7977
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466121(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466121(v=office.15)
 ms:contentKeyID: 57103414
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -154,7 +154,7 @@ The most important thing about this scenario is that the UCMA 2.0 application is
 
 ## Install the UCMA 2.0 application
 
-Install the UCMA 2.0 application just as you would have installed it against Office Communications Server 2007 R2. This includes but is not limited to installing UCMARedist(Runtime), SpeechRedist, and OCSCore, creating trusted service entries, and optionally creating Active Directory contact objects. For more information, see [Deploying a UCMA 2.0 Core Application](http://msdn.microsoft.com/en-us/library/dd280155\(v=office.13\).aspx).
+Install the UCMA 2.0 application just as you would have installed it against Office Communications Server 2007 R2. This includes but is not limited to installing UCMARedist(Runtime), SpeechRedist, and OCSCore, creating trusted service entries, and optionally creating Active Directory contact objects. For more information, see [Deploying a UCMA 2.0 Core Application](http://msdn.microsoft.com/library/dd280155\(v=office.13\).aspx).
 
 ## Add AllowedDomains using WBemTest
 

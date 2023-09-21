@@ -2,7 +2,7 @@
 title: Terminology of Lync Server 2013 Persistent Chat SDK
 TOCTitle: Terminology
 ms:assetid: 88433af4-9be0-4f2d-8c0b-d86df7a4e014
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439209(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439209(v=office.15)
 ms:contentKeyID: 57101358
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -19,7 +19,7 @@ Learn about Microsoft Lync Server 2013 Persistent Chat SDK terminology.
 ## A
 
   - **Active Chat Room Session**  
-    A session that is currently joined. All active Persistent Chat room sessions can be accessed by using the name and URI indexers on the [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj267567\(v=office.15\)) class. When a user leaves the chat room, the session is removed from the Active Chat Room Session collection.
+    A session that is currently joined. All active Persistent Chat room sessions can be accessed by using the name and URI indexers on the [PersistentChatEndpoint](https://msdn.microsoft.com/library/jj267567\(v=office.15\)) class. When a user leaves the chat room, the session is removed from the Active Chat Room Session collection.
 
   - **Add-in**  
     A small webpage or web application that is displayed in a panel beneath the chat input area in Microsoft Lync Server 2013 Persistent Chat. Lync Server 2013 Persistent Chat publishes a set of events and metadata about the chat room to the add-in, and permits the add-in limited access to interact with both inbound and outbound messages in a real time fashion.
@@ -60,7 +60,7 @@ Learn about Microsoft Lync Server 2013 Persistent Chat SDK terminology.
 ## I
 
   - **Invitation**  
-    A notification that a Persistent Chat user receives when added to a Persistent Chat room. Past invitations can be requested, and they are sent in batches. Invitations are only issued when the chat room specifically enables the feature by using the [SendInvitationsToMembers](https://msdn.microsoft.com/en-us/library/jj267873\(v=office.15\)) property. Due to the performance implications of large channel invites, this feature should be used sparingly.
+    A notification that a Persistent Chat user receives when added to a Persistent Chat room. Past invitations can be requested, and they are sent in batches. Invitations are only issued when the chat room specifically enables the feature by using the [SendInvitationsToMembers](https://msdn.microsoft.com/library/jj267873\(v=office.15\)) property. Due to the performance implications of large channel invites, this feature should be used sparingly.
 
 ## J
 
@@ -103,7 +103,7 @@ Learn about Microsoft Lync Server 2013 Persistent Chat SDK terminology.
     Application specific user data that can be stored on Microsoft Lync Server 2013 Persistent Chat. Lync Server 2013 Persistent Chat uses preferences in an unpublished format to store Persistent Chat rooms and display settings that the user has selected. Microsoft Lync Server 2013 Persistent Chat API developers can use this feature to store custom data or settings that is needed for their application.
 
   - **Presenters**  
-    Principals who have been granted a role that permits them to post chat messages in a Persistent Chat room that restricts chat message posting by using the [IsAuditorium](https://msdn.microsoft.com/en-us/library/jj266864\(v=office.15\)) property.
+    Principals who have been granted a role that permits them to post chat messages in a Persistent Chat room that restricts chat message posting by using the [IsAuditorium](https://msdn.microsoft.com/library/jj266864\(v=office.15\)) property.
 
   - **Principal**  
     A generic term which refers to any user or user group.
@@ -134,7 +134,7 @@ Learn about Microsoft Lync Server 2013 Persistent Chat SDK terminology.
 ## V
 
   - **Visibility**  
-    A property that applies to a Persistent Chat room to indicate the visibility of the room to search. When the [VisibleOnlyToMembers](https://msdn.microsoft.com/en-us/library/jj266336\(v=office.15\)) property is set to true, only members of the chat room will find it in searches. When false, any user in scope on the category can see the chat room in a search.
+    A property that applies to a Persistent Chat room to indicate the visibility of the room to search. When the [VisibleOnlyToMembers](https://msdn.microsoft.com/library/jj266336\(v=office.15\)) property is set to true, only members of the chat room will find it in searches. When false, any user in scope on the category can see the chat room in a search.
 
 ## See also
 

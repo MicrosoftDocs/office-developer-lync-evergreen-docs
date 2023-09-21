@@ -2,7 +2,7 @@
 title: SpoiledTilePercentAverage element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: SpoiledTilePercentAverage element
 ms:assetid: 92643468-4f60-93d6-bac4-fee7169d3c68
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912822(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912822(v=office.15)
 ms:contentKeyID: 64126991
 ms.date: 02/16/2015
 mtps_version: v=office.15

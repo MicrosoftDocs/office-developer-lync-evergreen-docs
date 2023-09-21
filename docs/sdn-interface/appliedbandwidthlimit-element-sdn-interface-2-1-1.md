@@ -2,7 +2,7 @@
 title: AppliedBandwidthLimit element  (Lync SDN Interface 2.1.1)
 TOCTitle: AppliedBandwidthLimit element
 ms:assetid: c49466ac-4861-758c-78bb-15df1e44b4e2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912669(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912669(v=office.15)
 ms:contentKeyID: 64126854
 ms.date: 02/16/2015
 mtps_version: v=office.15

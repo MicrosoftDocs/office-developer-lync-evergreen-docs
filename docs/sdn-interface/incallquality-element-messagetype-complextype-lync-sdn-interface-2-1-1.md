@@ -2,7 +2,7 @@
 title: InCallQuality element (MessageType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: InCallQuality element
 ms:assetid: e551e8d7-644e-e260-a7f0-8cff48329502
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912744(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912744(v=office.15)
 ms:contentKeyID: 64126914
 ms.date: 02/16/2015
 mtps_version: v=office.15

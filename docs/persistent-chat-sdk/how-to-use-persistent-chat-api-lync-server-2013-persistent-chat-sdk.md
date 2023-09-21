@@ -2,7 +2,7 @@
 title: How to use Persistent Chat API (Lync Server 2013 Persistent Chat SDK)
 TOCTitle: How to use Persistent Chat API
 ms:assetid: cf15cfd4-0814-4298-a610-c8e53c1ed58f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465905(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465905(v=office.15)
 ms:contentKeyID: 57101399
 ms.date: 07/24/2014
 mtps_version: v=office.15

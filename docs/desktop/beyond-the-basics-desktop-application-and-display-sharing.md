@@ -2,7 +2,7 @@
 title: 'Beyond the basics: Desktop, application, and display sharing'
 TOCTitle: Desktop, application, and display sharing
 ms:assetid: 6ef40736-5396-4f20-9eae-00450ad1a0ff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933065(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933065(v=office.15)
 ms:contentKeyID: 50877195
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -57,17 +57,17 @@ The following table shows the control actions that a resource sharer can take. A
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj275295(v=office.15)">ApplicationSharingModality.BeginAcceptControlRequest</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj275295(v=office.15)">ApplicationSharingModality.BeginAcceptControlRequest</a></p></td>
 <td><p>Accepts another user’s request to control a locally shared resource.</p></td>
 <td><p>Requesting participant modality</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj276339(v=office.15)">ApplicationSharingModality.BeginDeclineControlRequest</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj276339(v=office.15)">ApplicationSharingModality.BeginDeclineControlRequest</a></p></td>
 <td><p>Declines another user’s request to control a locally shared resource.</p></td>
 <td><p>Requesting participant modality</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj274501(v=office.15)">ApplicationSharingModality.BeginGrantControl</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj274501(v=office.15)">ApplicationSharingModality.BeginGrantControl</a></p></td>
 <td><p>Grants control of a locally shared resource to another user.</p>
 <div class="alert">
 <table>
@@ -89,7 +89,7 @@ The following table shows the control actions that a resource sharer can take. A
 <td><p>Modality of participant to be granted control</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277377(v=office.15)">ApplicationSharingModality.BeginRevokeControl</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277377(v=office.15)">ApplicationSharingModality.BeginRevokeControl</a></p></td>
 <td><p>Revokes control of a resource that was granted or requested by another user.</p></td>
 <td><p>Resource controlling participant modality</p></td>
 </tr>
@@ -113,12 +113,12 @@ The following table shows the control actions that a resource viewer can take. A
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj276953(v=office.15)">ApplicationSharingModality.BeginRequestControl</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj276953(v=office.15)">ApplicationSharingModality.BeginRequestControl</a></p></td>
 <td><p>Requests control of a resource that is owned by another user.</p></td>
 <td><p>Local participant modality</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj293551(v=office.15)">ApplicationSharingModality.BeginReleaseControl</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj293551(v=office.15)">ApplicationSharingModality.BeginReleaseControl</a></p></td>
 <td><p>Releases control of a resource that a user has either been granted control of or requested control of. This method cannot be called on an application sharing modality by the owner of a shared resource.</p></td>
 <td><p>Local participant modality</p></td>
 </tr>
@@ -144,32 +144,32 @@ The events that are raised on the application sharing modalities in the conversa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj278080(v=office.15)">Modality.ModalityStateChanged</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj278080(v=office.15)">Modality.ModalityStateChanged</a></p></td>
 <td><p>Raised when an application sharing modality has connected or disconnected in the conversation. You cannot share resources when the modality is disconnected.</p></td>
 <td><p>Application sharing modality of all participants, the conversation modality.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a></p></td>
 <td><p>Raised when an action such as granting control of a locally shared resource becomes available or is no longer available. This event is typically used to enable or disable resource control action-related buttons in a UI.</p></td>
 <td><p>Application sharing modality of all participants, the conversation modality.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj277299(v=office.15)">ApplicationSharingModality.ControlRequestReceived</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj277299(v=office.15)">ApplicationSharingModality.ControlRequestReceived</a></p></td>
 <td><p>Raised when another user wants to control a resource shared locally by the local user.</p></td>
 <td><p>Conversation modality</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj293289(v=office.15)">ApplicationSharingModality.ControllerChanged</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj293289(v=office.15)">ApplicationSharingModality.ControllerChanged</a></p></td>
 <td><p>Raised when the control of the shared resource changes from one user to another.</p></td>
 <td><p>Conversation modality</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj293494(v=office.15)">ApplicationSharingModality.ParticipationStateChanged</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj293494(v=office.15)">ApplicationSharingModality.ParticipationStateChanged</a></p></td>
 <td><p>Raised when the local participant requests or releases control of a resource, or grants or revokes control of a locally shared resource.</p></td>
 <td><p>Conversation modality</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj276856(v=office.15)">ApplicationSharingModality.LocalSharedResourcesChanged</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj276856(v=office.15)">ApplicationSharingModality.LocalSharedResourcesChanged</a></p></td>
 <td><p>Raised when the local user begins to share a resource or switches from one shared resource to another shared resource.</p></td>
 <td><p>Conversation modality</p></td>
 </tr>

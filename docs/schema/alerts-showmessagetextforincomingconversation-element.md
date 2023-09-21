@@ -2,7 +2,7 @@
 title: alerts/showMessageTextForIncomingConversation element
 TOCTitle: alerts/showMessageTextForIncomingConversation element
 ms:assetid: ace60d1b-5887-4d98-bc6c-64e448cbf7a5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454694(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454694(v=office.15)
 ms:contentKeyID: 57093339
 ms.date: 07/24/2014
 mtps_version: v=office.15

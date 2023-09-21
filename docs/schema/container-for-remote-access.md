@@ -2,7 +2,7 @@
 title: Container for remote access
 TOCTitle: Container for remote access
 ms:assetid: 4e633c8e-033c-4156-8151-da6b24d5289f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454664(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454664(v=office.15)
 ms:contentKeyID: 57093111
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Back-to-back user agent
 TOCTitle: Back-to-back user agent
 ms:assetid: f9ece1e1-ff34-4c31-9bb7-40e113cdbc36
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466011(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466011(v=office.15)
 ms:contentKeyID: 57102989
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-Microsoft Unified Communications Managed API 4.0 provides several classes to support the back-to-back user agent concept. The principal class of interest to application developers is the [BackToBackCall](https://msdn.microsoft.com/en-us/library/hh365598\(v=office.15\)) class. Using back-to-back user agent functionality, an application can perform the following operations:
+Microsoft Unified Communications Managed API 4.0 provides several classes to support the back-to-back user agent concept. The principal class of interest to application developers is the [BackToBackCall](https://msdn.microsoft.com/library/hh365598\(v=office.15\)) class. Using back-to-back user agent functionality, an application can perform the following operations:
 
   - Create a **BackToBackCall** instance, which establishes back-to-back connectivity between two calls. For example, a customer and an agent are connected through a back-end call center.
 

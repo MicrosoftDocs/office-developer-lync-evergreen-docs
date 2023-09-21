@@ -2,7 +2,7 @@
 title: 'How to: Update and publish user telephone numbers in Lync SDK'
 TOCTitle: 'How to: Update and publish user telephone numbers'
 ms:assetid: 078b5dd3-69f1-4c1e-bea8-91ba9bb54c12
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937252(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937252(v=office.15)
 ms:contentKeyID: 50877068
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -55,7 +55,7 @@ The list in the upper left corner of the window is fixed at four items. When a u
 
 ### To get a user’s telephone numbers
 
-1.  The following example gets the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) object by calling the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/jj278213\(v=office.15\)) method.
+1.  The following example gets the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) object by calling the static [LyncClient.GetClient](https://msdn.microsoft.com/library/jj278213\(v=office.15\)) method.
     
     ```csharp
     _LyncClient = LyncClient.GetClient();
@@ -67,9 +67,9 @@ The list in the upper left corner of the window is fixed at four items. When a u
     _LyncClient.Self.PhonesChanged += Self_PhonesChanged;
     ```
 
-3.  Get a [Microsoft.Lync.Model.Phone](https://msdn.microsoft.com/en-us/library/jj275506\(v=office.15\)) object by calling the [Self.GetPhone](https://msdn.microsoft.com/en-us/library/jj266043\(v=office.15\)) method.  
+3.  Get a [Microsoft.Lync.Model.Phone](https://msdn.microsoft.com/library/jj275506\(v=office.15\)) object by calling the [Self.GetPhone](https://msdn.microsoft.com/library/jj266043\(v=office.15\)) method.  
     
-    The following example gets the user’s home telephone number. Get the other three telephone numbers by passing each enumerator of the [Microsoft.Lync.Model.ContactEndpointType](https://msdn.microsoft.com/en-us/library/jj275544\(v=office.15\)) in successive calls to the [Self.GetPhone](https://msdn.microsoft.com/en-us/library/jj266043\(v=office.15\)) method.
+    The following example gets the user’s home telephone number. Get the other three telephone numbers by passing each enumerator of the [Microsoft.Lync.Model.ContactEndpointType](https://msdn.microsoft.com/library/jj275544\(v=office.15\)) in successive calls to the [Self.GetPhone](https://msdn.microsoft.com/library/jj266043\(v=office.15\)) method.
     
     <table>
     <colgroup>
@@ -82,7 +82,7 @@ The list in the upper left corner of the window is fixed at four items. When a u
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>A given telephone number might not exist at the time that you call the <strong>GetPhone</strong> method. In this case, you handle the <a href="https://msdn.microsoft.com/en-us/library/jj267360(v=office.15)">Microsoft.Lync.Model.ItemNotFoundException</a> exception and update the UI accordingly.</p></td>
+    <td><p>A given telephone number might not exist at the time that you call the <strong>GetPhone</strong> method. In this case, you handle the <a href="https://msdn.microsoft.com/library/jj267360(v=office.15)">Microsoft.Lync.Model.ItemNotFoundException</a> exception and update the UI accordingly.</p></td>
     </tr>
     </tbody>
     </table>
@@ -107,11 +107,11 @@ The list in the upper left corner of the window is fixed at four items. When a u
 
 If a user wants to remove a telephone number from the Lync 2013 contact card that other users see, the user selects a telephone number from the list shown in the Custom user telephone list administration UI section, clears the **Publish to contact card check** box, and then clicks the **Save edits** button in the window.
 
-The following procedure describes how to clear the Boolean true value in the [Phone.Published](https://msdn.microsoft.com/en-us/library/jj294078\(v=office.15\)) property of the selected telephone number and then save the change to the telephone.
+The following procedure describes how to clear the Boolean true value in the [Phone.Published](https://msdn.microsoft.com/library/jj294078\(v=office.15\)) property of the selected telephone number and then save the change to the telephone.
 
 ### To remove a telephone number from the user’s contact card
 
-1.  Get the [Microsoft.Lync.Model.ContactEndpointType](https://msdn.microsoft.com/en-us/library/jj275544\(v=office.15\)) enumeration for the kind of the telephone number to remove from the contact card.  
+1.  Get the [Microsoft.Lync.Model.ContactEndpointType](https://msdn.microsoft.com/library/jj275544\(v=office.15\)) enumeration for the kind of the telephone number to remove from the contact card.  
     
     <table>
     <colgroup>
@@ -124,12 +124,12 @@ The following procedure describes how to clear the Boolean true value in the [Ph
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>If you have the <a href="https://msdn.microsoft.com/en-us/library/jj275506(v=office.15)">Microsoft.Lync.Model.Phone</a> object for the telephone number to remove, pass the <a href="https://msdn.microsoft.com/en-us/library/jj294021(v=office.15)">ContactEndpoint.Type</a> property in the first argument.</p></td>
+    <td><p>If you have the <a href="https://msdn.microsoft.com/library/jj275506(v=office.15)">Microsoft.Lync.Model.Phone</a> object for the telephone number to remove, pass the <a href="https://msdn.microsoft.com/library/jj294021(v=office.15)">ContactEndpoint.Type</a> property in the first argument.</p></td>
     </tr>
     </tbody>
     </table>
 
-2.  Call the [Self.BeginSetPhone](https://msdn.microsoft.com/en-us/library/jj293545\(v=office.15\)) method and pass the contact endpoint type enumerator, the current telephone number as a string, a Boolean false value, the callback method or lambda expression, and the asynchronous state value or null. The Boolean argument is passed as false to indicate that the telephone number is to be removed from the contact card.
+2.  Call the [Self.BeginSetPhone](https://msdn.microsoft.com/library/jj293545\(v=office.15\)) method and pass the contact endpoint type enumerator, the current telephone number as a string, a Boolean false value, the callback method or lambda expression, and the asynchronous state value or null. The Boolean argument is passed as false to indicate that the telephone number is to be removed from the contact card.
     
     The following example removes a telephone number from the user’s contact card.
     
@@ -156,7 +156,7 @@ Adding the telephone number and publishing it on the contact card is performed b
 
 ### To add a telephone number
 
-  - Call the [Self.BeginSetPhone](https://msdn.microsoft.com/en-us/library/jj293545\(v=office.15\)) method and pass the endpoint type in the first argument, the new telephone number to associate with the type in the second argument, a **true** value in the third to specify the telephone number is to be published.
+  - Call the [Self.BeginSetPhone](https://msdn.microsoft.com/library/jj293545\(v=office.15\)) method and pass the endpoint type in the first argument, the new telephone number to associate with the type in the second argument, a **true** value in the third to specify the telephone number is to be published.
     
     The following example publishes a new telephone number to the user’s contact card.
     
@@ -193,7 +193,7 @@ Adding the telephone number and publishing it on the contact card is performed b
 
 ## Change a telephone number in the user’s contact card
 
-If a user has already added a telephone number to the telephone number list but wants to change the number, this operation is complete with a single call to the [Self.BeginSetPhone](https://msdn.microsoft.com/en-us/library/jj293545\(v=office.15\)) method.
+If a user has already added a telephone number to the telephone number list but wants to change the number, this operation is complete with a single call to the [Self.BeginSetPhone](https://msdn.microsoft.com/library/jj293545\(v=office.15\)) method.
 
 ### To change an existing telephone number
 

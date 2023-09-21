@@ -2,7 +2,7 @@
 title: Lync-specific features of Enhanced Presence
 TOCTitle: Lync-specific features of Enhanced Presence
 ms:assetid: f6e4f922-6a8b-4252-9650-2538500167ec
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454626(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454626(v=office.15)
 ms:contentKeyID: 57092870
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: state/device element
 TOCTitle: state/device element
 ms:assetid: d48a27ba-af85-49d9-9b95-ccfd490b093a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438959(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438959(v=office.15)
 ms:contentKeyID: 57093993
 ms.date: 07/24/2014
 mtps_version: v=office.15

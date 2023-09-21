@@ -2,7 +2,7 @@
 title: publicationRule element
 TOCTitle: publicationRule element
 ms:assetid: 72ef64da-cd23-4170-8e38-5649c37ebf76
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438994(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438994(v=office.15)
 ms:contentKeyID: 57094041
 ms.date: 07/24/2014
 mtps_version: v=office.15

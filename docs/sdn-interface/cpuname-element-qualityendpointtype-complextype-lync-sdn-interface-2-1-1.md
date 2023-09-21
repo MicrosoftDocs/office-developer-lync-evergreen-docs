@@ -2,7 +2,7 @@
 title: CPUName element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: CPUName element
 ms:assetid: 1d4f1018-d9a7-645e-ab98-dc25af25490c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912702(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912702(v=office.15)
 ms:contentKeyID: 64126872
 ms.date: 02/16/2015
 mtps_version: v=office.15

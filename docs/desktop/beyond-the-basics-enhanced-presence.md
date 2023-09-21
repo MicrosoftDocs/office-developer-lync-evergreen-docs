@@ -2,7 +2,7 @@
 title: 'Beyond the basics: Enhanced presence'
 TOCTitle: Enhanced presence
 ms:assetid: 9eb537b8-c87c-47ec-aeb6-8850691cd44e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933150(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933150(v=office.15)
 ms:contentKeyID: 50877287
 ms.date: 07/24/2014
 mtps_version: v=office.15

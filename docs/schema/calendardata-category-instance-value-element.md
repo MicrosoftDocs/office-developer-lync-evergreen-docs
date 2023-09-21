@@ -2,7 +2,7 @@
 title: calendarData category instance value element
 TOCTitle: calendarData category instance value element
 ms:assetid: 972e3637-d1fe-4c92-b34c-5c6063f9c35b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454705(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454705(v=office.15)
 ms:contentKeyID: 57093392
 ms.date: 07/24/2014
 mtps_version: v=office.15

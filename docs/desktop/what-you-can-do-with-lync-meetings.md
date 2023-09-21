@@ -2,7 +2,7 @@
 title: What you can do with Lync meetings
 TOCTitle: Lync meetings
 ms:assetid: 4da14eed-625a-4b32-bfed-9dbea9a8bf2b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937313(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937313(v=office.15)
 ms:contentKeyID: 50877145
 ms.date: 07/24/2014
 mtps_version: v=office.15

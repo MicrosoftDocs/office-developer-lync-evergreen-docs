@@ -2,7 +2,7 @@
 title: EchoPercentSend element (Lync SDN API Schema A)
 TOCTitle: EchoPercentSend element
 ms:assetid: 419e680b-51b4-7a95-89fb-e7b2d524f9e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455032(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455032(v=office.15)
 ms:contentKeyID: 57260907
 ms.date: 07/24/2014
 mtps_version: v=office.15

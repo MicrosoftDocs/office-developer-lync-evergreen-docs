@@ -2,7 +2,7 @@
 title: Collaboration layer
 TOCTitle: Collaboration layer
 ms:assetid: 9f55d1e5-c644-415e-b806-92f8441d453b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465997(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465997(v=office.15)
 ms:contentKeyID: 57102891
 ms.date: 07/25/2014
 mtps_version: v=office.15

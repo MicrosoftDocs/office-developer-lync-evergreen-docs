@@ -2,7 +2,7 @@
 title: Containers and categories used by Lync
 TOCTitle: Containers and categories used by Lync
 ms:assetid: daa69a3b-25d6-4a5a-9398-95373ef24d15
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454630(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454630(v=office.15)
 ms:contentKeyID: 57093185
 ms.date: 07/24/2014
 mtps_version: v=office.15

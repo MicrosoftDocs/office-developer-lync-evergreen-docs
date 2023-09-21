@@ -2,7 +2,7 @@
 title: General features of Enhanced Presence
 TOCTitle: General features
 ms:assetid: c5fd4776-1b16-4118-b4a3-ca3df698dd0e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454616(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454616(v=office.15)
 ms:contentKeyID: 57093344
 ms.date: 07/24/2014
 mtps_version: v=office.15

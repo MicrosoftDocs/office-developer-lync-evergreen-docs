@@ -2,7 +2,7 @@
 title: Receiving contacts and groups
 TOCTitle: Receiving contacts and groups
 ms:assetid: 1d00013d-08a9-4e35-95ec-28fcc1270291
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454633(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454633(v=office.15)
 ms:contentKeyID: 57093011
 ms.date: 07/24/2014
 mtps_version: v=office.15

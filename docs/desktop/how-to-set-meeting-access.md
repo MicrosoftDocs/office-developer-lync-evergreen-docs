@@ -2,7 +2,7 @@
 title: 'How to: Set meeting access'
 TOCTitle: 'How to: Set meeting access'
 ms:assetid: a06b10ba-e0f1-48b7-8ee9-0c7678d9b657
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933127(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933127(v=office.15)
 ms:contentKeyID: 50877269
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -53,13 +53,13 @@ Meeting access types determine the ability of a person to join a meet-now meetin
 
 ### To set a meet-now meeting access type
 
-1.  Get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) object that encapsulates the meeting.
+1.  Get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) object that encapsulates the meeting.
     
     For information about getting the **Conversation**, see [How to: Start a meet-now meeting](how-to-start-a-meet-now-meeting.md).
 
-2.  Verify that the conferencing access type property can be set on the conversation by calling the [Conversation.CanSetProperty](https://msdn.microsoft.com/en-us/library/jj265992\(v=office.15\)) method.
+2.  Verify that the conferencing access type property can be set on the conversation by calling the [Conversation.CanSetProperty](https://msdn.microsoft.com/library/jj265992\(v=office.15\)) method.
 
-3.  Call the [Conversation.BeginSetProperty](https://msdn.microsoft.com/en-us/library/jj294127\(v=office.15\)) method.
+3.  Call the [Conversation.BeginSetProperty](https://msdn.microsoft.com/library/jj294127\(v=office.15\)) method.
     
     The following example gets the access type choice made by a user, verifies that the access type property can be set, and then sets the property.
     

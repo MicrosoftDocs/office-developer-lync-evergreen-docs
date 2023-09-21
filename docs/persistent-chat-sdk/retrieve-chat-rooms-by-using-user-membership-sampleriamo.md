@@ -2,7 +2,7 @@
 title: Retrieve chat rooms by using user membership (SampleRiamo)
 TOCTitle: Retrieve chat rooms by using user membership (SampleRiamo)
 ms:assetid: e89be182-e681-4205-8229-802c72fc50d5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465908(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465908(v=office.15)
 ms:contentKeyID: 57101414
 ms.date: 07/24/2014
 mtps_version: v=office.15

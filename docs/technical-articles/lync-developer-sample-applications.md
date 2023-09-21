@@ -2,7 +2,7 @@
 title: Lync developer sample applications
 TOCTitle: Lync developer sample applications
 ms:assetid: 67881c60-d922-4e9d-9690-13164bc27cbc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn495337(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn495337(v=office.15)
 ms:contentKeyID: 60569236
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -20,7 +20,7 @@ Use the Microsoft Lync 2010 SDK to build custom Lync clients, or to embed Lync f
 
 - [Lync 2010: Add, remove, and rename custom groups](http://code.msdn.microsoft.com/lync-2010-add-remove-and-85fc87ca)
 
-- [Lync 2010 API reference](http://msdn.microsoft.com/en-us/library/office/gg421035\(v=office.14\).aspx)
+- [Lync 2010 API reference](http://msdn.microsoft.com/library/office/gg421035\(v=office.14\).aspx)
 
 - [Lync 2010: Send an image file as contextual data](http://code.msdn.microsoft.com/lync-2010-send-an-image-77b8a6b8)
 
@@ -201,11 +201,11 @@ Use the Lync Server 2013 Persistent Chat SDK to build group chat applications th
 ## See also
 
 - [Channel9](http://channel9.msdn.com/tags/lync)
-- [Lync Server 2013](http://technet.microsoft.com/en-us/library/gg398616.aspx)
-- [Download the Lync 2013 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=36824)
-- [Download the UCMA 4.0 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=35463)
-- [Download the Lync Server 2013 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=35456)
-- [Download the Lync Server 2013 Persistent Chat SDK](http://www.microsoft.com/en-us/download/details.aspx?id=35458)
-- [Download the Unified Communications Enhanced Presence Schemas for Lync Server 2013](http://www.microsoft.com/en-us/download/details.aspx?id=35452)
+- [Lync Server 2013](http://technet.microsoft.com/library/gg398616.aspx)
+- [Download the Lync 2013 SDK](http://www.microsoft.com/download/details.aspx?id=36824)
+- [Download the UCMA 4.0 SDK](http://www.microsoft.com/download/details.aspx?id=35463)
+- [Download the Lync Server 2013 SDK](http://www.microsoft.com/download/details.aspx?id=35456)
+- [Download the Lync Server 2013 Persistent Chat SDK](http://www.microsoft.com/download/details.aspx?id=35458)
+- [Download the Unified Communications Enhanced Presence Schemas for Lync Server 2013](http://www.microsoft.com/download/details.aspx?id=35452)
 - [Lync developer videos](lync-developer-videos.md)
 

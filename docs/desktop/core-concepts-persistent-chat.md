@@ -2,7 +2,7 @@
 title: 'Core concepts: Persistent Chat'
 TOCTitle: Persistent Chat
 ms:assetid: cfa8efab-8ac7-4c43-ae72-d1234a73b7df
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933198(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933198(v=office.15)
 ms:contentKeyID: 50877341
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -22,7 +22,7 @@ Watch the video: What’s new with the Lync 2013 Persistent Chat API
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
 
 
 ## Persistent Chat overview
@@ -73,7 +73,7 @@ For information about the capabilities of an add-in, see <a href="chat-room-add-
 </tr>
 <tr class="even">
 <td><p>Followed room list</p></td>
-<td><p>Just like <a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Microsoft.Lync.Model.Contact</a> represents a contact in the contact list and <a href="https://msdn.microsoft.com/en-us/library/jj277245(v=office.15)">Microsoft.Lync.Model.Group.CustomGroup</a> represent custom groups in the contact list, <a href="https://msdn.microsoft.com/en-us/library/jj266467(v=office.15)">Microsoft.Lync.Model.Room.Room</a> represents a chat room in a contact list. A user automatically joins all chat rooms in the contact list when they sign in to Lync 2013. When joined to a chat room, room message alerts can be displayed according to the user’s preferences.</p></td>
+<td><p>Just like <a href="https://msdn.microsoft.com/library/jj266463(v=office.15)">Microsoft.Lync.Model.Contact</a> represents a contact in the contact list and <a href="https://msdn.microsoft.com/library/jj277245(v=office.15)">Microsoft.Lync.Model.Group.CustomGroup</a> represent custom groups in the contact list, <a href="https://msdn.microsoft.com/library/jj266467(v=office.15)">Microsoft.Lync.Model.Room.Room</a> represents a chat room in a contact list. A user automatically joins all chat rooms in the contact list when they sign in to Lync 2013. When joined to a chat room, room message alerts can be displayed according to the user’s preferences.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Chat room message posting</p></td>
