@@ -1,4 +1,4 @@
-﻿---
+---
 title: Local-access only category instances
 TOCTitle: Local-access only category instances
 ms:assetid: 3600e1ac-9471-4642-8509-e742355837ea
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454661(v=office.15)
 ms:contentKeyID: 57092976
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Explore Microsoft Lync 2013's local access only category instances. Learn about alerts, calendar data, device info, DND state, and more for enhanced presence services.
 ---
 
 # Local-access only category instances
