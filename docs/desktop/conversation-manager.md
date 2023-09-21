@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937321(v=office.15)
 ms:contentKeyID: 50877152
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Master Microsoft Lync 2013 with our comprehensive guide on ConversationManager class. Learn to start, join conversations and online meetings effectively.
 ---
 
 # Conversation manager
