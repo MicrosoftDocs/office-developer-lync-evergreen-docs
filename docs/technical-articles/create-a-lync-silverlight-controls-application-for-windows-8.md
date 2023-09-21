@@ -18,7 +18,7 @@ Learn how to use the Lync 2013 SDK to create a Lync Silverlight Controls applica
 
 Applications that are developed with the Lync 2013 SDK run on the Windows 8 desktop. This article describes how to create a Lync Silverlight Controls application by using Lync Controls and also discusses how to open the Silverlight application in Internet Explorer.
 
-### Requirements
+## Requirements
 
 - Lync 2013 SDK
 
@@ -34,8 +34,6 @@ Applications that are developed with the Lync 2013 SDK run on the Windows 8 desk
 ## Create the Lync Silverlight Controls application
 
 To create the application, use Visual Studio to open a new project by using the Lync Silverlight Application template, and then drag three controls onto the Design pane.
-
-### To create the Lync Controls application
 
 1.  On the Windows 8 Start Screen, click **Visual Studio**.
 
@@ -81,7 +79,7 @@ To create the application, use Visual Studio to open a new project by using the 
 
 10. Before you start the next procedure, close the application.
 
-### To open the application
+### Open the application
 
 1.  On the Windows 8 desktop, start Internet Explorer.
 
@@ -89,7 +87,7 @@ To create the application, use Visual Studio to open a new project by using the 
 
 ## Conclusion
 
-Using the Lync 2013 SDK to create a Lync Silverlight Controls application for Windows 8 resembles creating a Windows 7 application. Like Silverlight applications in earleir versions of Windows, it is possible to start a Windows 8 Silverlight application from the browser history list.
+Using the Lync 2013 SDK to create a Lync Silverlight Controls application for Windows 8 resembles creating a Windows 7 application. Like Silverlight applications in earleir versions of Windows, it's possible to start a Windows 8 Silverlight application from the browser history list.
 
 ## See also
 
@@ -97,4 +95,3 @@ Using the Lync 2013 SDK to create a Lync Silverlight Controls application for Wi
 - [Get started with Lync Controls](../desktop/get-started-with-lync-controls.md)
 - [Lync Dev Center](http://msdn.microsoft.com/lync/default.aspx)
 - [Download Center: Lync 2013 SDK](http://www.microsoft.com/download/details.aspx?id=36824)
-

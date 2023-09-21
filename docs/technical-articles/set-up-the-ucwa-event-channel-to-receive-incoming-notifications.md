@@ -36,9 +36,9 @@ One way to implement the above steps involves executing the HTTP GET requests an
 
 ## Set up the event channel
 
-We will continue from our [Introductory UCWA Windows Store application](http://code.msdn.microsoft.com/lync/create-a-ucwa-windows-2c48d3f9) to add the event channel features. You can follow the [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md) article to create the Visual Studio project and to include necessary application components.
+we'll continue from our [Introductory UCWA Windows Store application](http://code.msdn.microsoft.com/lync/create-a-ucwa-windows-2c48d3f9) to add the event channel features. You can follow the [Start creating UCWA Windows Store apps](start-creating-ucwa-windows-store-apps.md) article to create the Visual Studio project and to include necessary application components.
 
-To set up the event channel and integrate it with other parts of our UCWA 1.0 application, let us first encapsulate the event channel in public-scoped class named UcwaAppEventChannel. For this, add the following class definition to the Visual Studio solution.
+To set up the event channel and integrate it with other parts of our UCWA 1.0 application, let's first encapsulate the event channel in public-scoped class named UcwaAppEventChannel. For this, add the following class definition to the Visual Studio solution.
 
 ```csharp
 using System;
@@ -168,7 +168,7 @@ This can be done by setting a timer that submits an HTTP PUT request every 4 min
                 );
 ```
 
-It is assumed that the class variable timer is already declared in the UcwaApp class.
+It's assumed that the class variable timer is already declared in the UcwaApp class.
 <a name="Process"></a> 
 
 ## Process PGET responses
@@ -305,7 +305,7 @@ Examples of the specified event handlers are shown as follows:
         }
 ```
 
-Here, it is assumed that the upstream event handler is registered from a UI thread that will display the error messages and other warnings to the user.
+Here, it's assumed that the upstream event handler is registered from a UI thread that will display the error messages and other warnings to the user.
 
 ## See also
 

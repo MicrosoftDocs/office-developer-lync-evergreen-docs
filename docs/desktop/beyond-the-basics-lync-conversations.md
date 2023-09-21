@@ -34,7 +34,7 @@ Additional resources</p></td>
 
 ## Application development scenarios
 
-If you are familiar with the basic conversation-related components of the Microsoft Lync 2013 API object model, you are ready to learn about what types of solutions you can create using those components. This topic introduces several ways you can use the conversation components of the Lync object model to create solutions. The types of solutions that you can create include the following types:
+If you're familiar with the basic conversation-related components of the Microsoft Lync 2013 API object model, you're ready to learn about what types of solutions you can create using those components. This topic introduces several ways you can use the conversation components of the Lync object model to create solutions. The types of solutions that you can create include the following types:
 
   - Lync 2013 conversation window docking.
 
@@ -48,9 +48,9 @@ Conversation window docking is useful when you want to place a Lync 2013 convers
 
 A Conversation Window Extension (CWE) application is useful when you want to present a rich contextual experience to a user while the user is having a conversation in the context of your application data. The CWE is hosted within the conversation window as a panel to the right of the IM pane. The Lync 2013 API provides the necessary hooks into the hosting conversation and your application logic provides context data in any form that is appropriate for a Silverlight browser application.
 
-A CWE can be packaged in such a way that it is automatically launched in the conversation windows of all participants in a given conversation. That way, the conversation participants can collaborate in the context of your application data. For example, people who work in the accounts payable department of an organization can start a conversation with a person outside of the department in the context of an invoice that will be set up for payment in the department. An appropriate CWE in this scenario would display information from your AP system related to the invoice to be paid.
+A CWE can be packaged in such a way that it's automatically launched in the conversation windows of all participants in a given conversation. That way, the conversation participants can collaborate in the context of your application data. For example, people who work in the accounts payable department of an organization can start a conversation with a person outside of the department in the context of an invoice that will be set up for payment in the department. An appropriate CWE in this scenario would display information from your AP system related to the invoice to be paid.
 
-If you are building an application such as a kiosk application whose purpose is to let users communicate by using the services provided by the Lync 2013 client, but not using the client UI, then you will use the full power of the Lync 2013 API to create your own client that exposes a completely custom set of Lync 2013 features. For example, if your application is designed to let users communicate with a predefined set of other users across the whole range of conversation modalities, you can create a client that presents a prepopulated contact list that cannot be modified. You would exclude the user search feature that is built in to the Lync 2013 client.
+If you're building an application such as a kiosk application whose purpose is to let'sers communicate by using the services provided by the Lync 2013 client, but not using the client UI, then you'll use the full power of the Lync 2013 API to create your own client that exposes a completely custom set of Lync 2013 features. For example, if your application is designed to let'sers communicate with a predefined set of other users across the whole range of conversation modalities, you can create a client that presents a prepopulated contact list that cannot be modified. You would exclude the user search feature that is built in to the Lync 2013 client.
 
 ## In this section
 

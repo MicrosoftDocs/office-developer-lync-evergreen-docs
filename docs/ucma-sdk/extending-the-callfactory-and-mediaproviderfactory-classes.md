@@ -76,7 +76,7 @@ For UCMA 4.0, only subclasses of the **CallFactory** and **MediaProviderFactory*
 
 ## Managing media types
 
-When you configure platform extensions, ensure that there is no overlap between the supported media types. For example, the default audio extension also supports video. If you remove it to add an alternate audio/only extension, you will lose the video support of the default extension in the process. You will need to install a video-only extension if you want to use your custom audio extensions with video.
+When you configure platform extensions, ensure that there is no overlap between the supported media types. For example, the default audio extension also supports video. If you remove it to add an alternate audio/only extension, you'll lose the video support of the default extension in the process. You'll need to install a video-only extension if you want to use your custom audio extensions with video.
 
 When you remove extensions with multiple supported media types (for example, audio/video) you need to specify only one of them when you remove the extension because only one extension can be installed for each media type.
 
@@ -106,7 +106,7 @@ After the factories and the **Call** and **MediaProvider** subclasses are create
 
 ## Managing media types
 
-When you configure platform extensions, ensure that there is no overlap between the supported media types. For example, the default audio extension also supports video. If you remove it to add an alternate audio/only extension, you will lose the video support of the default extension in the process. You will need to install a video-only extension if you want to use your custom audio extensions with video.
+When you configure platform extensions, ensure that there is no overlap between the supported media types. For example, the default audio extension also supports video. If you remove it to add an alternate audio/only extension, you'll lose the video support of the default extension in the process. You will need to install a video-only extension if you want to use your custom audio extensions with video.
 
 When you remove extensions with multiple supported media types (for example, audio/video) you need to specify only one of them when you remove the extension because only one extension can be installed for each media type.
 

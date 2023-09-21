@@ -20,9 +20,9 @@ After you install the MSI package for the new Lync client, follow the instructio
 
 ## Configure the Lync client for in-call quality reporting in a Lync vNext environment
 
-If you are using a recent preview build of Lync Server vNext as well as the provided preview build of the Lync Client, sending InCallQuality messages will be activated automatically. No manual configuration is necessary. Such newer preview releases of Lync Server will offer a configuration setting to manually activate or deactivate InCallQuality message sending for all connected vNext Lync/Skype for Business clients.
+If you're using a recent preview build of Lync Server vNext as well as the provided preview build of the Lync Client, sending InCallQuality messages will be activated automatically. No manual configuration is necessary. Such newer preview releases of Lync Server will offer a configuration setting to manually activate or deactivate InCallQuality message sending for all connected vNext Lync/Skype for Business clients.
 
-Use the Lync Powershell console and Get/Update-CsMediaConfiguration to verify and change the IncallQuality feature. Access the console by typing the following at the prompt: PS \> Get-CsMediaConfiguration. You will see the following:
+Use the Lync Powershell console and Get/Update-CsMediaConfiguration to verify and change the IncallQuality feature. Access the console by typing the following at the prompt: PS \> Get-CsMediaConfiguration. You'll see the following:
 
 <br/>
 
@@ -70,7 +70,7 @@ The **InCallQoSIntervalSeconds** attribute is used to set the smallest period in
 
 ## Manually configure the Lync client for in-call quality reporting
 
-If you are running the latest preview Lync Client with Lync Server 2013, you will need to manually activate each client to support the generation of IncallQuality message. To configure the Preview Lync client for in-call quality reporting, do the following:
+If you're running the latest preview Lync Client with Lync Server 2013, you'll need to manually activate each client to support the generation of IncallQuality message. To configure the Preview Lync client for in-call quality reporting, do the following:
 
 1. Generate the xml configuration file (ocapi\_test.config ) and copy it to the installation path of every new Lync client that contains the Lync.exe (e.g., c:\\program Files\\Microsoft Office\\Office16). The XML file contains the literal content of the ocapi\_test.config file, as follows:
     

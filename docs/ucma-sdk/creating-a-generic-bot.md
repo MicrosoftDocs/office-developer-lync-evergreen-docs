@@ -150,7 +150,7 @@ public override MessageHandlingResponse CanHandle(Message message)
 
 The base *MessageHandler* constructor enables you to specify static initial handling text. In some situations you might want to have dynamic text, which is created according to the user input or other non-static variable. An example follows in the following conversation.
 
-User: "Please show details of bug Windows SE:12345"Bot: "Sure, retrieving details of bug \#12345 in the Windows SE bug database. I'm handling 34 requests right now so I expect you will get this response at 12:34pm..."Bot: "Here you have it: \[...\]"
+User: "Please show details of bug Windows SE:12345"Bot: "Sure, retrieving details of bug \#12345 in the Windows SE bug database. I'm handling 34 requests right now so I expect you'll get this response at 12:34pm..."Bot: "Here you have it: \[...\]"
 
 As you might notice, the first reply message from the bot in this conversation is a string composed of dynamic elements (items in bold), such as the user input, the expected response time, and so on. To create dynamic initial handling text like this, you need to override the *GetInitialHandlingText* method, as shown in the next example.
 
@@ -164,7 +164,7 @@ protected override string GetInitialHandlingText()
  
     string initialHandlingText = String.Format(
         "Sure, retrieving details of bug #{0} in the {1} bug database. "
-        + "I'm handling {2} requests right now so I expect you will get this response at {3}...",
+        + "I'm handling {2} requests right now so I expect you'll get this response at {3}...",
         bugId, bugDatabase, numberOfRequests, expectedReplyTime);
  
     return initialHandlingText;
@@ -534,7 +534,7 @@ The following extension methods are useful for adding QA objects to a *QAMessage
 
 ## Add the bot to your host environment
 
-After message handlers are implemented (see [Create message handlers](creating-a-generic-bot.md#Create)), you are now left with the task of adding the bot to your host environment. The application can be a console (command prompt) application, Windows forms application, ASP.NET application, or other. If you want your bot to run as a Lync agent, Build a Bot offers an even more specialized API for you to accomplish this. For more information, see [Creating a Lync bot](creating-a-lync-bot.md).
+After message handlers are implemented (see [Create message handlers](creating-a-generic-bot.md#Create)), you're now left with the task of adding the bot to your host environment. The application can be a console (command prompt) application, Windows forms application, ASP.NET application, or other. If you want your bot to run as a Lync agent, Build a Bot offers an even more specialized API for you to accomplish this. For more information, see [Creating a Lync bot](creating-a-lync-bot.md).
 
 ### To add a bot to your host environment
 
@@ -612,7 +612,7 @@ To improve the intelligence of your bot, you might want it to collect feedback f
     
 
     > [!NOTE]
-    > <P><STRONG>For Lync bot developers</STRONG>: this note defines feedback behavior for a single bot instance. For Lync bots, the Build a Bot framework instantiates multiple bots (one per conversation). The <EM>UCBotHost</EM> class exposes a <EM>FeedbackEngine</EM> property, in the same way that the <EM>Bot</EM> class does. This way, whenever the code that follows refers to setting a <EM>bot.FeedbackEngine</EM> property, your code should have <EM>ucBotHost.FeedbackEngine</EM> if you are implementing a UC bot.</P>
+    > <P><STRONG>For Lync bot developers</STRONG>: this note defines feedback behavior for a single bot instance. For Lync bots, the Build a Bot framework instantiates multiple bots (one per conversation). The <EM>UCBotHost</EM> class exposes a <EM>FeedbackEngine</EM> property, in the same way that the <EM>Bot</EM> class does. This way, whenever the code that follows refers to setting a <EM>bot.FeedbackEngine</EM> property, your code should have <EM>ucBotHost.FeedbackEngine</EM> if you're implementing a UC bot.</P>
 
     
     By default, after a feedback-enabled message handler handles a request, your bot will ask "Did I understand you correctly?" and expect the following as possible answers: yes, yep, y, sure, no, nope, n, not at all. You can change these default settings after instantiating your bot (or UC bot host), as follows:
@@ -671,7 +671,7 @@ To improve the intelligence of your bot, you might want it to collect feedback f
 
 ## Test your bot
 
-It is a good idea for you to create test automation to ensure that your bot is working correctly, especially the message handlers. You can also add a Visual Studio Test project to your solution (for more information, see [A Unit Testing Walkthrough with Visual Studio Team Test](http://msdn.microsoft.com/library/ms379625\(vs.80\).aspx)) and instantiate a bot in your test class/methods to test the behavior of your message handlers. Make sure that all the desired message handler assemblies (DLLs) or projects are referenced from the test project.
+It's a good idea for you to create test automation to ensure that your bot is working correctly, especially the message handlers. You can also add a Visual Studio Test project to your solution (for more information, see [A Unit Testing Walkthrough with Visual Studio Team Test](http://msdn.microsoft.com/library/ms379625\(vs.80\).aspx)) and instantiate a bot in your test class/methods to test the behavior of your message handlers. Make sure that all the desired message handler assemblies (DLLs) or projects are referenced from the test project.
 
-For some integrated manual testing, the Build a Bot framework comes with two sample host environments in which test bots are instantiated: *BuildABot.Samples.WindowsForms* and *BuildABot.Samples.CommandPrompt*. Just copy your message handler DLLs to the same folder where the sample executable is located. When running the executable, you will be able to test the logic of your message handlers by interacting with test (console/windows) bots.
+For some integrated manual testing, the Build a Bot framework comes with two sample host environments in which test bots are instantiated: *BuildABot.Samples.WindowsForms* and *BuildABot.Samples.CommandPrompt*. Just copy your message handler DLLs to the same folder where the sample executable is located. When running the executable, you'll be able to test the logic of your message handlers by interacting with test (console/windows) bots.
 
