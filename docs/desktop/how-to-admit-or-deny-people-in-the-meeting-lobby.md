@@ -9,6 +9,7 @@ mtps_version: v=office.15
 dev_langs:
 - csharp
 - xaml
+description: Master Microsoft Lync 2013's meeting lobby management. Learn to admit or deny users programmatically with our step-by-step guide and code examples.
 ---
 
 # How to: Admit or deny people in the meeting lobby
