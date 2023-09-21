@@ -47,7 +47,7 @@ The caller endpoint sends an IM on the conference, which all three endpoints rec
 
 ## Running the sample
 
-1.  Supply the user credentials in the accompanying app.config file, or you will be prompted for them when you run the sample.
+1.  Supply the user credentials in the accompanying app.config file, or you'll be prompted for them when you run the sample.
 
 2.  Log-in as the third user in Lync 2013.
 

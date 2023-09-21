@@ -60,7 +60,7 @@ To make an outgoing IM call by using UCWA:
     
     Because you started the call by using the **startMessaging** resource, only the messaging modality will be connected while all others remain in the disconnected state. If the messaging modality is in the disconnected state, you can enable or reenable it by calling the [addMessaging](http://ucwa.skype.com/documentation/resources-addmessaging) resource.
 
-4.  Handle the [messaging](http://ucwa.skype.com/documentation/resources-messaging) events to retrieve the URI to the [sendMessage](http://ucwa.skype.com/documentation/resources-sendmessage) resource. You will use this operational resource to send messages to remote participants.
+4.  Handle the [messaging](http://ucwa.skype.com/documentation/resources-messaging) events to retrieve the URI to the [sendMessage](http://ucwa.skype.com/documentation/resources-sendmessage) resource. You'll use this operational resource to send messages to remote participants.
 
 5.  After receiving notification of the updated conversation, submit a GET request on the [conversation](http://ucwa.skype.com/documentation/resources-conversation). The response should contain the connected**conversation** resource. You can use this resource to add audio/video modalities or invite new participants to the conversation.
 
@@ -97,7 +97,7 @@ Create a class named UcwaAppCommunication to encapsulate communications for the 
 
 The encapsulated [communication](http://ucwa.skype.com/documentation/resources-communication) resource is embedded in the **application** resource. It contains the URI to the [startMessaging](http://ucwa.skype.com/documentation/resources-startmesssaging) resource you need to start the call.
 
-Because the communication uses the event notifications, this is also a good place to register with the UCWA event channel in order to receive event notifications. You will fill in the ProcessEvent method later in the process.
+Because the communication uses the event notifications, this is also a good place to register with the UCWA event channel in order to receive event notifications. You'll fill in the ProcessEvent method later in the process.
 
 ## Make an outgoing IM call
 

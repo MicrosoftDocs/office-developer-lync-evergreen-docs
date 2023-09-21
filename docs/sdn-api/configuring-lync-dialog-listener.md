@@ -91,7 +91,7 @@ The following example shows the LNEAppLog type of logging options containing a m
     </listeners>
 ```
 
-By default, the LyncSDNAPI.msi will set logging levels to be in release mode. To turn on debug mode, you will need to change the configuration setting. To increase the logging level for debugging purposes, change the following switchValue option from under the \<categorySources\> in the LyncDialogListener.exe.config file. For example to turn off logging, set the switchValue option to "Off", as shown as follows:
+By default, the LyncSDNAPI.msi will set logging levels to be in release mode. To turn on debug mode, you'll need to change the configuration setting. To increase the logging level for debugging purposes, change the following switchValue option from under the \<categorySources\> in the LyncDialogListener.exe.config file. For example to turn off logging, set the switchValue option to "Off", as shown as follows:
 
 ```xml
     <add switchValue="Off" name="Debug">

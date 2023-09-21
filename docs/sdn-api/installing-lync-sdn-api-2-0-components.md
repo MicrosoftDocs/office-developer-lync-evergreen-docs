@@ -66,7 +66,7 @@ Follow these steps to use the Lync SDN API 2.0 Setup Wizard to install the Lync 
       
     ![Install Lync SDN API Settings: Choose Account Type](images/Dn439302.InstallLyncSDNApiChooseAccountType(Office.15).jpg "Install Lync SDN API Settings: Choose Account Type")  
       
-    When **Enter Account Credential option** is selected, you will then be prompted to enter the credentials of a Lync account belonging to the RTC Server Applications local group.  
+    When **Enter Account Credential option** is selected, you'll then be prompted to enter the credentials of a Lync account belonging to the RTC Server Applications local group.  
       
 
 7.  In the **Ready to install** panel, click the **Install** button to start the installation.  
@@ -139,7 +139,7 @@ For instructions on how to create a certificate request for Microsoft Certificat
 ### Install the trusted root certificate
 
 > [!NOTE]
-> The procedure is necessary only if you are notified that the certificate authority is not trusted, which can happen when you use a private or custom certificate server instead of acquiring certificates from an established public certificate authority.
+> The procedure is necessary only if you're notified that the certificate authority is not trusted, which can happen when you use a private or custom certificate server instead of acquiring certificates from an established public certificate authority.
 
 Follow the procedure below to install the root certificate of a certificate authority (CA).
 
@@ -224,7 +224,7 @@ To install certificates required by the Lync Dialog Listener (LDL), follow the i
 
 ## Troubleshoot installation of Lync SDN API
 
-LyncDialogListener.exe is to be run as Lync Server application. As such, it must be properly registered with the Lync Server. When an installation of the Lync SDN API fails, it is possible that LDL is not properly registered. To trouble shoot, you can verify that the application is properly registered by using the Get-CsServerApplication cmdlet from the Lync Server Management Shell.
+LyncDialogListener.exe is to be run as Lync Server application. As such, it must be properly registered with the Lync Server. When an installation of the Lync SDN API fails, it's possible that LDL is not properly registered. To trouble shoot, you can verify that the application is properly registered by using the Get-CsServerApplication cmdlet from the Lync Server Management Shell.
 
 1. Launch Lync Server Management Shell.
 

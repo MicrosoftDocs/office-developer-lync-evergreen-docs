@@ -99,7 +99,7 @@ To answer an incoming call, handle the incoming [messagingInvitation](http://ucw
         }
 ```
 
-The incoming **messageInvitation**-Started event will contain the links to the [accept](http://ucwa.skype.com/documentation/resources-accept) and [decline](http://ucwa.skype.com/documentation/resources-decline) resources. You will need to use them to accept or decline the call invitation. Cache these resources, because they will not be available in the subsequent **messagingInvitation** events, for example, when the invitation becomes Completed.
+The incoming **messageInvitation**-Started event will contain the links to the [accept](http://ucwa.skype.com/documentation/resources-accept) and [decline](http://ucwa.skype.com/documentation/resources-decline) resources. You'll need to use them to accept or decline the call invitation. Cache these resources, because they will not be available in the subsequent **messagingInvitation** events, for example, when the invitation becomes Completed.
 
 In the following code example, the application uses a [MessageDialog](http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog.aspx) control for Windows Store apps to enable the user to accept or decline the call. This involves forwarding the invitation details, including the caller name, subject, and importance, to the UI thread and instantiating the **MessageDialog** in the application-defined OnMessagingInviteReceived event handler. The following code example shows the NotifyMessagingInvite method.
 
@@ -189,7 +189,7 @@ The DeclineInvite command submits a POST request on the **decline** resource tha
         }
 ```
 
-When the messaging invitation is accepted, the **messagingInvitation** state changes to connected and the call is established. You are then ready to receive incoming messages.
+When the messaging invitation is accepted, the **messagingInvitation** state changes to connected and the call is established. You're then ready to receive incoming messages.
 
 ## Receive incoming IM messages
 

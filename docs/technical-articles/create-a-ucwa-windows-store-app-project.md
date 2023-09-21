@@ -19,7 +19,7 @@ For more information, see [Create your first Windows Store app using C\# or Visu
 
 The procedures in this series of articles assume that Visual Studio 2013 is used.
 
-### Create a C\#/XAML Windows Store App Project
+## Create a C\#/XAML Windows Store App Project
 
 1. Launch Visual Studio and select a new project by clicking **File-\>New-\>Project…** menu items.
     

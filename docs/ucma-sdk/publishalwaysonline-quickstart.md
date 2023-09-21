@@ -42,7 +42,7 @@ Throughout the lifetime of the process, the sample application listens for the *
 
 ## Run the sample
 
-1.  Supply the user credentials in the accompanying app.config file, or you will be prompted for them when you run the sample.
+1.  Supply the user credentials in the accompanying app.config file, or you'll be prompted for them when you run the sample.
 
 2.  Open the project in Microsoft Visual Studio development system, and then press F5.
 

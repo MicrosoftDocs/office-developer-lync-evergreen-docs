@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-An important part of the process of developing a UCMA 4.0 application is the ability to trace the protocol stack. To do this, you will enable tracing. By viewing the contents of the protocol stack during or after the execution of your code, you can familiarize yourself with the topology of UCMA 4.0.
+An important part of the process of developing a UCMA 4.0 application is the ability to trace the protocol stack. To do this, you'll enable tracing. By viewing the contents of the protocol stack during or after the execution of your code, you can familiarize yourself with the topology of UCMA 4.0.
 
 ## Setting up a protocol trace
 
@@ -166,7 +166,7 @@ The **Log File Prefix** text box is used for formatting events that are written 
 
 The **Display times in UTC** check box determines whether times in log records are displayed in Coordinated Universal Time (UTC) (checked), or system time (unchecked).
 
-The **Format file search path** text box specifies a semicolon-separated list of folder paths. OCSLogger searches for .TMF files in these paths if it is unable to find format information for a log record in the default.tmx file that is included with OCSLogger. This functionality is used primarily to support patching that results in new format information for some components, where that information is not present in default.tmx.
+The **Format file search path** text box specifies a semicolon-separated list of folder paths. OCSLogger searches for .TMF files in these paths if it's unable to find format information for a log record in the default.tmx file that is included with OCSLogger. This functionality is used primarily to support patching that results in new format information for some components, where that information is not present in default.tmx.
 
 ![Lync Server Logging Tool - Formatting](images/Dn466134.OCSLogger_Options_Fmt(Office.15).jpg "Lync Server Logging Tool - Formatting")
 

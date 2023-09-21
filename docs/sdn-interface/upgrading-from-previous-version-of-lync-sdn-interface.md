@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Lync Server 2010 | Skype for Business
 
-Currently, neither LDL nor LSM supports multiple parallel installations. Please expect downtime of the Lync SDN Interface service during the upgrade, although in some cases it can be minimized. However, there is no downtime for the Lync service required for upgrading Lync SDN Interface. Regardless, please perform upgrades only during off-hours and with minimal load on all components. Generally, it is recommended that you perform the upgrade in multiple steps. The following process assumes you want the service to remain active as long as possible.
+Currently, neither LDL nor LSM supports multiple parallel installations. Please expect downtime of the Lync SDN Interface service during the upgrade, although in some cases it can be minimized. However, there is no downtime for the Lync service required for upgrading Lync SDN Interface. Regardless, please perform upgrades only during off-hours and with minimal load on all components. Generally, it's recommended that you perform the upgrade in multiple steps. The following process assumes you want the service to remain active as long as possible.
 
 ## Upgrade from version 2.1 to 2.1.1
 
@@ -35,7 +35,7 @@ Lync DialogListener 2.1 clients are compatible with LyncSDNManager 2.1.1. The da
 
 Neither the LDL nor the LSM components are compatible between 2.0 and 2.1.1. Consider using the newer LSM pool configuration in 2.1.1
 
-1.  As you cannot have both LSMs versions installed and running on the same server, you will need to install a separate LSM server with 2.1.1. In a co-located configuration simply shutdown the LDL service, upgrade each LSM and LDL in that order, one Lync Server at the time.
+1.  As you cannot have both LSMs versions installed and running on the same server, you'll need to install a separate LSM server with 2.1.1. In a co-located configuration simply shutdown the LDL service, upgrade each LSM and LDL in that order, one Lync Server at the time.
 
 2.  After at least the first LSM is operational, you should upgrade one LDL after the other pointing to the new LSM (pool).
 

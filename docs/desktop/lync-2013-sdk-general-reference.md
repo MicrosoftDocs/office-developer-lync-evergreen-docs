@@ -18,9 +18,9 @@ Learn about how you use the Microsoft Lync 2013 SDK to create Microsoft Lync 201
 
 **Applies to**: Lync 2013 | Lync Server 2013
 
-Microsoft Lync 2013 SDK is designed for software developers who are building custom Microsoft Lync 2013 client applications. It is also used to embed client collaboration functionality in line-of-business (LOB) applications that interoperate with Lync 2013 and Microsoft Lync Server 2013. By using the Lync 2013 API, a developer can provide the client features of instant messaging (IM), voice, video, application sharing, and meeting session functionality in a custom client or LOB application.
+Microsoft Lync 2013 SDK is designed for software developers who are building custom Microsoft Lync 2013 client applications. It's also used to embed client collaboration functionality in line-of-business (LOB) applications that interoperate with Lync 2013 and Microsoft Lync Server 2013. By using the Lync 2013 API, a developer can provide the client features of instant messaging (IM), voice, video, application sharing, and meeting session functionality in a custom client or LOB application.
 
-The Lync SDK general reference provides an overview of the SDK, conceptual discussions about the Lync Controls, and a high-level look at the Lync 2013 API object model. In addition, you will find useful programming task How to topics that take you step by step through tasks covering the most common Lync development scenarios.
+The Lync SDK general reference provides an overview of the SDK, conceptual discussions about the Lync Controls, and a high-level look at the Lync 2013 API object model. In addition, you'll find useful programming task How to topics that take you step by step through tasks covering the most common Lync development scenarios.
 
 This SDK document starts you with Lync client development. You may find that advanced development scenarios require additional help beyond what is in this document. The [Lync Development Center](http://go.microsoft.com/fwlink/?linkid=201840) is the best source for how-to information not contained within this SDK. In addition, you benefit from the experiences of other developers in the Lync development community. The development center is the place for the following items:
 

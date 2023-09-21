@@ -43,7 +43,7 @@ The application initializes the platform and logs in on behalf of a user. The sa
 
 ## Running the sample
 
-1.  Supply the user credentials in the accompanying app.config file, or you will be prompted for them when you run the sample.
+1.  Supply the user credentials in the accompanying app.config file, or you'll be prompted for them when you run the sample.
 
 2.  Open the project in Microsoft Visual Studio, and then press **F5**.
 

@@ -21,7 +21,7 @@ If you have a UCMA 2.0 application deployed on multiple computers against a hard
 
 If you have a UCMA 2.0 application deployed on a single computer, and you run the migration tools, the application is represented as a legacy external trusted application pool (UCMA 2.0 application pool) in the backward compatibility site section of topology document. In the topology document, the **Cluster** FQDN is the same as the **Machine** FQDN.
 
-It is possible that a UCMA 2.0 application is deployed against Microsoft Office Communications Server 2007 R2 in a mixed Office Communications Server 2007 R2-Microsoft Lync Server 2010 environment after the initial migration steps have been performed. In this case the migration coexistence steps to migrate trusted service entries must be redone to make the trusted service entries known to Lync Server 2010. Note that this operation migrates only the trusted service entries and route-related settings. There might be application-specific settings for which you must consult the ISV who provided the application.
+It's possible that a UCMA 2.0 application is deployed against Microsoft Office Communications Server 2007 R2 in a mixed Office Communications Server 2007 R2-Microsoft Lync Server 2010 environment after the initial migration steps have been performed. In this case the migration coexistence steps to migrate trusted service entries must be redone to make the trusted service entries known to Lync Server 2010. Note that this operation migrates only the trusted service entries and route-related settings. There might be application-specific settings for which you must consult the ISV who provided the application.
 
 ## Scenario 1—Coexistence of a UCMA 2.0 application with multiple Communications Server versions
 
@@ -50,7 +50,7 @@ UCMA 2.0 application in mixed topology
 
 
 > [!NOTE]
-> <P>If a second UCMA 2.0 application is deployed in a mixed Office Communications Server 2007 R2-Lync Server 2010 environment in which the trusted service entries for an existing UCMA 2.0 application have been migrated, you will need to redo steps 3 through 7 in the preceding procedure for the new application.</P>
+> <P>If a second UCMA 2.0 application is deployed in a mixed Office Communications Server 2007 R2-Lync Server 2010 environment in which the trusted service entries for an existing UCMA 2.0 application have been migrated, you'll need to redo steps 3 through 7 in the preceding procedure for the new application.</P>
 
 
 
@@ -81,7 +81,7 @@ The following steps are the **recommended upgrade approach**.
 
 6.  Stop Lync Server 2010 Front End service and then restart it.
 
-7.  Install the application software in the trusted application pool created in step 3. Stop at the point you are asked to create a contact object for the application. For more information, see [Activating a UCMA 4.0 trusted application](activating-a-ucma-4-0-trusted-application.md).
+7.  Install the application software in the trusted application pool created in step 3. Stop at the point you're asked to create a contact object for the application. For more information, see [Activating a UCMA 4.0 trusted application](activating-a-ucma-4-0-trusted-application.md).
 
 8.  Run the **Move-CsApplicationEndpoint** cmdlet to move the contact object from the UCMA 2.0 application pool to the UCMA 3.0 application pool. Use the –**Force** parameter. Run this cmdlet with the needed values for each contact object that your application uses.
     
@@ -99,7 +99,7 @@ The following steps are the **recommended upgrade approach**.
     
     1.  Users are able to communicate with the new version of your application.
     
-    2.  You are now able to use Lync Server 2010 trusted application cmdlets to manage the existing contact objects and the new contact objects.
+    2.  You're now able to use Lync Server 2010 trusted application cmdlets to manage the existing contact objects and the new contact objects.
 
 The following illustration shows the topology after the upgrade has taken place. The computers used in the UCMA 2.0 trusted application pool can be reused for other purposes, if desired.
 
@@ -133,7 +133,7 @@ Migrating a UCMA 2.0 application to Lync Server 2010
     
     In the preceding example, no move is occurring, so the pool represented by the **TargetApplicationPool** parameter is also the source application pool.
     
-    Each time you create a new contact object using the WMI tools (ApplicationProvisioner.exe), you must perform this step. If it is omitted, the contact object properties required by the Lync Server 2010 Registrar for routing are not populated. You cannot use Lync Server 2010 cmdlets to create new contact objects for your application, because the application pool is still a legacy pool.
+    Each time you create a new contact object using the WMI tools (ApplicationProvisioner.exe), you must perform this step. If it's omitted, the contact object properties required by the Lync Server 2010 Registrar for routing are not populated. You cannot use Lync Server 2010 cmdlets to create new contact objects for your application, because the application pool is still a legacy pool.
 
 4.  Verify that the **Move-CsApplicationEndpoint** cmdlet was successful by running the following cmdlet, and verifying that the output of the Registrar property points to the Lync Server 2010 Registrar.
     
@@ -149,7 +149,7 @@ Migrating a UCMA 2.0 application to Lync Server 2010
     
 
     > [!NOTE]
-    > <P>This point is emphasized to remind you to perform the verifications in these steps when a new contact object is added using PowerShell. PowerShell might not be available locally on the computer from which you are running the WMI tool for activating new contact objects.</P>
+    > <P>This point is emphasized to remind you to perform the verifications in these steps when a new contact object is added using PowerShell. PowerShell might not be available locally on the computer from which you're running the WMI tool for activating new contact objects.</P>
 
 
 
@@ -178,7 +178,7 @@ Deploying a UCMA 2.0 application against Lync Server 2010
     
     In the preceding example, no move is occurring, so the pool represented by the **TargetApplicationPool** parameter is also the source application pool.
     
-    Each time you create a new contact object using the WMI tools (ApplicationProvisioner.exe), you must perform this step. If it is omitted, the contact object properties required by the Lync Server 2010 Registrar for routing are not populated. You cannot use Lync Server 2010 cmdlets to create new contact objects for your application, because the application pool is still a legacy pool.
+    Each time you create a new contact object using the WMI tools (ApplicationProvisioner.exe), you must perform this step. If it's omitted, the contact object properties required by the Lync Server 2010 Registrar for routing are not populated. You cannot use Lync Server 2010 cmdlets to create new contact objects for your application, because the application pool is still a legacy pool.
 
 6.  Verify that the **Move-CsApplicationEndpoint** cmdlet was successful by running the following cmdlet, and verifying that the output of the Registrar property points to the Lync Server 2010 Registrar.
     
@@ -188,7 +188,7 @@ Deploying a UCMA 2.0 application against Lync Server 2010
     
     1.  Users are able to communicate with the application.
     
-    2.  You are still able to use the WMI tool (ApplicationProvisioner.exe) to create new additional contact objects.
+    2.  You're still able to use the WMI tool (ApplicationProvisioner.exe) to create new additional contact objects.
         
         Each time you add a new contact object, steps 4 and 5 must be performed.
 
@@ -235,7 +235,7 @@ Before upgrade
     
     1.  Users are able to communicate with the new version of your application.
     
-    2.  You are able to use Lync Server 2010 trusted application cmdlets to manage the existing contact objects and the new contact objects.
+    2.  You're able to use Lync Server 2010 trusted application cmdlets to manage the existing contact objects and the new contact objects.
 
 The following illustration shows the topology after the upgrade has taken place. The computers used in the UCMA 2.0 trusted application pool can be reused for other purposes, if desired.
 

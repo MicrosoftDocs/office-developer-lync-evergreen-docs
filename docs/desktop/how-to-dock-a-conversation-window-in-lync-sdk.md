@@ -237,7 +237,7 @@ This procedure constructs the conversation manager wrapper class and registers f
                 
     ```
 
-5.  Register for the **Activated** event on the window so that you are notified that the window has the focus and flashing can stop.
+5.  Register for the **Activated** event on the window so that you're notified that the window has the focus and flashing can stop.
     
     ```csharp
     Activated += MainWindowActivated;
@@ -245,7 +245,7 @@ This procedure constructs the conversation manager wrapper class and registers f
 
 ## Handle the window loaded event
 
-When the window is loaded, a panel is created to nest in the scrollable panel that we declared in the XAML and then the handle to the new panel to the **StartInstantMessagingButton** is provided so that when a conversation window is opened, it is automatically docked inside the panel.
+When the window is loaded, a panel is created to nest in the scrollable panel that we declared in the XAML and then the handle to the new panel to the **StartInstantMessagingButton** is provided so that when a conversation window is opened, it's automatically docked inside the panel.
 
 ### To handle the window loaded event
 
@@ -278,7 +278,7 @@ When the window is loaded, a panel is created to nest in the scrollable panel th
     When the [ConversationContextualInfo.ParentWindowHandle](https://msdn.microsoft.com/library/hh379561\(v=office.15\)) property is set on the control, any conversation started by clicking the control is docked in the container control whose handle is set as context.
     
     ``` 
-                // Get the handle of the panel where we will dock the conversation:
+                // Get the handle of the panel where we'll dock the conversation:
                 IntPtr handle = _conversationWindowParentPanel.Handle;
     
                 // Tell the StartInstantMessagingButton to dock the conversation into the panel we created above:
@@ -436,7 +436,7 @@ If the dimensions of the scrolling panel are larger than the minimum dimensions 
             /// This method redocks the conversation window. When the docked conversation window adds a new visual
             /// element(such as video, a participant list, desktop sharing e.t.c) it's size changes. To accommodate
             /// this new element the conversation window will increase/decrease it's size accordingly. During this
-            /// process we will have to redock the newly changed window into the parent window. panelHandle is the
+            /// process we'll have to redock the newly changed window into the parent window. panelHandle is the
             /// Handle property of the parent window where docking will occur.
             /// </summary>
             public void RedockConversation(IntPtr panelHandle)
@@ -610,13 +610,13 @@ namespace DockingConversationWindowSample
             // is the direct ancestor of the conversation window, and the size of this panel determines the size of the ConversationWindow 
             // when we invoke Dock().  Therefore, we want to retain control over the sizing of this panel to insure that it can always be 
             // at least as big as the MinimumSize required by the ConversationWindow, as dictated in the NeedsSizeChange event.
-            // The outer layer (_scrollViewer) is used to accommodate the _conversationWindowParentPanel when it is too large for the 
+            // The outer layer (_scrollViewer) is used to accommodate the _conversationWindowParentPanel when it's too large for the 
             // application. This panel is set to scroll automatically, or turn the scrollbars off when they are not needed. Because of the
             // automatic sizing and scrolling behavior, we cannot host the ConversationWindow directly in this panel, since it does not 
             // guarantee our minimum size requirements.
             _scrollViewer.Controls.Add(_conversationWindowParentPanel);
 
-            // Get the handle of the panel where we will dock the conversation:
+            // Get the handle of the panel where we'll dock the conversation:
             IntPtr handle = _conversationWindowParentPanel.Handle;
 
             // Tell the StartInstantMessagingButton to dock the conversation into the panel we created above:
@@ -949,7 +949,7 @@ namespace DockingConversationWindowSample
         /// This method redocks the conversation window. When the docked conversation window adds a new visual
         /// element(such as video, a participant list, desktop sharing e.t.c) it's size changes. To accommodate
         /// this new element the conversation window will increase/decrease it's size accordingly. During this
-        /// process we will have to redock the newly changed window into the parent window. panelHandle is the
+        /// process we'll have to redock the newly changed window into the parent window. panelHandle is the
         /// Handle property of the parent window where docking will occur.
         /// </summary>
         public void RedockConversation(IntPtr panelHandle)
@@ -1012,7 +1012,7 @@ namespace DockingConversationWindowSample
         /// visual element (such as video, a participant list, and desktop sharing), and if it were not docked, the
         /// window would have automatically grown in size to accommodate this new element. We must respond to this 
         /// event within 5 seconds by increasing the size of the conversation windows first direct ancestor (the 
-        /// ParentWindow handle to which it is docked). Max, min, and recommended size information for the 
+        /// ParentWindow handle to which it's docked). Max, min, and recommended size information for the 
         /// ConversationWindow is made available in this event, and cannot be accessed outside the event, so we 
         /// capture it here before propagating the event to our MainWindow where the containing panel can be adjusted.
         /// </summary>
@@ -1033,7 +1033,7 @@ namespace DockingConversationWindowSample
         /// The ConversationWindow.NeedsAttention event fires when a new message or other conversation
         /// element has been delivered (such as an incoming IM) but the window does not have focus.
         /// Lync handles this situation by causing the title bar of the window to flash until the user clicks on the
-        /// window to acknowledge the new information.  We will propagate this event to the MainWindow
+        /// window to acknowledge the new information.  we'll propagate this event to the MainWindow
         /// where a similar behavior can be simulated.
         /// </summary>
         void HandleNeedsAttention(object sender, ConversationWindowNeedsAttentionEventArgs e)

@@ -37,7 +37,7 @@ The entry point for all the functionality in the Lync Server 2013 Persistent Cha
 
 The Lync Server 2013 Persistent Chat API is composed of a set of classes that include asynchronous methods, properties, and events. To provide adequate performance and to be consistent with the UCMA 4.0 SDK, the Lync Server 2013 Persistent Chat API supports the BeginXxx/EndXxx pattern to implement asynchronous operations. For more information, see [Asynchronous Programming Overview](http://go.microsoft.com/fwlink/?linkid=157303).
 
-The following illustration displays the main classes that you will work with in the Lync Server 2013 Persistent Chat API.
+The following illustration displays the main classes that you'll work with in the Lync Server 2013 Persistent Chat API.
 
 ![objectModel](images/Dn439211.objectModel(Office.15).jpg "objectModel")
 
