@@ -17,7 +17,7 @@ Learn how to use the Lync 2013 SDK to create a Lync Windows Presentation Foundat
 
 Applications that are developed with the Lync 2013 SDK run on the Windows 8 desktop. This article explains how to create a Lync WPF Controls application by using Lync Controls and also discusses how to pin the application to the Windows 8 Start screen.
 
-### Requirements
+## Requirements
 
 - Lync 2013 SDK
 
@@ -82,4 +82,3 @@ Like other Windows desktop applications, Lync WPF applications can be installed 
 - [Get started with Lync Controls](../desktop/get-started-with-lync-controls.md)
 - [Lync Dev Center](http://msdn.microsoft.com/lync/default.aspx)
 - [Download Center: Lync 2013 SDK](http://www.microsoft.com/download/details.aspx?id=36824)
-

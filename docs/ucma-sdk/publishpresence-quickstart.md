@@ -39,7 +39,7 @@ To see the categories being published, you can log on to a client (such as Micro
 
 ## Running the sample
 
-1.  Supply the configuration settings to be used by the sample in the accompanying App.config file, you will be prompted for them when you run the sample.
+1.  Supply the configuration settings to be used by the sample in the accompanying App.config file, you'll be prompted for them when you run the sample.
 
 2.  Open the project in Microsoft Visual Studio development system, and then press **F5**.
 

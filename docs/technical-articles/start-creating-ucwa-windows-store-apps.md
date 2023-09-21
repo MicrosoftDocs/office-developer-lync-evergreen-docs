@@ -12,11 +12,11 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-In this article, you will learn how to build a simple Windows Store app in C\#/XAML and XML. The steps illustrated here are required of all UCWA applications. It is intended as a self-contained introduction to building and deploying a UCWA application targeted for Windows Store.
+In this article, you'll learn how to build a simple Windows Store app in C\#/XAML and XML. The steps illustrated here are required of all UCWA applications. It's intended as a self-contained introduction to building and deploying a UCWA application targeted for Windows Store.
 
 Demonstrated UCWA programming features include how to make asynchronous calls to sign in and then to get the self-presence, personal note and the list of telephone numbers of the signed-in user. Some basic requirements of Windows Store apps are also examined in the context of a UCWA application. 
 
-Specifically, you will learn how to carry out the following programming tasks:
+Specifically, you'll learn how to carry out the following programming tasks:
 
 - **Create and Test a Windows Store application using C\#/XAML**
     
@@ -48,7 +48,7 @@ Before the authentication can take place, the UCWA application must first locate
 
 A successful authentication must also be followed by obtaining a UCWA [application](http://ucwa.skype.com/documentation/resources-application) resource representing an instance of the application bound to the local endpoint of the signed-in user. When the application times out, the application resource must be updated. This may involve getting the user re-authenticated.
 
-Because UCWA-specific operations are carried out as HTTP requests and responses, it is natural to encapsulate them in a separate type. In this article, they are exposed as asynchronous methods on a Transport class, which can be reused for other applications as well. The asynchronous behavior is built upon the async/await[pattern](http://msdn.microsoft.com/library/vstudio/hh191443.aspx). It is required to ensure that the Windows Store app be responsive.
+Because UCWA-specific operations are carried out as HTTP requests and responses, it's natural to encapsulate them in a separate type. In this article, they are exposed as asynchronous methods on a Transport class, which can be reused for other applications as well. The asynchronous behavior is built upon the async/await[pattern](http://msdn.microsoft.com/library/vstudio/hh191443.aspx). It's required to ensure that the Windows Store app be responsive.
 
 A Windows Store app undergoes a much frequent change of states than traditional desktop applications. Managing the application’s states and life cycle is important to enable the Windows Store app fluid and to comply with the REST-ful requirements of UCWA.
 

@@ -44,7 +44,7 @@ Content sharing in a conversation or meeting involves making a common whiteboard
 
 ## Get started with content sharing
 
-After reviewing the topics in the following sections, you will have enough information to implement the following content sharing features in your application:
+After reviewing the topics in the following sections, you'll have enough information to implement the following content sharing features in your application:
 
   - Upload whiteboards and save annotations at the conclusion of a conversation.
 
@@ -54,7 +54,7 @@ After reviewing the topics in the following sections, you will have enough infor
 
 ### Content sharing essentials
 
-To understand how to work with content sharing, it is important to become familiar with the concepts in the following table.
+To understand how to work with content sharing, it's important to become familiar with the concepts in the following table.
 
 <table>
 <colgroup>

@@ -45,7 +45,7 @@ The sample expects a user logged on to a client (such as Microsoft Lync 2013) to
 
 ## Running the sample
 
-1.  Supply the user credentials in the accompanying app.config file, or you will be prompted for them when you run the sample.
+1.  Supply the user credentials in the accompanying app.config file, or you'll be prompted for them when you run the sample.
 
 2.  Open the project in Microsoft Visual Studio, and then press **F5**.
 

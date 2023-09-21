@@ -23,7 +23,7 @@ The following procedure shows the steps required to manually provision an applic
     
     On the **Start** menu, select **All Programs**, **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.
 
-2.  In Lync Server Management Shell, run the following PowerShell cmdlet. It is assumed that you have already run the **New-CsTrustedApplication** cmdlet.
+2.  In Lync Server Management Shell, run the following PowerShell cmdlet. It's assumed that you have already run the **New-CsTrustedApplication** cmdlet.
     
     $a = Get-CsTrustedApplication -identity "client.contoso.com/urn:application:ucmasampleapplication"
     
@@ -43,7 +43,7 @@ The following procedure shows the steps required to manually provision an applic
         ----                                    ----
         client.contoso.com                      sip:client.contoso.com@contoso.com; gruu; Opaque=srvr:ucmasampleapplication:yDUhQWqi81WfJXFUvMAwtwAA
 
-4.  Copy the GRUU string for the computer FQDN, taking care to remove any line breaks. You will need to provide this value and additional information when the [ServerPlatformSettings](https://msdn.microsoft.com/library/hh382156\(v=office.15\)) instance is constructed.
+4.  Copy the GRUU string for the computer FQDN, taking care to remove any line breaks. You'll need to provide this value and additional information when the [ServerPlatformSettings](https://msdn.microsoft.com/library/hh382156\(v=office.15\)) instance is constructed.
     
 
     > [!NOTE]

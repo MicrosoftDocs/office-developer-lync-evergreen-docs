@@ -46,7 +46,7 @@ Some steps of this procedure are described in [Creating a generic bot](creating-
 
 ## Create a trusted application and a trusted application endpoint for the UC bot
 
-In typical production scenarios, your bot will run on an [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)) instance. You will need to create a trusted application and a trusted application endpoint in the Lync environment.
+In typical production scenarios, your bot will run on an [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)) instance. You'll need to create a trusted application and a trusted application endpoint in the Lync environment.
 
 If your Lync server is not set up for provisioning UCMA 4.0 applications, see [Getting Started with Unified Communications Managed API 3.0](http://msdn.microsoft.com/gg412553).
 
@@ -96,14 +96,14 @@ Enable-CSTopology
 New-CSTrustedApplicationEndpoint –ApplicationId $ApplicationId -TrustedApplicationPoolFqdn  $ApplicationFqdn -SipAddress $ApplicationSipAddress -DisplayName
 ```
 
-Enter the information that you are prompted for by this script.
+Enter the information that you're prompted for by this script.
 
-If a trusted application was successfully created, you will see a message as "End point created: - \<Display Name\>".
+If a trusted application was successfully created, you'll see a message as "End point created: - \<Display Name\>".
 <a name="InstantiateUCBotHostEnv"></a>
 
 ## Instantiate the UCBotHost environment
 
-When you develop a generic bot (see [Creating a generic bot](creating-a-generic-bot.md)), you need to instantiate and configure the *Bot* class. For a Lync bot, you need to instantiate and configure the *BuildABot.UC.UCBotHost* environment. It is highly recommended that you do so in a console application first, for test purposes. Then you will be ready to deploy the UC bot using a Windows Service.
+When you develop a generic bot (see [Creating a generic bot](creating-a-generic-bot.md)), you need to instantiate and configure the *Bot* class. For a Lync bot, you need to instantiate and configure the *BuildABot.UC.UCBotHost* environment. It's highly recommended that you do so in a console application first, for test purposes. Then you'll be ready to deploy the UC bot using a Windows Service.
 
 ### To instantiate the UCBotHost environment
 
@@ -155,7 +155,7 @@ When you develop a generic bot (see [Creating a generic bot](creating-a-generic-
     
       - *applicationUserAgent*: The part of the user agent string that identifies the application urn of created trusted application.
     
-      - *applicationURN*: The unique identifier for the application in the deployment. It is assign when the application is provisioned.
+      - *applicationURN*: The unique identifier for the application in the deployment. It's assign when the application is provisioned.
     
       - Help text (optional): The help text to be displayed when the bot does not understand the user message.
     
@@ -167,11 +167,11 @@ When you develop a generic bot (see [Creating a generic bot](creating-a-generic-
     
       - *FeedbackEngine.FeedbackCollected*— This event is raised when feedback is collected from the user. For more information, see [Handle feedback events](creating-a-generic-bot.md).
 
-5.  Run your console application and verify that the bot user account appears as online in Lync. Do not discard any code you have developed so far. You will use the contents of the Main method you developed above to deploy the UC bot using a Windows service.
+5.  Run your console application and verify that the bot user account appears as online in Lync. Do not discard any code you have developed so far. You'll use the contents of the Main method you developed above to deploy the UC bot using a Windows service.
 
 ## Deploy the UC bot using a Windows Service
 
-You will probably want to run your bot as a Windows service in the background, instead of as a console application. When your test console application shows that everything seems to be working correctly (for more information, see [Instantiate the UCBotHost environment](creating-a-lync-bot.md#InstantiateUCBotHostEnv)), you can now move to a Windows Service implementation.
+You'll probably want to run your bot as a Windows service in the background, instead of as a console application. When your test console application shows that everything seems to be working correctly (for more information, see [Instantiate the UCBotHost environment](creating-a-lync-bot.md#InstantiateUCBotHostEnv)), you can now move to a Windows Service implementation.
 
 ### To deploy your application as a Windows service
 
