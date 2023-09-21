@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alert notification system
 TOCTitle: Alert notification system
 ms:assetid: e75d50af-2a7e-4558-bb18-7bcf2c66560f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465952(v=office.15)
 ms:contentKeyID: 57102660
 ms.date: 07/25/2014
 mtps_version: v=office.15
+description: Learn about Microsoft's Unified Communications Managed API 4.0 for real-time alert notifications. Customizable, scalable, and supports multiple platforms.
 ---
 
 # Alert notification system

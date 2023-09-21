@@ -9,6 +9,7 @@ mtps_version: v=office.15
 dev_langs:
 - csharp
 - xaml
+description: Learn how to update and publish user telephone numbers using Microsoft Lync 2013 SDK. Includes code examples and step-by-step instructions.
 ---
 
 # How to: Update and publish user telephone numbers in Lync SDK

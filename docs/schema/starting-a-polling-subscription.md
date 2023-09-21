@@ -1,4 +1,4 @@
-﻿---
+---
 title: Starting a Polling Subscription
 TOCTitle: Starting a Polling Subscription
 ms:assetid: b0d6c4dd-9eda-4a38-a9b0-c0c76818a596
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Learn how to start and manage a polling subscription on Lync Server 2013 with Microsoft's detailed guide. Includes code examples.
 ---
 
 # Starting a Polling Subscription

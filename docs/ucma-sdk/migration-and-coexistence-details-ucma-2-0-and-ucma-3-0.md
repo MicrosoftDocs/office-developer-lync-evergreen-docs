@@ -1,4 +1,4 @@
-﻿---
+---
 title: Migration and coexistence details (UCMA 2.0 and UCMA 3.0)
 TOCTitle: Migration and coexistence details (UCMA 2.0 and UCMA 3.0)
 ms:assetid: 969fa41d-6941-4327-9fd3-5879153b7977
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466121(v=office.15)
 ms:contentKeyID: 57103414
 ms.date: 07/25/2014
 mtps_version: v=office.15
+description: Discover detailed guidance on migrating applications from UCMA 2.0 to UCMA 3.0 in different Microsoft Communications Server/Lync Server 2010 topologies.
 ---
 
 # Migration and coexistence details (UCMA 2.0 and UCMA 3.0)
