@@ -2,7 +2,7 @@
 title: SpoiledTilePercentTotal element  (Lync SDN API Schema A)
 TOCTitle: SpoiledTilePercentTotal element
 ms:assetid: d590ca6e-bf37-0be2-a0eb-9567a83412b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439279(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439279(v=office.15)
 ms:contentKeyID: 57261015
 ms.date: 07/24/2014
 mtps_version: v=office.15

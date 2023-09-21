@@ -2,7 +2,7 @@
 title: QualityUpdate element  (Lync SDN API Schema A)
 TOCTitle: QualityUpdate element
 ms:assetid: 4948a34e-0ffe-2282-2e77-010f3db136db
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439275(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439275(v=office.15)
 ms:contentKeyID: 57261011
 ms.date: 07/24/2014
 mtps_version: v=office.15

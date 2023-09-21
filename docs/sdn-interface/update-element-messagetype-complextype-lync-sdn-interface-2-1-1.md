@@ -2,7 +2,7 @@
 title: Update element (MessageType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Update element
 ms:assetid: 56bfd685-e597-cbcf-a066-9236552080dd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912833(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912833(v=office.15)
 ms:contentKeyID: 64127001
 ms.date: 02/16/2015
 mtps_version: v=office.15

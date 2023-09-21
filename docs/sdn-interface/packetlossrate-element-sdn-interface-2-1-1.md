@@ -2,7 +2,7 @@
 title: PacketLossRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: PacketLossRate element
 ms:assetid: 573543d7-2eac-576f-f30b-a48b9fea573f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912774(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912774(v=office.15)
 ms:contentKeyID: 64126944
 ms.date: 02/16/2015
 mtps_version: v=office.15

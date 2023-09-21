@@ -2,7 +2,7 @@
 title: RDPTileProcessingLatencyBurstDensity element (Lync SDN API Schema A)
 TOCTitle: RDPTileProcessingLatencyBurstDensity element
 ms:assetid: dba6ed4d-c951-cc5e-b508-f16e7628ac67
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439252(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439252(v=office.15)
 ms:contentKeyID: 57260988
 ms.date: 07/24/2014
 mtps_version: v=office.15

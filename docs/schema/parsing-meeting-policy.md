@@ -2,7 +2,7 @@
 title: Parsing meeting policy
 TOCTitle: Parsing meeting policy
 ms:assetid: e1c6d1da-2271-47d1-9628-7b4eb66b42e1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454639(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454639(v=office.15)
 ms:contentKeyID: 57093389
 ms.date: 07/24/2014
 mtps_version: v=office.15

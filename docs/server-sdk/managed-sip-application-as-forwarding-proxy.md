@@ -2,7 +2,7 @@
 title: Managed SIP application as forwarding proxy
 TOCTitle: Managed SIP application as forwarding proxy
 ms:assetid: 353e7047-7001-4c5d-8496-fb4ea4ad8a31
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439070(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439070(v=office.15)
 ms:contentKeyID: 57096228
 ms.date: 02/11/2016
 mtps_version: v=office.15

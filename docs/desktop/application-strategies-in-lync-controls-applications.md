@@ -2,7 +2,7 @@
 title: Application strategies in Lync Controls applications
 TOCTitle: Application strategies in Lync Controls applications
 ms:assetid: e5ca6227-cda8-486e-a770-8595a9cb9189
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933241(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933241(v=office.15)
 ms:contentKeyID: 50877387
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -67,7 +67,7 @@ To add Lync Controls to an existing WPF application, add project references for 
     xmlns:controls="clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls"
     ```
 
-4.  Author the appropriate XAML code to add the Lync Controls. For example, the following XAML adds a [MyStatusArea](https://msdn.microsoft.com/en-us/library/hh363503\(v=office.15\)) control.
+4.  Author the appropriate XAML code to add the Lync Controls. For example, the following XAML adds a [MyStatusArea](https://msdn.microsoft.com/library/hh363503\(v=office.15\)) control.
     
     For more information, see [How to: Create a Silverlight page that displays a Lync presence control](how-to-create-a-silverlight-page-that-displays-a-lync-presence-control.md).
     
@@ -103,7 +103,7 @@ To add Lync Controls to an existing Silverlight application, add project referen
     xmlns:controls="clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls"
     ```
 
-4.  Author the appropriate XAML code to add the Lync Controls. For example, the following XAML adds a [MyStatusArea](https://msdn.microsoft.com/en-us/library/hh363503\(v=office.15\)) control.
+4.  Author the appropriate XAML code to add the Lync Controls. For example, the following XAML adds a [MyStatusArea](https://msdn.microsoft.com/library/hh363503\(v=office.15\)) control.
     
     For more information, see [What you can do with Lync Controls](what-you-can-do-with-lync-controls.md).
     

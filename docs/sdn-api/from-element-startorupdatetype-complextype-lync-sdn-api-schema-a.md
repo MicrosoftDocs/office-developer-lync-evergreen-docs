@@ -2,7 +2,7 @@
 title: From element (StartOrUpdateType complexType) (Lync SDN API Schema A)
 TOCTitle: From element (StartOrUpdateType complexType)
 ms:assetid: d115f09f-e588-b470-3984-ea9e85637923
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775120(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775120(v=office.15)
 ms:contentKeyID: 62626094
 ms.date: 07/24/2014
 mtps_version: v=office.15

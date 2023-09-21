@@ -2,7 +2,7 @@
 title: 'How to: Change sign-in connection settings in Lync SDK'
 TOCTitle: 'How to: Change sign-in connection settings'
 ms:assetid: 7ab1a37b-5784-4e36-b9ef-25c439d22dc5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933091(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933091(v=office.15)
 ms:contentKeyID: 50877222
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -58,7 +58,7 @@ The following topics explain how server auto-discovery works in Lync 2013.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="http://technet.microsoft.com/en-us/library/dd637152(office.13).aspx">Office Communicator Sign-in and Discovery</a></p></td>
+<td><p><a href="http://technet.microsoft.com/library/dd637152(office.13).aspx">Office Communicator Sign-in and Discovery</a></p></td>
 <td><p>Describes the Lync 2013 sign-in and auto discovery process.</p>
 <div class="alert">
 <table>
@@ -83,7 +83,7 @@ The following topics explain how server auto-discovery works in Lync 2013.
 </div></td>
 </tr>
 <tr class="even">
-<td><p><a href="http://technet.microsoft.com/en-us/library/gg398758.aspx">Determining NS Requirements</a></p></td>
+<td><p><a href="http://technet.microsoft.com/library/gg398758.aspx">Determining NS Requirements</a></p></td>
 <td><p>Explains how to enable automatic configuration server location services by configuring DNS records for internal and external access.</p></td>
 </tr>
 </tbody>
@@ -91,17 +91,17 @@ The following topics explain how server auto-discovery works in Lync 2013.
 
 ## Read sign-in connection settings
 
-The sign-in connection settings are exposed by the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/en-us/library/jj266969\(v=office.15\)) class. It is not necessary to be signed in to Microsoft Lync 2013 to get this object and read the exposed properties.
+The sign-in connection settings are exposed by the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/library/jj266969\(v=office.15\)) class. It is not necessary to be signed in to Microsoft Lync 2013 to get this object and read the exposed properties.
 
 ### To read sign-in connection settings
 
-1.  Get an instance of [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) by calling the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/jj278213\(v=office.15\)) method.
+1.  Get an instance of [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) by calling the static [LyncClient.GetClient](https://msdn.microsoft.com/library/jj278213\(v=office.15\)) method.
     
     ```csharp
     LyncClient _LyncClient = LyncClient.GetClient();
     ```
 
-2.  Read the [LyncClient.SignInConfiguration](https://msdn.microsoft.com/en-us/library/jj275496\(v=office.15\)) property to get the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/en-us/library/jj266969\(v=office.15\)) object.
+2.  Read the [LyncClient.SignInConfiguration](https://msdn.microsoft.com/library/jj275496\(v=office.15\)) property to get the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/library/jj266969\(v=office.15\)) object.
     
     ```csharp
     SignInConfiguration signInConfiguration = _LyncClient.SignInConfiguration;
@@ -132,7 +132,7 @@ The sign-in connection settings are exposed by the [Microsoft.Lync.Model.SignInC
 
 ### To update connection settings
 
-  - Update a connection setting by writing a value of the correct type to the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/en-us/library/jj266969\(v=office.15\)) property that you want to update. If the user is signed in to Lync 2013 when the settings are changed, the changes take effect the next time that a user signs in to Lync.
+  - Update a connection setting by writing a value of the correct type to the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/library/jj266969\(v=office.15\)) property that you want to update. If the user is signed in to Lync 2013 when the settings are changed, the changes take effect the next time that a user signs in to Lync.
     
     <table>
     <colgroup>
@@ -145,12 +145,12 @@ The sign-in connection settings are exposed by the [Microsoft.Lync.Model.SignInC
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>The <a href="https://msdn.microsoft.com/en-us/library/jj274573(v=office.15)">SignInConfiguration.TransportMode</a> property is read/write although you cannot write to the property and change the transport mode with Lync 2013. Only <a href="https://msdn.microsoft.com/en-us/library/jj275078(v=office.15)">TransportMode</a><strong>.TlsTransport</strong> is supported.</p></td>
+    <td><p>The <a href="https://msdn.microsoft.com/library/jj274573(v=office.15)">SignInConfiguration.TransportMode</a> property is read/write although you cannot write to the property and change the transport mode with Lync 2013. Only <a href="https://msdn.microsoft.com/library/jj275078(v=office.15)">TransportMode</a><strong>.TlsTransport</strong> is supported.</p></td>
     </tr>
     </tbody>
     </table>
     
-    The following example updates each of the writable connection settings with the value typed in the UI. Before writing the property, the sample calls the [SignInConfiguration.CanSet](https://msdn.microsoft.com/en-us/library/jj267979\(v=office.15\)) method. If **true** is returned, the example updates the property value.
+    The following example updates each of the writable connection settings with the value typed in the UI. Before writing the property, the sample calls the [SignInConfiguration.CanSet](https://msdn.microsoft.com/library/jj267979\(v=office.15\)) method. If **true** is returned, the example updates the property value.
     
     ```csharp
             /// <summary>

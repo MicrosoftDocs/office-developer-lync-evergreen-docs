@@ -2,7 +2,7 @@
 title: ContactGroupServices
 TOCTitle: ContactGroupServices
 ms:assetid: d52cb22d-c305-4463-b9f9-1ade281c0a53
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466041(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466041(v=office.15)
 ms:contentKeyID: 57103034
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -17,11 +17,11 @@ dev_langs:
 
 
 
-A contact is a unified communication entity that is identified by a SIP URI. One or more contacts can be assembled into logical collections called groups. When a group is created, it is assigned a group ID, which is a server-assigned integer. The Contacts and Groups API in Microsoft Unified Communications Managed API 4.0 is available only for [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) objects.
+A contact is a unified communication entity that is identified by a SIP URI. One or more contacts can be assembled into logical collections called groups. When a group is created, it is assigned a group ID, which is a server-assigned integer. The Contacts and Groups API in Microsoft Unified Communications Managed API 4.0 is available only for [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) objects.
 
 
 > [!NOTE]
-> <P>The Contacts and Groups API is not available for <A href="https://msdn.microsoft.com/en-us/library/hh384825(v=office.15)">ApplicationEndpoint</A> objects.</P>
+> <P>The Contacts and Groups API is not available for <A href="https://msdn.microsoft.com/library/hh384825(v=office.15)">ApplicationEndpoint</A> objects.</P>
 
 
 
@@ -41,17 +41,17 @@ The Contacts and Groups API can be used to perform the following operations:
 
   - Find the contacts and groups for a particular endpoint owner.
 
-The [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh381099\(v=office.15\)) class provides a number of methods for managing contacts and groups.
+The [ContactGroupServices](https://msdn.microsoft.com/library/hh381099\(v=office.15\)) class provides a number of methods for managing contacts and groups.
 
 ## Subscribing to contacts and groups
 
-The [BeginSubscribe(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh383375\(v=office.15\)) and [EndSubscribe(IAsyncResult)](https://msdn.microsoft.com/en-us/library/hh348322\(v=office.15\)) methods can be used to subscribe to and obtain the endpoint owner’s contacts and groups, and receive updates on any changes to them.
+The [BeginSubscribe(AsyncCallback, Object)](https://msdn.microsoft.com/library/hh383375\(v=office.15\)) and [EndSubscribe(IAsyncResult)](https://msdn.microsoft.com/library/hh348322\(v=office.15\)) methods can be used to subscribe to and obtain the endpoint owner’s contacts and groups, and receive updates on any changes to them.
 
-The state of the subscription can be tracked by the **CurrentState()** property and by the [SubscriptionStateChange](https://msdn.microsoft.com/en-us/library/hh382084\(v=office.15\)) event. Following a successful subscription, notifications can be received by registering a handler for the [NotificationReceived](https://msdn.microsoft.com/en-us/library/hh349964\(v=office.15\)) event. The first notification is a complete notification (the [IsFullNotification](https://msdn.microsoft.com/en-us/library/hh366286\(v=office.15\)) property on the [ContactGroupNotificationEventArgs](https://msdn.microsoft.com/en-us/library/hh365894\(v=office.15\)) object) indicates that this notification contains a complete snapshot of the endpoint owner’s contacts and groups. Subsequent notifications denote a change in the existing list of contacts and groups. If the application is to receive a full notification again it can do so by calling the [BeginRefresh](https://msdn.microsoft.com/en-us/library/hh350093\(v=office.15\)) and [EndRefresh](https://msdn.microsoft.com/en-us/library/hh383490\(v=office.15\)) methods.
+The state of the subscription can be tracked by the **CurrentState()** property and by the [SubscriptionStateChange](https://msdn.microsoft.com/library/hh382084\(v=office.15\)) event. Following a successful subscription, notifications can be received by registering a handler for the [NotificationReceived](https://msdn.microsoft.com/library/hh349964\(v=office.15\)) event. The first notification is a complete notification (the [IsFullNotification](https://msdn.microsoft.com/library/hh366286\(v=office.15\)) property on the [ContactGroupNotificationEventArgs](https://msdn.microsoft.com/library/hh365894\(v=office.15\)) object) indicates that this notification contains a complete snapshot of the endpoint owner’s contacts and groups. Subsequent notifications denote a change in the existing list of contacts and groups. If the application is to receive a full notification again it can do so by calling the [BeginRefresh](https://msdn.microsoft.com/library/hh350093\(v=office.15\)) and [EndRefresh](https://msdn.microsoft.com/library/hh383490\(v=office.15\)) methods.
 
 ## Creating and deleting contacts
 
-The [ContactAddOptions](https://msdn.microsoft.com/en-us/library/hh382330\(v=office.15\)) class is new in UCMA 4.0. An application can use the members of this class to add a contact and fill in the following details for the contact:
+The [ContactAddOptions](https://msdn.microsoft.com/library/hh382330\(v=office.15\)) class is new in UCMA 4.0. An application can use the members of this class to add a contact and fill in the following details for the contact:
 
   - Contact name
 
@@ -63,21 +63,21 @@ The [ContactAddOptions](https://msdn.microsoft.com/en-us/library/hh382330\(v=off
 
   - Any groups to which this contact belongs.
 
-Adding a contact to your contact list does not automatically indicate that their presence is being subscribed to. This must be done separately using members of the [RemotePresenceView](https://msdn.microsoft.com/en-us/library/hh381152\(v=office.15\)) class. Deletion of a contact can result in the deletion of an ACE (if one exists) that belongs to that user, unless the user is blocked. If the user is blocked, the ACE is not removed.
+Adding a contact to your contact list does not automatically indicate that their presence is being subscribed to. This must be done separately using members of the [RemotePresenceView](https://msdn.microsoft.com/library/hh381152\(v=office.15\)) class. Deletion of a contact can result in the deletion of an ACE (if one exists) that belongs to that user, unless the user is blocked. If the user is blocked, the ACE is not removed.
 
 ## Managing contacts and groups
 
-The [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh383122\(v=office.15\)) property on a [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) instance provides access to a [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh381099\(v=office.15\)) instance. The methods and properties on the **ContactGroupServices** instance can be used to manage the endpoint owner’s contacts and groups.
+The [ContactGroupServices](https://msdn.microsoft.com/library/hh383122\(v=office.15\)) property on a [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) instance provides access to a [ContactGroupServices](https://msdn.microsoft.com/library/hh381099\(v=office.15\)) instance. The methods and properties on the **ContactGroupServices** instance can be used to manage the endpoint owner’s contacts and groups.
 
 
 > [!NOTE]
-> <P>The <A href="https://msdn.microsoft.com/en-us/library/hh384825(v=office.15)">ApplicationEndpoint</A> class has no <STRONG>ContactGroupServices</STRONG> property. Consequently, only a <STRONG>UserEndpoint</STRONG> instance can be used to manage contacts and groups.</P>
+> <P>The <A href="https://msdn.microsoft.com/library/hh384825(v=office.15)">ApplicationEndpoint</A> class has no <STRONG>ContactGroupServices</STRONG> property. Consequently, only a <STRONG>UserEndpoint</STRONG> instance can be used to manage contacts and groups.</P>
 
 
 
 ### Starting a contacts and groups subscription
 
-The following code example shows how to use the **ContactGroupServices** property on a **UserEndpoint** instance to start a contacts and groups subscription. Also shown in this example are implementations of a callback method named *ContactGroupSubscriptionCompleted* and an event handler for the [NotificationReceived](https://msdn.microsoft.com/en-us/library/hh349964\(v=office.15\)) event.
+The following code example shows how to use the **ContactGroupServices** property on a **UserEndpoint** instance to start a contacts and groups subscription. Also shown in this example are implementations of a callback method named *ContactGroupSubscriptionCompleted* and an event handler for the [NotificationReceived](https://msdn.microsoft.com/library/hh349964\(v=office.15\)) event.
 
 ```csharp
 // Set up contact and group services.
@@ -281,7 +281,7 @@ void UpdateContactCompleted(IAsyncResult asyncResult)
 
 ### Tagging a contact
 
-The following example demonstrates how to tag a contact by adding XML to the [Contact](https://msdn.microsoft.com/en-us/library/hh381065\(v=office.15\)) object, which can be obtained from the [NotificationReceived](https://msdn.microsoft.com/en-us/library/hh349964\(v=office.15\)) event handler, and then publishing the modified **Contact** object.
+The following example demonstrates how to tag a contact by adding XML to the [Contact](https://msdn.microsoft.com/library/hh381065\(v=office.15\)) object, which can be obtained from the [NotificationReceived](https://msdn.microsoft.com/library/hh349964\(v=office.15\)) event handler, and then publishing the modified **Contact** object.
 
 ```csharp
 // If the ContactExtension property has existing XML, keep the existing XML 
@@ -375,11 +375,11 @@ private void AddGroupCallback(IAsyncResult result)
 
 ## ContactGroupServices state transitions
 
-The **ContactGroupServices** state transitions are shown in the following illustration. The state values are the members of the [CollaborationSubscriptionState](https://msdn.microsoft.com/en-us/library/hh380964\(v=office.15\)) enumerated type.
+The **ContactGroupServices** state transitions are shown in the following illustration. The state values are the members of the [CollaborationSubscriptionState](https://msdn.microsoft.com/library/hh380964\(v=office.15\)) enumerated type.
 
 ![ContactGroupServices state transitions](images/Dn466019.StateMach_LocalOwnerPresence(Office.15).jpg "ContactGroupServices state transitions")
 
-1.  The transition from **Idle** to **Subscribing** occurs when the application calls [BeginSubscribe(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh383375\(v=office.15\)).
+1.  The transition from **Idle** to **Subscribing** occurs when the application calls [BeginSubscribe(AsyncCallback, Object)](https://msdn.microsoft.com/library/hh383375\(v=office.15\)).
 
 2.  The transition from **Subscribing** to **Subscribed** occurs when the subscription succeeds.
 
@@ -389,7 +389,7 @@ The **ContactGroupServices** state transitions are shown in the following illust
 
 5.  The transition from **WaitingForRetry** to **Subscribing** occurs when another subscription to the local presentity is attempted for the reason given in step 4.
 
-6.  The transition from **WaitingForRetry** to **Terminating** occurs when the application calls [BeginUnsubscribe(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh161891\(v=office.15\)) when this session is in the **WaitingForRetry** state.
+6.  The transition from **WaitingForRetry** to **Terminating** occurs when the application calls [BeginUnsubscribe(AsyncCallback, Object)](https://msdn.microsoft.com/library/hh161891\(v=office.15\)) when this session is in the **WaitingForRetry** state.
 
 7.  The transition from **Subscribed** to **WaitingForRetry** occurs for connectivity failures and reasons such as the following.
     

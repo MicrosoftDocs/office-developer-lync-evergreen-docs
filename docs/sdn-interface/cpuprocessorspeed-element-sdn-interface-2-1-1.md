@@ -2,7 +2,7 @@
 title: CPUProcessorSpeed element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: CPUProcessorSpeed element
 ms:assetid: c838903e-e86b-3647-2687-e6572f068e1d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912704(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912704(v=office.15)
 ms:contentKeyID: 64126874
 ms.date: 02/16/2015
 mtps_version: v=office.15

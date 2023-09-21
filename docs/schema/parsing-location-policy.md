@@ -2,7 +2,7 @@
 title: Parsing location policy
 TOCTitle: Parsing location policy
 ms:assetid: 773c5666-2e80-47a7-8889-25fbc02f1f20
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454648(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454648(v=office.15)
 ms:contentKeyID: 57093267
 ms.date: 07/24/2014
 mtps_version: v=office.15

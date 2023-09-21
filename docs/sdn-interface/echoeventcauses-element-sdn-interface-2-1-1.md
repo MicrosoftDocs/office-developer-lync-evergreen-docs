@@ -2,7 +2,7 @@
 title: EchoEventCauses element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: EchoEventCauses element
 ms:assetid: fa055c78-d133-6c12-f292-bb4f7dca4d40
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912719(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912719(v=office.15)
 ms:contentKeyID: 64126889
 ms.date: 02/16/2015
 mtps_version: v=office.15

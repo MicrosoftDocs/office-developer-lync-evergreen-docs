@@ -2,7 +2,7 @@
 title: Register a managed application on Lync Server 2013
 TOCTitle: Register a managed application on Lync Server 2013
 ms:assetid: b69d571e-eacc-494a-9a74-047468265b20
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn600167(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn600167(v=office.15)
 ms:contentKeyID: 61055790
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -56,11 +56,11 @@ Table 1. Core concepts for registering a managed application
 <td><p>Familiarity with the Lync Server API.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="http://technet.microsoft.com/en-us/library/gg195756.aspx">Lync Server Administrative Tools</a></p></td>
+<td><p><a href="http://technet.microsoft.com/library/gg195756.aspx">Lync Server Administrative Tools</a></p></td>
 <td><p>Familiarity with Lync Server administrative tools.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="http://technet.microsoft.com/en-us/library/gg398474.aspx">Lync Server Management Shell</a></p></td>
+<td><p><a href="http://technet.microsoft.com/library/gg398474.aspx">Lync Server Management Shell</a></p></td>
 <td><p>Use of the Lync Server Management Shell.</p></td>
 </tr>
 </tbody>
@@ -87,7 +87,7 @@ The tasks listed here are required to register a managed server application.
 
 3.  Log in to the server as a member of the local computer RTC Server Applications group.
 
-4.  Use the cmdlet [New-CsServerApplication](http://technet.microsoft.com/en-us/library/gg398096.aspx) to create the server application.
+4.  Use the cmdlet [New-CsServerApplication](http://technet.microsoft.com/library/gg398096.aspx) to create the server application.
 
 5.  Ensure that the URI in the manifest file is identical to the URI used in the New-CsServerApplication cmdlet.
 
@@ -115,7 +115,7 @@ The following list contains some common errors seen when registering an applicat
 </tr>
 <tr class="even">
 <td><p>Registration time-out</p></td>
-<td><p>Use the cmdlet <a href="http://technet.microsoft.com/en-us/library/gg425948.aspx">Get-CsServerApplication</a> to verify that the application exists on the server. Verify that the URI listed on the server application is identical to the URI in the manifest.</p></td>
+<td><p>Use the cmdlet <a href="http://technet.microsoft.com/library/gg425948.aspx">Get-CsServerApplication</a> to verify that the application exists on the server. Verify that the URI listed on the server application is identical to the URI in the manifest.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Queue could not be opened</p></td>
@@ -134,5 +134,5 @@ The following list contains some common errors seen when registering an applicat
 - [Lync 2013 technical articles](lync-2013-technical-articles.md)
 - [Video demo: Register a managed code application](http://channel9.msdn.com/posts/lync-server-2013-register-a-managed-code-application)
 - [NextHop](http://blogs.technet.com/b/nexthop/)
-- [Lync Server SDK forum](http://social.msdn.microsoft.com/forums/lync/en-us/home?forum=communicationsserversdk%26filter=alltypes%26sort=lastpostdesc)
+- [Lync Server SDK forum](http://social.msdn.microsoft.com/forums/lync/home?forum=communicationsserversdk%26filter=alltypes%26sort=lastpostdesc)
 

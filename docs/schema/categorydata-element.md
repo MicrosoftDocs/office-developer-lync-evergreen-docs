@@ -2,7 +2,7 @@
 title: categoryData element
 TOCTitle: categoryData element
 ms:assetid: 2e11a89d-a5ab-4d21-b584-636e214031db
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439010(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439010(v=office.15)
 ms:contentKeyID: 57094053
 ms.date: 07/24/2014
 mtps_version: v=office.15

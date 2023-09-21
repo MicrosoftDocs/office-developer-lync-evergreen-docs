@@ -2,7 +2,7 @@
 title: 'How to: Search for a distribution group'
 TOCTitle: 'How to: Search for a distribution group'
 ms:assetid: 6648d555-1dee-4575-9df0-e533adf061b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn391638(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn391638(v=office.15)
 ms:contentKeyID: 56293548
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -36,7 +36,7 @@ Additional resources</p></td>
 </tbody>
 </table>
 
-Searching for groups is very similar to searching for contacts because you call the same two methods as in the previous section but you read the [SearchResults.Groups](https://msdn.microsoft.com/en-us/library/jj268253\(v=office.15\)) property in the search results.
+Searching for groups is very similar to searching for contacts because you call the same two methods as in the previous section but you read the [SearchResults.Groups](https://msdn.microsoft.com/library/jj268253\(v=office.15\)) property in the search results.
 
 A distribution group can contain other distribution groups in addition to a collection of contacts. For this reason, you may consider using a recursion algorithm to successively expand and list nested groups and their members.
 
@@ -68,7 +68,7 @@ The prerequisites for searching for contacts and distribution groups are as foll
 
 ## Search for a distribution group
 
-Searching for groups is very similar to searching for contacts because you call the same two methods as in the previous section but you read the [SearchResults.Groups](https://msdn.microsoft.com/en-us/library/jj268253\(v=office.15\)) property in the search results.
+Searching for groups is very similar to searching for contacts because you call the same two methods as in the previous section but you read the [SearchResults.Groups](https://msdn.microsoft.com/library/jj268253\(v=office.15\)) property in the search results.
 
 A distribution group can contain other distribution groups in addition to a collection of contacts. For this reason, you may consider using a recursion algorithm to successively expand and list nested groups and their members.
 
@@ -92,7 +92,7 @@ A distribution group can contain other distribution groups in addition to a coll
 
 1.  Obtain the partial or full name of a distribution group as a string to be used as a search key.
 
-2.  Call the [ContactManager.BeginSearch](https://msdn.microsoft.com/en-us/library/jj278297\(v=office.15\)) method.
+2.  Call the [ContactManager.BeginSearch](https://msdn.microsoft.com/library/jj278297\(v=office.15\)) method.
     
     <table>
     <colgroup>
@@ -105,16 +105,16 @@ A distribution group can contain other distribution groups in addition to a coll
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>If you want to run an advanced group search, call the <a href="https://msdn.microsoft.com/en-us/library/jj278297(v=office.15)">ContactManager.BeginSearch</a> method and specify the search provider and a set of distribution group property fields to search against.</p></td>
+    <td><p>If you want to run an advanced group search, call the <a href="https://msdn.microsoft.com/library/jj278297(v=office.15)">ContactManager.BeginSearch</a> method and specify the search provider and a set of distribution group property fields to search against.</p></td>
     </tr>
     </tbody>
     </table>
     
-    In either a lambda expression or a callback method passed in the second argument of **BeginSearch**, get the results of the search by calling the [ContactManager.EndSearch](https://msdn.microsoft.com/en-us/library/jj277082\(v=office.15\)) method. A [Microsoft.Lync.Model.SearchResults](https://msdn.microsoft.com/en-us/library/jj293514\(v=office.15\)) object is returned.
+    In either a lambda expression or a callback method passed in the second argument of **BeginSearch**, get the results of the search by calling the [ContactManager.EndSearch](https://msdn.microsoft.com/library/jj277082\(v=office.15\)) method. A [Microsoft.Lync.Model.SearchResults](https://msdn.microsoft.com/library/jj293514\(v=office.15\)) object is returned.
 
-3.  Read the [SearchResults.Groups](https://msdn.microsoft.com/en-us/library/jj268253\(v=office.15\))**Count** property, and then continue this procedure if the property value returns 1 or more distribution groups.
+3.  Read the [SearchResults.Groups](https://msdn.microsoft.com/library/jj268253\(v=office.15\))**Count** property, and then continue this procedure if the property value returns 1 or more distribution groups.
     
-    The following example iterates the group collection returned by the [SearchResults.Groups](https://msdn.microsoft.com/en-us/library/jj268253\(v=office.15\)) property.
+    The following example iterates the group collection returned by the [SearchResults.Groups](https://msdn.microsoft.com/library/jj268253\(v=office.15\)) property.
     
     ```csharp
             /// <summary>
@@ -160,19 +160,19 @@ A distribution group can contain other distribution groups in addition to a coll
 
 ### To expand a distribution group
 
-1.  Read the [DistributionGroup.IsExpanded](https://msdn.microsoft.com/en-us/library/jj275697\(v=office.15\)) property.
+1.  Read the [DistributionGroup.IsExpanded](https://msdn.microsoft.com/library/jj275697\(v=office.15\)) property.
     
     If the returned value is **false**, the distribution group must be expanded before you can access its contacts.
 
-2.  Call the [DistributionGroup.BeginExpand](https://msdn.microsoft.com/en-us/library/jj274816\(v=office.15\)) method.
+2.  Call the [DistributionGroup.BeginExpand](https://msdn.microsoft.com/library/jj274816\(v=office.15\)) method.
 
-3.  In the lambda expression or callback method passed in the first argument of the **BeginExpand** method, call the [DistributionGroup.EndExpand](https://msdn.microsoft.com/en-us/library/jj293275\(v=office.15\)) method.
+3.  In the lambda expression or callback method passed in the first argument of the **BeginExpand** method, call the [DistributionGroup.EndExpand](https://msdn.microsoft.com/library/jj293275\(v=office.15\)) method.
 
-4.  Iterate on the distribution group as a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) collection to get individual contacts.
+4.  Iterate on the distribution group as a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) collection to get individual contacts.
 
-5.  Read the **Count** property of the [DistributionGroup.NestedGroups](https://msdn.microsoft.com/en-us/library/jj278008\(v=office.15\)) property.
+5.  Read the **Count** property of the [DistributionGroup.NestedGroups](https://msdn.microsoft.com/library/jj278008\(v=office.15\)) property.
 
-6.  If the count value returned in the previous step is greater than zero, iterate on the value returned by the [DistributionGroup.NestedGroups](https://msdn.microsoft.com/en-us/library/jj278008\(v=office.15\)) to get the nested distribution groups.
+6.  If the count value returned in the previous step is greater than zero, iterate on the value returned by the [DistributionGroup.NestedGroups](https://msdn.microsoft.com/library/jj278008\(v=office.15\)) to get the nested distribution groups.
     
     The following example expands a distribution group if not already expanded, prints the display name of each group contact, and then recursively expands any nested distribution groups.
     

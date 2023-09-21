@@ -2,7 +2,7 @@
 title: blockRule element
 TOCTitle: blockRule element
 ms:assetid: 27e8d71b-0aec-4ddb-a810-74b8a5c4a121
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438986(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438986(v=office.15)
 ms:contentKeyID: 57094030
 ms.date: 07/24/2014
 mtps_version: v=office.15

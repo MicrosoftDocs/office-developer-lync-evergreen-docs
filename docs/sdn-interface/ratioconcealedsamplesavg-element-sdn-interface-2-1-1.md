@@ -2,7 +2,7 @@
 title: RatioConcealedSamplesAvg element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RatioConcealedSamplesAvg element
 ms:assetid: a1f9f213-fa76-4bf3-b8ad-39061bf700c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912787(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912787(v=office.15)
 ms:contentKeyID: 64126956
 ms.date: 02/16/2015
 mtps_version: v=office.15

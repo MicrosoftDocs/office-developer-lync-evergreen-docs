@@ -2,7 +2,7 @@
 title: Codec element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Codec element (QualityPropertiesType complexType)
 ms:assetid: ec4a6ada-80a3-2cc7-4daf-0c7ef2a6fd8a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912689(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912689(v=office.15)
 ms:contentKeyID: 64126859
 ms.date: 02/16/2015
 mtps_version: v=office.15

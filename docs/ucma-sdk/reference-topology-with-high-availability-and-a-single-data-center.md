@@ -2,7 +2,7 @@
 title: Reference topology with high availability and a single data center
 TOCTitle: Reference topology with high availability and a single data center
 ms:assetid: 4fd9ab0c-46e9-4d64-aa87-74e4dca802e4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465972(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465972(v=office.15)
 ms:contentKeyID: 57102666
 ms.date: 07/25/2014
 mtps_version: v=office.15

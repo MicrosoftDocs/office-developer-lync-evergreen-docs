@@ -2,7 +2,7 @@
 title: ErrorType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: ErrorType complexType
 ms:assetid: 0c5f4247-f0c0-8ef5-9eea-8595b715dd26
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912854(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912854(v=office.15)
 ms:contentKeyID: 64127023
 ms.date: 02/16/2015
 mtps_version: v=office.15

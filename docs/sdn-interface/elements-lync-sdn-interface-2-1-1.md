@@ -2,7 +2,7 @@
 title: Elements (Lync SDN Interface 2.1.1)
 TOCTitle: Elements (Lync SDN Interface 2.1.1)
 ms:assetid: b7c30eb4-0404-db09-7cd5-5b0686b2a4ca
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912671(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912671(v=office.15)
 ms:contentKeyID: 64126840
 ms.date: 02/16/2015
 mtps_version: v=office.15

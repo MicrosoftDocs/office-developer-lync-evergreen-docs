@@ -2,7 +2,7 @@
 title: EchoPercentMicIn element  (Lync SDN API Schema A)
 TOCTitle: EchoPercentMicIn element
 ms:assetid: 2d53eb73-6fb0-c23e-debf-b8f8eeb50ee6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455031(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455031(v=office.15)
 ms:contentKeyID: 57260897
 ms.date: 07/24/2014
 mtps_version: v=office.15

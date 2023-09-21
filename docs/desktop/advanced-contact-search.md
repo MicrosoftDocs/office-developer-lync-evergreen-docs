@@ -2,7 +2,7 @@
 title: Advanced contact search
 TOCTitle: Advanced contact search
 ms:assetid: 15afb8c7-6c42-432c-a213-185f8f549f26
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937269(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937269(v=office.15)
 ms:contentKeyID: 50877088
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -55,7 +55,7 @@ The Lync 2013 contact search feature uses a common Office contact store which is
 
 You can do a contact search operation that uses these search providers individually or in combination. In order to get search results, you must use a search provider that is synchronized with the common Office contact store. The Other contact list, personal contact list, and Windows address book are always in a synchronized state. The Exchange, Expert, and Global address list search providers are periodically re-synchronized with the common Office contact store. These three providers do not return results while in a non-synchronized state. You can look at the synchronization state of any search provider before starting a search operation that uses that search provider.
 
-Perform a search that returns results using the providers that are fully synchronized with Microsoft Lync 2013. Attempting a search using a partially synchronized search provider can return partial results. You discover the synchronization state of a search provider by calling into [ContactManager.GetSearchProviderStatus](https://msdn.microsoft.com/en-us/library/jj267663\(v=office.15\)).
+Perform a search that returns results using the providers that are fully synchronized with Microsoft Lync 2013. Attempting a search using a partially synchronized search provider can return partial results. You discover the synchronization state of a search provider by calling into [ContactManager.GetSearchProviderStatus](https://msdn.microsoft.com/library/jj267663\(v=office.15\)).
 
 <table>
 <colgroup>
@@ -68,7 +68,7 @@ Perform a search that returns results using the providers that are fully synchro
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Attempting to call into <a href="https://msdn.microsoft.com/en-us/library/jj267663(v=office.15)">GetSearchProviderStatus</a> with the enumerators <a href="https://msdn.microsoft.com/en-us/library/jj278060(v=office.15)">SearchProviders</a><strong>.Default</strong>,<a href="https://msdn.microsoft.com/en-us/library/jj278060(v=office.15)">SearchProviders</a><strong>.OtherContacts</strong>, <a href="https://msdn.microsoft.com/en-us/library/jj278060(v=office.15)">SearchProviders</a><strong>.WindowsAddressBook</strong>, or <a href="https://msdn.microsoft.com/en-us/library/jj278060(v=office.15)">SearchProviders</a><strong>.PersonalContacts</strong> raises an exception. These search providers are always fully synchronized.</p></td>
+<td><p>Attempting to call into <a href="https://msdn.microsoft.com/library/jj267663(v=office.15)">GetSearchProviderStatus</a> with the enumerators <a href="https://msdn.microsoft.com/library/jj278060(v=office.15)">SearchProviders</a><strong>.Default</strong>,<a href="https://msdn.microsoft.com/library/jj278060(v=office.15)">SearchProviders</a><strong>.OtherContacts</strong>, <a href="https://msdn.microsoft.com/library/jj278060(v=office.15)">SearchProviders</a><strong>.WindowsAddressBook</strong>, or <a href="https://msdn.microsoft.com/library/jj278060(v=office.15)">SearchProviders</a><strong>.PersonalContacts</strong> raises an exception. These search providers are always fully synchronized.</p></td>
 </tr>
 </tbody>
 </table>
@@ -106,7 +106,7 @@ Alvord "programming writer 2"
 </tbody>
 </table>
 
-Due to the complexity of an expert search operation, it can be difficult to determine the reason why an expert search can return no results. The [Microsoft.Lync.Model.SearchException](https://msdn.microsoft.com/en-us/library/jj293959\(v=office.15\)) class is designed to give you hints that help find the reason for an expert search failure. Surround your call into [ContactManager.EndSearch](https://msdn.microsoft.com/en-us/library/jj277082\(v=office.15\)) with a try/catch block and catch the [Microsoft.Lync.Model.SearchException](https://msdn.microsoft.com/en-us/library/jj293959\(v=office.15\)).
+Due to the complexity of an expert search operation, it can be difficult to determine the reason why an expert search can return no results. The [Microsoft.Lync.Model.SearchException](https://msdn.microsoft.com/library/jj293959\(v=office.15\)) class is designed to give you hints that help find the reason for an expert search failure. Surround your call into [ContactManager.EndSearch](https://msdn.microsoft.com/library/jj277082\(v=office.15\)) with a try/catch block and catch the [Microsoft.Lync.Model.SearchException](https://msdn.microsoft.com/library/jj293959\(v=office.15\)).
 
 For information about SharePoint Expertise search syntax, see [Enterprise Search Keyword Reference](http://go.microsoft.com/fwlink/?linkid=192230).
 
@@ -116,7 +116,7 @@ Exchange Service search is a Web service that searches for people in the local u
 
 #### Global Address List
 
-The Global Address List (GAL) search is used to find people or distribution groups in an organization’s Active Directory data store. Results can be returned from a search on a partial display name or an email address. If you iterate on the collection of results returned by [SearchResults.AllResults](https://msdn.microsoft.com/en-us/library/jj276716\(v=office.15\)), you must get the type of result and cast the individual result to the corresponding class.
+The Global Address List (GAL) search is used to find people or distribution groups in an organization’s Active Directory data store. Results can be returned from a search on a partial display name or an email address. If you iterate on the collection of results returned by [SearchResults.AllResults](https://msdn.microsoft.com/library/jj276716\(v=office.15\)), you must get the type of result and cast the individual result to the corresponding class.
 
 #### Windows AddressBook
 
@@ -128,11 +128,11 @@ Limits a search to people contacts in a user’s contact list. If the searched p
 
 ### Search options
 
-The [SearchOptions](https://msdn.microsoft.com/en-us/library/jj274803\(v=office.15\)) enumeration provides a default search option that does not restrict a search to a whole word match. [SearchOptions](https://msdn.microsoft.com/en-us/library/jj274803\(v=office.15\)) returns both contacts and distribution groups and returns all results in one asynchronous callback. You can change the behavior of a search by combining one or more search options in a search operation. For example, you might want to see only contacts in a result set. Not every supported search provider supports all of the search options enumerated by [SearchOptions](https://msdn.microsoft.com/en-us/library/jj274803\(v=office.15\)).
+The [SearchOptions](https://msdn.microsoft.com/library/jj274803\(v=office.15\)) enumeration provides a default search option that does not restrict a search to a whole word match. [SearchOptions](https://msdn.microsoft.com/library/jj274803\(v=office.15\)) returns both contacts and distribution groups and returns all results in one asynchronous callback. You can change the behavior of a search by combining one or more search options in a search operation. For example, you might want to see only contacts in a result set. Not every supported search provider supports all of the search options enumerated by [SearchOptions](https://msdn.microsoft.com/library/jj274803\(v=office.15\)).
 
 ### Search fields
 
-A search field is an index that a search provider uses to enable a search through its data store. Not all of the search fields enumerated by [SearchFields](https://msdn.microsoft.com/en-us/library/jj276185\(v=office.15\)) are supported as indexes by individual search providers. If you specify a search on a search provider using a search field that is not supported as an index, no search results are returned. If you are not sure whether a search provider supports a specific search field, you can use the [SearchFields](https://msdn.microsoft.com/en-us/library/jj276185\(v=office.15\))**.AllFields** enumerator in the search. In this case, the search is conducted on the search provider using whatever indexes are supported by the search provider.
+A search field is an index that a search provider uses to enable a search through its data store. Not all of the search fields enumerated by [SearchFields](https://msdn.microsoft.com/library/jj276185\(v=office.15\)) are supported as indexes by individual search providers. If you specify a search on a search provider using a search field that is not supported as an index, no search results are returned. If you are not sure whether a search provider supports a specific search field, you can use the [SearchFields](https://msdn.microsoft.com/library/jj276185\(v=office.15\))**.AllFields** enumerator in the search. In this case, the search is conducted on the search provider using whatever indexes are supported by the search provider.
 
 ## See also
 

@@ -2,7 +2,7 @@
 title: allowedContainers element
 TOCTitle: allowedContainers element
 ms:assetid: 1baabd82-9d82-4594-8060-c9ada223d2b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438982(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438982(v=office.15)
 ms:contentKeyID: 57094026
 ms.date: 07/24/2014
 mtps_version: v=office.15

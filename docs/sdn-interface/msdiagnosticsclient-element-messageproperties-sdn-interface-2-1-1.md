@@ -2,7 +2,7 @@
 title: MSDiagnosticsClient element (MessageProperties complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: MSDiagnosticsClient element (MessageProperties complexType)
 ms:assetid: 7e450f2b-bac0-5a03-5bd8-22aae4ddacaf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912767(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912767(v=office.15)
 ms:contentKeyID: 64126937
 ms.date: 02/16/2015
 mtps_version: v=office.15

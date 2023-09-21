@@ -2,7 +2,7 @@
 title: Configuring Lync SDN Interface 2.1.1
 TOCTitle: Configuring Lync SDN Interface 2.1.1
 ms:assetid: cf0ca8f3-bcaf-4dba-814f-4b8a5163fa7d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785204(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785204(v=office.15)
 ms:contentKeyID: 62952690
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: contactCard/identity element
 TOCTitle: contactCard/identity element
 ms:assetid: fe50adf7-014f-4c5a-bc5e-d3083c32e72a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454719(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454719(v=office.15)
 ms:contentKeyID: 57093406
 ms.date: 07/24/2014
 mtps_version: v=office.15

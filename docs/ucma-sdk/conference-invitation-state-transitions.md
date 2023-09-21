@@ -2,7 +2,7 @@
 title: Conference invitation state transitions
 TOCTitle: Conference invitation state transitions
 ms:assetid: fbab93a0-9137-41af-9f42-4e84d083eb24
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466001(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466001(v=office.15)
 ms:contentKeyID: 57102905
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -13,15 +13,15 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-State transitions for the [ConferenceInvitation](https://msdn.microsoft.com/en-us/library/hh349823\(v=office.15\)) class are described in this topic, both for inbound invitations as well as outbound invitations.
+State transitions for the [ConferenceInvitation](https://msdn.microsoft.com/library/hh349823\(v=office.15\)) class are described in this topic, both for inbound invitations as well as outbound invitations.
 
 ## Inbound invitation
 
-The [ConferenceInvitation](https://msdn.microsoft.com/en-us/library/hh349823\(v=office.15\)) state transitions for inbound invitations are shown in the following illustration.
+The [ConferenceInvitation](https://msdn.microsoft.com/library/hh349823\(v=office.15\)) state transitions for inbound invitations are shown in the following illustration.
 
 ![ConferenceInvitation - Inbound](images/Dn466001.StateMach_ConfInvitation_Inbound(Office.15).jpg "ConferenceInvitation - Inbound")
 
-**ConferenceInvitation** state transitions occur in response to the value of the [ConferenceInvitationStateTransitionReason](https://msdn.microsoft.com/en-us/library/hh384299\(v=office.15\)) enumeration.
+**ConferenceInvitation** state transitions occur in response to the value of the [ConferenceInvitationStateTransitionReason](https://msdn.microsoft.com/library/hh384299\(v=office.15\)) enumeration.
 
 1.  The transition from **Incoming** to **Terminating** occurs when the **ConferenceInvitationStateTransitionReason** value is **TerminatedLocally** or **TerminatedRemotely**.
 

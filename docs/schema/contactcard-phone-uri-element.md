@@ -2,7 +2,7 @@
 title: contactCard/phone/uri element
 TOCTitle: contactCard/phone/uri element
 ms:assetid: b0117f69-f5b3-40ef-b654-d449ad16f937
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454709(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454709(v=office.15)
 ms:contentKeyID: 57093396
 ms.date: 07/24/2014
 mtps_version: v=office.15

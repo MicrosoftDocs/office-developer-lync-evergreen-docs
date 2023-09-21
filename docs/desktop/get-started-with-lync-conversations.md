@@ -2,7 +2,7 @@
 title: Get started with Lync conversations
 TOCTitle: Lync conversations
 ms:assetid: db65193e-57ea-44a1-b949-06ae2b655d8b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933207(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933207(v=office.15)
 ms:contentKeyID: 50877350
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -65,15 +65,15 @@ To understand how to work with Lync 2013 conversations, it is important to becom
 <tbody>
 <tr class="odd">
 <td><p><a href="conversation-manager.md">Conversation manager</a></p></td>
-<td><p>Describes the role of the <a href="https://msdn.microsoft.com/en-us/library/jj266018(v=office.15)">ConversationManager</a> object in starting and joining conversations.</p></td>
+<td><p>Describes the role of the <a href="https://msdn.microsoft.com/library/jj266018(v=office.15)">ConversationManager</a> object in starting and joining conversations.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="conversation-modalities.md">Conversation modalities</a></p></td>
-<td><p>Describes how conversation modes are encapsulated by <a href="https://msdn.microsoft.com/en-us/library/jj274796(v=office.15)">Modality</a> objects.</p></td>
+<td><p>Describes how conversation modes are encapsulated by <a href="https://msdn.microsoft.com/library/jj274796(v=office.15)">Modality</a> objects.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="conversation-participants.md">Conversation participants</a></p></td>
-<td><p>Describes how <a href="https://msdn.microsoft.com/en-us/library/jj267311(v=office.15)">Microsoft.Lync.Model.Conversation.Participant</a> objects represent Lync 2013 users in a conversation.</p></td>
+<td><p>Describes how <a href="https://msdn.microsoft.com/library/jj267311(v=office.15)">Microsoft.Lync.Model.Conversation.Participant</a> objects represent Lync 2013 users in a conversation.</p></td>
 </tr>
 </tbody>
 </table>
@@ -131,7 +131,7 @@ The following table lists basic tasks for working with Lync 2013 conversations.
 </tr>
 <tr class="odd">
 <td><p><a href="how-to-start-a-lync-audio-conversation.md">How to: Start a Lync audio conversation</a></p></td>
-<td><p>Learn how to start an audio conversation. This process involves creating a conversation with a local and remote participant and connecting to the remote participant using the participant’s audio/video (AV) modality. To complete this process, you must handle state change events on both the client’s <a href="https://msdn.microsoft.com/en-us/library/jj266018(v=office.15)">ConversationManager</a> instance and the conversation itself.</p></td>
+<td><p>Learn how to start an audio conversation. This process involves creating a conversation with a local and remote participant and connecting to the remote participant using the participant’s audio/video (AV) modality. To complete this process, you must handle state change events on both the client’s <a href="https://msdn.microsoft.com/library/jj266018(v=office.15)">ConversationManager</a> instance and the conversation itself.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="how-to-park-and-unpark-a-lync-audio-conversation.md">How to: Park and unpark a Lync audio conversation</a></p></td>

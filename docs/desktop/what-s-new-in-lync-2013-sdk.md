@@ -2,7 +2,7 @@
 title: What's new in Lync 2013 SDK
 TOCTitle: What's new
 ms:assetid: bf17c39c-8a47-49d1-9a53-0047f202d109
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933179(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933179(v=office.15)
 ms:contentKeyID: 50877318
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -38,7 +38,7 @@ Watch the video: What’s New With the Lync 2013 SDK
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/0e77f2a8-9b3e-4e89-be77-42fa3739d5a3]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/0e77f2a8-9b3e-4e89-be77-42fa3739d5a3]
 
 
 ## SDK release history
@@ -66,7 +66,7 @@ The following table gives a summary of the Lync 2013 API features that have been
 </tr>
 <tr class="even">
 <td><p><a href="application-sharing-for-ui-suppression-mode.md">Application sharing for UI suppression mode</a></p></td>
-<td><p>Enables application sharing conversations on a computer that is configured for Lync 2013 UI suppression mode. The feature lets you add an application sharing view to your custom client as an <a href="https://msdn.microsoft.com/en-us/library/dn378597(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView</a> control</p></td>
+<td><p>Enables application sharing conversations on a computer that is configured for Lync 2013 UI suppression mode. The feature lets you add an application sharing view to your custom client as an <a href="https://msdn.microsoft.com/library/dn378597(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingView</a> control</p></td>
 <td><p>May 2013. 15.0.4507.3000</p></td>
 </tr>
 </tbody>

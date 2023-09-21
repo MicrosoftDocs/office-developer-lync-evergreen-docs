@@ -2,7 +2,7 @@
 title: Publication behaviors of category instances
 TOCTitle: Publication behaviors of category instances
 ms:assetid: aff7a03c-a95f-463b-b93f-11b679f5c9d6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454673(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454673(v=office.15)
 ms:contentKeyID: 57093147
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: SIP URIs
 TOCTitle: SIP URIs
 ms:assetid: 44dc0702-5b75-4e67-a7ad-078d8e590903
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466057(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466057(v=office.15)
 ms:contentKeyID: 57103050
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 A Session Initiation Protocol (SIP) uniform resource identifier (URI) identifies a communications resource, and contains enough information to initiate and continue a communication session with the resource identified in the URI.
 
-The SIP URI parser (the [SipUriParser](https://msdn.microsoft.com/en-us/library/hh384267\(v=office.15\)) class) can be used to parse and construct SIP URIs in UCMA 4.0. The SIP URI parser consists of the **SipUriParser** class and its methods and properties. For more information, see [RealTimeAddress and SipUriParser classes](realtimeaddress-and-sipuriparser-classes.md).
+The SIP URI parser (the [SipUriParser](https://msdn.microsoft.com/library/hh384267\(v=office.15\)) class) can be used to parse and construct SIP URIs in UCMA 4.0. The SIP URI parser consists of the **SipUriParser** class and its methods and properties. For more information, see [RealTimeAddress and SipUriParser classes](realtimeaddress-and-sipuriparser-classes.md).
 
 ## SIP URI
 

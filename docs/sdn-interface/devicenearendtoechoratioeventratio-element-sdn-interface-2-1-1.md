@@ -2,7 +2,7 @@
 title: DeviceNearEndToEchoRatioEventRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DeviceNearEndToEchoRatioEventRatio element
 ms:assetid: 805d87ad-e895-d25b-f401-f09fd19294c9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912714(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912714(v=office.15)
 ms:contentKeyID: 64126884
 ms.date: 02/16/2015
 mtps_version: v=office.15

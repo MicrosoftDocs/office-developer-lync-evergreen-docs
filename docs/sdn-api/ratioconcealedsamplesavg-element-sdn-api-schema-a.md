@@ -2,7 +2,7 @@
 title: RatioConcealedSamplesAvg element  (Lync SDN API Schema A)
 TOCTitle: RatioConcealedSamplesAvg element
 ms:assetid: 9582c0ba-f7c1-5a03-be43-35c6647780bf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439276(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439276(v=office.15)
 ms:contentKeyID: 57261012
 ms.date: 07/24/2014
 mtps_version: v=office.15

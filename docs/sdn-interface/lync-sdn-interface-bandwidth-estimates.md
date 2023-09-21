@@ -2,7 +2,7 @@
 title: Lync SDN Interface bandwidth estimates
 TOCTitle: Lync SDN Interface Bandwidth Estimates
 ms:assetid: 35458e8f-29ee-4bc5-b2bc-51bbe390b8d5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912665(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912665(v=office.15)
 ms:contentKeyID: 64126836
 ms.date: 03/04/2016
 mtps_version: v=office.15

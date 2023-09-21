@@ -2,7 +2,7 @@
 title: OverallMinNetworkMOS element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: OverallMinNetworkMOS element
 ms:assetid: 759eb5f8-a50f-0798-ced6-03918dc361fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912773(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912773(v=office.15)
 ms:contentKeyID: 64126943
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: DeviceClippingEventRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DeviceClippingEventRatio element
 ms:assetid: f89b8253-83dd-95bc-b1cc-9a524c3224c5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912711(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912711(v=office.15)
 ms:contentKeyID: 64126881
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Connections performance counters
 TOCTitle: Connections performance counters
 ms:assetid: a30c7508-08ff-47bf-9f09-ba48eeffc054
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466112(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466112(v=office.15)
 ms:contentKeyID: 57103405
 ms.date: 07/25/2014
 mtps_version: v=office.15

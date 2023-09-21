@@ -2,7 +2,7 @@
 title: Unified Communications Managed API 4.0 SDK documentation
 TOCTitle: Unified Communications Managed API 4.0 SDK documentation
 ms:assetid: 2c531489-0d65-4715-819e-22045a1090a2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454984(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454984(v=office.15)
 ms:contentKeyID: 57260605
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -51,11 +51,11 @@ The following are the most important attributes of UCMA 4.0:
 ## In this SDK
 
 - [UCMA 4.0 general reference](ucma-4-0-general-reference.md)
-- [UCMA 4.0 class libraries references (UCMA 4.0 SDK)](https://msdn.microsoft.com/en-us/library/dn454985\(v=office.15\))
+- [UCMA 4.0 class libraries references (UCMA 4.0 SDK)](https://msdn.microsoft.com/library/dn454985\(v=office.15\))
 
 ## See also
 
-- [Copyright notice (UCMA 4.0 SDK)](https://msdn.microsoft.com/en-us/library/dn454986\(v=office.15\))
+- [Copyright notice (UCMA 4.0 SDK)](https://msdn.microsoft.com/library/dn454986\(v=office.15\))
 - [Microsoft Online Privacy Notice](http://go.microsoft.com/fwlink/?linkid=207069)
 - [Accessibility in Microsoft Products](http://go.microsoft.com/fwlink/?linkid=205790)
 

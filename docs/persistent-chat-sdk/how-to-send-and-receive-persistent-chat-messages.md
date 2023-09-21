@@ -2,7 +2,7 @@
 title: 'How to: Send and receive Persistent Chat messages'
 TOCTitle: 'How to: Send and receive Persistent Chat messages'
 ms:assetid: 1f6c92b4-191c-47e6-ada9-235f96eafadf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465900(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465900(v=office.15)
 ms:contentKeyID: 57101372
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -19,9 +19,9 @@ Learn how to use the Microsoft Lync Server 2013 Persistent Chat API to send or r
 
 Sending and receiving messages are session-based operations and require that the underlying chat room session be established. In the Lync Server 2013 Persistent Chat API, chat messages can be of plain text and RTF and can include hyperlinks and emoticons.
 
-To send message to a Persistent Chat room by using the Lync Server 2013 Persistent Chat API, call one of the [BeginSendChatMessage(String, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj266943\(v=office.15\)) methods and the corresponding [EndSendChatMessage(IAsyncResult)](https://msdn.microsoft.com/en-us/library/jj267874\(v=office.15\)) method on an established [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) instance.
+To send message to a Persistent Chat room by using the Lync Server 2013 Persistent Chat API, call one of the [BeginSendChatMessage(String, AsyncCallback, Object)](https://msdn.microsoft.com/library/jj266943\(v=office.15\)) methods and the corresponding [EndSendChatMessage(IAsyncResult)](https://msdn.microsoft.com/library/jj267874\(v=office.15\)) method on an established [ChatRoomSession](https://msdn.microsoft.com/library/jj265925\(v=office.15\)) instance.
 
-The following code example shows how to send a plain text message (txtMsg) to a chat room that is connected to an established [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) instance (chatRoomSession).
+The following code example shows how to send a plain text message (txtMsg) to a chat room that is connected to an established [ChatRoomSession](https://msdn.microsoft.com/library/jj265925\(v=office.15\)) instance (chatRoomSession).
 
 ```csharp
         void SendTextMessage(ChatRoomSession chatRoomSession, string txtMsg)
@@ -34,7 +34,7 @@ The following code example shows how to send a plain text message (txtMsg) to a 
         }
 ```
 
-The following code example shows how to use the Lync Server 2013 Persistent Chat API to send an RTF message to a chat room that is connected to a specified, established [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) instance (chatRoomSession). The rich text message was extracted from a RichTextBox control (richTextBox).
+The following code example shows how to use the Lync Server 2013 Persistent Chat API to send an RTF message to a chat room that is connected to a specified, established [ChatRoomSession](https://msdn.microsoft.com/library/jj265925\(v=office.15\)) instance (chatRoomSession). The rich text message was extracted from a RichTextBox control (richTextBox).
 
 
 > [!NOTE]
@@ -55,7 +55,7 @@ The following code example shows how to use the Lync Server 2013 Persistent Chat
         }
 ```
 
-The following code example shows how to use the Lync Server 2013 Persistent Chat API to send a formatted message (focm) to add a hyperlink (hyperLlink), or an emoticon (emoticon), as part of a plain text message (plaintext) to a chat room that is connected to a specified, established [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) instance (chatRoomSession).
+The following code example shows how to use the Lync Server 2013 Persistent Chat API to send a formatted message (focm) to add a hyperlink (hyperLlink), or an emoticon (emoticon), as part of a plain text message (plaintext) to a chat room that is connected to a specified, established [ChatRoomSession](https://msdn.microsoft.com/library/jj265925\(v=office.15\)) instance (chatRoomSession).
 
 ```csharp
         void SendFormattedMessage(ChatRoomSession chatRoomSession, string plainText, ChatEmoticon emoticon, string hyperLinkText, Uri hyperLink)
@@ -74,9 +74,9 @@ The following code example shows how to use the Lync Server 2013 Persistent Chat
 
 Other overloads are available to support the process of sending a chat message to a chat room by using the Lync Server 2013 Persistent Chat API.
 
-To receive messages when a new message is posted to a chat room, register the [ChatMessageReceived](https://msdn.microsoft.com/en-us/library/jj266375\(v=office.15\)) event to be raised by an established [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) instance and handle the event in an event handler.
+To receive messages when a new message is posted to a chat room, register the [ChatMessageReceived](https://msdn.microsoft.com/library/jj266375\(v=office.15\)) event to be raised by an established [ChatRoomSession](https://msdn.microsoft.com/library/jj265925\(v=office.15\)) instance and handle the event in an event handler.
 
-The following code example shows how to register for the [ChatMessageReceived](https://msdn.microsoft.com/en-us/library/jj266375\(v=office.15\)) event and provides an example of the event handler, which simply prints the received message.
+The following code example shows how to register for the [ChatMessageReceived](https://msdn.microsoft.com/library/jj266375\(v=office.15\)) event and provides an example of the event handler, which simply prints the received message.
 
 ```csharp
         void RegisterToReceiveChatMessage(ChatRoomSession chatRoomSession)

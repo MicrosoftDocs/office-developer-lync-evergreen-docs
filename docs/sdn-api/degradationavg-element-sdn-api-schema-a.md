@@ -2,7 +2,7 @@
 title: DegradationAvg element  (Lync SDN API Schema A)
 TOCTitle: DegradationAvg element
 ms:assetid: 3c7d45dd-e152-87e3-bf21-17be004e3e93
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455024(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455024(v=office.15)
 ms:contentKeyID: 57260901
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: StartTime element (Lync SDN API Schema A)
 TOCTitle: StartTime element
 ms:assetid: 4e2165d7-d631-8459-e0c0-2b3aae6f605b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439296(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439296(v=office.15)
 ms:contentKeyID: 57261032
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: MediationServerLegPosition element  (Lync SDN API Schema A)
 TOCTitle: MediationServerLegPosition element
 ms:assetid: 1551fe15-1bfe-bf2f-25eb-4f5820f02479
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775127(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775127(v=office.15)
 ms:contentKeyID: 62626101
 ms.date: 07/24/2014
 mtps_version: v=office.15

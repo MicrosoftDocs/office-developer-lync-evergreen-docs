@@ -2,7 +2,7 @@
 title: CSEQ element (Lync SDN API Schema A)
 TOCTitle: CSEQ element
 ms:assetid: 41e3904b-243b-5d13-ed31-ff6d0f2821f2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455014(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455014(v=office.15)
 ms:contentKeyID: 57260892
 ms.date: 07/24/2014
 mtps_version: v=office.15

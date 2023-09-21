@@ -2,7 +2,7 @@
 title: EchoEventCauses element (Lync SDN API Schema A)
 TOCTitle: EchoEventCauses element
 ms:assetid: 64d4599d-e895-c7a3-ca8c-245ca28fff05
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455029(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455029(v=office.15)
 ms:contentKeyID: 57260904
 ms.date: 07/24/2014
 mtps_version: v=office.15

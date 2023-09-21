@@ -2,7 +2,7 @@
 title: Parsing mobility policy
 TOCTitle: Parsing mobility policy
 ms:assetid: 1d277266-79d9-4539-aa3e-0a6b54824382
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454645(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454645(v=office.15)
 ms:contentKeyID: 57093270
 ms.date: 07/24/2014
 mtps_version: v=office.15

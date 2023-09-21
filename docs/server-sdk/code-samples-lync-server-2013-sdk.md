@@ -2,7 +2,7 @@
 title: Code samples (Lync Server 2013 SDK)
 TOCTitle: Code samples
 ms:assetid: 4861aee0-b56d-42b7-8db7-f9e6e2f0bb15
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439088(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439088(v=office.15)
 ms:contentKeyID: 57096243
 ms.date: 07/24/2014
 mtps_version: v=office.15

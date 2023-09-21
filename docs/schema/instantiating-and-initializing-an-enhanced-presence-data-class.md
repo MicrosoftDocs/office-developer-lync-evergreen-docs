@@ -2,7 +2,7 @@
 title: Instantiating and initializing an Enhanced Presence data class
 TOCTitle: Instantiating and initializing an Enhanced Presence data class
 ms:assetid: 5dcce19b-ff0b-4809-9259-33a375be4f21
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454687(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454687(v=office.15)
 ms:contentKeyID: 57093343
 ms.date: 07/24/2014
 mtps_version: v=office.15

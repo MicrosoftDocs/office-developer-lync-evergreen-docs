@@ -2,7 +2,7 @@
 title: Client support scenarios
 TOCTitle: Client support scenarios
 ms:assetid: 30a8f95e-a04f-4254-a256-b66ed86d7e51
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945541(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945541(v=office.15)
 ms:contentKeyID: 51541343
 ms.date: 07/24/2014
 mtps_version: v=office.15

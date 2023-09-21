@@ -2,7 +2,7 @@
 title: MyPresenceChooser control
 TOCTitle: MyPresenceChooser control
 ms:assetid: d19cd08f-4dd0-4de3-8a2a-05d462de6cff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945580(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945580(v=office.15)
 ms:contentKeyID: 51541404
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,13 +39,13 @@ Additional resources</p></td>
 
 ## Control overview
 
-Use the [MyPresenceChooser](https://msdn.microsoft.com/en-us/library/hh379434\(v=office.15\)) control in Microsoft Lync Control applications to display and change the user’s current presence status selection. Clicking the control displays a list of presence status options, for example "Be Right Back." The user can change their presence status by selecting one of these options. The MyPresenceChooser control includes the ability to show and select custom presence states. This control can only be applied to the currently signed-in user and therefore does not have a Source property.
+Use the [MyPresenceChooser](https://msdn.microsoft.com/library/hh379434\(v=office.15\)) control in Microsoft Lync Control applications to display and change the user’s current presence status selection. Clicking the control displays a list of presence status options, for example "Be Right Back." The user can change their presence status by selecting one of these options. The MyPresenceChooser control includes the ability to show and select custom presence states. This control can only be applied to the currently signed-in user and therefore does not have a Source property.
 
 ![MyPresenceChooser Control](images/JJ933130.MyPresenceChooserControl(Office.15).png "MyPresenceChooser Control")
 
 ## Members
 
-Notable MyPresenceChooser control public properties and events relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](https://msdn.microsoft.com/en-us/library/jj933088\(v=office.15\)).
+Notable MyPresenceChooser control public properties and events relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](https://msdn.microsoft.com/library/jj933088\(v=office.15\)).
 
 <table>
 <colgroup>
@@ -60,11 +60,11 @@ Notable MyPresenceChooser control public properties and events relating to unifi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363484(v=office.15)">DisplayName</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363484(v=office.15)">DisplayName</a> property</p></td>
 <td><p>Gets the display name of the currently logged-in user.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363408(v=office.15)">AvailabilityState</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363408(v=office.15)">AvailabilityState</a> property</p></td>
 <td><p>Gets an enumerated value that represents the currently signed-in user’s availability. The type is a ContactAvailability enumeration. Possible values:</p>
 <ul>
 <li><p>Invalid</p></li>

@@ -2,7 +2,7 @@
 title: otherOptions/EnableContactSyncUserOption element
 TOCTitle: otherOptions/EnableContactSyncUserOption element
 ms:assetid: 3618797a-28b0-4f43-b72f-47e62ec6ad69
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454774(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454774(v=office.15)
 ms:contentKeyID: 57093661
 ms.date: 07/24/2014
 mtps_version: v=office.15

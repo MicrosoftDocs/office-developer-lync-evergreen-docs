@@ -2,7 +2,7 @@
 title: routing category instance value element
 TOCTitle: routing category instance value element
 ms:assetid: 6dd52f88-c675-4d69-8812-6f275f5d739b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454776(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454776(v=office.15)
 ms:contentKeyID: 57093662
 ms.date: 07/24/2014
 mtps_version: v=office.15

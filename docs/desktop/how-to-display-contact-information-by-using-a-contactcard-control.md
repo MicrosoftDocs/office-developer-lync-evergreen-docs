@@ -2,7 +2,7 @@
 title: 'How to: Display contact information by using a ContactCard control'
 TOCTitle: 'How to: Display contact information by using a ContactCard control'
 ms:assetid: 1b33e2d8-8df1-40e8-9354-9dedefa0b22e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937272(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937272(v=office.15)
 ms:contentKeyID: 50877092
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -47,7 +47,7 @@ The prerequisites for displaying contact information are as follows:
 
 ### Core concepts to know
 
-The [Microsoft.Lync.Controls.ContactCard](https://msdn.microsoft.com/en-us/library/hh379168\(v=office.15\)) control is dragged from the Lync toolbox onto the Visual Studio design surface and dropped into a container control such as a **Grid** or **StackPanel**. After setting the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property, the ContactCard control displays the contact information of a user.
+The [Microsoft.Lync.Controls.ContactCard](https://msdn.microsoft.com/library/hh379168\(v=office.15\)) control is dragged from the Lync toolbox onto the Visual Studio design surface and dropped into a container control such as a **Grid** or **StackPanel**. After setting the [Source](https://msdn.microsoft.com/library/hh363511\(v=office.15\)) property, the ContactCard control displays the contact information of a user.
 
 <table>
 <colgroup>
@@ -63,14 +63,14 @@ The [Microsoft.Lync.Controls.ContactCard](https://msdn.microsoft.com/en-us/libra
 <tbody>
 <tr class="odd">
 <td><p><a href="control-source-property.md">Control Source property</a></p></td>
-<td><p>Describes how to use the <a href="https://msdn.microsoft.com/en-us/library/hh363511(v=office.15)">Source</a> property to set the identity of the user whose contact card is to be shown.</p></td>
+<td><p>Describes how to use the <a href="https://msdn.microsoft.com/library/hh363511(v=office.15)">Source</a> property to set the identity of the user whose contact card is to be shown.</p></td>
 </tr>
 </tbody>
 </table>
 
 ## Create a Silverlight application
 
-Use a [Grid](http://msdn2.microsoft.com/en-us/library/ms610550) as a container for a group of ContactCard controls.
+Use a [Grid](http://msdn2.microsoft.com/library/ms610550) as a container for a group of ContactCard controls.
 
 ### To create the Silverlight application
 

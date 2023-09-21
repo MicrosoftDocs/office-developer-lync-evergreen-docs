@@ -2,7 +2,7 @@
 title: BitRateAvg element  (Lync SDN Interface 2.1.1)
 TOCTitle: BitRateAvg element
 ms:assetid: b189f15e-1db0-6233-587a-3cf2fe78685d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912674(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912674(v=office.15)
 ms:contentKeyID: 64126843
 ms.date: 02/16/2015
 mtps_version: v=office.15

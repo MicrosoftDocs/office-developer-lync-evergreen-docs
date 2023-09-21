@@ -2,7 +2,7 @@
 title: StartOrUpdateType complexType (Lync SDN API Schema A)
 TOCTitle: StartOrUpdateType complexType
 ms:assetid: b6b11311-693e-e822-1686-d805ef035b22
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775150(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775150(v=office.15)
 ms:contentKeyID: 62626124
 ms.date: 07/24/2014
 mtps_version: v=office.15

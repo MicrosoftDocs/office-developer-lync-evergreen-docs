@@ -2,7 +2,7 @@
 title: rccOptions category instance value element
 TOCTitle: rccOptions category instance value element
 ms:assetid: d76e8ffc-4829-4d79-8640-477d3febb6a5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454783(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454783(v=office.15)
 ms:contentKeyID: 57093668
 ms.date: 07/24/2014
 mtps_version: v=office.15

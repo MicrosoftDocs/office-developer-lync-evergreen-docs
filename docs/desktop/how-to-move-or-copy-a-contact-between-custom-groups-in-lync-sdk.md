@@ -2,7 +2,7 @@
 title: 'How to: Move or copy a contact between custom groups in Lync SDK'
 TOCTitle: 'How to: Move or copy a contact between custom groups'
 ms:assetid: f3a39bc2-0648-4eb0-8444-99ad8363a65a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933228(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933228(v=office.15)
 ms:contentKeyID: 50877372
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -73,9 +73,9 @@ Contacts and groups are available when the user is signed in to Lync 2013. Read 
 
 1.  Get the name of the custom group to which the contact is to be moved.
 
-2.  Get the [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) object from the groups collection returned by the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property based on the group name.
+2.  Get the [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/library/jj266012\(v=office.15\)) object from the groups collection returned by the [ContactManager.Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) property based on the group name.
 
-3.  Move the contact by specifying the target group and source group by calling the [Contact.BeginMoveToGroup](https://msdn.microsoft.com/en-us/library/jj294107\(v=office.15\)) method.
+3.  Move the contact by specifying the target group and source group by calling the [Contact.BeginMoveToGroup](https://msdn.microsoft.com/library/jj294107\(v=office.15\)) method.
     
     The following example gets a group based on a group name and then moves a contact from a source group to the target group.
     
@@ -111,9 +111,9 @@ Contacts and groups are available when the user is signed in to Lync 2013. Read 
 
 1.  Get the name of the custom group to which the contact is to be copied.
 
-2.  Get the [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) object from the groups collection returned by the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property based on the group name.
+2.  Get the [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/library/jj266012\(v=office.15\)) object from the groups collection returned by the [ContactManager.Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) property based on the group name.
 
-3.  Copy the contact by calling the [Group.BeginAddContact](https://msdn.microsoft.com/en-us/library/jj275692\(v=office.15\)) method on the target group.
+3.  Copy the contact by calling the [Group.BeginAddContact](https://msdn.microsoft.com/library/jj275692\(v=office.15\)) method on the target group.
     
     The following example gets a group based on a group name and then moves a contact from a source group to the target group.
     

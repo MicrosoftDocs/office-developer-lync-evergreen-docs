@@ -2,7 +2,7 @@
 title: calendarData/WorkingHours/DayOfWeek element
 TOCTitle: calendarData/WorkingHours/DayOfWeek element
 ms:assetid: 2e29261a-8cdf-4581-b74c-cffcce697bb1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454702(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454702(v=office.15)
 ms:contentKeyID: 57093384
 ms.date: 07/24/2014
 mtps_version: v=office.15

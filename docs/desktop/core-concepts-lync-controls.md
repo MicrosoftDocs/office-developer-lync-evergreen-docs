@@ -2,7 +2,7 @@
 title: 'Core concepts: Lync Controls'
 TOCTitle: Lync Controls
 ms:assetid: 1f73b58b-dfe3-49ea-8085-fda658904b36
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937276(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937276(v=office.15)
 ms:contentKeyID: 50877098
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Determine message origin in federated networks (FederationEdge sample)
 TOCTitle: Determine message origin in federated networks (FederationEdge sample)
 ms:assetid: cfd903a5-bed1-4458-bb51-76b28faeb4ef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439093(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439093(v=office.15)
 ms:contentKeyID: 57096247
 ms.date: 07/24/2014
 mtps_version: v=office.15

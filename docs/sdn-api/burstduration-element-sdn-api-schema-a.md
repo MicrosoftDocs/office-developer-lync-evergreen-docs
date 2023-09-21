@@ -2,7 +2,7 @@
 title: BurstDuration element (Lync SDN API Schema A)
 TOCTitle: BurstDuration element
 ms:assetid: 68273225-955f-267d-4963-6f77cb3fcf34
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454987(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454987(v=office.15)
 ms:contentKeyID: 57260869
 ms.date: 07/24/2014
 mtps_version: v=office.15

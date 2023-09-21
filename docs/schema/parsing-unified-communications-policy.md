@@ -2,7 +2,7 @@
 title: Parsing unified communications policy
 TOCTitle: Parsing unified communications policy
 ms:assetid: 267ee7d8-64b1-471c-afc4-a54fdf970be7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454659(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454659(v=office.15)
 ms:contentKeyID: 57093268
 ms.date: 07/24/2014
 mtps_version: v=office.15

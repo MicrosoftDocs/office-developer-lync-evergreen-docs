@@ -2,7 +2,7 @@
 title: Call park
 TOCTitle: Call park
 ms:assetid: 555e8378-4124-49d8-bada-08dc636bde33
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466006(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466006(v=office.15)
 ms:contentKeyID: 57102971
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -17,11 +17,11 @@ An application might find it necessary to place a caller on hold temporarily, an
 
 The first two methods in the following list can be used to park a call. The last two methods in the list can be used to retrieve a parked call.
 
-  - [BeginPark](https://msdn.microsoft.com/en-us/library/hh384250\(v=office.15\))
+  - [BeginPark](https://msdn.microsoft.com/library/hh384250\(v=office.15\))
 
-  - [EndPark](https://msdn.microsoft.com/en-us/library/hh349305\(v=office.15\))
+  - [EndPark](https://msdn.microsoft.com/library/hh349305\(v=office.15\))
 
-  - [BeginEstablish](https://msdn.microsoft.com/en-us/library/hh349055\(v=office.15\))
+  - [BeginEstablish](https://msdn.microsoft.com/library/hh349055\(v=office.15\))
 
-  - [EndEstablish](https://msdn.microsoft.com/en-us/library/hh349248\(v=office.15\))
+  - [EndEstablish](https://msdn.microsoft.com/library/hh349248\(v=office.15\))
 

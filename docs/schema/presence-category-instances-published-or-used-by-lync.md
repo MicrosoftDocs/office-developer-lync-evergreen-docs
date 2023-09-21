@@ -2,7 +2,7 @@
 title: Presence category instances published or used by Lync
 TOCTitle: Presence category instances published or used by Lync
 ms:assetid: b2a4f2dd-cf64-4249-9f96-b45a97fbd1cb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454672(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454672(v=office.15)
 ms:contentKeyID: 57093184
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: publicationList element
 TOCTitle: publicationList element
 ms:assetid: 3f3606c6-dd73-4f76-b1fc-1c4bd173046f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438995(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438995(v=office.15)
 ms:contentKeyID: 57094036
 ms.date: 07/24/2014
 mtps_version: v=office.15

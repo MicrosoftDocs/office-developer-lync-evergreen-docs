@@ -2,7 +2,7 @@
 title: Build enhanced access control list (EnhancedAllowList sample)
 TOCTitle: Build enhanced access control list (EnhancedAllowList sample)
 ms:assetid: 366c56b5-3888-418c-a682-6d1cfdfabb1c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439096(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439096(v=office.15)
 ms:contentKeyID: 57096249
 ms.date: 07/24/2014
 mtps_version: v=office.15

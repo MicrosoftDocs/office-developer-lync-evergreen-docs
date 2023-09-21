@@ -2,7 +2,7 @@
 title: 'How to: Install a CWE application in Lync SDK'
 TOCTitle: 'How to: Install a CWE application'
 ms:assetid: 8a524495-776b-461e-a6e4-03cdad90c239
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933101(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933101(v=office.15)
 ms:contentKeyID: 50877233
 ms.date: 07/24/2014
 mtps_version: v=office.15

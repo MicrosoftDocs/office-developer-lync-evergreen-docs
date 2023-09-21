@@ -2,7 +2,7 @@
 title: Version compatibility (Lync Server 2013 Persistent Chat SDK)
 TOCTitle: Version compatibility
 ms:assetid: 35a29ae8-a667-4215-a487-0f530bfc34a8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465897(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465897(v=office.15)
 ms:contentKeyID: 57101345
 ms.date: 07/24/2014
 mtps_version: v=office.15

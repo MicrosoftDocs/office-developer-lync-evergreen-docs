@@ -2,7 +2,7 @@
 title: Properties element (ErrorType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Properties element (ErrorType complexType)
 ms:assetid: 95d69869-e84b-eb40-2e76-5717ada715b3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912782(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912782(v=office.15)
 ms:contentKeyID: 64126951
 ms.date: 02/16/2015
 mtps_version: v=office.15

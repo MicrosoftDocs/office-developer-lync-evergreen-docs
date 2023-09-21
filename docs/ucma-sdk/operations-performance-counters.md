@@ -2,7 +2,7 @@
 title: Operations performance counters
 TOCTitle: Operations performance counters
 ms:assetid: 236d3a62-080c-4138-b281-1f4ce7373b85
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466087(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466087(v=office.15)
 ms:contentKeyID: 57103175
 ms.date: 07/25/2014
 mtps_version: v=office.15

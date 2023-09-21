@@ -2,7 +2,7 @@
 title: otherOptions/voiceMailLastAccessTimestamp element
 TOCTitle: otherOptions/voiceMailLastAccessTimestamp element
 ms:assetid: 25d2d5a8-aefc-4849-b827-3793e0ac9305
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454768(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454768(v=office.15)
 ms:contentKeyID: 57093655
 ms.date: 07/24/2014
 mtps_version: v=office.15

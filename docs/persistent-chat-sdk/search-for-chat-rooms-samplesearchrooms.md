@@ -2,7 +2,7 @@
 title: Search for chat rooms (SampleSearchRooms)
 TOCTitle: Search for chat rooms (SampleSearchRooms)
 ms:assetid: 3eaa91b7-b4e5-493d-8e2a-9d42bda43bae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465917(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465917(v=office.15)
 ms:contentKeyID: 57101470
 ms.date: 07/24/2014
 mtps_version: v=office.15

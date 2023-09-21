@@ -2,7 +2,7 @@
 title: EndPoint element (Ended element) (Lync SDN API Schema A)
 TOCTitle: EndPoint element (Ended element) (LyncDiagnostics element)
 ms:assetid: e63f3c63-61a4-d8e4-173a-8dd5ec28cf59
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455035(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455035(v=office.15)
 ms:contentKeyID: 57260912
 ms.date: 07/24/2014
 mtps_version: v=office.15

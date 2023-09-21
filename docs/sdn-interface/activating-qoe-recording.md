@@ -2,7 +2,7 @@
 title: Activating QoE recording
 TOCTitle: Activating QoE recording
 ms:assetid: 32254d29-c4be-4d1d-80c1-3ec766f2b6f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn806347(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn806347(v=office.15)
 ms:contentKeyID: 63005955
 ms.date: 02/11/2016
 mtps_version: v=office.15
@@ -16,7 +16,7 @@ dev_langs:
  
 If Quality of Experience (QoE) recording has not been activated in the Lync Monintoring server, you must activate it before installing the Lync Software Defined Network (SDN) Interface 2.1.1. You can verify and activate the QoE recording in one of the two ways:
 
-- [Using the Lync Server Control Panel](https://technet.microsoft.com/en-us/library/gg520943\(v=ocs.14\).aspx)
+- [Using the Lync Server Control Panel](https://technet.microsoft.com/library/gg520943\(v=ocs.14\).aspx)
 - [Using the Lync server Management Shell commands](https://technet.microsoft.com/library/gg398474\(v=ocs.15\).aspx)
 
 ## Verify and activate QoE recording using Lync Server Management Shell commands
@@ -35,7 +35,7 @@ Set-CsQoEConfiguration -Identity site:W15Topology -EnableQoE $True
 
 Here, W15Toplogy is the site name assigned to the Lync Server deployment.
 
-For detailed information about the PowerShell commands, see [Lync Server Management Shell cmdlet](http://technet.microsoft.com/en-us/library/gg399004.aspx).
+For detailed information about the PowerShell commands, see [Lync Server Management Shell cmdlet](http://technet.microsoft.com/library/gg399004.aspx).
 
 ## Verify and activate QoE recording using the Lync Server Control Panel
 

@@ -2,7 +2,7 @@
 title: SpeechRecognitionConnector (QuickStart)
 TOCTitle: SpeechRecognitionConnector (QuickStart)
 ms:assetid: 989144b9-9967-4bd2-99cf-71530111566d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454828(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454828(v=office.15)
 ms:contentKeyID: 57103730
 ms.date: 07/25/2014
 mtps_version: v=office.15

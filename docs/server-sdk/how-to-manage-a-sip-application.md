@@ -2,7 +2,7 @@
 title: 'How to: Manage a SIP application'
 TOCTitle: 'How to: Manage a SIP application'
 ms:assetid: f82cabc4-119d-4d54-a87c-798be642c305
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439087(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439087(v=office.15)
 ms:contentKeyID: 57096670
 ms.date: 07/24/2014
 mtps_version: v=office.15

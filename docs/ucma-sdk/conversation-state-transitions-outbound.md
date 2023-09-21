@@ -2,7 +2,7 @@
 title: Conversation state transitions - outbound
 TOCTitle: Conversation state transitions - outbound
 ms:assetid: 10020cc8-7fba-4de3-8f23-624908ad7720
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465998(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465998(v=office.15)
 ms:contentKeyID: 57102970
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-The [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) state transitions for outbound calls are shown in the following illustration.
+The [Conversation](https://msdn.microsoft.com/library/hh349224\(v=office.15\)) state transitions for outbound calls are shown in the following illustration.
 
 ![Conversation state transitions for outbound calls](images/Dn465998.StateMach_Conversation-Out(Office.15).jpg "Conversation state transitions for outbound calls")
 

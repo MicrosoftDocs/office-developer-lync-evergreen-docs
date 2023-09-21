@@ -2,7 +2,7 @@
 title: containers element
 TOCTitle: containers element
 ms:assetid: 777727cd-d355-4f2c-8359-3bf540841fef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438985(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438985(v=office.15)
 ms:contentKeyID: 57094029
 ms.date: 07/24/2014
 mtps_version: v=office.15

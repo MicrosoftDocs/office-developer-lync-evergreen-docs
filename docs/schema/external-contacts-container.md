@@ -2,7 +2,7 @@
 title: External Contacts container
 TOCTitle: External Contacts container
 ms:assetid: 1fbc9b37-1e50-4358-8a69-45821c918069
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454727(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454727(v=office.15)
 ms:contentKeyID: 57093428
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Get started with Persistent Chat
 TOCTitle: Persistent Chat
 ms:assetid: 98b3c720-5693-4354-bc96-0ef14f369151
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933122(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933122(v=office.15)
 ms:contentKeyID: 50877257
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -28,7 +28,7 @@ Learn about the programming concepts and Microsoft Lync 2013 SDK object model th
 
 ## What is Persistent Chat?
 
-The classes in the Persistent Chat [Microsoft.Lync.Model.Room](https://msdn.microsoft.com/en-us/library/jj277187\(v=office.15\)) namespace are the building blocks for features that range from chat room activity feeds, through chat room extensions called "add-on" applications, and to complete Persistent Chat room client applications. You can get chat rooms, join chat rooms, read chat room messages, and post chat room messages. You can also catch posts from the local user before they are posted if you need to filter, format, or cancel them.
+The classes in the Persistent Chat [Microsoft.Lync.Model.Room](https://msdn.microsoft.com/library/jj277187\(v=office.15\)) namespace are the building blocks for features that range from chat room activity feeds, through chat room extensions called "add-on" applications, and to complete Persistent Chat room client applications. You can get chat rooms, join chat rooms, read chat room messages, and post chat room messages. You can also catch posts from the local user before they are posted if you need to filter, format, or cancel them.
 
 A chat room add-in allows you to create features such as a bot feed that automatically formats and posts messages to a chat room. It is also possible to create an add-in application that can read the complete history of posts in a room and parse the posts for interesting keywords and concepts.
 <a name="Start"></a> 

@@ -2,7 +2,7 @@
 title: contactCard/address/countrycode element
 TOCTitle: contactCard/address/countrycode element
 ms:assetid: e67f2de7-0ced-4fe7-b628-8bd33c0b8f10
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454711(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454711(v=office.15)
 ms:contentKeyID: 57093398
 ms.date: 07/24/2014
 mtps_version: v=office.15

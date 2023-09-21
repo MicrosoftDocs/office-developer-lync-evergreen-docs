@@ -2,7 +2,7 @@
 title: Shareable content event handling
 TOCTitle: Shareable content event handling
 ms:assetid: cbe90800-5c33-4b51-a9cb-9fde695411c7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933192(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933192(v=office.15)
 ms:contentKeyID: 50877334
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ dev_langs:
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about making your Microsoft Lync 2013 SDK-enabled application UI more responsive by handling events raised on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) class.
+Learn about making your Microsoft Lync 2013 SDK-enabled application UI more responsive by handling events raised on the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) class.
 
 
 
@@ -39,13 +39,13 @@ Additional resources</p></td>
 
 A shared content bin item allows your application to perform any of six different operations on it, depending on the state of the item. In addition, properties of a shared content item can change during a conversation and a properly designed application UI should be responsive to such property changes.
 
-The three events exposed by the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) class are as follows:
+The three events exposed by the [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) class are as follows:
 
-  - [ShareableContent.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj267657\(v=office.15\))
+  - [ShareableContent.ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj267657\(v=office.15\))
 
-  - [ShareableContent.PropertyChanged](https://msdn.microsoft.com/en-us/library/jj266446\(v=office.15\))
+  - [ShareableContent.PropertyChanged](https://msdn.microsoft.com/library/jj266446\(v=office.15\))
 
-  - [ShareableContent.StateChanged](https://msdn.microsoft.com/en-us/library/jj276344\(v=office.15\))
+  - [ShareableContent.StateChanged](https://msdn.microsoft.com/library/jj276344\(v=office.15\))
 
 ### ActionAvailabilityChanged event
 
@@ -63,7 +63,7 @@ The actions that you can perform on a shareable content item include:
 
   - Removing a shared content item from the sharing stage and putting it back into the content bin.
 
-The availability of these actions depends on the current state of a shareable content item. For example, a shareable content item that is in the active state does not allow the [ShareableContent.Present](https://msdn.microsoft.com/en-us/library/jj276346\(v=office.15\)) operation because it is already being presented on the sharing stage. As the state of a shareable content object changes and actions become available or unavailable, this event is raised. Use the event handler to enable or disable command buttons on your UI. You should register for this event in the event handler for the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/en-us/library/jj293541\(v=office.15\)) event.
+The availability of these actions depends on the current state of a shareable content item. For example, a shareable content item that is in the active state does not allow the [ShareableContent.Present](https://msdn.microsoft.com/library/jj276346\(v=office.15\)) operation because it is already being presented on the sharing stage. As the state of a shareable content object changes and actions become available or unavailable, this event is raised. Use the event handler to enable or disable command buttons on your UI. You should register for this event in the event handler for the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\)) event.
 
 The following event handler enables or disables command buttons according to the current availability of an action on a **ShareableContent** object.
 
@@ -107,7 +107,7 @@ The following event handler enables or disables command buttons according to the
 
 ### StateChanged event
 
-A properly designed application UI should show users the current state of all items in the conversation sharing content bin. To do this, you must register for the **StateChanged** event on each shareable content item as it is added to the content bin. The registration should be done in the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/en-us/library/jj293541\(v=office.15\)) event.
+A properly designed application UI should show users the current state of all items in the conversation sharing content bin. To do this, you must register for the **StateChanged** event on each shareable content item as it is added to the content bin. The registration should be done in the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\)) event.
 
 The following example updates a content bin list in the UI with the current state of a shareable item.
 
@@ -129,7 +129,7 @@ The following example updates a content bin list in the UI with the current stat
 
 ### PropertyChanged event
 
-Several properties of a shareable content item can be changed over time, two of which can be changed by a conversation participant. The [ShareableContentProperty](https://msdn.microsoft.com/en-us/library/jj293192\(v=office.15\))**.Title** property is changed when the item owner renames the item and the [ShareableContentProperty](https://msdn.microsoft.com/en-us/library/jj293192\(v=office.15\))**.Presenter** property is changed when a different participant takes over as presenter.
+Several properties of a shareable content item can be changed over time, two of which can be changed by a conversation participant. The [ShareableContentProperty](https://msdn.microsoft.com/library/jj293192\(v=office.15\))**.Title** property is changed when the item owner renames the item and the [ShareableContentProperty](https://msdn.microsoft.com/library/jj293192\(v=office.15\))**.Presenter** property is changed when a different participant takes over as presenter.
 
 The following example writes to the system console with the ID of a content bin item and the new title.
 

@@ -2,7 +2,7 @@
 title: AVFlow-ApplyChanges (QuickStart)
 TOCTitle: AVFlow-ApplyChanges (QuickStart)
 ms:assetid: 6bf7708b-ca30-4418-b36f-5f4e91141ca6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466136(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466136(v=office.15)
 ms:contentKeyID: 57103449
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ mtps_version: v=office.15
 
 Sample location: %ProgramFiles%\\Microsoft UCMA 4.0\\SDK\\Core\\Sample Applications\\QuickStarts\\AudioVideoCall\\AVFlow-ApplyChanges
 
-Apply a configuration change to an active [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instance.
+Apply a configuration change to an active [AudioVideoFlow](https://msdn.microsoft.com/library/hh383533\(v=office.15\)) instance.
 
 ## Description
 

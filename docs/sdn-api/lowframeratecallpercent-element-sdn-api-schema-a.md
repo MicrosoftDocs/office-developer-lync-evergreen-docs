@@ -2,7 +2,7 @@
 title: LowFrameRateCallPercent element  (Lync SDN API Schema A)
 TOCTitle: LowFrameRateCallPercent element
 ms:assetid: 47b0e94a-dd66-4de0-5eef-0eae335f9bf2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439236(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439236(v=office.15)
 ms:contentKeyID: 57260971
 ms.date: 07/24/2014
 mtps_version: v=office.15

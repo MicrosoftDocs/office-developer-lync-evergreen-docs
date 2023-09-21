@@ -2,7 +2,7 @@
 title: DeclineIncomingCall (QuickStart)
 TOCTitle: DeclineIncomingCall (QuickStart)
 ms:assetid: 72db6c20-e348-489d-bf98-160d72329a4d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454825(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454825(v=office.15)
 ms:contentKeyID: 57103684
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -31,7 +31,7 @@ The sample expects a user logged on to a client (such as Microsoft Lync 2013) to
 
   - Handling of incoming instant messages
 
-  - [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.15\)) handling and control
+  - [InstantMessagingFlow](https://msdn.microsoft.com/library/hh383312\(v=office.15\)) handling and control
 
 ## Prerequisites
 

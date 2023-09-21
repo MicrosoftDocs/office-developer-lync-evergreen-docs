@@ -2,7 +2,7 @@
 title: services/service element
 TOCTitle: services/service element
 ms:assetid: 3d28aa35-3dc9-417f-a819-4c506d506ab8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454790(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454790(v=office.15)
 ms:contentKeyID: 57093706
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Appendix to Lync SDN Interface 2.1.1
 TOCTitle: Appendix to Lync SDN Interface 2.1.1
 ms:assetid: 96830fcf-2a72-4a2a-8b3b-b523e0e8f4cd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785225(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785225(v=office.15)
 ms:contentKeyID: 62952708
 ms.date: 02/16/2015
 mtps_version: v=office.15

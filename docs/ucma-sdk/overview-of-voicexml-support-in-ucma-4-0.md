@@ -2,7 +2,7 @@
 title: Overview of VoiceXML support in UCMA 4.0
 TOCTitle: Overview of VoiceXML support in UCMA 4.0
 ms:assetid: 309069f8-2e0b-4afb-99b8-bae39aa1d53b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466120(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466120(v=office.15)
 ms:contentKeyID: 57103413
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -13,19 +13,19 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-VoiceXML support in the Microsoft Unified Communications Managed API 4.0 consists of a VoiceXML runtime and the .NET namespace [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml](https://msdn.microsoft.com/en-us/library/gg452705\(v=office.15\)).
+VoiceXML support in the Microsoft Unified Communications Managed API 4.0 consists of a VoiceXML runtime and the .NET namespace [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml](https://msdn.microsoft.com/library/gg452705\(v=office.15\)).
 
-The namespace consists of the [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.15\)) class, which provides access to the VoiceXML runtime and to the telephony and audio functionality in UCMA 4.0. This functionality facilitates automated communication with callers.
+The namespace consists of the [Browser](https://msdn.microsoft.com/library/gg452712\(v=office.15\)) class, which provides access to the VoiceXML runtime and to the telephony and audio functionality in UCMA 4.0. This functionality facilitates automated communication with callers.
 
 
 > [!NOTE]
-> <P><A href="https://msdn.microsoft.com/en-us/library/gg452712(v=office.15)">Browser</A> derives from the <STRONG>Browser</STRONG> class in the <STRONG>Microsoft.Speech.VoiceXml</STRONG> namespace.</P>
+> <P><A href="https://msdn.microsoft.com/library/gg452712(v=office.15)">Browser</A> derives from the <STRONG>Browser</STRONG> class in the <STRONG>Microsoft.Speech.VoiceXml</STRONG> namespace.</P>
 
 
 
 To run a VoiceXML application in UCMA 4.0, you must create a .NET application. Your .NET application answers calls, launches a **Browser** for the VoiceXML session, and responds to **Browser** events. See [Tasks of the host .NET application](tasks-of-the-host-net-application.md) for more information.
 
-Also, your .NET application can track how the VoiceXML interpreter executes elements in VoiceXML documents. You can use the event-driven feedback from VoiceXML processing to identify problem areas or inefficiencies in VoiceXML documents, and to tune the performance of VoiceXML applications. See [Browser Class (Microsoft.Speech)](https://msdn.microsoft.com/en-us/library/hh378332\(v=office.15\)) for more information about the events that a **Browser** instance generates during a VoiceXML session.
+Also, your .NET application can track how the VoiceXML interpreter executes elements in VoiceXML documents. You can use the event-driven feedback from VoiceXML processing to identify problem areas or inefficiencies in VoiceXML documents, and to tune the performance of VoiceXML applications. See [Browser Class (Microsoft.Speech)](https://msdn.microsoft.com/library/hh378332\(v=office.15\)) for more information about the events that a **Browser** instance generates during a VoiceXML session.
 
 ### VoiceXML runtime
 
@@ -43,7 +43,7 @@ While processing the elements in VoiceXML documents, the **Browser** generates e
 
 ## Creating VoiceXML applications
 
-The Unified Communications Managed API (UCMA) 4.0 documentation does not instruct developers on creating VoiceXML applications. See the [VoiceXML Tutorial](http://msdnstage.redmond.corp.microsoft.com/en-us/library/ff770014.aspx) on MSDN for instructions and examples that will introduce you to VoiceXML authoring.
+The Unified Communications Managed API (UCMA) 4.0 documentation does not instruct developers on creating VoiceXML applications. See the [VoiceXML Tutorial](http://msdnstage.redmond.corp.microsoft.com/library/ff770014.aspx) on MSDN for instructions and examples that will introduce you to VoiceXML authoring.
 
 Additional resources include the following specifications of the World Wide Web Consortium (W3C):
 

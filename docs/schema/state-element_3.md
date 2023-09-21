@@ -2,7 +2,7 @@
 title: state[@type='calendarState'] element
 TOCTitle: state[@type='calendarState'] element
 ms:assetid: 04adaa64-0b8f-48fe-9091-2f2ed55f8595
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454807(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454807(v=office.15)
 ms:contentKeyID: 57093912
 ms.date: 07/24/2014
 mtps_version: v=office.15

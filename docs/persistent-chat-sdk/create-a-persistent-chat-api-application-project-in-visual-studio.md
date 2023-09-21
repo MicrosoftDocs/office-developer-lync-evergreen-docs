@@ -2,7 +2,7 @@
 title: Create a Persistent Chat API application project in Visual Studio
 TOCTitle: Create a Persistent Chat API application project in Visual Studio
 ms:assetid: fe81a4f8-13d7-4386-b806-807a3ca81ef9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439208(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439208(v=office.15)
 ms:contentKeyID: 57101341
 ms.date: 07/24/2014
 mtps_version: v=office.15

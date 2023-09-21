@@ -2,7 +2,7 @@
 title: Route element (QualityType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Route element (QualityType complexType)
 ms:assetid: 72659013-db17-76b6-d33a-0959f34d0029
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912820(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912820(v=office.15)
 ms:contentKeyID: 64126989
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'Beyond the basics: Lync meetings'
 TOCTitle: Lync meetings
 ms:assetid: c6fa87ea-8c5a-4bbd-9ec0-acb36c792931
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933185(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933185(v=office.15)
 ms:contentKeyID: 50877327
 ms.date: 07/24/2014
 mtps_version: v=office.15

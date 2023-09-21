@@ -2,7 +2,7 @@
 title: AudioTimestampErrorMicMs element  (Lync SDN Interface 2.1.1)
 TOCTitle: AudioTimestampErrorMicMs element
 ms:assetid: bc9c576f-3337-4ac7-58a9-0669094843b9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912668(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912668(v=office.15)
 ms:contentKeyID: 64126838
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'How to: Create an application manifest'
 TOCTitle: 'How to: Create an application manifest'
 ms:assetid: ad200e17-2e8f-44b7-933f-7f0445462acf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439077(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439077(v=office.15)
 ms:contentKeyID: 57096671
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -36,7 +36,7 @@ MSPL script-only applications are appropriate for the following scenarios:
     
 
     > [!NOTE]
-    > <P>For information about the descriptions of the functionality that MSPL supports, see <A href="https://msdn.microsoft.com/en-us/library/hh364711(v=office.15)">Microsoft SIP Processing Language Reference</A>.</P>
+    > <P>For information about the descriptions of the functionality that MSPL supports, see <A href="https://msdn.microsoft.com/library/hh364711(v=office.15)">Microsoft SIP Processing Language Reference</A>.</P>
 
 
 
@@ -108,7 +108,7 @@ For managed SIP applications, either save the manifest as a text file with the .
 
 #### Other resources
 
-[applicationManifest element](https://msdn.microsoft.com/en-us/library/hh364639\(v=office.15\))
+[applicationManifest element](https://msdn.microsoft.com/library/hh364639\(v=office.15\))
 
-[splScript element](https://msdn.microsoft.com/en-us/library/hh364698\(v=office.15\))
+[splScript element](https://msdn.microsoft.com/library/hh364698\(v=office.15\))
 

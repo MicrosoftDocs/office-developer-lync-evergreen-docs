@@ -2,7 +2,7 @@
 title: MediaBypass element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: MediaBypass element
 ms:assetid: 225e51b3-125f-dac5-aef1-ff3a16d4f500
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912757(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912757(v=office.15)
 ms:contentKeyID: 64126927
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: MSPL Script Syntax (Lync Server 2013 Preview SDK)
 TOCTitle: MSPL Script Syntax (Lync Server 2013 Preview SDK)
 ms:assetid: a9d51eef-2c32-49db-9f85-ab834ed96c5b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439066(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439066(v=office.15)
 ms:contentKeyID: 57096224
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -119,7 +119,7 @@ For example:
     foreach (dbEndpoint in QueryEndpoints("someone@example.com")) { ...
     }
 
-The expression evaluates to a collection. Strings and other unary types are treated as single-item collections. Collections cannot be created except by calling a built-in function that returns a collection (such as [QueryEndpoints](https://msdn.microsoft.com/en-us/library/hh364763\(v=office.15\))) or by referencing a built-in variable that contains a collection.
+The expression evaluates to a collection. Strings and other unary types are treated as single-item collections. Collections cannot be created except by calling a built-in function that returns a collection (such as [QueryEndpoints](https://msdn.microsoft.com/library/hh364763\(v=office.15\))) or by referencing a built-in variable that contains a collection.
 
 Inside a **foreach** loop, the **continue** statement is used to jump to the next iteration of the loop, ignoring any processing statements subsequent to the **continue** statement before the end of the loop.
 
@@ -210,7 +210,7 @@ The \<file\> element as it might appear in an application manifest file appears 
 
 The handle name for the file in this example is "exampleFile", and it is a csv file. When the application loads this file in memory, it creates a hash table that contains two columns named "keyHostName" and "valueTargetName." By assigning the value "keyHostName" to the **keyColumnName** attribute, the example indicates that the values that are contained in the "keyHostName" column serves as key string indexers for the in-memory hash table.
 
-For more information about the content of the \<file\> element, see [file Element](https://msdn.microsoft.com/en-us/library/hh347232\(v=office.15\)).
+For more information about the content of the \<file\> element, see [file Element](https://msdn.microsoft.com/library/hh347232\(v=office.15\)).
 
 In the following example script, the **GetHostName** function gets the host name piece of a URI. The MSPL expression on the right side uses the host name as the key string index to look up the corresponding value string in the "valueTargetHost" column of the hash table that is created for "exampleFile", and assigns this value to "targetHost."
 

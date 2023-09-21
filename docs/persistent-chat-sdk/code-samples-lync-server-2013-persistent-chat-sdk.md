@@ -2,7 +2,7 @@
 title: Code samples (Lync Server 2013 Persistent Chat SDK)
 TOCTitle: Code samples
 ms:assetid: 8e963d23-6e9f-4e73-aaa2-8a3044db788a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465915(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465915(v=office.15)
 ms:contentKeyID: 57101440
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: EchoPercentMicIn element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: EchoPercentMicIn element
 ms:assetid: 92e00805-f97d-e16a-9915-f6fdeda173fe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912720(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912720(v=office.15)
 ms:contentKeyID: 64126890
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Personas
 TOCTitle: Personas
 ms:assetid: c033d25f-e55a-449d-b697-f93f64cee0a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465949(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465949(v=office.15)
 ms:contentKeyID: 57102441
 ms.date: 07/25/2014
 mtps_version: v=office.15

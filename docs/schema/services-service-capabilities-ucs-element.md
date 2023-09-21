@@ -2,7 +2,7 @@
 title: services/service/capabilities/ucs element
 TOCTitle: services/service/capabilities/ucs element
 ms:assetid: a3dfca02-02c5-4fb2-942f-467d935f5d87
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454798(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454798(v=office.15)
 ms:contentKeyID: 57093856
 ms.date: 07/24/2014
 mtps_version: v=office.15

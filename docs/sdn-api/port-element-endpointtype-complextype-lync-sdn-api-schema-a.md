@@ -2,7 +2,7 @@
 title: Port element (EndPointType complexType) (Lync SDN API Schema A)
 TOCTitle: Port element (EndPointType complexType)
 ms:assetid: 5991951b-49fe-b8a2-7e2e-dff2c1705ce1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775132(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775132(v=office.15)
 ms:contentKeyID: 62626105
 ms.date: 07/24/2014
 mtps_version: v=office.15

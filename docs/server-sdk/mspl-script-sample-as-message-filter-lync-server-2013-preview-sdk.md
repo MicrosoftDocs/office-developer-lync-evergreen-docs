@@ -2,7 +2,7 @@
 title: MSPL Script Sample as Message Filter (Lync Server 2013 Preview SDK)
 TOCTitle: MSPL Script Sample as Message Filter (Lync Server 2013 Preview SDK)
 ms:assetid: 3c376523-4d91-41db-9c80-e842784b58d7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439065(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439065(v=office.15)
 ms:contentKeyID: 57096221
 ms.date: 07/24/2014
 mtps_version: v=office.15

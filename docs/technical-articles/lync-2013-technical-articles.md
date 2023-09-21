@@ -2,7 +2,7 @@
 title: Lync 2013 technical articles
 TOCTitle: '@NoTitle'
 ms:assetid: 19a8651d-2fb4-44a5-bf83-d6ae5291cce0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn194142(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn194142(v=office.15)
 ms:contentKeyID: 52822158
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -21,5 +21,5 @@ This section of the MSDN Library provides technical articles to help you get sta
 ## See also
 
 - [Lync 2013](../lync-2013.md)
-- [Lync](http://msdn.microsoft.com/en-us/library/gg455051\(v=office.14\).aspx)
+- [Lync](http://msdn.microsoft.com/library/gg455051\(v=office.14\).aspx)
 

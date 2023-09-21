@@ -2,7 +2,7 @@
 title: ResponseCodeType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: ResponseCodeType complexType
 ms:assetid: 05b05df9-1ac9-92e2-36d2-cce2bb3cd400
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912861(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912861(v=office.15)
 ms:contentKeyID: 64127029
 ms.date: 02/16/2015
 mtps_version: v=office.15

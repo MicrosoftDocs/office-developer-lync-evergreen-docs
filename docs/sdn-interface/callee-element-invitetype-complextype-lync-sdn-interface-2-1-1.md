@@ -2,7 +2,7 @@
 title: Callee element (InviteType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Callee element
 ms:assetid: ac6569c4-002f-dc94-0ab2-543eac6d1ef1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912684(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912684(v=office.15)
 ms:contentKeyID: 64126853
 ms.date: 02/16/2015
 mtps_version: v=office.15

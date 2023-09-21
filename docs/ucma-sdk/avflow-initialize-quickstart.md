@@ -2,7 +2,7 @@
 title: AVFlow-Initialize (QuickStart)
 TOCTitle: AVFlow-Initialize (QuickStart)
 ms:assetid: 2e489f3a-14ab-4632-99c2-94da0b12827e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466140(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466140(v=office.15)
 ms:contentKeyID: 57103465
 ms.date: 07/25/2014
 mtps_version: v=office.15

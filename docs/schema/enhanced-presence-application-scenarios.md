@@ -2,7 +2,7 @@
 title: Enhanced Presence application scenarios
 TOCTitle: Enhanced Presence application scenarios
 ms:assetid: 388b0401-4757-4ed0-ae54-5e3e1a254d9f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454617(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454617(v=office.15)
 ms:contentKeyID: 57092866
 ms.date: 07/24/2014
 mtps_version: v=office.15

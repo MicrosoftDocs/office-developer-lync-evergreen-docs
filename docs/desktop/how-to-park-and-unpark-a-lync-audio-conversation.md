@@ -2,7 +2,7 @@
 title: 'How to: Park and unpark a Lync audio conversation'
 TOCTitle: 'How to: Park and unpark a Lync audio conversation'
 ms:assetid: 4fcc4bf9-ee96-44c1-b5e6-5ff19944b093
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937317(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937317(v=office.15)
 ms:contentKeyID: 50877148
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -63,7 +63,7 @@ Local client resources and network bandwidth resources are not dedicated to main
 </tbody>
 </table>
 
-In the following procedure, a local client application places a conversation on a network call-park service. The procedure concludes by showing how a different user retrieves the parked call represented by the broadcasted orbit. The procedure creates a new conversation and adds the parked call as a participant. To park a call, use the [BeginPark](https://msdn.microsoft.com/en-us/library/jj266985\(v=office.15\)) method of the conversation. When a call is parked, retrieve the call using the [CallParkOrbit](https://msdn.microsoft.com/en-us/library/jj294115\(v=office.15\)) property of the conversation.
+In the following procedure, a local client application places a conversation on a network call-park service. The procedure concludes by showing how a different user retrieves the parked call represented by the broadcasted orbit. The procedure creates a new conversation and adds the parked call as a participant. To park a call, use the [BeginPark](https://msdn.microsoft.com/library/jj266985\(v=office.15\)) method of the conversation. When a call is parked, retrieve the call using the [CallParkOrbit](https://msdn.microsoft.com/library/jj294115\(v=office.15\)) property of the conversation.
 
 <table>
 <colgroup>
@@ -99,7 +99,7 @@ The following figure illustrates the classes, methods, and events used in the pr
 
 ### To park an audio conversation
 
-1.  Declare an instance of [CallParkOrbit](https://msdn.microsoft.com/en-us/library/jj294115\(v=office.15\)) as a private class field.
+1.  Declare an instance of [CallParkOrbit](https://msdn.microsoft.com/library/jj294115\(v=office.15\)) as a private class field.
 
 2.  Add an audio conversation.
     
@@ -121,19 +121,19 @@ The following figure illustrates the classes, methods, and events used in the pr
     </tbody>
     </table>
 
-3.  Call the [CanInvoke](https://msdn.microsoft.com/en-us/library/jj277273\(v=office.15\)) method. If true is returned, go to the next step. Otherwise, you should verify the conversation is connected and not on hold.
+3.  Call the [CanInvoke](https://msdn.microsoft.com/library/jj277273\(v=office.15\)) method. If true is returned, go to the next step. Otherwise, you should verify the conversation is connected and not on hold.
 
-4.  Call the [BeginPark](https://msdn.microsoft.com/en-us/library/jj266985\(v=office.15\)) method on the conversation with an asynchronous callback method conforming to the signature of **System.AsyncCallback** as the first argument.
+4.  Call the [BeginPark](https://msdn.microsoft.com/library/jj266985\(v=office.15\)) method on the conversation with an asynchronous callback method conforming to the signature of **System.AsyncCallback** as the first argument.
 
-5.  In the callback method, call the [Conversation.EndPark](https://msdn.microsoft.com/en-us/library/jj276992\(v=office.15\)) method.
+5.  In the callback method, call the [Conversation.EndPark](https://msdn.microsoft.com/library/jj276992\(v=office.15\)) method.
 
-6.  Handle the [Conversation.StateChanged](https://msdn.microsoft.com/en-us/library/jj278070\(v=office.15\)) event and run the following logic if the new state is [Microsoft.Lync.Model.Conversation.ConversationState](https://msdn.microsoft.com/en-us/library/jj277587\(v=office.15\))**.Parked**.
+6.  Handle the [Conversation.StateChanged](https://msdn.microsoft.com/library/jj278070\(v=office.15\)) event and run the following logic if the new state is [Microsoft.Lync.Model.Conversation.ConversationState](https://msdn.microsoft.com/library/jj277587\(v=office.15\))**.Parked**.
     
-    Get the [CallParkOrbit](https://msdn.microsoft.com/en-us/library/jj294115\(v=office.15\)) that holds the parked call and read the [Properties](https://msdn.microsoft.com/en-us/library/jj266972\(v=office.15\)) property collection with the [ConversationProperty](https://msdn.microsoft.com/en-us/library/jj266982\(v=office.15\)).**CallParkOrbit** enumerator. Get the orbit of the parked call by reading the [FriendlyOrbit](https://msdn.microsoft.com/en-us/library/jj274862\(v=office.15\)) property. If you want to give other users a reference to the parked call, you must provide the string value of [FriendlyOrbit](https://msdn.microsoft.com/en-us/library/jj274862\(v=office.15\)) to all potential users. An example of a mechanism you can use is the IM conversation you can create with a participant list that includes users who can retrieve the parked call. You can send the **FriendlyOrbit** string to each participant as message text.
+    Get the [CallParkOrbit](https://msdn.microsoft.com/library/jj294115\(v=office.15\)) that holds the parked call and read the [Properties](https://msdn.microsoft.com/library/jj266972\(v=office.15\)) property collection with the [ConversationProperty](https://msdn.microsoft.com/library/jj266982\(v=office.15\)).**CallParkOrbit** enumerator. Get the orbit of the parked call by reading the [FriendlyOrbit](https://msdn.microsoft.com/library/jj274862\(v=office.15\)) property. If you want to give other users a reference to the parked call, you must provide the string value of [FriendlyOrbit](https://msdn.microsoft.com/library/jj274862\(v=office.15\)) to all potential users. An example of a mechanism you can use is the IM conversation you can create with a participant list that includes users who can retrieve the parked call. You can send the **FriendlyOrbit** string to each participant as message text.
 
 ## What is the SafeRetrieveUri property used for?
 
-Use the [SafeRetrieveUri](https://msdn.microsoft.com/en-us/library/jj267963\(v=office.15\)) property if you intend for the local user to retrieve her own parked call. In the following scenario, the [SafeRetrieveUri](https://msdn.microsoft.com/en-us/library/jj267963\(v=office.15\)) property should be used. Suppose Mary calls Bob. Bob parks Mary on orbit 123. Mary decides not to wait until her call is picked up from a park orbit and hangs up. Orbit 123 becomes available for another parked call. Michael and Steven are having a conversation at the same time. Michael parks Steven on the now free orbit 123. Bob tries to retrieve Mary using the **FriendlyOrbit** property and obtains the call at orbit 123. Bob is surprised to discover he is talking to Steven instead of Mary.
+Use the [SafeRetrieveUri](https://msdn.microsoft.com/library/jj267963\(v=office.15\)) property if you intend for the local user to retrieve her own parked call. In the following scenario, the [SafeRetrieveUri](https://msdn.microsoft.com/library/jj267963\(v=office.15\)) property should be used. Suppose Mary calls Bob. Bob parks Mary on orbit 123. Mary decides not to wait until her call is picked up from a park orbit and hangs up. Orbit 123 becomes available for another parked call. Michael and Steven are having a conversation at the same time. Michael parks Steven on the now free orbit 123. Bob tries to retrieve Mary using the **FriendlyOrbit** property and obtains the call at orbit 123. Bob is surprised to discover he is talking to Steven instead of Mary.
 
 If Bob had used the **SafeRetrieveUri** property, the network call-park service would have gracefully failed to retrieve the call at orbit 123. **SafeRetrieveUri** is used when you want to be sure that you do not pick up a call that you did not park.
 
@@ -143,21 +143,21 @@ These procedures assume that a user has obtained the parked call orbit broadcast
 
 ### To retrieve a parked conversation
 
-1.  Register for [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)).
+1.  Register for [ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)).
 
-2.  Call into [AddConversation](https://msdn.microsoft.com/en-us/library/jj276176\(v=office.15\)) to create a new conversation specifying the audio/video modality.
+2.  Call into [AddConversation](https://msdn.microsoft.com/library/jj276176\(v=office.15\)) to create a new conversation specifying the audio/video modality.
 
-3.  Register for [ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) on the new conversation returned in the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event handler.
+3.  Register for [ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) on the new conversation returned in the [ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event handler.
 
-4.  Verify that a participant can be added to the new conversation by calling into [CanInvoke](https://msdn.microsoft.com/en-us/library/jj277273\(v=office.15\)), passing [ConversationAction](https://msdn.microsoft.com/en-us/library/jj276195\(v=office.15\)).**AddParticipant**. If true is returned, proceed to the next step of the walkthrough.
+4.  Verify that a participant can be added to the new conversation by calling into [CanInvoke](https://msdn.microsoft.com/library/jj277273\(v=office.15\)), passing [ConversationAction](https://msdn.microsoft.com/library/jj276195\(v=office.15\)).**AddParticipant**. If true is returned, proceed to the next step of the walkthrough.
 
-5.  Create a new [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) by passing either a safe retrieve URI or friendly orbit URI into **GetContactByUri(string)** and add the returned [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) to a new [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) by calling into [AddParticipant](https://msdn.microsoft.com/en-us/library/jj266479\(v=office.15\)).
+5.  Create a new [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) by passing either a safe retrieve URI or friendly orbit URI into **GetContactByUri(string)** and add the returned [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) to a new [Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) by calling into [AddParticipant](https://msdn.microsoft.com/library/jj266479\(v=office.15\)).
 
-6.  Call the [BeginConnect(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj268193\(v=office.15\)) method on the audio/video modality returned by [Modalities](https://msdn.microsoft.com/en-us/library/jj275560\(v=office.15\))\[[ModalityTypes](https://msdn.microsoft.com/en-us/library/jj274831\(v=office.15\)).**AudioVideo**\] to allow both the local and remote endpoints to accept the conversation. You must call **EndConnect** after calling **BeginConnect**. You can call **EndConnect** on your UI thread or you can call it within a **System.AsyncCallback** method you pass into **BeginConnect**.
+6.  Call the [BeginConnect(AsyncCallback, Object)](https://msdn.microsoft.com/library/jj268193\(v=office.15\)) method on the audio/video modality returned by [Modalities](https://msdn.microsoft.com/library/jj275560\(v=office.15\))\[[ModalityTypes](https://msdn.microsoft.com/library/jj274831\(v=office.15\)).**AudioVideo**\] to allow both the local and remote endpoints to accept the conversation. You must call **EndConnect** after calling **BeginConnect**. You can call **EndConnect** on your UI thread or you can call it within a **System.AsyncCallback** method you pass into **BeginConnect**.
 
 ## Code examples: Lync audio conversations
 
-The following example parks a conversation named myConversation and designates the ConversationCallback method as the callback for the [BeginPark](https://msdn.microsoft.com/en-us/library/jj266985\(v=office.15\)) method.
+The following example parks a conversation named myConversation and designates the ConversationCallback method as the callback for the [BeginPark](https://msdn.microsoft.com/library/jj266985\(v=office.15\)) method.
 
 ```csharp
         /// <summary>
@@ -181,7 +181,7 @@ The following example parks a conversation named myConversation and designates t
         }
 ```
 
-The following example handles the [ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event raised by the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance when the call is parked or unparked.
+The following example handles the [ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) event raised by the [Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) instance when the call is parked or unparked.
 
 ```csharp
         void Conversation_ActionAvailabilityChanged(Conversation source, ConversationActionAvailabilityEventArgs data)
@@ -201,7 +201,7 @@ The following example handles the [ActionAvailabilityChanged](https://msdn.micro
         }
 ```
 
-The next example is the callback method for the call to the [BeginPark](https://msdn.microsoft.com/en-us/library/jj266985\(v=office.15\)) method. This method retrieves and stores locally the value of the [CallParkOrbit](https://msdn.microsoft.com/en-us/library/jj294115\(v=office.15\)) property in the [ConversationProperty](https://msdn.microsoft.com/en-us/library/jj266982\(v=office.15\)) enumeration of the conversation that was parked. The example reads the **AsyncState** property that allows it to associate its invocation with the call park operation that initiated the callback.
+The next example is the callback method for the call to the [BeginPark](https://msdn.microsoft.com/library/jj266985\(v=office.15\)) method. This method retrieves and stores locally the value of the [CallParkOrbit](https://msdn.microsoft.com/library/jj294115\(v=office.15\)) property in the [ConversationProperty](https://msdn.microsoft.com/library/jj266982\(v=office.15\)) enumeration of the conversation that was parked. The example reads the **AsyncState** property that allows it to associate its invocation with the call park operation that initiated the callback.
 
 <table>
 <colgroup>
@@ -214,7 +214,7 @@ The next example is the callback method for the call to the [BeginPark](https://
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>It is not necessary to provide a callback method to the call into park if you handle the <a href="https://msdn.microsoft.com/en-us/library/jj293249(v=office.15)">ActionAvailabilityChanged</a> event. You can obtain the <a href="https://msdn.microsoft.com/en-us/library/jj294115(v=office.15)">CallParkOrbit</a> instance from the <strong>Conversation</strong> instance in the <a href="https://msdn.microsoft.com/en-us/library/jj293249(v=office.15)">ActionAvailabilityChanged</a> event handler if you do not provide an asynchronous callback method to be invoked by the conversation when it is parked.</p>
+<td><p>It is not necessary to provide a callback method to the call into park if you handle the <a href="https://msdn.microsoft.com/library/jj293249(v=office.15)">ActionAvailabilityChanged</a> event. You can obtain the <a href="https://msdn.microsoft.com/library/jj294115(v=office.15)">CallParkOrbit</a> instance from the <strong>Conversation</strong> instance in the <a href="https://msdn.microsoft.com/library/jj293249(v=office.15)">ActionAvailabilityChanged</a> event handler if you do not provide an asynchronous callback method to be invoked by the conversation when it is parked.</p>
 <p>If a network call-park service is not available, the operation completes its run but does not succeed.</p></td>
 </tr>
 </tbody>
@@ -238,7 +238,7 @@ The next example is the callback method for the call to the [BeginPark](https://
         }
 ```
 
-For an example of starting an audio conversation in order to pick up a parked call, see [How to: Start a Lync audio conversation](how-to-start-a-lync-audio-conversation.md). Use the friendly orbit URI or safe retrieve orbit URI string to get a [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) to be added to the new audio conversation.
+For an example of starting an audio conversation in order to pick up a parked call, see [How to: Start a Lync audio conversation](how-to-start-a-lync-audio-conversation.md). Use the friendly orbit URI or safe retrieve orbit URI string to get a [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) to be added to the new audio conversation.
 
 ## See also
 

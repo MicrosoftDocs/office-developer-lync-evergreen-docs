@@ -2,7 +2,7 @@
 title: Send and update context in a UCMA conversation
 TOCTitle: Send and update context in a UCMA conversation
 ms:assetid: 0cd96be2-6669-4c5c-9228-b7d982b89c2a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945536(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945536(v=office.15)
 ms:contentKeyID: 51541335
 ms.date: 07/24/2014
 mtps_version: v=office.15

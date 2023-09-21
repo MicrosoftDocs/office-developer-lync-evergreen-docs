@@ -2,7 +2,7 @@
 title: RelativeOneWayBurstDensity element  (Lync SDN API Schema A)
 TOCTitle: RelativeOneWayBurstDensity element
 ms:assetid: b576b79e-ed80-9bcb-0fcc-2179fb3a9dc4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439259(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439259(v=office.15)
 ms:contentKeyID: 57260995
 ms.date: 07/24/2014
 mtps_version: v=office.15

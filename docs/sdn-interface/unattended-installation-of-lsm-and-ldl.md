@@ -2,7 +2,7 @@
 title: Unattended installation of LSM and LDL
 TOCTitle: Unattended installation of LSM and LDL
 ms:assetid: f2eba9a3-9888-4a1b-b689-567a83ebcb90
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785205(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785205(v=office.15)
 ms:contentKeyID: 62952689
 ms.date: 02/16/2015
 mtps_version: v=office.15

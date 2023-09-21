@@ -2,7 +2,7 @@
 title: Lync 2013 SDK general reference
 TOCTitle: Lync 2013 SDK general reference
 ms:assetid: 0a6f5019-cffe-4e0c-aeae-22878f48e868
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937254(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937254(v=office.15)
 ms:contentKeyID: 50877071
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -32,7 +32,7 @@ This SDK document starts you with Lync client development. You may find that adv
 
   - Lync client development blog updates.
 
-You can download Microsoft Lync 2013 SDK from the [Microsoft Download Center](http://www.microsoft.com/en-us/download/details.aspx?id=30350).
+You can download Microsoft Lync 2013 SDK from the [Microsoft Download Center](http://www.microsoft.com/download/details.aspx?id=30350).
 
 ## In this section
 

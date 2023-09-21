@@ -2,7 +2,7 @@
 title: RDPTileProcessingLatencyAverage element (Lync SDN API Schema A)
 TOCTitle: RDPTileProcessingLatencyAverage element
 ms:assetid: 7a193ec3-1d11-18c8-78aa-e3c521bf3c99
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439251(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439251(v=office.15)
 ms:contentKeyID: 57260987
 ms.date: 07/24/2014
 mtps_version: v=office.15

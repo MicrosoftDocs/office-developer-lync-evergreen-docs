@@ -2,7 +2,7 @@
 title: expireType element
 TOCTitle: expireType element
 ms:assetid: 18ed48c1-2b77-49cd-a1bc-41fab94e9220
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439007(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439007(v=office.15)
 ms:contentKeyID: 57094051
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Blocked Contacts container
 TOCTitle: Blocked Contacts container
 ms:assetid: 9ff06195-10d6-4f52-8c2b-f315c93319e3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454669(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454669(v=office.15)
 ms:contentKeyID: 57093137
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: UCMA 4.0 exception model
 TOCTitle: UCMA 4.0 exception model
 ms:assetid: 4978a9ab-3ef3-456c-b3ac-d12ad06c03d9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466072(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466072(v=office.15)
 ms:contentKeyID: 57103066
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -42,7 +42,7 @@ The following custom exception classes are implemented in UCMA 4.0:
     Thrown when a 401 response was received in authentication. It exposes the failed response data (**ResponseData**) and parsed values of authentication-specific headers.
 
   - **CallOperationFailureException**  
-    Thrown when failure occurs on a class derived from the [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) class. The **FailureReason** property indicates the cause of failure. The following example shows the preferred way to catch this exception.
+    Thrown when failure occurs on a class derived from the [Call](https://msdn.microsoft.com/library/hh384235\(v=office.15\)) class. The **FailureReason** property indicates the cause of failure. The following example shows the preferred way to catch this exception.
     
         try
         {

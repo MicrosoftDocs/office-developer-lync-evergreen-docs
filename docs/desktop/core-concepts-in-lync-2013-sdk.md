@@ -2,7 +2,7 @@
 title: Core concepts in Lync 2013 SDK
 TOCTitle: Core concepts
 ms:assetid: cb91a952-89e5-49b7-86f5-4c45c0b5079b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933193(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933193(v=office.15)
 ms:contentKeyID: 50877335
 ms.date: 07/24/2014
 mtps_version: v=office.15

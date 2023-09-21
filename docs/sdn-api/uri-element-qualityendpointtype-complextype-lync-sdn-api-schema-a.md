@@ -2,7 +2,7 @@
 title: URI element (QualityEndPointType complexType) (Lync SDN API Schema A)
 TOCTitle: URI element (QualityEndPointType complexType)
 ms:assetid: af90b8ee-ccec-08af-c206-c79ba01317bb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775143(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775143(v=office.15)
 ms:contentKeyID: 62626117
 ms.date: 07/24/2014
 mtps_version: v=office.15

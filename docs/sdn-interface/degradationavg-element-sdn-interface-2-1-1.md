@@ -2,7 +2,7 @@
 title: DegradationAvg element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DegradationAvg element
 ms:assetid: 535d3850-d914-74c9-d61b-1f85d070d498
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912706(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912706(v=office.15)
 ms:contentKeyID: 64126876
 ms.date: 02/16/2015
 mtps_version: v=office.15

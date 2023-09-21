@@ -2,7 +2,7 @@
 title: state/meetingLocation element
 TOCTitle: state/meetingLocation element
 ms:assetid: 0a8abf70-90e4-46a7-a879-6e606606190e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438968(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438968(v=office.15)
 ms:contentKeyID: 57094013
 ms.date: 07/24/2014
 mtps_version: v=office.15

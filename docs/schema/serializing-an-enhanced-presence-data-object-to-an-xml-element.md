@@ -2,7 +2,7 @@
 title: Serializing an Enhanced Presence data object to an XML element
 TOCTitle: Serializing an Enhanced Presence data object to an XML element
 ms:assetid: 081c36e2-a225-43ca-9c8c-09f54308314f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454689(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454689(v=office.15)
 ms:contentKeyID: 57093337
 ms.date: 07/24/2014
 mtps_version: v=office.15

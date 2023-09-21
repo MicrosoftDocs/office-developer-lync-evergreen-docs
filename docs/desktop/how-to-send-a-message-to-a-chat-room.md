@@ -2,7 +2,7 @@
 title: 'How to: Send a message to a chat room'
 TOCTitle: 'How to: Send a message to a chat room'
 ms:assetid: 8d68c4e8-fb3e-4929-9ecd-e1161e5bfc8c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933112(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933112(v=office.15)
 ms:contentKeyID: 50877245
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -51,7 +51,7 @@ A message can be sent to a chat room even if the user is not an active participa
 
   - The user must be a member of the chat room.
 
-  - If the chat room is an [RoomType](https://msdn.microsoft.com/en-us/library/jj266029\(v=office.15\))**.Auditorium** chat room, the user must be a presenter in the auditorium.
+  - If the chat room is an [RoomType](https://msdn.microsoft.com/library/jj266029\(v=office.15\))**.Auditorium** chat room, the user must be a presenter in the auditorium.
 
 <table>
 <colgroup>
@@ -64,7 +64,7 @@ A message can be sent to a chat room even if the user is not an active participa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>The user must join a chat room before they can post messages to the chat room. The user is added to the participant list and a <a href="https://msdn.microsoft.com/en-us/library/jj277204(v=office.15)">Room.ParticipantAdded</a> event is raised on any other client that is registered for the event and whose user is an active participant in the chat room.</p>
+<td><p>The user must join a chat room before they can post messages to the chat room. The user is added to the participant list and a <a href="https://msdn.microsoft.com/library/jj277204(v=office.15)">Room.ParticipantAdded</a> event is raised on any other client that is registered for the event and whose user is an active participant in the chat room.</p>
 <p>A user is automatically joined to a followed chat room when the user signs in to Microsoft Lync 2013. In this case, the <strong>ParticipantAdded</strong> event is raised on other clients when the member-user signs in to Lync 2013.</p></td>
 </tr>
 </tbody>
@@ -115,9 +115,9 @@ Understanding the following concepts is essential to adding Persistent Chat to a
 
 ## Initial application state
 
-Before you start the procedures in this topic, your application must declare and initialize a [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and the client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
+Before you start the procedures in this topic, your application must declare and initialize a [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance and the client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) where the user has permission to post messages. For information about getting a chat room, see [How to: Find a chat room](how-to-find-a-chat-room.md). Your application must declare a button and an RTF text box. The RTF text box accepts the message string to post and the button posts the message.
+You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/library/jj266467\(v=office.15\)) where the user has permission to post messages. For information about getting a chat room, see [How to: Find a chat room](how-to-find-a-chat-room.md). Your application must declare a button and an RTF text box. The RTF text box accepts the message string to post and the button posts the message.
 
 ### Code example
 
@@ -175,7 +175,7 @@ The following example constructs the simple chat window UI and saves the origina
 
 ## Prepare to post messages
 
-When you have obtained a [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) instance selected by a user, register for a set of chat room events so that you can receive notification of messages posted to the chat room by other users or a message that is posted to the chat room by the local user.
+When you have obtained a [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/library/jj266467\(v=office.15\)) instance selected by a user, register for a set of chat room events so that you can receive notification of messages posted to the chat room by other users or a message that is posted to the chat room by the local user.
 
 ### To prepare to post messages
 
@@ -233,19 +233,19 @@ After you have prepared to post messages to a chat room by following the steps i
 
 ### To post a message to a chat room
 
-1.  Declare and instantiate an instance of **IDictionary\<**[Microsoft.Lync.Model.Room.RoomMessageFormat](https://msdn.microsoft.com/en-us/library/jj277588\(v=office.15\))**, string\>** that you add formatted message strings to.
+1.  Declare and instantiate an instance of **IDictionary\<**[Microsoft.Lync.Model.Room.RoomMessageFormat](https://msdn.microsoft.com/library/jj277588\(v=office.15\))**, string\>** that you add formatted message strings to.
     
     The dictionary is passed into the message posting method as the first argument.
 
 2.  Add both versions of the message to the dictionary declared in the previous step.
     
-    1.  Add the key/value pair of [RoomMessageFormat](https://msdn.microsoft.com/en-us/library/jj277588\(v=office.15\))**.PlainText** / plain-text-formatted string (the message text) to the dictionary declared in the previous step.
+    1.  Add the key/value pair of [RoomMessageFormat](https://msdn.microsoft.com/library/jj277588\(v=office.15\))**.PlainText** / plain-text-formatted string (the message text) to the dictionary declared in the previous step.
     
-    2.  Add the key/value pair of [RoomMessageFormat](https://msdn.microsoft.com/en-us/library/jj277588\(v=office.15\))**.Rtf** / Rtf formatted version of the message string to the dictionary declared in the previous step.
+    2.  Add the key/value pair of [RoomMessageFormat](https://msdn.microsoft.com/library/jj277588\(v=office.15\))**.Rtf** / Rtf formatted version of the message string to the dictionary declared in the previous step.
 
-3.  Join the chat room if the current [Room.JoinedState](https://msdn.microsoft.com/en-us/library/jj267006\(v=office.15\)) is [Microsoft.Lync.Model.Room.RoomJoinState](https://msdn.microsoft.com/en-us/library/jj276163\(v=office.15\))**.NotJoined**.
+3.  Join the chat room if the current [Room.JoinedState](https://msdn.microsoft.com/library/jj267006\(v=office.15\)) is [Microsoft.Lync.Model.Room.RoomJoinState](https://msdn.microsoft.com/library/jj276163\(v=office.15\))**.NotJoined**.
 
-4.  If the message is a regular message, call the [Room.BeginSendMessage](https://msdn.microsoft.com/en-us/library/jj293980\(v=office.15\)) overload of the method.
+4.  If the message is a regular message, call the [Room.BeginSendMessage](https://msdn.microsoft.com/library/jj293980\(v=office.15\)) overload of the method.
     
     <table>
     <colgroup>
@@ -258,15 +258,15 @@ After you have prepared to post messages to a chat room by following the steps i
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>The following code example passes <a href="https://msdn.microsoft.com/en-us/library/jj265996(v=office.15)">RoomMessageType</a><strong>.Regular</strong> as the second argument without asking a user for input. Normally, you would put a choice control on your window that lets a user select one of the four message types.</p>
-    <p>When the text of the message is long enough to justify displaying the message as a story in the Lync 2013 Persistent Chat window, set the <strong>RoomMessageType</strong> to <a href="https://msdn.microsoft.com/en-us/library/jj265996(v=office.15)">RoomMessageType</a><strong>.Story</strong>.</p></td>
+    <td><p>The following code example passes <a href="https://msdn.microsoft.com/library/jj265996(v=office.15)">RoomMessageType</a><strong>.Regular</strong> as the second argument without asking a user for input. Normally, you would put a choice control on your window that lets a user select one of the four message types.</p>
+    <p>When the text of the message is long enough to justify displaying the message as a story in the Lync 2013 Persistent Chat window, set the <strong>RoomMessageType</strong> to <a href="https://msdn.microsoft.com/library/jj265996(v=office.15)">RoomMessageType</a><strong>.Story</strong>.</p></td>
     </tr>
     </tbody>
     </table>
 
 5.  If the user wants to send a story instead of a regular message and has provided a story title, call the **RoomBeginSendStoryMessage(IDictionary\<RoomMessageFormat, String\>, String, AsyncCallback, Object)** method.
 
-6.  Handle the [Room.MessagesReceived](https://msdn.microsoft.com/en-us/library/jj277819\(v=office.15\)) event.
+6.  Handle the [Room.MessagesReceived](https://msdn.microsoft.com/library/jj277819\(v=office.15\)) event.
 
 7.  Iterate over the collection of new messages and find a message whose sender URI matches the local user’s URI and message text matches the newly posted message.
     
@@ -283,7 +283,7 @@ After you have prepared to post messages to a chat room by following the steps i
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>If posting a plain-text message only, call <a href="https://msdn.microsoft.com/en-us/library/jj293980(v=office.15)">Room.BeginSendMessage</a>, passing the plain-text message string in the first argument instead of the <strong>IDictionary</strong> instance.</p></td>
+<td><p>If posting a plain-text message only, call <a href="https://msdn.microsoft.com/library/jj293980(v=office.15)">Room.BeginSendMessage</a>, passing the plain-text message string in the first argument instead of the <strong>IDictionary</strong> instance.</p></td>
 </tr>
 </tbody>
 </table>
@@ -301,8 +301,8 @@ After you have prepared to post messages to a chat room by following the steps i
 <tr class="odd">
 <td><p>The following list describes two ways that you can confirm whether a local user’s message was posted to a chat room.</p>
 <ul>
-<li><p>Code a <strong>try/catch</strong> block around the <a href="https://msdn.microsoft.com/en-us/library/jj267662(v=office.15)">Room.EndSendMessage</a> method that you call inside a callback method passed into the <a href="https://msdn.microsoft.com/en-us/library/jj293980(v=office.15)">Room.BeginSendMessage</a> method. If an exception is not raised and the user is a member of the chat room with permission to post, the post succeeded.</p></li>
-<li><p>Handle the <a href="https://msdn.microsoft.com/en-us/library/jj277819(v=office.15)">Room.MessagesReceived</a> event. If one of the messages in the collection of new messages posted to the chat room originated with the local user, the post succeeded.</p></li>
+<li><p>Code a <strong>try/catch</strong> block around the <a href="https://msdn.microsoft.com/library/jj267662(v=office.15)">Room.EndSendMessage</a> method that you call inside a callback method passed into the <a href="https://msdn.microsoft.com/library/jj293980(v=office.15)">Room.BeginSendMessage</a> method. If an exception is not raised and the user is a member of the chat room with permission to post, the post succeeded.</p></li>
+<li><p>Handle the <a href="https://msdn.microsoft.com/library/jj277819(v=office.15)">Room.MessagesReceived</a> event. If one of the messages in the collection of new messages posted to the chat room originated with the local user, the post succeeded.</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -416,7 +416,7 @@ The following example gets the user’s message text and then posts the plain-te
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj267662(v=office.15)">Room.EndSendMessage</a> raises an exception if the sent message contains an invalid RTF string.</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj267662(v=office.15)">Room.EndSendMessage</a> raises an exception if the sent message contains an invalid RTF string.</p></td>
 </tr>
 </tbody>
 </table>

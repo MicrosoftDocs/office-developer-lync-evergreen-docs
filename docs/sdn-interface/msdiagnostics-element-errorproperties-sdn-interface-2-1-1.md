@@ -2,7 +2,7 @@
 title: MSDiagnostics element (ErrorProperties complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: MSDiagnostics element (ErrorProperties complexType)
 ms:assetid: f83b1295-60f8-b33e-b73a-267b0c703f67
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912760(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912760(v=office.15)
 ms:contentKeyID: 64126930
 ms.date: 02/16/2015
 mtps_version: v=office.15

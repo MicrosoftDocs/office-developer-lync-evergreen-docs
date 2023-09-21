@@ -2,7 +2,7 @@
 title: 'How to: Use presence information in an application'
 TOCTitle: 'How to: Use presence information in an application'
 ms:assetid: f8abd1aa-f2a2-49de-b412-808636d9648a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933257(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933257(v=office.15)
 ms:contentKeyID: 50877403
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -87,7 +87,7 @@ The following topics explain the nature of enhanced presence, how a user’s com
 
 ### To get the current capabilities of the contact
 
-  - Call the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method and pass the [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\))**.CapabilityDetails** enumerator.
+  - Call the [Contact.GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method and pass the [ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\))**.CapabilityDetails** enumerator.
     
     A **List\<object\>** is returned.
     
@@ -95,15 +95,15 @@ The following topics explain the nature of enhanced presence, how a user’s com
 
 ### To parse the capability details
 
-1.  For each object in the list obtained in the previous procedure, cast an object to [Microsoft.Lync.Model.PresenceCapability](https://msdn.microsoft.com/en-us/library/jj277156\(v=office.15\)).
+1.  For each object in the list obtained in the previous procedure, cast an object to [Microsoft.Lync.Model.PresenceCapability](https://msdn.microsoft.com/library/jj277156\(v=office.15\)).
 
-2.  Read the [PresenceCapability.Type](https://msdn.microsoft.com/en-us/library/jj267678\(v=office.15\)) property to see the modality type detailed in this **PresenceCapability** object.
+2.  Read the [PresenceCapability.Type](https://msdn.microsoft.com/library/jj267678\(v=office.15\)) property to see the modality type detailed in this **PresenceCapability** object.
     
     A radio button on the page UI is declared for each capability type.
 
-3.  Read the [PresenceCapability.CanCapture](https://msdn.microsoft.com/en-us/library/jj277270\(v=office.15\)), [PresenceCapability.CanRender](https://msdn.microsoft.com/en-us/library/jj276353\(v=office.15\)), and [PresenceCapability.Availability](https://msdn.microsoft.com/en-us/library/jj276568\(v=office.15\)) properties.
+3.  Read the [PresenceCapability.CanCapture](https://msdn.microsoft.com/library/jj277270\(v=office.15\)), [PresenceCapability.CanRender](https://msdn.microsoft.com/library/jj276353\(v=office.15\)), and [PresenceCapability.Availability](https://msdn.microsoft.com/library/jj276568\(v=office.15\)) properties.
     
-    If the first two properties return true and the third property returns a value between 0 and 9500 ([ContactAvailability](https://msdn.microsoft.com/en-us/library/jj293978\(v=office.15\))**.BusyIdle**), enable the radio button that corresponds to the capability type.
+    If the first two properties return true and the third property returns a value between 0 and 9500 ([ContactAvailability](https://msdn.microsoft.com/library/jj293978\(v=office.15\))**.BusyIdle**), enable the radio button that corresponds to the capability type.
 
 The following example parses the capability details published by a contact and enables or disables radio buttons on the page UI according to the availability of a modality.
 
@@ -149,13 +149,13 @@ The following example parses the capability details published by a contact and e
 
 ### To respond to capability update publications
 
-1.  Register an event handler for the [Contact.ContactInformationChanged](https://msdn.microsoft.com/en-us/library/jj275543\(v=office.15\)) event on the contact whose presence updates that you want.
+1.  Register an event handler for the [Contact.ContactInformationChanged](https://msdn.microsoft.com/library/jj275543\(v=office.15\)) event on the contact whose presence updates that you want.
 
-2.  In the event handler, examine the [ContactInformationChangedEventArgs.ChangedContactInformation](https://msdn.microsoft.com/en-us/library/jj274485\(v=office.15\)) property to see what contact information type is updated.
+2.  In the event handler, examine the [ContactInformationChangedEventArgs.ChangedContactInformation](https://msdn.microsoft.com/library/jj274485\(v=office.15\)) property to see what contact information type is updated.
     
-    The property value returns a collection of [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\)) enumerators representing the contact information types that have been updated.
+    The property value returns a collection of [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\)) enumerators representing the contact information types that have been updated.
 
-3.  If the collection obtained in the previous step contains the [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\))**.CapabilityDetails**, the contact communication capabilities have changed. Update the radio buttons on the UI accordingly.
+3.  If the collection obtained in the previous step contains the [ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\))**.CapabilityDetails**, the contact communication capabilities have changed. Update the radio buttons on the UI accordingly.
     
     The following example examines the collection of changed contact information types and updates radio buttons if the **CapabilityDetails** type is in the collection.
     
@@ -170,7 +170,7 @@ The following example parses the capability details published by a contact and e
 
 ### To start a new conversation
 
-1.  Get an [Microsoft.Lync.Model.Extensibility.Automation](https://msdn.microsoft.com/en-us/library/jj293816\(v=office.15\)) object by calling the [LyncClient.GetAutomation](https://msdn.microsoft.com/en-us/library/jj266970\(v=office.15\)) method.
+1.  Get an [Microsoft.Lync.Model.Extensibility.Automation](https://msdn.microsoft.com/library/jj293816\(v=office.15\)) object by calling the [LyncClient.GetAutomation](https://msdn.microsoft.com/library/jj266970\(v=office.15\)) method.
 
 2.  Declare a new **List\<string\>** to hold a list of SIP addresses of users to invite to the conversation.
     
@@ -183,7 +183,7 @@ The following example parses the capability details published by a contact and e
                 invitedParticpants.Add(_contact.Uri);
     ```
 
-3.  Call the [Automation.BeginStartConversation](https://msdn.microsoft.com/en-us/library/jj276136\(v=office.15\)) method passing the selected modality and list of SIP addresses.
+3.  Call the [Automation.BeginStartConversation](https://msdn.microsoft.com/library/jj276136\(v=office.15\)) method passing the selected modality and list of SIP addresses.
     
     <table>
     <colgroup>
@@ -244,7 +244,7 @@ Title="StartConversation" Background="AntiqueWhite">
 </Page>
 ```
 
-The following example takes the SIP address of a Lync 2013 user, gets a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object, queries for current capabilities, enables appropriate radio buttons, and starts a conversation with the contact using the selected modality.
+The following example takes the SIP address of a Lync 2013 user, gets a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object, queries for current capabilities, enables appropriate radio buttons, and starts a conversation with the contact using the selected modality.
 
 ```csharp
 using System.Collections.Generic;

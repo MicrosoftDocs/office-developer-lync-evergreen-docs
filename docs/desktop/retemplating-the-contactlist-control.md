@@ -2,7 +2,7 @@
 title: Retemplating the ContactList control
 TOCTitle: Retemplating the ContactList control
 ms:assetid: f2ed1b57-4adb-4cf1-a8fc-d04de46fc0c2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945583(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945583(v=office.15)
 ms:contentKeyID: 51541408
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,7 +39,7 @@ Additional resources</p></td>
 
 ## ContactList control overview
 
-Similar to the ContactCard control, there are several parts to a [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control that you can customize. The ContactList control includes two parts:
+Similar to the ContactCard control, there are several parts to a [ContactList](https://msdn.microsoft.com/library/hh363781\(v=office.15\)) control that you can customize. The ContactList control includes two parts:
 
   - The tree view that presents the hierarchical display of groups and contacts.
 
@@ -53,7 +53,7 @@ To customize the template that is used to display top-level group nodes on the C
 
 ### To edit the ContactListGroupItem template
 
-1.  The template for a group-level node is applied to an internal control type called [ContactListGroupItem](https://msdn.microsoft.com/en-us/library/hh345694\(v=office.15\)). This control is not directly accessible from the ContactList template. To get a copy of the template for a ContactListGroupItem control, you must temporarily add an instance of ContactListGroupItem to your form, and then edit a copy of its template.
+1.  The template for a group-level node is applied to an internal control type called [ContactListGroupItem](https://msdn.microsoft.com/library/hh345694\(v=office.15\)). This control is not directly accessible from the ContactList template. To get a copy of the template for a ContactListGroupItem control, you must temporarily add an instance of ContactListGroupItem to your form, and then edit a copy of its template.
     
     ```xaml
     <controls:ContactListGroupItem/> <!-- For temporary use -->
@@ -129,49 +129,49 @@ The following table identifies the templates that can be used to customize the a
 <tr class="odd">
 <td><p>Person</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh346461(v=office.15)">PersonItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh346461(v=office.15)">PersonItemTemplate</a></p></td>
 <td><p>PersonContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Person</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345827(v=office.15)">PersonTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh345827(v=office.15)">PersonTwoLineItemTemplate</a></p></td>
 <td><p>PersonContactItemDataTemplateTwoLines</p></td>
 </tr>
 <tr class="odd">
 <td><p>Telephone</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363694(v=office.15)">TelephoneItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363694(v=office.15)">TelephoneItemTemplate</a></p></td>
 <td><p>TelephoneContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Telephone</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363498(v=office.15)">TelephoneTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363498(v=office.15)">TelephoneTwoLineItemTemplate</a></p></td>
 <td><p>TelephoneContactItemDataTemplateTwoLines</p></td>
 </tr>
 <tr class="odd">
 <td><p>Bot</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363601(v=office.15)">BotItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363601(v=office.15)">BotItemTemplate</a></p></td>
 <td><p>BotContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Bot</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345890(v=office.15)">BotTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh345890(v=office.15)">BotTwoLineItemTemplate</a></p></td>
 <td><p>BotContactItemDataTemplateTwoLines</p></td>
 </tr>
 <tr class="odd">
 <td><p>Group</p></td>
 <td><p>OneLine</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh346626(v=office.15)">GroupItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh346626(v=office.15)">GroupItemTemplate</a></p></td>
 <td><p>GroupContactItemDataTemplateOneLine</p></td>
 </tr>
 <tr class="even">
 <td><p>Group</p></td>
 <td><p>TwoLines</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363757(v=office.15)">GroupTwoLineItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363757(v=office.15)">GroupTwoLineItemTemplate</a></p></td>
 <td><p>GroupContactItemDataTemplateTwoLines</p></td>
 </tr>
 </tbody>

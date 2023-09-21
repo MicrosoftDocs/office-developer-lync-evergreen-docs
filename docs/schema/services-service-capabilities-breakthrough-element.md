@@ -2,7 +2,7 @@
 title: services/service/capabilities/breakthrough element
 TOCTitle: services/service/capabilities/breakthrough element
 ms:assetid: c67a1221-8c75-4298-b672-7e82d84978ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438958(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438958(v=office.15)
 ms:contentKeyID: 57093987
 ms.date: 07/24/2014
 mtps_version: v=office.15

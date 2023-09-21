@@ -2,7 +2,7 @@
 title: MSDiagnostics element (EndedProperties complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: MSDiagnostics element (EndedProperties complexType)
 ms:assetid: 7b048abc-fc86-1550-84fc-974792460a1d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912764(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912764(v=office.15)
 ms:contentKeyID: 64126934
 ms.date: 02/16/2015
 mtps_version: v=office.15

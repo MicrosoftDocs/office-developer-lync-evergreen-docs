@@ -2,7 +2,7 @@
 title: Answer an incoming IM call and receive messages
 TOCTitle: Answer an incoming IM call and receive messages
 ms:assetid: 5025b186-4011-47e7-acc3-34ab8994bff8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn771762(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn771762(v=office.15)
 ms:contentKeyID: 62554469
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -101,7 +101,7 @@ To answer an incoming call, handle the incoming [messagingInvitation](http://ucw
 
 The incoming **messageInvitation**-Started event will contain the links to the [accept](http://ucwa.skype.com/documentation/resources-accept) and [decline](http://ucwa.skype.com/documentation/resources-decline) resources. You will need to use them to accept or decline the call invitation. Cache these resources, because they will not be available in the subsequent **messagingInvitation** events, for example, when the invitation becomes Completed.
 
-In the following code example, the application uses a [MessageDialog](http://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.popups.messagedialog.aspx) control for Windows Store apps to enable the user to accept or decline the call. This involves forwarding the invitation details, including the caller name, subject, and importance, to the UI thread and instantiating the **MessageDialog** in the application-defined OnMessagingInviteReceived event handler. The following code example shows the NotifyMessagingInvite method.
+In the following code example, the application uses a [MessageDialog](http://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog.aspx) control for Windows Store apps to enable the user to accept or decline the call. This involves forwarding the invitation details, including the caller name, subject, and importance, to the UI thread and instantiating the **MessageDialog** in the application-defined OnMessagingInviteReceived event handler. The following code example shows the NotifyMessagingInvite method.
 
 ```csharp
         async void NotifyMessagingInvite(string subject, string importance, string fromUri, string message, string threadId)
@@ -254,7 +254,7 @@ This incoming message contains the HTML tagged text \<span style="margin-bottom:
 
 The plain text message is packaged as a URL-encoded string and attached as the href attribute value of the plainMessage link.
 
-To parse the messages, you can use the [UrlDecode](http://msdn.microsoft.com/en-us/library/system.net.webutility.urldecode\(v=vs.110\).aspx) method on the [WebUtility](http://msdn.microsoft.com/en-us/library/system.net.webutility\(v=vs.110\).aspx) class of the [System.Net](http://msdn.microsoft.com/en-us/library/system.net\(v=vs.110\).aspx) namespace, as shown in the following example.
+To parse the messages, you can use the [UrlDecode](http://msdn.microsoft.com/library/system.net.webutility.urldecode\(v=vs.110\).aspx) method on the [WebUtility](http://msdn.microsoft.com/library/system.net.webutility\(v=vs.110\).aspx) class of the [System.Net](http://msdn.microsoft.com/library/system.net\(v=vs.110\).aspx) namespace, as shown in the following example.
 
 ```csharp
         string ParseMessageText(UcwaResourceMessage msgRes)
@@ -271,7 +271,7 @@ To parse the messages, you can use the [UrlDecode](http://msdn.microsoft.com/en-
         }
 ```
 
-Here, [UrlDecode](http://msdn.microsoft.com/en-us/library/system.net.webutility.urldecode\(v=vs.110\).aspx) translates the URL-encoded string into an HTML string and [HtmlUtilities.ConvertToText](http://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.data.html.htmlutilities.converttotext.aspx) removes the HTML tags to extract the plain text value of the \<span\> element. For a plain text message, skip the call to [ConvertToText](http://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.data.html.htmlutilities.converttotext.aspx).
+Here, [UrlDecode](http://msdn.microsoft.com/library/system.net.webutility.urldecode\(v=vs.110\).aspx) translates the URL-encoded string into an HTML string and [HtmlUtilities.ConvertToText](http://msdn.microsoft.com/library/windows/apps/xaml/windows.data.html.htmlutilities.converttotext.aspx) removes the HTML tags to extract the plain text value of the \<span\> element. For a plain text message, skip the call to [ConvertToText](http://msdn.microsoft.com/library/windows/apps/xaml/windows.data.html.htmlutilities.converttotext.aspx).
 
 ## See also
 

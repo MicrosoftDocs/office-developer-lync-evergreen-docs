@@ -2,7 +2,7 @@
 title: Configuring LDL execution options
 TOCTitle: Configuring LDL execution options
 ms:assetid: 1f21ded1-e0e7-4f62-aa76-7c88b1a224ee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785208(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785208(v=office.15)
 ms:contentKeyID: 62952692
 ms.date: 02/16/2015
 mtps_version: v=office.15

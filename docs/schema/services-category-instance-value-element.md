@@ -2,7 +2,7 @@
 title: services category instance value element
 TOCTitle: services category instance value element
 ms:assetid: e7b6660c-71e7-4789-b66f-c5a2add4abeb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454786(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454786(v=office.15)
 ms:contentKeyID: 57093673
 ms.date: 07/24/2014
 mtps_version: v=office.15

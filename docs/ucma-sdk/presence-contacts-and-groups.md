@@ -2,7 +2,7 @@
 title: Presence, contacts, and groups
 TOCTitle: Presence, contacts, and groups
 ms:assetid: b2ced5e1-0ab2-4aa9-828b-a138d746ae01
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466017(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466017(v=office.15)
 ms:contentKeyID: 57103000
 ms.date: 07/25/2014
 mtps_version: v=office.15

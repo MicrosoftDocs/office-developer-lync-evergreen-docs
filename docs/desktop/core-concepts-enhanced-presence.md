@@ -2,7 +2,7 @@
 title: 'Core concepts: Enhanced presence'
 TOCTitle: Enhanced presence
 ms:assetid: 82588737-0ca4-4b35-a7a1-d3f45ffb96a7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933110(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933110(v=office.15)
 ms:contentKeyID: 50877244
 ms.date: 07/24/2014
 mtps_version: v=office.15

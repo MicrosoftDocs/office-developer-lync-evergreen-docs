@@ -2,7 +2,7 @@
 title: Content sharing modality
 TOCTitle: Content sharing modality
 ms:assetid: ccbe213b-9a51-4a5b-b637-cf7abbd81e64
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933194(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933194(v=office.15)
 ms:contentKeyID: 50877338
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -70,34 +70,34 @@ Figure 1. Custom meeting console
 
 To build a console like the one shown in figure 1, your development is centered on five objects out of the Lync 2013 API object model. You also handle a series of events and get other API objects by reading properties and handling events on these objects. These five objects include the following:
 
-  - [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\))  
+  - [LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\))  
     This is the API platform and the entry point for further coding.
 
-  - [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\))  
+  - [ConversationManager](https://msdn.microsoft.com/library/jj266018\(v=office.15\))  
     This is a factory class that creates new conversation objects.
 
-  - [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\))  
+  - [Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\))  
     This class represents a single meeting.
 
-  - [ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\))  
+  - [ContentSharingModality](https://msdn.microsoft.com/library/jj266998\(v=office.15\))  
     This class is the part of a meeting that handles all the presentable content work that your console application does.
 
-  - [ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\))  
+  - [ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\))  
     An object of this class encapsulates a single presentable content item such as a PowerPoint deck.
 
-For more information about signing in to and out of Lync 2013 by using the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) object, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md). For information about conversations, see [Core concepts: Lync conversations](core-concepts-lync-conversations.md).
+For more information about signing in to and out of Lync 2013 by using the [LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) object, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md). For information about conversations, see [Core concepts: Lync conversations](core-concepts-lync-conversations.md).
 
 ## Working with the content sharing modality object
 
-In most cases, you use the [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) that you get from the [Conversation.Modalities](https://msdn.microsoft.com/en-us/library/jj275560\(v=office.15\)) property of a conversation object. This modality exposes all the methods and properties that are needed to manage presentable content. To respond to an invitation to view shared presentable content, you need to get the [ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) that is owned by the meeting participant who is inviting the local participant.
+In most cases, you use the [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/library/jj266998\(v=office.15\)) that you get from the [Conversation.Modalities](https://msdn.microsoft.com/library/jj275560\(v=office.15\)) property of a conversation object. This modality exposes all the methods and properties that are needed to manage presentable content. To respond to an invitation to view shared presentable content, you need to get the [ContentSharingModality](https://msdn.microsoft.com/library/jj266998\(v=office.15\)) that is owned by the meeting participant who is inviting the local participant.
 
-[Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) inherits the methods, properties, and events of [Microsoft.Lync.Model.Conversation.Modality](https://msdn.microsoft.com/en-us/library/jj274796\(v=office.15\)) but adds additional class members that are scoped specifically to presentable content management. These presentable content-specific members allow you to create [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) objects that represent presentable content, monitor the content bin for activity such as adding or removing content, and moving content to and from the sharing stage.
+[Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/library/jj266998\(v=office.15\)) inherits the methods, properties, and events of [Microsoft.Lync.Model.Conversation.Modality](https://msdn.microsoft.com/library/jj274796\(v=office.15\)) but adds additional class members that are scoped specifically to presentable content management. These presentable content-specific members allow you to create [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) objects that represent presentable content, monitor the content bin for activity such as adding or removing content, and moving content to and from the sharing stage.
 
-The [ContentSharingModality.ContentCollection](https://msdn.microsoft.com/en-us/library/jj267301\(v=office.15\)) property represents the content bin of the meeting. The property returns a collection of [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) objects that any meeting presenter can update. For example, assume a meeting has been started by Bob. Bob invites John and Nancy. Both John and Nancy are promoted to the presenter role and have joined the meeting from remote endpoints. If John starts sharing a new whiteboard, both Bob and Nancy can annotate the white board, clear annotations, or save the annotations locally. This is possible because John’s whiteboard is added to the local **ContentCollection** of all meeting participants.
+The [ContentSharingModality.ContentCollection](https://msdn.microsoft.com/library/jj267301\(v=office.15\)) property represents the content bin of the meeting. The property returns a collection of [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) objects that any meeting presenter can update. For example, assume a meeting has been started by Bob. Bob invites John and Nancy. Both John and Nancy are promoted to the presenter role and have joined the meeting from remote endpoints. If John starts sharing a new whiteboard, both Bob and Nancy can annotate the white board, clear annotations, or save the annotations locally. This is possible because John’s whiteboard is added to the local **ContentCollection** of all meeting participants.
 
 ## Working with presentable content
 
-A presentable content item, whether a whiteboard, a PowerPoint deck, or a native file, is represented by a [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) class object. Although this is the common class for all types of presentable content, you can only call the class methods that are appropriate for the underlying content type. For example, the [ShareableContent.BeginDownloadFile](https://msdn.microsoft.com/en-us/library/jj278158\(v=office.15\)) method can only be called on a [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object when the type of that object is **ShareableContentTypeNativefile()**.
+A presentable content item, whether a whiteboard, a PowerPoint deck, or a native file, is represented by a [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) class object. Although this is the common class for all types of presentable content, you can only call the class methods that are appropriate for the underlying content type. For example, the [ShareableContent.BeginDownloadFile](https://msdn.microsoft.com/library/jj278158\(v=office.15\)) method can only be called on a [Microsoft.Lync.Model.Conversation.Sharing.ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) object when the type of that object is **ShareableContentTypeNativefile()**.
 
 ## See also
 

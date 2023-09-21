@@ -2,7 +2,7 @@
 title: otherOptions/Permissions/personalInformationManager element
 TOCTitle: otherOptions/Permissions/personalInformationManager element
 ms:assetid: 335fa09e-85fc-405e-aeaf-9d5bb3c3bd6a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454757(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454757(v=office.15)
 ms:contentKeyID: 57093808
 ms.date: 07/24/2014
 mtps_version: v=office.15

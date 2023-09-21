@@ -2,7 +2,7 @@
 title: Enhanced Presence category schemas
 TOCTitle: Enhanced Presence category schemas
 ms:assetid: b0126b0d-345e-4c30-b2b7-c33951b35039
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454624(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454624(v=office.15)
 ms:contentKeyID: 57093014
 ms.date: 02/11/2016
 mtps_version: v=office.15

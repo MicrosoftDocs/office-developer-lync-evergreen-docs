@@ -2,7 +2,7 @@
 title: CorrelationId element  (Lync SDN API Schema A)
 TOCTitle: CorrelationId element
 ms:assetid: 955eb989-a4c2-2389-4d4d-8f07187c9ac0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455015(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455015(v=office.15)
 ms:contentKeyID: 57260894
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Making an outgoing IM call and sending messages
 TOCTitle: Making an outgoing IM call and sending messages
 ms:assetid: a782284c-7f62-4df1-98a7-7f92223b5227
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn756469(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn756469(v=office.15)
 ms:contentKeyID: 62525830
 ms.date: 07/25/2014
 mtps_version: v=office.15

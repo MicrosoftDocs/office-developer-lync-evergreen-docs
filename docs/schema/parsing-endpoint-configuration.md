@@ -2,7 +2,7 @@
 title: Parsing endpoint configuration
 TOCTitle: Parsing endpoint configuration
 ms:assetid: 6566b1dd-4c85-41d9-91c1-20848179f30d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454638(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454638(v=office.15)
 ms:contentKeyID: 57093346
 ms.date: 07/24/2014
 mtps_version: v=office.15

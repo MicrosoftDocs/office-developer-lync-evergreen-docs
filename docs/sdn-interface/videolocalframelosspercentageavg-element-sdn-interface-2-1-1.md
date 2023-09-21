@@ -2,7 +2,7 @@
 title: VideoLocalFrameLossPercentageAvg element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: VideoLocalFrameLossPercentageAvg element
 ms:assetid: 71db32e5-e706-bd55-d5dd-6c9d5090f31b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912841(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912841(v=office.15)
 ms:contentKeyID: 64127009
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'How to: Pin and lock a participant video'
 TOCTitle: 'How to: Pin and lock a participant video'
 ms:assetid: d112e02d-4d53-4e94-9870-a80ef38a26cf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933201(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933201(v=office.15)
 ms:contentKeyID: 50877343
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -52,15 +52,15 @@ The prerequisites for pinning and locking participant video feeds are as follows
 
 ### To pin or unpin a participant video
 
-1.  Get the conversation [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/en-us/library/jj267311\(v=office.15\)) object the represents the person whose video you want to pin or unpin.
+1.  Get the conversation [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/library/jj267311\(v=office.15\)) object the represents the person whose video you want to pin or unpin.
 
-2.  Read the Participant property, [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPinned**.
+2.  Read the Participant property, [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsPinned**.
     
     If the property return value is true, the participant video is pinned and the logic in the example unpins the video. Otherwise, the video is pinned by the example.
 
-3.  Call the [Participant.BeginPinVideo](https://msdn.microsoft.com/en-us/library/jj275524\(v=office.15\)) method or the [Participant.BeginUnPinVideo](https://msdn.microsoft.com/en-us/library/jj267998\(v=office.15\)) method.
+3.  Call the [Participant.BeginPinVideo](https://msdn.microsoft.com/library/jj275524\(v=office.15\)) method or the [Participant.BeginUnPinVideo](https://msdn.microsoft.com/library/jj267998\(v=office.15\)) method.
     
-    The following example gets a participant from the conversation participant collection based on a selected contact display name. When a participant is found, the state of video pinning is read from the participant [Participant.Properties](https://msdn.microsoft.com/en-us/library/jj278318\(v=office.15\)) collection. If the video is pinned, the example unpins the video. Otherwise, the video is pinned.
+    The following example gets a participant from the conversation participant collection based on a selected contact display name. When a participant is found, the state of video pinning is read from the participant [Participant.Properties](https://msdn.microsoft.com/library/jj278318\(v=office.15\)) collection. If the video is pinned, the example unpins the video. Otherwise, the video is pinned.
     
     ```csharp
             /// <summary>
@@ -91,17 +91,17 @@ The prerequisites for pinning and locking participant video feeds are as follows
 
 ### To lock or unlock participant video
 
-1.  Verify that the local meeting participant (the self-participant) is a presenter in the meeting by reading the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** participant property on the self-participant.
+1.  Verify that the local meeting participant (the self-participant) is a presenter in the meeting by reading the [ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsPresenter** participant property on the self-participant.
 
-2.  Get the conversation [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/en-us/library/jj267311\(v=office.15\)) object the represents the person whose video you want to lock or unlock.
+2.  Get the conversation [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/library/jj267311\(v=office.15\)) object the represents the person whose video you want to lock or unlock.
 
-3.  Read the Participant property, [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsLocked**.
+3.  Read the Participant property, [ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsLocked**.
     
     If the property return value is true, the participant video is locked and the logic in the example unlocks the video. Otherwise, the video is locked by the example.
 
-4.  Call the [Participant.BeginLockVideo](https://msdn.microsoft.com/en-us/library/jj266002\(v=office.15\)) method or the [Participant.BeginUnLockVideo](https://msdn.microsoft.com/en-us/library/jj266425\(v=office.15\)) method.
+4.  Call the [Participant.BeginLockVideo](https://msdn.microsoft.com/library/jj266002\(v=office.15\)) method or the [Participant.BeginUnLockVideo](https://msdn.microsoft.com/library/jj266425\(v=office.15\)) method.
     
-    The following example gets a participant from the conversation participant collection based on a selected contact display name. When a participant is found, the state of video locking is read from the participant [Participant.Properties](https://msdn.microsoft.com/en-us/library/jj278318\(v=office.15\)) collection. If the video is locked, the example unlocks the video. Otherwise, the video is locked.
+    The following example gets a participant from the conversation participant collection based on a selected contact display name. When a participant is found, the state of video locking is read from the participant [Participant.Properties](https://msdn.microsoft.com/library/jj278318\(v=office.15\)) collection. If the video is locked, the example unlocks the video. Otherwise, the video is locked.
     
     ```csharp
             /// <summary>

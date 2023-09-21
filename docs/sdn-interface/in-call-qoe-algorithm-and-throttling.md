@@ -2,7 +2,7 @@
 title: In-call QoE algorithm and throttling
 TOCTitle: In-call QoE algorithm and throttling
 ms:assetid: 121925d4-7a91-473e-b0b8-f282e4e78dd2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785196(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785196(v=office.15)
 ms:contentKeyID: 62952680
 ms.date: 02/16/2015
 mtps_version: v=office.15

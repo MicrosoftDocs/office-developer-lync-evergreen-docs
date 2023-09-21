@@ -2,7 +2,7 @@
 title: RDPTileProcessingLatencyBurstDensity element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RDPTileProcessingLatencyBurstDensity element
 ms:assetid: 660acdad-513f-ee6c-cbf6-51b2aea6383a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912792(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912792(v=office.15)
 ms:contentKeyID: 64126961
 ms.date: 02/16/2015
 mtps_version: v=office.15

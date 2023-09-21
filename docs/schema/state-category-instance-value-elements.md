@@ -2,7 +2,7 @@
 title: state category instance value elements
 TOCTitle: state category instance value elements
 ms:assetid: 641377fc-596f-4d07-a5be-b90808e82a7e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454811(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454811(v=office.15)
 ms:contentKeyID: 57093958
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: NetworkDelayEventRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: NetworkDelayEventRatio element
 ms:assetid: 0a17d1e3-139c-9d81-ad41-448fed31aa6f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912771(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912771(v=office.15)
 ms:contentKeyID: 64126941
 ms.date: 02/16/2015
 mtps_version: v=office.15

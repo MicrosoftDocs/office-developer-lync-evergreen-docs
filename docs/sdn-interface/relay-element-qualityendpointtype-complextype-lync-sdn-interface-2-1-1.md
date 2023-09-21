@@ -2,7 +2,7 @@
 title: Relay element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Relay element (QualityEndPointType complexType)
 ms:assetid: 2610e8e0-4497-83d3-8543-5798e6cd3f80
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912808(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912808(v=office.15)
 ms:contentKeyID: 64126976
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Platform behaviors (methods and properties)
 TOCTitle: Platform behaviors (methods and properties)
 ms:assetid: 2c50e201-69ad-4cf0-a506-91f3eca18e62
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466082(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466082(v=office.15)
 ms:contentKeyID: 57103179
 ms.date: 07/25/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: DeviceCaptureNotFunctioningEventRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DeviceCaptureNotFunctioningEventRatio element
 ms:assetid: 51a4cb3b-b212-3248-2ae8-6885cadbd1a9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912710(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912710(v=office.15)
 ms:contentKeyID: 64126880
 ms.date: 02/16/2015
 mtps_version: v=office.15

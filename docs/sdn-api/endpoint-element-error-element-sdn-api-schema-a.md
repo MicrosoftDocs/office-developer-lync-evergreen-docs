@@ -2,7 +2,7 @@
 title: EndPoint element (Error element) (Lync SDN API Schema A)
 TOCTitle: EndPoint element (Error element) (LyncDiagnostics element)
 ms:assetid: 0f594427-7f0d-a03a-0e0b-d59245295aca
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455037(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455037(v=office.15)
 ms:contentKeyID: 57260916
 ms.date: 07/24/2014
 mtps_version: v=office.15

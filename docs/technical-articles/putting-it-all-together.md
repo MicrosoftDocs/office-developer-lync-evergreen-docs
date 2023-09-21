@@ -2,7 +2,7 @@
 title: Putting it all together
 TOCTitle: Putting it all together
 ms:assetid: 587d2021-9059-4e90-ade4-0ce820947f7c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn551194(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn551194(v=office.15)
 ms:contentKeyID: 60829947
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -18,7 +18,7 @@ Now we are ready to hook up the underlying UCWA plumbing into our Windows Store 
 
 ## Parse UCWA resources in XML
 
-As has been shown, programming UCWA involves traversing from one resource to another following a sequence of HTTP requests and responses. At any time, a UCWA application can only move to an available resource that is embedded in or linked to from a currently obtained resource. The steps below illustrate how to leverage the [System.Xml.Linq](http://msdn.microsoft.com/en-us/library/system.xml.linq\(v=vs.110\).aspx) name to parse the raw UCWA resources in XML.
+As has been shown, programming UCWA involves traversing from one resource to another following a sequence of HTTP requests and responses. At any time, a UCWA application can only move to an available resource that is embedded in or linked to from a currently obtained resource. The steps below illustrate how to leverage the [System.Xml.Linq](http://msdn.microsoft.com/library/system.xml.linq\(v=vs.110\).aspx) name to parse the raw UCWA resources in XML.
 
 1.  From **Solution Explorer** in Visual Studio, right click the application project name (**WinStoreUcwaAppHello**) to select the **Add-\>class** menu options.
 
@@ -73,7 +73,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
             #endregion Constructors
     ```
     
-    The constructor taking as input an XML [Stream](http://msdn.microsoft.com/en-us/library/system.io.stream\(v=vs.110\).aspx) object is useful to encapsulate the UcwaResource class from the output of an HTTP response. The constructor taking as input an [XElement](http://msdn.microsoft.com/en-us/library/system.xml.linq.xelement\(v=vs.110\).aspx) instance can be useful to instantiate the UcwaResource class to work with an embedded resource that is a child element of an encapsulated resource.
+    The constructor taking as input an XML [Stream](http://msdn.microsoft.com/library/system.io.stream\(v=vs.110\).aspx) object is useful to encapsulate the UcwaResource class from the output of an HTTP response. The constructor taking as input an [XElement](http://msdn.microsoft.com/library/system.xml.linq.xelement\(v=vs.110\).aspx) instance can be useful to instantiate the UcwaResource class to work with an embedded resource that is a child element of an encapsulated resource.
 
 6.  Add to the UcwaResource class the following member definitions for parsing the attributes of a UCWA resource.
     
@@ -102,7 +102,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
             #endregion of Properties of the resource.
     ```
     
-    Using the [System.Xml.Linq](http://msdn.microsoft.com/en-us/library/system.xml.linq\(v=vs.110\).aspx) namespace, XML data can be parsed through elegant and powerful SQL-like queries, without elaborate coding efforts.
+    Using the [System.Xml.Linq](http://msdn.microsoft.com/library/system.xml.linq\(v=vs.110\).aspx) namespace, XML data can be parsed through elegant and powerful SQL-like queries, without elaborate coding efforts.
 
 8.  Add to the class definition the following member definitions for parsing the links of a UCWA resource.
     
@@ -138,7 +138,7 @@ As has been shown, programming UCWA involves traversing from one resource to ano
             #endregion of the embedded resources
     ```
     
-    Here, an embedded resource can be returned as an either UcwaResource object or an [XElement](http://msdn.microsoft.com/en-us/library/system.xml.linq.xelement\(v=vs.110\).aspx).
+    Here, an embedded resource can be returned as an either UcwaResource object or an [XElement](http://msdn.microsoft.com/library/system.xml.linq.xelement\(v=vs.110\).aspx).
 
 The class definition listed above should work with any UCWA resources. You can add customized behaviors to specific resources of your choosing.
 

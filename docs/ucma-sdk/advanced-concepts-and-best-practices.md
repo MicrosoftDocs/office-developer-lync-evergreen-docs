@@ -2,7 +2,7 @@
 title: Advanced concepts and best practices
 TOCTitle: Advanced concepts and best practices
 ms:assetid: 19c1416f-fa55-4ccc-a0fb-42519abb16a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466079(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466079(v=office.15)
 ms:contentKeyID: 57103181
 ms.date: 07/25/2014
 mtps_version: v=office.15

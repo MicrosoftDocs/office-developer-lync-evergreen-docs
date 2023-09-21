@@ -2,7 +2,7 @@
 title: 'Core concepts: Lync contact lists'
 TOCTitle: Lync contact lists
 ms:assetid: 1c93bc2a-c228-497f-8b2c-62a5fa7f24b2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937275(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937275(v=office.15)
 ms:contentKeyID: 50877093
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,7 +39,7 @@ The Lync platform provides a contact manager class that lets you manage the cont
 
 ## Contact list object model
 
-The object model mirrors the contact list elements that are shown in the Lync 2013 UI as shown in figure 1. You can use the Lync 2013 API to programmatically search for contacts and obtain the same results that a user obtains by typing contact names, group names, or skill keywords in the contact/group search feature of the UI. The [Microsoft.Lync.Model.Group.FavoriteContacts](https://msdn.microsoft.com/en-us/library/jj277579\(v=office.15\)) object encapsulates the favorite contacts element of the list on the UI. You can move contacts in to and out of the favorite contacts group programmatically. Custom groups can be created or removed programmatically. You can also add or remove contacts from the custom groups.
+The object model mirrors the contact list elements that are shown in the Lync 2013 UI as shown in figure 1. You can use the Lync 2013 API to programmatically search for contacts and obtain the same results that a user obtains by typing contact names, group names, or skill keywords in the contact/group search feature of the UI. The [Microsoft.Lync.Model.Group.FavoriteContacts](https://msdn.microsoft.com/library/jj277579\(v=office.15\)) object encapsulates the favorite contacts element of the list on the UI. You can move contacts in to and out of the favorite contacts group programmatically. Custom groups can be created or removed programmatically. You can also add or remove contacts from the custom groups.
 
 Figure 1 shows the Lync 2013 client with the programmable contact list features called out. To add these features to an application, you should be familiar with the contact list objects described in this section.
 

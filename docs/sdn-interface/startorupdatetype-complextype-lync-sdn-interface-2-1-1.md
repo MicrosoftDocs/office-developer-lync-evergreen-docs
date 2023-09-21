@@ -2,7 +2,7 @@
 title: StartOrUpdateType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: StartOrUpdateType complexType
 ms:assetid: 88001339-2d99-5fba-1b4b-4d6e8d56ea94
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912862(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912862(v=office.15)
 ms:contentKeyID: 64127031
 ms.date: 02/16/2015
 mtps_version: v=office.15

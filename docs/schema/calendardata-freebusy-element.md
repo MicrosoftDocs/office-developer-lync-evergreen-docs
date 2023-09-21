@@ -2,7 +2,7 @@
 title: calendarData/freeBusy element
 TOCTitle: calendarData/freeBusy element
 ms:assetid: dbd4803a-c1d0-44a6-85cc-72780b5af2a0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454707(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454707(v=office.15)
 ms:contentKeyID: 57093394
 ms.date: 07/24/2014
 mtps_version: v=office.15

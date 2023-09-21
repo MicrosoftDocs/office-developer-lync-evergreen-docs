@@ -2,7 +2,7 @@
 title: Best practices (UCMA 4.0)
 TOCTitle: Best practices
 ms:assetid: db8473a3-12b9-4887-bb75-d0c03f96799d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466110(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466110(v=office.15)
 ms:contentKeyID: 57103398
 ms.date: 07/25/2014
 mtps_version: v=office.15

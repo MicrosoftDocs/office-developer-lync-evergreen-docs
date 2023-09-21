@@ -2,7 +2,7 @@
 title: DegradationPacketLossAvg element (Lync SDN API Schema A)
 TOCTitle: DegradationPacketLossAvg element
 ms:assetid: 7c4beeae-1a2a-1854-27e7-5c1e4b797592
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455026(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455026(v=office.15)
 ms:contentKeyID: 57260899
 ms.date: 07/24/2014
 mtps_version: v=office.15

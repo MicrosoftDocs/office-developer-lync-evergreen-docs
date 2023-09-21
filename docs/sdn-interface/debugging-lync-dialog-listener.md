@@ -2,7 +2,7 @@
 title: Debugging Lync Dialog Listener
 TOCTitle: Debugging Lync Dialog Listener
 ms:assetid: 0dade195-3eee-4b8d-8510-33bd78927442
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785218(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785218(v=office.15)
 ms:contentKeyID: 62952701
 ms.date: 02/16/2015
 mtps_version: v=office.15

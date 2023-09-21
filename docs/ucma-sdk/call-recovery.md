@@ -2,7 +2,7 @@
 title: Call recovery
 TOCTitle: Call recovery
 ms:assetid: d489a8b4-0dda-41b4-9d45-da89d4af86f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466067(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466067(v=office.15)
 ms:contentKeyID: 57103059
 ms.date: 07/25/2014
 mtps_version: v=office.15

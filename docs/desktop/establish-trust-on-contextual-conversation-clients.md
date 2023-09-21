@@ -2,7 +2,7 @@
 title: Establish trust on contextual conversation clients
 TOCTitle: Establish trust on contextual conversation clients
 ms:assetid: a96b244e-d4e0-4710-9527-a85fad9213da
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945572(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945572(v=office.15)
 ms:contentKeyID: 51541387
 ms.date: 07/24/2014
 mtps_version: v=office.15

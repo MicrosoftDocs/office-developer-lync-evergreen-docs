@@ -2,7 +2,7 @@
 title: ConversationalMOS element (Lync SDN API Schema A)
 TOCTitle: ConversationalMOS element
 ms:assetid: 98e11e67-4e9e-d57f-7007-8eb179e2c93f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455016(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455016(v=office.15)
 ms:contentKeyID: 57260893
 ms.date: 07/24/2014
 mtps_version: v=office.15

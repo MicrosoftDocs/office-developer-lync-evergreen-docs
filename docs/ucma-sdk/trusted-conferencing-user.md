@@ -2,7 +2,7 @@
 title: Trusted conferencing user
 TOCTitle: Trusted conferencing user
 ms:assetid: d3fefefc-1c54-43db-b85b-d02d45d3a9f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466005(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466005(v=office.15)
 ms:contentKeyID: 57102968
 ms.date: 07/25/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: RecvFrameRateAverage element  (Lync SDN API Schema A)
 TOCTitle: RecvFrameRateAverage element
 ms:assetid: 81d919eb-736e-78fe-00a0-df727475f0c0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439253(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439253(v=office.15)
 ms:contentKeyID: 57260989
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Relay element (QualityEndPointType complexType) (Lync SDN API Schema A)
 TOCTitle: Relay element
 ms:assetid: f69034ad-2bbb-e331-4294-fe93eb9fae0c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775136(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775136(v=office.15)
 ms:contentKeyID: 62626110
 ms.date: 07/24/2014
 mtps_version: v=office.15

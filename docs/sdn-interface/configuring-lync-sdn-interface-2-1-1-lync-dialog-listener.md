@@ -2,7 +2,7 @@
 title: Configuring Lync SDN Interface 2.1.1 Lync Dialog Listener
 TOCTitle: Configuring Lync SDN Interface 2.1.1 Lync Dialog Listener
 ms:assetid: 0f604c7d-87a3-4526-b67c-25648c8427e7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785206(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785206(v=office.15)
 ms:contentKeyID: 62952695
 ms.date: 02/16/2015
 mtps_version: v=office.15

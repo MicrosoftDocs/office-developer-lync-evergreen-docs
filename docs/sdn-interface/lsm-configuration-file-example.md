@@ -2,7 +2,7 @@
 title: LSM configuration file example
 TOCTitle: LSM configuration file example
 ms:assetid: 2113f2b8-80b2-4110-a021-ad7df2d2b517
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn802611(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn802611(v=office.15)
 ms:contentKeyID: 62952712
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: state/endpointLocation element
 TOCTitle: state/endpointLocation element
 ms:assetid: 8c896006-6c4f-4e62-b9b0-fbaf0df255f0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454804(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454804(v=office.15)
 ms:contentKeyID: 57093897
 ms.date: 07/24/2014
 mtps_version: v=office.15

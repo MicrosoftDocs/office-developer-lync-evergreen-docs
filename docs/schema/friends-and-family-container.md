@@ -2,7 +2,7 @@
 title: Friends and Family container
 TOCTitle: Friends and Family container
 ms:assetid: 5dbfd68d-1345-4859-8526-a9450cbbb22c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454674(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454674(v=office.15)
 ms:contentKeyID: 57093149
 ms.date: 07/24/2014
 mtps_version: v=office.15

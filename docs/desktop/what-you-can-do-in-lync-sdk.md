@@ -2,7 +2,7 @@
 title: What you can do in Lync SDK
 TOCTitle: Lync SDK
 ms:assetid: bb79df6a-b15e-490c-8671-fcf4befe61ba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933175(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933175(v=office.15)
 ms:contentKeyID: 50877314
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -32,7 +32,7 @@ Additional resources</p></td>
 
 ## Core SDK tasks
 
-The [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) class represents the SIP endpoint that can accept a set of user credentials and sign in to Microsoft Lync Server 2013. In addition, **LyncClient** can publish the signed-in user’s presence. Finally, **LyncClient** is the entry point for all further API functionality except for conversation automation. You access additional Lync 2013 API features by getting specialized feature manager class objects from properties of **LyncClient**. For example, you get a specialized contact manager by reading the [Client.ContactManager](https://msdn.microsoft.com/en-us/library/jj275688\(v=office.15\)) property to get the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) object.
+The [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) class represents the SIP endpoint that can accept a set of user credentials and sign in to Microsoft Lync Server 2013. In addition, **LyncClient** can publish the signed-in user’s presence. Finally, **LyncClient** is the entry point for all further API functionality except for conversation automation. You access additional Lync 2013 API features by getting specialized feature manager class objects from properties of **LyncClient**. For example, you get a specialized contact manager by reading the [Client.ContactManager](https://msdn.microsoft.com/library/jj275688\(v=office.15\)) property to get the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)) object.
 
 ## In this section
 

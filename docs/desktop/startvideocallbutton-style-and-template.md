@@ -2,7 +2,7 @@
 title: StartVideoCallButton style and template
 TOCTitle: StartVideoCallButton style and template
 ms:assetid: 35cd9bb5-6502-4b67-9002-c66fbe99c313
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937301(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937301(v=office.15)
 ms:contentKeyID: 50877127
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the style and template for the [StartVideoCallButton](https://msdn.microsoft.com/en-us/library/hh379584\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the style and template for the [StartVideoCallButton](https://msdn.microsoft.com/library/hh379584\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -20,7 +20,7 @@ Learn about the style and template for the [StartVideoCallButton](https://msdn.m
 
  
 
-There are no states or [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the StartVideoCallButton control.
+There are no states or [Style](http://msdn.microsoft.com/library/system.windows.style\(vs.95\).aspx) properties for the StartVideoCallButton control.
 
 ![StartVideoCallButton Control](images/JJ937301.StartVideoCallButtonControl(Office.15).png "StartVideoCallButton Control")
 
@@ -44,7 +44,7 @@ The following table lists the named parts for the StartVideoCallButton control.
 <tbody>
 <tr class="odd">
 <td><p>CommandControl</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.control.aspx">Control</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.control.aspx">Control</a></p></td>
 <td><p>Launches a video conversation.</p></td>
 </tr>
 </tbody>

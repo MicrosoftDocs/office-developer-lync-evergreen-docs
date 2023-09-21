@@ -2,7 +2,7 @@
 title: 'How to: Create custom a Persistent Chat client'
 TOCTitle: 'How to: Create custom a Persistent Chat client'
 ms:assetid: 5949cdc4-560c-4a95-b84e-c00964d55aae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465892(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465892(v=office.15)
 ms:contentKeyID: 57101356
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -19,7 +19,7 @@ A user can use Microsoft Lync 2013 as the default client to access Microsoft Lyn
 
 ## Simple custom client
 
-In the simplest case, a custom Lync Server 2013 Persistent Chat API client can use a [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\))-based [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj267567\(v=office.15\)) to connect to the Lync Server 2013 Persistent Chat. When connected, it can allow the user to search for a chat room based on certain criteria, join a selected chat room, post messages to the chat room, and receive messages from the room either in real time or on demand. The application can be synthesized using the following programming tasks as explained in [How to use Persistent Chat API (Lync Server 2013 Persistent Chat SDK)](how-to-use-persistent-chat-api-lync-server-2013-persistent-chat-sdk.md):
+In the simplest case, a custom Lync Server 2013 Persistent Chat API client can use a [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\))-based [PersistentChatEndpoint](https://msdn.microsoft.com/library/jj267567\(v=office.15\)) to connect to the Lync Server 2013 Persistent Chat. When connected, it can allow the user to search for a chat room based on certain criteria, join a selected chat room, post messages to the chat room, and receive messages from the room either in real time or on demand. The application can be synthesized using the following programming tasks as explained in [How to use Persistent Chat API (Lync Server 2013 Persistent Chat SDK)](how-to-use-persistent-chat-api-lync-server-2013-persistent-chat-sdk.md):
 
   - [How to: Connect to a Persistent Chat server](how-to-connect-to-a-persistent-chat-server.md)
 

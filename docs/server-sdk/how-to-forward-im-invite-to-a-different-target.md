@@ -2,7 +2,7 @@
 title: 'How to: Forward IM invite to a different target'
 TOCTitle: 'How to: Forward IM invite to a different target'
 ms:assetid: 81d489bf-1e20-41fa-853d-d10541a6b654
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439073(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439073(v=office.15)
 ms:contentKeyID: 57096233
 ms.date: 02/11/2016
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ In common SIP application scenarios, incoming calls are forwarded to a different
 
 ## Forward an IM invite from one user to another user
 
-The following Microsoft SIP Processing Language (MSPL) script shows how to forward a call from a specified user to another specified user. The incoming INVITE is originated from the user, Nuria, as identified by the SIP URI of "sip:nuriag@contoso.com". The application uses the [RetargetRequest](https://msdn.microsoft.com/en-us/library/dn439184\(v=office.15\)) function to change the original target, Jenny, as identified by the SIP URI of "sip:jennyl@contoso.com" to a different user, Terry, as identified by the SIP URI of "sip:terrya@contoso.com".
+The following Microsoft SIP Processing Language (MSPL) script shows how to forward a call from a specified user to another specified user. The incoming INVITE is originated from the user, Nuria, as identified by the SIP URI of "sip:nuriag@contoso.com". The application uses the [RetargetRequest](https://msdn.microsoft.com/library/dn439184\(v=office.15\)) function to change the original target, Jenny, as identified by the SIP URI of "sip:jennyl@contoso.com" to a different user, Terry, as identified by the SIP URI of "sip:terrya@contoso.com".
 
 
 > [!NOTE]
@@ -74,7 +74,7 @@ When enabled, this application forwards the call intended for Jenny (sip:jennyl@
 
 
 
-Similar to forwarding a call, MSPL supports redirection of a call by using the [Respond](https://msdn.microsoft.com/en-us/library/hh364786\(v=office.15\)) function. This concept appears in the following MSPL example.
+Similar to forwarding a call, MSPL supports redirection of a call by using the [Respond](https://msdn.microsoft.com/library/hh364786\(v=office.15\)) function. This concept appears in the following MSPL example.
 
 ``` 
      if (toUri == "sip:jennyl@contoso.com" && fromUri == "sip:nuriag@contoso.com")
@@ -100,5 +100,5 @@ In the redirection scenario, the call requester is aware that the call is forwar
 
 #### Other resources
 
-[Video: Use an MSPL Script to Forward IM Calls](http://www.microsoft.com/resources/msdn/en-us/office/media/video/video.html?cid=ldc%26from=mscomldc%26videoid=d30d1ca4-a6f6-4ca4-9da0-78dda38c335f)
+[Video: Use an MSPL Script to Forward IM Calls](http://www.microsoft.com/resources/msdn/office/media/video/video.html?cid=ldc%26from=mscomldc%26videoid=d30d1ca4-a6f6-4ca4-9da0-78dda38c335f)
 

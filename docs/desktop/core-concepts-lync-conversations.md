@@ -2,7 +2,7 @@
 title: 'Core concepts: Lync conversations'
 TOCTitle: Lync conversations
 ms:assetid: 1c805dc1-5f85-4c8a-a0c3-a620433739db
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937273(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937273(v=office.15)
 ms:contentKeyID: 50877090
 ms.date: 07/24/2014
 mtps_version: v=office.15

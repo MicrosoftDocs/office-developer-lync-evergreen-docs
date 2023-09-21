@@ -2,7 +2,7 @@
 title: Lync endpoint types
 TOCTitle: Lync endpoint types
 ms:assetid: fa01986d-7b7c-4f8c-a64c-24811e8b48e8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn345988(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn345988(v=office.15)
 ms:contentKeyID: 56253172
 ms.date: 02/11/2016
 mtps_version: v=office.15

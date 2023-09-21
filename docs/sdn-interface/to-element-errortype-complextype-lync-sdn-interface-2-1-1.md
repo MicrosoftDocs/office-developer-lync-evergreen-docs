@@ -2,7 +2,7 @@
 title: To element (ErrorType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: To element (ErrorType complexType)
 ms:assetid: 71dee509-11cc-0289-e61b-bc14bac70966
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912826(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912826(v=office.15)
 ms:contentKeyID: 64127020
 ms.date: 02/16/2015
 mtps_version: v=office.15

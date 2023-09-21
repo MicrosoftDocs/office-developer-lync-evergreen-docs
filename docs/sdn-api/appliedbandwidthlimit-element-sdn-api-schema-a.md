@@ -2,7 +2,7 @@
 title: AppliedBandwidthLimit element (Lync SDN API Schema A)
 TOCTitle: AppliedBandwidthLimit element
 ms:assetid: 0532dc39-5e76-3b4b-c91b-78cce2a3e9c4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775104(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775104(v=office.15)
 ms:contentKeyID: 62626079
 ms.date: 07/24/2014
 mtps_version: v=office.15

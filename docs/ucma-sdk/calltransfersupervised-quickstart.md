@@ -2,7 +2,7 @@
 title: CallTransferSupervised (QuickStart)
 TOCTitle: CallTransferSupervised (QuickStart)
 ms:assetid: 9c755cf5-c4ff-467c-bc6c-6b704755ba2e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454819(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454819(v=office.15)
 ms:contentKeyID: 57103669
 ms.date: 07/25/2014
 mtps_version: v=office.15

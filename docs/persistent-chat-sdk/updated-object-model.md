@@ -2,7 +2,7 @@
 title: Updated object model
 TOCTitle: Updated object model
 ms:assetid: 20f5d304-2e81-4eaa-a134-00b0951383a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439201(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439201(v=office.15)
 ms:contentKeyID: 57101301
 ms.date: 07/24/2014
 mtps_version: v=office.15

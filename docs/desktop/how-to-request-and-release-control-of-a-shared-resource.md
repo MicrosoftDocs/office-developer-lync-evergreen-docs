@@ -2,7 +2,7 @@
 title: 'How to: Request and release control of a shared resource'
 TOCTitle: 'How to: Request and release control of a shared resource'
 ms:assetid: 6cd7553a-fa92-4c34-bb9a-c349e38d7d70
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933059(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933059(v=office.15)
 ms:contentKeyID: 50877189
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -98,11 +98,11 @@ The prerequisites for requesting and releasing control of a locally shared resou
 
 ## Initial application state
 
-Before your application runs the logic in this topic, a resource sharing conversation must be active with one or more participants in addition to the local user. The local user participation state must be [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Viewing** and another conversation participant must be sharing a resource in the conversation. For information about reaching this starting application state, see [How to: Start a resource sharing conversation](how-to-start-a-resource-sharing-conversation.md).
+Before your application runs the logic in this topic, a resource sharing conversation must be active with one or more participants in addition to the local user. The local user participation state must be [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.Viewing** and another conversation participant must be sharing a resource in the conversation. For information about reaching this starting application state, see [How to: Start a resource sharing conversation](how-to-start-a-resource-sharing-conversation.md).
 
 ## Request control of a shared resource
 
-A user can request control of a shared resource if his or her current participation state is [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Viewing**. This state is possible when another user is sharing the local resource and the local user is viewing the shared resource. When the local user makes a control request, the participation state changes to [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.RequestingControl**. The user who is sharing a resource must accept the request before the local user’s participation state changes to [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Controlling**.
+A user can request control of a shared resource if his or her current participation state is [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.Viewing**. This state is possible when another user is sharing the local resource and the local user is viewing the shared resource. When the local user makes a control request, the participation state changes to [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.RequestingControl**. The user who is sharing a resource must accept the request before the local user’s participation state changes to [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.Controlling**.
 
 <table>
 <colgroup>
@@ -115,14 +115,14 @@ A user can request control of a shared resource if his or her current participat
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Only one user at a time can request control. If your application requests control and the local participant’s participation state is immediately set to <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Viewing</strong> instead of <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.RequestingControl</strong>, another participant has a pending control request that the sharing participant has not responded to.</p>
+<td><p>Only one user at a time can request control. If your application requests control and the local participant’s participation state is immediately set to <a href="https://msdn.microsoft.com/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Viewing</strong> instead of <a href="https://msdn.microsoft.com/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.RequestingControl</strong>, another participant has a pending control request that the sharing participant has not responded to.</p>
 <p>When a request for control of a resource is declined or canceled because there is a pending request from another user, the requesting user’s participation state change sequence is as follows:</p>
 <ol>
-<li><p><a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Viewing</strong></p></li>
-<li><p><a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.RequestingControl</strong></p></li>
-<li><p><a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Viewing</strong></p></li>
+<li><p><a href="https://msdn.microsoft.com/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Viewing</strong></p></li>
+<li><p><a href="https://msdn.microsoft.com/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.RequestingControl</strong></p></li>
+<li><p><a href="https://msdn.microsoft.com/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Viewing</strong></p></li>
 </ol>
-<p>The <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Controlling</strong> state is never set in this scenario.</p></td>
+<p>The <a href="https://msdn.microsoft.com/library/jj267952(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</a><strong>.Controlling</strong> state is never set in this scenario.</p></td>
 </tr>
 </tbody>
 </table>
@@ -159,7 +159,7 @@ The following example requests control of a resource shared by another user.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>The previous example only requests control of a resource. The remote user must accept or decline. If the request is ignored by the other user, the requesting user participation status remains <a href="https://msdn.microsoft.com/en-us/library/jj267952(v=office.15)">ParticipationState</a><strong>.RequestingControl</strong> until another presenter shares a resource and replaces the currently shared resource.</p></td>
+<td><p>The previous example only requests control of a resource. The remote user must accept or decline. If the request is ignored by the other user, the requesting user participation status remains <a href="https://msdn.microsoft.com/library/jj267952(v=office.15)">ParticipationState</a><strong>.RequestingControl</strong> until another presenter shares a resource and replaces the currently shared resource.</p></td>
 </tr>
 </tbody>
 </table>
@@ -231,7 +231,7 @@ A user’s participation state is the current resource sharing-related activity.
 
 ### Handle the ParticipationStateChanged event
 
-When a conversation is started and no participant has shared a resource, every participant’s participation state is [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.None**. After a participant starts sharing a resource, all participants who accept the sharing invitation have a participation state of [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Viewing**. The sharing participant has a participation state of [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Sharing**. If you have registered an event callback method for the [ApplicationSharingModality.ParticipationStateChanged](https://msdn.microsoft.com/en-us/library/jj293494\(v=office.15\)) event on the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object of the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)), you can update your UI with the new participation state of the local user.
+When a conversation is started and no participant has shared a resource, every participant’s participation state is [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.None**. After a participant starts sharing a resource, all participants who accept the sharing invitation have a participation state of [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.Viewing**. The sharing participant has a participation state of [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.Sharing**. If you have registered an event callback method for the [ApplicationSharingModality.ParticipationStateChanged](https://msdn.microsoft.com/library/jj293494\(v=office.15\)) event on the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) object of the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)), you can update your UI with the new participation state of the local user.
 
 ### Code example
 
@@ -264,7 +264,7 @@ The following example updates the text of a label in the UI with the current par
 
 ## Release control of a shared resource
 
-A user can release control of a shared resource if that user’s current participation state is [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Controlling**. This state is possible when another user is sharing their local resource and the local user is controlling the shared resource. When the local user releases control of a shared resource, the local user’s participation state changes to [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Viewing**.
+A user can release control of a shared resource if that user’s current participation state is [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.Controlling**. This state is possible when another user is sharing their local resource and the local user is controlling the shared resource. When the local user releases control of a shared resource, the local user’s participation state changes to [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.Viewing**.
 
 ### Code example
 
@@ -314,7 +314,7 @@ The following example disconnects the conversation application sharing modality 
 
 ## Application state after completing how-to tasks
 
-When your application has requested and released control of a shared resource, the resource is shown on the content stage of all participants and the local user is not in control. In addition, the [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\))**.RequestSharingControl** action is available. You can now request sharing control of the shared resource again. If the local user is a presenter in the conversation, a local resource can be shared.
+When your application has requested and released control of a shared resource, the resource is shown on the content stage of all participants and the local user is not in control. In addition, the [ModalityAction](https://msdn.microsoft.com/library/jj266957\(v=office.15\))**.RequestSharingControl** action is available. You can now request sharing control of the shared resource again. If the local user is a presenter in the conversation, a local resource can be shared.
 
 ## Code examples: Resource sharing
 

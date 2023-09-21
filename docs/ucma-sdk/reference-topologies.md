@@ -2,7 +2,7 @@
 title: Reference topologies
 TOCTitle: Reference topologies
 ms:assetid: db9cfb90-90dd-4319-b98f-7cc47f2f1d82
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465966(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465966(v=office.15)
 ms:contentKeyID: 57102662
 ms.date: 07/25/2014
 mtps_version: v=office.15

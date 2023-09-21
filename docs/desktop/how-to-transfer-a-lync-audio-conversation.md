@@ -2,7 +2,7 @@
 title: 'How to: Transfer a Lync audio conversation'
 TOCTitle: 'How to: Transfer a Lync audio conversation'
 ms:assetid: 0b4a623b-277d-4470-915b-e8edb5026f57
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937258(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937258(v=office.15)
 ms:contentKeyID: 50877076
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,7 +39,7 @@ Additional resources</p></td>
 
 ## Call transfer overview
 
-To transfer an active audio conversation, you must obtain the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance on the conversation you will transfer and a [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instance representing the person receiving the transferred call. Your application must be able to handle all of the outcomes of the transfer operation. A transfer operation can result in the acceptance of the transfer by a target user or rejection by the same user. When a transfer is rejected, your application is responsible for reacting to the rejection by retrieving the audio/video modality from a hold state or terminating the call. You handle a series of events on the conversation audio/video modality to monitor the progress of the transfer.
+To transfer an active audio conversation, you must obtain the [AVModality](https://msdn.microsoft.com/library/jj274580\(v=office.15\)) instance on the conversation you will transfer and a [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) instance representing the person receiving the transferred call. Your application must be able to handle all of the outcomes of the transfer operation. A transfer operation can result in the acceptance of the transfer by a target user or rejection by the same user. When a transfer is rejected, your application is responsible for reacting to the rejection by retrieving the audio/video modality from a hold state or terminating the call. You handle a series of events on the conversation audio/video modality to monitor the progress of the transfer.
 
 The state and the availability of specific actions such as hold, retrieve, transfer, connect, and disconnect must be monitored after a transfer operation is initiated. While a transfer is pending, you cannot retrieve, connect, or disconnect a call. If the transfer is accepted, you are disconnected from the call with no further action on the part of your application. If the transfer is rejected, the retrieve and disconnect actions are available. The conversation state is set to active.
 
@@ -143,7 +143,7 @@ The prerequisites for transferring a call are as follows:
 <tbody>
 <tr class="odd">
 <td><p><a href="conversation-modalities.md">Conversation modalities</a></p></td>
-<td><p>Describes how the <a href="https://msdn.microsoft.com/en-us/library/jj274796(v=office.15)">Microsoft.Lync.Model.Conversation.Modality</a> class represents a mode of communication in a conversation.</p></td>
+<td><p>Describes how the <a href="https://msdn.microsoft.com/library/jj274796(v=office.15)">Microsoft.Lync.Model.Conversation.Modality</a> class represents a mode of communication in a conversation.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="conversation-participants.md">Conversation participants</a></p></td>
@@ -156,23 +156,23 @@ The prerequisites for transferring a call are as follows:
 
 ### To transfer an audio conversation
 
-1.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
+1.  Get the [LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
     
     For information about signing in to Microsoft Lync Server 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-2.  Get a connected instance of [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\))
+2.  Get a connected instance of [Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\))
     
     The conversation direction can be incoming or outgoing. For information about starting an audio conversation, see [How to: Start a Lync audio conversation](how-to-start-a-lync-audio-conversation.md).
 
-3.  Register for the [StateChanged](https://msdn.microsoft.com/en-us/library/jj278070\(v=office.15\)) event on the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance.
+3.  Register for the [StateChanged](https://msdn.microsoft.com/library/jj278070\(v=office.15\)) event on the [Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) instance.
 
-4.  Get the **AVModality** instance from the collection of modalities on the [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance.
+4.  Get the **AVModality** instance from the collection of modalities on the [Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) instance.
     
-    Read the [Modalities](https://msdn.microsoft.com/en-us/library/jj275560\(v=office.15\)) property. Use the [ModalityTypes](https://msdn.microsoft.com/en-us/library/jj274831\(v=office.15\)).**AudioVideo** enumerator as an index to specify which modality to get.
+    Read the [Modalities](https://msdn.microsoft.com/library/jj275560\(v=office.15\)) property. Use the [ModalityTypes](https://msdn.microsoft.com/library/jj274831\(v=office.15\)).**AudioVideo** enumerator as an index to specify which modality to get.
 
-5.  Register for the [ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) and [ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) events on the conversation [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance.
+5.  Register for the [ModalityStateChanged](https://msdn.microsoft.com/library/jj278080\(v=office.15\)) and [ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) events on the conversation [AVModality](https://msdn.microsoft.com/library/jj274580\(v=office.15\)) instance.
 
-6.  Get a [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instance that resolves to the user you target for the transfer.
+6.  Get a [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) instance that resolves to the user you target for the transfer.
     
     <table>
     <colgroup>
@@ -185,15 +185,15 @@ The prerequisites for transferring a call are as follows:
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>If the target user is not a contact in one of the groups exposed by <a href="https://msdn.microsoft.com/en-us/library/jj277988(v=office.15)">Groups</a>, you can obtain the contact by searching for the contact using the Microsoft Lync 2013 API search feature or you can call into <strong>GetContactByuri(string)</strong> if you have the URI of the target user.</p>
-    <p>For information about searching for a contact, see <a href="https://msdn.microsoft.com/en-us/library/jj933159(v=office.15)">How to: Search for a contact or distribution group</a>.</p></td>
+    <td><p>If the target user is not a contact in one of the groups exposed by <a href="https://msdn.microsoft.com/library/jj277988(v=office.15)">Groups</a>, you can obtain the contact by searching for the contact using the Microsoft Lync 2013 API search feature or you can call into <strong>GetContactByuri(string)</strong> if you have the URI of the target user.</p>
+    <p>For information about searching for a contact, see <a href="https://msdn.microsoft.com/library/jj933159(v=office.15)">How to: Search for a contact or distribution group</a>.</p></td>
     </tr>
     </tbody>
     </table>
 
-7.  To start the transfer operation, call into the [BeginTransfer](https://msdn.microsoft.com/en-us/library/jj293455\(v=office.15\)) or [BeginTransfer](https://msdn.microsoft.com/en-us/library/jj293455\(v=office.15\)) method of the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) instance. Pass the target contact as the first argument of the method call. If you are transferring a call to a public switched telephone network (PSTN) phone, voicemail or other type of contact endpoint, call the overload of **BeginTransfer** and pass the [ContactEndpoint](https://msdn.microsoft.com/en-us/library/jj276722\(v=office.15\)) representing the transfer target.
+7.  To start the transfer operation, call into the [BeginTransfer](https://msdn.microsoft.com/library/jj293455\(v=office.15\)) or [BeginTransfer](https://msdn.microsoft.com/library/jj293455\(v=office.15\)) method of the [AVModality](https://msdn.microsoft.com/library/jj274580\(v=office.15\)) instance. Pass the target contact as the first argument of the method call. If you are transferring a call to a public switched telephone network (PSTN) phone, voicemail or other type of contact endpoint, call the overload of **BeginTransfer** and pass the [ContactEndpoint](https://msdn.microsoft.com/library/jj276722\(v=office.15\)) representing the transfer target.
 
-8.  Catch the series of [ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) events raised by the audio/video modality.
+8.  Catch the series of [ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) events raised by the audio/video modality.
     
     As the availability of hold, retrieve, and transfer change as the transfer operation progresses, your event callback for these events is invoked. If the transfer is rejected, the retrieve, disconnect, and transfer options are made available. If the transfer is accepted, your event callback for these events is not invoked.
     
@@ -213,9 +213,9 @@ The prerequisites for transferring a call are as follows:
     </tbody>
     </table>
 
-9.  Catch the series of [StateChanged](https://msdn.microsoft.com/en-us/library/jj278070\(v=office.15\)) events raised by the conversation.
+9.  Catch the series of [StateChanged](https://msdn.microsoft.com/library/jj278070\(v=office.15\)) events raised by the conversation.
     
-    After completing the transfer operation, your event callback for these events is invoked. If the transfer is accepted, your event callback is invoked and the state of the conversation is [ConversationState](https://msdn.microsoft.com/en-us/library/jj277587\(v=office.15\)).**Terminated**. If the transfer is rejected, your event callback is invoked and the state of the conversation is [ConversationState](https://msdn.microsoft.com/en-us/library/jj277587\(v=office.15\)).**Active**.
+    After completing the transfer operation, your event callback for these events is invoked. If the transfer is accepted, your event callback is invoked and the state of the conversation is [ConversationState](https://msdn.microsoft.com/library/jj277587\(v=office.15\)).**Terminated**. If the transfer is rejected, your event callback is invoked and the state of the conversation is [ConversationState](https://msdn.microsoft.com/library/jj277587\(v=office.15\)).**Active**.
     
     <table>
     <colgroup>
@@ -235,23 +235,23 @@ The prerequisites for transferring a call are as follows:
 
 ## Handle events
 
-**Audio/Video modality [ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event**
+**Audio/Video modality [ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) event**
 
 ### To handle call transfer events
 
-  - Check the [Action](https://msdn.microsoft.com/en-us/library/jj276590\(v=office.15\)) and [IsAvailable](https://msdn.microsoft.com/en-us/library/jj293614\(v=office.15\)) properties. If the action is [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\)).**Retrieve**, .**Disconnect**, .**RemoteTransfer**, .**ConsultativeTransfer**, **LocalTransfer**, or **Forward**, then you get the [IsAvailable](https://msdn.microsoft.com/en-us/library/jj293614\(v=office.15\)) property. If true, the transfer was rejected. In this case, you also receive a conversation state changed event indicating the conversation is now active.
+  - Check the [Action](https://msdn.microsoft.com/library/jj276590\(v=office.15\)) and [IsAvailable](https://msdn.microsoft.com/library/jj293614\(v=office.15\)) properties. If the action is [ModalityAction](https://msdn.microsoft.com/library/jj266957\(v=office.15\)).**Retrieve**, .**Disconnect**, .**RemoteTransfer**, .**ConsultativeTransfer**, **LocalTransfer**, or **Forward**, then you get the [IsAvailable](https://msdn.microsoft.com/library/jj293614\(v=office.15\)) property. If true, the transfer was rejected. In this case, you also receive a conversation state changed event indicating the conversation is now active.
 
-**Conversation [StateChanged](https://msdn.microsoft.com/en-us/library/jj278070\(v=office.15\)) event**
+**Conversation [StateChanged](https://msdn.microsoft.com/library/jj278070\(v=office.15\)) event**
 
-  - Read the [NewState](https://msdn.microsoft.com/en-us/library/jj294024\(v=office.15\)) property. The resulting enumerator indicates the state of the transfer operation.
+  - Read the [NewState](https://msdn.microsoft.com/library/jj294024\(v=office.15\)) property. The resulting enumerator indicates the state of the transfer operation.
     
-    If the state is [ConversationState](https://msdn.microsoft.com/en-us/library/jj277587\(v=office.15\)).**Terminated**, then the transfer is accepted and you should unregister for conversation and modality events and dispose of the conversation. If the state is .**Active** and the audio/video modality can be retrieved, disconnected, transferred, or forwarded, then the transfer operation was rejected.
+    If the state is [ConversationState](https://msdn.microsoft.com/library/jj277587\(v=office.15\)).**Terminated**, then the transfer is accepted and you should unregister for conversation and modality events and dispose of the conversation. If the state is .**Active** and the audio/video modality can be retrieved, disconnected, transferred, or forwarded, then the transfer operation was rejected.
 
 ## Code examples: Audio conversations
 
 ### Class field declarations
 
-The following declarations are added to your custom class. You initiate \_AVModality with the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) obtained from the [Modalities](https://msdn.microsoft.com/en-us/library/jj275560\(v=office.15\)) property of the active conversation.
+The following declarations are added to your custom class. You initiate \_AVModality with the [AVModality](https://msdn.microsoft.com/library/jj274580\(v=office.15\)) obtained from the [Modalities](https://msdn.microsoft.com/library/jj275560\(v=office.15\)) property of the active conversation.
 
 ```csharp
         private AVModality _AVModality;
@@ -278,7 +278,7 @@ The following declarations are added to your custom class. You initiate \_AVModa
 
 ### Transfer a call
 
-The following example uses an active [Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance where the audio/video modality is connected to a remote user.
+The following example uses an active [Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) instance where the audio/video modality is connected to a remote user.
 
 <table>
 <colgroup>

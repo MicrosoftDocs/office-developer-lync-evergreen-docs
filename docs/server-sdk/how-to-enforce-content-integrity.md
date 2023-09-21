@@ -2,7 +2,7 @@
 title: 'How to: Enforce content integrity'
 TOCTitle: 'How to: Enforce content integrity'
 ms:assetid: 55722aa5-2e9d-4c75-bc5f-ff4458a7bf68
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439072(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439072(v=office.15)
 ms:contentKeyID: 57096231
 ms.date: 07/24/2014
 mtps_version: v=office.15

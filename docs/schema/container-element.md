@@ -2,7 +2,7 @@
 title: container element
 TOCTitle: container element
 ms:assetid: 6b959ee9-8950-4e71-99ad-08ba35fe8ffe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438988(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438988(v=office.15)
 ms:contentKeyID: 57094032
 ms.date: 07/24/2014
 mtps_version: v=office.15

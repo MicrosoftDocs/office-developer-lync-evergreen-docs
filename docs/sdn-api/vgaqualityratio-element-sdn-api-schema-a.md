@@ -2,7 +2,7 @@
 title: VGAQualityRatio element (Lync SDN API Schema A)
 TOCTitle: VGAQualityRatio element
 ms:assetid: 3c907683-0dd7-e082-7680-2b92278a5e8f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439301(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439301(v=office.15)
 ms:contentKeyID: 57261037
 ms.date: 07/24/2014
 mtps_version: v=office.15

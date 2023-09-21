@@ -2,7 +2,7 @@
 title: SendListenMOSMin element  (Lync SDN API Schema A)
 TOCTitle: SendListenMOSMin element
 ms:assetid: beb3e392-52ce-80db-880e-32de3040c909
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439278(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439278(v=office.15)
 ms:contentKeyID: 57261014
 ms.date: 07/24/2014
 mtps_version: v=office.15

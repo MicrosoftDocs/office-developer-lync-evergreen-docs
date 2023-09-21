@@ -2,7 +2,7 @@
 title: Running and debugging Lync SDN Interface 2.1.1
 TOCTitle: Running and debugging Lync SDN Interface 2.1.1
 ms:assetid: 42f84254-82de-4ca9-81b2-902ac1addabb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785213(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785213(v=office.15)
 ms:contentKeyID: 62952697
 ms.date: 02/16/2015
 mtps_version: v=office.15

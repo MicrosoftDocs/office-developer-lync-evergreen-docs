@@ -2,7 +2,7 @@
 title: DegradationJitterAvg element (Lync SDN API Schema A)
 TOCTitle: DegradationJitterAvg element
 ms:assetid: d5540f26-2179-d8ed-ab8c-ee85959b1cde
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455027(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455027(v=office.15)
 ms:contentKeyID: 57260896
 ms.date: 07/24/2014
 mtps_version: v=office.15

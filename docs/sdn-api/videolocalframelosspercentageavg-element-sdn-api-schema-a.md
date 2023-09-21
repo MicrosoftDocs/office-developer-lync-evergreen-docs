@@ -2,7 +2,7 @@
 title: VideoLocalFrameLossPercentageAvg element  (Lync SDN API Schema A)
 TOCTitle: VideoLocalFrameLossPercentageAvg element
 ms:assetid: e999075e-d02a-0fb5-1cb4-6c0df00d8039
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439282(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439282(v=office.15)
 ms:contentKeyID: 57261018
 ms.date: 07/24/2014
 mtps_version: v=office.15

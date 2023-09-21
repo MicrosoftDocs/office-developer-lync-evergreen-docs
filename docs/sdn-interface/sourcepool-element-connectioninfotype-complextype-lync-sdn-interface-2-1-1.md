@@ -2,7 +2,7 @@
 title: SourcePool element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: SourcePool element
 ms:assetid: 3e85ad2e-50ed-98ff-2348-25bd51e4d5ba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912818(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912818(v=office.15)
 ms:contentKeyID: 64126987
 ms.date: 02/16/2015
 mtps_version: v=office.15

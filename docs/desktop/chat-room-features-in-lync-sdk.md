@@ -2,7 +2,7 @@
 title: Chat room features in Lync SDK
 TOCTitle: Chat room features
 ms:assetid: 332dedd9-d1bd-4f3b-9f40-56b271f1ddab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937295(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937295(v=office.15)
 ms:contentKeyID: 50877115
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -22,7 +22,7 @@ Watch the video: What’s new with the Lync 2013 Persistent Chat API
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
 
 ## Persistent Chat features
 

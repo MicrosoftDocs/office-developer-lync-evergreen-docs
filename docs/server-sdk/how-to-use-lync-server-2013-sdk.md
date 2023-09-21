@@ -2,7 +2,7 @@
 title: How to use Lync Server 2013 SDK
 TOCTitle: How to use Lync Server 2013 SDK
 ms:assetid: c031b026-6489-4aa7-acc2-e7b63f4b7b88
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439079(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439079(v=office.15)
 ms:contentKeyID: 57096235
 ms.date: 07/24/2014
 mtps_version: v=office.15

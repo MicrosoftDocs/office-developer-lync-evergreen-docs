@@ -2,7 +2,7 @@
 title: Container semantics defined and conformed by Lync
 TOCTitle: Container semantics defined and conformed by Lync
 ms:assetid: cc304c9b-6808-493a-80de-c5d0b812e05a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454663(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454663(v=office.15)
 ms:contentKeyID: 57093186
 ms.date: 07/24/2014
 mtps_version: v=office.15

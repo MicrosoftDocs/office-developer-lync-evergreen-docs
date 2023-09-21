@@ -2,7 +2,7 @@
 title: Receiving Enhanced Presence
 TOCTitle: Receiving Enhanced Presence
 ms:assetid: e8c772b7-9554-4f83-8a9c-c34e810b9065
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454653(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454653(v=office.15)
 ms:contentKeyID: 57092908
 ms.date: 07/24/2014
 mtps_version: v=office.15

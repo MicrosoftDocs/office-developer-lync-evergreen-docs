@@ -2,7 +2,7 @@
 title: Retemplating the ContactSearch control
 TOCTitle: Retemplating the ContactSearch control
 ms:assetid: 6f76e878-38bc-4f1b-9d1b-da2566d11018
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945563(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945563(v=office.15)
 ms:contentKeyID: 51541375
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -38,11 +38,11 @@ Additional resources</p></td>
 
 ## ContactSearch control overview
 
-The template for the [ContactSearch](https://msdn.microsoft.com/en-us/library/hh379436\(v=office.15\)) control includes two parts:
+The template for the [ContactSearch](https://msdn.microsoft.com/library/hh379436\(v=office.15\)) control includes two parts:
 
-  - [ContactSearchInputBox](https://msdn.microsoft.com/en-us/library/hh379719\(v=office.15\)) control
+  - [ContactSearchInputBox](https://msdn.microsoft.com/library/hh379719\(v=office.15\)) control
 
-  - [ContactSearchResultList](https://msdn.microsoft.com/en-us/library/hh379201\(v=office.15\)) control
+  - [ContactSearchResultList](https://msdn.microsoft.com/library/hh379201\(v=office.15\)) control
 
 To change the appearance of either control, embed them in your project individually and then retemplate the control.
 
@@ -50,7 +50,7 @@ To change the appearance of either control, embed them in your project individua
 
 To modify the templates used to display search results within the ContactSearchResultList control, use a technique similar to the one used to edit contact list items in [Retemplating the ContactList control](retemplating-the-contactlist-control.md).
 
-ContactSearchResultList uses a variety of [DataTemplate](http://msdn2.microsoft.com/en-us/library/ms589297) resources to control the appearance of people, telephone numbers, bots, and distribution lists. To customize the DataTemplate for one or more of these contact types, complete the following procedure.
+ContactSearchResultList uses a variety of [DataTemplate](http://msdn2.microsoft.com/library/ms589297) resources to control the appearance of people, telephone numbers, bots, and distribution lists. To customize the DataTemplate for one or more of these contact types, complete the following procedure.
 
 ### To edit the ContactSearchResultListItem templates
 
@@ -110,22 +110,22 @@ The following table identifies the templates that can be used to customize the a
 <tbody>
 <tr class="odd">
 <td><p>Person</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363472(v=office.15)">PersonItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363472(v=office.15)">PersonItemTemplate</a></p></td>
 <td><p>PersonSearchResultItemDataTemplate</p></td>
 </tr>
 <tr class="even">
 <td><p>Telephone</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363420(v=office.15)">TelephoneItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363420(v=office.15)">TelephoneItemTemplate</a></p></td>
 <td><p>TelephoneSearchResultItemDataTemplate</p></td>
 </tr>
 <tr class="odd">
 <td><p>Bot</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363732(v=office.15)">BotItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363732(v=office.15)">BotItemTemplate</a></p></td>
 <td><p>BotSearchResultItemDataTemplate</p></td>
 </tr>
 <tr class="even">
 <td><p>Group</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379035(v=office.15)">GroupItemTemplate</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh379035(v=office.15)">GroupItemTemplate</a></p></td>
 <td><p>DistributionListSearchResultItemDataTemplate</p></td>
 </tr>
 </tbody>

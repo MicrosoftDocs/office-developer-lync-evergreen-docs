@@ -2,7 +2,7 @@
 title: Lync Server 2013 Persistent Chat SDK general reference
 TOCTitle: Lync Server 2013 Persistent Chat SDK general reference
 ms:assetid: a7f34c95-10d7-43ae-9dfe-3e6a703bfbcc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439199(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439199(v=office.15)
 ms:contentKeyID: 57101263
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: TimeStamp element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: TimeStamp element
 ms:assetid: 378f2ea0-dfde-a223-9873-d2bbf61bcb45
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912825(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912825(v=office.15)
 ms:contentKeyID: 64126994
 ms.date: 02/16/2015
 mtps_version: v=office.15

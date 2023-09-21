@@ -2,7 +2,7 @@
 title: RelativeOneWayAverage element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RelativeOneWayAverage element
 ms:assetid: 5998760f-0525-ab66-5143-a9626a01341a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912803(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912803(v=office.15)
 ms:contentKeyID: 64126972
 ms.date: 02/16/2015
 mtps_version: v=office.15

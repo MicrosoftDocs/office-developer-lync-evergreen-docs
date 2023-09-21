@@ -2,7 +2,7 @@
 title: CustomContactListItem style and template
 TOCTitle: CustomContactListItem style and template
 ms:assetid: e89d6346-2f27-42ab-9423-a3c9b5cc91e3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933216(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933216(v=office.15)
 ms:contentKeyID: 50877360
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the style and template for the [CustomContactListItem](https://msdn.microsoft.com/en-us/library/hh346017\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the style and template for the [CustomContactListItem](https://msdn.microsoft.com/library/hh346017\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -20,7 +20,7 @@ Learn about the style and template for the [CustomContactListItem](https://msdn.
 
  
 
-There are no states or [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the CustomContactListItem control.
+There are no states or [Style](http://msdn.microsoft.com/library/system.windows.style\(vs.95\).aspx) properties for the CustomContactListItem control.
 
 ![CustomContactListItem Control](images/JJ945570.CustomContactListItemControl_(Office.15).png "CustomContactListItem Control")
 
@@ -44,7 +44,7 @@ The following table lists the named parts for the CustomContactListItem control.
 <tbody>
 <tr class="odd">
 <td><p>ContactItem</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379432(v=office.15)">ContactItem</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh379432(v=office.15)">ContactItem</a></p></td>
 <td><p>A listed contact.</p></td>
 </tr>
 </tbody>

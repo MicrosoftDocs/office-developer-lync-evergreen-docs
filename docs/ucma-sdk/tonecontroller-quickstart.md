@@ -2,7 +2,7 @@
 title: ToneController (QuickStart)
 TOCTitle: ToneController (QuickStart)
 ms:assetid: 2497ed23-a5b4-43dd-96ab-9287beabd3bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466135(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466135(v=office.15)
 ms:contentKeyID: 57103442
 ms.date: 07/25/2014
 mtps_version: v=office.15

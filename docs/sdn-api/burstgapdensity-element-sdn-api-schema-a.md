@@ -2,7 +2,7 @@
 title: BurstGapDensity element (Lync SDN API Schema A)
 TOCTitle: BurstGapDensity element
 ms:assetid: 0c8b54f6-db82-7a5e-2387-dc5962dc811a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454989(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454989(v=office.15)
 ms:contentKeyID: 57260868
 ms.date: 07/24/2014
 mtps_version: v=office.15

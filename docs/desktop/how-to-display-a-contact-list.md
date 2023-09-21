@@ -2,7 +2,7 @@
 title: 'How to: Display a contact list'
 TOCTitle: 'How to: Display a contact list'
 ms:assetid: e69504aa-b198-4ade-8853-60c42380415e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933244(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933244(v=office.15)
 ms:contentKeyID: 50877390
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ dev_langs:
 
 # How to: Display a contact list
 
-Learn how to use members of the [Microsoft.Lync.Model](https://msdn.microsoft.com/en-us/library/jj274810\(v=office.15\)) namespace to provide contact presence and presence updates to build a custom Lync contact list UI.
+Learn how to use members of the [Microsoft.Lync.Model](https://msdn.microsoft.com/library/jj274810\(v=office.15\)) namespace to provide contact presence and presence updates to build a custom Lync contact list UI.
 
 
 
@@ -80,19 +80,19 @@ The classes, methods, and events appearing in the following illustration are use
 
 Contacts and groups are available when the user is signed in to Lync 2013. Read about [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md) and be sure that your application logic provides this capability before adding a contact list to your UI.
 
-To fill a contact list from a custom group, start by getting a collection of [Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) class instances from the [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) class. This collection is available using the [Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property of the contacts and groups manager. The collection contains both custom groups defined by a local user and other groups provided by Microsoft Lync Server 2013.
+To fill a contact list from a custom group, start by getting a collection of [Group](https://msdn.microsoft.com/library/jj266012\(v=office.15\)) class instances from the [ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)) class. This collection is available using the [Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) property of the contacts and groups manager. The collection contains both custom groups defined by a local user and other groups provided by Microsoft Lync Server 2013.
 
 ### To fill a contact list from a custom group
 
-1.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to Lync 2013.
+1.  Get the [LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to Lync 2013.
     
     For information about signing in to Lync 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-2.  Create a [ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)) instance by calling into [CreateSubscription](https://msdn.microsoft.com/en-us/library/jj267359\(v=office.15\)).
+2.  Create a [ContactSubscription](https://msdn.microsoft.com/library/jj268195\(v=office.15\)) instance by calling into [CreateSubscription](https://msdn.microsoft.com/library/jj267359\(v=office.15\)).
     
-    The [ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)) instance exposes an empty **Contacts** collection that you fill in a following step.
+    The [ContactSubscription](https://msdn.microsoft.com/library/jj268195\(v=office.15\)) instance exposes an empty **Contacts** collection that you fill in a following step.
 
-3.  Iterate through the [Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) collection of the [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) instance to find the groups that you want to list.
+3.  Iterate through the [Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) collection of the [ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)) instance to find the groups that you want to list.
 
 4.  Register for group events on each group to be listed.
 
@@ -100,7 +100,7 @@ To fill a contact list from a custom group, start by getting a collection of [Gr
 
 6.  Register for contact events on each contact.
 
-7.  Add the [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instance to the subscription if that contact is not already in the [ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)) instance you created in step 2.
+7.  Add the [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) instance to the subscription if that contact is not already in the [ContactSubscription](https://msdn.microsoft.com/library/jj268195\(v=office.15\)) instance you created in step 2.
     
     <table>
     <colgroup>
@@ -133,18 +133,18 @@ To fill a contact list from a custom group, start by getting a collection of [Gr
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>A contact’s properties and presence information might not be cached locally at the time you obtain the <strong>Contact</strong> instance and query for presence or read properties. For this reason, it is important that you handle the contact events you register for in the previous step. A <a href="https://msdn.microsoft.com/en-us/library/jj275543(v=office.15)">Contact.ContactInformationChanged</a> event is raised as each additional element of presence information pushed to the client from Microsoft Lync Server 2013.</p></td>
+    <td><p>A contact’s properties and presence information might not be cached locally at the time you obtain the <strong>Contact</strong> instance and query for presence or read properties. For this reason, it is important that you handle the contact events you register for in the previous step. A <a href="https://msdn.microsoft.com/library/jj275543(v=office.15)">Contact.ContactInformationChanged</a> event is raised as each additional element of presence information pushed to the client from Microsoft Lync Server 2013.</p></td>
     </tr>
     </tbody>
     </table>
 
 9.  Insert code to take the action you want for each contact.
     
-    The next example adds the contact to an instance of the [ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)) class and to a list used by the UI.
+    The next example adds the contact to an instance of the [ContactSubscription](https://msdn.microsoft.com/library/jj268195\(v=office.15\)) class and to a list used by the UI.
 
-10. Call [Subscribe](https://msdn.microsoft.com/en-us/library/jj277847\(v=office.15\)) on your [ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)) instance after you have completed the foreach loop on the contact collection.
+10. Call [Subscribe](https://msdn.microsoft.com/library/jj277847\(v=office.15\)) on your [ContactSubscription](https://msdn.microsoft.com/library/jj268195\(v=office.15\)) instance after you have completed the foreach loop on the contact collection.
     
-    The [Subscribe](https://msdn.microsoft.com/en-us/library/jj277847\(v=office.15\)) method creates a request on Lync Server 2013 that asks for continuous updates of the presence information from each contact added to the subscription.
+    The [Subscribe](https://msdn.microsoft.com/library/jj277847\(v=office.15\)) method creates a request on Lync Server 2013 that asks for continuous updates of the presence information from each contact added to the subscription.
 
 ## Fill a contact list from a distribution group
 
@@ -152,23 +152,23 @@ A distribution group is also a collection of contacts.
 
 ### To fill a contact list from a distribution group
 
-1.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
+1.  Get the [LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
     
     For information about signing in to Lync Server 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
 2.  Select a distribution group.
     
-    For more information about searching for distribution groups, see [How to: Search for a contact or distribution group in Lync SDK](https://msdn.microsoft.com/en-us/library/jj933159\(v=office.15\)).
+    For more information about searching for distribution groups, see [How to: Search for a contact or distribution group in Lync SDK](https://msdn.microsoft.com/library/jj933159\(v=office.15\)).
 
-3.  Call the [BeginGetAllMembers](https://msdn.microsoft.com/en-us/library/jj268237\(v=office.15\)) method on the distribution group instance, passing the callback delegate as a parameter.
+3.  Call the [BeginGetAllMembers](https://msdn.microsoft.com/library/jj268237\(v=office.15\)) method on the distribution group instance, passing the callback delegate as a parameter.
     
-    This starts an operation that returns a [ContactCollection](https://msdn.microsoft.com/en-us/library/jj267665\(v=office.15\)) instance when you call [EndGetAllMembers](https://msdn.microsoft.com/en-us/library/jj274834\(v=office.15\)).
+    This starts an operation that returns a [ContactCollection](https://msdn.microsoft.com/library/jj267665\(v=office.15\)) instance when you call [EndGetAllMembers](https://msdn.microsoft.com/library/jj274834\(v=office.15\)).
 
-4.  Create the callback method to manipulate the instance of the [ContactCollection](https://msdn.microsoft.com/en-us/library/jj267665\(v=office.15\)) class returned in the callback.
+4.  Create the callback method to manipulate the instance of the [ContactCollection](https://msdn.microsoft.com/library/jj267665\(v=office.15\)) class returned in the callback.
 
 ## Code examples: Custom contact lists
 
-The following examples execute the basic logic necessary to obtain [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instances that can be used to build a list of contacts in a UI. The first example iterates on all groups returned by the [Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property and gets the contacts from all groups of the [GroupType](https://msdn.microsoft.com/en-us/library/jj276550\(v=office.15\)).**CustomGroup** type.
+The following examples execute the basic logic necessary to obtain [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) instances that can be used to build a list of contacts in a UI. The first example iterates on all groups returned by the [Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) property and gets the contacts from all groups of the [GroupType](https://msdn.microsoft.com/library/jj276550\(v=office.15\)).**CustomGroup** type.
 
 Figure 1 shows a sample WPF application that lists a user’s contact groups in a list on the left side of the window and a list of the selected group contacts on the right side of the window.
 

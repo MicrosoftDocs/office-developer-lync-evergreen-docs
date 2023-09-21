@@ -2,7 +2,7 @@
 title: Chat room content maintenance
 TOCTitle: Chat room content maintenance
 ms:assetid: 5d8eb16b-c7a7-4130-b42f-5bab60140d31
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465891(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465891(v=office.15)
 ms:contentKeyID: 57101352
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -41,5 +41,5 @@ When a message is deleted, you cannot undo the action. However, deleted messages
 
 #### Other resources
 
-[Lync Server Management Shell](http://technet.microsoft.com/en-us/library/gg398474.aspx)
+[Lync Server Management Shell](http://technet.microsoft.com/library/gg398474.aspx)
 

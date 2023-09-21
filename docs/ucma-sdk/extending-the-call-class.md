@@ -2,7 +2,7 @@
 title: Extending the Call class
 TOCTitle: Extending the Call class
 ms:assetid: bdbca8eb-0809-42a2-8cb1-c4d58fe796af
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466098(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466098(v=office.15)
 ms:contentKeyID: 57103258
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 
 
-By default, UCMA 4.0 provides call controls for the audio and message media types. These call controls are, respectively, the [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) and [InstantMessagingCall](https://msdn.microsoft.com/en-us/library/hh161841\(v=office.15\)) classes. A developer can extend the UCMA 4.0 platform by creating a custom call control for an additional media type. Adding a custom call control entails creating new classes that inherit from the [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)), [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)), and [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.15\)) abstract classes, as well as creating implementations of the factory classes that are used to generate instances of the new **Call** and **MediaProvider** subclasses. Much of the functionality of the abstract base classes is inherited by the new derived classes and can be reused and exposed publicly without further modifications. This topic describes the abstract properties and methods that must be defined in a **Call** subclass.
+By default, UCMA 4.0 provides call controls for the audio and message media types. These call controls are, respectively, the [AudioVideoCall](https://msdn.microsoft.com/library/hh383901\(v=office.15\)) and [InstantMessagingCall](https://msdn.microsoft.com/library/hh161841\(v=office.15\)) classes. A developer can extend the UCMA 4.0 platform by creating a custom call control for an additional media type. Adding a custom call control entails creating new classes that inherit from the [Call](https://msdn.microsoft.com/library/hh384235\(v=office.15\)), [MediaProvider](https://msdn.microsoft.com/library/hh383767\(v=office.15\)), and [MediaFlow](https://msdn.microsoft.com/library/hh366262\(v=office.15\)) abstract classes, as well as creating implementations of the factory classes that are used to generate instances of the new **Call** and **MediaProvider** subclasses. Much of the functionality of the abstract base classes is inherited by the new derived classes and can be reused and exposed publicly without further modifications. This topic describes the abstract properties and methods that must be defined in a **Call** subclass.
 
 ## Call base class
 
@@ -40,11 +40,11 @@ A class derived from the **Call** class must provide definitions for the two abs
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh381972(v=office.15)">DefaultMediaType</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh381972(v=office.15)">DefaultMediaType</a></p></td>
 <td><p>Gets or sets the default media type that will be used to establish an outbound call.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh350179(v=office.15)">SupportedMediaTypes</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh350179(v=office.15)">SupportedMediaTypes</a></p></td>
 <td><p>Gets a list of the types of media intended to be supported in new class derived from the <strong>Call</strong> class.</p>
 <p>The media types appear in the media description line (m=&lt;media&gt; &lt;port&gt;/&lt;number of ports&gt; &lt;proto&gt; &lt;fmt&gt; ...) in the SDP session description.</p></td>
 </tr>
@@ -69,17 +69,17 @@ A class derived from the **Call** class must also provide definitions for three 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh350189(v=office.15)">HandleFlowConfigurationRequested(MediaFlow)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh350189(v=office.15)">HandleFlowConfigurationRequested(MediaFlow)</a></p></td>
 <td><p>Synchronously raises the flow to the application.</p>
 <p>protected abstract bool HandleFlowConfigurationRequested(MediaFlow mediaFlow)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh366035(v=office.15)">HandleTransferNotificationReceived(TransferStateChangedEventArgs)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh366035(v=office.15)">HandleTransferNotificationReceived(TransferStateChangedEventArgs)</a></p></td>
 <td><p>Handles a transfer notification event in a class derived from the <strong>Call</strong> class.</p>
 <p>protected abstract void HandleTransferNotificationReceived(TransferStateChangedEventArgs e)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh381395(v=office.15)">HandleTransferReceived(CallTransferReceivedEventArgs)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh381395(v=office.15)">HandleTransferReceived(CallTransferReceivedEventArgs)</a></p></td>
 <td><p>Handles a transfer event in a class derived from the <strong>Call</strong> class.</p>
 <p>protected abstract void HandleTransferReceived(CallTransferReceivedEventArgs e)</p></td>
 </tr>

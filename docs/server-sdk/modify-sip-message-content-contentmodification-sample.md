@@ -2,7 +2,7 @@
 title: Modify SIP message content (ContentModification sample)
 TOCTitle: Modify SIP message content (ContentModification sample)
 ms:assetid: 26f05d7c-8665-4d79-9cb4-3f4f4eb4b588
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439094(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439094(v=office.15)
 ms:contentKeyID: 57096261
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -25,11 +25,11 @@ The ContentModification sample application that is distributed with the Lync Ser
 
 The following logic is implemented by the Microsoft SIP Processing Language (MSPL) script:
 
-1.  Search for the text of "echo" in the incoming message content by using the [IndexOfString](https://msdn.microsoft.com/en-us/library/hh364854\(v=office.15\)) function.
+1.  Search for the text of "echo" in the incoming message content by using the [IndexOfString](https://msdn.microsoft.com/library/hh364854\(v=office.15\)) function.
 
 2.  If "echo" is found where the returned index value is greater than -1, change the message content by appending the string of " (echo.)" to the message body.
 
-3.  Route the message, possibly updated, back to the server by calling the [ProxyRequest("")](https://msdn.microsoft.com/en-us/library/hh364778\(v=office.15\)) function.
+3.  Route the message, possibly updated, back to the server by calling the [ProxyRequest("")](https://msdn.microsoft.com/library/hh364778\(v=office.15\)) function.
 
 
 > [!NOTE]

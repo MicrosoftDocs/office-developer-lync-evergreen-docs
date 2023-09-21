@@ -2,7 +2,7 @@
 title: OS element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: OS element
 ms:assetid: a9314c95-2af9-9a1c-88bd-92e7370e4963
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912772(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912772(v=office.15)
 ms:contentKeyID: 64126942
 ms.date: 02/16/2015
 mtps_version: v=office.15

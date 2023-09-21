@@ -2,7 +2,7 @@
 title: Submitting a publication request
 TOCTitle: Submitting a publication request
 ms:assetid: 1fbd105d-cc44-40ac-9d78-44fe62b8b78a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454643(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454643(v=office.15)
 ms:contentKeyID: 57092889
 ms.date: 07/24/2014
 mtps_version: v=office.15

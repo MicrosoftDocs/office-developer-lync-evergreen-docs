@@ -2,7 +2,7 @@
 title: Parsing Lync-published category instances
 TOCTitle: Parsing Lync-published category instances
 ms:assetid: 356fb386-d8a7-478c-afb2-d151bdfa7c12
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454671(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454671(v=office.15)
 ms:contentKeyID: 57093145
 ms.date: 07/24/2014
 mtps_version: v=office.15

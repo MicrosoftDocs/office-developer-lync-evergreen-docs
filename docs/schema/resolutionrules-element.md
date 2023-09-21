@@ -2,7 +2,7 @@
 title: resolutionRules element
 TOCTitle: resolutionRules element
 ms:assetid: da12ef41-453d-43f6-b46c-0481d6da58ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439008(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439008(v=office.15)
 ms:contentKeyID: 57094052
 ms.date: 07/24/2014
 mtps_version: v=office.15

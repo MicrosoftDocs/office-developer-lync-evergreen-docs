@@ -2,7 +2,7 @@
 title: Shutdown and termination
 TOCTitle: Shutdown and termination
 ms:assetid: 984533c3-4d46-408e-a958-ce1ed87eedd5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466076(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466076(v=office.15)
 ms:contentKeyID: 57103070
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ The following discusses general behavior when components in UCMA 4.0 are termina
 
   - When a component is terminated, it is responsible for terminating all contained subcomponents. For example, terminating the platform causes all endpoints to be terminated. Terminating an endpoint terminates all conversations. Terminating a conversation terminates all calls, conference sessions, media flows, and any pending conference invitations. Terminating a conference session terminates all MCU sessions.
 
-  - Terminating a conversation may not result in the termination of components that serve the conversation but might be shared with other conversations. For example, a [Player](https://msdn.microsoft.com/en-us/library/hh349780\(v=office.15\)) will not be terminated when a conversation is terminated. It is the responsibility of the application to stop a **Player** (using the [Stop](https://msdn.microsoft.com/en-us/library/hh350156\(v=office.15\)) method on the **Player** class) and close all media sources that are being used, unless the application intends to continue using those resources at a later time.
+  - Terminating a conversation may not result in the termination of components that serve the conversation but might be shared with other conversations. For example, a [Player](https://msdn.microsoft.com/library/hh349780\(v=office.15\)) will not be terminated when a conversation is terminated. It is the responsibility of the application to stop a **Player** (using the [Stop](https://msdn.microsoft.com/library/hh350156\(v=office.15\)) method on the **Player** class) and close all media sources that are being used, unless the application intends to continue using those resources at a later time.
 
   - A component will not complete a terminate operation until all contained components and pending operations are completed. The component is responsible for maintaining the pending operations to be terminated when the component is terminated.
 

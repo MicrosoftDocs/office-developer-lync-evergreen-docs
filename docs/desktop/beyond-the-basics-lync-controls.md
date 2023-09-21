@@ -2,7 +2,7 @@
 title: 'Beyond the basics: Lync Controls'
 TOCTitle: Lync Controls
 ms:assetid: d19c033e-a877-4ccf-867c-5be08af68d69
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933200(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933200(v=office.15)
 ms:contentKeyID: 50877342
 ms.date: 07/24/2014
 mtps_version: v=office.15

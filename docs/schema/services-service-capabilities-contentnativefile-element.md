@@ -2,7 +2,7 @@
 title: services/service/capabilities/contentNativeFile element
 TOCTitle: services/service/capabilities/contentNativeFile element
 ms:assetid: e9c87f73-7e9e-4203-9e50-b6c66bb43326
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454797(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454797(v=office.15)
 ms:contentKeyID: 57093787
 ms.date: 07/24/2014
 mtps_version: v=office.15

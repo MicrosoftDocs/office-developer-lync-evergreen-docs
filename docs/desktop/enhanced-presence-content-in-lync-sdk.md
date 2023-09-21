@@ -2,7 +2,7 @@
 title: Enhanced presence content in Lync SDK
 TOCTitle: Enhanced presence content
 ms:assetid: 813d89b3-950e-4a20-9659-9c0fb1c47785
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933095(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933095(v=office.15)
 ms:contentKeyID: 50877226
 ms.date: 07/24/2014
 mtps_version: v=office.15

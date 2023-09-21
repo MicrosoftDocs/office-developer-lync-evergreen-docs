@@ -2,7 +2,7 @@
 title: Caller element (InviteType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Caller element
 ms:assetid: 2e4e2c9f-f1bd-ece9-0288-835d0ad85863
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912685(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912685(v=office.15)
 ms:contentKeyID: 64126855
 ms.date: 02/16/2015
 mtps_version: v=office.15

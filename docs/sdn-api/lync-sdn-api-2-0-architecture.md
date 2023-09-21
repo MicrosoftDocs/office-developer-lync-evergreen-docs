@@ -2,7 +2,7 @@
 title: Lync SDN API 2.0 architecture
 TOCTitle: Lync SDN API 2.0 architecture
 ms:assetid: 60424a91-49db-4aed-9570-07eb94a4b5f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439293(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439293(v=office.15)
 ms:contentKeyID: 57261029
 ms.date: 07/24/2014
 mtps_version: v=office.15

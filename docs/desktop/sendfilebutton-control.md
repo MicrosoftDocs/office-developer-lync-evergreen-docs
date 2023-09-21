@@ -2,7 +2,7 @@
 title: SendFileButton control
 TOCTitle: SendFileButton control
 ms:assetid: 9c9a88c2-cce1-46b2-af8b-111806683224
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945566(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945566(v=office.15)
 ms:contentKeyID: 51541379
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,13 +39,13 @@ Additional resources</p></td>
 
 ## Control overview
 
-Use the [SendFileButton](https://msdn.microsoft.com/en-us/library/hh347610\(v=office.15\)) control in Microsoft Lync Control applications to launch a conversation with a specified contact and open a file selection dialog box where the user can select a file to transfer to the contact.
+Use the [SendFileButton](https://msdn.microsoft.com/library/hh347610\(v=office.15\)) control in Microsoft Lync Control applications to launch a conversation with a specified contact and open a file selection dialog box where the user can select a file to transfer to the contact.
 
 ![SendFileButton Control](images/JJ945566.SendFileButtonControl(Office.15).png "SendFileButton Control")
 
 ## Members
 
-Notable SendFileButton control public properties and events relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](https://msdn.microsoft.com/en-us/library/jj933088\(v=office.15\)).
+Notable SendFileButton control public properties and events relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](https://msdn.microsoft.com/library/jj933088\(v=office.15\)).
 
 <table>
 <colgroup>
@@ -60,12 +60,12 @@ Notable SendFileButton control public properties and events relating to unified 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345805(v=office.15)">DisplayName</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh345805(v=office.15)">DisplayName</a> property</p></td>
 <td><p>Gets the display name of the currently logged-in user.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363511(v=office.15)">Source</a> property</p></td>
-<td><p>Gets or sets the contact to use. Valid types include the <a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Contact</a> object, <a href="https://msdn.microsoft.com/en-us/library/jj293432(v=office.15)">DistributionGroup</a> object, and <a href="http://go.microsoft.com/fwlink/?linkid=131086%26clcid=0x409">String</a>.</p>
+<td><p><a href="https://msdn.microsoft.com/library/hh363511(v=office.15)">Source</a> property</p></td>
+<td><p>Gets or sets the contact to use. Valid types include the <a href="https://msdn.microsoft.com/library/jj266463(v=office.15)">Contact</a> object, <a href="https://msdn.microsoft.com/library/jj293432(v=office.15)">DistributionGroup</a> object, and <a href="http://go.microsoft.com/fwlink/?linkid=131086%26clcid=0x409">String</a>.</p>
 <ul>
 <li><p>If the value is a string that does not contain the sip: or tel: prefix, the control performs a search, using the string specified as a search criteria, and loads the first contact in the result set matching the specified string. This behavior is not deterministic and yields the slowest performance.</p></li>
 <li><p>If the value is a SIP URI string qualified by the sip: or tel: prefix, the contact is loaded using an exact match of the specified URI. This behavior is deterministic and yields better performance.</p></li>
@@ -73,7 +73,7 @@ Notable SendFileButton control public properties and events relating to unified 
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363342(v=office.15)">ContextualInformation</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363342(v=office.15)">ContextualInformation</a> property</p></td>
 <td><p>Gets or sets a data structure that contains information used to customize the information that accompanies messages. For more information about using contextual information, see <a href="contextual-lync-conversations.md">Contextual Lync conversations</a>.</p></td>
 </tr>
 <tr class="even">

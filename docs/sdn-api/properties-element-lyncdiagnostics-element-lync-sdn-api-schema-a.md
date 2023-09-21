@@ -2,7 +2,7 @@
 title: Properties element (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: Properties element (LyncDiagnostics element)
 ms:assetid: 04f8d9a3-f3a9-8d19-70ff-4276ce984b52
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775133(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775133(v=office.15)
 ms:contentKeyID: 62626107
 ms.date: 07/24/2014
 mtps_version: v=office.15

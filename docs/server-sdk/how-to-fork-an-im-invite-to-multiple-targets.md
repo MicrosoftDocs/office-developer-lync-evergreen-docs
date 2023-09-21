@@ -2,7 +2,7 @@
 title: 'How to: Fork an IM invite to multiple targets'
 TOCTitle: 'How to: Fork an IM invite to multiple targets'
 ms:assetid: a57ab2af-0484-4421-8a29-06b5aa59649d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439076(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439076(v=office.15)
 ms:contentKeyID: 57096237
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -74,7 +74,7 @@ The following Microsoft SIP Processing Language (MSPL) script forks an INVITE re
        ]]></r:splScript>
     </r:applicationManifest>
 
-Fixed routing resembles message forwarding. It must be disabled in the application manifest. This means that the strictRoute attribute of the [requestFilter](https://msdn.microsoft.com/en-us/library/hh347121\(v=office.15\)) element must be set to false in the application manifest for message forking. Also, forking should not be applied to a session-bound message.
+Fixed routing resembles message forwarding. It must be disabled in the application manifest. This means that the strictRoute attribute of the [requestFilter](https://msdn.microsoft.com/library/hh347121\(v=office.15\)) element must be set to false in the application manifest for message forking. Also, forking should not be applied to a session-bound message.
 
 
 > [!NOTE]

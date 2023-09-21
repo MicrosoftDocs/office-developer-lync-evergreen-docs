@@ -2,7 +2,7 @@
 title: Impersonating a user
 TOCTitle: Impersonating a user
 ms:assetid: 5b22dec3-ac5a-4774-95ad-e59c6e66bd50
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465984(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465984(v=office.15)
 ms:contentKeyID: 57102789
 ms.date: 07/25/2014
 mtps_version: v=office.15

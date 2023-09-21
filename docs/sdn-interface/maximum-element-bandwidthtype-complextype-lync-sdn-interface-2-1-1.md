@@ -2,7 +2,7 @@
 title: Maximum element (BandwidthType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Maximum element
 ms:assetid: f89eb71c-d132-65a4-fa74-2e14e6fd4b1b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912754(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912754(v=office.15)
 ms:contentKeyID: 64126924
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Lync Server 2013 SDK general reference
 TOCTitle: Lync Server 2013 SDK general reference
 ms:assetid: 4b981db9-fa3a-4bc1-98bc-ba0aee7827b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439057(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439057(v=office.15)
 ms:contentKeyID: 57096210
 ms.date: 02/11/2016
 mtps_version: v=office.15
@@ -42,8 +42,8 @@ This section discusses the Microsoft Lync Server 2013 SIP Application API, which
 
 ## See also
 
-- [Microsoft.Rtc.Sip](https://msdn.microsoft.com/en-us/library/jj266253\(v=office.15\))
+- [Microsoft.Rtc.Sip](https://msdn.microsoft.com/library/jj266253\(v=office.15\))
 - [Lync Server 2013 SDK documentation](lync-server-2013-sdk-documentation.md)
-- [SIP application manifest reference](https://msdn.microsoft.com/en-us/library/dn439110\(v=office.15\))
-- [MSPL scripting reference](https://msdn.microsoft.com/en-us/library/hh364711\(v=office.15\))
+- [SIP application manifest reference](https://msdn.microsoft.com/library/dn439110\(v=office.15\))
+- [MSPL scripting reference](https://msdn.microsoft.com/library/hh364711\(v=office.15\))
 

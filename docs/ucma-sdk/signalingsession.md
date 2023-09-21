@@ -2,7 +2,7 @@
 title: SignalingSession
 TOCTitle: SignalingSession
 ms:assetid: 9ecca9a4-af5b-4df8-9e4d-41d20df8f8ec
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466048(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466048(v=office.15)
 ms:contentKeyID: 57103041
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -14,19 +14,19 @@ mtps_version: v=office.15
 **Applies to:** Lync 2013 | Lync Server 2013
 
 
-A signaling session provides the control channel in which one endpoint can invite another endpoint to participate in some activity or exchange media descriptions required to establish media communication. Two endpoints can use an established signaling session to exchange short control messages as well as text messages between each other. The supported message types are enumerated in the [MessageType](https://msdn.microsoft.com/en-us/library/hh349721\(v=office.15\)) enumerated type. The endpoints can also renegotiate the media description anytime in a session. Normally, media is described using Session Description Protocol (SDP) as defined in RFC 2327. However, other payload types can be used in a signaling session as well.
+A signaling session provides the control channel in which one endpoint can invite another endpoint to participate in some activity or exchange media descriptions required to establish media communication. Two endpoints can use an established signaling session to exchange short control messages as well as text messages between each other. The supported message types are enumerated in the [MessageType](https://msdn.microsoft.com/library/hh349721\(v=office.15\)) enumerated type. The endpoints can also renegotiate the media description anytime in a session. Normally, media is described using Session Description Protocol (SDP) as defined in RFC 2327. However, other payload types can be used in a signaling session as well.
 
 ## Signaling session properties
 
-In UCMA 4.0, a signaling session is modeled by the [SignalingSession](https://msdn.microsoft.com/en-us/library/hh365691\(v=office.15\)) class. A signaling session consists of a local participant ([LocalParticipant](https://msdn.microsoft.com/en-us/library/hh161716\(v=office.15\))) and a remote participant ([RemoteParticipant](https://msdn.microsoft.com/en-us/library/hh366401\(v=office.15\))).
+In UCMA 4.0, a signaling session is modeled by the [SignalingSession](https://msdn.microsoft.com/library/hh365691\(v=office.15\)) class. A signaling session consists of a local participant ([LocalParticipant](https://msdn.microsoft.com/library/hh161716\(v=office.15\))) and a remote participant ([RemoteParticipant](https://msdn.microsoft.com/library/hh366401\(v=office.15\))).
 
-A session is uniquely identified by its **Call-ID** and **From** and **To** headers, which correspond to the [CallId](https://msdn.microsoft.com/en-us/library/hh350259\(v=office.15\)), [FromTag](https://msdn.microsoft.com/en-us/library/hh350335\(v=office.15\)), and [ToTag](https://msdn.microsoft.com/en-us/library/hh384492\(v=office.15\)) properties on the **SignalingSession** class. **CallId** is generated when the session is created. **FromTag** is assigned when the INVITE request is sent out. **ToTag** is added by the remote participant when responding to the INVITE request.
+A session is uniquely identified by its **Call-ID** and **From** and **To** headers, which correspond to the [CallId](https://msdn.microsoft.com/library/hh350259\(v=office.15\)), [FromTag](https://msdn.microsoft.com/library/hh350335\(v=office.15\)), and [ToTag](https://msdn.microsoft.com/library/hh384492\(v=office.15\)) properties on the **SignalingSession** class. **CallId** is generated when the session is created. **FromTag** is assigned when the INVITE request is sent out. **ToTag** is added by the remote participant when responding to the INVITE request.
 
-A signaling session can be in any of the session states as enumerated by the [SignalingState](https://msdn.microsoft.com/en-us/library/hh350238\(v=office.15\)) enumerated type. An application can examine the state of a session reading the [State](https://msdn.microsoft.com/en-us/library/hh383605\(v=office.15\)) property of the session.
+A signaling session can be in any of the session states as enumerated by the [SignalingState](https://msdn.microsoft.com/library/hh350238\(v=office.15\)) enumerated type. An application can examine the state of a session reading the [State](https://msdn.microsoft.com/library/hh383605\(v=office.15\)) property of the session.
 
 ## Signaling session participants
 
-Associated with a signaling session are two signaling participants, a local participant and a remote participant. A signaling participant is an instance of the [SignalingParticipant](https://msdn.microsoft.com/en-us/library/hh382394\(v=office.15\)) class. This object contains information about a participant, including the URI of the participant ([Uri](https://msdn.microsoft.com/en-us/library/hh382312\(v=office.15\))), the endpoint ID, which the participant uses to participate in a signaling session ([EndpointId](https://msdn.microsoft.com/en-us/library/hh383428\(v=office.15\))), and the display name of the participant ([Name](https://msdn.microsoft.com/en-us/library/hh350217\(v=office.15\))). In addition, a signaling participant object raises events when the display name or the endpoint ID is modified.
+Associated with a signaling session are two signaling participants, a local participant and a remote participant. A signaling participant is an instance of the [SignalingParticipant](https://msdn.microsoft.com/library/hh382394\(v=office.15\)) class. This object contains information about a participant, including the URI of the participant ([Uri](https://msdn.microsoft.com/library/hh382312\(v=office.15\))), the endpoint ID, which the participant uses to participate in a signaling session ([EndpointId](https://msdn.microsoft.com/library/hh383428\(v=office.15\))), and the display name of the participant ([Name](https://msdn.microsoft.com/library/hh350217\(v=office.15\))). In addition, a signaling participant object raises events when the display name or the endpoint ID is modified.
 
 ## Signaling session events
 
@@ -45,51 +45,51 @@ A signaling session supports the following events.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh365978(v=office.15)">InvitationAccepted</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh365978(v=office.15)">InvitationAccepted</a></p></td>
 <td><p>Raised when the remote participant has accepted the invitation. This typically happens when a successful response is received</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh382639(v=office.15)">InvitationCompleted</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh382639(v=office.15)">InvitationCompleted</a></p></td>
 <td><p>Raised when the invitation process completes. This typically happens when the inviter acknowledges a successful response.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh349494(v=office.15)">MessageReceived</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh349494(v=office.15)">MessageReceived</a></p></td>
 <td><p>Raised when a message is received.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh365709(v=office.15)">ProvisionalResponseReceived</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh365709(v=office.15)">ProvisionalResponseReceived</a></p></td>
 <td><p>Raised when the session receives any provisional response (response codes 101 through 199).</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh383727(v=office.15)">Redirecting</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh383727(v=office.15)">Redirecting</a></p></td>
 <td><p>Raised when a redirect request is received.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh365689(v=office.15)">ReferReceived</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh365689(v=office.15)">ReferReceived</a></p></td>
 <td><p>Raised when a new REFER request is received.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh382748(v=office.15)">ReInviteReceived</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh382748(v=office.15)">ReInviteReceived</a></p></td>
 <td><p>Raised when the remote participant sends a Re-INVITE message.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh365710(v=office.15)">RenegotiationToRefreshNeeded</a></p></td>
-<td><p>Raised when the session is enabled for a session timer, the local endpoint is the refresher, and the remote does not support the UPDATE method. The application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/hh382847(v=office.15)">BeginRenegotiateDescription()</a> to keep the session alive.</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh365710(v=office.15)">RenegotiationToRefreshNeeded</a></p></td>
+<td><p>Raised when the session is enabled for a session timer, the local endpoint is the refresher, and the remote does not support the UPDATE method. The application is responsible for calling <a href="https://msdn.microsoft.com/library/hh382847(v=office.15)">BeginRenegotiateDescription()</a> to keep the session alive.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh161893(v=office.15)">RequestOrResponseReceived</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh161893(v=office.15)">RequestOrResponseReceived</a></p></td>
 <td><p>Raised when a request or response is received.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh382697(v=office.15)">RouteSetStatusChanged</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh382697(v=office.15)">RouteSetStatusChanged</a></p></td>
 <td><p>Raised when the state of the route set of the session changes.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh161900(v=office.15)">StateChanged</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh161900(v=office.15)">StateChanged</a></p></td>
 <td><p>Raised when the session state changes.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh349400(v=office.15)">TerminatedByRemote</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh349400(v=office.15)">TerminatedByRemote</a></p></td>
 <td><p>Raised when the remote side terminates the session by sending a Bye or Cancel message. This event is useful only when the application intends to access the headers in the Bye or Cancel message for custom scenarios.</p></td>
 </tr>
 </tbody>
@@ -100,7 +100,7 @@ An application must implement appropriate event handlers and register them with 
 
 ## Initiating and accepting a signaling session
 
-For each endpoint, a signaling session starts when an invitation is accepted and ends when a termination request is sent. In UCMA 4.0, an outgoing signaling session is started for an endpoint when a **SignalingSession** object is created. The invitation to join the session is sent to the remote participant (chosen when the signaling session is created) by a call to one of the overloaded [BeginEstablish()](https://msdn.microsoft.com/en-us/library/hh349457\(v=office.15\)) methods. For an incoming session, an endpoint accepts the session invitation by calling **BeginEstablish** when the session is received.
+For each endpoint, a signaling session starts when an invitation is accepted and ends when a termination request is sent. In UCMA 4.0, an outgoing signaling session is started for an endpoint when a **SignalingSession** object is created. The invitation to join the session is sent to the remote participant (chosen when the signaling session is created) by a call to one of the overloaded [BeginEstablish()](https://msdn.microsoft.com/library/hh349457\(v=office.15\)) methods. For an incoming session, an endpoint accepts the session invitation by calling **BeginEstablish** when the session is received.
 
 The invitation is inherently asynchronous and results in one or more responses from the remote participant. These responses trigger changes to the signaling session state.
 
@@ -108,15 +108,15 @@ In the Multiple Points of Presence (MPOP) situation, it is possible for an invit
 
 ## Sending and receiving messages inside a signaling session
 
-An endpoint can use a signaling session to send messages to the remote participant or to receive messages from the remote participant. An application does so by calling one of the overloaded [BeginSendMessage()](https://msdn.microsoft.com/en-us/library/hh382054\(v=office.15\)) methods. The messages can be of type **Message** or of the other enumerated message types defined in the [MessageType](https://msdn.microsoft.com/en-us/library/hh349721\(v=office.15\)) enumeration.
+An endpoint can use a signaling session to send messages to the remote participant or to receive messages from the remote participant. An application does so by calling one of the overloaded [BeginSendMessage()](https://msdn.microsoft.com/library/hh382054\(v=office.15\)) methods. The messages can be of type **Message** or of the other enumerated message types defined in the [MessageType](https://msdn.microsoft.com/library/hh349721\(v=office.15\)) enumeration.
 
-To receive messages, an application must subscribe to receive and handle the [MessageReceived](https://msdn.microsoft.com/en-us/library/hh349494\(v=office.15\)) event.
+To receive messages, an application must subscribe to receive and handle the [MessageReceived](https://msdn.microsoft.com/library/hh349494\(v=office.15\)) event.
 
 Although Page-Mode Messaging can be used for exchanging messages between endpoints, session-based messaging has the advantage of less overhead because the connection or connection information is cached. Messaging in a session is therefore preferred when message exchange takes place in a form of conversation.
 
 ### Signaling header
 
-Many methods in UCMA 4.0, including [BeginSendMessage(MessageType, ContentType, \[\], IEnumerable\<SignalingHeader\>, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh383989\(v=office.15\)), enable you to specify custom headers to be sent along as part of a SIP message. A custom header is specified using a **SignalingHeader** object and consists of a name-value pair. Custom headers are interpreted only by applications. The UCMA platform uses several custom headers to provide platform-specific functionality.
+Many methods in UCMA 4.0, including [BeginSendMessage(MessageType, ContentType, \[\], IEnumerable\<SignalingHeader\>, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh383989\(v=office.15\)), enable you to specify custom headers to be sent along as part of a SIP message. A custom header is specified using a **SignalingHeader** object and consists of a name-value pair. Custom headers are interpreted only by applications. The UCMA platform uses several custom headers to provide platform-specific functionality.
 
 ## Negotiating media capabilities in a signaling session
 
@@ -130,13 +130,13 @@ Another possibility is that the inviter can send an INVITE request with an empty
 
 Media description can also be renegotiated at any time during a signaling session, and such media renegotiation takes place when a Re-INVITE message is processed. The media description is offered and answered in the same way as with an INVITE message. However, either participant can initiate the renegotiation, and the initial offer cannot be null.
 
-In UCMA 4.0, media description is represented by the [ContentDescription](https://msdn.microsoft.com/en-us/library/hh382823\(v=office.15\)) class, which specifies the content type and a message body. Applications can extend this class to represent other media types. Media negotiation involves concerted efforts between an application and the platform: the platform is responsible for delivering the offers and answers, whereas the application is responsible for parsing the offer and providing the answer. To coordinate this effort, UCMA 4.0 exposes the [IOfferAnswer](https://msdn.microsoft.com/en-us/library/hh348293\(v=office.15\)) interface as the contract between the platform and applications for handling media negotiation. A UCMA 4.0 application that intends to perform media negotiation must honor the contract by implementing the interface to prepare an offer or answer to be sent by the platform. Such applications must set the **IOfferAnswer** implementation as the value of the [OfferAnswerNegotiation](https://msdn.microsoft.com/en-us/library/hh349556\(v=office.15\)) property. Applications not interested in media negotiation can set this property to null.
+In UCMA 4.0, media description is represented by the [ContentDescription](https://msdn.microsoft.com/library/hh382823\(v=office.15\)) class, which specifies the content type and a message body. Applications can extend this class to represent other media types. Media negotiation involves concerted efforts between an application and the platform: the platform is responsible for delivering the offers and answers, whereas the application is responsible for parsing the offer and providing the answer. To coordinate this effort, UCMA 4.0 exposes the [IOfferAnswer](https://msdn.microsoft.com/library/hh348293\(v=office.15\)) interface as the contract between the platform and applications for handling media negotiation. A UCMA 4.0 application that intends to perform media negotiation must honor the contract by implementing the interface to prepare an offer or answer to be sent by the platform. Such applications must set the **IOfferAnswer** implementation as the value of the [OfferAnswerNegotiation](https://msdn.microsoft.com/library/hh349556\(v=office.15\)) property. Applications not interested in media negotiation can set this property to null.
 
 ## Declining and leaving a signaling session
 
-To decline an incoming session, an application calls the [TerminateWithRejection(Int32, String, IEnumerable\<SignalingHeader\>)](https://msdn.microsoft.com/en-us/library/hh381712\(v=office.15\)) method on a **SignalingSession** object. When the session is declined, it is no longer available for any use, because the resources have been freed, although some properties may still be accessible until the object is garbage-collected.
+To decline an incoming session, an application calls the [TerminateWithRejection(Int32, String, IEnumerable\<SignalingHeader\>)](https://msdn.microsoft.com/library/hh381712\(v=office.15\)) method on a **SignalingSession** object. When the session is declined, it is no longer available for any use, because the resources have been freed, although some properties may still be accessible until the object is garbage-collected.
 
-To leave an existing session, the application can call one of the overloaded [BeginTerminate()](https://msdn.microsoft.com/en-us/library/hh385159\(v=office.15\)) methods at any time. This results in UCMA 4.0 sending a BYE or CANCEL message, depending on the session state, and then disconnecting the session. Some properties of the session might still be accessible after **BeginTerminate** is called.
+To leave an existing session, the application can call one of the overloaded [BeginTerminate()](https://msdn.microsoft.com/library/hh385159\(v=office.15\)) methods at any time. This results in UCMA 4.0 sending a BYE or CANCEL message, depending on the session state, and then disconnecting the session. Some properties of the session might still be accessible after **BeginTerminate** is called.
 
 ## Redirecting a signaling session to another target
 

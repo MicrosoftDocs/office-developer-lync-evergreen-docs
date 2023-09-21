@@ -2,7 +2,7 @@
 title: ConnectionInfo element (MessageType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: ConnectionInfo element
 ms:assetid: 9ffce14c-1c15-3b7f-0edb-f8e32c01f058
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912693(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912693(v=office.15)
 ms:contentKeyID: 64126863
 ms.date: 02/16/2015
 mtps_version: v=office.15

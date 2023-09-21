@@ -2,7 +2,7 @@
 title: HealerPacketDropRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: HealerPacketDropRatio element
 ms:assetid: b83e60d7-567f-0f1e-d948-4b8910a117c0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912737(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912737(v=office.15)
 ms:contentKeyID: 64126906
 ms.date: 02/16/2015
 mtps_version: v=office.15

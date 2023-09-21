@@ -2,7 +2,7 @@
 title: members element
 TOCTitle: members element
 ms:assetid: f397a110-3a16-4370-bd57-ee9b557e977a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438990(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438990(v=office.15)
 ms:contentKeyID: 57094034
 ms.date: 07/24/2014
 mtps_version: v=office.15

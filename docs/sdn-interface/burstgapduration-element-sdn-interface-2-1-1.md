@@ -2,7 +2,7 @@
 title: BurstGapDuration element (Lync SDN Interface 2.1.1)
 TOCTitle: BurstGapDuration element
 ms:assetid: d4818593-421b-22f0-1a7c-e641a591d944
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912682(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912682(v=office.15)
 ms:contentKeyID: 64126851
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Containers for local access
 TOCTitle: Containers for local access
 ms:assetid: c03e53b0-73b6-4ef3-ac5a-1a8d2ab79e7c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454658(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454658(v=office.15)
 ms:contentKeyID: 57092920
 ms.date: 07/24/2014
 mtps_version: v=office.15

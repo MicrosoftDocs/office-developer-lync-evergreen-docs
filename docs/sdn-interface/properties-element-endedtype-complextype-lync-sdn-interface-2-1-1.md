@@ -2,7 +2,7 @@
 title: Properties element (EndedType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Properties element (EndedType complexType)
 ms:assetid: fe3ffc6f-1ab1-5d92-4084-9d2043b39bdd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912781(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912781(v=office.15)
 ms:contentKeyID: 64126950
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: PacketUtilization element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: PacketUtilization element
 ms:assetid: 0c7b04eb-0e1c-1321-5292-25e18a46972b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912778(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912778(v=office.15)
 ms:contentKeyID: 64126947
 ms.date: 02/16/2015
 mtps_version: v=office.15

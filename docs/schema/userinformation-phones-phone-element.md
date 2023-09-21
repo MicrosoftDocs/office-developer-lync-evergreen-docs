@@ -2,7 +2,7 @@
 title: userInformation/phones/phone element
 TOCTitle: userInformation/phones/phone element
 ms:assetid: 1cc5d9f4-4e6e-4629-a723-7d2aec4a2400
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438976(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438976(v=office.15)
 ms:contentKeyID: 57094021
 ms.date: 07/24/2014
 mtps_version: v=office.15

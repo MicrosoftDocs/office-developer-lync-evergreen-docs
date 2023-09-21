@@ -2,7 +2,7 @@
 title: Protocol element  (StartOrUpdateType complexType) (Lync SDN API Schema A)
 TOCTitle: Protocol element (Properties element) (StartOrUpdateType complexType)
 ms:assetid: 7771173a-4089-525a-1628-d324d39249e7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775135(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775135(v=office.15)
 ms:contentKeyID: 62626109
 ms.date: 07/24/2014
 mtps_version: v=office.15

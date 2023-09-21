@@ -2,7 +2,7 @@
 title: state[@type='phoneState'] element
 TOCTitle: state[@type='phoneState'] element
 ms:assetid: 6d396c50-6ae4-4bc2-bdd4-7a162255a15b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454802(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454802(v=office.15)
 ms:contentKeyID: 57093884
 ms.date: 07/24/2014
 mtps_version: v=office.15

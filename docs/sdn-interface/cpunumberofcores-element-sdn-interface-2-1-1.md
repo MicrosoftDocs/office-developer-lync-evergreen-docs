@@ -2,7 +2,7 @@
 title: CPUNumberOfCores element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: CPUNumberOfCores element
 ms:assetid: 9299f7ae-034e-2be3-ba89-47f09191c5ca
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912703(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912703(v=office.15)
 ms:contentKeyID: 64126873
 ms.date: 02/16/2015
 mtps_version: v=office.15

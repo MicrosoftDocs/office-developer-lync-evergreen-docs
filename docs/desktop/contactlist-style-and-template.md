@@ -2,7 +2,7 @@
 title: ContactList style and template
 TOCTitle: ContactList style and template
 ms:assetid: cdf0e828-6841-4bfd-98a8-39c10b658703
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933196(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933196(v=office.15)
 ms:contentKeyID: 50877337
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the styles and templates for the [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the styles and templates for the [ContactList](https://msdn.microsoft.com/library/hh363781\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -20,7 +20,7 @@ Learn about the styles and templates for the [ContactList](https://msdn.microsof
 
 
 
-There are no states or [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the ContactList control.
+There are no states or [Style](http://msdn.microsoft.com/library/system.windows.style\(vs.95\).aspx) properties for the ContactList control.
 
 ![ContactList](images/JJ945579.ContactList_rtm(Office.15).png "ContactList")
 

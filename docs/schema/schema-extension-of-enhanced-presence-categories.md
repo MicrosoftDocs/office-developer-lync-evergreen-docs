@@ -2,7 +2,7 @@
 title: Schema extension of Enhanced Presence categories
 TOCTitle: Schema extension of Enhanced Presence categories
 ms:assetid: e90758c9-d35d-4a2e-b163-ece25bac71b3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454679(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454679(v=office.15)
 ms:contentKeyID: 57093217
 ms.date: 07/24/2014
 mtps_version: v=office.15

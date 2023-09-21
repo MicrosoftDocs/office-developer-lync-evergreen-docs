@@ -2,7 +2,7 @@
 title: Route element (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: Route element
 ms:assetid: f0c19a1e-f4cb-a8c9-9a2c-169f2e6ca9fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439271(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439271(v=office.15)
 ms:contentKeyID: 57261007
 ms.date: 07/24/2014
 mtps_version: v=office.15

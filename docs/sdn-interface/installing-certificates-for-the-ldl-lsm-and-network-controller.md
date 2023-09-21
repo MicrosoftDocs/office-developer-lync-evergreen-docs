@@ -2,7 +2,7 @@
 title: Installing certificates for the LDL, LSM and network controller
 TOCTitle: Installing certificates for the LDL, LSM and network controller
 ms:assetid: 840474e7-94ee-4ea1-8bf4-64a168adfeea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785201(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785201(v=office.15)
 ms:contentKeyID: 62952685
 ms.date: 02/16/2015
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ mtps_version: v=office.15
 
 To help to ensure secure message transport and client authentication, the Lync SDN Interface components support mutual TLS. For this to work, you must request certificates from a certification authority (CA) for use over SSL with the LSM and the LDL. You might have to install a root certificate of the CA if it is not trusted. In addition, you must install a server certificate on the network controllers and a client certificate on the LSM host computer.
 
-In the following procedures, assume that a Microsoft Certification Authority is being used and then summarizes the steps necessary to request and install a certificate. For detailed explanation and instructions on how to create a certificate request for Microsoft Certificate Services, see [Managing Certificate Services and SSL](http://technet.microsoft.com/en-us/library/bb727098.aspx).
+In the following procedures, assume that a Microsoft Certification Authority is being used and then summarizes the steps necessary to request and install a certificate. For detailed explanation and instructions on how to create a certificate request for Microsoft Certificate Services, see [Managing Certificate Services and SSL](http://technet.microsoft.com/library/bb727098.aspx).
 
 ## Install the trusted root certificate
 

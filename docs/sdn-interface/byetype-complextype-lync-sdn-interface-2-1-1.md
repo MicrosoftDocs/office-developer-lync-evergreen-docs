@@ -2,7 +2,7 @@
 title: ByeType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: ByeType complexType
 ms:assetid: ab89002e-0b61-f68e-be72-06a7fc7d053a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912846(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912846(v=office.15)
 ms:contentKeyID: 64127014
 ms.date: 02/16/2015
 mtps_version: v=office.15

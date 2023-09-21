@@ -2,7 +2,7 @@
 title: contactCard/automaton element
 TOCTitle: contactCard/automaton element
 ms:assetid: 0eaa37a2-97e9-4d2d-a379-b73774c1efcd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454710(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454710(v=office.15)
 ms:contentKeyID: 57093397
 ms.date: 07/24/2014
 mtps_version: v=office.15

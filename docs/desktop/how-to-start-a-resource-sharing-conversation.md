@@ -2,7 +2,7 @@
 title: 'How to: Start a resource sharing conversation'
 TOCTitle: 'How to: Start a resource sharing conversation'
 ms:assetid: 547bfc80-f975-4109-acf9-b8455d07825b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937320(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937320(v=office.15)
 ms:contentKeyID: 50877150
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -111,21 +111,21 @@ Figure 1. Application Windows Form
 
 ## Initial application state
 
-Before you complete the procedures in this topic, your application must declare and initialize an instance of [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)). The Lync client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
+Before you complete the procedures in this topic, your application must declare and initialize an instance of [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)). The Lync client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-In addition to the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance, your application must declare a button and two lists. The first list displays contact SIP addresses for Lync users, the button starts the conversation, and the second list displays the resources that can be shared in the new conversation. The SIP address list should let a user select multiple addresses so that multiple users can be invited to join the new conversation.
+In addition to the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance, your application must declare a button and two lists. The first list displays contact SIP addresses for Lync users, the button starts the conversation, and the second list displays the resources that can be shared in the new conversation. The SIP address list should let a user select multiple addresses so that multiple users can be invited to join the new conversation.
 
 To make the following example code easier to read, several conversation-related API state objects are stored in class fields. These objects include the following:
 
-  - A [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) object that represents the Lync client and is the entry point to the Microsoft Lync 2013 API.
+  - A [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) object that represents the Lync client and is the entry point to the Microsoft Lync 2013 API.
 
-  - A [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) object that represents the new conversation.
+  - A [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) object that represents the new conversation.
 
-  - A **Dictionary\<string,**[Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\))**\>** object that contains the users selected to join the conversation.
+  - A **Dictionary\<string,**[Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\))**\>** object that contains the users selected to join the conversation.
 
-  - A [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) that represents the application sharing modality of the conversation.
+  - A [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) that represents the application sharing modality of the conversation.
 
-  - A **Dictionary\<string,**[Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\))**\>** object that is a collection of the application sharing modalities of invited users. The dictionary key is the [Contact.Uri](https://msdn.microsoft.com/en-us/library/jj293279\(v=office.15\)) property for a conversation participant.
+  - A **Dictionary\<string,**[Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\))**\>** object that is a collection of the application sharing modalities of invited users. The dictionary key is the [Contact.Uri](https://msdn.microsoft.com/library/jj293279\(v=office.15\)) property for a conversation participant.
 
 ### Code examples
 
@@ -184,21 +184,21 @@ The following example declares the class fields that are referenced in the follo
 
 The sample is ready to start a new conversation or host a conversation to which the signed-in user is invited as soon as the logic in the form load event finishes.
 
-The [Microsoft.Lync.Model.Conversation.ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) class lets you start a new conversation. Get a **ConversationManager** instance and register for events on it before starting any of the other tasks in this topic.
+The [Microsoft.Lync.Model.Conversation.ConversationManager](https://msdn.microsoft.com/library/jj266018\(v=office.15\)) class lets you start a new conversation. Get a **ConversationManager** instance and register for events on it before starting any of the other tasks in this topic.
 
 ### To handle the form loaded event
 
-1.  Get the API entry point by calling the static [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/jj278213\(v=office.15\)) method and put the returned [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) object into the \_lyncClient class field declared previously.
+1.  Get the API entry point by calling the static [LyncClient.GetClient](https://msdn.microsoft.com/library/jj278213\(v=office.15\)) method and put the returned [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) object into the \_lyncClient class field declared previously.
 
-2.  Read the [LyncClient.InSuppressedMode](https://msdn.microsoft.com/en-us/library/jj275500\(v=office.15\)) property of the client. If **false** is returned, continue with the next step. Otherwise, stop this procedure.
+2.  Read the [LyncClient.InSuppressedMode](https://msdn.microsoft.com/library/jj275500\(v=office.15\)) property of the client. If **false** is returned, continue with the next step. Otherwise, stop this procedure.
     
     Resource sharing is not supported when UI suppression is enabled.
 
-3.  Read the [Client.State](https://msdn.microsoft.com/en-us/library/jj274837\(v=office.15\)) property and continue to the next step if the current state is [ClientState](https://msdn.microsoft.com/en-us/library/jj275269\(v=office.15\))**.Signedin**. Otherwise, sign in to Lync with the user’s credentials.
+3.  Read the [Client.State](https://msdn.microsoft.com/library/jj274837\(v=office.15\)) property and continue to the next step if the current state is [ClientState](https://msdn.microsoft.com/library/jj275269\(v=office.15\))**.Signedin**. Otherwise, sign in to Lync with the user’s credentials.
 
-4.  Read the [Client.ConversationManager](https://msdn.microsoft.com/en-us/library/jj276841\(v=office.15\)) property of the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)).
+4.  Read the [Client.ConversationManager](https://msdn.microsoft.com/library/jj276841\(v=office.15\)) property of the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)).
 
-5.  Register a callback method for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) and [ConversationManager.ConversationRemoved](https://msdn.microsoft.com/en-us/library/jj293976\(v=office.15\)) events on the conversation manager.
+5.  Register a callback method for the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) and [ConversationManager.ConversationRemoved](https://msdn.microsoft.com/library/jj293976\(v=office.15\)) events on the conversation manager.
 
 6.  Get the SIP addresses of all contacts in the user’s contact list.
 
@@ -213,14 +213,14 @@ The [Microsoft.Lync.Model.Conversation.ConversationManager](https://msdn.microso
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>The example code in this topic is driven by the chain of events started when the <a href="https://msdn.microsoft.com/en-us/library/jj276176(v=office.15)">ConversationManager.AddConversation</a> method is called. The event callback method that is invoked for <a href="https://msdn.microsoft.com/en-us/library/jj266470(v=office.15)">ConversationManager.ConversationAdded</a> adds the invited users to the new <a href="https://msdn.microsoft.com/en-us/library/jj276988(v=office.15)">Microsoft.Lync.Model.Conversation.Conversation</a> object. For each user who is added to the conversation, a <a href="https://msdn.microsoft.com/en-us/library/jj275759(v=office.15)">Conversation.ParticipantAdded</a> event is raised. The event callback method that is invoked for this event gets the new participant’s <a href="https://msdn.microsoft.com/en-us/library/jj275536(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality</a>, and then registers event handlers for events on the participant’s sharing modality. The sharing modality events drive the UI state changes that enable or prevent a user from performing actions on the shared resource.</p></td>
+<td><p>The example code in this topic is driven by the chain of events started when the <a href="https://msdn.microsoft.com/library/jj276176(v=office.15)">ConversationManager.AddConversation</a> method is called. The event callback method that is invoked for <a href="https://msdn.microsoft.com/library/jj266470(v=office.15)">ConversationManager.ConversationAdded</a> adds the invited users to the new <a href="https://msdn.microsoft.com/library/jj276988(v=office.15)">Microsoft.Lync.Model.Conversation.Conversation</a> object. For each user who is added to the conversation, a <a href="https://msdn.microsoft.com/library/jj275759(v=office.15)">Conversation.ParticipantAdded</a> event is raised. The event callback method that is invoked for this event gets the new participant’s <a href="https://msdn.microsoft.com/library/jj275536(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality</a>, and then registers event handlers for events on the participant’s sharing modality. The sharing modality events drive the UI state changes that enable or prevent a user from performing actions on the shared resource.</p></td>
 </tr>
 </tbody>
 </table>
 
 ### Code example
 
-The following example gets the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) and registers for events on the **LyncClient** and the **ConversationManager** instance.
+The following example gets the [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) and registers for events on the **LyncClient** and the **ConversationManager** instance.
 
 <table>
 <colgroup>
@@ -302,15 +302,15 @@ The form is now loaded and the user’s contact list is displayed in the contact
 
 ## Get contacts from a user’s contact list
 
-To get the contacts that a user has added to the local contact list, you must read the [Client.ContactManager](https://msdn.microsoft.com/en-us/library/jj275688\(v=office.15\)) property and then get the collection of [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) objects by reading the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property. For more information about retrieving contacts, see [How to: Display a contact list](how-to-display-a-contact-list.md).
+To get the contacts that a user has added to the local contact list, you must read the [Client.ContactManager](https://msdn.microsoft.com/library/jj275688\(v=office.15\)) property and then get the collection of [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/library/jj266012\(v=office.15\)) objects by reading the [ContactManager.Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) property. For more information about retrieving contacts, see [How to: Display a contact list](how-to-display-a-contact-list.md).
 
 ### To get the user’s contacts
 
-1.  Read the [Client.ContactManager](https://msdn.microsoft.com/en-us/library/jj275688\(v=office.15\)) property on the **\_LyncClient** class field.
+1.  Read the [Client.ContactManager](https://msdn.microsoft.com/library/jj275688\(v=office.15\)) property on the **\_LyncClient** class field.
 
-2.  Read the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property on the contact manager.
+2.  Read the [ContactManager.Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) property on the contact manager.
     
-    A collection of [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) objects is returned.
+    A collection of [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/library/jj266012\(v=office.15\)) objects is returned.
 
 3.  Iterate on the **Group** objects.
     
@@ -325,14 +325,14 @@ To get the contacts that a user has added to the local contact list, you must re
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>A group is a collection of contacts that can be treated as a <a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Microsoft.Lync.Model.Contact</a> object collection.</p></td>
+    <td><p>A group is a collection of contacts that can be treated as a <a href="https://msdn.microsoft.com/library/jj266463(v=office.15)">Microsoft.Lync.Model.Contact</a> object collection.</p></td>
     </tr>
     </tbody>
     </table>
 
 4.  For each group, iterate over the **Contact** objects.
 
-5.  For each contact, add the user’s SIP address to the contact list in the UI. Get the SIP address by reading the [Contact.Uri](https://msdn.microsoft.com/en-us/library/jj293279\(v=office.15\)) property.
+5.  For each contact, add the user’s SIP address to the contact list in the UI. Get the SIP address by reading the [Contact.Uri](https://msdn.microsoft.com/library/jj293279\(v=office.15\)) property.
 
 ### Code example
 
@@ -376,9 +376,9 @@ The following example updates the application UI by using the current state of t
 
 ## Add a new conversation
 
-A user can select as many contacts as wanted to invite to a conversation. The list declared in the sample form is enabled for multiple selections. Each selection is only a SIP address and corresponding [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) objects are needed when you are adding selected contacts to the new conversation.
+A user can select as many contacts as wanted to invite to a conversation. The list declared in the sample form is enabled for multiple selections. Each selection is only a SIP address and corresponding [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) objects are needed when you are adding selected contacts to the new conversation.
 
-For each SIP address selected on the contact list, the sample gets the corresponding **Contact** by calling the [ContactManager.GetContactByUri](https://msdn.microsoft.com/en-us/library/jj274481\(v=office.15\)) method. The contact objects are stored in the **\_selectedContacts** dictionary that was declared previously and then used in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
+For each SIP address selected on the contact list, the sample gets the corresponding **Contact** by calling the [ContactManager.GetContactByUri](https://msdn.microsoft.com/library/jj274481\(v=office.15\)) method. The contact objects are stored in the **\_selectedContacts** dictionary that was declared previously and then used in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event.
 
 <table>
 <colgroup>
@@ -423,13 +423,13 @@ The following example starts a new conversation.
 
 ## Configure the newly added conversation
 
-The [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event is raised when the conversation is established and you can add users to the conversation and register event callback methods for the conversation-related events.
+The [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event is raised when the conversation is established and you can add users to the conversation and register event callback methods for the conversation-related events.
 
-Register for events on the conversation and the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) of the new conversation. This includes the participant that represents the local user. The best place to register for the conversation **ApplicationSharingModality** events is in the **ConversationAdded** event callback method. You must register for all participant’s **ApplicationSharingModality** events in your [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event.
+Register for events on the conversation and the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) of the new conversation. This includes the participant that represents the local user. The best place to register for the conversation **ApplicationSharingModality** events is in the **ConversationAdded** event callback method. You must register for all participant’s **ApplicationSharingModality** events in your [Conversation.ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) event.
 
 ### Handle the ConversationAdded event
 
-Although the [ConversationManager.AddConversation](https://msdn.microsoft.com/en-us/library/jj276176\(v=office.15\)) method returns a new [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) object synchronously, a set of SIP messages is sent to Lync Server 2013 and used by the server to create a client/server SIP dialog that encapsulates the conversation. When the SIP dialog is established, the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event is raised. Use this event to register for conversation-related events and send conversation invitations to all of the contacts that the user selected. The following procedure describes the tasks completed by the event callback method that handles **ConversationAdded**.
+Although the [ConversationManager.AddConversation](https://msdn.microsoft.com/library/jj276176\(v=office.15\)) method returns a new [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) object synchronously, a set of SIP messages is sent to Lync Server 2013 and used by the server to create a client/server SIP dialog that encapsulates the conversation. When the SIP dialog is established, the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event is raised. Use this event to register for conversation-related events and send conversation invitations to all of the contacts that the user selected. The following procedure describes the tasks completed by the event callback method that handles **ConversationAdded**.
 
 <table>
 <colgroup>
@@ -449,11 +449,11 @@ Although the [ConversationManager.AddConversation](https://msdn.microsoft.com/en
 
 ### To handle the ConversationAdded event
 
-1.  Unregister the event callback method on [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) so that the sample ignores any other new conversations until this conversation is finished.
+1.  Unregister the event callback method on [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) so that the sample ignores any other new conversations until this conversation is finished.
 
-2.  Register for the [Conversation.StateChanged](https://msdn.microsoft.com/en-us/library/jj278070\(v=office.15\)) and [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) events on the new conversation.
+2.  Register for the [Conversation.StateChanged](https://msdn.microsoft.com/library/jj278070\(v=office.15\)) and [Conversation.ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) events on the new conversation.
 
-3.  Store the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object from the **Conversation**.
+3.  Store the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) object from the **Conversation**.
 
 4.  Register event callback methods for all of the events that are exposed by the conversation **ApplicationSharingModality**.
 
@@ -548,21 +548,21 @@ The following example handles the **ConversationAdded** event.
 
 ### Handle the ParticipantAdded event
 
-The [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event is raised when a participant is added to the **Conversation** object. A **ParticipantAdded** event callback must handle the following tasks:
+The [Conversation.ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) event is raised when a participant is added to the **Conversation** object. A **ParticipantAdded** event callback must handle the following tasks:
 
-  - Register for the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/en-us/library/jj293249\(v=office.15\)) event on the added participant’s [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) instance.
+  - Register for the [Modality.ActionAvailabilityChanged](https://msdn.microsoft.com/library/jj293249\(v=office.15\)) event on the added participant’s [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) instance.
 
-  - For the self-participant, read the [Participant.Properties](https://msdn.microsoft.com/en-us/library/jj278318\(v=office.15\)) property, specifying the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** enumerator as the property collection key.
+  - For the self-participant, read the [Participant.Properties](https://msdn.microsoft.com/library/jj278318\(v=office.15\)) property, specifying the [ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsPresenter** enumerator as the property collection key.
 
   - Enable the UI to allow sharing a local resource if the **IsPresenter** property is a Boolean true value.
 
-  - For the self-participant, register for the [Participant.PropertyChanged](https://msdn.microsoft.com/en-us/library/jj293995\(v=office.15\)) event to be notified if the self-participant is promoted to presenter or demoted to attendee.
+  - For the self-participant, register for the [Participant.PropertyChanged](https://msdn.microsoft.com/library/jj293995\(v=office.15\)) event to be notified if the self-participant is promoted to presenter or demoted to attendee.
 
-The following example registers for the [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event and stores the participant [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object in a dictionary that uses the [Contact.Uri](https://msdn.microsoft.com/en-us/library/jj293279\(v=office.15\)) string as a key. To grant control of a locally shared resource in the conversation, the appropriate participant **ApplicationSharingModality** is retrieved from the dictionary by the user’s URI and then the [ApplicationSharingModality.BeginGrantControl](https://msdn.microsoft.com/en-us/library/jj274501\(v=office.15\)) method is called on modality.
+The following example registers for the [Conversation.ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) event and stores the participant [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) object in a dictionary that uses the [Contact.Uri](https://msdn.microsoft.com/library/jj293279\(v=office.15\)) string as a key. To grant control of a locally shared resource in the conversation, the appropriate participant **ApplicationSharingModality** is retrieved from the dictionary by the user’s URI and then the [ApplicationSharingModality.BeginGrantControl](https://msdn.microsoft.com/library/jj274501\(v=office.15\)) method is called on modality.
 
 #### Code example
 
-The following example handles the [Conversation.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj275759\(v=office.15\)) event.
+The following example handles the [Conversation.ParticipantAdded](https://msdn.microsoft.com/library/jj275759\(v=office.15\)) event.
 
 ```csharp
         /// <summary>
@@ -600,7 +600,7 @@ The following example handles the [Conversation.ParticipantAdded](https://msdn.m
 
 ### Handle the ParticipantRemoved event
 
-The [Conversation.ParticipantRemoved](https://msdn.microsoft.com/en-us/library/jj268280\(v=office.15\)) event is raised when a participant has declined an invitation to join a conversation. Use this event to remove the **ApplicationSharingModality** object from the Dictionary that you added it to in the previous example. You should also unregister any event callback methods that you registered on this participant’s modalities when the participant was added.
+The [Conversation.ParticipantRemoved](https://msdn.microsoft.com/library/jj268280\(v=office.15\)) event is raised when a participant has declined an invitation to join a conversation. Use this event to remove the **ApplicationSharingModality** object from the Dictionary that you added it to in the previous example. You should also unregister any event callback methods that you registered on this participant’s modalities when the participant was added.
 
 #### Code example
 
@@ -655,7 +655,7 @@ The following example enables or disables a UI button that starts resource shari
 
 ## Get a list of shareable resources
 
-You can fill or refresh a UI list of locally shareable resources at any time after the conversation is created. The best place to call a method that does this is in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event.
+You can fill or refresh a UI list of locally shareable resources at any time after the conversation is created. The best place to call a method that does this is in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event.
 
 <table>
 <colgroup>
@@ -668,7 +668,7 @@ You can fill or refresh a UI list of locally shareable resources at any time aft
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>You must get the locally shareable resources from the <strong>Conversation</strong><a href="https://msdn.microsoft.com/en-us/library/jj275536(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality</a> instead of any participant <strong>ApplicationSharingModality</strong>.</p></td>
+<td><p>You must get the locally shareable resources from the <strong>Conversation</strong><a href="https://msdn.microsoft.com/library/jj275536(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality</a> instead of any participant <strong>ApplicationSharingModality</strong>.</p></td>
 </tr>
 </tbody>
 </table>

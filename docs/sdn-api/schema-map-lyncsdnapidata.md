@@ -2,7 +2,7 @@
 title: Schema map (LyncSDNApiData)
 TOCTitle: Schema map (LyncSDNApiData)
 ms:assetid: 005e6b2a-dd90-a403-7b4b-8c90b78bbf72
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455005(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455005(v=office.15)
 ms:contentKeyID: 57260887
 ms.date: 07/24/2014
 mtps_version: v=office.15

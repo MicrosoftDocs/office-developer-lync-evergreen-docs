@@ -2,7 +2,7 @@
 title: Changes in technical requirements
 TOCTitle: Changes in technical requirements
 ms:assetid: 15ad2523-b485-4fc9-84af-0bb3b6c32e44
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439204(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439204(v=office.15)
 ms:contentKeyID: 57101300
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -31,7 +31,7 @@ None.
 
   - The Persistent Chat Server Uri can now be retrieved at runtime using in-band provisioning.
 
-  - The [ProvisioningData](https://msdn.microsoft.com/en-us/library/hh385025\(v=office.15\)) type of UCMA now exposes Persistent Chat server configuration in the [PersistentChatConfiguration](https://msdn.microsoft.com/en-us/library/jj728925\(v=office.15\)) property.
+  - The [ProvisioningData](https://msdn.microsoft.com/library/hh385025\(v=office.15\)) type of UCMA now exposes Persistent Chat server configuration in the [PersistentChatConfiguration](https://msdn.microsoft.com/library/jj728925\(v=office.15\)) property.
 
 ## See also
 

@@ -2,7 +2,7 @@
 title: Content sharing modality event handling
 TOCTitle: Content sharing modality event handling
 ms:assetid: 3250839b-e7c1-4750-b244-dfa7c839aa63
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937294(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937294(v=office.15)
 ms:contentKeyID: 50877119
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -40,21 +40,21 @@ Additional resources</p></td>
 
 The sharing stage of a Lync 2013 conversation window allows conversation participants to queue and unqueue multiple types of sharing content in a logical entity that can be thought of as a content bin. Only one shareable content item can be shown on the sharing stage at a time. Any conversation presenter can be made the presenter of the active content or become a content presenter when they share content that they own.
 
-The four events exposed by the [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/en-us/library/jj266998\(v=office.15\)) are as follows:
+The four events exposed by the [Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality](https://msdn.microsoft.com/library/jj266998\(v=office.15\)) are as follows:
 
-  - [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/en-us/library/jj293541\(v=office.15\))
+  - [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\))
 
-  - [ContentSharingModality.ContentRemoved](https://msdn.microsoft.com/en-us/library/jj293209\(v=office.15\))
+  - [ContentSharingModality.ContentRemoved](https://msdn.microsoft.com/library/jj293209\(v=office.15\))
 
-  - [ContentSharingModality.ActiveContentChanged](https://msdn.microsoft.com/en-us/library/jj278043\(v=office.15\))
+  - [ContentSharingModality.ActiveContentChanged](https://msdn.microsoft.com/library/jj278043\(v=office.15\))
 
-  - [ContentSharingModality.ActivePresenterChanged](https://msdn.microsoft.com/en-us/library/jj266964\(v=office.15\))
+  - [ContentSharingModality.ActivePresenterChanged](https://msdn.microsoft.com/library/jj266964\(v=office.15\))
 
-In addition, the **ContentSharingModality** raises all the events that it inherits from the base [Microsoft.Lync.Model.Conversation.Modality](https://msdn.microsoft.com/en-us/library/jj274796\(v=office.15\)) class.
+In addition, the **ContentSharingModality** raises all the events that it inherits from the base [Microsoft.Lync.Model.Conversation.Modality](https://msdn.microsoft.com/library/jj274796\(v=office.15\)) class.
 
 ### ContentAdded event
 
-A presenter has added a new shareable content item to the content bin. The [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/en-us/library/jj293541\(v=office.15\)) event should be used to update your client UI with the title of a new content bin item. The event data state object provides a reference to the new [ShareableContent](https://msdn.microsoft.com/en-us/library/jj277217\(v=office.15\)) object. You should register for events on the **ShareableContent** object when it is added to the content bin.
+A presenter has added a new shareable content item to the content bin. The [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\)) event should be used to update your client UI with the title of a new content bin item. The event data state object provides a reference to the new [ShareableContent](https://msdn.microsoft.com/library/jj277217\(v=office.15\)) object. You should register for events on the **ShareableContent** object when it is added to the content bin.
 
 The following example adds the title of the new content to a list in the UI and then enables a command button.
 
@@ -84,7 +84,7 @@ The following example adds the title of the new content to a list in the UI and 
 
 ### ContentRemoved event
 
-A presenter has removed a shareable content item from the content bin. The [ContentSharingModality.ContentRemoved](https://msdn.microsoft.com/en-us/library/jj293209\(v=office.15\)) event is used to update your client UI to remove the title of the removed content from a content bin list and to unregister for content sharing events on the removed content.
+A presenter has removed a shareable content item from the content bin. The [ContentSharingModality.ContentRemoved](https://msdn.microsoft.com/library/jj293209\(v=office.15\)) event is used to update your client UI to remove the title of the removed content from a content bin list and to unregister for content sharing events on the removed content.
 
 The following example refreshes a UI list of content bin items.
 
@@ -108,7 +108,7 @@ The following example refreshes a UI list of content bin items.
 
 ### ActiveContentChanged event
 
-A presenter has swapped one content bin sharing item for another item. The [ContentSharingModality.ActiveContentChanged](https://msdn.microsoft.com/en-us/library/jj278043\(v=office.15\)) event tells you that a conversation participant has swapped one content bin item for a different one on the sharing stage. An application UI should show the current active content presenter and command buttons for actions that can be taken on active content. Use this event to get the new active content presenter and enable command buttons that are appropriate for the type of content that is being presented.
+A presenter has swapped one content bin sharing item for another item. The [ContentSharingModality.ActiveContentChanged](https://msdn.microsoft.com/library/jj278043\(v=office.15\)) event tells you that a conversation participant has swapped one content bin item for a different one on the sharing stage. An application UI should show the current active content presenter and command buttons for actions that can be taken on active content. Use this event to get the new active content presenter and enable command buttons that are appropriate for the type of content that is being presented.
 
 The following example gets the title of the newly shared content and then enables or disables the command buttons that are appropriate for the content type.
 

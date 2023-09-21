@@ -2,7 +2,7 @@
 title: state/activity element
 TOCTitle: state/activity element
 ms:assetid: 04baa316-bc4a-4405-96ff-b8ed572cf8ff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454801(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454801(v=office.15)
 ms:contentKeyID: 57093879
 ms.date: 07/24/2014
 mtps_version: v=office.15

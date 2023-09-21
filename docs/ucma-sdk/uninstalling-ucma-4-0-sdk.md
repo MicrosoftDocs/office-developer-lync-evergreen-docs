@@ -2,7 +2,7 @@
 title: Uninstalling UCMA 4.0 SDK
 TOCTitle: Uninstalling UCMA 4.0 SDK
 ms:assetid: de5bff2f-0647-4584-9092-6b8e99815362
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465971(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465971(v=office.15)
 ms:contentKeyID: 57102882
 ms.date: 07/25/2014
 mtps_version: v=office.15

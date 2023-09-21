@@ -2,7 +2,7 @@
 title: otherOptions/publishEndpointLocation element
 TOCTitle: otherOptions/publishEndpointLocation element
 ms:assetid: af919f67-06c4-489d-9e6d-f96811cf82f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454778(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454778(v=office.15)
 ms:contentKeyID: 57093664
 ms.date: 07/24/2014
 mtps_version: v=office.15

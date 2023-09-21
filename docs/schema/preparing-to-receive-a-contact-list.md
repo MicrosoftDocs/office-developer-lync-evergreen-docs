@@ -2,7 +2,7 @@
 title: Preparing to receive a contact list
 TOCTitle: Preparing to receive a contact list
 ms:assetid: 24f86fd2-4ceb-489a-8e90-5586be07c3a0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454631(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454631(v=office.15)
 ms:contentKeyID: 57092874
 ms.date: 07/24/2014
 mtps_version: v=office.15

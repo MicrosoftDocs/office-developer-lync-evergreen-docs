@@ -2,7 +2,7 @@
 title: Configuring Lync Dialog Listener
 TOCTitle: Configuring Lync Dialog Listener
 ms:assetid: 1c2c97c4-d205-4291-8dca-627a94c90d62
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439303(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439303(v=office.15)
 ms:contentKeyID: 57261039
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -35,7 +35,7 @@ Follow these steps to modify the Lync Dialog Listener logging configuration.
 
 
 > [!NOTE]
-> The configuration file can be conveniently inspected and modified using the Microsoft Enterprise Library Configuration Tool. For more information, see [Microsoft Enterprise Library](http://msdn.microsoft.com/en-us/library/ff648951.aspx).
+> The configuration file can be conveniently inspected and modified using the Microsoft Enterprise Library Configuration Tool. For more information, see [Microsoft Enterprise Library](http://msdn.microsoft.com/library/ff648951.aspx).
 
 Each entry (an \<add\> element) under \<listeners\> corresponds to a specified type of logging. Modifications can include adding a new \<add\> entry to enable the specified type of logging, removing an \<add\> entry to disable the specified type of logging, and changing an existing \<add\> entry to modify the specified type of logging.
 

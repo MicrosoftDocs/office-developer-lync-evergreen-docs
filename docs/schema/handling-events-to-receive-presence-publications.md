@@ -2,7 +2,7 @@
 title: Handling events to receive presence publications
 TOCTitle: Handling events to receive presence publications
 ms:assetid: a4484575-6a10-4952-bef0-fd86ca53d1f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454654(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454654(v=office.15)
 ms:contentKeyID: 57092907
 ms.date: 07/24/2014
 mtps_version: v=office.15

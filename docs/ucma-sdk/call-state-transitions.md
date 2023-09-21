@@ -2,7 +2,7 @@
 title: Call state transitions
 TOCTitle: Call state transitions
 ms:assetid: 2f9176a0-b25f-43e0-a000-1fe5b5dfc56d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465981(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465981(v=office.15)
 ms:contentKeyID: 57102777
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,19 +15,19 @@ mtps_version: v=office.15
 
 ## Call transitions—outbound calls
 
-The [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) state transitions for an outbound call are shown in the following illustration.
+The [Call](https://msdn.microsoft.com/library/hh384235\(v=office.15\)) state transitions for an outbound call are shown in the following illustration.
 
 ![Call state transitions for an outbound call](images/Dn465981.StateMach_Call_Out(Office.15).jpg "Call state transitions for an outbound call")
 
-1.  The transition from **Idle** to **Establishing** occurs when the application calls [BeginEstablish](https://msdn.microsoft.com/en-us/library/hh383658\(v=office.15\)) on the call.
+1.  The transition from **Idle** to **Establishing** occurs when the application calls [BeginEstablish](https://msdn.microsoft.com/library/hh383658\(v=office.15\)) on the call.
 
 2.  The transition from **Establishing** to **Establishing** occurs when the application receives the first ringing notification from the remote side while the call is in the **Establishing** state.
 
-3.  The transition from **Establishing** to **Terminating** occurs when **BeginEstablish** fails, or when the application calls [BeginTerminate](https://msdn.microsoft.com/en-us/library/hh383376\(v=office.15\)) on the call, or when the application calls **BeginTerminate** on the conversation that contains this call.
+3.  The transition from **Establishing** to **Terminating** occurs when **BeginEstablish** fails, or when the application calls [BeginTerminate](https://msdn.microsoft.com/library/hh383376\(v=office.15\)) on the call, or when the application calls **BeginTerminate** on the conversation that contains this call.
 
-4.  The transition from **Establishing** to **Established** occurs when when [EndEstablish](https://msdn.microsoft.com/en-us/library/hh349248\(v=office.15\)) completes successfully.
+4.  The transition from **Establishing** to **Established** occurs when when [EndEstablish](https://msdn.microsoft.com/library/hh349248\(v=office.15\)) completes successfully.
 
-5.  The transition from **Established** to **Transferring** occurs when the application calls [BeginTransfer](https://msdn.microsoft.com/en-us/library/hh381053\(v=office.15\)) on the call.
+5.  The transition from **Established** to **Transferring** occurs when the application calls [BeginTransfer](https://msdn.microsoft.com/library/hh381053\(v=office.15\)) on the call.
 
 6.  The transition from **Transferring** to **Established** occurs when when **BeginTransfer** is unsuccessful.
 
@@ -45,13 +45,13 @@ The **Call** state transitions for an inbound call are shown in the following il
 
 ![Call state transitions for an inbound call](images/Dn465981.StateMach_Call_In(Office.15).jpg "Call state transitions for an inbound call")
 
-1.  The transition from **Incoming** to **Establishing** occurs when the application calls [BeginEstablish](https://msdn.microsoft.com/en-us/library/hh383658\(v=office.15\)) on the call.
+1.  The transition from **Incoming** to **Establishing** occurs when the application calls [BeginEstablish](https://msdn.microsoft.com/library/hh383658\(v=office.15\)) on the call.
 
-2.  The transition from **Establishing** to **Terminating** occurs when the call is not accepted, or when the application calls [BeginTerminate](https://msdn.microsoft.com/en-us/library/hh383376\(v=office.15\)) on the call, or when the application calls **BeginTerminate** on the conversation that contains this call.
+2.  The transition from **Establishing** to **Terminating** occurs when the call is not accepted, or when the application calls [BeginTerminate](https://msdn.microsoft.com/library/hh383376\(v=office.15\)) on the call, or when the application calls **BeginTerminate** on the conversation that contains this call.
 
-3.  The transition from **Establishing** to **Established** occurs when the call is accepted (when [BeginAccept](https://msdn.microsoft.com/en-us/library/hh383161\(v=office.15\)) returns successfully).
+3.  The transition from **Establishing** to **Established** occurs when the call is accepted (when [BeginAccept](https://msdn.microsoft.com/library/hh383161\(v=office.15\)) returns successfully).
 
-4.  The transition from **Established** to **Transferring** occurs when the application calls [BeginTransfer](https://msdn.microsoft.com/en-us/library/hh381053\(v=office.15\)) on the call.
+4.  The transition from **Established** to **Transferring** occurs when the application calls [BeginTransfer](https://msdn.microsoft.com/library/hh381053\(v=office.15\)) on the call.
 
 5.  The transition from **Transferring** to **Established** occurs when **BeginTransfer** is unsuccessful.
 

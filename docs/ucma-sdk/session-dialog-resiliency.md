@@ -2,7 +2,7 @@
 title: Session dialog resiliency
 TOCTitle: Session dialog resiliency
 ms:assetid: 20d6e2ea-0d2b-46ef-a35e-7ce77dc282fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465939(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465939(v=office.15)
 ms:contentKeyID: 57102433
 ms.date: 07/25/2014
 mtps_version: v=office.15

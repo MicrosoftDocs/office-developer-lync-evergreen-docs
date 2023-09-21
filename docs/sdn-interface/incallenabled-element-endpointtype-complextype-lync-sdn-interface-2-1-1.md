@@ -2,7 +2,7 @@
 title: IncallEnabled element (EndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: IncallEnabled element
 ms:assetid: 3351513f-a97d-6dd4-bc9b-7680ff464601
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912743(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912743(v=office.15)
 ms:contentKeyID: 64126913
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Lync 2013 system registry keys
 TOCTitle: Lync 2013 system registry keys
 ms:assetid: 82ad3fef-2dfd-47ac-adcc-c8f310bb08ed
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933096(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933096(v=office.15)
 ms:contentKeyID: 50877228
 ms.date: 07/24/2014
 mtps_version: v=office.15

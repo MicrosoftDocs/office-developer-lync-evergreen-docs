@@ -2,7 +2,7 @@
 title: Get started with enhanced presence in Lync SDK
 TOCTitle: Enhanced presence
 ms:assetid: 7fb19aad-fa7a-432c-ba6c-7e9375fdd942
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933105(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933105(v=office.15)
 ms:contentKeyID: 50877238
 ms.date: 07/24/2014
 mtps_version: v=office.15

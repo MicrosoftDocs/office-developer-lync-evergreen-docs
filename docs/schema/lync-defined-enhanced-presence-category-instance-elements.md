@@ -2,7 +2,7 @@
 title: Lync-defined Enhanced Presence category instance elements
 TOCTitle: Lync-defined Enhanced Presence category instance elements
 ms:assetid: 6ae86e79-7308-4743-a4c8-5bdf079e72c3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454688(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454688(v=office.15)
 ms:contentKeyID: 57093338
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: SpeechSynthesisConnector (QuickStart)
 TOCTitle: SpeechSynthesisConnector (QuickStart)
 ms:assetid: e1d13515-e5e7-4a1a-8a0b-845419d2a708
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466132(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466132(v=office.15)
 ms:contentKeyID: 57103429
 ms.date: 07/25/2014
 mtps_version: v=office.15

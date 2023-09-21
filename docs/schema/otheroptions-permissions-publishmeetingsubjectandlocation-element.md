@@ -2,7 +2,7 @@
 title: otherOptions/permissions/publishMeetingSubjectAndLocation element
 TOCTitle: otherOptions/permissions/publishMeetingSubjectAndLocation element
 ms:assetid: 6cb5369f-ec6d-46f5-91b6-00205e078339
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454766(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454766(v=office.15)
 ms:contentKeyID: 57093653
 ms.date: 07/24/2014
 mtps_version: v=office.15

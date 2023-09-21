@@ -2,7 +2,7 @@
 title: Extending the UCMA platform
 TOCTitle: Extending the UCMA platform
 ms:assetid: b1575336-4ee4-46a0-80ac-62b1731deec9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466092(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466092(v=office.15)
 ms:contentKeyID: 57103193
 ms.date: 07/25/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Monitoring LDL and LSM operational status
 TOCTitle: Monitoring LDL and LSM operational status
 ms:assetid: 80c3b67f-aa1c-4c06-a175-cdd0208db0a3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785219(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785219(v=office.15)
 ms:contentKeyID: 62952703
 ms.date: 02/16/2015
 mtps_version: v=office.15

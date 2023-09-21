@@ -2,7 +2,7 @@
 title: Lync 2013 UI customization
 TOCTitle: Lync 2013 UI customization
 ms:assetid: b7e53cee-ca1c-4c9a-8908-02be4f45f564
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn656914(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn656914(v=office.15)
 ms:contentKeyID: 61581616
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -24,5 +24,5 @@ The following topics include the information you need to customize a Lync 2013 c
 
 ## See also
 
-- [Lync developer roadmap](https://msdn.microsoft.com/en-us/library/dn645389\(v=office.15\))
+- [Lync developer roadmap](https://msdn.microsoft.com/library/dn645389\(v=office.15\))
 

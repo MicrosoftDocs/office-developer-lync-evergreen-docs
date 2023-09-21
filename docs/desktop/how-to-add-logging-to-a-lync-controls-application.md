@@ -2,7 +2,7 @@
 title: 'How to: Add logging to a Lync Controls application'
 TOCTitle: 'How to: Add logging to a Lync Controls application'
 ms:assetid: 6a7054ab-4de6-4e20-b9d6-e84fce14ee32
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933056(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933056(v=office.15)
 ms:contentKeyID: 50877186
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ dev_langs:
 
 # How to: Add logging to a Lync Controls application
 
-Learn how to add logging to a Microsoft Windows Presentation Foundation (WPF) application that contains Microsoft Lync Controls. The application writes log entries to a file on the local computer when the Initialized event on the [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control occurs.
+Learn how to add logging to a Microsoft Windows Presentation Foundation (WPF) application that contains Microsoft Lync Controls. The application writes log entries to a file on the local computer when the Initialized event on the [PresenceIndicator](https://msdn.microsoft.com/library/hh345947\(v=office.15\)) control occurs.
 
 
 

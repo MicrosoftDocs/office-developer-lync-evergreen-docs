@@ -2,7 +2,7 @@
 title: SendListenMOSMin element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: SendListenMOSMin element
 ms:assetid: 77f48260-7887-eb28-52a6-a63b7ef890da
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912816(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912816(v=office.15)
 ms:contentKeyID: 64126986
 ms.date: 02/16/2015
 mtps_version: v=office.15

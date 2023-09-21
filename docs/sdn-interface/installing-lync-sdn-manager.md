@@ -2,7 +2,7 @@
 title: Installing Lync SDN Manager
 TOCTitle: Installing Lync SDN Manager
 ms:assetid: 94f85cd3-3ac4-4b61-96cf-5dccb93a4a02
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785203(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785203(v=office.15)
 ms:contentKeyID: 62952694
 ms.date: 02/16/2015
 mtps_version: v=office.15

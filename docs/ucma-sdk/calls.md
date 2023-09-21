@@ -2,7 +2,7 @@
 title: Calls
 TOCTitle: Calls
 ms:assetid: 010a8697-bd7a-47db-aeb5-183392f0cb1f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465990(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465990(v=office.15)
 ms:contentKeyID: 57102808
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -13,13 +13,13 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-A call is a communication session between two endpoints: a local endpoint and a remote endpoint. UCMA 4.0 represents the call concept by the [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) abstract class, and provides non-abstract classes that implement three specific types of calls:
+A call is a communication session between two endpoints: a local endpoint and a remote endpoint. UCMA 4.0 represents the call concept by the [Call](https://msdn.microsoft.com/library/hh384235\(v=office.15\)) abstract class, and provides non-abstract classes that implement three specific types of calls:
 
-  - [InstantMessagingCall](https://msdn.microsoft.com/en-us/library/hh161841\(v=office.15\)) class.
+  - [InstantMessagingCall](https://msdn.microsoft.com/library/hh161841\(v=office.15\)) class.
     
     An **InstantMessagingCall** instance is used in a communication session for which the media type is Message, or text.
 
-  - [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) class.
+  - [AudioVideoCall](https://msdn.microsoft.com/library/hh383901\(v=office.15\)) class.
     
     An **AudioVideoCall** instance is used in a communication session for which the media type is Audio.
     
@@ -29,7 +29,7 @@ A call is a communication session between two endpoints: a local endpoint and a 
 
 
 
-  - [BackToBackCall](https://msdn.microsoft.com/en-us/library/hh365598\(v=office.15\)) class.
+  - [BackToBackCall](https://msdn.microsoft.com/library/hh365598\(v=office.15\)) class.
     
     A **BackToBackCall** instance represents a logical SIP network element that mediates SIP signaling between two call legs. A **BackToBackCall** instance can be used to connect two clients that send and receive audio alone or audio and video.
 

@@ -2,7 +2,7 @@
 title: otherOptions/permissions element
 TOCTitle: otherOptions/permissions element
 ms:assetid: 0d1925c4-072a-47ce-a824-5d25f0a616a5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454756(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454756(v=office.15)
 ms:contentKeyID: 57093643
 ms.date: 07/24/2014
 mtps_version: v=office.15

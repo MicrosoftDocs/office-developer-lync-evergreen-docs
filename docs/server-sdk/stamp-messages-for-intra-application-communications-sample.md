@@ -2,7 +2,7 @@
 title: Stamp messages for intra-application communications (ApplicationStamping sample)
 TOCTitle: Stamp messages for intra-application communications (ApplicationStamping sample)
 ms:assetid: 4289fcb6-5208-41d2-bbe7-a75458acaa96
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439090(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439090(v=office.15)
 ms:contentKeyID: 57096244
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ Learn about the Microsoft Lync Server 2013 SDK ApplicationStamping sample applic
 
 
 
-The ApplicationStamping application that is distributed with the Lync Server 2013 SDK shows how to use a script-only SIP application to tag a message with a string that is used to communicate between two identical application instances that run on different Microsoft Lync Server 2013 computers in the same topology. A message stamp is exposed on the **Stamp** property of a [Message](https://msdn.microsoft.com/en-us/library/hh364768\(v=office.15\)) instance and is visible only to the applications of the same URI.
+The ApplicationStamping application that is distributed with the Lync Server 2013 SDK shows how to use a script-only SIP application to tag a message with a string that is used to communicate between two identical application instances that run on different Microsoft Lync Server 2013 computers in the same topology. A message stamp is exposed on the **Stamp** property of a [Message](https://msdn.microsoft.com/library/hh364768\(v=office.15\)) instance and is visible only to the applications of the same URI.
 
 The following logic is implemented by the Microsoft SIP Processing Language (MSPL) script:
 
@@ -29,7 +29,7 @@ The following logic is implemented by the Microsoft SIP Processing Language (MSP
 
 2.  If the stamp is unspecified (not null), append the "+" character to the existing stamp. Otherwise, assign a ServerPool value to the message stamp.
 
-3.  Route the newly stamped message to the server by calling the [ProxyRequest](https://msdn.microsoft.com/en-us/library/hh364778\(v=office.15\)) function that uses an empty string as the URI parameter value.
+3.  Route the newly stamped message to the server by calling the [ProxyRequest](https://msdn.microsoft.com/library/hh364778\(v=office.15\)) function that uses an empty string as the URI parameter value.
 
 Other features that are implemented include logging the application run time to ApiLogger by using **Log** function.
 

@@ -2,7 +2,7 @@
 title: UI suppression
 TOCTitle: UI suppression
 ms:assetid: ece4a03a-c397-485a-ad53-61ab649f3c6d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933224(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933224(v=office.15)
 ms:contentKeyID: 50877368
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -50,7 +50,7 @@ Although the Lync 2013 client cannot be configured to disable items feature by f
 
 There are three methods to determine the current UI suppression mode:
 
-  - Check the [LyncClient.InSuppressedMode](https://msdn.microsoft.com/en-us/library/jj275500\(v=office.15\)) property.
+  - Check the [LyncClient.InSuppressedMode](https://msdn.microsoft.com/library/jj275500\(v=office.15\)) property.
     
     ```csharp
     if (LyncClient.GetClient().InSuppressedMode == true)
@@ -60,7 +60,7 @@ There are three methods to determine the current UI suppression mode:
     }
     ```
 
-  - Discover the value by trying to obtain an instance of the [Automation](https://msdn.microsoft.com/en-us/library/jj293816\(v=office.15\)) class and catching the resulting exception that is raised if UI suppression is enabled.
+  - Discover the value by trying to obtain an instance of the [Automation](https://msdn.microsoft.com/library/jj293816\(v=office.15\)) class and catching the resulting exception that is raised if UI suppression is enabled.
 
   - Read the **\[HKEY\_CURRENT\_USER\]\\Software\\Microsoft\\Office\\15.0\\Lync\\UISuppressionMode** key in the local registry. If the value is dword:00000001, UI suppression is enabled.
 
@@ -111,9 +111,9 @@ Just as your application can start the Lync process, it can also stop the proces
 
 ### UI suppression limitations
 
-The running UI suppressed Lync process gives your application access to the same Lync client endpoint, SIP processing, and all media processing that an unsuppressed Lync client uses with the following limitations. The visible components of the SDK are not available except for the video window. Components such as the Microsoft Lync 2013 Controls for Silverlight browser or WPF applications and the meeting content and resource sharing modalities cannot be used in your application when UI suppression is enabled. In addition, you cannot use the objects in the [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/en-us/library/jj278382\(v=office.15\)) namespace to automate starting conversations or meetings.
+The running UI suppressed Lync process gives your application access to the same Lync client endpoint, SIP processing, and all media processing that an unsuppressed Lync client uses with the following limitations. The visible components of the SDK are not available except for the video window. Components such as the Microsoft Lync 2013 Controls for Silverlight browser or WPF applications and the meeting content and resource sharing modalities cannot be used in your application when UI suppression is enabled. In addition, you cannot use the objects in the [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/library/jj278382\(v=office.15\)) namespace to automate starting conversations or meetings.
 
-The [Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow](https://msdn.microsoft.com/en-us/library/jj268233\(v=office.15\)) is a special exception to the previously described rule. In this case, the **VideoWindow** is designed to replace the Lync video window that is lost when the Lync client UI is suppressed. If you implement the video window in your application, you can provide the full range of basic communication modes, from IM to audio/video and even Persistent Chat.
+The [Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow](https://msdn.microsoft.com/library/jj268233\(v=office.15\)) is a special exception to the previously described rule. In this case, the **VideoWindow** is designed to replace the Lync video window that is lost when the Lync client UI is suppressed. If you implement the video window in your application, you can provide the full range of basic communication modes, from IM to audio/video and even Persistent Chat.
 
 ## Lync-enabled kiosk application
 
@@ -131,5 +131,5 @@ You can build a custom unified communications application or enhance your line-o
 
   - [Beyond the basics: Lync 2013 SDK](beyond-the-basics-lync-2013-sdk.md)
 
-  - [How to: Sign in to and out of Lync](https://msdn.microsoft.com/en-us/library/jj937241\(v=office.15\))
+  - [How to: Sign in to and out of Lync](https://msdn.microsoft.com/library/jj937241\(v=office.15\))
 

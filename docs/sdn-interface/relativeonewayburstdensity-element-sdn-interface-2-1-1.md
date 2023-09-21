@@ -2,7 +2,7 @@
 title: RelativeOneWayBurstDensity element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RelativeOneWayBurstDensity element
 ms:assetid: a0b1899b-feee-cd2c-02cd-afbdb30f534a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912802(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912802(v=office.15)
 ms:contentKeyID: 64126971
 ms.date: 02/16/2015
 mtps_version: v=office.15

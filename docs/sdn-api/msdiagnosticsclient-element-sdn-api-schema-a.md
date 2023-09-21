@@ -2,7 +2,7 @@
 title: MSDiagnosticsClient element  (Lync SDN API Schema A)
 TOCTitle: MSDiagnosticsClient element
 ms:assetid: 24d28145-4b9e-64f6-c491-204c5d115d5b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775129(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775129(v=office.15)
 ms:contentKeyID: 62626103
 ms.date: 07/24/2014
 mtps_version: v=office.15

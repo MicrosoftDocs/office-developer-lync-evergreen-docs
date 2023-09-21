@@ -2,7 +2,7 @@
 title: contactCard/displayADPhoto element
 TOCTitle: contactCard/displayADPhoto element
 ms:assetid: 518521c2-7cd0-47fa-9a65-24ac7573ae4b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454730(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454730(v=office.15)
 ms:contentKeyID: 57093439
 ms.date: 07/24/2014
 mtps_version: v=office.15

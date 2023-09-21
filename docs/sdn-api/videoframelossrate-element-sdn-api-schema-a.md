@@ -2,7 +2,7 @@
 title: VideoFrameLossRate element  (Lync SDN API Schema A)
 TOCTitle: VideoFrameLossRate element
 ms:assetid: b320fdde-11b2-211f-ccc8-e6faa66cec28
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439281(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439281(v=office.15)
 ms:contentKeyID: 57261017
 ms.date: 07/24/2014
 mtps_version: v=office.15

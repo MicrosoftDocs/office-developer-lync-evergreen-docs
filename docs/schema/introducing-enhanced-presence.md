@@ -2,7 +2,7 @@
 title: Introducing Enhanced Presence
 TOCTitle: Introducing Enhanced Presence
 ms:assetid: 625a191d-12f0-4af7-bf9d-6d33710e919c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454618(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454618(v=office.15)
 ms:contentKeyID: 57092867
 ms.date: 07/24/2014
 mtps_version: v=office.15

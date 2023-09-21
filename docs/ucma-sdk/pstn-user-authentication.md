@@ -2,7 +2,7 @@
 title: PSTN user authentication
 TOCTitle: PSTN user authentication
 ms:assetid: 8e0d8150-57bc-49ab-a190-e7e25d42df05
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465941(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465941(v=office.15)
 ms:contentKeyID: 57102434
 ms.date: 07/25/2014
 mtps_version: v=office.15

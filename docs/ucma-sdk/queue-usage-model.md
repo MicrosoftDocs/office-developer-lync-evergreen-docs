@@ -2,7 +2,7 @@
 title: Queue usage model
 TOCTitle: Queue usage model
 ms:assetid: 7179d835-5fe3-4703-8b40-0245fd6ccea0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466081(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466081(v=office.15)
 ms:contentKeyID: 57103169
 ms.date: 07/25/2014
 mtps_version: v=office.15

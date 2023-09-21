@@ -2,7 +2,7 @@
 title: Properties element (StartOrUpdateType complexType) (Lync SDN API Schema A)
 TOCTitle: Properties element (StartOrUpdateType complexType)
 ms:assetid: 3af6ff24-a392-d9f1-fcd1-86923438009e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775134(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775134(v=office.15)
 ms:contentKeyID: 62626108
 ms.date: 07/24/2014
 mtps_version: v=office.15

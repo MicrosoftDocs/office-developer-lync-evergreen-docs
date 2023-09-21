@@ -2,7 +2,7 @@
 title: ScheduleMeetingButton style and template
 TOCTitle: ScheduleMeetingButton style and template
 ms:assetid: f3cacba0-caf2-47c0-a395-80f82eba9c54
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933230(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933230(v=office.15)
 ms:contentKeyID: 50877374
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the style and template for the [ScheduleMeetingButton](https://msdn.microsoft.com/en-us/library/hh363440\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the style and template for the [ScheduleMeetingButton](https://msdn.microsoft.com/library/hh363440\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -20,7 +20,7 @@ Learn about the style and template for the [ScheduleMeetingButton](https://msdn.
 
 
 
-There are no states or [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the ScheduleMeetingButton control.
+There are no states or [Style](http://msdn.microsoft.com/library/system.windows.style\(vs.95\).aspx) properties for the ScheduleMeetingButton control.
 
 ![ScheduleMeetingButton Control](images/JJ945534.ScheduleMeetingButtonControl(Office.15).png "ScheduleMeetingButton Control")
 
@@ -44,7 +44,7 @@ The following table lists the named parts for the ScheduleMeetingButton control.
 <tbody>
 <tr class="odd">
 <td><p>CommandControl</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.control.aspx">Control</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.control.aspx">Control</a></p></td>
 <td><p>Launches the Microsoft Outlook dialog to initiate the desired action.</p></td>
 </tr>
 </tbody>

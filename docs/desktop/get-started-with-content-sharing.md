@@ -2,7 +2,7 @@
 title: Get started with content sharing
 TOCTitle: Content sharing
 ms:assetid: 6316a1ec-f4b3-4a4e-93c2-9bc9eee84c9c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933066(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933066(v=office.15)
 ms:contentKeyID: 50877196
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -33,7 +33,7 @@ Watch the video: Share file attachments in online meetings
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/511512f2-745d-4b09-8849-db7c997743f4]
 
 
 ## What is content sharing?
@@ -148,7 +148,7 @@ The following table lists advanced concepts for working with content sharing.
 </tr>
 <tr class="even">
 <td><p><a href="shareable-content-event-handling.md">Shareable content event handling</a></p></td>
-<td><p>Learn about making your Lync SDK-enabled application UI more responsive by handling events raised on the <a href="https://msdn.microsoft.com/en-us/library/jj277217(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a> class.</p></td>
+<td><p>Learn about making your Lync SDK-enabled application UI more responsive by handling events raised on the <a href="https://msdn.microsoft.com/library/jj277217(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</a> class.</p></td>
 </tr>
 </tbody>
 </table>

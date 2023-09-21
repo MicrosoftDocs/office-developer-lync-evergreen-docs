@@ -2,7 +2,7 @@
 title: Executing Lync Dialog Listener and Lync SDN Manager services
 TOCTitle: Executing Lync Dialog Listener and Lync SDN Manager services
 ms:assetid: 5cb9889e-0b19-4d82-aa5d-b6ee8721f355
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439304(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439304(v=office.15)
 ms:contentKeyID: 57261040
 ms.date: 07/24/2014
 mtps_version: v=office.15

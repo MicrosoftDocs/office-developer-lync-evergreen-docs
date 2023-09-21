@@ -2,7 +2,7 @@
 title: Learn the basics of Lync Server 2013 Persistent Chat SDK
 TOCTitle: Learn the basics
 ms:assetid: 8fb16f06-0b4b-4e8b-ab80-f227495e36bf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439210(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439210(v=office.15)
 ms:contentKeyID: 57101338
 ms.date: 07/24/2014
 mtps_version: v=office.15
