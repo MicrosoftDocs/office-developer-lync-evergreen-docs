@@ -2,7 +2,7 @@
 title: Asynchronous pattern
 TOCTitle: Asynchronous pattern
 ms:assetid: 74da9223-e635-43cf-9e98-d9c7f8a6be38
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466078(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466078(v=office.15)
 ms:contentKeyID: 57103195
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-Microsoft Unified Communications Managed API 4.0 is designed for middle-tier applications, for which performance is one of the most important goals. To provide this performance and to be consistent with the previous releases (UCMA 2.0 and UCMA 3.0), UCMA 4.0 supports the **BeginXxx**/**EndXxx** pattern to implement asynchronous operations. The application programmer is expected to be familiar with this usage pattern. For more information, see [Asynchronous Programming Overview](http://msdn.microsoft.com/en-us/library/ms228963.aspx).
+Microsoft Unified Communications Managed API 4.0 is designed for middle-tier applications, for which performance is one of the most important goals. To provide this performance and to be consistent with the previous releases (UCMA 2.0 and UCMA 3.0), UCMA 4.0 supports the **BeginXxx**/**EndXxx** pattern to implement asynchronous operations. The application programmer is expected to be familiar with this usage pattern. For more information, see [Asynchronous Programming Overview](http://msdn.microsoft.com/library/ms228963.aspx).
 
   - UCMA 4.0 supports the extensibility of the **Call** and **MediaProvider** classes. Those who provide these extensions are expected to provide an API that is consistent with UCMA 4.0. This includes implementing asynchronous operations using **BeginXxx**/**EndXxx** methods, and using queue mechanisms as defined in [Queue usage model](queue-usage-model.md). For more information about extending the **Call** and **MediaProvider** classes, see the [Extending the UCMA platform](extending-the-ucma-platform.md) group of topics.
 

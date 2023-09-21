@@ -2,7 +2,7 @@
 title: RecvSignalLevel element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RecvSignalLevel element
 ms:assetid: 0182575d-f199-ab97-92ce-8a59d4362276
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912799(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912799(v=office.15)
 ms:contentKeyID: 64126968
 ms.date: 02/16/2015
 mtps_version: v=office.15

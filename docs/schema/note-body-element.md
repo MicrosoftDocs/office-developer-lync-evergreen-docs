@@ -2,7 +2,7 @@
 title: note/body element
 TOCTitle: note/body element
 ms:assetid: c85fb20f-9edb-424c-9cee-fd5b9f4cffda
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454763(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454763(v=office.15)
 ms:contentKeyID: 57093650
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: contactCard/address/zipcode element
 TOCTitle: contactCard/address/zipcode element
 ms:assetid: 285e3331-9fa4-4179-8fdb-644da504ded2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454725(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454725(v=office.15)
 ms:contentKeyID: 57093424
 ms.date: 07/24/2014
 mtps_version: v=office.15

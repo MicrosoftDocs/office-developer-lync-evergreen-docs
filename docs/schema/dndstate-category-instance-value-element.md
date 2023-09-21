@@ -2,7 +2,7 @@
 title: dndState category instance value element
 TOCTitle: dndState category instance value element
 ms:assetid: 330cdd5b-ccc7-4324-86b3-96ad236db04b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454780(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454780(v=office.15)
 ms:contentKeyID: 57093666
 ms.date: 07/24/2014
 mtps_version: v=office.15

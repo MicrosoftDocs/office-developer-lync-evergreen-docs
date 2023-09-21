@@ -2,7 +2,7 @@
 title: Subscribing to presence
 TOCTitle: Subscribing to presence
 ms:assetid: 1ce5c2e2-d15c-46b7-8a21-c425223e8aef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465955(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465955(v=office.15)
 ms:contentKeyID: 57102446
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -49,7 +49,7 @@ Lync Server 2013 also places a limit on the subscription response body length, s
 
 ## UCMA solution for subscribing to remote presentities
 
-Most of the problems described above are addressed by the [RemotePresenceView](https://msdn.microsoft.com/en-us/library/hh381152\(v=office.15\)) class.
+Most of the problems described above are addressed by the [RemotePresenceView](https://msdn.microsoft.com/library/hh381152\(v=office.15\)) class.
 
   - Applications can use a consistent programming model in subscribing to presence, choosing among a pull model with a refresh interval (polling Lync Server 2013), a push model (persistent subscription to Lync Server 2013), or an autopilot model (the default).
     

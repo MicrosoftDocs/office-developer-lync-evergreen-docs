@@ -2,7 +2,7 @@
 title: ConferenceURI element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: ConferenceURI element
 ms:assetid: db7305b8-f27f-ad24-c1fa-3596bdd73375
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912692(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912692(v=office.15)
 ms:contentKeyID: 64126862
 ms.date: 02/16/2015
 mtps_version: v=office.15

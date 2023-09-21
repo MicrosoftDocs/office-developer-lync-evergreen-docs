@@ -2,7 +2,7 @@
 title: LSM command-line executable input and output example
 TOCTitle: LSM command-line executable input and output example
 ms:assetid: 7a7c63ad-4f64-46a1-9e2c-2dd51f261aeb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn802610(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn802610(v=office.15)
 ms:contentKeyID: 62952710
 ms.date: 02/16/2015
 mtps_version: v=office.15

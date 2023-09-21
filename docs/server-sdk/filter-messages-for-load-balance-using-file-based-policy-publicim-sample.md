@@ -2,7 +2,7 @@
 title: Filter messages for load balance using file-based policy (PublicIM sample)
 TOCTitle: Filter messages for load balance using file-based policy (PublicIM sample)
 ms:assetid: ab60b030-070c-4cd4-9848-39e280fc51fe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439098(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439098(v=office.15)
 ms:contentKeyID: 57096250
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -23,7 +23,7 @@ Learn about the Microsoft Lync Server 2013 SDK PublicIM sample application and h
 
 The PublicIM application that is distributed with the Lync Server 2013 SDK shows how to use a script-only SIP application to route incoming SIP messages from external networks to an internal Microsoft Lync Server 2013 computer.
 
-As a routing application, the strictRoute attribute must be set to false on the [requestFilter](https://msdn.microsoft.com/en-us/library/hh364675\(v=office.15\)) in the application manifest.
+As a routing application, the strictRoute attribute must be set to false on the [requestFilter](https://msdn.microsoft.com/library/hh364675\(v=office.15\)) in the application manifest.
 
 The following logic is implemented by the Microsoft SIP Processing Language (MSPL) script:
 
@@ -31,13 +31,13 @@ The following logic is implemented by the Microsoft SIP Processing Language (MSP
 
 2.  Selects a fully qualified domain name (FQDN) of a computer that is running Lync Server 2013. In this topic, the selection is based on a hash string of the SIP URI of the requester.
 
-3.  Forward the incoming request to the selected server by calling the [ProxyRequest](https://msdn.microsoft.com/en-us/library/hh364778\(v=office.15\)) function with a new SIP URI that is constructed by using the following format: "\<original request Uri\>;maddr=\<selected server address\>;transport=tls".
+3.  Forward the incoming request to the selected server by calling the [ProxyRequest](https://msdn.microsoft.com/library/hh364778\(v=office.15\)) function with a new SIP URI that is constructed by using the following format: "\<original request Uri\>;maddr=\<selected server address\>;transport=tls".
 
 4.  For other messages, forward the message as is, by calling ProxyRequest("") or ProxyResponse().
 
 Additional PublicIM features:
 
-  - Accesses the config.txt file through the declaration of the [\<file\>](https://msdn.microsoft.com/en-us/library/hh364639\(v=office.15\)) element in the application manifest.
+  - Accesses the config.txt file through the declaration of the [\<file\>](https://msdn.microsoft.com/library/hh364639\(v=office.15\)) element in the application manifest.
 
   - Parses the contained data by column names.
 

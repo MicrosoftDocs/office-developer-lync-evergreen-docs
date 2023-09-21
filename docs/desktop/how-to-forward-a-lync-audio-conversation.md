@@ -2,7 +2,7 @@
 title: 'How to: Forward a Lync audio conversation'
 TOCTitle: 'How to: Forward a Lync audio conversation'
 ms:assetid: 7c28e6c9-ad8a-4b33-b1a6-31794f52a746
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933092(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933092(v=office.15)
 ms:contentKeyID: 50877224
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,7 +39,7 @@ Additional resources</p></td>
 
 ## Call forwarding overview
 
-To forward an incoming audio conversation, you must obtain the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) on the conversation. You forward an audio conversation to either a **Contact** instance representing the person receiving the transferred call or a [ContactEndpoint](https://msdn.microsoft.com/en-us/library/jj276722\(v=office.15\)) representing a user’s phone. The conversation is forwarded by calling into [BeginForward](https://msdn.microsoft.com/en-us/library/jj274482\(v=office.15\)) on the [AVModality](https://msdn.microsoft.com/en-us/library/jj274580\(v=office.15\)) and pass the [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) or [ContactEndpoint](https://msdn.microsoft.com/en-us/library/jj276722\(v=office.15\)) as the first argument of the method.
+To forward an incoming audio conversation, you must obtain the [AVModality](https://msdn.microsoft.com/library/jj274580\(v=office.15\)) on the conversation. You forward an audio conversation to either a **Contact** instance representing the person receiving the transferred call or a [ContactEndpoint](https://msdn.microsoft.com/library/jj276722\(v=office.15\)) representing a user’s phone. The conversation is forwarded by calling into [BeginForward](https://msdn.microsoft.com/library/jj274482\(v=office.15\)) on the [AVModality](https://msdn.microsoft.com/library/jj274580\(v=office.15\)) and pass the [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) or [ContactEndpoint](https://msdn.microsoft.com/library/jj276722\(v=office.15\)) as the first argument of the method.
 
 The forwarding feature described in this topic does not create a set of call routing rules to be published on behalf of the local user. Instead, it implements client-side logic that responds to a previously routed call by forwarding it to another user.
 
@@ -71,7 +71,7 @@ The prerequisites for forwarding an audio call are as follows:
 <tbody>
 <tr class="odd">
 <td><p><a href="conversation-modalities.md">Conversation modalities</a></p></td>
-<td><p>Describes how the <a href="https://msdn.microsoft.com/en-us/library/jj274796(v=office.15)">Microsoft.Lync.Model.Conversation.Modality</a> class represents a mode of communication in a conversation.</p></td>
+<td><p>Describes how the <a href="https://msdn.microsoft.com/library/jj274796(v=office.15)">Microsoft.Lync.Model.Conversation.Modality</a> class represents a mode of communication in a conversation.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="conversation-participants.md">Conversation participants</a></p></td>
@@ -82,25 +82,25 @@ The prerequisites for forwarding an audio call are as follows:
 
 ## Forward an audio conversation
 
-The client call forwarding operation should be started as soon as an audio call invitation is received by the platform. The earliest opportunity to forward the call is the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event. To forward an audio conversation, you must obtain the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) instance to be forwarded from the event data argument.
+The client call forwarding operation should be started as soon as an audio call invitation is received by the platform. The earliest opportunity to forward the call is the [ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event. To forward an audio conversation, you must obtain the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) instance to be forwarded from the event data argument.
 
 ### To forward an audio conversation
 
-1.  Define an event callback method to handle the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event raised when an audio conversation is received.
+1.  Define an event callback method to handle the [ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event raised when an audio conversation is received.
 
-2.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
+2.  Get the [LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance and verify that the client is signed in to the server.
     
     For information about signing in to Microsoft Lync Server 2013, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-3.  Register for the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event on the [ConversationManager](https://msdn.microsoft.com/en-us/library/jj266018\(v=office.15\)) instance.
+3.  Register for the [ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event on the [ConversationManager](https://msdn.microsoft.com/library/jj266018\(v=office.15\)) instance.
 
 ## Handle conversation events
 
 ### To handle conversation events
 
-1.  Check the [State](https://msdn.microsoft.com/en-us/library/jj276637\(v=office.15\)) of the audio/video modality on the new conversation triggering the event. If the state is [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\)).**Notified**, you can forward the new conversation.
+1.  Check the [State](https://msdn.microsoft.com/library/jj276637\(v=office.15\)) of the audio/video modality on the new conversation triggering the event. If the state is [ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\)).**Notified**, you can forward the new conversation.
 
-2.  Check the availability of the [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\)).**Forward** on the audio/video modality of the new conversation by calling into [CanInvoke](https://msdn.microsoft.com/en-us/library/jj267958\(v=office.15\)) on the modality. If **true** is returned, you can forward the conversation.
+2.  Check the availability of the [ModalityAction](https://msdn.microsoft.com/library/jj266957\(v=office.15\)).**Forward** on the audio/video modality of the new conversation by calling into [CanInvoke](https://msdn.microsoft.com/library/jj267958\(v=office.15\)) on the modality. If **true** is returned, you can forward the conversation.
     
     <table>
     <colgroup>
@@ -113,8 +113,8 @@ The client call forwarding operation should be started as soon as an audio call 
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>If you are forwarding to one of the local user’s phones, get the appropriate <a href="https://msdn.microsoft.com/en-us/library/jj275506(v=office.15)">Phone</a> instance by calling into <a href="https://msdn.microsoft.com/en-us/library/jj266043(v=office.15)">GetPhone</a>. You read the <a href="https://msdn.microsoft.com/en-us/library/jj277017(v=office.15)">Endpoint</a> property to get a <a href="https://msdn.microsoft.com/en-us/library/jj276722(v=office.15)">ContactEndpoint</a> that is passed into <strong>BeginForward</strong>.</p>
-    <p>If you are forwarding to another user, get the appropriate <a href="https://msdn.microsoft.com/en-us/library/jj266463(v=office.15)">Contact</a> or <a href="https://msdn.microsoft.com/en-us/library/jj276722(v=office.15)">ContactEndpoint</a> instance. Call into <strong>Forward</strong> and pass the <strong>Contact</strong> instance obtained in the previous step.</p></td>
+    <td><p>If you are forwarding to one of the local user’s phones, get the appropriate <a href="https://msdn.microsoft.com/library/jj275506(v=office.15)">Phone</a> instance by calling into <a href="https://msdn.microsoft.com/library/jj266043(v=office.15)">GetPhone</a>. You read the <a href="https://msdn.microsoft.com/library/jj277017(v=office.15)">Endpoint</a> property to get a <a href="https://msdn.microsoft.com/library/jj276722(v=office.15)">ContactEndpoint</a> that is passed into <strong>BeginForward</strong>.</p>
+    <p>If you are forwarding to another user, get the appropriate <a href="https://msdn.microsoft.com/library/jj266463(v=office.15)">Contact</a> or <a href="https://msdn.microsoft.com/library/jj276722(v=office.15)">ContactEndpoint</a> instance. Call into <strong>Forward</strong> and pass the <strong>Contact</strong> instance obtained in the previous step.</p></td>
     </tr>
     </tbody>
     </table>
@@ -129,7 +129,7 @@ The client call forwarding operation should be started as soon as an audio call 
 
 ### ConversationAdded event
 
-The following example handles the [ConversationAdded](https://msdn.microsoft.com/en-us/library/jj266470\(v=office.15\)) event by forwarding any incoming audio conversation to a specified phone number.
+The following example handles the [ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event by forwarding any incoming audio conversation to a specified phone number.
 
 <table>
 <colgroup>

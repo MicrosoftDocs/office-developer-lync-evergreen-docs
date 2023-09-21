@@ -2,7 +2,7 @@
 title: 'How to: Create a Silverlight page that displays a Lync presence control'
 TOCTitle: 'How to: Create a Silverlight page that displays a Lync presence control'
 ms:assetid: fb4bde62-9358-4c6f-af44-b84fa929f006
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933234(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933234(v=office.15)
 ms:contentKeyID: 50877379
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ Watch the video: Add Presence to a WPF Application
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
 
 
 <table>
@@ -75,11 +75,11 @@ Security settings for Microsoft Lync 2013 SDK applications require that the host
 
 6.  In the **New Silverlight Application** dialog box, clear the **Host the Silverlight application in a new Web site** check box, and then click **OK**.
 
-7.  In Page.xaml, in the XAML pane, find the [PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control, and then edit the Source property to provide a valid value.
+7.  In Page.xaml, in the XAML pane, find the [PresenceIndicator](https://msdn.microsoft.com/library/hh345947\(v=office.15\)) control, and then edit the Source property to provide a valid value.
 
 8.  Build and run the application.
     
-    On the Web page, the PresenceIndicator control displays presence for the contact specified by the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property.
+    On the Web page, the PresenceIndicator control displays presence for the contact specified by the [Source](https://msdn.microsoft.com/library/hh363511\(v=office.15\)) property.
 
 ## Create a WPF application
 
@@ -99,7 +99,7 @@ To display presence in a WPF application, use the Lync WPF Application template 
 
 6.  Build and run the application.
     
-    In the active window, the PresenceIndicator control displays presence for the contact specified by the [Source](https://msdn.microsoft.com/en-us/library/hh363511\(v=office.15\)) property.
+    In the active window, the PresenceIndicator control displays presence for the contact specified by the [Source](https://msdn.microsoft.com/library/hh363511\(v=office.15\)) property.
 
 ## Code example: Silverlight presence display page
 

@@ -2,7 +2,7 @@
 title: ReflexiveIP element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: ReflexiveIP element (QualityEndPointType complexType)
 ms:assetid: 395fda96-19af-ef0b-1020-3d086ff9d03a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912797(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912797(v=office.15)
 ms:contentKeyID: 64126966
 ms.date: 02/16/2015
 mtps_version: v=office.15

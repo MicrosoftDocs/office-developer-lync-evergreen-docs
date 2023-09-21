@@ -2,7 +2,7 @@
 title: InviteType complexType (Lync SDN API Schema A)
 TOCTitle: InviteType complexType
 ms:assetid: a36e217b-af08-97a2-28e4-17fc290d096f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775148(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775148(v=office.15)
 ms:contentKeyID: 62626122
 ms.date: 07/24/2014
 mtps_version: v=office.15

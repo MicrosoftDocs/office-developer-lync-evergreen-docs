@@ -2,7 +2,7 @@
 title: Using Lync Server 2013 Logging Tool
 TOCTitle: Using Lync Server 2013 Logging Tool
 ms:assetid: 19906004-90ca-4287-bbe1-4c63983556f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466134(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466134(v=office.15)
 ms:contentKeyID: 57103441
 ms.date: 07/25/2014
 mtps_version: v=office.15

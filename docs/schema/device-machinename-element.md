@@ -2,7 +2,7 @@
 title: device/machineName element
 TOCTitle: device/machineName element
 ms:assetid: 42fc1333-13a0-4ea6-955c-6b57be9f69b0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454737(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454737(v=office.15)
 ms:contentKeyID: 57093591
 ms.date: 07/24/2014
 mtps_version: v=office.15

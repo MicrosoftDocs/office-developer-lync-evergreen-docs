@@ -2,7 +2,7 @@
 title: Overview of Lync SDN API 2.0
 TOCTitle: Overview of Lync SDN API 2.0
 ms:assetid: 9cc76cba-5bf0-46f5-9aa9-882cdd7b6cad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn387069(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn387069(v=office.15)
 ms:contentKeyID: 56685839
 ms.date: 07/24/2014
 mtps_version: v=office.15

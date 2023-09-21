@@ -2,7 +2,7 @@
 title: device/capabilities/video eement
 TOCTitle: device/capabilities/video eement
 ms:assetid: 41ca3cba-749d-4eeb-b7cc-71bdbed65e65
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454736(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454736(v=office.15)
 ms:contentKeyID: 57093587
 ms.date: 07/24/2014
 mtps_version: v=office.15

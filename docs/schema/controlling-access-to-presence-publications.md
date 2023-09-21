@@ -2,7 +2,7 @@
 title: Controlling access to presence publications
 TOCTitle: Controlling access to presence publications
 ms:assetid: 57f50085-572a-4cd5-9b74-7fbfd3e54b41
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454613(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454613(v=office.15)
 ms:contentKeyID: 57093107
 ms.date: 07/24/2014
 mtps_version: v=office.15

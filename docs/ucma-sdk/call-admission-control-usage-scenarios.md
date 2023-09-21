@@ -2,7 +2,7 @@
 title: Call admission control usage scenarios
 TOCTitle: Call admission control usage scenarios
 ms:assetid: fa499ce2-b28a-4b66-8e37-f8ce0fd8961e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466097(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466097(v=office.15)
 ms:contentKeyID: 57103270
 ms.date: 07/25/2014
 mtps_version: v=office.15

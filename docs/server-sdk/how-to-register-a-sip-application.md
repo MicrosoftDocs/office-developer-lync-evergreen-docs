@@ -2,7 +2,7 @@
 title: 'How to: Register a SIP application'
 TOCTitle: 'How to: Register a SIP application'
 ms:assetid: c6bb747a-1d68-4da4-8038-85ef68a2c320
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439078(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439078(v=office.15)
 ms:contentKeyID: 57096669
 ms.date: 07/24/2014
 mtps_version: v=office.15

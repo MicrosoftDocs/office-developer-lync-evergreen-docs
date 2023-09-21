@@ -2,7 +2,7 @@
 title: 'How to: Accept or decline a request to control a shared resource'
 TOCTitle: 'How to: Accept or decline a request to control a shared resource'
 ms:assetid: f59772bf-0fd6-481a-9cd8-f212f8381f29
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933256(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933256(v=office.15)
 ms:contentKeyID: 50877402
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -40,7 +40,7 @@ Additional resources</p></td>
 
 ## Prerequisites
 
-Before your application runs the logic in this topic, a resource sharing conversation must be active with one or more participants in addition to the local user. The local user participation state must be [ParticipationState](https://msdn.microsoft.com/en-us/library/jj267952\(v=office.15\))**.Sharing** and a local sharable resource must be shared in the conversation.
+Before your application runs the logic in this topic, a resource sharing conversation must be active with one or more participants in addition to the local user. The local user participation state must be [ParticipationState](https://msdn.microsoft.com/library/jj267952\(v=office.15\))**.Sharing** and a local sharable resource must be shared in the conversation.
 
   - [How to: Get a shareable resource and share it in a conversation](how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md)
 
@@ -53,15 +53,15 @@ A Lync user who is sharing a resource such as a desktop or program must be able 
 
 ## Register for control request events
 
-Before your application can accept or decline a resource control request, you must register an event callback method on the [ApplicationSharingModality.ControlRequestReceived](https://msdn.microsoft.com/en-us/library/jj277299\(v=office.15\)) and [ApplicationSharingModality.ControllerChanged](https://msdn.microsoft.com/en-us/library/jj293289\(v=office.15\)) events of the conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)). When the first event is raised, a conversation participant is requesting control of the locally shared resource. When the second event is raised, control of the resource has been given to the requesting participant.
+Before your application can accept or decline a resource control request, you must register an event callback method on the [ApplicationSharingModality.ControlRequestReceived](https://msdn.microsoft.com/library/jj277299\(v=office.15\)) and [ApplicationSharingModality.ControllerChanged](https://msdn.microsoft.com/library/jj293289\(v=office.15\)) events of the conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)). When the first event is raised, a conversation participant is requesting control of the locally shared resource. When the second event is raised, control of the resource has been given to the requesting participant.
 
 ### To register for control request events
 
-1.  Get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/en-us/library/jj276988\(v=office.15\)) object that encapsulates the current sharing conversation.
+1.  Get the [Microsoft.Lync.Model.Conversation.Conversation](https://msdn.microsoft.com/library/jj276988\(v=office.15\)) object that encapsulates the current sharing conversation.
 
-2.  Read the current state of the conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object by examining the [Modality.State](https://msdn.microsoft.com/en-us/library/jj276637\(v=office.15\)) property.
+2.  Read the current state of the conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) object by examining the [Modality.State](https://msdn.microsoft.com/library/jj276637\(v=office.15\)) property.
 
-3.  If the current state is [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Connected**, register for the [ApplicationSharingModality.ControlRequestReceived](https://msdn.microsoft.com/en-us/library/jj277299\(v=office.15\)) event.
+3.  If the current state is [ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Connected**, register for the [ApplicationSharingModality.ControlRequestReceived](https://msdn.microsoft.com/library/jj277299\(v=office.15\)) event.
     
     <table>
     <colgroup>
@@ -85,9 +85,9 @@ After the code in the previous example has enabled buttons in the UI that lets t
 
 ### To accept or decline a resource control request
 
-1.  Handle the [ApplicationSharingModality.ControlRequestReceived](https://msdn.microsoft.com/en-us/library/jj277299\(v=office.15\)) event.
+1.  Handle the [ApplicationSharingModality.ControlRequestReceived](https://msdn.microsoft.com/library/jj277299\(v=office.15\)) event.
 
-2.  Get the name of the requester by calling the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method on the [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object obtained by reading the value of the [ControlRequestReceivedEventArgs.Requester](https://msdn.microsoft.com/en-us/library/jj267980\(v=office.15\)) property.
+2.  Get the name of the requester by calling the [Contact.GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method on the [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object obtained by reading the value of the [ControlRequestReceivedEventArgs.Requester](https://msdn.microsoft.com/library/jj267980\(v=office.15\)) property.
 
 3.  Notify the user that control of the locally shared resource is requested, naming the requesting user by showing the name string obtained in the previous step.
 
@@ -97,7 +97,7 @@ After the code in the previous example has enabled buttons in the UI that lets t
 
 ## Application state on completion of how-to tasks
 
-When your application has responded to a request for control of a shared resource, if accepted, the resource is now controlled by the requester and the [ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\))**.RevokeSharingControl** action is available. If declined, the resource is not controlled and the [Microsoft.Lync.Model.Conversation.ModalityAction](https://msdn.microsoft.com/en-us/library/jj266957\(v=office.15\))**.GrantSharingControl** action is available.
+When your application has responded to a request for control of a shared resource, if accepted, the resource is now controlled by the requester and the [ModalityAction](https://msdn.microsoft.com/library/jj266957\(v=office.15\))**.RevokeSharingControl** action is available. If declined, the resource is not controlled and the [Microsoft.Lync.Model.Conversation.ModalityAction](https://msdn.microsoft.com/library/jj266957\(v=office.15\))**.GrantSharingControl** action is available.
 
 ## Code examples: Accept or decline a request to control a shared resource
 
@@ -105,7 +105,7 @@ The following examples show the code described in the previous sections.
 
 ### Code example
 
-The following example registers an event callback method on the [ApplicationSharingModality.ControlRequestReceived](https://msdn.microsoft.com/en-us/library/jj277299\(v=office.15\)) event and the [ApplicationSharingModality.ControllerChanged](https://msdn.microsoft.com/en-us/library/jj293289\(v=office.15\)) event when the state of the conversation application sharing modality changes to [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Connected**.
+The following example registers an event callback method on the [ApplicationSharingModality.ControlRequestReceived](https://msdn.microsoft.com/library/jj277299\(v=office.15\)) event and the [ApplicationSharingModality.ControllerChanged](https://msdn.microsoft.com/library/jj293289\(v=office.15\)) event when the state of the conversation application sharing modality changes to [ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Connected**.
 
 <table>
 <colgroup>
@@ -159,12 +159,12 @@ The following example registers an event callback method on the [ApplicationShar
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>You should also register an event callback method on the <a href="https://msdn.microsoft.com/en-us/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a> event. When this event is raised on the conversation or participant application sharing modality for the availability of the <a href="https://msdn.microsoft.com/en-us/library/jj266957(v=office.15)">ModalityAction</a><strong>.AcceptSharingControlRequest</strong> and <a href="https://msdn.microsoft.com/en-us/library/jj266957(v=office.15)">Microsoft.Lync.Model.Conversation.ModalityAction</a><strong>.DeclineSharingControlRequest</strong> actions, you should enable two button controls in the UI that let the user accept or decline a control request. For information about handling the <a href="https://msdn.microsoft.com/en-us/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a> event, see <a href="how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md">How to: Get a shareable resource and share it in a conversation</a>.</p></td>
+<td><p>You should also register an event callback method on the <a href="https://msdn.microsoft.com/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a> event. When this event is raised on the conversation or participant application sharing modality for the availability of the <a href="https://msdn.microsoft.com/library/jj266957(v=office.15)">ModalityAction</a><strong>.AcceptSharingControlRequest</strong> and <a href="https://msdn.microsoft.com/library/jj266957(v=office.15)">Microsoft.Lync.Model.Conversation.ModalityAction</a><strong>.DeclineSharingControlRequest</strong> actions, you should enable two button controls in the UI that let the user accept or decline a control request. For information about handling the <a href="https://msdn.microsoft.com/library/jj293249(v=office.15)">Modality.ActionAvailabilityChanged</a> event, see <a href="how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md">How to: Get a shareable resource and share it in a conversation</a>.</p></td>
 </tr>
 </tbody>
 </table>
 
-The following example handles the **ControlRequestReceived** event by updating the Form UI with the name of the participant who is requesting control. A [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object representing the requesting participant is cached in the class field **\_resourceControllingContact**. This **Contact** is used in the **Accept** button click event handler to get the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object owned by the requesting participant.
+The following example handles the **ControlRequestReceived** event by updating the Form UI with the name of the participant who is requesting control. A [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object representing the requesting participant is cached in the class field **\_resourceControllingContact**. This **Contact** is used in the **Accept** button click event handler to get the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) object owned by the requesting participant.
 
 ```csharp
         /// <summary>
@@ -269,7 +269,7 @@ The following example is invoked by the platform thread when the previous asynch
 
 ### Display the name of the current resource controller
 
-After the user has accepted or declined another conversation participant’s request to control the locally shared resource, your application should confirm the user’s response to the request by updating the application UI with the name of the new resource controller. This is performed by handling the [ApplicationSharingModality.ControllerChanged](https://msdn.microsoft.com/en-us/library/jj293289\(v=office.15\)) event. The event data parameter of the event callback method gives the name of the controller. Use this name property to update the value of a text control in your UI.
+After the user has accepted or declined another conversation participant’s request to control the locally shared resource, your application should confirm the user’s response to the request by updating the application UI with the name of the new resource controller. This is performed by handling the [ApplicationSharingModality.ControllerChanged](https://msdn.microsoft.com/library/jj293289\(v=office.15\)) event. The event data parameter of the event callback method gives the name of the controller. Use this name property to update the value of a text control in your UI.
 
 #### Code example
 

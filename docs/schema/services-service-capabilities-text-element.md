@@ -2,7 +2,7 @@
 title: services/service/capabilities/text element
 TOCTitle: services/service/capabilities/text element
 ms:assetid: d2b9ffa8-838a-4b1b-9710-0298bd0ecf3b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454808(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454808(v=office.15)
 ms:contentKeyID: 57093928
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: PresenceContainerMemberShip (QuickStart)
 TOCTitle: PresenceContainerMemberShip (QuickStart)
 ms:assetid: 294a3596-07a0-49c7-a416-cd327b7a107a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454829(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454829(v=office.15)
 ms:contentKeyID: 57103721
 ms.date: 07/25/2014
 mtps_version: v=office.15

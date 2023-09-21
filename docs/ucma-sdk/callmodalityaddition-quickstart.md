@@ -2,7 +2,7 @@
 title: CallModalityAddition (QuickStart)
 TOCTitle: CallModalityAddition (QuickStart)
 ms:assetid: 741ef143-e2d2-468d-8af1-0ec530ee933e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454814(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454814(v=office.15)
 ms:contentKeyID: 57103638
 ms.date: 07/25/2014
 mtps_version: v=office.15

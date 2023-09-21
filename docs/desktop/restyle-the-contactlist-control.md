@@ -2,7 +2,7 @@
 title: Restyle the ContactList control
 TOCTitle: Restyle the ContactList control
 ms:assetid: 335829ed-da14-43ec-b765-b27438cd2c57
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945542(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945542(v=office.15)
 ms:contentKeyID: 51541344
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ dev_langs:
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn how to restyle the [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control by changing property values to alter the appearance of the control.
+Learn how to restyle the [ContactList](https://msdn.microsoft.com/library/hh363781\(v=office.15\)) control by changing property values to alter the appearance of the control.
 
 
 
@@ -47,7 +47,7 @@ Use the following procedure to change the appearance of the control.
 
 2.  In the XAML pane, add the XAML text to create a ContactList control.
 
-3.  Add a style to set the [Background](https://msdn.microsoft.com/en-us/library/hh345162\(v=office.15\)) and [FontFamily](http://msdn2.microsoft.com/en-us/library/ms592513) properties on the control.
+3.  Add a style to set the [Background](https://msdn.microsoft.com/library/hh345162\(v=office.15\)) and [FontFamily](http://msdn2.microsoft.com/library/ms592513) properties on the control.
     
     ```xaml
     <Grid>

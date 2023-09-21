@@ -2,7 +2,7 @@
 title: Editing Lync Control visual templates
 TOCTitle: Editing Lync Control visual templates
 ms:assetid: a05042f0-7851-4b42-9b68-29be526774a2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945567(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945567(v=office.15)
 ms:contentKeyID: 51541381
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -37,9 +37,9 @@ Assigning a new visual template to a Microsoft Lync Control permits fine-grained
 
 To customize the visual template ("retemplate") of a control:
 
-1.  Define a [Style](http://msdn2.microsoft.com/en-us/library/ms600899) property targeting the control you will modify in XAML.
+1.  Define a [Style](http://msdn2.microsoft.com/library/ms600899) property targeting the control you will modify in XAML.
 
-2.  Set the [Template](http://msdn2.microsoft.com/en-us/library/ms592524) property on the style to a new [ControlTemplate](http://msdn2.microsoft.com/en-us/library/ms609827) instance that incorporates your design.
+2.  Set the [Template](http://msdn2.microsoft.com/library/ms592524) property on the style to a new [ControlTemplate](http://msdn2.microsoft.com/library/ms609827) instance that incorporates your design.
 
 3.  Apply your new Style to the control.
 

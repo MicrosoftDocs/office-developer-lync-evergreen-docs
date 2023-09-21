@@ -2,7 +2,7 @@
 title: Conversation window automation in Lync SDK
 TOCTitle: Conversation window automation
 ms:assetid: fdbbd783-9d3a-4120-8932-8d48f5c854ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933260(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933260(v=office.15)
 ms:contentKeyID: 50877407
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -60,7 +60,7 @@ A conversation window can be made context-aware at the time it is started. That 
 
 ## Conversation window automation objects
 
-The [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/en-us/library/jj278382\(v=office.15\)) namespace contains the five classes and three enumerations that are responsible for exposing the automation feature. The [Automation](https://msdn.microsoft.com/en-us/library/jj293816\(v=office.15\)) class is the entry point into the automation feature and provides the method that starts the conversation window and returns a reference to the new conversation window. The [ConversationWindow](https://msdn.microsoft.com/en-us/library/jj293606\(v=office.15\)) class represents a started conversation window. The enumerations and other classes of the namespace support the conversation modality options and docking feature in automation.
+The [Microsoft.Lync.Model.Extensibility](https://msdn.microsoft.com/library/jj278382\(v=office.15\)) namespace contains the five classes and three enumerations that are responsible for exposing the automation feature. The [Automation](https://msdn.microsoft.com/library/jj293816\(v=office.15\)) class is the entry point into the automation feature and provides the method that starts the conversation window and returns a reference to the new conversation window. The [ConversationWindow](https://msdn.microsoft.com/library/jj293606\(v=office.15\)) class represents a started conversation window. The enumerations and other classes of the namespace support the conversation modality options and docking feature in automation.
 
 ## See also
 

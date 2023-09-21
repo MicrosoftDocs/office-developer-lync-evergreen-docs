@@ -2,7 +2,7 @@
 title: Migrate applications to Lync Server 2013 SDK
 TOCTitle: Migrate applications to Lync Server 2013 SDK
 ms:assetid: 5e311480-1ab4-4a2a-88a8-c7f5015494e8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439061(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439061(v=office.15)
 ms:contentKeyID: 57096217
 ms.date: 07/24/2014
 mtps_version: v=office.15

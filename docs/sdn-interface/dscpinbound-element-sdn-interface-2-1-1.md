@@ -2,7 +2,7 @@
 title: DSCPInbound element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DSCPInbound element
 ms:assetid: 517a39d8-3a76-25d7-09f6-dd7108770148
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912717(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912717(v=office.15)
 ms:contentKeyID: 64126887
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Receiving presence category instances
 TOCTitle: Receiving presence category instances
 ms:assetid: 071c0511-743b-4665-920e-6d8371aa2097
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454640(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454640(v=office.15)
 ms:contentKeyID: 57093181
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: What you can do with Lync Controls
 TOCTitle: Lync Controls
 ms:assetid: e2300042-cb31-42ce-8a46-9cde858b1f62
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933236(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933236(v=office.15)
 ms:contentKeyID: 50877381
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -22,14 +22,14 @@ Watch the video: Localizing Lync Control Applications
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/8ce8874e-1f52-4954-94e8-6a190e7f27c9]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/8ce8874e-1f52-4954-94e8-6a190e7f27c9]
 
 <div class="caption">
 Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
 
 <table>
 <tbody>

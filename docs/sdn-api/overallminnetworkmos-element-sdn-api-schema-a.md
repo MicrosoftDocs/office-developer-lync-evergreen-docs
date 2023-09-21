@@ -2,7 +2,7 @@
 title: OverallMinNetworkMOS element  (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: OverallMinNetworkMOS element
 ms:assetid: 6c24d189-21ed-e88f-2840-a24105bc9c22
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439247(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439247(v=office.15)
 ms:contentKeyID: 57260983
 ms.date: 07/24/2014
 mtps_version: v=office.15

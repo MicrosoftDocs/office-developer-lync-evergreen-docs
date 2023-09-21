@@ -2,7 +2,7 @@
 title: Conversations (UCMA 4.0)
 TOCTitle: Conversations
 ms:assetid: cf285a40-d78a-4280-8760-4329e4ef7c86
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465985(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465985(v=office.15)
 ms:contentKeyID: 57102794
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-A conversation is a concept that represents communication between a local participant and one or more remote participants, which can be either real people or applications. A conversation can be thought of as two-dimensional, with the number of media modalities representing one dimension, and the number of participants representing the other. In Microsoft Unified Communications Managed API 4.0 a conversation is represented by the [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) class.
+A conversation is a concept that represents communication between a local participant and one or more remote participants, which can be either real people or applications. A conversation can be thought of as two-dimensional, with the number of media modalities representing one dimension, and the number of participants representing the other. In Microsoft Unified Communications Managed API 4.0 a conversation is represented by the [Conversation](https://msdn.microsoft.com/library/hh349224\(v=office.15\)) class.
 
 A UCMA 4.0 application can initiate a conversation in either of the following modalities:
 
@@ -31,7 +31,7 @@ The majority of conversations occur between two participants. To optimize such c
 
 ## MCU-type conversations
 
-A local endpoint associated with the conversation can have multiple calls with the same modality, provided that the value of the local endpoint’s [EndpointType](https://msdn.microsoft.com/en-us/library/hh380871\(v=office.15\)) property is **Conference**. Such a conversation is called an MCU (multi-point control unit)-type conversation. If the endpoint’s **EndpointType** property is any other value (**User**, **Application**, or **Gateway**), each media type present can be associated with only one call.
+A local endpoint associated with the conversation can have multiple calls with the same modality, provided that the value of the local endpoint’s [EndpointType](https://msdn.microsoft.com/library/hh380871\(v=office.15\)) property is **Conference**. Such a conversation is called an MCU (multi-point control unit)-type conversation. If the endpoint’s **EndpointType** property is any other value (**User**, **Application**, or **Gateway**), each media type present can be associated with only one call.
 
 An MCU type conversation is a variation of multiparty conversation except for one main difference; an MCU type conversation can have multiple established calls with the same modality. Typically, an application uses a MCU-type conversation when it wants to build an MCU application.
 

@@ -2,7 +2,7 @@
 title: Telephony call controls
 TOCTitle: Telephony call controls
 ms:assetid: 692373af-0f58-4dc9-8f60-da4557106ae5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465956(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465956(v=office.15)
 ms:contentKeyID: 57102447
 ms.date: 07/25/2014
 mtps_version: v=office.15

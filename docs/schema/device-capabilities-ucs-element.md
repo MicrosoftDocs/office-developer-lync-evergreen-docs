@@ -2,7 +2,7 @@
 title: device/capabilities/ucs element
 TOCTitle: device/capabilities/ucs element
 ms:assetid: dea078b7-3b12-4aa6-93c3-c2a86c1b5ba8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454738(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454738(v=office.15)
 ms:contentKeyID: 57093600
 ms.date: 07/24/2014
 mtps_version: v=office.15

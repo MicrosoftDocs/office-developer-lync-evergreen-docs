@@ -2,7 +2,7 @@
 title: routing/preamble/flags element
 TOCTitle: routing/preamble/flags element
 ms:assetid: c2b91db7-755b-408b-b624-899a77a00ba3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454809(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454809(v=office.15)
 ms:contentKeyID: 57093938
 ms.date: 07/24/2014
 mtps_version: v=office.15

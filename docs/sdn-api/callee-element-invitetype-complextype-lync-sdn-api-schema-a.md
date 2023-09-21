@@ -2,7 +2,7 @@
 title: Callee element  (Lync SDN API Schema A)
 TOCTitle: Callee element
 ms:assetid: 4bd40c88-e1c6-f859-8234-6143508d50aa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775107(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775107(v=office.15)
 ms:contentKeyID: 62626086
 ms.date: 07/24/2014
 mtps_version: v=office.15

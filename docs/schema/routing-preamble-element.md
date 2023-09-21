@@ -2,7 +2,7 @@
 title: routing/preamble element
 TOCTitle: routing/preamble element
 ms:assetid: a552026b-a059-48dc-9d4d-3fbecc66cc46
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454775(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454775(v=office.15)
 ms:contentKeyID: 57093663
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: ConnectionInfo element (Lync SDN API Schema A)
 TOCTitle: ConnectionInfo element
 ms:assetid: d60bd27c-678f-e500-7259-fee25b2d3118
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454994(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454994(v=office.15)
 ms:contentKeyID: 57260872
 ms.date: 07/24/2014
 mtps_version: v=office.15

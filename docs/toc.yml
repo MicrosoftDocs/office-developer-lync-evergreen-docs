@@ -500,11 +500,11 @@
       href: desktop/lync-2013-class-libraries-reference.md
       items:
       - name: Lync 2013 API class library
-        href: https://msdn.microsoft.com/en-us/library/office/jj933143.aspx
+        href: https://msdn.microsoft.com/library/office/jj933143.aspx
       - name: Lync 2013 Silverlight class libraries
-        href: https://msdn.microsoft.com/en-us/library/office/jj937240.aspx
+        href: https://msdn.microsoft.com/library/office/jj937240.aspx
       - name: Lync 2013 WPF class libraries
-        href: https://msdn.microsoft.com/en-us/library/office/jj933125.aspx
+        href: https://msdn.microsoft.com/library/office/jj933125.aspx
   - name: Lync SDN API 2.0
     href: sdn-api/lync-software-defined-networking-api-2-0.md
     items:
@@ -1371,7 +1371,7 @@
         - name: Log and display processed messages (SipSnoop sample)
           href: server-sdk/log-and-display-processed-messages-sipsnoop-sample.md
     - name: Lync Server 2013 API references
-      href: https://msdn.microsoft.com/en-us/library/office/dn454963.aspx
+      href: https://msdn.microsoft.com/library/office/dn454963.aspx
   - name: Lync Server 2013 Persistent Chat SDK documentation
     href: persistent-chat-sdk/lync-server-2013-persistent-chat-sdk-documentation.md
     items:
@@ -1457,7 +1457,7 @@
         - name: Search for chat rooms (SampleSearchRooms)
           href: persistent-chat-sdk/search-for-chat-rooms-samplesearchrooms.md
     - name: Lync Server 2013 Persistent Chat SDK class library reference
-      href: https://msdn.microsoft.com/en-us/library/office/dn451430.aspx
+      href: https://msdn.microsoft.com/library/office/dn451430.aspx
   - name: Unified Communications Enhanced Presence schemas for Lync Server 2013 documentation
     href: schema/unified-communications-enhanced-presence-schemas-for-lync-documentation.md
     items:
@@ -2564,9 +2564,9 @@
           - name: Visual IVR (sample)
             href: ucma-sdk/visual-ivr-sample.md
     - name: UCMA 4.0 API class library
-      href: https://msdn.microsoft.com/en-us/library/office/dn435962.aspx
+      href: https://msdn.microsoft.com/library/office/dn435962.aspx
     - name: VoiceXML API Class Library
-      href: https://msdn.microsoft.com/en-us/library/office/dn435961.aspx
+      href: https://msdn.microsoft.com/library/office/dn435961.aspx
   - name: Unified Communications Web API 2.0 (Skype)
     href: /skype-sdk/ucwa/unifiedcommunicationswebapi2_0  
   - name: Technical articles

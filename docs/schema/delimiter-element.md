@@ -2,7 +2,7 @@
 title: delimiter element
 TOCTitle: delimiter element
 ms:assetid: 0b8e3cf1-3e5f-4700-bd64-f8a413a4ab22
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439012(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439012(v=office.15)
 ms:contentKeyID: 57094055
 ms.date: 07/24/2014
 mtps_version: v=office.15

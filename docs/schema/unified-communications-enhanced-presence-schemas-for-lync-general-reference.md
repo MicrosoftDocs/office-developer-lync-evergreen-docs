@@ -2,7 +2,7 @@
 title: Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference
 TOCTitle: Unified Communications Enhanced Presence Schemas for Lync Server 2013 general reference
 ms:assetid: a62d7317-d558-45ca-b258-e343a5675dd0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454625(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454625(v=office.15)
 ms:contentKeyID: 57092894
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,5 +39,5 @@ The Unified Communications Enhanced Presence Schemas also includes the commonly 
 
 [\[MS-PRES\]: Presence Protocol Specification](http://go.microsoft.com/fwlink/?linkid=195873)
 
-[Lync](http://msdn.microsoft.com/en-us/library/gg455051.aspx)
+[Lync](http://msdn.microsoft.com/library/gg455051.aspx)
 

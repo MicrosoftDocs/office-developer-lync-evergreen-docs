@@ -2,7 +2,7 @@
 title: 'How to: Generate FAQ from chat room content'
 TOCTitle: 'How to: Generate FAQ from chat room content'
 ms:assetid: 7ab3447d-dc47-4bc6-afab-2cf6a93b277b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465893(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465893(v=office.15)
 ms:contentKeyID: 57101346
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -21,15 +21,15 @@ To construct a FAQ list this way, the chat messages must be retrieved from a cha
 
 Programmatically, the implementation of the Lync Server 2013 Persistent Chat API part of the application can proceed as shown in the following workflow:
 
-1.  Connect to the Microsoft Lync Server 2013 on a [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) or an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\))
+1.  Connect to the Microsoft Lync Server 2013 on a [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) or an [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\))
 
-2.  Connect to the Microsoft Lync Server 2013 Persistent Chat on a [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj267567\(v=office.15\)).
+2.  Connect to the Microsoft Lync Server 2013 Persistent Chat on a [PersistentChatEndpoint](https://msdn.microsoft.com/library/jj267567\(v=office.15\)).
 
-3.  Instantiate a [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) on the connected [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj267567\(v=office.15\)).
+3.  Instantiate a [ChatRoomSession](https://msdn.microsoft.com/library/jj265925\(v=office.15\)) on the connected [PersistentChatEndpoint](https://msdn.microsoft.com/library/jj267567\(v=office.15\)).
 
-4.  Establish the [ChatRoomSession](https://msdn.microsoft.com/en-us/library/jj265925\(v=office.15\)) by calling [BeginJoin(Uri, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj267599\(v=office.15\)) join the specified chat room.
+4.  Establish the [ChatRoomSession](https://msdn.microsoft.com/library/jj265925\(v=office.15\)) by calling [BeginJoin(Uri, AsyncCallback, Object)](https://msdn.microsoft.com/library/jj267599\(v=office.15\)) join the specified chat room.
 
-5.  Query chat history of the joined chat room by calling [BeginQueryChatHistory(ChatHistoryQueryOptions, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj267612\(v=office.15\)).
+5.  Query chat history of the joined chat room by calling [BeginQueryChatHistory(ChatHistoryQueryOptions, AsyncCallback, Object)](https://msdn.microsoft.com/library/jj267612\(v=office.15\)).
 
 6.  Parse the returned collection of **ChatHistoryResults** to retrieve chat messages.
 

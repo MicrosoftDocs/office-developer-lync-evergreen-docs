@@ -2,7 +2,7 @@
 title: 'How to: Show a bright border around a locally shared resource'
 TOCTitle: 'How to: Show a bright border around a locally shared resource'
 ms:assetid: d07626a9-aa8a-4331-8a60-17ec09d77020
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn391641(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn391641(v=office.15)
 ms:contentKeyID: 56293551
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -43,7 +43,7 @@ Additional resources</p></td>
 
 **Show the user what is being shared:** A critical part of the application sharing experience is having confidence that you are sharing the application which you intend to share. Inadvertently sharing an application that shows inappropriate content for a conversation can have privacy or security related consequences. The Lync 2013 API lets you show a user the window title of a shareable application.
 
-**Confirm the user’s choice:** Your application UI should let a user confirm that the application they have selected to share is the one they intended to share. Figure 1 shows a message box that shows the [SharingResource.Name](https://msdn.microsoft.com/en-us/library/jj274576\(v=office.15\)) property for the application that is selected by a user. After a user has confirmed their choice, application logic uses Lync 2013 API method calls to share the resource in the conversation.
+**Confirm the user’s choice:** Your application UI should let a user confirm that the application they have selected to share is the one they intended to share. Figure 1 shows a message box that shows the [SharingResource.Name](https://msdn.microsoft.com/library/jj274576\(v=office.15\)) property for the application that is selected by a user. After a user has confirmed their choice, application logic uses Lync 2013 API method calls to share the resource in the conversation.
 
 Figure 1. Confirm resource to share.
 
@@ -182,7 +182,7 @@ Showing a bright border around a screen involves defining a rectangle of the sam
 
 ## Showing a bright border around a shared application window
 
-To show a bright border around the selected application, you need to get the **Process** representing the shared application. The [SharingResource.Name](https://msdn.microsoft.com/en-us/library/jj274576\(v=office.15\)) property is the title of the main window of the selected process.
+To show a bright border around the selected application, you need to get the **Process** representing the shared application. The [SharingResource.Name](https://msdn.microsoft.com/library/jj274576\(v=office.15\)) property is the title of the main window of the selected process.
 
 ### To show a bright border around a shared application window
 

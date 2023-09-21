@@ -2,7 +2,7 @@
 title: What's new in Lync Server 2013 SDK
 TOCTitle: What's new
 ms:assetid: 69d58a35-2247-4dd0-ad3d-2d48d2e489ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439100(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439100(v=office.15)
 ms:contentKeyID: 57096264
 ms.date: 02/11/2016
 mtps_version: v=office.15
@@ -28,12 +28,12 @@ The following features are introduced in Microsoft Lync Server 2013 SDK.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh364711(v=office.15)">MSPL scripting reference (Lync Server 2013 SDK)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh364711(v=office.15)">MSPL scripting reference (Lync Server 2013 SDK)</a></p></td>
 <td><p><strong>while</strong> loops are supported for simple iterations.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh364711(v=office.15)">MSPL scripting reference (Lync Server 2013 SDK)</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/dn439184(v=office.15)">RetargetRequest</a> function used to forward an incoming request to a different user.</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh364711(v=office.15)">MSPL scripting reference (Lync Server 2013 SDK)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/dn439184(v=office.15)">RetargetRequest</a> function used to forward an incoming request to a different user.</p></td>
 </tr>
 </tbody>
 </table>

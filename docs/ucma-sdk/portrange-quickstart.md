@@ -2,7 +2,7 @@
 title: PortRange (QuickStart)
 TOCTitle: PortRange (QuickStart)
 ms:assetid: 50620ffb-d04f-474b-bba5-68965ee89026
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454815(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454815(v=office.15)
 ms:contentKeyID: 57103642
 ms.date: 07/25/2014
 mtps_version: v=office.15

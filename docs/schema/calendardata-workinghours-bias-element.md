@@ -2,7 +2,7 @@
 title: calendarData/WorkingHours/Bias element
 TOCTitle: calendarData/WorkingHours/Bias element
 ms:assetid: 9b2c6b52-140f-4c3e-85bc-c33a3a9d6cf4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454699(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454699(v=office.15)
 ms:contentKeyID: 57093386
 ms.date: 07/24/2014
 mtps_version: v=office.15

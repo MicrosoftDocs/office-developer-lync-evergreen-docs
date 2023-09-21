@@ -2,7 +2,7 @@
 title: device category instance value element
 TOCTitle: device category instance value element
 ms:assetid: 3a24bbc7-8a97-4a4f-877f-239c4768b984
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454740(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454740(v=office.15)
 ms:contentKeyID: 57093627
 ms.date: 07/24/2014
 mtps_version: v=office.15

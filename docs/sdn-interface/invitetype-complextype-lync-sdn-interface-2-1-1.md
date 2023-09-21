@@ -2,7 +2,7 @@
 title: InviteType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: InviteType complexType
 ms:assetid: 73bbe812-ebfc-c47a-0be3-01219aa0869d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912853(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912853(v=office.15)
 ms:contentKeyID: 64127022
 ms.date: 02/16/2015
 mtps_version: v=office.15

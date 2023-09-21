@@ -2,7 +2,7 @@
 title: Refreshing active subscriptions
 TOCTitle: Refreshing active subscriptions
 ms:assetid: 2e65a133-7865-49b3-ae73-5060daaa5c42
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454629(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454629(v=office.15)
 ms:contentKeyID: 57092873
 ms.date: 07/24/2014
 mtps_version: v=office.15

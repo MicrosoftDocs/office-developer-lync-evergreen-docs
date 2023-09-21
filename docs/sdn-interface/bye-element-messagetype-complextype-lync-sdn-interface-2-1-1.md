@@ -2,7 +2,7 @@
 title: Bye element (MessageType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Bye element
 ms:assetid: a29011b3-2b28-e663-5137-13d6307d312f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912683(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912683(v=office.15)
 ms:contentKeyID: 64126852
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Start element (MessageType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Start element
 ms:assetid: 388d59d7-06ea-5d3f-a079-e37434050cac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912823(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912823(v=office.15)
 ms:contentKeyID: 64126992
 ms.date: 02/16/2015
 mtps_version: v=office.15

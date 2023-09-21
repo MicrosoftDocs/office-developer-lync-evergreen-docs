@@ -2,7 +2,7 @@
 title: defaultContainer element
 TOCTitle: defaultContainer element
 ms:assetid: 38b94b8f-0076-4ac7-8a5b-c693013e366a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438984(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438984(v=office.15)
 ms:contentKeyID: 57094418
 ms.date: 07/24/2014
 mtps_version: v=office.15

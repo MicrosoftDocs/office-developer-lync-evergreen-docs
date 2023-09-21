@@ -2,7 +2,7 @@
 title: Properties that support restyling
 TOCTitle: Properties that support restyling
 ms:assetid: 78d6eb40-8872-4569-9632-84d0c9dfcadd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945548(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945548(v=office.15)
 ms:contentKeyID: 51541360
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -37,7 +37,7 @@ Additional resources</p></td>
 
 ### ContactList
 
-The following properties on [ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) support restyling the control.
+The following properties on [ContactList](https://msdn.microsoft.com/library/hh363781\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -52,27 +52,27 @@ The following properties on [ContactList](https://msdn.microsoft.com/en-us/libra
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345162(v=office.15)">Background</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh345162(v=office.15)">Background</a></p></td>
 <td><p>The background color is painted to the entire area, including buttons and contact items.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="http://msdn2.microsoft.com/en-us/library/ms592511">BorderBrush</a></p></td>
+<td><p><a href="http://msdn2.microsoft.com/library/ms592511">BorderBrush</a></p></td>
 <td><p>Placed around the entire control. Does not propagate to contact items or any other subcontrol.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="http://msdn2.microsoft.com/en-us/library/ms592512">BorderThickness</a></p></td>
+<td><p><a href="http://msdn2.microsoft.com/library/ms592512">BorderThickness</a></p></td>
 <td><p>Placed around the entire control. Does not propagate to contact items or any other subcontrol.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="http://msdn2.microsoft.com/en-us/library/ms592513">FontFamily</a></p></td>
+<td><p><a href="http://msdn2.microsoft.com/library/ms592513">FontFamily</a></p></td>
 <td><p>Applies to all visible fonts including filter buttons, headers, contact items, and contact cards. Does not apply to menu items and tooltips.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="http://msdn2.microsoft.com/en-us/library/ms592517">FontWeight</a></p></td>
+<td><p><a href="http://msdn2.microsoft.com/library/ms592517">FontWeight</a></p></td>
 <td><p>Applies to all visible fonts including filter buttons, headers, contact items, and contact cards. Does not apply to menu items and tooltips.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="http://msdn2.microsoft.com/en-us/library/ms592522">Padding</a></p></td>
+<td><p><a href="http://msdn2.microsoft.com/library/ms592522">Padding</a></p></td>
 <td><p>Applies to the distance between the border controlled by the BorderBrush and BorderThickness properties and the actual content of the ContactList control.</p></td>
 </tr>
 </tbody>
@@ -80,7 +80,7 @@ The following properties on [ContactList](https://msdn.microsoft.com/en-us/libra
 
 ### CustomContactList
 
-The following properties on [CustomContactList](https://msdn.microsoft.com/en-us/library/hh346321\(v=office.15\)) support restyling the control.
+The following properties on [CustomContactList](https://msdn.microsoft.com/library/hh346321\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -123,7 +123,7 @@ The following properties on [CustomContactList](https://msdn.microsoft.com/en-us
 
 ### StartInstantMessagingButton
 
-The following properties on [StartInstantMessagingButton](https://msdn.microsoft.com/en-us/library/hh379340\(v=office.15\)) support restyling the control.
+The following properties on [StartInstantMessagingButton](https://msdn.microsoft.com/library/hh379340\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -154,7 +154,7 @@ The following properties on [StartInstantMessagingButton](https://msdn.microsoft
 
 ### StartAudioCallButton
 
-The following properties on [StartAudioCallButton](https://msdn.microsoft.com/en-us/library/hh378744\(v=office.15\)) support restyling the control.
+The following properties on [StartAudioCallButton](https://msdn.microsoft.com/library/hh378744\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -185,7 +185,7 @@ The following properties on [StartAudioCallButton](https://msdn.microsoft.com/en
 
 ### ContactCard
 
-The following properties on [ContactCard](https://msdn.microsoft.com/en-us/library/hh379168\(v=office.15\)) support restyling the control.
+The following properties on [ContactCard](https://msdn.microsoft.com/library/hh379168\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -224,7 +224,7 @@ The following properties on [ContactCard](https://msdn.microsoft.com/en-us/libra
 
 ### ContactSearchInputBox
 
-The following properties on [ContactSearchInputBox](https://msdn.microsoft.com/en-us/library/hh379719\(v=office.15\)) support restyling the control.
+The following properties on [ContactSearchInputBox](https://msdn.microsoft.com/library/hh379719\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -267,7 +267,7 @@ The following properties on [ContactSearchInputBox](https://msdn.microsoft.com/e
 
 ### ContactSearchResultList
 
-The following properties on [ContactSearchResultList](https://msdn.microsoft.com/en-us/library/hh379201\(v=office.15\)) support restyling the control.
+The following properties on [ContactSearchResultList](https://msdn.microsoft.com/library/hh379201\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -310,7 +310,7 @@ The following properties on [ContactSearchResultList](https://msdn.microsoft.com
 
 ### MyNoteBox
 
-The following properties on [MyNoteBox](https://msdn.microsoft.com/en-us/library/hh346137\(v=office.15\)) support restyling the control.
+The following properties on [MyNoteBox](https://msdn.microsoft.com/library/hh346137\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -349,7 +349,7 @@ The following properties on [MyNoteBox](https://msdn.microsoft.com/en-us/library
 <td><p>Applies to the distance between the border controlled by the BorderBrush and BorderThickness properties and the actual content of the MyNoteBox control.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="http://msdn2.microsoft.com/en-us/library/ms592518">Foreground</a></p></td>
+<td><p><a href="http://msdn2.microsoft.com/library/ms592518">Foreground</a></p></td>
 <td><p>Applies to the text of the note, during editing or not, with a note already set or not.</p></td>
 </tr>
 </tbody>
@@ -357,7 +357,7 @@ The following properties on [MyNoteBox](https://msdn.microsoft.com/en-us/library
 
 ### MyPresenceChooser
 
-The following properties on [MyPresenceChooser](https://msdn.microsoft.com/en-us/library/hh379434\(v=office.15\)) support restyling the control.
+The following properties on [MyPresenceChooser](https://msdn.microsoft.com/library/hh379434\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>
@@ -400,11 +400,11 @@ The following properties on [MyPresenceChooser](https://msdn.microsoft.com/en-us
 <td><p>Applies to the text of the note, during editing or not, with a note set or not.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="http://msdn2.microsoft.com/en-us/library/ms592520">HorizontalContentAlignment</a></p></td>
+<td><p><a href="http://msdn2.microsoft.com/library/ms592520">HorizontalContentAlignment</a></p></td>
 <td><p>Applies to the position of the presence text within the MyPresenceChooser control.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="http://msdn2.microsoft.com/en-us/library/ms592525">VerticalContentAlignment</a></p></td>
+<td><p><a href="http://msdn2.microsoft.com/library/ms592525">VerticalContentAlignment</a></p></td>
 <td><p>Applies to the position of the presence text within the MyPresenceChooser control.</p></td>
 </tr>
 </tbody>
@@ -412,7 +412,7 @@ The following properties on [MyPresenceChooser](https://msdn.microsoft.com/en-us
 
 ### MyStatusArea
 
-The following properties on [MyStatusArea](https://msdn.microsoft.com/en-us/library/hh363503\(v=office.15\)) support restyling the control.
+The following properties on [MyStatusArea](https://msdn.microsoft.com/library/hh363503\(v=office.15\)) support restyling the control.
 
 <table>
 <colgroup>

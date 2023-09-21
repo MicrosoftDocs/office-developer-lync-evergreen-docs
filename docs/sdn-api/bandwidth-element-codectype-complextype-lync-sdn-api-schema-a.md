@@ -2,7 +2,7 @@
 title: Bandwidth element (Lync SDN API Schema A)
 TOCTitle: Bandwidth element
 ms:assetid: ad870978-98bb-481d-8e89-6fe512f95865
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775105(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775105(v=office.15)
 ms:contentKeyID: 62626080
 ms.date: 07/24/2014
 mtps_version: v=office.15

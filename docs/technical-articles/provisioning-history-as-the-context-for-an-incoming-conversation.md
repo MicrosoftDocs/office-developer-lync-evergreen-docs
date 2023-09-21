@@ -2,7 +2,7 @@
 title: Provisioning history as the context for an incoming conversation
 TOCTitle: Provisioning history as the context for an incoming conversation
 ms:assetid: 3e9a9835-745e-46d9-85f1-194477f7553f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775153(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775153(v=office.15)
 ms:contentKeyID: 62626127
 ms.date: 07/25/2014
 mtps_version: v=office.15

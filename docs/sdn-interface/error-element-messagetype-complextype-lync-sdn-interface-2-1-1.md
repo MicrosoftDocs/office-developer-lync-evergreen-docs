@@ -2,7 +2,7 @@
 title: Error element (MessageType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Error element
 ms:assetid: 4ba1af08-26f4-00e0-f3eb-3539fa279866
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912732(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912732(v=office.15)
 ms:contentKeyID: 64126902
 ms.date: 02/16/2015
 mtps_version: v=office.15

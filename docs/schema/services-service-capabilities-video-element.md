@@ -2,7 +2,7 @@
 title: services/service/capabilities/video element
 TOCTitle: services/service/capabilities/video element
 ms:assetid: 00a0bbac-66fb-4d59-8e92-f0c9b6d91ec9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454799(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454799(v=office.15)
 ms:contentKeyID: 57093863
 ms.date: 07/24/2014
 mtps_version: v=office.15

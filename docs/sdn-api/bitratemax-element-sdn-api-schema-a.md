@@ -2,7 +2,7 @@
 title: BitRateMax element (Lync SDN API Schema A)
 TOCTitle: BitRateMax element
 ms:assetid: 1d353424-fe4b-44f6-510d-4fb3c81ede05
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455003(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455003(v=office.15)
 ms:contentKeyID: 57260879
 ms.date: 07/24/2014
 mtps_version: v=office.15

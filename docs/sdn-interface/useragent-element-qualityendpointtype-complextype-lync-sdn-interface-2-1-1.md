@@ -2,7 +2,7 @@
 title: UserAgent element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: UserAgent element (QualityEndPointType complexType)
 ms:assetid: a9d43b0f-b637-8088-ea63-8ce5fb2c285b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912835(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912835(v=office.15)
 ms:contentKeyID: 64127003
 ms.date: 02/16/2015
 mtps_version: v=office.15

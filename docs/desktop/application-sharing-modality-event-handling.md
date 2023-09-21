@@ -2,7 +2,7 @@
 title: Application sharing modality event handling
 TOCTitle: Application sharing modality event handling
 ms:assetid: dbb279cf-2f89-4ad1-bc5a-b89841e64a8e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933210(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933210(v=office.15)
 ms:contentKeyID: 50877353
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -36,7 +36,7 @@ Additional resources</p></td>
 
 ## Event handling overview
 
-The events on the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) class inform you about changes to available resources, resource control requests, sharing participant state changes, and currently sharing participant.
+The events on the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) class inform you about changes to available resources, resource control requests, sharing participant state changes, and currently sharing participant.
 
 <table>
 <colgroup>
@@ -56,17 +56,17 @@ The events on the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingM
 
 ## Application sharing modality events
 
-Handling all application sharing events in your Lync 2013 API-enabled application is critical to the functionality of application sharing. All the events described in this topic are raised on the conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) object, not on an application sharing modality owned by an individual participant.
+Handling all application sharing events in your Lync 2013 API-enabled application is critical to the functionality of application sharing. All the events described in this topic are raised on the conversation [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) object, not on an application sharing modality owned by an individual participant.
 
 ### Application sharing modality state and property changed events
 
-The application sharing modality [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)) event lets you know when the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/en-us/library/jj275536\(v=office.15\)) in a conversation is connected and resource sharing can begin. You can monitor the progress of the modality connection operation by handling this event.
+The application sharing modality [Modality.ModalityStateChanged](https://msdn.microsoft.com/library/jj278080\(v=office.15\)) event lets you know when the [Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality](https://msdn.microsoft.com/library/jj275536\(v=office.15\)) in a conversation is connected and resource sharing can begin. You can monitor the progress of the modality connection operation by handling this event.
 
-To give a user an optimal sharing experience, you should not connect the modality until the local user has selected a resource to share. In the [Modality.ModalityStateChanged](https://msdn.microsoft.com/en-us/library/jj278080\(v=office.15\)), start sharing the selected resource if the new state of the modality is [ModalityState](https://msdn.microsoft.com/en-us/library/jj293265\(v=office.15\))**.Connected**. For information about sharing a resource, see [How to: Get a shareable resource and share it in a conversation](how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md).
+To give a user an optimal sharing experience, you should not connect the modality until the local user has selected a resource to share. In the [Modality.ModalityStateChanged](https://msdn.microsoft.com/library/jj278080\(v=office.15\)), start sharing the selected resource if the new state of the modality is [ModalityState](https://msdn.microsoft.com/library/jj293265\(v=office.15\))**.Connected**. For information about sharing a resource, see [How to: Get a shareable resource and share it in a conversation](how-to-get-a-shareable-resource-and-share-it-in-a-conversation.md).
 
 ### Shared resources collection changed
 
-Most of the locally shareable resources on a computer are processes that can be started and stopped by the user at any time. On the other hand, the desktop and attached displays are usually available when the conversation is connected. Use the [ApplicationSharingModality.LocalSharedResourcesChanged](https://msdn.microsoft.com/en-us/library/jj276856\(v=office.15\)) event to catch a notification of a new process or removed process to update the shareable resource list in your UI.
+Most of the locally shareable resources on a computer are processes that can be started and stopped by the user at any time. On the other hand, the desktop and attached displays are usually available when the conversation is connected. Use the [ApplicationSharingModality.LocalSharedResourcesChanged](https://msdn.microsoft.com/library/jj276856\(v=office.15\)) event to catch a notification of a new process or removed process to update the shareable resource list in your UI.
 
 ### Resource sharer changed
 
@@ -90,7 +90,7 @@ In a multi-party conversation that has more than one presenter, the current reso
 
 ### Resource controller changed
 
-Your application should always show the name of the current resource controller. Although you can read the [ApplicationSharingModality.Controller](https://msdn.microsoft.com/en-us/library/jj266020\(v=office.15\)) property to get the participant that is controlling the resource on the sharing stage, you can simply react to the [ApplicationSharingModality.ControllerChanged](https://msdn.microsoft.com/en-us/library/jj293289\(v=office.15\)) event to get notification when resource control is changed.
+Your application should always show the name of the current resource controller. Although you can read the [ApplicationSharingModality.Controller](https://msdn.microsoft.com/library/jj266020\(v=office.15\)) property to get the participant that is controlling the resource on the sharing stage, you can simply react to the [ApplicationSharingModality.ControllerChanged](https://msdn.microsoft.com/library/jj293289\(v=office.15\)) event to get notification when resource control is changed.
 
 ### Resource control request received
 

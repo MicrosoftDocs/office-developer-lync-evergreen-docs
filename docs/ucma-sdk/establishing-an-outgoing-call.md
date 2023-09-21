@@ -2,7 +2,7 @@
 title: Establishing an outgoing call
 TOCTitle: Establishing an outgoing call
 ms:assetid: 95252d82-78b0-4ae6-b678-126114b57684
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465988(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465988(v=office.15)
 ms:contentKeyID: 57102801
 ms.date: 07/25/2014
 mtps_version: v=office.15

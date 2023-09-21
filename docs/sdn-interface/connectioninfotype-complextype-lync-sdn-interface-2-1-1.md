@@ -2,7 +2,7 @@
 title: ConnectionInfoType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: ConnectionInfoType complexType
 ms:assetid: 7f123055-b02b-86d1-da11-1542a01a42a9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912847(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912847(v=office.15)
 ms:contentKeyID: 64127015
 ms.date: 02/16/2015
 mtps_version: v=office.15

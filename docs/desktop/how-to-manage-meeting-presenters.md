@@ -2,7 +2,7 @@
 title: 'How to: Manage meeting presenters'
 TOCTitle: 'How to: Manage meeting presenters'
 ms:assetid: 12482075-3fe5-456d-8dd6-ce36e212aa2a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937265(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937265(v=office.15)
 ms:contentKeyID: 50877084
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -52,13 +52,13 @@ To promote or demote a participant in a meeting, the local user must be a meetin
 
 ### To promote a participant to a presenter
 
-1.  Verify that the local user is a presenter in the meeting by reading the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property on the [Conversation.SelfParticipant](https://msdn.microsoft.com/en-us/library/jj266427\(v=office.15\)) property. If the value is **true**, promote the selected participant.
+1.  Verify that the local user is a presenter in the meeting by reading the [ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsPresenter** property on the [Conversation.SelfParticipant](https://msdn.microsoft.com/library/jj266427\(v=office.15\)) property. If the value is **true**, promote the selected participant.
 
-2.  Get the [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/en-us/library/jj267311\(v=office.15\)) object to be promoted and read the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property.
+2.  Get the [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/library/jj267311\(v=office.15\)) object to be promoted and read the [ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsPresenter** property.
     
     If the participant is an attendee, the participant can be promoted.
 
-3.  Promote the presenter by setting the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** to true by calling the [Participant.BeginSetProperty](https://msdn.microsoft.com/en-us/library/jj267268\(v=office.15\)) method.
+3.  Promote the presenter by setting the [ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsPresenter** to true by calling the [Participant.BeginSetProperty](https://msdn.microsoft.com/library/jj267268\(v=office.15\)) method.
     
     The following example verifies that the local participant is a presenter, gets a participant to be promoted, and then promotes the selected participant to a presenter.
     
@@ -100,13 +100,13 @@ To promote or demote a participant in a meeting, the local user must be a meetin
 
 ### To demote a presenter to attendee
 
-1.  Verify that the local user is a presenter in the meeting by reading the [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property on the [Conversation.SelfParticipant](https://msdn.microsoft.com/en-us/library/jj266427\(v=office.15\)) property. If the value is **true**, promote the selected participant.
+1.  Verify that the local user is a presenter in the meeting by reading the [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsPresenter** property on the [Conversation.SelfParticipant](https://msdn.microsoft.com/library/jj266427\(v=office.15\)) property. If the value is **true**, promote the selected participant.
 
-2.  Get the [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/en-us/library/jj267311\(v=office.15\)) object to be promoted and read the [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property.
+2.  Get the [Microsoft.Lync.Model.Conversation.Participant](https://msdn.microsoft.com/library/jj267311\(v=office.15\)) object to be promoted and read the [Microsoft.Lync.Model.Conversation.ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsPresenter** property.
     
     If the participant is a presenter, the participant can be demoted to an attendee.
 
-3.  Demote the presenter by setting the [ParticipantProperty](https://msdn.microsoft.com/en-us/library/jj277580\(v=office.15\))**.IsPresenter** property to **false** by calling the [Participant.BeginSetProperty](https://msdn.microsoft.com/en-us/library/jj267268\(v=office.15\)) method.
+3.  Demote the presenter by setting the [ParticipantProperty](https://msdn.microsoft.com/library/jj277580\(v=office.15\))**.IsPresenter** property to **false** by calling the [Participant.BeginSetProperty](https://msdn.microsoft.com/library/jj267268\(v=office.15\)) method.
     
     The following example verifies that the local participant is a presenter, gets a participant to be promoted, and then promotes the selected participant to presenter.
     

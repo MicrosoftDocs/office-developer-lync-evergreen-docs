@@ -2,7 +2,7 @@
 title: Contact Center (sample)
 TOCTitle: Contact Center (sample)
 ms:assetid: 18bab0a0-6d24-4168-a75f-e404f7f8a970
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454818(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454818(v=office.15)
 ms:contentKeyID: 57103658
 ms.date: 07/25/2014
 mtps_version: v=office.15

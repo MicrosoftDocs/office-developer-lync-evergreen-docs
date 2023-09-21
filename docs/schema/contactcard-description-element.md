@@ -2,7 +2,7 @@
 title: contactCard/description element
 TOCTitle: contactCard/description element
 ms:assetid: b7171a08-0c72-4899-b8ed-523340640614
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454713(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454713(v=office.15)
 ms:contentKeyID: 57093400
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: services/service/capabilities/calendar element
 TOCTitle: services/service/capabilities/calendar element
 ms:assetid: 978169b8-405e-417f-9301-8b7b23437643
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454794(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454794(v=office.15)
 ms:contentKeyID: 57093775
 ms.date: 07/24/2014
 mtps_version: v=office.15

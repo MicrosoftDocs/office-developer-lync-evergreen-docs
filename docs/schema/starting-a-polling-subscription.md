@@ -2,7 +2,7 @@
 title: Starting a Polling Subscription
 TOCTitle: Starting a Polling Subscription
 ms:assetid: b0d6c4dd-9eda-4a38-a9b0-c0c76818a596
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454657(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454657(v=office.15)
 ms:contentKeyID: 57092919
 ms.date: 07/24/2014
 mtps_version: v=office.15

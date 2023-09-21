@@ -2,7 +2,7 @@
 title: Start element (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: Start element
 ms:assetid: de4d5f36-c607-a9af-694f-22e043e47b46
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775139(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775139(v=office.15)
 ms:contentKeyID: 62626113
 ms.date: 07/24/2014
 mtps_version: v=office.15

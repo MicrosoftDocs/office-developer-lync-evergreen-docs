@@ -2,7 +2,7 @@
 title: Enhanced collaboration features in Lync SDK
 TOCTitle: Enhanced collaboration features
 ms:assetid: 639b64a2-edb4-47dd-b3d1-dc3cd2397e53
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933067(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933067(v=office.15)
 ms:contentKeyID: 50877197
 ms.date: 07/24/2014
 mtps_version: v=office.15

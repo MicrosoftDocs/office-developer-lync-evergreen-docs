@@ -2,7 +2,7 @@
 title: calendarData/WorkingHours/EndTimeInMinutes element
 TOCTitle: calendarData/WorkingHours/EndTimeInMinutes element
 ms:assetid: 80ed699a-e983-4048-b6d2-1bffb4637a8e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454704(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454704(v=office.15)
 ms:contentKeyID: 57093391
 ms.date: 07/24/2014
 mtps_version: v=office.15

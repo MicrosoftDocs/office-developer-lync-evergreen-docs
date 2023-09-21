@@ -2,7 +2,7 @@
 title: note category instance value element
 TOCTitle: note category instance value element
 ms:assetid: 98f55ec4-2297-4f26-adf5-5b2a5e504c43
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454761(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454761(v=office.15)
 ms:contentKeyID: 57093648
 ms.date: 07/24/2014
 mtps_version: v=office.15

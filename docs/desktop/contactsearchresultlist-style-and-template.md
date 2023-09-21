@@ -2,7 +2,7 @@
 title: ContactSearchResultList style and template
 TOCTitle: ContactSearchResultList style and template
 ms:assetid: bbb5a6e8-a3b6-4f14-96a3-d336d876d40b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933177(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933177(v=office.15)
 ms:contentKeyID: 50877317
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the style and template for the [ContactSearchResultList](https://msdn.microsoft.com/en-us/library/hh379201\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the style and template for the [ContactSearchResultList](https://msdn.microsoft.com/library/hh379201\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -43,12 +43,12 @@ The following table lists the named parts for the ContactSearchResultList contro
 <tbody>
 <tr class="odd">
 <td><p>ScrollViewer</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.frameworkelement.aspx">FrameworkElement</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.frameworkelement.aspx">FrameworkElement</a></p></td>
 <td><p>Represents a scrollable area.</p></td>
 </tr>
 <tr class="even">
 <td><p>TrySkillSearchButton</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.primitives.buttonbase.aspx">ButtonBase</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.primitives.buttonbase.aspx">ButtonBase</a></p></td>
 <td><p>A button that launches a search for a skill or area of expertise.</p></td>
 </tr>
 </tbody>

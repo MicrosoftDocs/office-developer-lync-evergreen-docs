@@ -2,7 +2,7 @@
 title: Protocol element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Protocol element (QualityPropertiesType complexType)
 ms:assetid: 9c6a9bf1-19d3-67dd-38f1-903dd055ce1a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912788(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912788(v=office.15)
 ms:contentKeyID: 64126957
 ms.date: 02/16/2015
 mtps_version: v=office.15

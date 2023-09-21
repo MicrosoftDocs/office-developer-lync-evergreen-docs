@@ -2,7 +2,7 @@
 title: LRSInvite element (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: LRSInvite element
 ms:assetid: ee22b77d-02e2-70a6-3274-37ddc347067a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439217(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439217(v=office.15)
 ms:contentKeyID: 57260953
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: SubscribePresence (QuickStart)
 TOCTitle: SubscribePresence (QuickStart)
 ms:assetid: 0d48b640-c58c-442a-9e13-2ff1d9dc5397
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454835(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454835(v=office.15)
 ms:contentKeyID: 57103769
 ms.date: 07/25/2014
 mtps_version: v=office.15

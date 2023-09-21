@@ -2,7 +2,7 @@
 title: High CPU usage and .NET thread pool
 TOCTitle: High CPU usage and .NET thread pool
 ms:assetid: 69540919-1351-4568-912e-ab535a93d9b1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466094(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466094(v=office.15)
 ms:contentKeyID: 57103190
 ms.date: 07/25/2014
 mtps_version: v=office.15

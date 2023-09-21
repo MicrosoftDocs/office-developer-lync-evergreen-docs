@@ -2,7 +2,7 @@
 title: 'Core concepts: Content sharing in Lync SDK'
 TOCTitle: Content sharing
 ms:assetid: a4fdaacb-8964-453a-bd95-75c6546c9af9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933132(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933132(v=office.15)
 ms:contentKeyID: 50877264
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -34,7 +34,7 @@ Additional resources</p></td>
 
 ## Meeting content sharing in Lync 2013
 
-The first topic in this section defines the concept of meeting content sharing in Lync 2013 and introduces the Lync 2013 API programmable objects that you use to implement meeting content sharing. The second topic takes a detailed look at the implementation of the [Microsoft.Lync.Model.Conversation.Modality](https://msdn.microsoft.com/en-us/library/jj274796\(v=office.15\)) class that exposes the events, methods, and properties of the meeting content sharing modality in a conversation.
+The first topic in this section defines the concept of meeting content sharing in Lync 2013 and introduces the Lync 2013 API programmable objects that you use to implement meeting content sharing. The second topic takes a detailed look at the implementation of the [Microsoft.Lync.Model.Conversation.Modality](https://msdn.microsoft.com/library/jj274796\(v=office.15\)) class that exposes the events, methods, and properties of the meeting content sharing modality in a conversation.
 
 ## In this section
 

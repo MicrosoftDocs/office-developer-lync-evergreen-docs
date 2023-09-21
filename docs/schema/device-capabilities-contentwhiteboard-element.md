@@ -2,7 +2,7 @@
 title: device/capabilities/contentWhiteboard element
 TOCTitle: device/capabilities/contentWhiteboard element
 ms:assetid: 0c4fb7fc-6731-452e-8b74-1cb31a549eb3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454751(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454751(v=office.15)
 ms:contentKeyID: 57093638
 ms.date: 07/24/2014
 mtps_version: v=office.15

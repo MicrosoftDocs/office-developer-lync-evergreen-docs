@@ -2,7 +2,7 @@
 title: BitRateMax element (Lync SDN Interface 2.1.1)
 TOCTitle: BitRateMax element
 ms:assetid: 92cc02f1-7c23-81ee-7e0a-1736b026a424
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912672(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912672(v=office.15)
 ms:contentKeyID: 64126841
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Workgroup container
 TOCTitle: Workgroup container
 ms:assetid: 71bfb064-9bda-4785-9dc8-cd0ee8484835
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454668(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454668(v=office.15)
 ms:contentKeyID: 57093134
 ms.date: 07/24/2014
 mtps_version: v=office.15

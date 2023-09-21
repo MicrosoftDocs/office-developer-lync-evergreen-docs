@@ -2,7 +2,7 @@
 title: CPUInsufficientEventRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: CPUInsufficientEventRatio element
 ms:assetid: d788bbd1-7948-723a-df7f-af767bde2e7b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912700(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912700(v=office.15)
 ms:contentKeyID: 64126870
 ms.date: 02/16/2015
 mtps_version: v=office.15

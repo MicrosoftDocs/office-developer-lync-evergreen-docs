@@ -2,7 +2,7 @@
 title: 'Beyond the basics: Lync contact lists'
 TOCTitle: Lync contact lists
 ms:assetid: 93390349-8874-4fce-8fdb-881435c35b77
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933117(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933117(v=office.15)
 ms:contentKeyID: 50877251
 ms.date: 07/24/2014
 mtps_version: v=office.15

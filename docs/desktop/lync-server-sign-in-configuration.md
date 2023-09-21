@@ -2,7 +2,7 @@
 title: Lync Server sign-in configuration
 TOCTitle: Lync Server sign-in configuration
 ms:assetid: baaf34f3-056e-4bff-b6fe-bdd325b083b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933176(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933176(v=office.15)
 ms:contentKeyID: 50877315
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -75,9 +75,9 @@ The Lync 2013 API does not expose an event to be raised when sign-in configurati
 
 Lync 2013 caches the SIP address, user name, and password of every user who successfully signs in to Lync 2013 on a local computer. This allows the program to sign the previous user in to Lync again without requiring the user to enter their credentials. Lync 2013 stores credentials for multiple users. Individual users can select to make Lync 2013 clear the credential cache of their credentials by clicking the **Delete my sign-in info** link on the main Lync 2013 window before they sign in.
 
-The Lync 2013 API exposes a method on the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/en-us/library/jj266969\(v=office.15\)) class that removes the cached credentials of the user specified by the SIP address parameter. When the credentials are removed, the user must supply credentials to sign in again.
+The Lync 2013 API exposes a method on the [Microsoft.Lync.Model.SignInConfiguration](https://msdn.microsoft.com/library/jj266969\(v=office.15\)) class that removes the cached credentials of the user specified by the SIP address parameter. When the credentials are removed, the user must supply credentials to sign in again.
 
-The following example checks to see whether the client is signed out, removes the ″sip:″ substring from a SIP address obtained from a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object, and then calls the [SignInConfiguration.ForgetMe](https://msdn.microsoft.com/en-us/library/dn378085\(v=office.15\)) method.
+The following example checks to see whether the client is signed out, removes the ″sip:″ substring from a SIP address obtained from a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object, and then calls the [SignInConfiguration.ForgetMe](https://msdn.microsoft.com/library/dn378085\(v=office.15\)) method.
 
 ```csharp
         /// <summary>

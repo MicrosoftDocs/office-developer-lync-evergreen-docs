@@ -2,7 +2,7 @@
 title: rccOptions/forwarding element
 TOCTitle: rccOptions/forwarding element
 ms:assetid: 86b77dc3-f0c2-49a9-84cb-37213bc42ca8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454787(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454787(v=office.15)
 ms:contentKeyID: 57093676
 ms.date: 07/24/2014
 mtps_version: v=office.15

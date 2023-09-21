@@ -2,7 +2,7 @@
 title: Bandwidth management
 TOCTitle: Bandwidth management
 ms:assetid: 38ebe3a5-afab-4877-9fdc-ce36e915d19f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465930(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465930(v=office.15)
 ms:contentKeyID: 57102424
 ms.date: 07/25/2014
 mtps_version: v=office.15

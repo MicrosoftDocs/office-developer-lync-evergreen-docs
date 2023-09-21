@@ -2,7 +2,7 @@
 title: SpeakerGlitchRate element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: SpeakerGlitchRate element
 ms:assetid: b5d28f28-2dbb-b3a6-16ac-89aba9fd322f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912821(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912821(v=office.15)
 ms:contentKeyID: 64126990
 ms.date: 02/16/2015
 mtps_version: v=office.15

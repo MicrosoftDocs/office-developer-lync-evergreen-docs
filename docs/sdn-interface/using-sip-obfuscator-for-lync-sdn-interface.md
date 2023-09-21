@@ -2,7 +2,7 @@
 title: Using SIP Obfuscator for Lync SDN Interface
 TOCTitle: Using SIP Obfuscator for Lync SDN Interface
 ms:assetid: d71f5c20-627e-43ed-8127-53e0d1c193ad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785221(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785221(v=office.15)
 ms:contentKeyID: 62952705
 ms.date: 02/16/2015
 mtps_version: v=office.15

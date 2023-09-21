@@ -2,7 +2,7 @@
 title: WifiDriverVersion element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: WifiDriverVersion element
 ms:assetid: ef2eba20-a40f-bcee-3f60-8d5e31771ebe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912843(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912843(v=office.15)
 ms:contentKeyID: 64127011
 ms.date: 02/16/2015
 mtps_version: v=office.15

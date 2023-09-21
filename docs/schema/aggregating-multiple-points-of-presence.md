@@ -2,7 +2,7 @@
 title: Aggregating multiple points of presence
 TOCTitle: Aggregating multiple points of presence
 ms:assetid: 59a45fa5-7377-42b7-8ebe-e046371f7b53
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454621(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454621(v=office.15)
 ms:contentKeyID: 57093180
 ms.date: 07/24/2014
 mtps_version: v=office.15

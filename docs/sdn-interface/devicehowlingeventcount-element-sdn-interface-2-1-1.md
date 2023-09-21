@@ -2,7 +2,7 @@
 title: DeviceHowlingEventCount element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DeviceHowlingEventCount element
 ms:assetid: 38ca2938-fcd7-7008-c89f-42cf4b6a9e78
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912712(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912712(v=office.15)
 ms:contentKeyID: 64126882
 ms.date: 02/16/2015
 mtps_version: v=office.15

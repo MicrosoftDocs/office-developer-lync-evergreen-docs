@@ -2,7 +2,7 @@
 title: Registering custom category names
 TOCTitle: Registering custom category names
 ms:assetid: a4e1b8f2-fda6-409a-b847-ac6ede5a81a9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454641(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454641(v=office.15)
 ms:contentKeyID: 57093177
 ms.date: 07/24/2014
 mtps_version: v=office.15

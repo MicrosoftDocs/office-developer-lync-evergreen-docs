@@ -2,7 +2,7 @@
 title: otherOptions/Permissions/imAutoArchiving element
 TOCTitle: otherOptions/Permissions/imAutoArchiving element
 ms:assetid: 1a8834a5-13e2-44c4-a346-1428191c7a2d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454788(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454788(v=office.15)
 ms:contentKeyID: 57093675
 ms.date: 07/24/2014
 mtps_version: v=office.15

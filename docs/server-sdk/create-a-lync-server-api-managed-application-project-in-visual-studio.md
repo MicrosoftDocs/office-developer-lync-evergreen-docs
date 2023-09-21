@@ -2,7 +2,7 @@
 title: Create a Lync Server API managed application project in Visual Studio
 TOCTitle: Create a Lync Server API managed application project in Visual Studio
 ms:assetid: 6d2473d1-e6fb-44f3-a2da-352ecba697ec
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439062(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439062(v=office.15)
 ms:contentKeyID: 57096219
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -19,7 +19,7 @@ To create a Microsoft Lync Server 2013 SIP Application API application, write an
 
   - Write a Lync Server 2013 SIP Application API application manifest that specifies the identity of the application and contains a MSPL script to process designated SIP messages. For more information, see [How to: Create an application manifest](how-to-create-an-application-manifest.md).
 
-  - Create a Visual Studio project for a managed Lync Server 2013 SIP Application API application, if the message processing is delegated to the managed code component by using the [Microsoft.Rtc.Sip](https://msdn.microsoft.com/en-us/library/jj266253\(v=office.15\)) namespace.
+  - Create a Visual Studio project for a managed Lync Server 2013 SIP Application API application, if the message processing is delegated to the managed code component by using the [Microsoft.Rtc.Sip](https://msdn.microsoft.com/library/jj266253\(v=office.15\)) namespace.
 
 ### To create a Visual Studio project for a managed Lync Server SIP application
 
@@ -27,7 +27,7 @@ To create a Microsoft Lync Server 2013 SIP Application API application, write an
 
 2.  In the **New Project** dialog box, specify the project name, and then choose **OK**.
 
-3.  In **Solution Explorer**, add references to the [Microsoft.Rtc.Sip](https://msdn.microsoft.com/en-us/library/jj266253\(v=office.15\)) namespace by doing the following:
+3.  In **Solution Explorer**, add references to the [Microsoft.Rtc.Sip](https://msdn.microsoft.com/library/jj266253\(v=office.15\)) namespace by doing the following:
     
     1.  Right-click **References** under the newly created project.
     

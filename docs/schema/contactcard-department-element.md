@@ -2,7 +2,7 @@
 title: contactCard/department element
 TOCTitle: contactCard/department element
 ms:assetid: cd2cd4c8-a269-4c9a-9a54-edde32b7c00a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454717(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454717(v=office.15)
 ms:contentKeyID: 57093404
 ms.date: 07/24/2014
 mtps_version: v=office.15

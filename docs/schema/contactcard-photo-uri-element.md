@@ -2,7 +2,7 @@
 title: contactCard/photo/uri element
 TOCTitle: contactCard/photo/uri element
 ms:assetid: 2dd742be-8c2d-474d-a7e8-aa34aec17c73
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454739(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454739(v=office.15)
 ms:contentKeyID: 57093622
 ms.date: 07/24/2014
 mtps_version: v=office.15

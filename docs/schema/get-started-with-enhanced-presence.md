@@ -2,7 +2,7 @@
 title: Get started with Enhanced Presence
 TOCTitle: Get started
 ms:assetid: 65a43945-0be1-4e6e-ade2-e14957dd0ff0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454615(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454615(v=office.15)
 ms:contentKeyID: 57092864
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -57,5 +57,5 @@ In a Lync Server 2013 deployment, the enhanced presence schemas are exposed to t
 
 [\[MS-PRES\]: Presence Protocol Specification](http://go.microsoft.com/fwlink/?linkid=195873)
 
-[Video: Introduction to the Enhanced Presence Schemas](http://www.microsoft.com/resources/msdn/en-us/office/media/video/video.html?cid=ldc%26from=mscomldc%26videoid=bda5af63-bcf5-4fa7-8d68-fa936da0c2c9)
+[Video: Introduction to the Enhanced Presence Schemas](http://www.microsoft.com/resources/msdn/office/media/video/video.html?cid=ldc%26from=mscomldc%26videoid=bda5af63-bcf5-4fa7-8d68-fa936da0c2c9)
 

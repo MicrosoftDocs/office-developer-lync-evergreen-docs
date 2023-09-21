@@ -2,7 +2,7 @@
 title: QualityEndPointType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: QualityEndPointType complexType
 ms:assetid: 4f8917cd-a2d4-ccf6-ea0e-1806a21f20b2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912857(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912857(v=office.15)
 ms:contentKeyID: 64127026
 ms.date: 02/16/2015
 mtps_version: v=office.15

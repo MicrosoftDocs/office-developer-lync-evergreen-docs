@@ -2,7 +2,7 @@
 title: Inside element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Inside element
 ms:assetid: a583c07b-f4d2-4d33-ac85-58f6a06422b9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912746(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912746(v=office.15)
 ms:contentKeyID: 64126916
 ms.date: 02/16/2015
 mtps_version: v=office.15

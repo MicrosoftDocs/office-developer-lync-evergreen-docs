@@ -2,7 +2,7 @@
 title: otherOptions/currentPrivacyMode element
 TOCTitle: otherOptions/currentPrivacyMode element
 ms:assetid: e5834cdb-dd95-40dd-81fc-5ba57266fcc5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454771(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454771(v=office.15)
 ms:contentKeyID: 57093658
 ms.date: 07/24/2014
 mtps_version: v=office.15

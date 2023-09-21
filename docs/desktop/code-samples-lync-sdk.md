@@ -2,7 +2,7 @@
 title: 'Code samples: Lync SDK'
 TOCTitle: Code samples
 ms:assetid: 991281a6-b3c0-4a89-bdb1-6f37b8863268
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933140(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933140(v=office.15)
 ms:contentKeyID: 50877274
 ms.date: 02/11/2016
 mtps_version: v=office.15
@@ -54,11 +54,11 @@ When you install Microsoft Lync 2013 SDK, you get a set of quick-start sample ap
 </tr>
 <tr class="even">
 <td><p><a href="lync-contact-samples.md">Lync contact samples</a></p></td>
-<td><p>The quick-start contact samples show how to interact with Lync contacts by using the objects of the Lync 2013 API and controls from the <a href="https://msdn.microsoft.com/en-us/library/hh346685(v=office.15)">Microsoft.Lync.Controls</a> namespace.</p></td>
+<td><p>The quick-start contact samples show how to interact with Lync contacts by using the objects of the Lync 2013 API and controls from the <a href="https://msdn.microsoft.com/library/hh346685(v=office.15)">Microsoft.Lync.Controls</a> namespace.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-conversation-samples.md">Conversation samples</a></p></td>
-<td><p>The quick-start conversation samples show how to interact with Lync conversations by using Lync 2013 API objects and controls from the <a href="https://msdn.microsoft.com/en-us/library/hh346685(v=office.15)">Microsoft.Lync.Controls</a> namespace.</p></td>
+<td><p>The quick-start conversation samples show how to interact with Lync conversations by using Lync 2013 API objects and controls from the <a href="https://msdn.microsoft.com/library/hh346685(v=office.15)">Microsoft.Lync.Controls</a> namespace.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="persistent-chat-samples.md">Persistent Chat samples</a></p></td>
@@ -77,15 +77,15 @@ The following samples provide complete application examples using the Lync 2013 
 
 ### Conversation translator
 
-The [ConversationTranslator](http://code.msdn.microsoft.com/lync-2013-translate-a-a849e513) sample application uses the [Microsoft.Lync.Model.Conversation](https://msdn.microsoft.com/en-us/library/hh365247\(v=office.15\)) namespace from the Lync model API to intercept instant messages and provide translation using Bing Web Services.
+The [ConversationTranslator](http://code.msdn.microsoft.com/lync-2013-translate-a-a849e513) sample application uses the [Microsoft.Lync.Model.Conversation](https://msdn.microsoft.com/library/hh365247\(v=office.15\)) namespace from the Lync model API to intercept instant messages and provide translation using Bing Web Services.
 
 Features:
 
   - The sample provides an example architecture for registering for and handling asynchronous Lync 2013 API events in Silverlight.
 
-  - Register for two Conversation related events: [ParticipantAdded](https://msdn.microsoft.com/en-us/library/hh347719\(v=office.15\)) and [InstantMessageReceived](https://msdn.microsoft.com/en-us/library/hh380696\(v=office.15\)).
+  - Register for two Conversation related events: [ParticipantAdded](https://msdn.microsoft.com/library/hh347719\(v=office.15\)) and [InstantMessageReceived](https://msdn.microsoft.com/library/hh380696\(v=office.15\)).
 
-  - Use the [BeginSendMessage](https://msdn.microsoft.com/en-us/library/hh380302\(v=office.15\)) method and callback.
+  - Use the [BeginSendMessage](https://msdn.microsoft.com/library/hh380302\(v=office.15\)) method and callback.
 
   - Uses the Bing Translator Web Service.
 

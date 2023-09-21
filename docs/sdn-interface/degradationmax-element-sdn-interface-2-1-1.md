@@ -2,7 +2,7 @@
 title: DegradationMax element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DegradationMax element
 ms:assetid: 29a98660-0032-4ec7-c609-020eec2e639a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912708(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912708(v=office.15)
 ms:contentKeyID: 64126878
 ms.date: 02/16/2015
 mtps_version: v=office.15

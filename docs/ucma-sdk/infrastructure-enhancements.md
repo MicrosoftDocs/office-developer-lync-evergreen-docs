@@ -2,7 +2,7 @@
 title: Infrastructure enhancements
 TOCTitle: Infrastructure enhancements
 ms:assetid: 2b35f0bf-ab8b-4a69-abca-f687cbec6639
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465928(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465928(v=office.15)
 ms:contentKeyID: 57102422
 ms.date: 07/25/2014
 mtps_version: v=office.15

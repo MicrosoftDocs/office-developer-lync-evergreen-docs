@@ -2,7 +2,7 @@
 title: device/capabilities/contentNativeFile element
 TOCTitle: device/capabilities/contentNativeFile element
 ms:assetid: 14d90da8-314a-4388-a586-702cc02b48ad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454750(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454750(v=office.15)
 ms:contentKeyID: 57093637
 ms.date: 07/24/2014
 mtps_version: v=office.15

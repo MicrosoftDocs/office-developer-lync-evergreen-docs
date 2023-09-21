@@ -2,7 +2,7 @@
 title: AudioVideoCall samples
 TOCTitle: AudioVideoCall samples
 ms:assetid: 1defa47e-cbde-4255-9f67-ae84ca8dc83d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466130(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466130(v=office.15)
 ms:contentKeyID: 57103422
 ms.date: 07/25/2014
 mtps_version: v=office.15

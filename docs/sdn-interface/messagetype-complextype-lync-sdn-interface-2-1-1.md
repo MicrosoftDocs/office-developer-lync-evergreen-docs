@@ -2,7 +2,7 @@
 title: MessageType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: MessageType complexType
 ms:assetid: de3feda7-42bc-8f23-3ade-2aee10d1058a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912855(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912855(v=office.15)
 ms:contentKeyID: 64127024
 ms.date: 02/16/2015
 mtps_version: v=office.15

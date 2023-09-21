@@ -2,7 +2,7 @@
 title: SIP application manifest
 TOCTitle: SIP application manifest
 ms:assetid: 3a5d8ad8-08c2-4dee-b39c-b19860ca23c6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439064(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439064(v=office.15)
 ms:contentKeyID: 57096220
 ms.date: 02/11/2016
 mtps_version: v=office.15
@@ -75,7 +75,7 @@ The message filtering script is defined in the CDATA section that is contained i
 
 If the application is registered with Lync Server 2013 to run at a priority higher than the UserServices application that is installed by default as part of the server deployment, the \<allowRegistrationBeforeUserServices/\> element must be specified.
 
-For information about descriptions of other application manifest elements, see [Application Attribute Elements](https://msdn.microsoft.com/en-us/library/dd185854\(v=office.15\)).
+For information about descriptions of other application manifest elements, see [Application Attribute Elements](https://msdn.microsoft.com/library/dd185854\(v=office.15\)).
 
 ## See also
 

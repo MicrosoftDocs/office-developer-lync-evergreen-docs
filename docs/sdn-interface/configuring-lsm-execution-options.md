@@ -2,7 +2,7 @@
 title: Configuring LSM execution options
 TOCTitle: Configuring LSM execution options
 ms:assetid: 93e0281f-b44f-4772-a4e1-174aad80e92b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785212(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785212(v=office.15)
 ms:contentKeyID: 62952696
 ms.date: 02/16/2015
 mtps_version: v=office.15

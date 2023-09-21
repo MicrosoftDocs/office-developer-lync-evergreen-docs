@@ -2,7 +2,7 @@
 title: device/capabilities/applicationSharing element
 TOCTitle: device/capabilities/applicationSharing element
 ms:assetid: d9597063-2452-4ed9-9485-2e4061a115fb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454748(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454748(v=office.15)
 ms:contentKeyID: 57093635
 ms.date: 07/24/2014
 mtps_version: v=office.15

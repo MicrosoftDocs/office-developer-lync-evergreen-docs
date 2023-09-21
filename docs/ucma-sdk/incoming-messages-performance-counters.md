@@ -2,7 +2,7 @@
 title: Incoming messages performance counters
 TOCTitle: Incoming messages performance counters
 ms:assetid: 9d261563-dde5-418f-9031-afde9b7e27ec
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466117(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466117(v=office.15)
 ms:contentKeyID: 57103410
 ms.date: 07/25/2014
 mtps_version: v=office.15

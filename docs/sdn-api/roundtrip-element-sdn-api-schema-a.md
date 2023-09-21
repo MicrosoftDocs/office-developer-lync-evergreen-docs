@@ -2,7 +2,7 @@
 title: RoundTrip element  (Lync SDN API Schema A)
 TOCTitle: RoundTrip element
 ms:assetid: a6cb4bf8-c2eb-4dd7-8d8b-df707c476aac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439265(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439265(v=office.15)
 ms:contentKeyID: 57261001
 ms.date: 07/24/2014
 mtps_version: v=office.15

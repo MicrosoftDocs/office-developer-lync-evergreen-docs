@@ -2,7 +2,7 @@
 title: Lync Controls common properties
 TOCTitle: Lync Controls common properties
 ms:assetid: b28c0d3b-30d9-413f-a746-e9d48ed0299f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945574(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945574(v=office.15)
 ms:contentKeyID: 51541389
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -50,31 +50,31 @@ The properties listed in the following table are common to most Lync Controls in
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363627(v=office.15)">IsInResiliencyMode</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363627(v=office.15)">IsInResiliencyMode</a> property</p></td>
 <td><p>Gets a bool value. The value true indicates that the server has entered a state of limited functionality and some features, such as presence, might not be available.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh346560(v=office.15)">IsSignedIn</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh346560(v=office.15)">IsSignedIn</a> property</p></td>
 <td><p>Gets a bool value indicating whether the application user is signed in to Microsoft Lync 2013.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh345993(v=office.15)">InitializationFailed</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh345993(v=office.15)">InitializationFailed</a> property</p></td>
 <td><p>Returns a Boolean value indicating whether initialization failed.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379615(v=office.15)">InitializationErrorMessage</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh379615(v=office.15)">InitializationErrorMessage</a> property</p></td>
 <td><p>When InitializationFailed is true, this property stores a descriptive message generated during initialization.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379166(v=office.15)">InitializationError</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh379166(v=office.15)">InitializationError</a> property</p></td>
 <td><p>Provides an enumerated value of type <strong>[Microsoft.Lync.Controls.LyncControlInitializationError]</strong> to indicate the reason of the initialization failure.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363994(v=office.15)">InitializationCompleted</a> event</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363994(v=office.15)">InitializationCompleted</a> event</p></td>
 <td><p>Indicates that the control completed its initialization.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh363342(v=office.15)">ContextualInformation</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh363342(v=office.15)">ContextualInformation</a> property</p></td>
 <td><p>Gets or sets data structure that provides contextual information for use with the contextual conversation feature. For more information about conversation context, see <a href="contextual-lync-conversations.md">Contextual Lync conversations</a>.</p></td>
 </tr>
 </tbody>

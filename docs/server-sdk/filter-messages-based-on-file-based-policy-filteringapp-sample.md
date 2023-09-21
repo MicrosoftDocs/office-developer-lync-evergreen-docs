@@ -2,7 +2,7 @@
 title: Filter messages based on file-based policy (FilteringApp sample)
 TOCTitle: Filter messages based on file-based policy (FilteringApp sample)
 ms:assetid: 5e02ba71-bb3a-4d21-9ccb-a8025b0a47f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439097(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439097(v=office.15)
 ms:contentKeyID: 57096251
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -25,7 +25,7 @@ The FilteringApp application that is distributed with the Lync Server 2013 SDK s
 
 The following logic is implemented by the Microsoft SIP Processing Language (MSPL) script:
 
-  - Parse the **To** header to obtain the targeted SIP URI of an incoming [Request](https://msdn.microsoft.com/en-us/library/hh364656\(v=office.15\)) instance.
+  - Parse the **To** header to obtain the targeted SIP URI of an incoming [Request](https://msdn.microsoft.com/library/hh364656\(v=office.15\)) instance.
 
   - Parse the policy settings in the policy file to determine the routing behavior for the targeted user.
 
@@ -37,7 +37,7 @@ The following logic is implemented by the Microsoft SIP Processing Language (MSP
 
 Additional FilteringApp features:
 
-  - Accesses the policy.txt file through the declaration of the [\<file\>](https://msdn.microsoft.com/en-us/library/hh364639\(v=office.15\)) element in the application manifest.
+  - Accesses the policy.txt file through the declaration of the [\<file\>](https://msdn.microsoft.com/library/hh364639\(v=office.15\)) element in the application manifest.
 
   - Parses the contained data by column names.
     

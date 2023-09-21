@@ -2,7 +2,7 @@
 title: services/service/capabilities/containerIntegrity element
 TOCTitle: services/service/capabilities/containerIntegrity element
 ms:assetid: 1d4a2f5b-706d-47ac-b57b-e060215cd72d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454796(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454796(v=office.15)
 ms:contentKeyID: 57093786
 ms.date: 07/24/2014
 mtps_version: v=office.15

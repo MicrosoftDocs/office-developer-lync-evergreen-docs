@@ -2,7 +2,7 @@
 title: containerManifestList element
 TOCTitle: containerManifestList element
 ms:assetid: bfe32929-7791-47f3-9032-e367a9867068
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438980(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438980(v=office.15)
 ms:contentKeyID: 57094024
 ms.date: 07/24/2014
 mtps_version: v=office.15

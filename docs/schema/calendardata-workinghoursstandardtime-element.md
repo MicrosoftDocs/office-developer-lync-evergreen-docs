@@ -2,7 +2,7 @@
 title: calendarData/WorkingHoursStandardTime element
 TOCTitle: calendarData/WorkingHoursStandardTime element
 ms:assetid: b36836d1-e42c-400e-ab14-d8d7b0653b27
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454696(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454696(v=office.15)
 ms:contentKeyID: 57093366
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Starting a persistent subscription
 TOCTitle: Starting a persistent subscription
 ms:assetid: ba2a589b-e7d9-4565-a251-eb313c9af4bc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454655(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454655(v=office.15)
 ms:contentKeyID: 57092910
 ms.date: 07/24/2014
 mtps_version: v=office.15

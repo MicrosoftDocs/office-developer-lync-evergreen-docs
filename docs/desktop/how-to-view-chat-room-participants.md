@@ -2,7 +2,7 @@
 title: 'How to: View chat room participants'
 TOCTitle: 'How to: View chat room participants'
 ms:assetid: 0af3879c-4a06-4955-9621-aaabbbbc1aee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937256(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937256(v=office.15)
 ms:contentKeyID: 50877074
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -85,9 +85,9 @@ Understanding the following concepts is essential to adding Persistent Chat to a
 
 ## Initial application state
 
-Before you complete the procedures in this topic, your application must declare and initialize a [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and the Lync client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
+Before you complete the procedures in this topic, your application must declare and initialize a [Microsoft.Lync.Model.LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance and the Lync client must be signed in. For more information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) where the user is a member. For information about getting a room, see [How to: Find a chat room](how-to-find-a-chat-room.md). Your application must declare a list to display room participants. You cannot use the Lync 2013 API to add or remove a user from the membership list of a room.
+You must also have an instance of [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/library/jj266467\(v=office.15\)) where the user is a member. For information about getting a room, see [How to: Find a chat room](how-to-find-a-chat-room.md). Your application must declare a list to display room participants. You cannot use the Lync 2013 API to add or remove a user from the membership list of a room.
 
 ### Code example
 
@@ -123,7 +123,7 @@ The following example declares the class fields that are referenced in the follo
 
 ## Register for room events
 
-When you have obtained the [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) instance selected by a user, register for a set of chat room events so that you can receive notification of chat room participant roster changes.
+When you have obtained the [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/library/jj266467\(v=office.15\)) instance selected by a user, register for a set of chat room events so that you can receive notification of chat room participant roster changes.
 
 ### To register for room events
 
@@ -168,17 +168,17 @@ The following example registers for chat room participant roster events and gets
 
 ## Fill the participant list
 
-The [Room.Participants](https://msdn.microsoft.com/en-us/library/jj293558\(v=office.15\)) property returns the current list of active chat room participants. Use this property to fill a list of participant names. The **IList\<**[Microsoft.Lync.Model.Room.RoomUser](https://msdn.microsoft.com/en-us/library/jj293507\(v=office.15\))**\>** type is returned by the property. The [RoomUser.Uri](https://msdn.microsoft.com/en-us/library/jj278446\(v=office.15\)) property returns a participant’s SIP address as a string. To get the participant display name, complete the following tasks with each [Microsoft.Lync.Model.Room.RoomUser](https://msdn.microsoft.com/en-us/library/jj293507\(v=office.15\)) in the list.
+The [Room.Participants](https://msdn.microsoft.com/library/jj293558\(v=office.15\)) property returns the current list of active chat room participants. Use this property to fill a list of participant names. The **IList\<**[Microsoft.Lync.Model.Room.RoomUser](https://msdn.microsoft.com/library/jj293507\(v=office.15\))**\>** type is returned by the property. The [RoomUser.Uri](https://msdn.microsoft.com/library/jj278446\(v=office.15\)) property returns a participant’s SIP address as a string. To get the participant display name, complete the following tasks with each [Microsoft.Lync.Model.Room.RoomUser](https://msdn.microsoft.com/library/jj293507\(v=office.15\)) in the list.
 
 ### To fill the participant list with participant names
 
-1.  Verify that the [RoomUser.Uri](https://msdn.microsoft.com/en-us/library/jj278446\(v=office.15\)) property is not null.
+1.  Verify that the [RoomUser.Uri](https://msdn.microsoft.com/library/jj278446\(v=office.15\)) property is not null.
 
-2.  Call the [ContactManager.GetContactByUri](https://msdn.microsoft.com/en-us/library/jj274481\(v=office.15\)) method and pass the SIP address in the first argument.
+2.  Call the [ContactManager.GetContactByUri](https://msdn.microsoft.com/library/jj274481\(v=office.15\)) method and pass the SIP address in the first argument.
     
-    An instance of [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) is returned.
+    An instance of [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) is returned.
 
-3.  Get the display name of the participant by calling the [Contact.GetContactInformation](https://msdn.microsoft.com/en-us/library/jj294012\(v=office.15\)) method, passing the [ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\))**.DisplayName** enumerator.
+3.  Get the display name of the participant by calling the [Contact.GetContactInformation](https://msdn.microsoft.com/library/jj294012\(v=office.15\)) method, passing the [ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\))**.DisplayName** enumerator.
     
     The display name of the contact is returned.
 
@@ -186,7 +186,7 @@ The [Room.Participants](https://msdn.microsoft.com/en-us/library/jj293558\(v=off
 
 ### Code examples
 
-The following example updates the participant list in the UI with the names of all active room participants. To call this method, pass [Room.Participants](https://msdn.microsoft.com/en-us/library/jj293558\(v=office.15\)) in the argument.
+The following example updates the participant list in the UI with the names of all active room participants. To call this method, pass [Room.Participants](https://msdn.microsoft.com/library/jj293558\(v=office.15\)) in the argument.
 
 ```csharp
         /// <summary>
@@ -221,7 +221,7 @@ Keep the UI room participant list current by handling the events in this section
 
 ### Code examples
 
-The following examples handle the [Room.ParticipantAdded](https://msdn.microsoft.com/en-us/library/jj277204\(v=office.15\)) and [Room.ParticipantRemoved](https://msdn.microsoft.com/en-us/library/jj268246\(v=office.15\)) events.
+The following examples handle the [Room.ParticipantAdded](https://msdn.microsoft.com/library/jj277204\(v=office.15\)) and [Room.ParticipantRemoved](https://msdn.microsoft.com/library/jj268246\(v=office.15\)) events.
 
 ```csharp
         /// <summary>

@@ -2,7 +2,7 @@
 title: Calls, flows, conversations, and MCU sessions
 TOCTitle: Calls, flows, conversations, and MCU sessions
 ms:assetid: 8eac0275-344c-4546-a83e-2104ce8f7c6e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465961(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465961(v=office.15)
 ms:contentKeyID: 57102451
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 During a conversation, data is communicated across one of two types of channels that represent the concepts of *call* and *media flow*.
 
-The [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) class is a container for multiparty communication in Microsoft Unified Communications Managed API 4.0. The properties and methods of this class provide access to many of the other building blocks for communication.
+The [Conversation](https://msdn.microsoft.com/library/hh349224\(v=office.15\)) class is a container for multiparty communication in Microsoft Unified Communications Managed API 4.0. The properties and methods of this class provide access to many of the other building blocks for communication.
 
 ## Two-party communication
 
@@ -29,11 +29,11 @@ The default media providers in UCMA 4.0 support two media types:
 
   - Message
     
-    The Message media type is used in [InstantMessagingCall](https://msdn.microsoft.com/en-us/library/hh161841\(v=office.15\)) sessions.
+    The Message media type is used in [InstantMessagingCall](https://msdn.microsoft.com/library/hh161841\(v=office.15\)) sessions.
 
   - Audio
     
-    The Audio media type is used in [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) sessions.
+    The Audio media type is used in [AudioVideoCall](https://msdn.microsoft.com/library/hh383901\(v=office.15\)) sessions.
 
 The Video media type is not supported in UCMA 4.0.
 
@@ -41,17 +41,17 @@ The Video media type is not supported in UCMA 4.0.
 
 A flow (or media flow) represents the audio or instant messaging (IM) data that participants send to each other during a conversation. A media flow is delivered through a media-specific channel. For example, IM media is delivered through an IM channel, while audio media is delivered through an audio channel.
 
-After a call is established, media flows are created and managed by media providers. UCMA 4.0 natively supports IM and audio/video providers, and also enables applications to supply their own media providers. A media provider can support one or more media types. The media provider exposes its media flow to the application by way of the call, and the application can configure the media flow using flow settings. The media providers themselves are not exposed to the application nor is there a need for an application to interact with them directly. The conversation connects the call with the appropriate provider depending on the media types supported by the call. For example, an IM conversation will connect to the InstantMessagingProvider, which will create and manage an [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.15\)). The media provider for a conversation must support all of the media types that are supported by the call.
+After a call is established, media flows are created and managed by media providers. UCMA 4.0 natively supports IM and audio/video providers, and also enables applications to supply their own media providers. A media provider can support one or more media types. The media provider exposes its media flow to the application by way of the call, and the application can configure the media flow using flow settings. The media providers themselves are not exposed to the application nor is there a need for an application to interact with them directly. The conversation connects the call with the appropriate provider depending on the media types supported by the call. For example, an IM conversation will connect to the InstantMessagingProvider, which will create and manage an [InstantMessagingFlow](https://msdn.microsoft.com/library/hh383312\(v=office.15\)). The media provider for a conversation must support all of the media types that are supported by the call.
 
-UCMA 4.0 provides support for a group of devices (recorder, player, tone controller, speech recognition, and speech synthesis) through its audio/video flow. For more information, see [Devices in UCMA](https://msdn.microsoft.com/en-us/library/dd280152\(v=office.15\)).
+UCMA 4.0 provides support for a group of devices (recorder, player, tone controller, speech recognition, and speech synthesis) through its audio/video flow. For more information, see [Devices in UCMA](https://msdn.microsoft.com/library/dd280152\(v=office.15\)).
 
 ### Two-party conversation-unimodal
 
-To begin a two-party conversation, an application must establish a call between the local participant and a remote participant. For a unimodal conversation, an [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.15\)) instance or an [InstantMessagingCall](https://msdn.microsoft.com/en-us/library/hh161841\(v=office.15\)) instance performs call control operations. A media flow type that matches the call type, either [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) or **InstantMessagingFlow**, performs media control operations. The media flow instance can be configured by the use of the applicable template, either [AudioVideoFlowTemplate](https://msdn.microsoft.com/en-us/library/hh349157\(v=office.15\)) or [InstantMessagingFlowTemplate](https://msdn.microsoft.com/en-us/library/hh384311\(v=office.15\)).
+To begin a two-party conversation, an application must establish a call between the local participant and a remote participant. For a unimodal conversation, an [AudioVideoCall](https://msdn.microsoft.com/library/hh383901\(v=office.15\)) instance or an [InstantMessagingCall](https://msdn.microsoft.com/library/hh161841\(v=office.15\)) instance performs call control operations. A media flow type that matches the call type, either [AudioVideoFlow](https://msdn.microsoft.com/library/hh383533\(v=office.15\)) or **InstantMessagingFlow**, performs media control operations. The media flow instance can be configured by the use of the applicable template, either [AudioVideoFlowTemplate](https://msdn.microsoft.com/library/hh349157\(v=office.15\)) or [InstantMessagingFlowTemplate](https://msdn.microsoft.com/library/hh384311\(v=office.15\)).
 
-The following illustration depicts a two-party conversation using a single media modality: IM. This and other figures in this topic should be considered high-level representations, and as such, are somewhat simplified. Each conversation participant has a [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) associated with it, although a [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.15\)) instance can be associated with more than one endpoint.
+The following illustration depicts a two-party conversation using a single media modality: IM. This and other figures in this topic should be considered high-level representations, and as such, are somewhat simplified. Each conversation participant has a [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) associated with it, although a [Conversation](https://msdn.microsoft.com/library/hh349224\(v=office.15\)) instance can be associated with more than one endpoint.
 
-Each conversation participant has a **Conversation** instance on his or her computer or device. For each **Conversation** instance [LocalParticipant](https://msdn.microsoft.com/en-us/library/hh350132\(v=office.15\)) represents the user to which this **Conversation** instance belongs. Similarly, the Remote Participant (the actual property on **Conversation** is a collection named [RemoteParticipants](https://msdn.microsoft.com/en-us/library/hh349440\(v=office.15\))) represents the other participant in the conversation. Given that this conversation involves IM, each **Conversation** instance has an **InstantMessagingCall**, which in turn has an **InstantMessagingFlow**. The text of the instant messages flows from one **Conversation** instance to the other through the Lync Server 2013 infrastructure. Signaling information (the path for this is not shown) passes from one **InstantMessagingCall** instance to the other, by way of the Lync Server 2013 infrastructure.
+Each conversation participant has a **Conversation** instance on his or her computer or device. For each **Conversation** instance [LocalParticipant](https://msdn.microsoft.com/library/hh350132\(v=office.15\)) represents the user to which this **Conversation** instance belongs. Similarly, the Remote Participant (the actual property on **Conversation** is a collection named [RemoteParticipants](https://msdn.microsoft.com/library/hh349440\(v=office.15\))) represents the other participant in the conversation. Given that this conversation involves IM, each **Conversation** instance has an **InstantMessagingCall**, which in turn has an **InstantMessagingFlow**. The text of the instant messages flows from one **Conversation** instance to the other through the Lync Server 2013 infrastructure. Signaling information (the path for this is not shown) passes from one **InstantMessagingCall** instance to the other, by way of the Lync Server 2013 infrastructure.
 
 ![Two-party conversation with IM](images/Dn465961.Two-party-Conversation-IM(Office.15).jpg "Two-party conversation with IM")
 
@@ -63,7 +63,7 @@ The second illustration depicts a two-party conversation using two media modalit
 
 ### Two-party conversation with impersonation
 
-The third illustration depicts a two-party conversation using audio, but in this illustration an application (Application A) impersonates a user (User A). Unlike the two previous scenarios, the endpoint owner and the local participant of the associated conversation instance are different. Another difference between this scenario and the two previous ones is that the endpoint for Application A must be an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)), rather than a **UserEndpoint**.
+The third illustration depicts a two-party conversation using audio, but in this illustration an application (Application A) impersonates a user (User A). Unlike the two previous scenarios, the endpoint owner and the local participant of the associated conversation instance are different. Another difference between this scenario and the two previous ones is that the endpoint for Application A must be an [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)), rather than a **UserEndpoint**.
 
 ![Two-party conversation with impersonation](images/Dn465968.Two-party-Impersonation-AV(Office.15).jpg "Two-party conversation with impersonation")
 
@@ -75,13 +75,13 @@ When a conversation involves three or more participants (the local participant a
 
 The next illustration depicts a unimodal IM conversation that has been escalated to a conference. The significant differences between this conference and the two-party conversations shown earlier:
 
-  - A [ConferenceSession](https://msdn.microsoft.com/en-us/library/hh349315\(v=office.15\)) appears in each conversation instance.
+  - A [ConferenceSession](https://msdn.microsoft.com/library/hh349315\(v=office.15\)) appears in each conversation instance.
 
-  - An IM MCU Session instance (the actual class name is [InstantMessagingMcuSession](https://msdn.microsoft.com/en-us/library/hh382004\(v=office.15\))) appears in each **ConferenceSession**.
+  - An IM MCU Session instance (the actual class name is [InstantMessagingMcuSession](https://msdn.microsoft.com/library/hh382004\(v=office.15\))) appears in each **ConferenceSession**.
 
   - The Focus and IM MCU now play roles in the Lync Server 2013 infrastructure.
 
-As the next illustration shows, signaling information passes from a given IM MCU Session to the Focus, and then to the IM MCU Sessions on the conversation instances of the other participants. Signaling information also passes from the Focus to the IM MCU. IM information (identified as media in the illustration) passes from the [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.15\)) in one conversation instance to the IM MCU, and then to the **InstantMessagingFlow** of each other participant.
+As the next illustration shows, signaling information passes from a given IM MCU Session to the Focus, and then to the IM MCU Sessions on the conversation instances of the other participants. Signaling information also passes from the Focus to the IM MCU. IM information (identified as media in the illustration) passes from the [InstantMessagingFlow](https://msdn.microsoft.com/library/hh383312\(v=office.15\)) in one conversation instance to the IM MCU, and then to the **InstantMessagingFlow** of each other participant.
 
 ![Three-party conversation with IM](images/Dn465961.Three-party-Conference-IM(Office.15).jpg "Three-party conversation with IM")
 
@@ -89,7 +89,7 @@ As the next illustration shows, signaling information passes from a given IM MCU
 
 The last illustration in this topic depicts a multimodal conference. The most significant differences between this type of conference and the unimodal conference shown in the previous illustration:
 
-  - Each **ConferenceSession** instance now has an AV MCU Session instance (the actual name of this class is [AudioVideoMcuSession](https://msdn.microsoft.com/en-us/library/hh385298\(v=office.15\))). Each media modality requires its own MCU Session to handle call control.
+  - Each **ConferenceSession** instance now has an AV MCU Session instance (the actual name of this class is [AudioVideoMcuSession](https://msdn.microsoft.com/library/hh385298\(v=office.15\))). Each media modality requires its own MCU Session to handle call control.
 
   - Each **Conversation** instance now also has an **AudioVideoCall** instance, with its associated **AudioVideoFlow** instance.
 

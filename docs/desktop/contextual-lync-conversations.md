@@ -2,7 +2,7 @@
 title: Contextual Lync conversations
 TOCTitle: Contextual Lync conversations
 ms:assetid: e9ecc787-f16a-4244-9eea-6a920a4ec8a3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945578(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945578(v=office.15)
 ms:contentKeyID: 51541400
 ms.date: 07/24/2014
 mtps_version: v=office.15

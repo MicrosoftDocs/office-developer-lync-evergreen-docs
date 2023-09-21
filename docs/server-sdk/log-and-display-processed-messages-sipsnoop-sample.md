@@ -2,7 +2,7 @@
 title: Log and display processed messages (SipSnoop sample)
 TOCTitle: Log and display processed messages (SipSnoop sample)
 ms:assetid: d195c5b7-0cdd-4135-9e15-82641dbf08ea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439099(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439099(v=office.15)
 ms:contentKeyID: 57096252
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -35,7 +35,7 @@ The application uses two application manifests, SipSnoop.am and SipSnoop2.am, to
     
       - Uses the \<requestFilter methodNames="ALL"/\> and \<responseFilter reasonCodes="ALL"/\> elements to configure how the application receives each request, response, and the corresponding proxy.
 
-  - SipSnoop2.am uses the [DispatchNotification](https://msdn.microsoft.com/en-us/library/hh364727\(v=office.15\)) function instead of the [Dispatch](https://msdn.microsoft.com/en-us/library/hh364714\(v=office.15\)) function.
+  - SipSnoop2.am uses the [DispatchNotification](https://msdn.microsoft.com/library/hh364727\(v=office.15\)) function instead of the [Dispatch](https://msdn.microsoft.com/library/hh364714\(v=office.15\)) function.
 
 ## Testing the application
 

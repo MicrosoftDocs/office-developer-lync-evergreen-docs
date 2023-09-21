@@ -2,7 +2,7 @@
 title: categoryPublicationManifest element
 TOCTitle: categoryPublicationManifest element
 ms:assetid: c70a8103-64af-4e93-a2bd-f650657646e9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438993(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438993(v=office.15)
 ms:contentKeyID: 57094045
 ms.date: 07/24/2014
 mtps_version: v=office.15

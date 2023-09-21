@@ -2,7 +2,7 @@
 title: Parsing and constructing SDP documents
 TOCTitle: Parsing and constructing SDP documents
 ms:assetid: 3294209a-0e26-4257-827a-868d6332311f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466060(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466060(v=office.15)
 ms:contentKeyID: 57103053
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -23,7 +23,7 @@ After the application determines an appropriate response, use the **Sdp** class 
 
 ## Parsing session description documents
 
-Use the **TryParse()** method to determine whether the SDP is valid. Subclass the [SdpMediaDescription](https://msdn.microsoft.com/en-us/library/hh383755\(v=office.15\)) and [SdpGlobalDescription](https://msdn.microsoft.com/en-us/library/hh385124\(v=office.15\)) classes to get the values of session description attributes. See the following sample code.
+Use the **TryParse()** method to determine whether the SDP is valid. Subclass the [SdpMediaDescription](https://msdn.microsoft.com/library/hh383755\(v=office.15\)) and [SdpGlobalDescription](https://msdn.microsoft.com/library/hh385124\(v=office.15\)) classes to get the values of session description attributes. See the following sample code.
 
 ```csharp
 public void SetAnswer(object sender, ContentDescription answer)
@@ -61,7 +61,7 @@ public void SetAnswer(object sender, ContentDescription answer)
 
 ## Constructing session description documents
 
-Use the **Sdp**, [SdpMediaDescription](https://msdn.microsoft.com/en-us/library/hh383755\(v=office.15\)), and [SdpGlobalDescription](https://msdn.microsoft.com/en-us/library/hh385124\(v=office.15\)) classes to set the values of session description attributes. When the **Sdp** class is initially constructed it will have default values as specified in the documentation for this class. See the following sample code.
+Use the **Sdp**, [SdpMediaDescription](https://msdn.microsoft.com/library/hh383755\(v=office.15\)), and [SdpGlobalDescription](https://msdn.microsoft.com/library/hh385124\(v=office.15\)) classes to set the values of session description attributes. When the **Sdp** class is initially constructed it will have default values as specified in the documentation for this class. See the following sample code.
 
 ```csharp
 public ContentDescription GetOffer(object sender)

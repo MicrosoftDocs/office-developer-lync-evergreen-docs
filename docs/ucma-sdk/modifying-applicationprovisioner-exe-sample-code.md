@@ -2,7 +2,7 @@
 title: Modifying ApplicationProvisioner.exe sample code
 TOCTitle: Modifying ApplicationProvisioner.exe sample code
 ms:assetid: 3e9e49ba-651e-4a09-939f-37b863e4a415
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466118(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466118(v=office.15)
 ms:contentKeyID: 57103411
 ms.date: 07/25/2014
 mtps_version: v=office.15

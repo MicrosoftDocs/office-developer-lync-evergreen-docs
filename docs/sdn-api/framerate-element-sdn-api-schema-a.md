@@ -2,7 +2,7 @@
 title: FrameRate element 
 TOCTitle: FrameRate element
 ms:assetid: 1d5935d7-9c91-49ff-0aec-a9e9f2f884b1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455061(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455061(v=office.15)
 ms:contentKeyID: 57260940
 ms.date: 07/24/2014
 mtps_version: v=office.15

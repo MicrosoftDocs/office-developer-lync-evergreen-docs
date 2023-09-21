@@ -2,7 +2,7 @@
 title: RouteType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: RouteType complexType
 ms:assetid: 73397946-a626-7fb6-a38c-565ea964709b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912858(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912858(v=office.15)
 ms:contentKeyID: 64127027
 ms.date: 02/16/2015
 mtps_version: v=office.15

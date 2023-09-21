@@ -2,7 +2,7 @@
 title: UCMA 4.0 Runtime
 TOCTitle: UCMA 4.0 Runtime
 ms:assetid: 90679514-7bec-4a91-be50-f1020080a60a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466090(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466090(v=office.15)
 ms:contentKeyID: 57103180
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -121,11 +121,11 @@ OCSCore.msi must be installed by using Bootstrapper Prerequisites Installer Pack
     
     - Windows Server 2008 R2 Service Pack 1
         
-        Download WINDOWS6.0-KB2506146-x64.MSU from [Windows Management Framework 3.0](http://www.microsoft.com/en-us/download/details.aspx?id=34595).
+        Download WINDOWS6.0-KB2506146-x64.MSU from [Windows Management Framework 3.0](http://www.microsoft.com/download/details.aspx?id=34595).
     
     - Windows 7
         
-        Download WINDOWS6.1-KB2506143-x64.MSU from [Windows Management Framework 3.0](http://www.microsoft.com/en-us/download/details.aspx?id=34595).
+        Download WINDOWS6.1-KB2506143-x64.MSU from [Windows Management Framework 3.0](http://www.microsoft.com/download/details.aspx?id=34595).
     
     - Windows 8
         

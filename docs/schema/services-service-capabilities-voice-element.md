@@ -2,7 +2,7 @@
 title: services/service/capabilities/voice element
 TOCTitle: services/service/capabilities/voice element
 ms:assetid: 45a90d91-9d05-4b50-99fc-90549c41603c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454800(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454800(v=office.15)
 ms:contentKeyID: 57093876
 ms.date: 07/24/2014
 mtps_version: v=office.15

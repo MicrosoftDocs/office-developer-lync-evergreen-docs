@@ -2,7 +2,7 @@
 title: ManualProvisioning (QuickStart)
 TOCTitle: ManualProvisioning (QuickStart)
 ms:assetid: 092727ec-d2a6-4413-a55e-a85da522f2dd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454830(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454830(v=office.15)
 ms:contentKeyID: 57103725
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -27,7 +27,7 @@ In comparison to automatic provisioning, manual provisioning has several limitat
 
 For more information about provisioning trusted applications and endpoints in Microsoft Lync Server 2013, see [Activating a UCMA 4.0 trusted application](activating-a-ucma-4-0-trusted-application.md), as well as [General application activation](general-application-activation.md) and [Activating a manually-provisioned application](activating-a-manually-provisioned-application.md).
 
-This sample demonstrates how to create a [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.15\)) instance using the [ServerPlatformSettings](https://msdn.microsoft.com/en-us/library/hh382156\(v=office.15\)) constructor, establish a single [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) instance, and monitor the state changes on the endpoint.
+This sample demonstrates how to create a [CollaborationPlatform](https://msdn.microsoft.com/library/hh385176\(v=office.15\)) instance using the [ServerPlatformSettings](https://msdn.microsoft.com/library/hh382156\(v=office.15\)) constructor, establish a single [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)) instance, and monitor the state changes on the endpoint.
 
 ## Features
 

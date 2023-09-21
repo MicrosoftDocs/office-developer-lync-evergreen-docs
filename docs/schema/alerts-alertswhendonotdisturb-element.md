@@ -2,7 +2,7 @@
 title: alerts/alertsWhenDoNotDisturb element
 TOCTitle: alerts/alertsWhenDoNotDisturb element
 ms:assetid: 7613bd15-e0c1-45a9-8133-77e06ee1bc58
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454691(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454691(v=office.15)
 ms:contentKeyID: 57093342
 ms.date: 07/24/2014
 mtps_version: v=office.15

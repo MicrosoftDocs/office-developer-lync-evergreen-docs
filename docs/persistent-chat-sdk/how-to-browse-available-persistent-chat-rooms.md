@@ -2,7 +2,7 @@
 title: 'How to: Browse available Persistent Chat rooms'
 TOCTitle: 'How to: Browse available Persistent Chat rooms'
 ms:assetid: 3b664f00-56bb-46b3-b39d-54cdf3617ba9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465907(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465907(v=office.15)
 ms:contentKeyID: 57101413
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ Learn how to browse the available Persistent Chat rooms in a Microsoft Lync Serv
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-When a [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj267567\(v=office.15\)) instance is connected to a Lync Server 2013 Persistent Chat, its state becomes [Established](https://msdn.microsoft.com/en-us/library/jj267239\(v=office.15\)) and the endpoint-based Persistent Chat services that are encapsulated by [PersistentChatServices](https://msdn.microsoft.com/en-us/library/jj266890\(v=office.15\)) becomes operational immediately. Such services include browsing available chat rooms by calling [BeginBrowseChatRoomsByCriteria(String, Boolean, Boolean, Boolean, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj267603\(v=office.15\)), [BeginBrowseChatRoomsByInvitations(Int32, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj267594\(v=office.15\)), [BeginBrowseChatRoomsByJoinedUser(Uri, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/jj266317\(v=office.15\)), [BeginBrowseChatRoomsIManage(AsyncCallback, Object, UInt32)](https://msdn.microsoft.com/en-us/library/jj266916\(v=office.15\)), or [BeginBrowseMyChatRooms(AsyncCallback, Object, UInt32)](https://msdn.microsoft.com/en-us/library/jj267602\(v=office.15\)) method on the [PersistentChatServices](https://msdn.microsoft.com/en-us/library/jj266890\(v=office.15\)) type. These methods are asynchronous and the operations must be completed by calling the corresponding EndBrowseXXX method. The following example shows how to invoke these methods to browse available persistent chat rooms on a Persistent Chat server.
+When a [PersistentChatEndpoint](https://msdn.microsoft.com/library/jj267567\(v=office.15\)) instance is connected to a Lync Server 2013 Persistent Chat, its state becomes [Established](https://msdn.microsoft.com/library/jj267239\(v=office.15\)) and the endpoint-based Persistent Chat services that are encapsulated by [PersistentChatServices](https://msdn.microsoft.com/library/jj266890\(v=office.15\)) becomes operational immediately. Such services include browsing available chat rooms by calling [BeginBrowseChatRoomsByCriteria(String, Boolean, Boolean, Boolean, AsyncCallback, Object)](https://msdn.microsoft.com/library/jj267603\(v=office.15\)), [BeginBrowseChatRoomsByInvitations(Int32, AsyncCallback, Object)](https://msdn.microsoft.com/library/jj267594\(v=office.15\)), [BeginBrowseChatRoomsByJoinedUser(Uri, AsyncCallback, Object)](https://msdn.microsoft.com/library/jj266317\(v=office.15\)), [BeginBrowseChatRoomsIManage(AsyncCallback, Object, UInt32)](https://msdn.microsoft.com/library/jj266916\(v=office.15\)), or [BeginBrowseMyChatRooms(AsyncCallback, Object, UInt32)](https://msdn.microsoft.com/library/jj267602\(v=office.15\)) method on the [PersistentChatServices](https://msdn.microsoft.com/library/jj266890\(v=office.15\)) type. These methods are asynchronous and the operations must be completed by calling the corresponding EndBrowseXXX method. The following example shows how to invoke these methods to browse available persistent chat rooms on a Persistent Chat server.
 
 ```csharp
         public void BrowseChatRooms(PersistentChatEndpoint chatEndpoint, string criteria, ref int lastInviteId, string userSipUri)
@@ -61,7 +61,7 @@ When a [PersistentChatEndpoint](https://msdn.microsoft.com/en-us/library/jj26756
         }
 ```
 
-The results returned from browsing chat rooms methods are a collection of [ChatRoomSnapshot](https://msdn.microsoft.com/en-us/library/jj267241\(v=office.15\)) objects. The [ChatRoomUri](https://msdn.microsoft.com/en-us/library/jj266377\(v=office.15\)) property on this kind of object can be used to join a chat room. For more information, see [How to: Join and leave a Persistent Chat room session](how-to-join-and-leave-a-persistent-chat-room-session.md).
+The results returned from browsing chat rooms methods are a collection of [ChatRoomSnapshot](https://msdn.microsoft.com/library/jj267241\(v=office.15\)) objects. The [ChatRoomUri](https://msdn.microsoft.com/library/jj266377\(v=office.15\)) property on this kind of object can be used to join a chat room. For more information, see [How to: Join and leave a Persistent Chat room session](how-to-join-and-leave-a-persistent-chat-room-session.md).
 
 ## See also
 

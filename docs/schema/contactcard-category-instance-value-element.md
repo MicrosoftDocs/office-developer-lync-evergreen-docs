@@ -2,7 +2,7 @@
 title: contactCard category instance value element
 TOCTitle: contactCard category instance value element
 ms:assetid: 8ce4bdcf-6e3b-4b83-9e6e-7d50181cad94
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454726(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454726(v=office.15)
 ms:contentKeyID: 57093426
 ms.date: 07/24/2014
 mtps_version: v=office.15

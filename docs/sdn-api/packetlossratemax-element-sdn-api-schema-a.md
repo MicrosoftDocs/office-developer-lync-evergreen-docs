@@ -2,7 +2,7 @@
 title: PacketLossRateMax element (LyncDiagnostics element) (Lync SDN API Schema A)
 TOCTitle: PacketLossRateMax element
 ms:assetid: 26a34ada-139b-380e-cae6-6badbfa9af65
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439249(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439249(v=office.15)
 ms:contentKeyID: 57260985
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: calendarData/WorkingHoursStartTimeInMinutes element
 TOCTitle: calendarData/WorkingHoursStartTimeInMinutes element
 ms:assetid: c56f5283-ba0f-4260-a5b8-5c8fc5e67aa6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454697(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454697(v=office.15)
 ms:contentKeyID: 57093388
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: What is the Lync SDN API 2.0?
 TOCTitle: What is the Lync SDN API 2.0?
 ms:assetid: fba44310-0618-4662-8117-44c3b1ebe57b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439292(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439292(v=office.15)
 ms:contentKeyID: 57261028
 ms.date: 07/24/2014
 mtps_version: v=office.15

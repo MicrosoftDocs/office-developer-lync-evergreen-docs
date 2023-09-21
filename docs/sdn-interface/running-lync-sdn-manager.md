@@ -2,7 +2,7 @@
 title: Running Lync SDN Manager
 TOCTitle: Running Lync SDN Manager
 ms:assetid: 41743ca0-f297-4e11-8bd3-27bab2f4baee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785214(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785214(v=office.15)
 ms:contentKeyID: 62952698
 ms.date: 02/16/2015
 mtps_version: v=office.15

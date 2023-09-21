@@ -2,7 +2,7 @@
 title: 'UCMA 3.0 Core applications: Coexistence and deployment scenarios'
 TOCTitle: 'UCMA 3.0 Core applications: Coexistence and deployment scenarios'
 ms:assetid: 90b3c204-a67e-4604-aea2-b2c0c8be51d2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466145(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466145(v=office.15)
 ms:contentKeyID: 57103596
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -43,11 +43,11 @@ For more information about activating a UCMA 3.0 application, see [Activating a 
 
 ## Direct deployment of a UCMA 3.0 Core application in a pure Office Communications Server 2007 R2 topology
 
-There is only limited support for UCMA 3.0 applications deployed in a pure Office Communications Server 2007 R2 topology. Specifically, only endpoints of type [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) are supported; applications that use endpoints of type [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) are not supported. Only person-to-person IM and IM conferencing are supported; audio is not supported. IM Conference Scheduling is supported, escalating a two-party IM call to an IM conference is supported, and IM conference joining are supported.
+There is only limited support for UCMA 3.0 applications deployed in a pure Office Communications Server 2007 R2 topology. Specifically, only endpoints of type [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) are supported; applications that use endpoints of type [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)) are not supported. Only person-to-person IM and IM conferencing are supported; audio is not supported. IM Conference Scheduling is supported, escalating a two-party IM call to an IM conference is supported, and IM conference joining are supported.
 
 In general, a user object or contact object for a UCMA 3.0 application that is not homed on Lync Server 2010 or later, is not supported.
 
 UCMA 3.0 features that depend on Lync Server 2010 are not supported if the application is deployed against Office Communications Server 2007 R2.
 
-Because the UCMA 3.0 application is deployed against Office Communications Server 2007 R2, it should be deployed as if it were a UCMA 2.0 application. For more information, see [Deploying a UCMA 2.0 Core Application](http://msdn.microsoft.com/en-us/library/dd280155\(v=office.13\).aspx).
+Because the UCMA 3.0 application is deployed against Office Communications Server 2007 R2, it should be deployed as if it were a UCMA 2.0 application. For more information, see [Deploying a UCMA 2.0 Core Application](http://msdn.microsoft.com/library/dd280155\(v=office.13\).aspx).
 

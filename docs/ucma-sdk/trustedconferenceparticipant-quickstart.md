@@ -2,7 +2,7 @@
 title: TrustedConferenceParticipant (QuickStart)
 TOCTitle: TrustedConferenceParticipant (QuickStart)
 ms:assetid: 66642dc8-9204-4bc6-a69a-95e4380704f3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454831(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454831(v=office.15)
 ms:contentKeyID: 57103762
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -37,7 +37,7 @@ The application establishes an application endpoint and impersonates a user who 
 
 - Microsoft Lync Server 2013.
 
-- Provisioned trusted [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.15\)) object
+- Provisioned trusted [ApplicationEndpoint](https://msdn.microsoft.com/library/hh384825\(v=office.15\)) object
 
 - A currently logged-on client on Lync Server 2013.
 

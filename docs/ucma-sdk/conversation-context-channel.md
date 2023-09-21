@@ -2,7 +2,7 @@
 title: Conversation context channel
 TOCTitle: Conversation context channel
 ms:assetid: a09a4e37-02f8-4a13-bb29-527dbd5ba086
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466012(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466012(v=office.15)
 ms:contentKeyID: 57102991
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ dev_langs:
 
  
 
-The [ConversationContextChannel](https://msdn.microsoft.com/en-us/library/hh161849\(v=office.15\)) class enables a endpoint to launch and interact with a Conversation Extension window in Lync 2013.
+The [ConversationContextChannel](https://msdn.microsoft.com/library/hh161849\(v=office.15\)) class enables a endpoint to launch and interact with a Conversation Extension window in Lync 2013.
 
 ## Registering an application extension for a conversation context channel
 
@@ -77,7 +77,7 @@ Before a **ConversationContextChannel** instance can be used, it must first be c
 
 ### Creating a ConversationContextChannel instance
 
-To create a **ConversationContextChannel** instance, call its constructor with the conversation it will be part of and the remote participant endpoint it will communicate with. The conversation is used for two purposes. First, it dictates the lifetime of the channel. As a result, when the last call or conference in the conversation is terminated, the channel is also terminated. Second, by default, the remote endpoint uses the ID of this conversation to choose the conversation window for the application. If the remote application should be launched in a different conversation window, set the value of the [RemoteConversationId](https://msdn.microsoft.com/en-us/library/hh383368\(v=office.15\)) property to the ID of the conversation with which you want it to be associated.
+To create a **ConversationContextChannel** instance, call its constructor with the conversation it will be part of and the remote participant endpoint it will communicate with. The conversation is used for two purposes. First, it dictates the lifetime of the channel. As a result, when the last call or conference in the conversation is terminated, the channel is also terminated. Second, by default, the remote endpoint uses the ID of this conversation to choose the conversation window for the application. If the remote application should be launched in a different conversation window, set the value of the [RemoteConversationId](https://msdn.microsoft.com/library/hh383368\(v=office.15\)) property to the ID of the conversation with which you want it to be associated.
 
 Next, register for events on the channel. The following example creates a **ConversationContextChannel** instance.
 
@@ -114,7 +114,7 @@ establishOptions.ContextualData = ″My data″;
 conversationContextChannel.BeginEstablish(guid, establishOptions, this.EstablishCompleted, null);
 ```
 
-[BeginEstablish(Guid, ConversationContextChannelEstablishOptions, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh384061\(v=office.15\)) causes a SIP INVITE message to be sent to the remote participant endpoint. The INVITE message contains a body with content type = "application/ms-session-invite+xml" and appears similar to the following.
+[BeginEstablish(Guid, ConversationContextChannelEstablishOptions, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh384061\(v=office.15\)) causes a SIP INVITE message to be sent to the remote participant endpoint. The INVITE message contains a body with content type = "application/ms-session-invite+xml" and appears similar to the following.
 
     <session>
       <application-id>{40499119-4B60-45A6-9A7A-DC7A384D5670} </application-id>
@@ -149,7 +149,7 @@ The Contact Center sample treats the context channel as optional and hence ignor
 
 ### Exchanging messages
 
-After the channel is established it can be used to send or receive data. To send data, call [BeginSendData(ContentType, \[\], AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh383530\(v=office.15\)) with custom content type and body. To receive data, register for notification of the [DataReceived](https://msdn.microsoft.com/en-us/library/hh383082\(v=office.15\)) event, and write a handler for this event.
+After the channel is established it can be used to send or receive data. To send data, call [BeginSendData(ContentType, \[\], AsyncCallback, Object)](https://msdn.microsoft.com/library/hh383530\(v=office.15\)) with custom content type and body. To receive data, register for notification of the [DataReceived](https://msdn.microsoft.com/library/hh383082\(v=office.15\)) event, and write a handler for this event.
 
 The following example shows a typical call to **BeginSendData**, and the outline of a handler for the **DataReceived** event.
 
@@ -172,7 +172,7 @@ conversationContextChannel_DataReceived(object sender, ConversationContextChanne
 
 The **ConversationContextChannel** can be terminated in the following ways after the channel is established:
 
-  - [BeginTerminate(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh383868\(v=office.15\)) is called on the channel.
+  - [BeginTerminate(AsyncCallback, Object)](https://msdn.microsoft.com/library/hh383868\(v=office.15\)) is called on the channel.
 
   - The conversation that the **ConversationContextChannel** is bound to is terminated either explicitly or when all calls or conferences are terminated.
 
@@ -182,11 +182,11 @@ The **ConversationContextChannel** can be terminated in the following ways after
 
 ## ConversationContextChannel state transitions
 
-The **ConversationContextChannel** state transitions are shown in the following illustration. The state values are the members of the [ConversationContextChannelState](https://msdn.microsoft.com/en-us/library/hh349729\(v=office.15\)) enumerated type.
+The **ConversationContextChannel** state transitions are shown in the following illustration. The state values are the members of the [ConversationContextChannelState](https://msdn.microsoft.com/library/hh349729\(v=office.15\)) enumerated type.
 
 ![ContextChannel states](images/Dn466012.StateMach_ContextChannel(Office.15).jpg "ContextChannel states")
 
-1.  The transition from **Idle** to **Establishing** occurs when [BeginEstablish(Guid, ConversationContextChannelEstablishOptions, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh384061\(v=office.15\)) is called.
+1.  The transition from **Idle** to **Establishing** occurs when [BeginEstablish(Guid, ConversationContextChannelEstablishOptions, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh384061\(v=office.15\)) is called.
 
 2.  The transition from **Idle** to **Terminating** occurs when **BeginTerminate(AsycnCallback, Object)** is called without the channel being established.
 

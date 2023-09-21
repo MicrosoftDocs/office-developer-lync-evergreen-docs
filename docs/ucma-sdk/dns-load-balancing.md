@@ -2,7 +2,7 @@
 title: DNS load balancing
 TOCTitle: DNS load balancing
 ms:assetid: c9a63210-ada3-4a93-aa57-4fdbe0a95dc2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465931(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465931(v=office.15)
 ms:contentKeyID: 57102425
 ms.date: 07/25/2014
 mtps_version: v=office.15

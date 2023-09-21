@@ -2,7 +2,7 @@
 title: calendarData/WorkingHours/DaylightTime element
 TOCTitle: calendarData/WorkingHours/DaylightTime element
 ms:assetid: de33b6e5-c1b8-4c13-a52f-409099786887
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454701(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454701(v=office.15)
 ms:contentKeyID: 57093387
 ms.date: 07/24/2014
 mtps_version: v=office.15

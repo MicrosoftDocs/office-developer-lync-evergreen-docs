@@ -2,7 +2,7 @@
 title: OverallAvgNetworkMOS element  (Lync SDN API Schema A)
 TOCTitle: OverallAvgNetworkMOS element
 ms:assetid: e5093a51-3d7b-be87-5ed6-f507930c8bab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439246(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439246(v=office.15)
 ms:contentKeyID: 57260982
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Category instance elements for presence
 TOCTitle: Category instance elements for presence
 ms:assetid: 5facc3be-1b40-41c9-9f2d-80a58d0ab973
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454693(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454693(v=office.15)
 ms:contentKeyID: 57093347
 ms.date: 07/24/2014
 mtps_version: v=office.15

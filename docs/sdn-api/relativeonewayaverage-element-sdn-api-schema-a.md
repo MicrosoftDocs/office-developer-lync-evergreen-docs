@@ -2,7 +2,7 @@
 title: RelativeOneWayAverage element (Lync SDN API Schema A)
 TOCTitle: RelativeOneWayAverage element
 ms:assetid: 0348bec9-9da1-c1a3-7624-2bfe38923813
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439258(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439258(v=office.15)
 ms:contentKeyID: 57260994
 ms.date: 07/24/2014
 mtps_version: v=office.15

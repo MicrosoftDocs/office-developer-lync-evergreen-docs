@@ -2,7 +2,7 @@
 title: Key concepts of Lync Server 2013 Persistent Chat SDK
 TOCTitle: Key concepts
 ms:assetid: dd457a91-5abd-4f98-bb5e-a86da06f5045
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465894(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465894(v=office.15)
 ms:contentKeyID: 57101348
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -54,7 +54,7 @@ The following roles are defined for chat rooms:
     A user that has permission to modify the role lists and change the settings of a persistent chat room. A user in the **Manager** role cannot join the chat room unless the user is also in the **Member** role.
 
   - **Presenter**  
-    When a chat room is of the auditorium type (that is, when the [IsAuditorium](https://msdn.microsoft.com/en-us/library/jj266864\(v=office.15\)) property is set to **true** in the room) a user can be a presenter or regular member in the chat room. The default value of this setting is false. However, if the value is set to true, the chat room only permits users who are granted the role of presenter to post messages in the chat room. All members can join and read messages, but permission to post new messages is restricted in this scenario.
+    When a chat room is of the auditorium type (that is, when the [IsAuditorium](https://msdn.microsoft.com/library/jj266864\(v=office.15\)) property is set to **true** in the room) a user can be a presenter or regular member in the chat room. The default value of this setting is false. However, if the value is set to true, the chat room only permits users who are granted the role of presenter to post messages in the chat room. All members can join and read messages, but permission to post new messages is restricted in this scenario.
 
 Similarly, a chat room category also defines a set of roles. The roles on a category serve a dual purpose. First, they define the default role list of child nodes in the category. Second, they grant specific permissions for actions on the category.
 
@@ -70,7 +70,7 @@ Unlike what was referenced in Microsoft Lync Server 2010, scope now refers to al
 
 ## User and user groups
 
-Microsoft Lync Server 2013 Persistent Chat supports Active Directory users and user groups for the purpose of defining roles and scope on Persistent Chat rooms and chat room categories. Users and user groups are collectively referred to as principals when they are used for Persistent Chat administration. In addition to being used for defining roles and scope, a principal can be granted one or more roles in a chat room. The supported roles are enumerated in the [ChatRoomRole](https://msdn.microsoft.com/en-us/library/jj266929\(v=office.15\)) type.
+Microsoft Lync Server 2013 Persistent Chat supports Active Directory users and user groups for the purpose of defining roles and scope on Persistent Chat rooms and chat room categories. Users and user groups are collectively referred to as principals when they are used for Persistent Chat administration. In addition to being used for defining roles and scope, a principal can be granted one or more roles in a chat room. The supported roles are enumerated in the [ChatRoomRole](https://msdn.microsoft.com/library/jj266929\(v=office.15\)) type.
 
   - **AD User**  
     Any user defined in Active Directory who is SIP enabled for Microsoft Lync Server 2013 can participate in a Persistent Chat.

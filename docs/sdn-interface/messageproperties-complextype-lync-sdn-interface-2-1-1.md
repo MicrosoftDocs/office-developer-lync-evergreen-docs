@@ -2,7 +2,7 @@
 title: MessageProperties complexType (Lync SDN Interface 2.1.1)
 TOCTitle: MessageProperties complexType
 ms:assetid: ce2e4c5b-837e-2ec3-b608-f35fb60a1bc1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912856(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912856(v=office.15)
 ms:contentKeyID: 64127025
 ms.date: 02/16/2015
 mtps_version: v=office.15

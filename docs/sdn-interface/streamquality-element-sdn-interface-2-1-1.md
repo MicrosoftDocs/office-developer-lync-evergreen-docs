@@ -2,7 +2,7 @@
 title: StreamQuality element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: StreamQuality element
 ms:assetid: e734cdea-66f2-f8b8-e3e2-bae1b9ab0771
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912827(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912827(v=office.15)
 ms:contentKeyID: 64126995
 ms.date: 02/16/2015
 mtps_version: v=office.15

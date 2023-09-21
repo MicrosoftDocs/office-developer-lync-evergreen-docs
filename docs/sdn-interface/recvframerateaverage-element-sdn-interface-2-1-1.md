@@ -2,7 +2,7 @@
 title: RecvFrameRateAverage element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: RecvFrameRateAverage element
 ms:assetid: 39d86695-4264-85bd-9a7a-a7aa552bfb3f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912794(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912794(v=office.15)
 ms:contentKeyID: 64126963
 ms.date: 02/16/2015
 mtps_version: v=office.15

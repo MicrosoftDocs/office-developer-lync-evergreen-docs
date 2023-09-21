@@ -2,7 +2,7 @@
 title: MediaProvider and Call architecture
 TOCTitle: MediaProvider and Call architecture
 ms:assetid: e9fa4c2e-afd4-45f1-95a8-995a3871f05d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466101(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466101(v=office.15)
 ms:contentKeyID: 57103295
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
  
 
-The [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.15\)) abstract class is intended to provide an abstraction of the link between the Signaling layer and Session Description Protocol (SDP) negotiation. A **MediaProvider** subclass facilitates offer/answer negotiation in a signaling session when an application initiates an outgoing call or accepts an incoming call. The [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.15\)) abstract class is intended to provide an abstraction of a call that uses a particular media type. A **Call** subclass instance invokes methods on the associated **MediaProvider** subclass instance to get an offer or answer, or to set an answer on the associated **MediaProvider** subclass instance.
+The [MediaProvider](https://msdn.microsoft.com/library/hh383767\(v=office.15\)) abstract class is intended to provide an abstraction of the link between the Signaling layer and Session Description Protocol (SDP) negotiation. A **MediaProvider** subclass facilitates offer/answer negotiation in a signaling session when an application initiates an outgoing call or accepts an incoming call. The [Call](https://msdn.microsoft.com/library/hh384235\(v=office.15\)) abstract class is intended to provide an abstraction of a call that uses a particular media type. A **Call** subclass instance invokes methods on the associated **MediaProvider** subclass instance to get an offer or answer, or to set an answer on the associated **MediaProvider** subclass instance.
 
 If your application is intended to work with media types other than the standard media types built into UCMA 4.0, message, audio, and image, you will need to create non-abstract classes that inherit from the **MediaProvider** and **Call** classes. This topic describes the how the **MediaProvider** and **Call** subclass instances must interact so that your application operates successfully.
 
@@ -63,7 +63,7 @@ The following table lists the **MediaProvider** properties that define the behav
 
 ### Methods that handle SDP offer/answer negotiation
 
-A key role of a class derived from the **MediaProvider** class is to participate in SDP offer/answer negotiation for a **Call**. A typical **MediaProvider** subclass, such as the **AudioVideoProvider** class, also manages the [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.15\)) instance (media session) associated with the **Call**. This section describes the most important **MediaProvider** methods related to offer/answer negotiation.
+A key role of a class derived from the **MediaProvider** class is to participate in SDP offer/answer negotiation for a **Call**. A typical **MediaProvider** subclass, such as the **AudioVideoProvider** class, also manages the [MediaFlow](https://msdn.microsoft.com/library/hh366262\(v=office.15\)) instance (media session) associated with the **Call**. This section describes the most important **MediaProvider** methods related to offer/answer negotiation.
 
 
 > [!NOTE]
@@ -84,39 +84,39 @@ A key role of a class derived from the **MediaProvider** class is to participate
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh366051(v=office.15)">BeginGetOffer(OfferAnswerContext, Collection&lt;SdpContentDescription&gt;, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh366051(v=office.15)">BeginGetOffer(OfferAnswerContext, Collection&lt;SdpContentDescription&gt;, AsyncCallback, Object)</a></p></td>
 <td><p>Initiates an operation to get the initial offer from the <strong>MediaProvider</strong> implementation.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh382852(v=office.15)">EndGetOffer(IAsyncResult)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh382852(v=office.15)">EndGetOffer(IAsyncResult)</a></p></td>
 <td><p>Completes the operation started by <strong>BeginGetOffer</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh384479(v=office.15)">BeginGetAnswer(OfferAnswerContext, SdpOffer, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh384479(v=office.15)">BeginGetAnswer(OfferAnswerContext, SdpOffer, AsyncCallback, Object)</a></p></td>
 <td><p>Initiates an operation to get an answer from the <strong>MediaProvider</strong> implementation for the incoming offer.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh383856(v=office.15)">EndGetAnswer(IAsyncResult)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh383856(v=office.15)">EndGetAnswer(IAsyncResult)</a></p></td>
 <td><p>Completes the operation started by <strong>BeginGetAnswer</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh382509(v=office.15)">SetAnswer(OfferAnswerContext, SdpOffer, SdpAnswer)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh382509(v=office.15)">SetAnswer(OfferAnswerContext, SdpOffer, SdpAnswer)</a></p></td>
 <td><p>Sets the incoming answer on the <strong>MediaProvider</strong> implementation.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh366290(v=office.15)">SetIncomingCallOffer(OfferAnswerContext, SdpOffer)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh366290(v=office.15)">SetIncomingCallOffer(OfferAnswerContext, SdpOffer)</a></p></td>
 <td><p>Sets the initial offer on the <strong>MediaProvider</strong> without requesting an answer.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh384458(v=office.15)">BeginSdpRenegotiation(CallDialogContext, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh384458(v=office.15)">BeginSdpRenegotiation(CallDialogContext, AsyncCallback, Object)</a></p></td>
 <td><p>Begins SDP renegotiation for a given <strong>CallDialogContext</strong> value.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh350151(v=office.15)">EndSdpRenegotiation(IAsyncResult)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh350151(v=office.15)">EndSdpRenegotiation(IAsyncResult)</a></p></td>
 <td><p>Ends the asynchronous operation started by the <strong>BeginSdpRenegotiation</strong> method.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh350168(v=office.15)">RaiseFlowConfigurationRequestedHandler(OfferAnswerContext, FlowConfigurationRequestedEventArgs)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh350168(v=office.15)">RaiseFlowConfigurationRequestedHandler(OfferAnswerContext, FlowConfigurationRequestedEventArgs)</a></p></td>
 <td><p>Raises the <strong>FlowConfigurationRequested</strong> event.</p></td>
 </tr>
 </tbody>
@@ -140,19 +140,19 @@ The abstract methods shown in the following table must be implemented in a class
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh384611(v=office.15)">BeginTerminateCall(CallDialogContext, IEnumerable&lt;SignalingHeader&gt;, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh384611(v=office.15)">BeginTerminateCall(CallDialogContext, IEnumerable&lt;SignalingHeader&gt;, AsyncCallback, Object)</a></p></td>
 <td><p>Begins an asynchronous operation to terminate the associated call.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh383675(v=office.15)">EndTerminateCall(IAsyncResult)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh383675(v=office.15)">EndTerminateCall(IAsyncResult)</a></p></td>
 <td><p>Completes the asynchronous operation started by <strong>BeginTerminateCall</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh350188(v=office.15)">BeginTerminateMedia(CallDialogContext, Boolean, AsyncCallback, Object)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh350188(v=office.15)">BeginTerminateMedia(CallDialogContext, Boolean, AsyncCallback, Object)</a></p></td>
 <td><p>Begins an asynchronous operation to terminate media session.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh349351(v=office.15)">EndTerminateMedia(IAsyncResult)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh349351(v=office.15)">EndTerminateMedia(IAsyncResult)</a></p></td>
 <td><p>Completes the asynchronous operation started by <strong>BeginTerminateMedia</strong>.</p></td>
 </tr>
 </tbody>
@@ -188,31 +188,31 @@ This scenario describes the steps involved in handling an incoming SDP renegotia
 3.  The **Call** instance invokes **EndGetAnswer** and expects the **MediaProvider** instance to return the SDP answer. The **SdpAnswer** object returned by **EndGetOffer** is used in response to an incoming negotiation request.
 
 
-Whenever a **MediaProvider** subclass object, such as an **AudioVideoMediaProvider** instance, intends to renegotiate SDP, it calls the [BeginSdpRenegotiation(CallDialogContext, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh384458\(v=office.15\)) method to notify the associated non-abstract **Call** subclass instance to start SDP renegotiation. Any collision of renegotiation is handled by the **Call** instance.
+Whenever a **MediaProvider** subclass object, such as an **AudioVideoMediaProvider** instance, intends to renegotiate SDP, it calls the [BeginSdpRenegotiation(CallDialogContext, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh384458\(v=office.15\)) method to notify the associated non-abstract **Call** subclass instance to start SDP renegotiation. Any collision of renegotiation is handled by the **Call** instance.
 
 Whenever the **Call** object receives a message in an existing session and the message is not to the **Call** object itself, the message is delivered to the **MediaProvider** instance by a call to **HandleMessageReceived(MessageReceivedEventArgs)**. If the **MediaProvider** instance takes no action on the message, it is forwarded to the application. If a delegate for the application also takes no action on the message, the **Call** instance rejects the message. In Microsoft Unified Communications Managed API (UCMA) 2.0 and later versions, the **AudioVideoProvider** and **InstantMessagingProvider** implementations are internal, but are tied into the platform architecture as described in the following diagram.
 
 
 > [!NOTE]
-> <P>The numbers at the ends of the horizontal arrows indicate the number of objects of one type that can be paired with the other type. For example, a <A href="https://msdn.microsoft.com/en-us/library/hh349224(v=office.15)">Conversation</A> instance can be associated with multiple <STRONG>Call</STRONG> instances.</P>
+> <P>The numbers at the ends of the horizontal arrows indicate the number of objects of one type that can be paired with the other type. For example, a <A href="https://msdn.microsoft.com/library/hh349224(v=office.15)">Conversation</A> instance can be associated with multiple <STRONG>Call</STRONG> instances.</P>
 
 
 
 ![AudioVideoProvider and InstantMessagingProvider](images/Dn466101.Call_MediaProvider(Office.15).jpg "AudioVideoProvider and InstantMessagingProvider")
 
-In addition to simple SDP negotiation for simple two-party calls, the **MediaProvider** instance also provides a mechanism for escalating a two-party call to multiparty conferencing. For information about escalating a two-party call to a conference, see [Escalating to a Conference](https://msdn.microsoft.com/en-us/library/dd279769\(v=office.15\)).
+In addition to simple SDP negotiation for simple two-party calls, the **MediaProvider** instance also provides a mechanism for escalating a two-party call to multiparty conferencing. For information about escalating a two-party call to a conference, see [Escalating to a Conference](https://msdn.microsoft.com/library/dd279769\(v=office.15\)).
 
 ## SdpContentDescription and offer/answer
 
-The constructors for the [SdpOffer](https://msdn.microsoft.com/en-us/library/hh350150\(v=office.15\)) and [SdpAnswer](https://msdn.microsoft.com/en-us/library/hh349319\(v=office.15\)) classes all have parameters of type [SdpContentDescription](https://msdn.microsoft.com/en-us/library/hh385010\(v=office.15\)), a class that inherits from the [ContentDescription](https://msdn.microsoft.com/en-us/library/hh382823\(v=office.15\)) class. The **ContentDescription** class contains the [ContentType](https://msdn.microsoft.com/en-us/library/hh161892\(v=office.15\)) property and a [GetBody()](https://msdn.microsoft.com/en-us/library/hh349134\(v=office.15\)) method, which returns the content body. An important distinction between **SdpOffer** and **SdpAnswer** is that an **SdpOffer** instance can contain multiple SDP offers, while an **SdpAnswer** instance can contain only one SDP answer.
+The constructors for the [SdpOffer](https://msdn.microsoft.com/library/hh350150\(v=office.15\)) and [SdpAnswer](https://msdn.microsoft.com/library/hh349319\(v=office.15\)) classes all have parameters of type [SdpContentDescription](https://msdn.microsoft.com/library/hh385010\(v=office.15\)), a class that inherits from the [ContentDescription](https://msdn.microsoft.com/library/hh382823\(v=office.15\)) class. The **ContentDescription** class contains the [ContentType](https://msdn.microsoft.com/library/hh161892\(v=office.15\)) property and a [GetBody()](https://msdn.microsoft.com/library/hh349134\(v=office.15\)) method, which returns the content body. An important distinction between **SdpOffer** and **SdpAnswer** is that an **SdpOffer** instance can contain multiple SDP offers, while an **SdpAnswer** instance can contain only one SDP answer.
 
-An **SdpOffer** instance contains a list of offers (the [Offers](https://msdn.microsoft.com/en-us/library/hh381830\(v=office.15\)) property) that have been received or are being sent out.
+An **SdpOffer** instance contains a list of offers (the [Offers](https://msdn.microsoft.com/library/hh381830\(v=office.15\)) property) that have been received or are being sent out.
 
-Incoming offers can be accepted as multiple offers in a multipart/mime message body or as a single offer in message with SDP content type. If SDP offers are present within the multipart/mime section, the **Call** instance extracts them from the multipart/mime content and presents the list to the **MediaProvider** instance. If the offer’s **ContentType** is "sdp" there should be only one offer in the **Offers** list. The [MessageHeaders](https://msdn.microsoft.com/en-us/library/hh385218\(v=office.15\)) property on the **SdpOffer** instance should contain a list of incoming headers received on the offer.
+Incoming offers can be accepted as multiple offers in a multipart/mime message body or as a single offer in message with SDP content type. If SDP offers are present within the multipart/mime section, the **Call** instance extracts them from the multipart/mime content and presents the list to the **MediaProvider** instance. If the offer’s **ContentType** is "sdp" there should be only one offer in the **Offers** list. The [MessageHeaders](https://msdn.microsoft.com/library/hh385218\(v=office.15\)) property on the **SdpOffer** instance should contain a list of incoming headers received on the offer.
 
 For an outgoing offer, if there is only one offer in the list, the offer should be sent out with **ContentType** set to "sdp"; otherwise a multipart/mime offer should be created from the list of offers. The **MessageHeaders** property on the **SdpOffer** instance should contain the list of additional SIP headers that will be included as message headers with the offer message.
 
-For an outgoing answer, the [Answer](https://msdn.microsoft.com/en-us/library/hh382015\(v=office.15\)) property on the **SdpAnswer** instance represents the answer that has been received. The [MessageHeaders](https://msdn.microsoft.com/en-us/library/hh385315\(v=office.15\)) property on the **SdpAnswer** instance contains the list of additional SIP headers that the **MediaProvider** instance needs to send out with the answer.
+For an outgoing answer, the [Answer](https://msdn.microsoft.com/library/hh382015\(v=office.15\)) property on the **SdpAnswer** instance represents the answer that has been received. The [MessageHeaders](https://msdn.microsoft.com/library/hh385315\(v=office.15\)) property on the **SdpAnswer** instance contains the list of additional SIP headers that the **MediaProvider** instance needs to send out with the answer.
 
 The following figure illustrates the relationship between **SdpAnswer**, **SdpOffer**, and **SdpContentDescription** objects.
 

@@ -2,7 +2,7 @@
 title: services/service/capabilities/isfInk element
 TOCTitle: services/service/capabilities/isfInk element
 ms:assetid: 3db88d05-5780-4cba-9d19-5abb814f7f8a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454792(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454792(v=office.15)
 ms:contentKeyID: 57093729
 ms.date: 07/24/2014
 mtps_version: v=office.15

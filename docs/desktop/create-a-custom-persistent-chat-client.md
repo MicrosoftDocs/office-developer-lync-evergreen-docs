@@ -2,7 +2,7 @@
 title: Create a custom Persistent Chat client
 TOCTitle: Create a custom Persistent Chat client
 ms:assetid: 70542183-dd35-454a-beac-6617dd1e0498
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933074(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933074(v=office.15)
 ms:contentKeyID: 50877204
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -37,7 +37,7 @@ Additional resources</p></td>
 
 ## Persistent Chat room client scenario
 
-A typical scenario where you use the classes in the [Microsoft.Lync.Model.Room](https://msdn.microsoft.com/en-us/library/jj277187\(v=office.15\)) namespace is to create a chat room client in your own application. The design of your chat room UI is completely up to you. However, it should contain several basic UI features. These features include the following:
+A typical scenario where you use the classes in the [Microsoft.Lync.Model.Room](https://msdn.microsoft.com/library/jj277187\(v=office.15\)) namespace is to create a chat room client in your own application. The design of your chat room UI is completely up to you. However, it should contain several basic UI features. These features include the following:
 
   - A selectable chat room list whose source is the Lync contact list.
 
@@ -78,7 +78,7 @@ Figure 1 shows the Persistent Chat window that is discussed in this topic. The e
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>This example uses a ListBox control, which ignores RTF formatting codes in messages posted to a room. For more information, see <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.listbox.aspx">ListBox Class</a>.</p></td>
+    <td><p>This example uses a ListBox control, which ignores RTF formatting codes in messages posted to a room. For more information, see <a href="http://msdn.microsoft.com/library/system.windows.forms.listbox.aspx">ListBox Class</a>.</p></td>
     </tr>
     </tbody>
     </table>
@@ -102,7 +102,7 @@ This topic does not explore the code details for the UI controls that appear in 
 
 ## Chat room details
 
-After you create the UI control elements that appear in figure 1, the topics in the following table show how to add the content for the controls with values obtained from a [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) instance, post messages to a chat room, and respond to events from the chat room.
+After you create the UI control elements that appear in figure 1, the topics in the following table show how to add the content for the controls with values obtained from a [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/library/jj266467\(v=office.15\)) instance, post messages to a chat room, and respond to events from the chat room.
 
 <table>
 <colgroup>

@@ -2,7 +2,7 @@
 title: ConversationId element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: ConversationId element
 ms:assetid: b739d540-3b37-93f1-f345-f93ffed8ef2d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912699(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912699(v=office.15)
 ms:contentKeyID: 64126868
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: otherOptions/Permissions/callLogAutoArchiving element
 TOCTitle: otherOptions/Permissions/callLogAutoArchiving element
 ms:assetid: e4fab848-9e2d-4a43-b91e-b7940931bc75
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454765(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454765(v=office.15)
 ms:contentKeyID: 57093652
 ms.date: 07/24/2014
 mtps_version: v=office.15

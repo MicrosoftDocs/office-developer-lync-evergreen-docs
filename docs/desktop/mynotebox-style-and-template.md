@@ -2,7 +2,7 @@
 title: MyNoteBox style and template
 TOCTitle: MyNoteBox style and template
 ms:assetid: 455d5856-6391-4f42-8b09-542ffcc79633
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937324(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937324(v=office.15)
 ms:contentKeyID: 50877157
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ description: Master the MyNoteBox control with our detailed guide. Learn to modi
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the style and template for the [MyNoteBox](https://msdn.microsoft.com/en-us/library/hh346137\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the style and template for the [MyNoteBox](https://msdn.microsoft.com/library/hh346137\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -21,7 +21,7 @@ Learn about the style and template for the [MyNoteBox](https://msdn.microsoft.co
 
  
 
-There are no states or [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the MyNoteBox control.
+There are no states or [Style](http://msdn.microsoft.com/library/system.windows.style\(vs.95\).aspx) properties for the MyNoteBox control.
 
 ![MyNoteBox Control](images/JJ937324.MyNoteBoxControl(Office.15).png "MyNoteBox Control")
 
@@ -45,12 +45,12 @@ The following table lists the named parts for the MyNoteBox control.
 <tbody>
 <tr class="odd">
 <td><p>EditNoteToggleButton</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.primitives.togglebutton.aspx">ToggleButton</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.primitives.togglebutton.aspx">ToggleButton</a></p></td>
 <td><p>A button that switches the note state.</p></td>
 </tr>
 <tr class="even">
 <td><p>NoteEditTextBox</p></td>
-<td><p><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.textbox.aspx">TextBox</a></p></td>
+<td><p><a href="http://msdn.microsoft.com/library/system.windows.controls.textbox.aspx">TextBox</a></p></td>
 <td><p>Use this part to display or edit the note.</p></td>
 </tr>
 </tbody>

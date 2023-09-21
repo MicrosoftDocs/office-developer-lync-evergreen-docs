@@ -2,7 +2,7 @@
 title: Get started with Lync contact lists
 TOCTitle: Lync contact lists
 ms:assetid: 3b289224-a055-4138-ba7c-f665920949d5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937302(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937302(v=office.15)
 ms:contentKeyID: 50877130
 ms.date: 02/11/2016
 mtps_version: v=office.15
@@ -104,10 +104,10 @@ The following table lists basic tasks for working with Lync contact lists.
 </tr>
 <tr class="even">
 <td><p><a href="how-to-display-a-contact-list.md">How to: Display a contact list</a></p></td>
-<td><p>Shows how to use members of the <a href="https://msdn.microsoft.com/en-us/library/hh380319(v=office.15)">Microsoft.Lync.Model</a> namespace to provide contact presence and presence updates to build a custom Lync contact list UI.</p></td>
+<td><p>Shows how to use members of the <a href="https://msdn.microsoft.com/library/hh380319(v=office.15)">Microsoft.Lync.Model</a> namespace to provide contact presence and presence updates to build a custom Lync contact list UI.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj933159(v=office.15)">How to: Search for a contact or distribution group</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj933159(v=office.15)">How to: Search for a contact or distribution group</a></p></td>
 <td><p>Shows how to search for Lync users and distribution groups by using Microsoft Lync 2013 SDK to programmatically add a contact and group feature to your code.</p></td>
 </tr>
 </tbody>

@@ -2,7 +2,7 @@
 title: Parsing server configuration
 TOCTitle: Parsing server configuration
 ms:assetid: 313eb2de-e73c-4f25-b173-f59670288746
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454660(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454660(v=office.15)
 ms:contentKeyID: 57093336
 ms.date: 07/24/2014
 mtps_version: v=office.15

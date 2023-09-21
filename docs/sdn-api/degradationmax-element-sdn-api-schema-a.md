@@ -2,7 +2,7 @@
 title: DegradationMax element (Lync SDN API Schema A)
 TOCTitle: DegradationMax element
 ms:assetid: 54c05f82-cce2-94e6-8641-71606d2cd19a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455025(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455025(v=office.15)
 ms:contentKeyID: 57260895
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Publishing Enhanced Presence
 TOCTitle: Publishing Enhanced Presence
 ms:assetid: 6e8bde81-e27f-48e7-8a8f-1dcc83480d6e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454646(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454646(v=office.15)
 ms:contentKeyID: 57093178
 ms.date: 07/24/2014
 mtps_version: v=office.15

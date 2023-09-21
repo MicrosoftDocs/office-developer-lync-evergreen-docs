@@ -2,7 +2,7 @@
 title: SubscribePresenceView (QuickStart)
 TOCTitle: SubscribePresenceView (QuickStart)
 ms:assetid: 4a3d3894-80f2-4553-b719-25cc7fce92fc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454838(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454838(v=office.15)
 ms:contentKeyID: 57103782
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ Sample location: %ProgramFiles%\\Microsoft UCMA 4.0\\SDK\\Core\\Sample Applicati
 
 ## Description
 
-The application initializes the platform and endpoint and subscribes to a target user. The application uses two [RemotePresenceView](https://msdn.microsoft.com/en-us/library/hh381152\(v=office.15\)) objects, each configured with different [RemotePresenceViewSubscriptionMode](https://msdn.microsoft.com/en-us/library/hh381952\(v=office.15\)) values: **Persistent** and **Polling**.
+The application initializes the platform and endpoint and subscribes to a target user. The application uses two [RemotePresenceView](https://msdn.microsoft.com/library/hh381152\(v=office.15\)) objects, each configured with different [RemotePresenceViewSubscriptionMode](https://msdn.microsoft.com/library/hh381952\(v=office.15\)) values: **Persistent** and **Polling**.
 
 After the subscription is complete, the application listens for incoming notifications from a user logged in to Microsoft Lync 2013 and displays the notifications in the console.
 

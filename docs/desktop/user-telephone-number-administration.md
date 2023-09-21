@@ -2,7 +2,7 @@
 title: User telephone number administration
 TOCTitle: User telephone number administration
 ms:assetid: 7d832dc3-0913-4382-9213-21697f0fac48
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933103(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933103(v=office.15)
 ms:contentKeyID: 50877236
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -44,13 +44,13 @@ Figure 1. Sample WPF form
   
 ![Screen shot of a phone manager sample](images/JJ933103.LyncClientSDK_UserPhoneNumberManagement(Office.15).jpg "Screen shot of a phone manager sample")
 
-Phone number administration is available through the [Microsoft.Lync.Model.Self](https://msdn.microsoft.com/en-us/library/jj277683\(v=office.15\)) class. The **Self** class encapsulates the user who is currently signed in to Lync 2013. **Self** exposes the properties, methods, and events that are used to fill the telephone list on the sample, keep the list up to date when a user changes a telephone number with the Lync 2013 client, and start telephone list update operations. Other publishable contact card information such as personal notes, availability, display photo URLs, and location names are also published by calling methods on the **Self** class.
+Phone number administration is available through the [Microsoft.Lync.Model.Self](https://msdn.microsoft.com/library/jj277683\(v=office.15\)) class. The **Self** class encapsulates the user who is currently signed in to Lync 2013. **Self** exposes the properties, methods, and events that are used to fill the telephone list on the sample, keep the list up to date when a user changes a telephone number with the Lync 2013 client, and start telephone list update operations. Other publishable contact card information such as personal notes, availability, display photo URLs, and location names are also published by calling methods on the **Self** class.
 
 For information about how to create a telephone administration UI, see [How to: Update and publish user telephone numbers in Lync SDK](how-to-update-and-publish-user-telephone-numbers-in-lync-sdk.md).
 
 ### Contact card telephone numbers
 
-The signed-in user is represented by the **Self** class and is represented by a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object obtained from the [Self.Contact](https://msdn.microsoft.com/en-us/library/jj275949\(v=office.15\)) property. This **Contact** object exposes a collection of telephone numbers for the local user and an event that is raised when the collection changes. The telephone number list that you get from the **Self** class might not be identical to the telephone number list you get from the **Contact** class for the same user. This is because the telephone number collection on the **Self** class includes telephone numbers that are not published on the user’s contact card. The telephone number list from the **Contact** object includes only numbers that are published on the contact card. If a user has entered a telephone number for each of the four telephone number types, but has published none of the numbers to the contact card, the **Contact** telephone number collection is empty while the **Self** telephone number collection has four telephone numbers.
+The signed-in user is represented by the **Self** class and is represented by a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object obtained from the [Self.Contact](https://msdn.microsoft.com/library/jj275949\(v=office.15\)) property. This **Contact** object exposes a collection of telephone numbers for the local user and an event that is raised when the collection changes. The telephone number list that you get from the **Self** class might not be identical to the telephone number list you get from the **Contact** class for the same user. This is because the telephone number collection on the **Self** class includes telephone numbers that are not published on the user’s contact card. The telephone number list from the **Contact** object includes only numbers that are published on the contact card. If a user has entered a telephone number for each of the four telephone number types, but has published none of the numbers to the contact card, the **Contact** telephone number collection is empty while the **Self** telephone number collection has four telephone numbers.
 
 <table>
 <colgroup>
@@ -63,7 +63,7 @@ The signed-in user is represented by the **Self** class and is represented by a 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>The contact card telephone number list is a list of all endpoints that a user can be reached on. This list includes the <a href="https://msdn.microsoft.com/en-us/library/jj275544(v=office.15)">ContactEndpointType</a><strong>.Lync</strong> and <a href="https://msdn.microsoft.com/en-us/library/jj275544(v=office.15)">ContactEndpointType</a><strong>.VoiceMail</strong>. These two types cannot be published or edited. For this reason, the types are not available from the <strong>Self</strong> class.</p></td>
+<td><p>The contact card telephone number list is a list of all endpoints that a user can be reached on. This list includes the <a href="https://msdn.microsoft.com/library/jj275544(v=office.15)">ContactEndpointType</a><strong>.Lync</strong> and <a href="https://msdn.microsoft.com/library/jj275544(v=office.15)">ContactEndpointType</a><strong>.VoiceMail</strong>. These two types cannot be published or edited. For this reason, the types are not available from the <strong>Self</strong> class.</p></td>
 </tr>
 </tbody>
 </table>

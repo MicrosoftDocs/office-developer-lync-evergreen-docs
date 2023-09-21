@@ -2,7 +2,7 @@
 title: ResponseCode element (ErrorProperties complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: ResponseCode element (ErrorProperties complexType)
 ms:assetid: da3a5114-ba5e-8d7c-9622-42aa6a8739d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912807(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912807(v=office.15)
 ms:contentKeyID: 64126977
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Installing UCMA 4.0 SDK
 TOCTitle: Installing UCMA 4.0 SDK
 ms:assetid: 717f597d-2845-4310-af5b-bdd158d55ab7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465970(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465970(v=office.15)
 ms:contentKeyID: 57102552
 ms.date: 07/25/2014
 mtps_version: v=office.15

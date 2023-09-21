@@ -2,7 +2,7 @@
 title: PacketLossRateMax element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: PacketLossRateMax element
 ms:assetid: f53c2b17-329f-db86-b63d-17062c68ff60
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912776(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912776(v=office.15)
 ms:contentKeyID: 64126946
 ms.date: 02/16/2015
 mtps_version: v=office.15

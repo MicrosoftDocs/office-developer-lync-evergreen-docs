@@ -2,7 +2,7 @@
 title: Accepting an incoming call
 TOCTitle: Accepting an incoming call
 ms:assetid: 22ccda70-841f-47c7-a6ed-c871dd9e71e0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466004(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466004(v=office.15)
 ms:contentKeyID: 57102967
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-To listen for incoming calls, an application must register the handler with [RegisterForIncomingCall\<TCall\>](https://msdn.microsoft.com/en-us/library/hh382399\(v=office.15\)). When an incoming INVITE is received on an endpoint, the endpoint uses the factory to create the appropriate type of call and raise the event to the application. The application can call [BeginAccept()](https://msdn.microsoft.com/en-us/library/hh383161\(v=office.15\)) to accept the call, or [Decline()](https://msdn.microsoft.com/en-us/library/hh348897\(v=office.15\)) to decline the call. If the incoming call contains MIME parts, the application must specify the accepted Content-ID values list on the call to **BeginAccept**.
+To listen for incoming calls, an application must register the handler with [RegisterForIncomingCall\<TCall\>](https://msdn.microsoft.com/library/hh382399\(v=office.15\)). When an incoming INVITE is received on an endpoint, the endpoint uses the factory to create the appropriate type of call and raise the event to the application. The application can call [BeginAccept()](https://msdn.microsoft.com/library/hh383161\(v=office.15\)) to accept the call, or [Decline()](https://msdn.microsoft.com/library/hh348897\(v=office.15\)) to decline the call. If the incoming call contains MIME parts, the application must specify the accepted Content-ID values list on the call to **BeginAccept**.
 
 ```csharp
 //Register the event handler to receive the incoming AudioVideoCall.

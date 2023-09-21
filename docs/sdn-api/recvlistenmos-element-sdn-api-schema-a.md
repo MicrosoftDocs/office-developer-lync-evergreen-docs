@@ -2,7 +2,7 @@
 title: RecvListenMOS element (Lync SDN API Schema A)
 TOCTitle: RecvListenMOS element
 ms:assetid: d17bb386-a60a-d9c9-51d8-94bc0d7b5710
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439254(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439254(v=office.15)
 ms:contentKeyID: 57260990
 ms.date: 07/24/2014
 mtps_version: v=office.15

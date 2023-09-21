@@ -2,7 +2,7 @@
 title: Hop element (RouteType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Hop element
 ms:assetid: aecbf57a-9223-77e7-84c2-f0af417de118
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912741(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912741(v=office.15)
 ms:contentKeyID: 64126911
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Enable stateful SIP applications (LoggingNotice sample)
 TOCTitle: Enable stateful SIP applications (LoggingNotice sample)
 ms:assetid: e37aa355-eed1-445d-9001-ba93ebe019a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439095(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439095(v=office.15)
 ms:contentKeyID: 57096248
 ms.date: 07/24/2014
 mtps_version: v=office.15

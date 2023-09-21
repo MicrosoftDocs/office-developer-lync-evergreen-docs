@@ -2,7 +2,7 @@
 title: 'How to: Configure garbage collection on the server'
 TOCTitle: 'How to: Configure garbage collection on the server'
 ms:assetid: 522d932d-6f76-4184-a67e-116ee0a83b69
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439085(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439085(v=office.15)
 ms:contentKeyID: 57096242
 ms.date: 07/24/2014
 mtps_version: v=office.15

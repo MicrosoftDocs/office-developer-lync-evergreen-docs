@@ -2,7 +2,7 @@
 title: Persistent Chat samples
 TOCTitle: Persistent Chat samples
 ms:assetid: 9e7e8204-2a48-498e-9c0e-c0acc629a7c6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933148(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933148(v=office.15)
 ms:contentKeyID: 50877284
 ms.date: 02/11/2016
 mtps_version: v=office.15

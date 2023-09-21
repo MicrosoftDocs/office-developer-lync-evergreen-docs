@@ -2,7 +2,7 @@
 title: Serialization of Enhanced Presence category instances
 TOCTitle: Serialization of Enhanced Presence category instances
 ms:assetid: 718dbc35-cfd4-4575-8fee-9345bf10155d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454685(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454685(v=office.15)
 ms:contentKeyID: 57093247
 ms.date: 07/24/2014
 mtps_version: v=office.15

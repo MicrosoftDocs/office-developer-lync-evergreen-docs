@@ -2,7 +2,7 @@
 title: Creating Enhanced Presence category instances
 TOCTitle: Creating Enhanced Presence category instances
 ms:assetid: 98009fe0-7e47-419a-ac0b-03c0b2a6bc11
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454651(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454651(v=office.15)
 ms:contentKeyID: 57092904
 ms.date: 07/24/2014
 mtps_version: v=office.15

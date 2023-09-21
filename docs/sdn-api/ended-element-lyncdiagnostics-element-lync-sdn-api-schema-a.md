@@ -2,7 +2,7 @@
 title: Ended element  (Lync SDN API Schema A)
 TOCTitle: Ended element
 ms:assetid: 2db9c396-fc3c-625f-ae00-badd5c7bfe70
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455034(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455034(v=office.15)
 ms:contentKeyID: 57260910
 ms.date: 07/24/2014
 mtps_version: v=office.15

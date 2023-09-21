@@ -2,7 +2,7 @@
 title: calendarData/WorkingHours/TimeZone element
 TOCTitle: calendarData/WorkingHours/TimeZone element
 ms:assetid: e4aea7d8-3e3d-440d-aa1c-f11de968feea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454700(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454700(v=office.15)
 ms:contentKeyID: 57093383
 ms.date: 07/24/2014
 mtps_version: v=office.15

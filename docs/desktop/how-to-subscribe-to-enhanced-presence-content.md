@@ -2,7 +2,7 @@
 title: 'How to: Subscribe to enhanced presence content'
 TOCTitle: 'How to: Subscribe to enhanced presence content'
 ms:assetid: 28e8bd5d-14ea-4bb1-809f-1dec9f36c86f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937284(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937284(v=office.15)
 ms:contentKeyID: 50877103
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -78,7 +78,7 @@ The prerequisites for subscribing to presence information are as follows:
 
 ### To subscribe to presence publications
 
-1.  Create a new [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)).
+1.  Create a new [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/library/jj268195\(v=office.15\)).
     
     ```csharp
     _contactSubscription = LyncClient.GetClient().ContactManager.CreateSubscription();
@@ -90,11 +90,11 @@ The prerequisites for subscribing to presence information are as follows:
     _ContactInformationList = new List<ContactInformationType>();
     ```
 
-3.  Add an [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\)) enumerator for each kind of enhanced presence information that you want to be notified about when it is updated.
+3.  Add an [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\)) enumerator for each kind of enhanced presence information that you want to be notified about when it is updated.
 
-4.  Add a **Contact** object to the subscription for each user whose contact information that you want to subscribe to by calling the [ContactSubscription.AddContact](https://msdn.microsoft.com/en-us/library/jj275705\(v=office.15\)) method.
+4.  Add a **Contact** object to the subscription for each user whose contact information that you want to subscribe to by calling the [ContactSubscription.AddContact](https://msdn.microsoft.com/library/jj275705\(v=office.15\)) method.
 
-5.  Start the subscription to each contact’s presence publications by calling the [ContactSubscription.Subscribe](https://msdn.microsoft.com/en-us/library/jj277847\(v=office.15\)) method.
+5.  Start the subscription to each contact’s presence publications by calling the [ContactSubscription.Subscribe](https://msdn.microsoft.com/library/jj277847\(v=office.15\)) method.
     
     ```csharp
                 _ContactInformationList = new List<ContactInformationType>();
@@ -129,26 +129,26 @@ The prerequisites for subscribing to presence information are as follows:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Be sure to call the <a href="https://msdn.microsoft.com/en-us/library/jj277847(v=office.15)">ContactSubscription.Subscribe</a> method. If you register for the <a href="https://msdn.microsoft.com/en-us/library/jj275543(v=office.15)">Contact.ContactInformationChanged</a> event on each <strong>Contact</strong> that you add to a <strong>ContactSubscription</strong>, the event is raised for any new subscribed presence publications by those subscribed contacts. The <strong>ContactSubscription</strong> object itself does not expose subscription or publication events.</p></td>
+<td><p>Be sure to call the <a href="https://msdn.microsoft.com/library/jj277847(v=office.15)">ContactSubscription.Subscribe</a> method. If you register for the <a href="https://msdn.microsoft.com/library/jj275543(v=office.15)">Contact.ContactInformationChanged</a> event on each <strong>Contact</strong> that you add to a <strong>ContactSubscription</strong>, the event is raised for any new subscribed presence publications by those subscribed contacts. The <strong>ContactSubscription</strong> object itself does not expose subscription or publication events.</p></td>
 </tr>
 </tbody>
 </table>
 
 ## Suspend a presence subscription
 
-An application can cache [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) objects for later display in an application UI. For example, an application can get a set of **Contact** objects for the members of a large team of users in an organization. If these contacts are displayed in a collapsible or scrollable list, only a subset of these contacts are displayed in the application UI. To save network bandwidth and increase application performance, you should suspend the subscriptions for those contacts that are not displayed in the UI.
+An application can cache [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) objects for later display in an application UI. For example, an application can get a set of **Contact** objects for the members of a large team of users in an organization. If these contacts are displayed in a collapsible or scrollable list, only a subset of these contacts are displayed in the application UI. To save network bandwidth and increase application performance, you should suspend the subscriptions for those contacts that are not displayed in the UI.
 
 ### To suspend and restart a presence subscription
 
-1.  Call the [ContactSubscription.Unsubscribe](https://msdn.microsoft.com/en-us/library/jj276640\(v=office.15\)) method on the subscription whose contact presence publication notifications are to be suspended.
+1.  Call the [ContactSubscription.Unsubscribe](https://msdn.microsoft.com/library/jj276640\(v=office.15\)) method on the subscription whose contact presence publication notifications are to be suspended.
 
-2.  Remove non-displayed contacts by calling the [ContactSubscription.RemoveContact](https://msdn.microsoft.com/en-us/library/jj293450\(v=office.15\)) method for each of these contacts.
+2.  Remove non-displayed contacts by calling the [ContactSubscription.RemoveContact](https://msdn.microsoft.com/library/jj293450\(v=office.15\)) method for each of these contacts.
 
-3.  Add any displayed contacts that are not in the subscription by calling the [ContactSubscription.AddContact](https://msdn.microsoft.com/en-us/library/jj275705\(v=office.15\)) method.
+3.  Add any displayed contacts that are not in the subscription by calling the [ContactSubscription.AddContact](https://msdn.microsoft.com/library/jj275705\(v=office.15\)) method.
 
-4.  Get the cached **List\<ContactInformationType\>** object that was used to start the subscription for the first time by reading the [ContactSubscription.LastSubscribedContactInformation](https://msdn.microsoft.com/en-us/library/jj277980\(v=office.15\)) property.
+4.  Get the cached **List\<ContactInformationType\>** object that was used to start the subscription for the first time by reading the [ContactSubscription.LastSubscribedContactInformation](https://msdn.microsoft.com/library/jj277980\(v=office.15\)) property.
 
-5.  Call the [ContactSubscription.Subscribe](https://msdn.microsoft.com/en-us/library/jj277847\(v=office.15\)) method when the subscription is to be restored and pass the list obtained in the previous step.
+5.  Call the [ContactSubscription.Subscribe](https://msdn.microsoft.com/library/jj277847\(v=office.15\)) method when the subscription is to be restored and pass the list obtained in the previous step.
 
 ## Modify an existing subscription contact information items list
 
@@ -156,15 +156,15 @@ You can change the set of enhanced presence information items that you get notif
 
 ### To modify an existing subscription contact information items list
 
-1.  Get the active [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/en-us/library/jj268195\(v=office.15\)) object cached in your application.
+1.  Get the active [Microsoft.Lync.Model.ContactSubscription](https://msdn.microsoft.com/library/jj268195\(v=office.15\)) object cached in your application.
 
-2.  Suspend the subscription by calling the [ContactSubscription.Unsubscribe](https://msdn.microsoft.com/en-us/library/jj276640\(v=office.15\)) method.
+2.  Suspend the subscription by calling the [ContactSubscription.Unsubscribe](https://msdn.microsoft.com/library/jj276640\(v=office.15\)) method.
 
-3.  Get the cached **List\<ContactInformationType\>** object that was used to start the subscription for the first time by reading the [ContactSubscription.LastSubscribedContactInformation](https://msdn.microsoft.com/en-us/library/jj277980\(v=office.15\)) property.
+3.  Get the cached **List\<ContactInformationType\>** object that was used to start the subscription for the first time by reading the [ContactSubscription.LastSubscribedContactInformation](https://msdn.microsoft.com/library/jj277980\(v=office.15\)) property.
 
 4.  Modify the list by adding or removing the desired items.
 
-5.  Restart the subscription by calling the [Subscribe(ContactSubscriptionRefreshRate, IEnumerable\<ContactInformationType\>)](https://msdn.microsoft.com/en-us/library/jj277847\(v=office.15\)) method and passing the modified **List\<ContactInformationType\>** object.
+5.  Restart the subscription by calling the [Subscribe(ContactSubscriptionRefreshRate, IEnumerable\<ContactInformationType\>)](https://msdn.microsoft.com/library/jj277847\(v=office.15\)) method and passing the modified **List\<ContactInformationType\>** object.
 
 ## Code examples: Contact subscription log
 
@@ -227,7 +227,7 @@ Title="CapabilityPage">
 </Page>
 ```
 
-The following example gets a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object for a supplied SIP address, creates a subscription, adds a collection of [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/en-us/library/jj277212\(v=office.15\)) enumerators and the contact object, starts the subscription, and handles events raised when the contact republishes the items that are enumerated in the subscription.
+The following example gets a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object for a supplied SIP address, creates a subscription, adds a collection of [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\)) enumerators and the contact object, starts the subscription, and handles events raised when the contact republishes the items that are enumerated in the subscription.
 
     using System.Collections.Generic;
     using System.Text;

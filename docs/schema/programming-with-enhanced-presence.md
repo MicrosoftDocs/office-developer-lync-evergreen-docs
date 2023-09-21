@@ -2,7 +2,7 @@
 title: Programming with Enhanced Presence
 TOCTitle: Programming with Enhanced Presence
 ms:assetid: 3ae2f49b-5609-4e85-ab03-bb2ee589f01e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454612(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454612(v=office.15)
 ms:contentKeyID: 57092863
 ms.date: 07/24/2014
 mtps_version: v=office.15

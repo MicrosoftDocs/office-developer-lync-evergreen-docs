@@ -2,7 +2,7 @@
 title: occurenceConstraint element
 TOCTitle: occurenceConstraint element
 ms:assetid: 87e48a26-5b8a-42c9-8e06-41182c5f0aeb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439005(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439005(v=office.15)
 ms:contentKeyID: 57094049
 ms.date: 07/24/2014
 mtps_version: v=office.15

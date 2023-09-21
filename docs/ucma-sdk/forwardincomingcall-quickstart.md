@@ -2,7 +2,7 @@
 title: ForwardIncomingCall (QuickStart)
 TOCTitle: ForwardIncomingCall (QuickStart)
 ms:assetid: 33f4303f-c3dc-47e5-b44e-3edfeb666a5e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454826(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454826(v=office.15)
 ms:contentKeyID: 57103695
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -29,7 +29,7 @@ The application initializes the platform and logs in on behalf of a user. The sa
 
   - Call forwarding
 
-  - [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) handling and control
+  - [AudioVideoFlow](https://msdn.microsoft.com/library/hh383533\(v=office.15\)) handling and control
 
 ## Prerequisites
 

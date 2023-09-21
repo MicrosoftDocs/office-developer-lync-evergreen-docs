@@ -2,7 +2,7 @@
 title: Receiving contacts presence
 TOCTitle: Receiving contacts presence
 ms:assetid: 757aef59-3d0a-4b59-974f-2fb41d890915
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454647(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454647(v=office.15)
 ms:contentKeyID: 57093010
 ms.date: 07/24/2014
 mtps_version: v=office.15

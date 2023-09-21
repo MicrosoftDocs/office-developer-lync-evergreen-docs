@@ -2,7 +2,7 @@
 title: Using Unified Communications APIs
 TOCTitle: Using Unified Communications APIs
 ms:assetid: 5d55eeca-721c-4668-a94f-17906b9e2087
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454644(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454644(v=office.15)
 ms:contentKeyID: 57093179
 ms.date: 02/11/2016
 mtps_version: v=office.15

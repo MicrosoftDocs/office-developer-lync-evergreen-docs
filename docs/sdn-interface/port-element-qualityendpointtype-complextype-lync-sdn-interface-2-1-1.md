@@ -2,7 +2,7 @@
 title: Port element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Port element (QualityEndPointType complexType)
 ms:assetid: f2196675-3575-81f8-eb89-e35303fa9a3f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912780(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912780(v=office.15)
 ms:contentKeyID: 64126949
 ms.date: 02/16/2015
 mtps_version: v=office.15

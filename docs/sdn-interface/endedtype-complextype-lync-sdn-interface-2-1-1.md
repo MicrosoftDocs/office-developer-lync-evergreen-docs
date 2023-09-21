@@ -2,7 +2,7 @@
 title: EndedType complexType (Lync SDN Interface 2.1.1)
 TOCTitle: EndedType complexType
 ms:assetid: b4c83842-ef37-6960-5b1b-ef2474625fa7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912849(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912849(v=office.15)
 ms:contentKeyID: 64127017
 ms.date: 02/16/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: alerts category instance value element
 TOCTitle: alerts category instance value element
 ms:assetid: 8bfc3f35-57e2-431a-8f99-d364ebb1c541
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454690(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454690(v=office.15)
 ms:contentKeyID: 57093341
 ms.date: 07/24/2014
 mtps_version: v=office.15

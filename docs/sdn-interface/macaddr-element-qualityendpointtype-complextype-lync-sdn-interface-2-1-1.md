@@ -2,7 +2,7 @@
 title: MACAddr element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: MACAddr element
 ms:assetid: c6df72f8-d7bd-308c-4829-6adad83d5233
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912758(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912758(v=office.15)
 ms:contentKeyID: 64126928
 ms.date: 02/16/2015
 mtps_version: v=office.15

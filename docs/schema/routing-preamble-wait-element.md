@@ -2,7 +2,7 @@
 title: routing/preamble/wait element
 TOCTitle: routing/preamble/wait element
 ms:assetid: 0332a6ca-7d3d-4cc2-928d-5266da5c5d50
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454782(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454782(v=office.15)
 ms:contentKeyID: 57093669
 ms.date: 07/24/2014
 mtps_version: v=office.15

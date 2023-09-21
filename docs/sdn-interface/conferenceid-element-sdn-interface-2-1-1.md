@@ -2,7 +2,7 @@
 title: ConferenceId element (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: ConferenceId element
 ms:assetid: fb31cb7f-376b-9905-bf63-bef1972a7de2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912691(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912691(v=office.15)
 ms:contentKeyID: 64126861
 ms.date: 02/16/2015
 mtps_version: v=office.15

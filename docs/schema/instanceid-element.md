@@ -2,7 +2,7 @@
 title: instanceId element
 TOCTitle: instanceId element
 ms:assetid: 11df8750-f3f0-4319-a7d4-c106415197b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439016(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439016(v=office.15)
 ms:contentKeyID: 57094059
 ms.date: 07/24/2014
 mtps_version: v=office.15

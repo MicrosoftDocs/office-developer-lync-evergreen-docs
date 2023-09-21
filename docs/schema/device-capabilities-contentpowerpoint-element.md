@@ -2,7 +2,7 @@
 title: device/capabilities/contentPowerPoint element
 TOCTitle: device/capabilities/contentPowerPoint element
 ms:assetid: 2dee5d62-773e-45c9-92fa-30b183e8b728
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454749(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454749(v=office.15)
 ms:contentKeyID: 57093636
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Types (Lync SDN Interface 2.1.1)
 TOCTitle: Types (Lync SDN Interface 2.1.1)
 ms:assetid: 96d87fe1-5280-be55-485a-e5b4ee1ca2a2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912844(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912844(v=office.15)
 ms:contentKeyID: 64127012
 ms.date: 02/16/2015
 mtps_version: v=office.15

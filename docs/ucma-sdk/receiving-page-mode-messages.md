@@ -2,7 +2,7 @@
 title: Receiving page-mode messages
 TOCTitle: Receiving page-mode messages
 ms:assetid: 88a178b6-766c-4f1b-b36b-d8bd945c5faa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466058(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466058(v=office.15)
 ms:contentKeyID: 57103051
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-Subscribing to the event amounts to registering for notification when a [MessageReceived](https://msdn.microsoft.com/en-us/library/hh350010\(v=office.15\)) event is raised, and implementing a handler for this event. The following is a simple code example that illustrates this process.
+Subscribing to the event amounts to registering for notification when a [MessageReceived](https://msdn.microsoft.com/library/hh350010\(v=office.15\)) event is raised, and implementing a handler for this event. The following is a simple code example that illustrates this process.
 
 ```csharp
 RealTimeEndpoint endpoint = ...; // Assumed to be created elsewhere.

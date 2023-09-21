@@ -2,7 +2,7 @@
 title: ErrorProperties complexType (Lync SDN Interface 2.1.1)
 TOCTitle: ErrorProperties complexType
 ms:assetid: 57ab3938-2ccb-bb10-88f2-dc83b50644f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912851(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912851(v=office.15)
 ms:contentKeyID: 64127019
 ms.date: 02/16/2015
 mtps_version: v=office.15

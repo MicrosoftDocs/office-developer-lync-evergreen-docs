@@ -2,7 +2,7 @@
 title: contactCard/address/city element
 TOCTitle: contactCard/address/city element
 ms:assetid: 5ddef114-df7e-461a-8da0-ee22a3c37666
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454708(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454708(v=office.15)
 ms:contentKeyID: 57093395
 ms.date: 07/24/2014
 mtps_version: v=office.15

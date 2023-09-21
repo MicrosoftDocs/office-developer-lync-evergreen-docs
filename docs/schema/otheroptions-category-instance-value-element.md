@@ -2,7 +2,7 @@
 title: otherOptions category instance value element
 TOCTitle: otherOptions category instance value element
 ms:assetid: f4cc6abc-834f-4804-b284-283357c909ee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454755(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454755(v=office.15)
 ms:contentKeyID: 57093642
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Virtualization element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Virtualization element
 ms:assetid: 1ccbf8f7-3253-c8ee-176a-fa2fe67f5260
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912840(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912840(v=office.15)
 ms:contentKeyID: 64127008
 ms.date: 02/16/2015
 mtps_version: v=office.15

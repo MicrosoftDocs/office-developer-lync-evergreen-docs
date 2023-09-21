@@ -2,7 +2,7 @@
 title: What is UCMA 4.0
 TOCTitle: What is UCMA 4.0
 ms:assetid: ebbfeb40-02ad-4045-bf46-b073406a5c26
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465943(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465943(v=office.15)
 ms:contentKeyID: 57102437
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -23,13 +23,13 @@ UCMA 4.0 provides a flexible managed-code platform for unified communication and
 
   - The platform is multilayered, with different levels of abstraction, as shown in the following illustration. The components that make up the platform are shown in the blue blocks.
     
-      - Unified Communications and Collaboration protocol layer (UCMA 4.0). The classes in this layer are exposed in the [Microsoft.Rtc.Collaboration](https://msdn.microsoft.com/en-us/library/hh384297\(v=office.15\)) namespace. The protocols include Enhanced Presence, Centralized Conference Control Protocol (C3P), Contacts and Groups, and Call Control.
+      - Unified Communications and Collaboration protocol layer (UCMA 4.0). The classes in this layer are exposed in the [Microsoft.Rtc.Collaboration](https://msdn.microsoft.com/library/hh384297\(v=office.15\)) namespace. The protocols include Enhanced Presence, Centralized Conference Control Protocol (C3P), Contacts and Groups, and Call Control.
         
         The **Microsoft.Speech** namespace can be used to provide speech recognition and speech synthesis capabilities in UCMA 4.0 applications.
         
-        Interactive Voice Response (IVR) applications that can optionally use Voice XML can be created from classes contained in the [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml](https://msdn.microsoft.com/en-us/library/gg452705\(v=office.15\)) and **Microsoft.Speech.VoiceXml** namespaces (Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.dll and Microsoft.Speech.VoiceXml.dll, respectively). For more information, see [VoiceXML support in UCMA 4.0](voicexml-support-in-ucma-4-0.md).
+        Interactive Voice Response (IVR) applications that can optionally use Voice XML can be created from classes contained in the [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml](https://msdn.microsoft.com/library/gg452705\(v=office.15\)) and **Microsoft.Speech.VoiceXml** namespaces (Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.dll and Microsoft.Speech.VoiceXml.dll, respectively). For more information, see [VoiceXML support in UCMA 4.0](voicexml-support-in-ucma-4-0.md).
     
-      - Signaling layer. This layer provides access to the SIP/SIMPLE infrastructure. The classes in this layer are exposed in the [Microsoft.Rtc.Signaling](https://msdn.microsoft.com/en-us/library/hh365949\(v=office.15\)) namespace.
+      - Signaling layer. This layer provides access to the SIP/SIMPLE infrastructure. The classes in this layer are exposed in the [Microsoft.Rtc.Signaling](https://msdn.microsoft.com/library/hh365949\(v=office.15\)) namespace.
         
         The Audio stack is used by some classes in UCMA 4.0, but does not expose any public classes.
     

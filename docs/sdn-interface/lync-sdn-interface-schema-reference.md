@@ -2,7 +2,7 @@
 title: Lync SDN Interface Schema Reference
 TOCTitle: Lync SDN Interface Schema Reference
 ms:assetid: 553e325e-d48a-4e7b-b7ac-042f87253ed8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912673(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912673(v=office.15)
 ms:contentKeyID: 64126842
 ms.date: 02/16/2015
 mtps_version: v=office.15

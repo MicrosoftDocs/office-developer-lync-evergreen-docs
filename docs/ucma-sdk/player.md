@@ -2,7 +2,7 @@
 title: Player
 TOCTitle: Player
 ms:assetid: fc050a2e-0b1d-47be-8c4a-6164ce9854f0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466037(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466037(v=office.15)
 ms:contentKeyID: 57103030
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ dev_langs:
 
  
 
-The [Player](https://msdn.microsoft.com/en-us/library/hh349780\(v=office.15\)) class represents an entity that is capable of playing media to one or more media flows, and as such, provides a simple, scalable way to play an audio segment in a Windows Media Audio (WMA) file to multiple listeners. A **Player** instance renders the media that is represented by an instance of a subclass of the [MediaSource](https://msdn.microsoft.com/en-us/library/hh348635\(v=office.15\)) abstract base class. The output from a **Player** instance goes to one or more [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instances.
+The [Player](https://msdn.microsoft.com/library/hh349780\(v=office.15\)) class represents an entity that is capable of playing media to one or more media flows, and as such, provides a simple, scalable way to play an audio segment in a Windows Media Audio (WMA) file to multiple listeners. A **Player** instance renders the media that is represented by an instance of a subclass of the [MediaSource](https://msdn.microsoft.com/library/hh348635\(v=office.15\)) abstract base class. The output from a **Player** instance goes to one or more [AudioVideoFlow](https://msdn.microsoft.com/library/hh383533\(v=office.15\)) instances.
 
 A **Player** acts as a pointer to a **MediaSource** object, and determines the current position to play in the media.
 
@@ -37,7 +37,7 @@ The **Player** class has two modes of operation:
 
 ## Playback speed
 
-The [PlaybackSpeed](https://msdn.microsoft.com/en-us/library/hh161922\(v=office.15\)) property on the **Player** class provides the capability to play back a WMA file at a different speed. This property gets or sets the rate at which the **Player** renders audio. An application can use **PlaybackSpeed** to develop an interface that gives the user more control in consuming the content. A message can be played back faster or slower depending on the **PlaybackSpeed** specified by the application.
+The [PlaybackSpeed](https://msdn.microsoft.com/library/hh161922\(v=office.15\)) property on the **Player** class provides the capability to play back a WMA file at a different speed. This property gets or sets the rate at which the **Player** renders audio. An application can use **PlaybackSpeed** to develop an interface that gives the user more control in consuming the content. A message can be played back faster or slower depending on the **PlaybackSpeed** specified by the application.
 
 The values in the **PlaybackSpeed** enumeration are **Half**, **ThreeQuarters**, **Normal**, **OneAndAQuarter**, **OneAndAHalf**, **OneAndThreeQuarters**, and **TwoTimes**. The values represent the multiple of normal playback speed. For example, **ThreeQuarters** represents 75% of normal playback speed.
 
@@ -64,11 +64,11 @@ Multiple Player instances, multiple AudioVideoFlow instances
   
 ![Multiple Player and AudioVideoFlow instances](images/Dn466037.MultPlayerMultFlow(Office.15).jpg "Multiple Player and AudioVideoFlow instances")
 
-The **Player** class is scalable. In buffered mode, the **MediaSource** caches encoded versions of media. Given a [WmaFileSource](https://msdn.microsoft.com/en-us/library/hh381280\(v=office.15\)) object, an application can play audio that was previously cached (**MediaSourceOpenMode.Buffered**) or from a file on demand in unbuffered mode (**MediaSourceOpenMode.Unbuffered**). When buffered mode is used, playing the cached stream provides significant performance gains.
+The **Player** class is scalable. In buffered mode, the **MediaSource** caches encoded versions of media. Given a [WmaFileSource](https://msdn.microsoft.com/library/hh381280\(v=office.15\)) object, an application can play audio that was previously cached (**MediaSourceOpenMode.Buffered**) or from a file on demand in unbuffered mode (**MediaSourceOpenMode.Unbuffered**). When buffered mode is used, playing the cached stream provides significant performance gains.
 
 ## Example – using a player
 
-The following code example shows the steps involved in using a [Player](https://msdn.microsoft.com/en-us/library/hh349780\(v=office.15\)).
+The following code example shows the steps involved in using a [Player](https://msdn.microsoft.com/library/hh349780\(v=office.15\)).
 
 
 > [!WARNING]
@@ -80,29 +80,29 @@ The essential points of creating and using a **Player** instance are shown in th
 
 1.  Create a **Player** instance, using the constructor for this class.
 
-2.  Attach the flow to the player, using the [AttachFlow](https://msdn.microsoft.com/en-us/library/hh365942\(v=office.15\)) method on the **Player** class.
+2.  Attach the flow to the player, using the [AttachFlow](https://msdn.microsoft.com/library/hh365942\(v=office.15\)) method on the **Player** class.
 
 3.  Register for the player’s **StateChanged** event.
 
-4.  Load the file that is to be played into memory by creating a [WmaFileSource](https://msdn.microsoft.com/en-us/library/hh381280\(v=office.15\)) instance. The string parameter is the name of the WMA file to be played.
+4.  Load the file that is to be played into memory by creating a [WmaFileSource](https://msdn.microsoft.com/library/hh381280\(v=office.15\)) instance. The string parameter is the name of the WMA file to be played.
 
-5.  Prepare the source file, using the [BeginPrepareSource](https://msdn.microsoft.com/en-us/library/hh349115\(v=office.15\)) method on the **WmaFileSource** instance. The caller can specify whether the file is to be opened in **Buffered** mode or in **Unbuffered** mode. In the example code, the argument to [EndPrepareSource](https://msdn.microsoft.com/en-us/library/hh382429\(v=office.15\)) is the return value from **BeginPrepareSource**.
+5.  Prepare the source file, using the [BeginPrepareSource](https://msdn.microsoft.com/library/hh349115\(v=office.15\)) method on the **WmaFileSource** instance. The caller can specify whether the file is to be opened in **Buffered** mode or in **Unbuffered** mode. In the example code, the argument to [EndPrepareSource](https://msdn.microsoft.com/library/hh382429\(v=office.15\)) is the return value from **BeginPrepareSource**.
 
-6.  Set the player’s mode, using the [SetMode](https://msdn.microsoft.com/en-us/library/hh382589\(v=office.15\)) method. In the example, the mode is set to **Manual**, which means that the player will begin playing only when the **State** of the attached **AutoVideoFlow** instance is **Active**. The Player stops when it reaches the end of the file or when there are no attached **AudioVideoFlow** instances that are **Active**. If the mode were set to **Manual**, the player would start playing immediately.
+6.  Set the player’s mode, using the [SetMode](https://msdn.microsoft.com/library/hh382589\(v=office.15\)) method. In the example, the mode is set to **Manual**, which means that the player will begin playing only when the **State** of the attached **AutoVideoFlow** instance is **Active**. The Player stops when it reaches the end of the file or when there are no attached **AudioVideoFlow** instances that are **Active**. If the mode were set to **Manual**, the player would start playing immediately.
 
 7.  Inform the player about the source of the media it will play, using the **SetSource** method.
 
-8.  Start the player, using the player’s [Start](https://msdn.microsoft.com/en-us/library/hh382632\(v=office.15\)) method.
+8.  Start the player, using the player’s [Start](https://msdn.microsoft.com/library/hh382632\(v=office.15\)) method.
 
-9.  Pause the player, using the player’s [Pause](https://msdn.microsoft.com/en-us/library/hh381641\(v=office.15\)) method. This step is shown only to demonstrate how to pause the player.
+9.  Pause the player, using the player’s [Pause](https://msdn.microsoft.com/library/hh381641\(v=office.15\)) method. This step is shown only to demonstrate how to pause the player.
 
 10. Restart the player after it was paused, using the **Start** method.
 
-11. Stop the player, using the player’s [Stop](https://msdn.microsoft.com/en-us/library/hh350156\(v=office.15\)) method.
+11. Stop the player, using the player’s [Stop](https://msdn.microsoft.com/library/hh350156\(v=office.15\)) method.
 
-12. Close the source, using the [Close](https://msdn.microsoft.com/en-us/library/hh384406\(v=office.15\)) method on the **WmaFileSource** instance. An application must close the source when it is no longer needed. A source that is not closed can result in a memory leak.
+12. Close the source, using the [Close](https://msdn.microsoft.com/library/hh384406\(v=office.15\)) method on the **WmaFileSource** instance. An application must close the source when it is no longer needed. A source that is not closed can result in a memory leak.
 
-13. Detach the flow, using the player’s [DetachFlow](https://msdn.microsoft.com/en-us/library/hh383520\(v=office.15\)) method.
+13. Detach the flow, using the player’s [DetachFlow](https://msdn.microsoft.com/library/hh383520\(v=office.15\)) method.
 
 <!-- end list -->
 

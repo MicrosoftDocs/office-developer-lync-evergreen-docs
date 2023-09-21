@@ -2,7 +2,7 @@
 title: Presence data source and category instance ID
 TOCTitle: Presence data source and category instance ID
 ms:assetid: 7d68a87c-cd0a-4df4-b8cb-0d33842d5eda
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454680(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454680(v=office.15)
 ms:contentKeyID: 57093216
 ms.date: 07/24/2014
 mtps_version: v=office.15

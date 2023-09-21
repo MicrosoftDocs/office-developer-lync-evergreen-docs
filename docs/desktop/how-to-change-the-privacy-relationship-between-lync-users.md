@@ -2,7 +2,7 @@
 title: 'How to: Change the privacy relationship between Lync users'
 TOCTitle: 'How to: Change the privacy relationship between Lync users'
 ms:assetid: f2e80755-67a6-4ccc-91dd-7c5e4146fd95
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933227(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933227(v=office.15)
 ms:contentKeyID: 50877371
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -125,19 +125,19 @@ The following table presents the publishable contact information types that are 
 
 ### To change the privacy relationship of a contact
 
-1.  Get the [LyncClient](https://msdn.microsoft.com/en-us/library/jj274980\(v=office.15\)) instance and verify that the client state is signed in to the server.
+1.  Get the [LyncClient](https://msdn.microsoft.com/library/jj274980\(v=office.15\)) instance and verify that the client state is signed in to the server.
     
     For information, see [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md).
 
-2.  Get the [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) instance to be updated.
+2.  Get the [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) instance to be updated.
     
     Any valid contact, regardless of its source, can be updated to change the privacy relationship setting. For information about getting the contacts in a user’s contact list, see [How to: Display a contact list](how-to-display-a-contact-list.md).
 
-3.  Call the [Contact.BeginChangeSetting](https://msdn.microsoft.com/en-us/library/jj275533\(v=office.15\)) method, specifying that the privacy relationship is to be set by setting the [ContactSetting](https://msdn.microsoft.com/en-us/library/jj267670\(v=office.15\)).**AccessLevel** and by an [AccessLevel](https://msdn.microsoft.com/en-us/library/jj266987\(v=office.15\)) enumerator representing the new privacy relationship.
+3.  Call the [Contact.BeginChangeSetting](https://msdn.microsoft.com/library/jj275533\(v=office.15\)) method, specifying that the privacy relationship is to be set by setting the [ContactSetting](https://msdn.microsoft.com/library/jj267670\(v=office.15\)).**AccessLevel** and by an [AccessLevel](https://msdn.microsoft.com/library/jj266987\(v=office.15\)) enumerator representing the new privacy relationship.
 
 4.  Catch the **System.IAsyncResult** returned from the call.
 
-5.  Call [Contact.EndChangeSetting](https://msdn.microsoft.com/en-us/library/jj266039\(v=office.15\)) to complete the operation.
+5.  Call [Contact.EndChangeSetting](https://msdn.microsoft.com/library/jj266039\(v=office.15\)) to complete the operation.
     
     <table>
     <colgroup>
@@ -150,16 +150,16 @@ The following table presents the publishable contact information types that are 
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>If you do not want to block execution on your UI thread while the operation runs, pass a <strong>System.AsyncCallback</strong> method into <strong>BeginChangeSetting</strong> and make the <a href="https://msdn.microsoft.com/en-us/library/jj266039(v=office.15)">EndChangeSetting</a> call inside the callback.</p></td>
+    <td><p>If you do not want to block execution on your UI thread while the operation runs, pass a <strong>System.AsyncCallback</strong> method into <strong>BeginChangeSetting</strong> and make the <a href="https://msdn.microsoft.com/library/jj266039(v=office.15)">EndChangeSetting</a> call inside the callback.</p></td>
     </tr>
     </tbody>
     </table>
 
 ## Code example: Accepting parameters
 
-The following example accepts two string parameters representing the URI of a user and the new access level desired. The access level string is converted to an [AccessLevel](https://msdn.microsoft.com/en-us/library/jj266987\(v=office.15\)) enumerator before an instance of [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) is obtained from [ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) by calling into [GetContactByUri](https://msdn.microsoft.com/en-us/library/jj274481\(v=office.15\)).
+The following example accepts two string parameters representing the URI of a user and the new access level desired. The access level string is converted to an [AccessLevel](https://msdn.microsoft.com/library/jj266987\(v=office.15\)) enumerator before an instance of [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) is obtained from [ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)) by calling into [GetContactByUri](https://msdn.microsoft.com/library/jj274481\(v=office.15\)).
 
-The contact setting, [ContactSetting](https://msdn.microsoft.com/en-us/library/jj267670\(v=office.15\)).**AccessLevel**, is set by calling into [Contact.BeginChangeSetting](https://msdn.microsoft.com/en-us/library/jj275533\(v=office.15\)) and passing both an enumerator for the property to be updated and an enumerator for the new property value.
+The contact setting, [ContactSetting](https://msdn.microsoft.com/library/jj267670\(v=office.15\)).**AccessLevel**, is set by calling into [Contact.BeginChangeSetting](https://msdn.microsoft.com/library/jj275533\(v=office.15\)) and passing both an enumerator for the property to be updated and an enumerator for the new property value.
 
 ```csharp
         /// <summary>

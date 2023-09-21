@@ -2,7 +2,7 @@
 title: contactCard/address element
 TOCTitle: contactCard/address element
 ms:assetid: 0cbca6bb-b3d8-4537-8a61-7dcf0e025bf4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454723(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454723(v=office.15)
 ms:contentKeyID: 57093415
 ms.date: 07/24/2014
 mtps_version: v=office.15

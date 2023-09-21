@@ -2,7 +2,7 @@
 title: Set up the UCWA event channel to receive incoming notifications
 TOCTitle: Set up the event channel to receive incoming notifications
 ms:assetid: 05cf010f-77c3-41b7-9dcd-037479b2f004
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn683882(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn683882(v=office.15)
 ms:contentKeyID: 62183413
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -137,7 +137,7 @@ When the Stop() is called, the event channel will exit from the event loop. The 
  
 ## Initialize a pending HTTP GET request
 
-In a pending HTTP GET request, UCWA may hold the operation longer than the default timeout value set by the underlying [HttpClient](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient\(v=vs.118\).aspx) class. When this happens, the [GetAsync](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.getasync\(v=vs.118\).aspx) and the related methods will raise [TaskCanceledException](http://msdn.microsoft.com/en-us/library/system.threading.tasks.taskcanceledexception\(v=vs.110\).aspx). To prevent this from happening, we change the [Timeout](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.timeout\(v=vs.118\).aspx) value to 30 minutes on **HttpClient**. This can be done when the UcwaAppTransport class is initialized. This is illustrated as follows in one of the overloaded Initialize methods.
+In a pending HTTP GET request, UCWA may hold the operation longer than the default timeout value set by the underlying [HttpClient](http://msdn.microsoft.com/library/system.net.http.httpclient\(v=vs.118\).aspx) class. When this happens, the [GetAsync](http://msdn.microsoft.com/library/system.net.http.httpclient.getasync\(v=vs.118\).aspx) and the related methods will raise [TaskCanceledException](http://msdn.microsoft.com/library/system.threading.tasks.taskcanceledexception\(v=vs.110\).aspx). To prevent this from happening, we change the [Timeout](http://msdn.microsoft.com/library/system.net.http.httpclient.timeout\(v=vs.118\).aspx) value to 30 minutes on **HttpClient**. This can be done when the UcwaAppTransport class is initialized. This is illustrated as follows in one of the overloaded Initialize methods.
 
 ```csharp
         public void Initialize(HttpHeaderValueCollection<MediaTypeWithQualityHeaderValue> accept, AuthenticationHeaderValue authorization, Uri baseAddress)

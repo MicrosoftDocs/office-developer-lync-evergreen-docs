@@ -2,7 +2,7 @@
 title: 'How to: Add or remove a person from a contact list'
 TOCTitle: 'How to: Add or remove a person from a contact list'
 ms:assetid: 8089489e-b27a-46e7-a84c-6071b408e1cb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933106(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933106(v=office.15)
 ms:contentKeyID: 50877240
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -52,7 +52,7 @@ The prerequisites for adding or removing a custom group are as follows:
 
 ## Display contacts
 
-To delete a contact from a user’s contact list, a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object most be obtained. There are several ways to obtain a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object. If you have the SIP URI of the Lync user to be removed from the contact list, simply call the [ContactManager.GetContactByUri](https://msdn.microsoft.com/en-us/library/jj274481\(v=office.15\)) method. You can also get the **Contact** instance by iterating on the group collection value returned by getting the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property and then iterating on each group to access the individual contacts.
+To delete a contact from a user’s contact list, a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object most be obtained. There are several ways to obtain a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object. If you have the SIP URI of the Lync user to be removed from the contact list, simply call the [ContactManager.GetContactByUri](https://msdn.microsoft.com/library/jj274481\(v=office.15\)) method. You can also get the **Contact** instance by iterating on the group collection value returned by getting the [ContactManager.Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) property and then iterating on each group to access the individual contacts.
 
 Contacts and groups are available when the user is signed in to Lync 2013. Read about [How to: Sign a user in to Lync](how-to-sign-a-user-in-to-lync.md) and be sure that your application logic provides this capability before adding a contact list to your UI.
 
@@ -60,9 +60,9 @@ The sample application at the end of this topic displays a list of contacts for 
 
 ### To display a list of groups
 
-1.  Iterate on the group collection returned in the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property value in a foreach loop.
+1.  Iterate on the group collection returned in the [ContactManager.Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) property value in a foreach loop.
 
-2.  For each group instance, read the string [Group.Name](https://msdn.microsoft.com/en-us/library/jj278363\(v=office.15\)) property value and add it to the group list in the UI.
+2.  For each group instance, read the string [Group.Name](https://msdn.microsoft.com/library/jj278363\(v=office.15\)) property value and add it to the group list in the UI.
     
     <table>
     <colgroup>
@@ -75,7 +75,7 @@ The sample application at the end of this topic displays a list of contacts for 
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>When you get a <strong>Group</strong> object to display, encapsulate the <strong>Group</strong> in a custom class that overrides the <strong>ToString</strong> method. Return the <a href="https://msdn.microsoft.com/en-us/library/jj278363(v=office.15)">Group.Name</a> string as return value in the overridden <strong>ToString</strong> method. Add the encapsulating class object to the list instead of a simple string. When a user selects a group from the list, the actual group is selected. Doing this allows you to avoid running a routine that gets a group associated with a name string every time a selection is made in the list.</p></td>
+    <td><p>When you get a <strong>Group</strong> object to display, encapsulate the <strong>Group</strong> in a custom class that overrides the <strong>ToString</strong> method. Return the <a href="https://msdn.microsoft.com/library/jj278363(v=office.15)">Group.Name</a> string as return value in the overridden <strong>ToString</strong> method. Add the encapsulating class object to the list instead of a simple string. When a user selects a group from the list, the actual group is selected. Doing this allows you to avoid running a routine that gets a group associated with a name string every time a selection is made in the list.</p></td>
     </tr>
     </tbody>
     </table>
@@ -101,9 +101,9 @@ The sample application at the end of this topic displays a list of contacts for 
 
 ### To display the contacts in a group
 
-1.  Iterate on the [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) object that the user selected in the group list.
+1.  Iterate on the [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/library/jj266012\(v=office.15\)) object that the user selected in the group list.
     
-    The **Group** object is a collection of [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) objects.
+    The **Group** object is a collection of [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) objects.
 
 2.  For each **Contact** in the collection, add the display name of the contact to the contact list on the UI.
     
@@ -118,7 +118,7 @@ The sample application at the end of this topic displays a list of contacts for 
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>When you have gotten a <strong>Contact</strong> object to display, you should encapsulate the contact in a custom class that overrides the <strong>ToString</strong> method. Return the contact <a href="https://msdn.microsoft.com/en-us/library/jj277212(v=office.15)">ContactInformationType</a><strong>.DisplayName</strong> string as return value in the overridden <strong>ToString</strong> method. Add the encapsulating class object to the list instead of a simple string. When a user selects a contact from the list, the actual contact object is selected. Doing this allows you to avoid running a routine that looks up a Contact object based on a display name every time a user selects a contact in the list.</p></td>
+    <td><p>When you have gotten a <strong>Contact</strong> object to display, you should encapsulate the contact in a custom class that overrides the <strong>ToString</strong> method. Return the contact <a href="https://msdn.microsoft.com/library/jj277212(v=office.15)">ContactInformationType</a><strong>.DisplayName</strong> string as return value in the overridden <strong>ToString</strong> method. Add the encapsulating class object to the list instead of a simple string. When a user selects a contact from the list, the actual contact object is selected. Doing this allows you to avoid running a routine that looks up a Contact object based on a display name every time a user selects a contact in the list.</p></td>
     </tr>
     </tbody>
     </table>
@@ -148,17 +148,17 @@ The sample application at the end of this topic displays a list of contacts for 
 
 ## Add a contact to the contact list
 
-To add a contact to the user’s contact list, get a contact object and add it to any of the custom groups in the contact list. Although you can add a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object to the contact list regardless of the origin of the contact, it is best to add contacts that publish presence availability. A contact that is obtained by using the search feature of the Lync 2013 API is guaranteed to publish presence availability. To learn how to search for a contact, see [How to: Search for a contact or distribution group in Lync SDK](https://msdn.microsoft.com/en-us/library/jj933159\(v=office.15\)).
+To add a contact to the user’s contact list, get a contact object and add it to any of the custom groups in the contact list. Although you can add a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object to the contact list regardless of the origin of the contact, it is best to add contacts that publish presence availability. A contact that is obtained by using the search feature of the Lync 2013 API is guaranteed to publish presence availability. To learn how to search for a contact, see [How to: Search for a contact or distribution group in Lync SDK](https://msdn.microsoft.com/library/jj933159\(v=office.15\)).
 
 ### To add a contact to the contact list
 
-1.  Select a [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)) object from the user’s custom group collection by getting a **Group** from the [ContactManager.Groups](https://msdn.microsoft.com/en-us/library/jj277988\(v=office.15\)) property.
+1.  Select a [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/library/jj266012\(v=office.15\)) object from the user’s custom group collection by getting a **Group** from the [ContactManager.Groups](https://msdn.microsoft.com/library/jj277988\(v=office.15\)) property.
 
-2.  Select a [Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object from the collection of search results returned by a contact search.
+2.  Select a [Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object from the collection of search results returned by a contact search.
 
-3.  Add the selected contact to the selected group by calling the [Group.BeginAddContact](https://msdn.microsoft.com/en-us/library/jj275692\(v=office.15\)) method.
+3.  Add the selected contact to the selected group by calling the [Group.BeginAddContact](https://msdn.microsoft.com/library/jj275692\(v=office.15\)) method.
     
-    The following example gets a selected contact from the [Microsoft.Lync.Controls.ContactSearchResultList](https://msdn.microsoft.com/en-us/library/hh379201\(v=office.15\)) control on a WPF form and then adds the contact to a previously selected [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/en-us/library/jj266012\(v=office.15\)).
+    The following example gets a selected contact from the [Microsoft.Lync.Controls.ContactSearchResultList](https://msdn.microsoft.com/library/hh379201\(v=office.15\)) control on a WPF form and then adds the contact to a previously selected [Microsoft.Lync.Model.Group.Group](https://msdn.microsoft.com/library/jj266012\(v=office.15\)).
     
     ``` 
             /// <summary>
@@ -250,7 +250,7 @@ The following example declares a window that shows a list of groups and a list o
 </Window>
 ```
 
-The following example handles platform events for the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/en-us/library/jj266459\(v=office.15\)) and events raised by the previous window.
+The following example handles platform events for the [Microsoft.Lync.Model.ContactManager](https://msdn.microsoft.com/library/jj266459\(v=office.15\)) and events raised by the previous window.
 
 ```csharp
 using System.Windows;

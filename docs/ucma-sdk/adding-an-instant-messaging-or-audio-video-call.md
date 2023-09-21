@@ -2,7 +2,7 @@
 title: Adding an instant messaging or audio/video call
 TOCTitle: Adding an instant messaging or audio/video call
 ms:assetid: d6107a1b-5f2a-40c5-8bbe-df2214acd04d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466018(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466018(v=office.15)
 ms:contentKeyID: 57103002
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -20,7 +20,7 @@ The steps required for adding an instant message call or audio-video call are si
 
 ### Adding an instant messaging call
 
-After a conversation is created, you can add instant messaging (IM) to the conversation by using [InstantMessagingCall(Conversation)](https://msdn.microsoft.com/en-us/library/hh348307\(v=office.15\)) to create an IM call, passing the conversation in the constructor.
+After a conversation is created, you can add instant messaging (IM) to the conversation by using [InstantMessagingCall(Conversation)](https://msdn.microsoft.com/library/hh348307\(v=office.15\)) to create an IM call, passing the conversation in the constructor.
 
 The remote participant for the call is inferred from the conversation type. For a two-party conversation, the remote participant is the remote client. For a conference conversation, the remote participants are the other members of the conference. Information about these participants comes from the conversation roster.
 

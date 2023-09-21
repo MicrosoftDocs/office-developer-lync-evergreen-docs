@@ -2,7 +2,7 @@
 title: ContactSearch style and template
 TOCTitle: ContactSearch style and template
 ms:assetid: 476ecb88-92b0-411b-96dd-1c917520dc76
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937311(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937311(v=office.15)
 ms:contentKeyID: 50877142
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Beyond the basics topic](images/JJ937254.mod_icon_beyondbasics_long(Office.15).png "Beyond the basics topic")
 
-Learn about the styles and templates for the [ContactSearch](https://msdn.microsoft.com/en-us/library/hh379436\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
+Learn about the styles and templates for the [ContactSearch](https://msdn.microsoft.com/library/hh379436\(v=office.15\)) control. You can modify the default ControlTemplate to give the control a unique appearance. For more information, see the other topics in the [Customizing Lync Controls](customizing-lync-controls.md) section.
 
 
 
@@ -20,7 +20,7 @@ Learn about the styles and templates for the [ContactSearch](https://msdn.micros
 
 
 
-There are no states or [Style](http://msdn.microsoft.com/en-us/library/system.windows.style\(vs.95\).aspx) properties for the ContactSearch control.
+There are no states or [Style](http://msdn.microsoft.com/library/system.windows.style\(vs.95\).aspx) properties for the ContactSearch control.
 
 ![ContactSearch](images/JJ945544.ContactSearch_RTW_bugfix(Office.15).png "ContactSearch")
 
@@ -44,7 +44,7 @@ The following table lists the named parts for the ContactSearch control.
 <tbody>
 <tr class="odd">
 <td><p>ContactSearchInputBox</p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379719(v=office.15)">ContactSearchInputBox</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh379719(v=office.15)">ContactSearchInputBox</a></p></td>
 <td><p>Enables users to search their organization for people based on name, phone number, or skill.</p></td>
 </tr>
 </tbody>

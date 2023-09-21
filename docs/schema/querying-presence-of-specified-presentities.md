@@ -2,7 +2,7 @@
 title: Querying presence of specified presentities
 TOCTitle: Querying presence of specified presentities
 ms:assetid: 1cd62781-d9c3-4b99-a967-fe500cf7d954
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454623(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454623(v=office.15)
 ms:contentKeyID: 57092869
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: workingHours category instance value element
 TOCTitle: workingHours category instance value element
 ms:assetid: 3c751140-9e3a-4939-b9a1-3c28dad1c6bc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438973(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438973(v=office.15)
 ms:contentKeyID: 57094018
 ms.date: 07/24/2014
 mtps_version: v=office.15

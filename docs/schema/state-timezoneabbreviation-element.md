@@ -2,7 +2,7 @@
 title: state/timeZoneAbbreviation element
 TOCTitle: state/timeZoneAbbreviation element
 ms:assetid: ab46dc62-5b69-40da-b1a2-7cac7cd0175f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438957(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438957(v=office.15)
 ms:contentKeyID: 57093975
 ms.date: 07/24/2014
 mtps_version: v=office.15

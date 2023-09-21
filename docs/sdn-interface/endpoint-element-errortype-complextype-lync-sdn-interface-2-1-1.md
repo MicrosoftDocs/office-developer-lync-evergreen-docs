@@ -2,7 +2,7 @@
 title: EndPoint element (ErrorType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: EndPoint element (ErrorType complexType)
 ms:assetid: eafe34cf-59ad-999b-0d8a-fdf4355a9df9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912726(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912726(v=office.15)
 ms:contentKeyID: 64126896
 ms.date: 02/16/2015
 mtps_version: v=office.15

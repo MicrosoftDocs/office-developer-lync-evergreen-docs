@@ -2,7 +2,7 @@
 title: Bandwidth element (StartPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Bandwidth element (StartPropertiesType complexType)
 ms:assetid: 17268be6-e3d2-cda2-84ba-5461dd76de65
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912670(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912670(v=office.15)
 ms:contentKeyID: 64126839
 ms.date: 02/16/2015
 mtps_version: v=office.15

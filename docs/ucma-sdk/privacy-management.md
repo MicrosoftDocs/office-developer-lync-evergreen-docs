@@ -2,7 +2,7 @@
 title: Privacy management
 TOCTitle: Privacy management
 ms:assetid: 3eb4c8dd-8acb-487c-a92c-a6dd4098df0b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466020(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466020(v=office.15)
 ms:contentKeyID: 57103010
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -17,9 +17,9 @@ In Microsoft Unified Communications Managed API 4.0, user endpoints operate in *
 
 ## Privacy mode versus preferred privacy mode
 
-The [PrivacyModePreference](https://msdn.microsoft.com/en-us/library/hh382914\(v=office.15\)) enumeration indicates the privacy mode that is preferred by the endpoint owner. In contrast, the [PrivacyModePreference](https://msdn.microsoft.com/en-us/library/hh382914\(v=office.15\)) enumeration indicates the privacy mode that is set by the Lync Server 2013 administrator.
+The [PrivacyModePreference](https://msdn.microsoft.com/library/hh382914\(v=office.15\)) enumeration indicates the privacy mode that is preferred by the endpoint owner. In contrast, the [PrivacyModePreference](https://msdn.microsoft.com/library/hh382914\(v=office.15\)) enumeration indicates the privacy mode that is set by the Lync Server 2013 administrator.
 
-The values of the [PrivacyModePreference](https://msdn.microsoft.com/en-us/library/hh382914\(v=office.15\)) enumeration are shown in the following table.
+The values of the [PrivacyModePreference](https://msdn.microsoft.com/library/hh382914\(v=office.15\)) enumeration are shown in the following table.
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ The values of the [PrivacyModePreference](https://msdn.microsoft.com/en-us/libra
 </table>
 
 
-The values of the [PrivacyMode](https://msdn.microsoft.com/en-us/library/hh382900\(v=office.15\)) enumeration are shown in the following table.
+The values of the [PrivacyMode](https://msdn.microsoft.com/library/hh382900\(v=office.15\)) enumeration are shown in the following table.
 
 <table>
 <colgroup>
@@ -83,15 +83,15 @@ The values of the [PrivacyMode](https://msdn.microsoft.com/en-us/library/hh38290
 </table>
 
 
-A user endpoint can update its privacy mode using the [BeginUpdatePrivacyPreference(PrivacyModePreference, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh382158\(v=office.15\)) and [EndUpdatePrivacyPreference(IAsyncResult)](https://msdn.microsoft.com/en-us/library/hh383237\(v=office.15\)) methods that are available from the [PresenceServices](https://msdn.microsoft.com/en-us/library/hh349242\(v=office.15\)) property on the [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.15\)) class.
+A user endpoint can update its privacy mode using the [BeginUpdatePrivacyPreference(PrivacyModePreference, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh382158\(v=office.15\)) and [EndUpdatePrivacyPreference(IAsyncResult)](https://msdn.microsoft.com/library/hh383237\(v=office.15\)) methods that are available from the [PresenceServices](https://msdn.microsoft.com/library/hh349242\(v=office.15\)) property on the [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) class.
 
-The only constraint on UCMA 4.0 endpoints in participating in migration is that they must be subscribed to both [LocalOwnerPresence](https://msdn.microsoft.com/en-us/library/hh382370\(v=office.15\)) and [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh381099\(v=office.15\)). There is a tight coupling between these sessions, such that addition of a contact might require an Access Control Entry to be added in the local owner’s roaming data or vice-versa requiring both the data to be available for UCMA to perform the operation.
+The only constraint on UCMA 4.0 endpoints in participating in migration is that they must be subscribed to both [LocalOwnerPresence](https://msdn.microsoft.com/library/hh382370\(v=office.15\)) and [ContactGroupServices](https://msdn.microsoft.com/library/hh381099\(v=office.15\)). There is a tight coupling between these sessions, such that addition of a contact might require an Access Control Entry to be added in the local owner’s roaming data or vice-versa requiring both the data to be available for UCMA to perform the operation.
 
 Migrating involves applying the appropriate manifest from the server and ensuring that the contact list and container membership list of the endpoint owner are synchronized. Any inconsistencies that are detected after migration are also corrected, thereby ensuring that the endpoint owner's data complies with the rules dictated by the server's container manifest.
 
 ## Contact addition and deletion in privacy mode
 
-Any contact added in privacy mode will have an equivalent Access Control Entry (ACE) added to a container based on the Source Network of the contact unless indicated differently by the endpoint owner. The [BeginAddContact(String, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh384923\(v=office.15\)), [BeginAddContact(String, ContactAddOptions, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh381403\(v=office.15\)), and [EndAddContact(IAsyncResult)](https://msdn.microsoft.com/en-us/library/hh382284\(v=office.15\)) methods on the [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh381099\(v=office.15\)) class can be used to add a contact in privacy mode.
+Any contact added in privacy mode will have an equivalent Access Control Entry (ACE) added to a container based on the Source Network of the contact unless indicated differently by the endpoint owner. The [BeginAddContact(String, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh384923\(v=office.15\)), [BeginAddContact(String, ContactAddOptions, AsyncCallback, Object)](https://msdn.microsoft.com/library/hh381403\(v=office.15\)), and [EndAddContact(IAsyncResult)](https://msdn.microsoft.com/library/hh382284\(v=office.15\)) methods on the [ContactGroupServices](https://msdn.microsoft.com/library/hh381099\(v=office.15\)) class can be used to add a contact in privacy mode.
 
 Similarly, when a contact is deleted in privacy mode, all ACEs indicating the contact's SIP URI are automatically removed, unless the URI belongs to the endpoint owner's blocked container. For more information, see "Relationship level management" in [LocalOwnerPresence](localownerpresence.md).
 

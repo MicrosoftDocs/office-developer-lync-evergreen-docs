@@ -2,7 +2,7 @@
 title: 'How to: Debug a Lync Server SIP application'
 TOCTitle: 'How to: Debug a Lync Server SIP application'
 ms:assetid: 35964c9d-eae7-444e-aae1-c326f80e1ad1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439089(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439089(v=office.15)
 ms:contentKeyID: 57096262
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ To debug a SIP application that is loaded into a Lync Server 2013 deployment, tr
 
 ## Debugging MSPL script
 
-MSPL supports tracing functionality through the built-in [Log](https://msdn.microsoft.com/en-us/library/hh364642\(v=office.15\)) function that can be called throughout the script block to log run-time data in the Windows Event Viewer log on the server or the ApiLogger utility that is distributed with Microsoft Lync Server 2013 SDK. The following example shows the C\# syntax for the **Log** function.
+MSPL supports tracing functionality through the built-in [Log](https://msdn.microsoft.com/library/hh364642\(v=office.15\)) function that can be called throughout the script block to log run-time data in the Windows Event Viewer log on the server or the ApiLogger utility that is distributed with Microsoft Lync Server 2013 SDK. The following example shows the C\# syntax for the **Log** function.
 
 ```csharp
 void Log(string name, bool detail, params string[] messages);
@@ -64,31 +64,31 @@ The following table describes the ApiLogger error messages.
 <tbody>
 <tr class="odd">
 <td><p>&quot;Branched requests must be sent on new client transactions.&quot;</p></td>
-<td><p>The application is trying to call <a href="https://msdn.microsoft.com/en-us/library/jj266211(v=office.15)">SendRequest(Request)</a> two times on a <a href="https://msdn.microsoft.com/en-us/library/jj265716(v=office.15)">ClientTransaction</a> instance. Only one request may be sent for each <strong>ClientTransaction</strong>instance.</p></td>
+<td><p>The application is trying to call <a href="https://msdn.microsoft.com/library/jj266211(v=office.15)">SendRequest(Request)</a> two times on a <a href="https://msdn.microsoft.com/library/jj265716(v=office.15)">ClientTransaction</a> instance. Only one request may be sent for each <strong>ClientTransaction</strong>instance.</p></td>
 </tr>
 <tr class="even">
 <td><p>&quot;Cannot proxy more than once if ServerTransaction.EnableForking is set to false.&quot;</p></td>
-<td><p>The application is trying to call <a href="https://msdn.microsoft.com/en-us/library/jj265503(v=office.15)">CreateBranch()</a> on the same <a href="https://msdn.microsoft.com/en-us/library/jj265462(v=office.15)">ServerTransaction</a> again, but <a href="https://msdn.microsoft.com/en-us/library/jj266759(v=office.15)">EnableForking</a> is set to false. By default, <strong>EnableForking</strong> is set to true.</p></td>
+<td><p>The application is trying to call <a href="https://msdn.microsoft.com/library/jj265503(v=office.15)">CreateBranch()</a> on the same <a href="https://msdn.microsoft.com/library/jj265462(v=office.15)">ServerTransaction</a> again, but <a href="https://msdn.microsoft.com/library/jj266759(v=office.15)">EnableForking</a> is set to false. By default, <strong>EnableForking</strong> is set to true.</p></td>
 </tr>
 <tr class="odd">
 <td><p>&quot;Failed to proxy message. Are you trying to proxy the same response twice?&quot;</p></td>
-<td><p>Your application attempted to proxy the same response for the same <a href="https://msdn.microsoft.com/en-us/library/jj265462(v=office.15)">ServerTransaction</a> instance at least two times.</p></td>
+<td><p>Your application attempted to proxy the same response for the same <a href="https://msdn.microsoft.com/library/jj265462(v=office.15)">ServerTransaction</a> instance at least two times.</p></td>
 </tr>
 <tr class="even">
 <td><p>&quot;Invalid status code.&quot;</p></td>
-<td><p>The application supplied an invalid status code in the <a href="https://msdn.microsoft.com/en-us/library/jj266735(v=office.15)">StatusCode</a> property of the <a href="https://msdn.microsoft.com/en-us/library/jj266760(v=office.15)">Response</a> object that is passed to the <a href="https://msdn.microsoft.com/en-us/library/jj265718(v=office.15)">SendResponse(Response)</a> method.</p></td>
+<td><p>The application supplied an invalid status code in the <a href="https://msdn.microsoft.com/library/jj266735(v=office.15)">StatusCode</a> property of the <a href="https://msdn.microsoft.com/library/jj266760(v=office.15)">Response</a> object that is passed to the <a href="https://msdn.microsoft.com/library/jj265718(v=office.15)">SendResponse(Response)</a> method.</p></td>
 </tr>
 <tr class="odd">
 <td><p>&quot;Cannot send two requests on the same transaction.&quot;</p></td>
-<td><p>The application is trying to send two different requests through the same <a href="https://msdn.microsoft.com/en-us/library/jj265716(v=office.15)">ClientTransaction</a> object. Check your code and ensure that you are not passing more than one <a href="https://msdn.microsoft.com/en-us/library/jj266237(v=office.15)">Request</a> object for the same <a href="https://msdn.microsoft.com/en-us/library/jj265716(v=office.15)">ClientTransaction</a> instance by calling the <a href="https://msdn.microsoft.com/en-us/library/jj266211(v=office.15)">SendRequest(Request)</a> method multiple times on it.</p></td>
+<td><p>The application is trying to send two different requests through the same <a href="https://msdn.microsoft.com/library/jj265716(v=office.15)">ClientTransaction</a> object. Check your code and ensure that you are not passing more than one <a href="https://msdn.microsoft.com/library/jj266237(v=office.15)">Request</a> object for the same <a href="https://msdn.microsoft.com/library/jj265716(v=office.15)">ClientTransaction</a> instance by calling the <a href="https://msdn.microsoft.com/library/jj266211(v=office.15)">SendRequest(Request)</a> method multiple times on it.</p></td>
 </tr>
 <tr class="even">
 <td><p>&quot;Cannot proxy multiple final responses.&quot;</p></td>
-<td><p>Your application has tried to proxy two different final responses for the same <a href="https://msdn.microsoft.com/en-us/library/jj265462(v=office.15)">ServerTransaction</a> instance.</p></td>
+<td><p>Your application has tried to proxy two different final responses for the same <a href="https://msdn.microsoft.com/library/jj265462(v=office.15)">ServerTransaction</a> instance.</p></td>
 </tr>
 <tr class="odd">
 <td><p>&quot;Cannot proxy. Transaction is in canceled / timed out state.&quot;</p></td>
-<td><p>The <a href="https://msdn.microsoft.com/en-us/library/jj265742(v=office.15)">Transaction</a> object, (<a href="https://msdn.microsoft.com/en-us/library/jj265462(v=office.15)">ServerTransaction</a> or <a href="https://msdn.microsoft.com/en-us/library/jj265716(v=office.15)">ClientTransaction</a>), timed out when it tried to service a request or response. Examine the message log for the specific message that might have caused the time-out or unexpected cancellation.</p></td>
+<td><p>The <a href="https://msdn.microsoft.com/library/jj265742(v=office.15)">Transaction</a> object, (<a href="https://msdn.microsoft.com/library/jj265462(v=office.15)">ServerTransaction</a> or <a href="https://msdn.microsoft.com/library/jj265716(v=office.15)">ClientTransaction</a>), timed out when it tried to service a request or response. Examine the message log for the specific message that might have caused the time-out or unexpected cancellation.</p></td>
 </tr>
 <tr class="even">
 <td><p>&quot;Only sip: URIs are supported.&quot;</p></td>

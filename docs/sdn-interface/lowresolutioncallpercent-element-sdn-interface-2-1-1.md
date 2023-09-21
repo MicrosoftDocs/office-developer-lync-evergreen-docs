@@ -2,7 +2,7 @@
 title: LowResolutionCallPercent element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: LowResolutionCallPercent element
 ms:assetid: 16ec328c-7910-3838-5de2-2611f7dbab81
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912755(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912755(v=office.15)
 ms:contentKeyID: 64126925
 ms.date: 02/16/2015
 mtps_version: v=office.15

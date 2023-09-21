@@ -2,7 +2,7 @@
 title: Add a Silverlight application to Conversation Window Extension
 TOCTitle: Add a Silverlight application to Conversation Window Extension
 ms:assetid: 8116ceb5-788f-4a86-b326-3c671b33bfbc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945560(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945560(v=office.15)
 ms:contentKeyID: 51541363
 ms.date: 07/24/2014
 mtps_version: v=office.15

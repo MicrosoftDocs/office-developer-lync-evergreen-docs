@@ -2,7 +2,7 @@
 title: UCMA 4.0 overview
 TOCTitle: UCMA 4.0 overview
 ms:assetid: 24a4b483-b707-4ba2-adf1-479a38205041
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465942(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465942(v=office.15)
 ms:contentKeyID: 57102436
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -19,7 +19,7 @@ The topics in this section a high-level overview of Microsoft Unified Communicat
 
   - [What is UCMA 4.0](what-is-ucma-4-0.md)
 
-  - [What's New in UCMA 4.0](https://msdn.microsoft.com/en-us/library/hh347292\(v=office.15\))
+  - [What's New in UCMA 4.0](https://msdn.microsoft.com/library/hh347292\(v=office.15\))
 
   - [UCMA 4.0 features](ucma-4-0-features.md)
 

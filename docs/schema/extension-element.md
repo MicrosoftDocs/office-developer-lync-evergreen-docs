@@ -2,7 +2,7 @@
 title: extension element
 TOCTitle: extension element
 ms:assetid: 8f6bf992-33d2-43d1-9972-0ff7a796872d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn438998(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn438998(v=office.15)
 ms:contentKeyID: 57094044
 ms.date: 07/24/2014
 mtps_version: v=office.15

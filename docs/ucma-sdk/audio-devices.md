@@ -2,7 +2,7 @@
 title: Audio devices
 TOCTitle: Audio devices
 ms:assetid: e8820e34-eadb-42c5-bbc5-b8c8ccb7671f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466031(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466031(v=office.15)
 ms:contentKeyID: 57103024
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-The topics in this section describe the audio devices that are available in Microsoft Unified Communications Managed API 4.0: [Player](https://msdn.microsoft.com/en-us/library/hh349780\(v=office.15\)), [Recorder](https://msdn.microsoft.com/en-us/library/hh381624\(v=office.15\)), [ToneController](https://msdn.microsoft.com/en-us/library/hh349643\(v=office.15\)), [SpeechRecognitionConnector](https://msdn.microsoft.com/en-us/library/hh383253\(v=office.15\)), and [SpeechSynthesisConnector](https://msdn.microsoft.com/en-us/library/hh349773\(v=office.15\)). These devices, respectively, can be used to play recorded audio, record audio, send and receive telephone dial tones, convert speech to text, or convert text to speech.
+The topics in this section describe the audio devices that are available in Microsoft Unified Communications Managed API 4.0: [Player](https://msdn.microsoft.com/library/hh349780\(v=office.15\)), [Recorder](https://msdn.microsoft.com/library/hh381624\(v=office.15\)), [ToneController](https://msdn.microsoft.com/library/hh349643\(v=office.15\)), [SpeechRecognitionConnector](https://msdn.microsoft.com/library/hh383253\(v=office.15\)), and [SpeechSynthesisConnector](https://msdn.microsoft.com/library/hh349773\(v=office.15\)). These devices, respectively, can be used to play recorded audio, record audio, send and receive telephone dial tones, convert speech to text, or convert text to speech.
 
 
 > [!IMPORTANT]
@@ -21,7 +21,7 @@ The topics in this section describe the audio devices that are available in Micr
 
 
 
-In UCMA 4.0, devices are users of media data, and have [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.15\)) instances attached to them. Although these devices are represented as properties on the **AudioVideoFlow** class, they are not automatically instantiated and each device is independent of the **AudioVideoFlow** instance that is attached to it. Before any of these devices can be used, it must be created, and then attached to an **AudioVideoFlow** instance. Although most of the devices are associated with a single **AudioVideoFlow** instance, a **Player** device can have multiple **AudioVideoFlow** instances attached to it. In addition, an **AudioVideoFlow** instance can be detached from a given **Player**, and another **AudioVideoFlow** instance can be attached.
+In UCMA 4.0, devices are users of media data, and have [AudioVideoFlow](https://msdn.microsoft.com/library/hh383533\(v=office.15\)) instances attached to them. Although these devices are represented as properties on the **AudioVideoFlow** class, they are not automatically instantiated and each device is independent of the **AudioVideoFlow** instance that is attached to it. Before any of these devices can be used, it must be created, and then attached to an **AudioVideoFlow** instance. Although most of the devices are associated with a single **AudioVideoFlow** instance, a **Player** device can have multiple **AudioVideoFlow** instances attached to it. In addition, an **AudioVideoFlow** instance can be detached from a given **Player**, and another **AudioVideoFlow** instance can be attached.
 
 The following code example shows the steps required to create a **Player** and attach an existing **AudioVideoFlow** instance to it.
 

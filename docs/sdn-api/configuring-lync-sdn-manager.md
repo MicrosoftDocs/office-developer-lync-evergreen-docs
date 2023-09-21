@@ -2,7 +2,7 @@
 title: Configuring Lync SDN Manager
 TOCTitle: Configuring Lync SDN Manager
 ms:assetid: 2a85a4b0-3bcc-4d91-a46a-a39e48d7a35a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775151(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775151(v=office.15)
 ms:contentKeyID: 62626125
 ms.date: 07/24/2014
 mtps_version: v=office.15

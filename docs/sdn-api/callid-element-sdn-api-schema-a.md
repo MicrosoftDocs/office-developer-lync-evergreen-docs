@@ -2,7 +2,7 @@
 title: CallId element (Lync SDN API Schema A)
 TOCTitle: CallId element
 ms:assetid: ae622b7c-6156-b3dc-d639-07aba2fd3115
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455022(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455022(v=office.15)
 ms:contentKeyID: 57260902
 ms.date: 07/24/2014
 mtps_version: v=office.15

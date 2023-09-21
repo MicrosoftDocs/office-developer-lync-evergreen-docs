@@ -2,7 +2,7 @@
 title: Get started with Lync meetings
 TOCTitle: Lync meetings
 ms:assetid: 99fca176-e2b5-494a-8b2b-fa378d2b7a1e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933123(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933123(v=office.15)
 ms:contentKeyID: 50877263
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -32,7 +32,7 @@ Learn about the programming concepts and Microsoft Lync 2013 SDK object model th
 
 ## What is Microsoft Lync 2013 meeting lifecycle management?
 
-The classes in the [Microsoft.Lync.Model.Conversation](https://msdn.microsoft.com/en-us/library/jj276168\(v=office.15\)) and [Microsoft.Lync.Model.Conversation.Sharing](https://msdn.microsoft.com/en-us/library/jj274504\(v=office.15\)) namespaces are the building blocks for features let you manage the lifecycle of an online Lync 2013 meeting. With these classes, you can start an online meeting, set the meeting access rule, invite participants, promote and demote participants, remove participants, control the content sharing stage of a meeting conversation window, and end meetings.
+The classes in the [Microsoft.Lync.Model.Conversation](https://msdn.microsoft.com/library/jj276168\(v=office.15\)) and [Microsoft.Lync.Model.Conversation.Sharing](https://msdn.microsoft.com/library/jj274504\(v=office.15\)) namespaces are the building blocks for features let you manage the lifecycle of an online Lync 2013 meeting. With these classes, you can start an online meeting, set the meeting access rule, invite participants, promote and demote participants, remove participants, control the content sharing stage of a meeting conversation window, and end meetings.
 <a name="Start"></a> 
 
 ## Get started with Lync meetings

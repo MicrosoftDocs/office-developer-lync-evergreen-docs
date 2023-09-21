@@ -2,7 +2,7 @@
 title: 'How to: Administer privacy relationships between Lync users'
 TOCTitle: 'How to: Administer privacy relationships between Lync users'
 ms:assetid: 52067756-a8a5-4a81-ad3e-b43d7913edb7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933049(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933049(v=office.15)
 ms:contentKeyID: 50877177
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -69,18 +69,18 @@ The prerequisites for administering privacy relationships between Lync users are
             }
     ```
 
-2.  Get a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object by calling the [ContactManager.GetContactByUri](https://msdn.microsoft.com/en-us/library/jj274481\(v=office.15\)) method.
+2.  Get a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object by calling the [ContactManager.GetContactByUri](https://msdn.microsoft.com/library/jj274481\(v=office.15\)) method.
     
-    The following example gets a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/en-us/library/jj266463\(v=office.15\)) object from the SIP URI of a selected user.
+    The following example gets a [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) object from the SIP URI of a selected user.
     
                     //Get a contact object that represents the selected contact Uri
                     Contact selectedContact = LyncClient.GetClient().ContactManager.GetContactByUri(contactURI);
 
-3.  Check to see whether the state of the **Contact** object lets you set the privacy relationship by calling the [Contact.CanChangeSetting](https://msdn.microsoft.com/en-us/library/jj294134\(v=office.15\)) method.
+3.  Check to see whether the state of the **Contact** object lets you set the privacy relationship by calling the [Contact.CanChangeSetting](https://msdn.microsoft.com/library/jj294134\(v=office.15\)) method.
 
 4.  Set the privacy relationship rule for the selected contact.
     
-    The following example sets the privacy relationship rule by calling the [Contact.BeginChangeSetting](https://msdn.microsoft.com/en-us/library/jj275533\(v=office.15\)) method.
+    The following example sets the privacy relationship rule by calling the [Contact.BeginChangeSetting](https://msdn.microsoft.com/library/jj275533\(v=office.15\)) method.
     
     ```csharp
             /// <summary>
@@ -110,7 +110,7 @@ The prerequisites for administering privacy relationships between Lync users are
 
 ## Sample application: Privacy Relationship Manager
 
-The following example shows a sample application that lets a signed-in user set privacy relationships for any user in his or her contact list. The form contains a [Microsoft.Lync.Controls.PresenceIndicator](https://msdn.microsoft.com/en-us/library/hh345947\(v=office.15\)) control to display the signed-in user’s presence and picture, a [Microsoft.Lync.Controls.ContactList](https://msdn.microsoft.com/en-us/library/hh363781\(v=office.15\)) control to show the user’s contact list, a set of radio buttons that let the user select a privacy relationship rule to set, and a command button to set the selected privacy relationship for all contacts selected in the list.
+The following example shows a sample application that lets a signed-in user set privacy relationships for any user in his or her contact list. The form contains a [Microsoft.Lync.Controls.PresenceIndicator](https://msdn.microsoft.com/library/hh345947\(v=office.15\)) control to display the signed-in user’s presence and picture, a [Microsoft.Lync.Controls.ContactList](https://msdn.microsoft.com/library/hh363781\(v=office.15\)) control to show the user’s contact list, a set of radio buttons that let the user select a privacy relationship rule to set, and a command button to set the selected privacy relationship for all contacts selected in the list.
 
 **Figure 1. Privacy relationship manager**
 

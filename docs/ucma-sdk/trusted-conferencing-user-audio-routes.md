@@ -2,7 +2,7 @@
 title: Trusted conferencing user audio routes
 TOCTitle: Trusted conferencing user audio routes
 ms:assetid: 380ef3fd-5da8-48ec-8df8-3a453c030914
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn466008(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn466008(v=office.15)
 ms:contentKeyID: 57102981
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -27,7 +27,7 @@ From time to time, a supervisor might want to monitor conversations between the 
 
 To configure the supervisor correctly requires changing individual audio routes, so that the supervisor hears the audio from the other participants, but the others do not hear the supervisor. The correct technique is to turn off the default routing behavior of the audio-video MCU (AVMCU) when the supervisor joins, and then set the routes as desired. Because there are two ways a supervisor can be added to the conference, the appropriate options must be set.
 
-When the application is joining the AVMCU on behalf of the supervisor by calling in, the [RemoveFromDefaultRouting](https://msdn.microsoft.com/en-us/library/hh349908\(v=office.15\)) property must be set on the [AudioVideoCallEstablishOptions](https://msdn.microsoft.com/en-us/library/hh382857\(v=office.15\)) instance as shown in the following example.
+When the application is joining the AVMCU on behalf of the supervisor by calling in, the [RemoveFromDefaultRouting](https://msdn.microsoft.com/library/hh349908\(v=office.15\)) property must be set on the [AudioVideoCallEstablishOptions](https://msdn.microsoft.com/library/hh382857\(v=office.15\)) instance as shown in the following example.
 
 ```csharp
 AudioVideoCallEstablishOptions options = new AudioVideoCallEstablishOptions();
@@ -36,7 +36,7 @@ options.AudioVideoMcuDialInOptions.RemoveFromDefaultRouting = true;
 avCall.BeginEstablish(options, null, null);
 ```
 
-If the AVMCU is asked to call the application that represents the supervisor using a dial out, then the setting must be made on the [RemoveFromDefaultRouting](https://msdn.microsoft.com/en-us/library/hh384839\(v=office.15\)) property on the [AudioVideoMcuDialOutOptions](https://msdn.microsoft.com/en-us/library/hh384541\(v=office.15\)) class.
+If the AVMCU is asked to call the application that represents the supervisor using a dial out, then the setting must be made on the [RemoveFromDefaultRouting](https://msdn.microsoft.com/library/hh384839\(v=office.15\)) property on the [AudioVideoMcuDialOutOptions](https://msdn.microsoft.com/library/hh384541\(v=office.15\)) class.
 
 ```csharp
 AudioVideoMcuDialOutOptions options = new AudioVideoMcuDialOutOptions();

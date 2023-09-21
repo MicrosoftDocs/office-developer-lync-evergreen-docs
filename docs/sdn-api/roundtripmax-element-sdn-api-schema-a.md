@@ -2,7 +2,7 @@
 title: RoundTripMax element  (Lync SDN API Schema A)
 TOCTitle: RoundTripMax element
 ms:assetid: e1be0ed2-f807-a65f-b1c3-6ec0993745d6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn439268(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn439268(v=office.15)
 ms:contentKeyID: 57261004
 ms.date: 07/24/2014
 mtps_version: v=office.15

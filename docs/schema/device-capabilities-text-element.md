@@ -2,7 +2,7 @@
 title: device/capabilities/text element
 TOCTitle: device/capabilities/text element
 ms:assetid: 75504a41-61ac-417d-aaab-16880c15e1d4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454734(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454734(v=office.15)
 ms:contentKeyID: 57093568
 ms.date: 07/24/2014
 mtps_version: v=office.15

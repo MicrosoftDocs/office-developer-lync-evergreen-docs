@@ -2,7 +2,7 @@
 title: Configuring LDL logging options
 TOCTitle: Configuring LDL logging options
 ms:assetid: bd414d81-e05e-41ab-834f-7a97093a628d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn785207(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn785207(v=office.15)
 ms:contentKeyID: 62952688
 ms.date: 02/16/2015
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ dev_langs:
 
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
-Lync SDN Interface 2.1.1 uses the logging infrastructure of the [Enterprise Libraries 5.0](http://msdn.microsoft.com/en-us/library/ff632023.aspx). You can inspect and modify the configuration file by using the Microsoft Enterprise Library Configuration Tool. For a complete documentation on the options and capabilities of the logging infrastructure, see [Configuring the Logging Application Block](http://msdn.microsoft.com/en-us/library/ff664569\(v=pandp.50\).aspx) in the Enterprise Libraries documentation.
+Lync SDN Interface 2.1.1 uses the logging infrastructure of the [Enterprise Libraries 5.0](http://msdn.microsoft.com/library/ff632023.aspx). You can inspect and modify the configuration file by using the Microsoft Enterprise Library Configuration Tool. For a complete documentation on the options and capabilities of the logging infrastructure, see [Configuring the Logging Application Block](http://msdn.microsoft.com/library/ff664569\(v=pandp.50\).aspx) in the Enterprise Libraries documentation.
 
 The Enterprise Libraries includes a configuration tool that provides an intuitive graphical user interface for adding and changing settings for the logging configuration. You can use this tool to configure the LDL logging options. This article explains how to configure the logging options in the LyncDialogListener.exe.config file.
 

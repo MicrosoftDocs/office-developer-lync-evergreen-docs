@@ -2,7 +2,7 @@
 title: Trusted service discovery
 TOCTitle: Trusted service discovery
 ms:assetid: e9d21856-ce1b-4dfa-8817-fc5e604e974b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn465967(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn465967(v=office.15)
 ms:contentKeyID: 57102528
 ms.date: 07/25/2014
 mtps_version: v=office.15

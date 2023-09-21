@@ -2,7 +2,7 @@
 title: ContactSearch control
 TOCTitle: ContactSearch control
 ms:assetid: 3196935c-0328-478d-a794-b297cb3d2725
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ945544(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ945544(v=office.15)
 ms:contentKeyID: 51541352
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -39,13 +39,13 @@ Additional resources</p></td>
 
 ## Control overview
 
-Use the [ContactSearch](https://msdn.microsoft.com/en-us/library/hh379436\(v=office.15\)) control in Microsoft Lync Control applications to display the ContactSearchInputBox and ContactSearchResultList controls in the same location on a page. To display search results and search input in separate locations on a page, use the ContactSearchInputBox and ContactSearchResultList controls as separate controls.
+Use the [ContactSearch](https://msdn.microsoft.com/library/hh379436\(v=office.15\)) control in Microsoft Lync Control applications to display the ContactSearchInputBox and ContactSearchResultList controls in the same location on a page. To display search results and search input in separate locations on a page, use the ContactSearchInputBox and ContactSearchResultList controls as separate controls.
 
 ![ContactSearch](images/JJ945544.ContactSearch_RTW_bugfix(Office.15).png "ContactSearch")
 
 ## Members
 
-Notable ContactSearch control public properties relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](https://msdn.microsoft.com/en-us/library/jj933088\(v=office.15\)).
+Notable ContactSearch control public properties relating to unified communications appear in the following table. For a full list, see [Lync 2013 class libraries reference](https://msdn.microsoft.com/library/jj933088\(v=office.15\)).
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ Notable ContactSearch control public properties relating to unified communicatio
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh379445(v=office.15)">SearchType</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh379445(v=office.15)">SearchType</a> property</p></td>
 <td><p>Gets or sets the currently selected search type. The type is a SearchType enumeration. Possible values include:</p>
 <ul>
 <li><p>Skill</p></li>
@@ -68,11 +68,11 @@ Notable ContactSearch control public properties relating to unified communicatio
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh364263(v=office.15)">ContextualInformation</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh364263(v=office.15)">ContextualInformation</a> property</p></td>
 <td><p>Gets or sets a data structure that contains information used to customize the information that accompanies messages. For more information about using contextual information, see <a href="contextual-lync-conversations.md">Contextual Lync conversations</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/hh378963(v=office.15)">MaxResults</a> property</p></td>
+<td><p><a href="https://msdn.microsoft.com/library/hh378963(v=office.15)">MaxResults</a> property</p></td>
 <td><p>The maximum number of results to return.</p></td>
 </tr>
 </tbody>

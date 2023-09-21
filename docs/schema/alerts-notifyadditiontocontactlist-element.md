@@ -2,7 +2,7 @@
 title: alerts/notifyAdditionToContactList element
 TOCTitle: alerts/notifyAdditionToContactList element
 ms:assetid: ed217ffd-5bb3-4502-b826-90af4153ab8d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454692(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454692(v=office.15)
 ms:contentKeyID: 57093345
 ms.date: 07/24/2014
 mtps_version: v=office.15

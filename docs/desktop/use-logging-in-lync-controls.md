@@ -2,7 +2,7 @@
 title: Use logging in Lync Controls
 TOCTitle: Use logging in Lync Controls
 ms:assetid: 03ba79e2-edfb-4a01-835a-92c3f6486c3d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937248(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937248(v=office.15)
 ms:contentKeyID: 50877061
 ms.date: 07/24/2014
 mtps_version: v=office.15

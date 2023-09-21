@@ -2,7 +2,7 @@
 title: Codec element (QualityUpdate element) (Lync SDN API Schema A)
 TOCTitle: Codec element (Properties element) (QualityUpdate element) (LyncDiagnostics element)
 ms:assetid: 2eea8bee-366c-cbf6-ae25-da326948002b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775109(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775109(v=office.15)
 ms:contentKeyID: 62626088
 ms.date: 07/24/2014
 mtps_version: v=office.15

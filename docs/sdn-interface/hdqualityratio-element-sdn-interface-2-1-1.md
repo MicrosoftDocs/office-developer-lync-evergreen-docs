@@ -2,7 +2,7 @@
 title: HDQualityRatio element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: HDQualityRatio element
 ms:assetid: ee882dac-2b36-65af-2a4a-7183d3c995ec
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912736(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912736(v=office.15)
 ms:contentKeyID: 64126905
 ms.date: 02/16/2015
 mtps_version: v=office.15

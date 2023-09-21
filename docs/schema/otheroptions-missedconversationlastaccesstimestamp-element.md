@@ -2,7 +2,7 @@
 title: otherOptions/missedConversationLastAccessTimestamp element
 TOCTitle: otherOptions/missedConversationLastAccessTimestamp element
 ms:assetid: b591cd72-bb4b-4493-bd44-ea0efcebb89d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454769(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454769(v=office.15)
 ms:contentKeyID: 57093656
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: What you can do with desktop, application, and display sharing
 TOCTitle: Desktop, application, and display sharing
 ms:assetid: 3e2f3277-1a31-453c-b18c-ef2ac14a596c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ937306(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ937306(v=office.15)
 ms:contentKeyID: 50877136
 ms.date: 07/24/2014
 mtps_version: v=office.15

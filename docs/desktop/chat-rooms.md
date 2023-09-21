@@ -2,7 +2,7 @@
 title: Chat rooms
 TOCTitle: Chat rooms
 ms:assetid: c1bf3f8c-e294-4fd1-8bb3-615029370f99
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933172(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933172(v=office.15)
 ms:contentKeyID: 50877309
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -42,7 +42,7 @@ A followed room has two attributes that distinguish it from other rooms hosted o
 
 ## Chat room types
 
-All chat rooms are encapsulated by a common [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/en-us/library/jj266467\(v=office.15\)) class. Although all chat rooms are encapsulated by the same class, the programming patterns used to interact with chat rooms are different depending on the relationship of the user to the room. For example, a chat room that a user is not a member of does not notify the user of new messages even if your application has registered a handler for the [Room.UnreadMessageCountChanged](https://msdn.microsoft.com/en-us/library/jj268191\(v=office.15\)) event.
+All chat rooms are encapsulated by a common [Microsoft.Lync.Model.Room.Room](https://msdn.microsoft.com/library/jj266467\(v=office.15\)) class. Although all chat rooms are encapsulated by the same class, the programming patterns used to interact with chat rooms are different depending on the relationship of the user to the room. For example, a chat room that a user is not a member of does not notify the user of new messages even if your application has registered a handler for the [Room.UnreadMessageCountChanged](https://msdn.microsoft.com/library/jj268191\(v=office.15\)) event.
 
 The following table describes the behavior differences between chat rooms represented by the **Room** class.
 

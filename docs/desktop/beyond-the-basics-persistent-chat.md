@@ -2,7 +2,7 @@
 title: 'Beyond the basics: Persistent Chat'
 TOCTitle: Persistent Chat
 ms:assetid: 84405ae0-e817-48bc-ae55-38e61b3095ff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ933098(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ933098(v=office.15)
 ms:contentKeyID: 50877230
 ms.date: 07/24/2014
 mtps_version: v=office.15

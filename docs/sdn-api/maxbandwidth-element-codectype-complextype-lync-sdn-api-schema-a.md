@@ -2,7 +2,7 @@
 title: MaxBandwidth element (CodecType complexType) (Lync SDN API Schema A)
 TOCTitle: MaxBandwidth element
 ms:assetid: b288f273-0561-cd68-c910-f6c9589badd8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn775126(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn775126(v=office.15)
 ms:contentKeyID: 62626100
 ms.date: 07/24/2014
 mtps_version: v=office.15

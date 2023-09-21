@@ -2,7 +2,7 @@
 title: DynamicCapabilityPercent element (QualityPropertiesType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: DynamicCapabilityPercent element
 ms:assetid: 0a49a875-5201-98b0-17a1-9d49a49bf0d0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912718(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912718(v=office.15)
 ms:contentKeyID: 64126888
 ms.date: 02/16/2015
 mtps_version: v=office.15

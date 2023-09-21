@@ -2,7 +2,7 @@
 title: mwi category instance value element
 TOCTitle: mwi category instance value element
 ms:assetid: 3169d257-280f-4075-afaf-b2a87931418e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn454758(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn454758(v=office.15)
 ms:contentKeyID: 57093645
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -136,7 +136,7 @@ Message Waiting Indicator (MWI) is a Microsoft Exchange Unified Messaging featur
 
 When a user receives a new voice mail, the Exchange Server sends out a SIP NOTIFY message that contains the MWI data for the specified user. After receiving the SIP message, Microsoft Lync Server 2013 publishes a private mwi category instance to the user’s Self container (ContainerId = 1). The publication is static and read-only. The instance ID of the published mwi category instance is 0. A local client cannot publish this category instance directly to the Self container, but can receive new and updated mwi category instances through self-subscription.
 
-Exchange only sends MWI notifications to user accounts that are configured to use MWI. For information about how to enable MWI on Exchange, see [Understanding Message Waiting Indicator](http://technet.microsoft.com/en-us/library/dd298001.aspx).
+Exchange only sends MWI notifications to user accounts that are configured to use MWI. For information about how to enable MWI on Exchange, see [Understanding Message Waiting Indicator](http://technet.microsoft.com/library/dd298001.aspx).
 
 ## Example
 

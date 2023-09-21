@@ -2,7 +2,7 @@
 title: From element (QualityUpdate element) (Lync SDN API Schema A)
 TOCTitle: From element (QualityUpdate element) (LyncDiagnostics element)
 ms:assetid: 96d5b074-7af1-f644-5bba-6282ce8fb957
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn455067(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn455067(v=office.15)
 ms:contentKeyID: 57260946
 ms.date: 07/24/2014
 mtps_version: v=office.15

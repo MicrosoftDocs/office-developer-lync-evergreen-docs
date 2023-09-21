@@ -2,7 +2,7 @@
 title: Connection element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: Connection element
 ms:assetid: adf65ee7-9acb-edb8-e7bf-eef0a71731dd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912694(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912694(v=office.15)
 ms:contentKeyID: 64126864
 ms.date: 02/16/2015
 mtps_version: v=office.15

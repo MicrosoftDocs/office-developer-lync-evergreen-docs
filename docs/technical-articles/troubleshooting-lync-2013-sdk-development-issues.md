@@ -2,7 +2,7 @@
 title: Troubleshooting Lync 2013 SDK development issues
 TOCTitle: Troubleshooting Lync 2013 SDK development issues
 ms:assetid: e6718d84-5efe-4e36-932e-110b223be625
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn609830(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn609830(v=office.15)
 ms:contentKeyID: 61218832
 ms.date: 07/25/2014
 mtps_version: v=office.15
@@ -20,7 +20,7 @@ This section explains how to troubleshoot some known COM exceptions.
 
 ### Generic COM Exception. Code 0x80EE0066
 
-This error may occur when you start a Lync custom application that uses UI suppression. The TechNet article [FSOCS troubleshooting](http://technet.microsoft.com/en-us/library/cc676984.aspx) describes this as a DNS issue and provides some recommendations.
+This error may occur when you start a Lync custom application that uses UI suppression. The TechNet article [FSOCS troubleshooting](http://technet.microsoft.com/library/cc676984.aspx) describes this as a DNS issue and provides some recommendations.
 
 #### Resolution
 
@@ -34,7 +34,7 @@ This error may occur when you start a Lync custom application that uses UI suppr
 
 ### Generic COM Exception. Code 0x800706F7
 
-This error may occur in applications that use the [VideoWindow](https://msdn.microsoft.com/en-us/library/office/microsoft.lync.model.conversation.audiovideo.videowindow_di_3_uc_ocs14mreflyncclnt.aspx) class. This error was documented in two Knowledge Base articles:
+This error may occur in applications that use the [VideoWindow](https://msdn.microsoft.com/library/office/microsoft.lync.model.conversation.audiovideo.videowindow_di_3_uc_ocs14mreflyncclnt.aspx) class. This error was documented in two Knowledge Base articles:
 
 - [The call operation fails with error code "0x800706f7"](http://support.microsoft.com/kb/2457836)
 - [Error code 0x800706f7 when you run an application](http://support.microsoft.com/kb/2868239/nl)
@@ -42,7 +42,7 @@ This error may occur in applications that use the [VideoWindow](https://msdn.mic
 Two possible fixes were described in forum postings:
 
 - Move the application project from \\Program Files(x86) to a location in the Users folder.
-- Disable the User Account Control‎ and select "Allow unsafe code" in the Visual Studio [project options pane](http://msdn.microsoft.com/en-us/library/kb4wyys2.aspx).
+- Disable the User Account Control‎ and select "Allow unsafe code" in the Visual Studio [project options pane](http://msdn.microsoft.com/library/kb4wyys2.aspx).
 
 ## Using Lync client methods
 
@@ -52,11 +52,11 @@ Users report errors like "\<object\> does not contain a definition for ‘GetHos
 
 - The GetHostingConversation method is available only in LyncSilverlight applications. The documents describe this method as "called in an application running in the Lync conversation extension area". The Conversation Window Extension (CWE) is available only in a Silverlight application. Therefore, by design the **GetHostingConversation** method is also only available in a Silverlight application.
 
-- The **GetHostingConversation** method returns a null if the conversation is not fully established. Call **GetHostingConversation** too early, and it also returns a null . A good rule of thumb is that when the application in the CWE is open, the [Conversation](chttps://msdn.microsoft.com/en-us/library/office/microsoft.lync.model.conversation.conversation_di_3_uc_ocs14mreflyncctrsl.aspx) object is available, and **GetHostingConversation** will work as expected.
+- The **GetHostingConversation** method returns a null if the conversation is not fully established. Call **GetHostingConversation** too early, and it also returns a null . A good rule of thumb is that when the application in the CWE is open, the [Conversation](chttps://msdn.microsoft.com/library/office/microsoft.lync.model.conversation.conversation_di_3_uc_ocs14mreflyncctrsl.aspx) object is available, and **GetHostingConversation** will work as expected.
 
 ### GetClient ()
 
-When trying to access the [LyncClient.GetClient](https://msdn.microsoft.com/en-us/library/office/microsoft.lync.model.lyncclient.getclient_di_3_uc_ocs14mreflyncctrsl.aspx) method, you may receive a null object or an error 'RPC Server is unavailable (0x800706BA)'. If the Lync client process is shut down and restarted you do not get a valid Lync client object at least until a user is logged in, and there may also be a short delay past that moment.
+When trying to access the [LyncClient.GetClient](https://msdn.microsoft.com/library/office/microsoft.lync.model.lyncclient.getclient_di_3_uc_ocs14mreflyncctrsl.aspx) method, you may receive a null object or an error 'RPC Server is unavailable (0x800706BA)'. If the Lync client process is shut down and restarted you do not get a valid Lync client object at least until a user is logged in, and there may also be a short delay past that moment.
 
 One workaround is to get a property value from the client after it is invalid. This should cause an exception, and at that time Lync should invalidate the cached object. A valid client should now be available. Also, consider using code such as the following simple loop:
 

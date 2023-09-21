@@ -2,7 +2,7 @@
 title: Average element (Lync SDN Interface 2.1.1)
 TOCTitle: Average element
 ms:assetid: 6a5fe4d2-427d-376b-a899-189ed844e6f1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn912677(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn912677(v=office.15)
 ms:contentKeyID: 64126846
 ms.date: 02/16/2015
 mtps_version: v=office.15
