@@ -64,15 +64,15 @@ The following configuration settings are also known as the LSM execution options
 </tr>
 <tr class="even">
 <td><p>timeouthandlerperiod</p></td>
-<td><p>Applied to LSM, it is the time period to check for call timeouts in the database.</p></td>
+<td><p>Applied to LSM, it's the time period to check for call timeouts in the database.</p></td>
 </tr>
 <tr class="odd">
 <td><p>settingsrefresh</p></td>
-<td><p>Applied to LSM, it is the time period for refreshing the settings from the database (if a database is used to share settings.</p></td>
+<td><p>Applied to LSM, it's the time period for refreshing the settings from the database (if a database is used to share settings.</p></td>
 </tr>
 <tr class="even">
 <td><p>maxcachesize</p></td>
-<td><p>Applied to LSM, it is the maximum number of call states cached (in cache mode)</p></td>
+<td><p>Applied to LSM, it's the maximum number of call states cached (in cache mode)</p></td>
 </tr>
 <tr class="odd">
 <td><p>quality</p></td>

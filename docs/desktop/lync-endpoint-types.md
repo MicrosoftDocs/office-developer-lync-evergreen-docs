@@ -18,7 +18,7 @@ Learn about writing a Microsoft Lync 2013 SDK enabled application that uses side
 
 ## Lync endpoints
 
-A user can sign in to Lync from one or two endpoints on a computer at the same time. Each endpoint can accept a different set of user credentials. The endpoint type that you use depends on the usage scenario that you are enabling through your code. When two endpoints are being used, one of the endpoints is the Lync 2013 client and the other endpoint is the side-by-side endpoint encapsulated by your custom application. The Lync 2013 endpoint types that you can use include the following:
+A user can sign in to Lync from one or two endpoints on a computer at the same time. Each endpoint can accept a different set of user credentials. The endpoint type that you use depends on the usage scenario that you're enabling through your code. When two endpoints are being used, one of the endpoints is the Lync 2013 client and the other endpoint is the side-by-side endpoint encapsulated by your custom application. The Lync 2013 endpoint types that you can use include the following:
 
   - The client endpoint
 
@@ -28,7 +28,7 @@ The following sections describe how these endpoint types enable typical Lync 201
 
 ### The client endpoint
 
-Use the client endpoint if you are creating conversation window or chat window extensions, adding Lync features to your line-of-business application. In these scenarios, a user signs in to the Lync client endpoint and your application acts as a user agent for that user under her credentials.
+Use the client endpoint if you're creating conversation window or chat window extensions, adding Lync features to your line-of-business application. In these scenarios, a user signs in to the Lync client endpoint and your application acts as a user agent for that user under her credentials.
 
 The client endpoint singleton is initialized when the Lync 2013 client is started. This endpoint supports the client and any custom applications that use the client endpoint. The client endpoint accepts one set of user credentials and all custom applications that use the client endpoint act as a user agent for the person whose credentials are used to sign in to Lync. If UI suppression is enabled, the client endpoint can only be accessed by an Lync 2013 API-enabled application.
 

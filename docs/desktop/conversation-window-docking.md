@@ -49,7 +49,7 @@ The dimensions of a container control are set at design time and should be large
 
 After a conversation window was docked in a container control that is large enough to hold the conversation window, a user can manually resize the container control to make it larger. When this happens, the conversation window does not respond to the size change. To make the conversation window fill the container control again, you must dock the conversation window again even though it has not undocked. This means that you must catch size changing events on the container control so that you can respond to the container resize.
 
-It is a good idea to dock the conversation window inside a container control whose parent is a scrollable control. If you design your window in this manner, changes in the dimension of the conversation window do not require changes in the dimension of your application window. Instead, scroll bars appear on the parent container control.
+It's a good idea to dock the conversation window inside a container control whose parent is a scrollable control. If you design your window in this manner, changes in the dimension of the conversation window do not require changes in the dimension of your application window. Instead, scroll bars appear on the parent container control.
 
 <table>
 <colgroup>

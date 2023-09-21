@@ -49,7 +49,7 @@ The prerequisites for working with Lync 2013 conversations are as follows:
 
 ### Lync 2013 conversation essentials
 
-To understand how to work with Lync 2013 conversations, it is important to become familiar with the concepts in the following table.
+To understand how to work with Lync 2013 conversations, it's important to become familiar with the concepts in the following table.
 
 <table>
 <colgroup>

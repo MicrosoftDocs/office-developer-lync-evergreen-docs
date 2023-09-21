@@ -369,14 +369,14 @@ The following example updates the application UI by using the current state of t
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>A contact can be in multiple groups. To avoid adding the same contact to the list twice, the previous example checks whether the contact has already been added to the list when it is processing successive groups.</p></td>
+<td><p>A contact can be in multiple groups. To avoid adding the same contact to the list twice, the previous example checks whether the contact has already been added to the list when it's processing successive groups.</p></td>
 </tr>
 </tbody>
 </table>
 
 ## Add a new conversation
 
-A user can select as many contacts as wanted to invite to a conversation. The list declared in the sample form is enabled for multiple selections. Each selection is only a SIP address and corresponding [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) objects are needed when you are adding selected contacts to the new conversation.
+A user can select as many contacts as wanted to invite to a conversation. The list declared in the sample form is enabled for multiple selections. Each selection is only a SIP address and corresponding [Microsoft.Lync.Model.Contact](https://msdn.microsoft.com/library/jj266463\(v=office.15\)) objects are needed when you're adding selected contacts to the new conversation.
 
 For each SIP address selected on the contact list, the sample gets the corresponding **Contact** by calling the [ContactManager.GetContactByUri](https://msdn.microsoft.com/library/jj274481\(v=office.15\)) method. The contact objects are stored in the **\_selectedContacts** dictionary that was declared previously and then used in the [ConversationManager.ConversationAdded](https://msdn.microsoft.com/library/jj266470\(v=office.15\)) event.
 
@@ -391,7 +391,7 @@ For each SIP address selected on the contact list, the sample gets the correspon
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>When you add a new conversation, you have only started a SIP dialog with Microsoft Lync Server 2013 but you have not set a list of users to be invited or registered for conversation-related events. You must wait for a confirmation from Lync Server 2013 that a conversation SIP dialog is established. You are notified in the <strong>ConversationAdded</strong> event.</p></td>
+<td><p>When you add a new conversation, you have only started a SIP dialog with Microsoft Lync Server 2013 but you have not set a list of users to be invited or registered for conversation-related events. You must wait for a confirmation from Lync Server 2013 that a conversation SIP dialog is established. You're notified in the <strong>ConversationAdded</strong> event.</p></td>
 </tr>
 </tbody>
 </table>

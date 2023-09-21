@@ -12,14 +12,14 @@ mtps_version: v=office.15
 
 **Applies to**: Lync 2010 | Lync 2013 | Lync Server 2010 | Lync Server 2013
 
-To help to ensure secure message transport and client authentication, the Lync SDN Interface components support mutual TLS. For this to work, you must request certificates from a certification authority (CA) for use over SSL with the LSM and the LDL. You might have to install a root certificate of the CA if it is not trusted. In addition, you must install a server certificate on the network controllers and a client certificate on the LSM host computer.
+To help to ensure secure message transport and client authentication, the Lync SDN Interface components support mutual TLS. For this to work, you must request certificates from a certification authority (CA) for use over SSL with the LSM and the LDL. You might have to install a root certificate of the CA if it's not trusted. In addition, you must install a server certificate on the network controllers and a client certificate on the LSM host computer.
 
 In the following procedures, assume that a Microsoft Certification Authority is being used and then summarizes the steps necessary to request and install a certificate. For detailed explanation and instructions on how to create a certificate request for Microsoft Certificate Services, see [Managing Certificate Services and SSL](http://technet.microsoft.com/library/bb727098.aspx).
 
 ## Install the trusted root certificate
 
 > [!NOTE]
-> The procedure is necessary only if you are notified that the CA is not trusted, which can occur when you use a private or custom certificate server instead of acquiring certificates from an established public CA.
+> The procedure is necessary only if you're notified that the CA is not trusted, which can occur when you use a private or custom certificate server instead of acquiring certificates from an established public CA.
 
 To install the root certificate of a CA:
 
@@ -29,11 +29,11 @@ To install the root certificate of a CA:
 
 3. Select the appropriate CA from the list and choose the Base 64 Encoding Method.
 
-4. Choose the **Download CA certificate** link and then choose the **Open** option when you are prompted to open or save the certificate.
+4. Choose the **Download CA certificate** link and then choose the **Open** option when you're prompted to open or save the certificate.
 
 5. When the certificate window opens, choose **Install Certificate…**. The Certificate Import Wizard appears.
 
-6. Choose **Next**, and when you are prompted for the Certificate Store, choose **Place all certificates in the following store**. Then, browse to select the Trusted Root Certification Authorities store.
+6. Choose **Next**, and when you're prompted for the Certificate Store, choose **Place all certificates in the following store**. Then, browse to select the Trusted Root Certification Authorities store.
 
 7. Complete the remaining steps of the wizard.
 

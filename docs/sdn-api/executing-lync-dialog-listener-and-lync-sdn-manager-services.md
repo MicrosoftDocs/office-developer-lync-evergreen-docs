@@ -16,7 +16,7 @@ This section describes how to execute the Lync Dialog Listener and Lync SDN Mana
 
 The Lync SDN API 2.0 Setup Wizards will install, configure, and start the Lync Dialog Listener and Lync SDN Manager services. These services are configured by default with the automatic startup type. However, you can restart it by after the configuration is changed or the service failed.
 
-You can use the Windows Services to verify if the services are indeed automatically started and, if not, reconfigure them to be started automatically. The Windows Services panel also let you change the credentials used to run the service, access the Lync server (if you are in the RTC Server Administrator group) as well optionally access the QoE database when using a Windows-trusted database connection..
+You can use the Windows Services to verify if the services are indeed automatically started and, if not, reconfigure them to be started automatically. The Windows Services panel also let you change the credentials used to run the service, access the Lync server (if you're in the RTC Server Administrator group) as well optionally access the QoE database when using a Windows-trusted database connection..
 
 ## Manage the Lync Dialog Listener service
 

@@ -41,7 +41,7 @@ Use Microsoft Lync Controls to add presence and availability information about L
 
 Lync Control applications require the user to sign in to Microsoft Lync 2013. A Lync Controls application connects to Lync Server 2013 through a single out-of-process connection to Lync 2013. The out-of-process connection to the Lync client endpoint logic enables the custom window to have a lightweight memory and process footprint.
 
-The application is a WPF or Silverlight window that contains Lync Controls and may also have custom logic. For Windows Forms and WPF applications, it is common to use one thread for the UI and a separate thread for tasks such as database access or other asynchronous operations. However, in Silverlight Lync Controls applications, keep all application logic in the UI thread. For event handling in Silverlight Lync Controls applications, you must marshal relevant event data to your UI thread using something like Dispatcher.Invoke. To do otherwise raises a cross-thread exception.
+The application is a WPF or Silverlight window that contains Lync Controls and may also have custom logic. For Windows Forms and WPF applications, it's common to use one thread for the UI and a separate thread for tasks such as database access or other asynchronous operations. However, in Silverlight Lync Controls applications, keep all application logic in the UI thread. For event handling in Silverlight Lync Controls applications, you must marshal relevant event data to your UI thread using something like Dispatcher.Invoke. To do otherwise raises a cross-thread exception.
 
 ## Add presence to an existing WPF application
 

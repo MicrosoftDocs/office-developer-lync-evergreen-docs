@@ -83,7 +83,7 @@ One search provider can have advantages over another search provider because ind
 
 Expert search capability is available for Lync Server 2013 when an administrator has configured the server with an expert search query URL. If a search query URL has not been configured at the server, no results are returned in an expert search.
 
-An expert search is a search for people using keywords instead of a name, e-mail, alias, or company. The expert search depends on the nature of the data store you are searching. A good example of such a data store is the Microsoft SharePoint data store. SharePoint indexed fields include fields describing skills, interests, responsibilities, knowledge, and authored documents.
+An expert search is a search for people using keywords instead of a name, e-mail, alias, or company. The expert search depends on the nature of the data store you're searching. A good example of such a data store is the Microsoft SharePoint data store. SharePoint indexed fields include fields describing skills, interests, responsibilities, knowledge, and authored documents.
 
 An expert search query is a string composed of keywords such as first names, last names, business titles, or responsibility areas. The following expert search example finds people whose SharePoint profile includes the strings "programming writer 2" and "Alvord."
 
@@ -132,7 +132,7 @@ The [SearchOptions](https://msdn.microsoft.com/library/jj274803\(v=office.15\)) 
 
 ### Search fields
 
-A search field is an index that a search provider uses to enable a search through its data store. Not all of the search fields enumerated by [SearchFields](https://msdn.microsoft.com/library/jj276185\(v=office.15\)) are supported as indexes by individual search providers. If you specify a search on a search provider using a search field that is not supported as an index, no search results are returned. If you are not sure whether a search provider supports a specific search field, you can use the [SearchFields](https://msdn.microsoft.com/library/jj276185\(v=office.15\))**.AllFields** enumerator in the search. In this case, the search is conducted on the search provider using whatever indexes are supported by the search provider.
+A search field is an index that a search provider uses to enable a search through its data store. Not all of the search fields enumerated by [SearchFields](https://msdn.microsoft.com/library/jj276185\(v=office.15\)) are supported as indexes by individual search providers. If you specify a search on a search provider using a search field that is not supported as an index, no search results are returned. If you're not sure whether a search provider supports a specific search field, you can use the [SearchFields](https://msdn.microsoft.com/library/jj276185\(v=office.15\))**.AllFields** enumerator in the search. In this case, the search is conducted on the search provider using whatever indexes are supported by the search provider.
 
 ## See also
 

@@ -209,7 +209,7 @@ The following properties on [ContactCard](https://msdn.microsoft.com/library/hh3
 </tr>
 <tr class="odd">
 <td><p>BorderThickness</p></td>
-<td><p>Placed around the circumference of the contact card, excluding the note border. The note obscures the top border when it is open.</p></td>
+<td><p>Placed around the circumference of the contact card, excluding the note border. The note obscures the top border when it's open.</p></td>
 </tr>
 <tr class="even">
 <td><p>FontFamily</p></td>

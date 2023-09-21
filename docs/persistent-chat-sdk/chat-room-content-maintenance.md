@@ -21,7 +21,7 @@ Persistent Chat lets users collaborate by posting messages in Persistent Chat ro
 
   - End users, including message authors, cannot delete content from any chat room.
 
-  - Chat room managers can disable rooms, but cannot delete rooms. Only administrators can delete a chat room after it is created.
+  - Chat room managers can disable rooms, but cannot delete rooms. Only administrators can delete a chat room after it's created.
 
 When a message is deleted, you cannot undo the action. However, deleted messages can be restored if there is a backup. If a Persistent Chat Compliance Server is enabled, old messages are stored in the compliance database.
 

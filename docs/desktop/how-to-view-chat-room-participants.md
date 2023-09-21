@@ -205,7 +205,7 @@ The following example updates the participant list in the UI with the names of a
                 {
                     string displayName = _client.ContactManager.GetContactByUri(roomUser.Uri).GetContactInformation(ContactInformationType.DisplayName).ToString();
 
-                    //Add the display name to the list box if it is not already in the list box.
+                    //Add the display name to the list box if it's not already in the list box.
                     if (!RoomRoster_Listbox.Items.Contains(displayName))
                     {
                         RoomRoster_Listbox.Items.Add(displayName);

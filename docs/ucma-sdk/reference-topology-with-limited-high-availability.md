@@ -24,7 +24,7 @@ Reference topology with limited high availability
 
   - **Voice pilot**   The organization using the exact topology shown in this diagram is currently running a pilot program of the Enterprise Voice feature of Lync Server 2013. Some users are using Lync Server 2013 as their sole voice solution.
     
-    If they go on to fully deploy Enterprise Voice and remove the PBX system, they should provide high availability for their voice solution by deploying a second Standard Edition server or moving to a Front End pool. A single Standard Edition topology as shown in this diagram is recommended only if you are not deploying Enterprise Voice in a production environment. Because being able to make calls is mission critical for almost every organization, you should provide high availability if you use Enterprise Voice as your telephone solution.
+    If they go on to fully deploy Enterprise Voice and remove the PBX system, they should provide high availability for their voice solution by deploying a second Standard Edition server or moving to a Front End pool. A single Standard Edition topology as shown in this diagram is recommended only if you're not deploying Enterprise Voice in a production environment. Because being able to make calls is mission critical for almost every organization, you should provide high availability if you use Enterprise Voice as your telephone solution.
 
   - **Additional Standard Edition servers can be added**   A single Standard Edition server can support up to 5,000 users. If you want to accommodate more users or provide some high availability capability for Enterprise Voice (at a minimum cost), you could add another Standard Edition server to this topology.
     
@@ -32,7 +32,7 @@ Reference topology with limited high availability
 
   - **Branch site survivability**   This organization is running the Enterprise Voice pilot with some branch site users as well. The branch office does not have a reliable wide area network (WAN) link to the central site, so a Survivable Branch Appliance is deployed there. With this deployed, if the WAN link goes down users at the branch site can still make and receive calls.
 
-  - **Edge Server recommended**   Although deploying an Edge Server is not required for internal instant messaging (IM), presence and conferencing, it is recommended for small deployments or when external or federated access is required. You can maximize your Lync Server 2013 investment by deploying an Edge Server to provide service to users currently outside your organization’s firewalls. The benefits include the following:
+  - **Edge Server recommended**   Although deploying an Edge Server is not required for internal instant messaging (IM), presence and conferencing, it's recommended for small deployments or when external or federated access is required. You can maximize your Lync Server 2013 investment by deploying an Edge Server to provide service to users currently outside your organization’s firewalls. The benefits include the following:
     
       - Your organization’s own users can use Lync Server 2013 functionality, if they are working from home or are out on the road.
     

@@ -27,5 +27,5 @@ The **AudioVideoMcuSession** state transitions are shown in the following illust
 
 3.  The transition from **Active** to **Retrying** occurs when the Focus detects that the MCU is failing over. In this case, UCMA 4.0 terminates the call with that MCU, provided that the call already exists. This transition also occurs when the **ConferenceSession** object reconnects to the Focus Because the MCU is not known to be failing over, the call is not terminated in this case.
 
-4.  The transition from **Retrying** to **Active** occurs when the failover process is complete, or when the **ConferenceSession** has reconnected to the Focus and the MCU is active. It is possible for the **ConferenceSession** to reconnect to the Focus but the **AudioVideoMcuSession** state does not change to **Active** if the MCU has not been activated on the server.
+4.  The transition from **Retrying** to **Active** occurs when the failover process is complete, or when the **ConferenceSession** has reconnected to the Focus and the MCU is active. It's possible for the **ConferenceSession** to reconnect to the Focus but the **AudioVideoMcuSession** state does not change to **Active** if the MCU has not been activated on the server.
 

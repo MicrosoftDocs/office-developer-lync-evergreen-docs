@@ -17,5 +17,5 @@ An [InstantMessagingCall](https://msdn.microsoft.com/library/hh161841\(v=office.
 
 Because an IM call can be forked by Microsoft Lync Server 2013, the receiving end should have logic to determine which endpoint should accept the IM call. Normally, this process is done by the most active endpoint as determined by the device state published by all of the endpoints. If there is only one endpoint, the IM can be autoaccepted immediately. Otherwise, the user should be given the opportunity to click the toast message so that the IM can be accepted on that endpoint. If the user does not click any of the toast messages within 10 seconds, the most active endpoint should accept the IM. This allows the message to flow so that the user can see the missed message when returning to the device.
 
-When an IM call is established, it is customary to include a "toast" message, which is generally a text/plain message.
+When an IM call is established, it's customary to include a "toast" message, which is generally a text/plain message.
 

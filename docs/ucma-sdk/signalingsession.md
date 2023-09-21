@@ -96,7 +96,7 @@ A signaling session supports the following events.
 </table>
 
 
-An application must implement appropriate event handlers and register them with a newly created **SignalingSession** object if it is interested in receiving the notification and handling any of the events.
+An application must implement appropriate event handlers and register them with a newly created **SignalingSession** object if it's interested in receiving the notification and handling any of the events.
 
 ## Initiating and accepting a signaling session
 
@@ -104,7 +104,7 @@ For each endpoint, a signaling session starts when an invitation is accepted and
 
 The invitation is inherently asynchronous and results in one or more responses from the remote participant. These responses trigger changes to the signaling session state.
 
-In the Multiple Points of Presence (MPOP) situation, it is possible for an invitation to arrive at all of the endpoints of the remote participant. The signaling session will process provisional responses from all of these endpoints. However, only one successful response is used for establishing the session. After the session is established with one remote endpoint, none of the other remote endpoints can join the session. The sender can also send the invitation to a specific endpoint of the remote participant by specifying a specific endpoint ID, which can be obtained from another signaling session or a subscription session.
+In the Multiple Points of Presence (MPOP) situation, it's possible for an invitation to arrive at all of the endpoints of the remote participant. The signaling session will process provisional responses from all of these endpoints. However, only one successful response is used for establishing the session. After the session is established with one remote endpoint, none of the other remote endpoints can join the session. The sender can also send the invitation to a specific endpoint of the remote participant by specifying a specific endpoint ID, which can be obtained from another signaling session or a subscription session.
 
 ## Sending and receiving messages inside a signaling session
 
@@ -134,7 +134,7 @@ In UCMA 4.0, media description is represented by the [ContentDescription](https:
 
 ## Declining and leaving a signaling session
 
-To decline an incoming session, an application calls the [TerminateWithRejection(Int32, String, IEnumerable\<SignalingHeader\>)](https://msdn.microsoft.com/library/hh381712\(v=office.15\)) method on a **SignalingSession** object. When the session is declined, it is no longer available for any use, because the resources have been freed, although some properties may still be accessible until the object is garbage-collected.
+To decline an incoming session, an application calls the [TerminateWithRejection(Int32, String, IEnumerable\<SignalingHeader\>)](https://msdn.microsoft.com/library/hh381712\(v=office.15\)) method on a **SignalingSession** object. When the session is declined, it's no longer available for any use, because the resources have been freed, although some properties may still be accessible until the object is garbage-collected.
 
 To leave an existing session, the application can call one of the overloaded [BeginTerminate()](https://msdn.microsoft.com/library/hh385159\(v=office.15\)) methods at any time. This results in UCMA 4.0 sending a BYE or CANCEL message, depending on the session state, and then disconnecting the session. Some properties of the session might still be accessible after **BeginTerminate** is called.
 

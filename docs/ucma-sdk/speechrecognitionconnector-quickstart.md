@@ -24,7 +24,7 @@ The application initializes the platform to start listening on behalf of a user,
 
 
 > [!WARNING]
-> <P>The application runs indefinitely in an idle state until it is called.</P>
+> <P>The application runs indefinitely in an idle state until it's called.</P>
 
 
 

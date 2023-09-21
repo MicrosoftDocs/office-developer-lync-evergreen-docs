@@ -14,7 +14,7 @@ dev_langs:
 
 (ConnectionInfoType complexType) (Lync SDN Interface 2.1.1)
 
-Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It is provided only in QualityUpdate events.
+Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It's provided only in QualityUpdate events.
 
 ## Element information
 

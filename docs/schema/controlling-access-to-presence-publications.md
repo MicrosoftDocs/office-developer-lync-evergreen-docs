@@ -74,7 +74,7 @@ A Microsoft Lync Server 2013 deployment comes with a set of predefined container
 </table>
 
 
-The Default container includes in its membership anyone who is not a member of any other containers. It is mainly used for publishing the identity of a presence publisher. The purpose is to make the publishing user discoverable by any other users. The user identity information is provisioned by the server from the underlying Active Directory domain service and the data is read-only. A client cannot modify the server-provisioned identity data in this container. The client cannot alter the membership scope of the default container, either.
+The Default container includes in its membership anyone who is not a member of any other containers. It's mainly used for publishing the identity of a presence publisher. The purpose is to make the publishing user discoverable by any other users. The user identity information is provisioned by the server from the underlying Active Directory domain service and the data is read-only. A client cannot modify the server-provisioned identity data in this container. The client cannot alter the membership scope of the default container, either.
 
 The Self container can store any information for use by the local instance of Lync 2013. Useful content includes roaming data for establishing and maintaining communication sessions. The information can include the user’s contact list, self-published presence data and their access control entries, and system configuration. Access to the Self container is limited to the local instance of a Lync Server 2013 client, including Lync 2013.
 
@@ -90,7 +90,7 @@ An application can specify other containers to support application-specific pres
 
 When an application adds a member or some data to a non-existent container, the server will create the container on behalf of the local user. If the application modifies the membership type or the access control list of a predefined container, it may change the container semantics specified by Lync 2013.
 
-If an application is to interoperate with Lync 2013, it is important that the application follow the Lync 2013–specific container semantics of the predefined containers. If the application intends to merely coexist with Lync 2013, it must not alter the predefined container semantics. One way to achieve that is to use custom containers.
+If an application is to interoperate with Lync 2013, it's important that the application follow the Lync 2013–specific container semantics of the predefined containers. If the application intends to merely coexist with Lync 2013, it must not alter the predefined container semantics. One way to achieve that is to use custom containers.
 
 ## Container membership types
 

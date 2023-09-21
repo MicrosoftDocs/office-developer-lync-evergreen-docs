@@ -76,13 +76,13 @@ private void PlatformStartupCompleted(IAsyncResult result)
   catch (ConnectionFailureException connFailEx)
   {
     // ConnectionFailureException will be thrown when the platform cannot connect.
-    // It is left to the developer to write real error handling code.
+    // It's left to the developer to write real error handling code.
     Console.WriteLine(connFailEx.ToString());
   }
   catch (InvalidOperationException ioe)
   {
     // InvalidOperationException will be thrown when the platform is already started or terminated.
-    // It is left to the developer to write real error handling code.
+    // It's left to the developer to write real error handling code.
     Console.WriteLine(ioe.ToString());
   }
 }
@@ -126,31 +126,31 @@ private void EndpointEstablishCompleted(IAsyncResult result)
   catch (ConnectionFailureException connFailEx)
   {
     // ConnectionFailureException will be thrown when the endpoint cannot connect to the server, or the credentials are invalid.
-    // It is left to the developer to write real error handling code.
+    // It's left to the developer to write real error handling code.
     Console.WriteLine(connFailEx.ToString());
   }
   catch (InvalidOperationException iOpEx)
   {
   // InvalidOperationException will be thrown when the endpoint is not in a valid state to connect. To connect, the platform must be started and the Endpoint Idle.
-  // It is left to the developer to write real error handling code.
+  // It's left to the developer to write real error handling code.
   Console.WriteLine(iOpEx.ToString());
   }
   catch (RegisterException regEx)
   {
     // RegisterException will be thrown when the endpoint cannot be registered (usually due to bad credentials).
-    // It is left to the developer to write real error handling code. 
+    // It's left to the developer to write real error handling code. 
     Console.WriteLine(regEx.ToString());
   }
   catch (AuthenticationException ae)
   {
     // AuthenticationException will be thrown when a general authentication-related problem occurred.
-    // It is left to the developer to write real error handling code. 
+    // It's left to the developer to write real error handling code. 
     Console.WriteLine(ae.ToString());
   }
   catch (OperationTimeoutException ote)
   {
     //OperationTimeoutException will be thrown when server did not respond for Register request.
-    // It is left to the developer to write real error handling code. 
+    // It's left to the developer to write real error handling code. 
     Console.WriteLine(ate.ToString());
   }
 }
@@ -221,7 +221,7 @@ The application can establish as many **AudioVideoCall** instances as it require
 
 
 
-The platform is responsible for using the appropriate identity whenever an operation is performed on the call, so the application does not need to know this identity. The fictitious identity is also part of the \<trusted-users\> section of the roster so that ordinary clients such as Lync 2013 do not display it in their user interfaces. Calls can be established in parallel. Applications can choose to create a pool of calls (all associated with an [Conversation](https://msdn.microsoft.com/library/hh349224\(v=office.15\)) instance) based on their own needs. It is the application’s responsibility to track the call instance that serves a specific user or group of users. It is recommended that the application use the [ApplicationContext](https://msdn.microsoft.com/library/hh383130\(v=office.15\)) property to accomplish this.
+The platform is responsible for using the appropriate identity whenever an operation is performed on the call, so the application does not need to know this identity. The fictitious identity is also part of the \<trusted-users\> section of the roster so that ordinary clients such as Lync 2013 do not display it in their user interfaces. Calls can be established in parallel. Applications can choose to create a pool of calls (all associated with an [Conversation](https://msdn.microsoft.com/library/hh349224\(v=office.15\)) instance) based on their own needs. It's the application’s responsibility to track the call instance that serves a specific user or group of users. It's recommended that the application use the [ApplicationContext](https://msdn.microsoft.com/library/hh383130\(v=office.15\)) property to accomplish this.
 
 ### Customizing MCU routing
 
@@ -253,7 +253,7 @@ As shown in the preceding list, sending an MCU routing command is dependent on r
 
 1.  Receiving notification for call establishment
     
-    This information comes from the notification sent by the MCU by way of the Focus to the application. However, because call establishment and MCU notification occur on separate dialogs, ordering of notifications relative to call establishment is not guaranteed. For this reason, it is possible for the notification to arrive after the call is completed.
+    This information comes from the notification sent by the MCU by way of the Focus to the application. However, because call establishment and MCU notification occur on separate dialogs, ordering of notifications relative to call establishment is not guaranteed. For this reason, it's possible for the notification to arrive after the call is completed.
     
     To simplify the developer experience, the application can call **AudioVideoMcuRouting.BeginUpdateAudioRoutes** on the call as soon as the call is established. The platform responds by queuing this request for up to 30 seconds. If no notification is received, this request fails.
     
@@ -261,11 +261,11 @@ As shown in the preceding list, sending an MCU routing command is dependent on r
 
 2.  Routing audio from a remote source
     
-    When the application calls **BeginUpdateAudioRoutes** to route audio from a remote source to itself, it is possible for the remote source to leave the conference before the update operation completes. In this circumstance the platform throws **InvalidOperationException** if it determines that the remote source left before the update request was sent. If the update request was sent before the remote source left, the platform relies on the audio-video MCU to fail the request and return the appropriate diagnostics information. The platform in turn throws [ConferenceFailureException](https://msdn.microsoft.com/library/hh382829\(v=office.15\)), which exposes diagnostics information.
+    When the application calls **BeginUpdateAudioRoutes** to route audio from a remote source to itself, it's possible for the remote source to leave the conference before the update operation completes. In this circumstance the platform throws **InvalidOperationException** if it determines that the remote source left before the update request was sent. If the update request was sent before the remote source left, the platform relies on the audio-video MCU to fail the request and return the appropriate diagnostics information. The platform in turn throws [ConferenceFailureException](https://msdn.microsoft.com/library/hh382829\(v=office.15\)), which exposes diagnostics information.
 
 3.  Routing audio to remote sinks
     
-    When the application calls **BeginUpdateAudioRoutes** to route audio to remote sinks, it is possible for some of these sinks to leave the conference before the update operation completes.
+    When the application calls **BeginUpdateAudioRoutes** to route audio to remote sinks, it's possible for some of these sinks to leave the conference before the update operation completes.
     
       - If all sinks have left (causing the list of sinks to be empty or null), the platform throws **ArgumentException**. If all participants have left the conference, the platform throws **InvalidOperationException**.
     
@@ -275,7 +275,7 @@ As shown in the preceding list, sending an MCU routing command is dependent on r
 
 ### Issuing a command in the context of another user
 
-The application is now ready to serve its users. Generally speaking, the application will need to monitor the entire conference roster or a specific MCU roster to be able to make announcements or play specific media clips to its users. As mentioned previously, it is the application’s responsibility to determine which call instance (and in particular which flow instance) corresponds to a specific user that it serves.
+The application is now ready to serve its users. Generally speaking, the application will need to monitor the entire conference roster or a specific MCU roster to be able to make announcements or play specific media clips to its users. As mentioned previously, it's the application’s responsibility to determine which call instance (and in particular which flow instance) corresponds to a specific user that it serves.
 
 Using the TCU model, the application can issue commands within the context of other users who are unable to issue conference commands because they are not connected to the Focus (such as PSTN users). The following example demonstrates issuing a mute command in the context of a PSTN user.
 

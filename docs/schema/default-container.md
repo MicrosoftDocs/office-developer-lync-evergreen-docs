@@ -15,7 +15,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-The Default Container has an ID value of 0 (zero). It is used to allow any remote users who are not a member of any of other containers to access non-private data published to this container or to specify how to route or block incoming calls from such users.
+The Default Container has an ID value of 0 (zero). It's used to allow any remote users who are not a member of any of other containers to access non-private data published to this container or to specify how to route or block incoming calls from such users.
 
 The following category instances are published to the Default Container.
 

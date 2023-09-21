@@ -35,7 +35,7 @@ There are several required steps when you install a managed application on Micro
 
 ### Core concepts to know for registering a managed application
 
-Registering an application requires use of the management shell, and PowerShell cmdlets. Also, it is useful to be familiar with the Lync Server API, and the tools for managing Lync Server.
+Registering an application requires use of the management shell, and PowerShell cmdlets. Also, it's useful to be familiar with the Lync Server API, and the tools for managing Lync Server.
 
 Table 1. Core concepts for registering a managed application
 
@@ -119,7 +119,7 @@ The following list contains some common errors seen when registering an applicat
 </tr>
 <tr class="odd">
 <td><p>Queue could not be opened</p></td>
-<td><p>Make sure you are logged on as a member of the local computer RTC Server Applications group. Then, log off, log back in, and try again.</p></td>
+<td><p>Make sure you're logged on as a member of the local computer RTC Server Applications group. Then, log off, log back in, and try again.</p></td>
 </tr>
 <tr class="even">
 <td><p>Server application failed to start</p></td>

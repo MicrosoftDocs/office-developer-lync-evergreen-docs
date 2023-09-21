@@ -14,7 +14,7 @@ dev_langs:
 
 (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
-Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It is provided only in QualityUpdate events.
+Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It's provided only in QualityUpdate events.
 
 
 **Applies to**: Lync 2013

@@ -63,7 +63,7 @@ The actions that you can perform on a shareable content item include:
 
   - Removing a shared content item from the sharing stage and putting it back into the content bin.
 
-The availability of these actions depends on the current state of a shareable content item. For example, a shareable content item that is in the active state does not allow the [ShareableContent.Present](https://msdn.microsoft.com/library/jj276346\(v=office.15\)) operation because it is already being presented on the sharing stage. As the state of a shareable content object changes and actions become available or unavailable, this event is raised. Use the event handler to enable or disable command buttons on your UI. You should register for this event in the event handler for the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\)) event.
+The availability of these actions depends on the current state of a shareable content item. For example, a shareable content item that is in the active state does not allow the [ShareableContent.Present](https://msdn.microsoft.com/library/jj276346\(v=office.15\)) operation because it's already being presented on the sharing stage. As the state of a shareable content object changes and actions become available or unavailable, this event is raised. Use the event handler to enable or disable command buttons on your UI. You should register for this event in the event handler for the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\)) event.
 
 The following event handler enables or disables command buttons according to the current availability of an action on a **ShareableContent** object.
 
@@ -107,7 +107,7 @@ The following event handler enables or disables command buttons according to the
 
 ### StateChanged event
 
-A properly designed application UI should show users the current state of all items in the conversation sharing content bin. To do this, you must register for the **StateChanged** event on each shareable content item as it is added to the content bin. The registration should be done in the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\)) event.
+A properly designed application UI should show users the current state of all items in the conversation sharing content bin. To do this, you must register for the **StateChanged** event on each shareable content item as it's added to the content bin. The registration should be done in the [ContentSharingModality.ContentAdded](https://msdn.microsoft.com/library/jj293541\(v=office.15\)) event.
 
 The following example updates a content bin list in the UI with the current state of a shareable item.
 

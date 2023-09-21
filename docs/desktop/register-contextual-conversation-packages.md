@@ -94,7 +94,7 @@ In contrast with Install Registration, Runtime Registration uses an application 
 
 Runtime Registration is a good choice for scenarios such as the following:
 
-An application only wants to provide a contextual experience when it is running. For example, Sam is a financial advisor who uses Lync 2013 to talk with his clients. When his market tracking software is open and he gets a call from a customer, it changes the application view to show the customer’s portfolio. This call is automatically noted in the finance software for auditing reasons. Because of auditing requirements, a customized view is not available unless the finance software is running.
+An application only wants to provide a contextual experience when it's running. For example, Sam is a financial advisor who uses Lync 2013 to talk with his clients. When his market tracking software is open and he gets a call from a customer, it changes the application view to show the customer’s portfolio. This call is automatically noted in the finance software for auditing reasons. Because of auditing requirements, a customized view is not available unless the finance software is running.
 
 ### Interaction between Runtime and Install Registration
 
@@ -266,15 +266,15 @@ The following table describes the three optional parameters for the Parameters v
 <tbody>
 <tr class="odd">
 <td><p>%AppData%</p></td>
-<td><p>Use this parameter to obtain the application data sent in a contextual conversation. The value is the same as the value of the <strong>ConversationContextualInfo.ApplicationData</strong> property. The size limit is 2 KB.</p></td>
+<td><p>Use this parameter to obtain the application data sent in a contextual conversation. The value is the same as the value of the <strong>ConversationContextualInfo.ApplicationData</strong> property. The size limit's 2 KB.</p></td>
 </tr>
 <tr class="even">
 <td><p>%AppId%</p></td>
-<td><p>Use this parameter to obtain the application GUID sent in a contextual conversation. The value is the is the same as the value of the <strong>ConversationContextualInfo.ApplicationId</strong> property. The size limit is 38 characters, which is the size of an application GUID.</p></td>
+<td><p>Use this parameter to obtain the application GUID sent in a contextual conversation. The value is the is the same as the value of the <strong>ConversationContextualInfo.ApplicationId</strong> property. The size limit's 38 characters, which is the size of an application GUID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>%AppName%</p></td>
-<td><p>Use this parameter to obtain the application name sent in a contextual conversation. The value is the same as the Name value in the Windows Registry. The size limit is 50 characters.</p></td>
+<td><p>Use this parameter to obtain the application name sent in a contextual conversation. The value is the same as the Name value in the Windows Registry. The size limit's 50 characters.</p></td>
 </tr>
 </tbody>
 </table>

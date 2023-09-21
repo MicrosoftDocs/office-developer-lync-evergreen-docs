@@ -64,8 +64,8 @@ The prerequisites for pinning and locking participant video feeds are as follows
     
     ```csharp
             /// <summary>
-            /// Pins the selected participant video to the video gallery if it is not pinned and
-            /// unpins the video if it is pinned.
+            /// Pins the selected participant video to the video gallery if it's not pinned and
+            /// unpins the video if it's pinned.
             /// </summary>
             /// <param name="sender"></param>
             /// <param name="e"></param>
@@ -705,8 +705,8 @@ The following example is the interaction logic for the previously declared WPF w
             }
     
             /// <summary>
-            /// Pins the selected participant video to the video gallery if it is not pinned and
-            /// unpins the video if it is pinned.
+            /// Pins the selected participant video to the video gallery if it's not pinned and
+            /// unpins the video if it's pinned.
             /// </summary>
             /// <param name="sender"></param>
             /// <param name="e"></param>

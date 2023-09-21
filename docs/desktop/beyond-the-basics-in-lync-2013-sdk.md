@@ -34,7 +34,7 @@ Additional resources</p></td>
 
 ## Advanced API features
 
-These advanced features are designed to give you programmatic access to some of the options that a Lync user can access through the **Lync options** menu on the client. If you are building an application that replaces the UI of a UI-suppressed Lync 2013 client and you want to provide a user with configuration options, then the topics in this section will get you started.
+These advanced features are designed to give you programmatic access to some of the options that a Lync user can access through the **Lync options** menu on the client. If you're building an application that replaces the UI of a UI-suppressed Lync 2013 client and you want to provide a user with configuration options, then the topics in this section will get you started.
 
 UI suppression is a feature that starts the Lync.exe process programmatically from your application and suppresses the entire user interface of the Lync 2013 client. This means that a user can only access Lync contacts, change configuration settings, start and accept conversations, and participate in conversations through your application.
 

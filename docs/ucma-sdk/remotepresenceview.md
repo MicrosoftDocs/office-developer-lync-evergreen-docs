@@ -37,7 +37,7 @@ The **SubscriptionMode** property on a **RemotePresenceViewSettings** instance c
 <tbody>
 <tr class="odd">
 <td><p><strong>Default</strong></p></td>
-<td><p>The most commonly used mode, where persistent subscription is attempted. If the subscription attempt fails, the view automatically switches to polling mode under certain error conditions (such as when the subscription limit is reached for the presentity).</p></td>
+<td><p>The most commonly used mode, where persistent subscription is attempted. If the subscription attempt fails, the view automatically switches to polling mode under certain error conditions (such as when the subscription limit's reached for the presentity).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Persistent</strong></p></td>
@@ -110,7 +110,7 @@ The **RemotePresenceView** state transitions for the subscription state of a tar
 
 7.  The transition from **Subscribed** to **Terminating** occurs when the application calls [StartUnsubscribingToPresentities(IEnumerable\<String\>)](https://msdn.microsoft.com/library/hh349575\(v=office.15\)) or [BeginTerminate(AsyncCallback, Object)](https://msdn.microsoft.com/library/hh349615\(v=office.15\)).
 
-8.  The transition from **Terminating** to **Terminated** occurs when the subscription ends, whether or not it is successful.
+8.  The transition from **Terminating** to **Terminated** occurs when the subscription ends, whether or not it's successful.
 
 9.  The transition from **WaitingForRetry** to **Terminating** occurs when the application is unsubscribing to the target, and the state is **WaitingForRetry**.
 

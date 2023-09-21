@@ -32,7 +32,7 @@ Each of the devices has an **AttachFlow** method that it uses to attach an **Aud
 
 Except for a **Player** device, a given **AudioVideoFlow** instance can be attached to only one device at a time. The **AudioVideoFlow** can remove the channel spontaneously if the Real-Time Protocol (RTP) connection is broken or if the far end requests a hold or renegotiation.
 
-When a device is shut down, the attached **AudioVideoFlow** is not automatically detached. The **AudioVideoFlow** remains attached until it is detached. The **AudioVideoFlow** must eventually be detached, or a memory leak will result. A long-lived device such as a **Player** can have many flows attached to it, and each flow and all related objects remain in memory even when the **Player** is shut down.
+When a device is shut down, the attached **AudioVideoFlow** is not automatically detached. The **AudioVideoFlow** remains attached until it's detached. The **AudioVideoFlow** must eventually be detached, or a memory leak will result. A long-lived device such as a **Player** can have many flows attached to it, and each flow and all related objects remain in memory even when the **Player** is shut down.
 
 This section contains the following topics:
 

@@ -71,7 +71,7 @@ Use Microsoft Lync 2013 CWE to display a business application that relates to t
 </tbody>
 </table>
 
-### Add context to a conversation you are joining
+### Add context to a conversation you're joining
 
 Use contextual conversation features to add information about the sender, the conversation, or other business application uses. For example:
 

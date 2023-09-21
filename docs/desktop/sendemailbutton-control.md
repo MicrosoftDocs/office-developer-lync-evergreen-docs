@@ -41,7 +41,7 @@ Additional resources</p></td>
 
 Use the [SendEmailButton](https://msdn.microsoft.com/library/hh379649\(v=office.15\)) control in Microsoft Lync Control applications to start Microsoft Outlook and compose an email to a selected contact. The selected contact must have an email address exposed for this feature to work. Optionally, you can specify a subject for the email as well.
 
-The control is designed to mimic the functionality provided by the corresponding button on the Quick Connect toolbar of the ContactCard. As such, it must be bound to a contact using the Source property before it can be used. When clicked, it starts Outlook and initiates the desired action with that contact. This button is not a general-purpose Outlook Integration tool. It is intended to be used with other Lync Controls to provide a full set of collaboration options for interacting with a specific contact or distribution group. Despite the fact that no Microsoft Lync 2013 functionality is actually used here, this control leverages the binding model of the other Lync Controls to provide the full scope of features accessible on the ContactCard Quick Connect toolbar.
+The control is designed to mimic the functionality provided by the corresponding button on the Quick Connect toolbar of the ContactCard. As such, it must be bound to a contact using the Source property before it can be used. When clicked, it starts Outlook and initiates the desired action with that contact. This button is not a general-purpose Outlook Integration tool. It's intended to be used with other Lync Controls to provide a full set of collaboration options for interacting with a specific contact or distribution group. Despite the fact that no Microsoft Lync 2013 functionality is actually used here, this control leverages the binding model of the other Lync Controls to provide the full scope of features accessible on the ContactCard Quick Connect toolbar.
 
 ![SendEmailButton Control](images/JJ945543.SendEmailButtonControl(Office.15).png "SendEmailButton Control")
 
@@ -71,7 +71,7 @@ Notable SendEmailButton control public properties and events relating to unified
 <ul>
 <li><p>If the value is a string that does not contain the sip: or tel: prefix, the control performs a search, using the string specified as a search criteria, and loads the first contact in the result set matching the specified string. This behavior is not deterministic and yields the slowest performance.</p></li>
 <li><p>If the value is a SIP URI string qualified by the sip: or tel: prefix, the contact is loaded using an exact match of the specified URI. This behavior is deterministic and yields better performance.</p></li>
-<li><p>If the value is a Contact or DistributionGroup object, it is used as-is. This behavior is deterministic and yields the best performance.</p></li>
+<li><p>If the value is a Contact or DistributionGroup object, it's used as-is. This behavior is deterministic and yields the best performance.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">

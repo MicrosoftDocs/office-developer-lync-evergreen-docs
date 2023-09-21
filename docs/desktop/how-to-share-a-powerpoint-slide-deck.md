@@ -215,7 +215,7 @@ The following example is invoked on the API platform thread when the **BeginCrea
         /// <summary>
         /// Called by platform when ShareableContent object is created. 
         /// Uploads the PowerPoint slide deck to the conversation content bin
-        /// where it is available to be shared (Presented)
+        /// where it's available to be shared (Presented)
         /// </summary>
         /// <param name="ar"></param>
         private void CreateShareableContentCallback(System.IAsyncResult ar)
@@ -302,7 +302,7 @@ The following example enables or disables the content item sharing UI command bu
 
 ## Share a PowerPoint deck
 
-To share a whiteboard, call the [ShareableContent.Present](https://msdn.microsoft.com/library/jj276346\(v=office.15\)) method on the content object that you want to share. If other content is being presented, it is displaced on the content sharing stage by the content sharing object on which you called the **Present** method.
+To share a whiteboard, call the [ShareableContent.Present](https://msdn.microsoft.com/library/jj276346\(v=office.15\)) method on the content object that you want to share. If other content is being presented, it's displaced on the content sharing stage by the content sharing object on which you called the **Present** method.
 
 ### To share a PowerPoint deck
 
@@ -354,7 +354,7 @@ Scrolling through an active PowerPoint presentation in a conversation involves m
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>When the local user is a presenter in the conversation, scrolling behaves differently than when the user is an attendee. When a presenter is sharing a PowerPoint slide deck and scrolls the deck in either direction, it is scrolled for all conversation participants. If the local user is an attendee instead of a presenter, scrolling changes only the local view of the slide deck. When an attendee scrolls, the PowerPoint presentation is put into private viewing mode.</p></td>
+<td><p>When the local user is a presenter in the conversation, scrolling behaves differently than when the user is an attendee. When a presenter is sharing a PowerPoint slide deck and scrolls the deck in either direction, it's scrolled for all conversation participants. If the local user is an attendee instead of a presenter, scrolling changes only the local view of the slide deck. When an attendee scrolls, the PowerPoint presentation is put into private viewing mode.</p></td>
 </tr>
 </tbody>
 </table>
@@ -474,7 +474,7 @@ Lync 2013 API conversation objects
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>If you are no longer sharing the PowerPoint deck, the status is <a href="https://msdn.microsoft.com/library/jj267322(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</a><strong>.Online</strong>.</p></td>
+<td><p>If you're no longer sharing the PowerPoint deck, the status is <a href="https://msdn.microsoft.com/library/jj267322(v=office.15)">Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</a><strong>.Online</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -1484,7 +1484,7 @@ namespace ContentSharing
                         }
                         else
                         {
-                            MessageBox.Show("You are in sync with presenter");
+                            MessageBox.Show("You're in sync with presenter");
                         }
                     }
                 }

@@ -278,7 +278,7 @@ The following category instances are published to this container.
 </calendarData>
 ```
 
-<p><b>NOTE</b>: The local user’s free-busy information is visible to the Colleagues, Workgroup, and Friends and Family container members, while it is not visible to the External Contacts container members.</p>
+<p><b>NOTE</b>: The local user’s free-busy information is visible to the Colleagues, Workgroup, and Friends and Family container members, while it's not visible to the External Contacts container members.</p>
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ The following category instances are published to this container.
 </note>
 ```
 
-<p><b>NOTE</b>: The OOF note is visible to the Colleagues, Workgroup, and Friends and Family container members, while it is not visible to the External Contacts container members.</p>
+<p><b>NOTE</b>: The OOF note is visible to the Colleagues, Workgroup, and Friends and Family container members, while it's not visible to the External Contacts container members.</p>
 </td>
 </tr>
 <tr class="even">

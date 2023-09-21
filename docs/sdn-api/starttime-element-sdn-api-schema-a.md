@@ -14,7 +14,7 @@ dev_langs:
 
 (ConnectionInfo element) (LyncDiagnostics element) (Lync SDN API Schema A)
 
-Denotes the time when the conversation started. It is provided only in QualityUpdate events.
+Denotes the time when the conversation started. It's provided only in QualityUpdate events.
 
 
 **Applies to**: Lync 2013

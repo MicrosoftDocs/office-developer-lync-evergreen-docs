@@ -218,7 +218,7 @@ If a user has already added a telephone number to the telephone number list but 
 
 ## Remove a telephone number from a user’s telephone list
 
-A user can clear the telephone number that is associated to a telephone type. If the telephone number was published to the contact card, it is also removed from the contact card.
+A user can clear the telephone number that is associated to a telephone type. If the telephone number was published to the contact card, it's also removed from the contact card.
 
 ### To remove an existing telephone number
 

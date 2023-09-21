@@ -25,7 +25,7 @@ A Trusted Conferencing User conversation serves multiple users. Some of these us
 
 
 > [!NOTE]
-> <P>An application that uses the TCU conversation model can still issue commands under its own identity. However, because the application is trusted, it is automatically treated as a presenter. For this reason, an application also must have the ability to execute commands in the context of another user to avoid an elevation of privilege.</P>
+> <P>An application that uses the TCU conversation model can still issue commands under its own identity. However, because the application is trusted, it's automatically treated as a presenter. For this reason, an application also must have the ability to execute commands in the context of another user to avoid an elevation of privilege.</P>
 
 
 

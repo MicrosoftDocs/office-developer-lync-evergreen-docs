@@ -92,7 +92,7 @@ Each of these objects expose methods, events, and properties that you use to man
 
 ## Working with shareable resources
 
-A shareable resource can be the local desktop, any display attached to the local workstation, or a running process such as Notepad.exe. Although a computer can have any number of shareable resources, only one of these resources can be shared in a conversation at a time. In addition, only one conversation participant can share a resource at a time. A shared resource that is under the control of the resource owner is not considered controlled. It is only when the control of the resource is given to another user that the resource is considered controlled. The shared conversation resource can be controlled by one user at a time. Resource control amounts to giving the controlling user access to the local mouse and keyboard in the context of the shared resource. For example, if a running process has a UI with a **Close** button, the controlling user can click the button with the controlled mouse and close the process.
+A shareable resource can be the local desktop, any display attached to the local workstation, or a running process such as Notepad.exe. Although a computer can have any number of shareable resources, only one of these resources can be shared in a conversation at a time. In addition, only one conversation participant can share a resource at a time. A shared resource that is under the control of the resource owner is not considered controlled. It's only when the control of the resource is given to another user that the resource is considered controlled. The shared conversation resource can be controlled by one user at a time. Resource control amounts to giving the controlling user access to the local mouse and keyboard in the context of the shared resource. For example, if a running process has a UI with a **Close** button, the controlling user can click the button with the controlled mouse and close the process.
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ A shareable resource can be the local desktop, any display attached to the local
 
 ### Maintaining a list of locally shareable resources
 
-A locally shareable collection of resources includes the desktop, monitors, and any UI-based processes that are running when a conversation is started and the conversation application sharing modality is connected. You are not notified when new processes are started after the application sharing modality is connected. To refresh a shareable resource list, you must read the [ShareableResources](https://msdn.microsoft.com/library/jj278380\(v=office.15\)) property.
+A locally shareable collection of resources includes the desktop, monitors, and any UI-based processes that are running when a conversation is started and the conversation application sharing modality is connected. You're not notified when new processes are started after the application sharing modality is connected. To refresh a shareable resource list, you must read the [ShareableResources](https://msdn.microsoft.com/library/jj278380\(v=office.15\)) property.
 
 ## Working with sharing conversation modality objects
 

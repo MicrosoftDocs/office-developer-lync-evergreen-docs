@@ -70,7 +70,7 @@ A message can be sent to a chat room even if the user is not an active participa
 </tbody>
 </table>
 
-In some scenarios, it is important that a message that is posted to a chat room comply with content and formatting constraints imposed by the organization that administers the Persistent Chat server. For example, a multi-national IT company might want to make sure that a user’s message does not contain language that can offend another chat room user. To make this message filtering possible, the Lync platform exposes an event that is raised when a message posting operation has started but is pending review by a logical message filter. The filter catches the event, runs filter logic on the message, updates the message as necessary, and then posts the message or cancels it. For information about how to build a message filter, see [How to: Filter an outgoing message from a local user to a chat room](how-to-filter-an-outgoing-message-from-a-local-user-to-a-chat-room.md).
+In some scenarios, it's important that a message that is posted to a chat room comply with content and formatting constraints imposed by the organization that administers the Persistent Chat server. For example, a multi-national IT company might want to make sure that a user’s message does not contain language that can offend another chat room user. To make this message filtering possible, the Lync platform exposes an event that is raised when a message posting operation has started but is pending review by a logical message filter. The filter catches the event, runs filter logic on the message, updates the message as necessary, and then posts the message or cancels it. For information about how to build a message filter, see [How to: Filter an outgoing message from a local user to a chat room](how-to-filter-an-outgoing-message-from-a-local-user-to-a-chat-room.md).
 
 ## Prerequisites
 
@@ -229,7 +229,7 @@ The following example registers for chat room events, reads chat room properties
 
 ## Post a message to a chat room
 
-After you have prepared to post messages to a chat room by following the steps in the previous procedure, you are ready to accept a user’s text input and post new messages to the selected chat room.
+After you have prepared to post messages to a chat room by following the steps in the previous procedure, you're ready to accept a user’s text input and post new messages to the selected chat room.
 
 ### To post a message to a chat room
 

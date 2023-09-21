@@ -37,7 +37,7 @@ The following list describes the steps an application must perform when it recei
 
 ```csharp
 public class ConferenceInvitationExample
-// This class is shown for demonstration purposes only. It is incomplete,
+// This class is shown for demonstration purposes only. It's incomplete,
 // and so will fail to compile.
 {
   private Conversation m_conversation;

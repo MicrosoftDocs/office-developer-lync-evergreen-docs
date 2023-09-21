@@ -17,7 +17,7 @@ dev_langs:
 
 
 
-A contact is a unified communication entity that is identified by a SIP URI. One or more contacts can be assembled into logical collections called groups. When a group is created, it is assigned a group ID, which is a server-assigned integer. The Contacts and Groups API in Microsoft Unified Communications Managed API 4.0 is available only for [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) objects.
+A contact is a unified communication entity that is identified by a SIP URI. One or more contacts can be assembled into logical collections called groups. When a group is created, it's assigned a group ID, which is a server-assigned integer. The Contacts and Groups API in Microsoft Unified Communications Managed API 4.0 is available only for [UserEndpoint](https://msdn.microsoft.com/library/hh348819\(v=office.15\)) objects.
 
 
 > [!NOTE]

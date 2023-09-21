@@ -14,7 +14,7 @@ dev_langs:
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-The enhanced presence publication and subscription infrastructure is also used to roam configuration data through in-band provisioning. The data includes server configuration, location profile, various policies, as well as user settings. It is stored on the server but is needed by a client at various stages in an application.
+The enhanced presence publication and subscription infrastructure is also used to roam configuration data through in-band provisioning. The data includes server configuration, location profile, various policies, as well as user settings. It's stored on the server but is needed by a client at various stages in an application.
 
 At the protocol level, receiving the provisioning data involves submitting a SUBSCRIBE request whose payload contains names of specified provisioning groups. The results are returned as the provisioning groups that contain the specified provisioning data.
 

@@ -45,7 +45,7 @@ WMI tools such as ApplicationProvisioner.exe, a tool that shipped with the Micro
 <tr class="odd">
 <td><p>S-1: Coexistence of a UCMA 2.0 application</p></td>
 <td><p>WMI</p></td>
-<td><p>The application is still deployed in its own UCMA 2.0 application. Therefore no changes needed on how it is managed.</p></td>
+<td><p>The application is still deployed in its own UCMA 2.0 application. Therefore no changes needed on how it's managed.</p></td>
 </tr>
 <tr class="even">
 <td><p>S-2: Upgrading a UCMA 2.0 application to Microsoft Unified Communications Managed API (UCMA) 3.0 after coexistence</p></td>
@@ -70,7 +70,7 @@ WMI tools such as ApplicationProvisioner.exe, a tool that shipped with the Micro
 <tr class="even">
 <td><p>S-6: Coexistence of a UCMA 3.0 Application</p></td>
 <td><p>PowerShell</p></td>
-<td><p>The application is a UCMA 3.0 application, so no changes are needed in how it is managed.</p></td>
+<td><p>The application is a UCMA 3.0 application, so no changes are needed in how it's managed.</p></td>
 </tr>
 <tr class="odd">
 <td><p>S-7: Direct deployment of a UCMA 3.0 application against Microsoft Office Communications Server 2007 R2</p></td>

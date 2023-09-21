@@ -90,7 +90,7 @@ The prerequisites for subscribing to presence information are as follows:
     _ContactInformationList = new List<ContactInformationType>();
     ```
 
-3.  Add an [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\)) enumerator for each kind of enhanced presence information that you want to be notified about when it is updated.
+3.  Add an [Microsoft.Lync.Model.ContactInformationType](https://msdn.microsoft.com/library/jj277212\(v=office.15\)) enumerator for each kind of enhanced presence information that you want to be notified about when it's updated.
 
 4.  Add a **Contact** object to the subscription for each user whose contact information that you want to subscribe to by calling the [ContactSubscription.AddContact](https://msdn.microsoft.com/library/jj275705\(v=office.15\)) method.
 

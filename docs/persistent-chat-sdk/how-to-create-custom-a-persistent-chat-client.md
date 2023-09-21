@@ -15,7 +15,7 @@ Learn how to create a custom Persistent Chat client by using the Microsoft Lync 
 
 **Applies to:** Lync 2013 | Lync Server 2013
 
-A user can use Microsoft Lync 2013 as the default client to access Microsoft Lync Server 2013 Persistent Chat and to use the supported features. However, when a business application demands a custom client, the Lync Server 2013 Persistent Chat API can be used to build it. The resultant custom client can support the full feature set of the API and interoperate with Lync 2013 as well. It can be a standalone application or an add-in to another one. It is especially useful for an application to integrate features with other line-of-business applications.
+A user can use Microsoft Lync 2013 as the default client to access Microsoft Lync Server 2013 Persistent Chat and to use the supported features. However, when a business application demands a custom client, the Lync Server 2013 Persistent Chat API can be used to build it. The resultant custom client can support the full feature set of the API and interoperate with Lync 2013 as well. It can be a standalone application or an add-in to another one. It's especially useful for an application to integrate features with other line-of-business applications.
 
 ## Simple custom client
 

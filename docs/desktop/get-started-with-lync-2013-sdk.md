@@ -99,7 +99,7 @@ To deploy a Lync SDK application, application users must be able to sign in to L
 
 ### Microsoft Lync 2013 SDK essentials
 
-Although an inexperienced programmer who understands basic .NET coding concepts can be successful programming with Microsoft Lync 2013 SDK, more robust and scalable applications can be developed if you are familiar with the following programming concepts.
+Although an inexperienced programmer who understands basic .NET coding concepts can be successful programming with Microsoft Lync 2013 SDK, more robust and scalable applications can be developed if you're familiar with the following programming concepts.
 
 <table>
 <colgroup>

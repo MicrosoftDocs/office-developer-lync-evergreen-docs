@@ -31,7 +31,7 @@ The [BeginJoin(ConferenceJoinOptions, AsyncCallback, Object)](https://msdn.micro
 
 
 > [!NOTE]
-> <P>It is possible for an application to land in the conference lobby if it received a conference invitation.</P>
+> <P>It's possible for an application to land in the conference lobby if it received a conference invitation.</P>
 
 
 

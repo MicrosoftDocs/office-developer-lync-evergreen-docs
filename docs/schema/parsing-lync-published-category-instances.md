@@ -292,7 +292,7 @@ The following table shows how to parse some of the presence category instances t
 <td><p>The subscriber receives a computed location that is determined in the following manner:</p>
 <p>When the aggregated availability number is less than 12000 and the most active computer (with the lowest availability number) has its location specified (in the <a href="state-endpointlocation-element.md">state/endpointLocation element</a> element), this location information will be included in the <a href="state-element_4.md">state[@type='aggregateState'] element</a> instance.</p>
 
-<p><b>NOTE</b>: The received location information indicates a place either set by the publisher or provided by the Microsoft Lync Server 2013 Location Information Service. The location information that the publisher wants the remote watchers to see is present. It is not necessarily the location where the user is actually located.</p>
+<p><b>NOTE</b>: The received location information indicates a place either set by the publisher or provided by the Microsoft Lync Server 2013 Location Information Service. The location information that the publisher wants the remote watchers to see is present. It's not necessarily the location where the user is actually located.</p>
 </td>
 </tr>
 <tr class="odd">

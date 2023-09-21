@@ -169,7 +169,7 @@ namespace UcmaAppLibrary
             catch (InvalidOperationException ioe)
             {
                 // InvalidOperationException will be thrown when the platform is already started or terminated.
-                // It is left to the developer to write real error handling code.
+                // It's left to the developer to write real error handling code.
                 if (OnSignInCompleted != null)
                     InvokeDelegates(OnSignInCompleted, this,
                         new AsyncOpStatusEventArgs(AsyncOpStatus.Error, ioe));

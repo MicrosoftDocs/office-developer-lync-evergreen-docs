@@ -47,7 +47,7 @@ The prerequisites for working with enhanced presence are as follows:
 
 ### Enhanced presence essentials
 
-To understand how to work with enhanced presence, it is important to become familiar with the concepts in the following table.
+To understand how to work with enhanced presence, it's important to become familiar with the concepts in the following table.
 
 <table>
 <colgroup>

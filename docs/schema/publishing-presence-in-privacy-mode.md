@@ -241,7 +241,7 @@ This Lync 2013-defined privacy-mode publication grammar document consists of fou
     
       - Inbound calls should be blocked when the container owner’s availability value falls between 9000 and 11999. This availability value range indicates that the container owner is in the Do Not Disturb state.
 
-  - When a member is assigned to multiple roles, the delegate role should take the precedence over the buddy role, unless it is specified otherwise.
+  - When a member is assigned to multiple roles, the delegate role should take the precedence over the buddy role, unless it's specified otherwise.
 
 ## See also
 

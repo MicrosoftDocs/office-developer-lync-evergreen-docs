@@ -169,7 +169,7 @@ The [Modality.ModalityStateChanged](https://msdn.microsoft.com/library/jj278080\
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>While it is a good practice to update your UI participant list with the name of each participant as each modality is connected, be prepared to remove a participant’s name if the participant declines the invitation or leaves the conversation. You are notified of this change in the <a href="https://msdn.microsoft.com/library/jj268280(v=office.15)">Conversation.ParticipantRemoved</a> event. If the participant is removed from the conversation before the his or her modality is connected, the participant declined the invitation.</p></td>
+<td><p>While it's a good practice to update your UI participant list with the name of each participant as each modality is connected, be prepared to remove a participant’s name if the participant declines the invitation or leaves the conversation. You're notified of this change in the <a href="https://msdn.microsoft.com/library/jj268280(v=office.15)">Conversation.ParticipantRemoved</a> event. If the participant is removed from the conversation before the his or her modality is connected, the participant declined the invitation.</p></td>
 </tr>
 </tbody>
 </table>

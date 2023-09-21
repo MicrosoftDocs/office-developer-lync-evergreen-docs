@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 ![Core concepts](images/JJ933133.mod_icon_CoreConcepts_long(Office.15).png "Core concepts")
 
-Learn about the components of Microsoft Lync 2013 enhanced presence and how it is implemented in Microsoft Lync 2013 SDK.
+Learn about the components of Microsoft Lync 2013 enhanced presence and how it's implemented in Microsoft Lync 2013 SDK.
 
 
 
@@ -35,7 +35,7 @@ Additional resources</p></td>
 
 ## What is enhanced presence?
 
-Enhanced presence is information that a client endpoint publishes on behalf of a signed-in user and displayed in the user’s Lync contact card. Presence is summarized as how available the user is for a conversation and how the user can be contacted. Simplified presence, a standard used by all IM clients, provides just the current availability of a user. For a client application that can only communicate by using an IM chat feature, this is sufficient. The Microsoft Lync 2013 client supports multi-modal communication through the SIP protocol supported by Microsoft Lync Server 2013, but also by using voice over a public switched telephone network (PSTN). With these additional communication channel options, it is necessary to enhance simple presence by providing the availability of all possible communication options so that a user can make the correct communication mode choice.
+Enhanced presence is information that a client endpoint publishes on behalf of a signed-in user and displayed in the user’s Lync contact card. Presence is summarized as how available the user is for a conversation and how the user can be contacted. Simplified presence, a standard used by all IM clients, provides just the current availability of a user. For a client application that can only communicate by using an IM chat feature, this is sufficient. The Microsoft Lync 2013 client supports multi-modal communication through the SIP protocol supported by Microsoft Lync Server 2013, but also by using voice over a public switched telephone network (PSTN). With these additional communication channel options, it's necessary to enhance simple presence by providing the availability of all possible communication options so that a user can make the correct communication mode choice.
 
 The Lync 2013 model allows a user to publish two kinds of notes that are displayed in the Lync client and accessible from the Lync 2013 API. An out-of-office (OOF) note can be published when a user is going to be away for an extended period of time. When an OOF note is not appropriate, a personal note can be published. Personal notes are normally single sentence status updates that all subscribing users see when viewing the contact card of the publishing user.
 

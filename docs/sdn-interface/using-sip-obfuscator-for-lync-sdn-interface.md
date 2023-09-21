@@ -19,7 +19,7 @@ The Lync SDN Interface 2.1.1 includes a utility (SIPObfuscator.exe) for authoriz
 
 When privacy protection is turned on, any personal identifiable information in a Lync call and quality data will be obfuscated. This means that any user identity is replaced by an alias. For example, the SIP Uri of sip:adama@contoso.com may be replaced by sip:CE6AF05C9705A05E@contoso.com. When the network traffic patterns of a single user is specified in this situation, the SIP Obfuscator utility is provided to determine the obfuscated user identity (alias) for an explicit user identity.
 
-SIP Obfuscator is a Windows console application. It is installed along with installations of the LSM and LDL.
+SIP Obfuscator is a Windows console application. It's installed along with installations of the LSM and LDL.
 
 To use SIP Obfuscator, do the following:
 

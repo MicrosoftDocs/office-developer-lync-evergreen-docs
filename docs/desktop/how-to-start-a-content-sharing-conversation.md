@@ -1459,7 +1459,7 @@ namespace ContentSharing
                         }
                         else
                         {
-                            MessageBox.Show("You are in sync with presenter");
+                            MessageBox.Show("You're in sync with presenter");
                         }
                     }
                 }

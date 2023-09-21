@@ -48,7 +48,7 @@ Developers who create applications using UCMA 4.0 SDK are strongly advised to ob
 
   - Application developers should be aware that files recorded by a **Recorder** device do not support Digital Rights Management (DRM). This means that conversations recorded by a **Recorder** device can be played by any player that supports the Windows Media Audio (WMA) media format, potentially exposing personal or confidential information.
 
-  - Although the UCMA 4.0 platform supports Real-time Transport Protocol (RTP), applications should use Secure Real-time Transport Protocol (SRTP) whenever possible. It is highly recommended that you use Encryption=Required so that audio packets cannot be tampered with or sniffed.
+  - Although the UCMA 4.0 platform supports Real-time Transport Protocol (RTP), applications should use Secure Real-time Transport Protocol (SRTP) whenever possible. It's highly recommended that you use Encryption=Required so that audio packets cannot be tampered with or sniffed.
     
 
     > [!NOTE]

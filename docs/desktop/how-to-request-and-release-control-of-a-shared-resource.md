@@ -211,7 +211,7 @@ The following example is called on the platform thread when the request control 
 
 ## Display the user participation state
 
-A user’s participation state is the current resource sharing-related activity. A user can be sharing a resource, viewing a resource shared by another user, requesting control of a resource, or controlling a resource. It is important that the local user is notified of any changes to this state. The Lync 2013 client gives visual clues such as the gold chrome frame that encloses the shared resource and conversation window text that shows the participation state. Your application should also show the participation state of the local user, primarily because a user might have closed the sharing stage of the conversation window or minimized the window. In that case, the user must rely on your application to disclose the current participation state.
+A user’s participation state is the current resource sharing-related activity. A user can be sharing a resource, viewing a resource shared by another user, requesting control of a resource, or controlling a resource. It's important that the local user is notified of any changes to this state. The Lync 2013 client gives visual clues such as the gold chrome frame that encloses the shared resource and conversation window text that shows the participation state. Your application should also show the participation state of the local user, primarily because a user might have closed the sharing stage of the conversation window or minimized the window. In that case, the user must rely on your application to disclose the current participation state.
 
 <table>
 <colgroup>
@@ -289,7 +289,7 @@ The following example releases control of the shared resource after confirming t
 
 ## Stop sharing or viewing a resource
 
-If you want to stop sharing a local resource, want to switch to a different local resource, or want to stop viewing a remote resource, disconnect from the conversation application sharing modality. When you share a different local resource, you are automatically reconnected to the sharing modality.
+If you want to stop sharing a local resource, want to switch to a different local resource, or want to stop viewing a remote resource, disconnect from the conversation application sharing modality. When you share a different local resource, you're automatically reconnected to the sharing modality.
 
 ### Code example
 

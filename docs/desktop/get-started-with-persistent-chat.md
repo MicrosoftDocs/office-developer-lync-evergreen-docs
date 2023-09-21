@@ -30,7 +30,7 @@ Learn about the programming concepts and Microsoft Lync 2013 SDK object model th
 
 The classes in the Persistent Chat [Microsoft.Lync.Model.Room](https://msdn.microsoft.com/library/jj277187\(v=office.15\)) namespace are the building blocks for features that range from chat room activity feeds, through chat room extensions called "add-on" applications, and to complete Persistent Chat room client applications. You can get chat rooms, join chat rooms, read chat room messages, and post chat room messages. You can also catch posts from the local user before they are posted if you need to filter, format, or cancel them.
 
-A chat room add-in allows you to create features such as a bot feed that automatically formats and posts messages to a chat room. It is also possible to create an add-in application that can read the complete history of posts in a room and parse the posts for interesting keywords and concepts.
+A chat room add-in allows you to create features such as a bot feed that automatically formats and posts messages to a chat room. It's also possible to create an add-in application that can read the complete history of posts in a room and parse the posts for interesting keywords and concepts.
 <a name="Start"></a> 
 
 ## Get started with Persistent Chat
@@ -45,7 +45,7 @@ The prerequisites for working with Persistent Chat are as follows:
 
 ### Persistent Chat essentials
 
-To understand how to work with Persistent Chat, it is important to become familiar with the concepts in the following table.
+To understand how to work with Persistent Chat, it's important to become familiar with the concepts in the following table.
 
 <table>
 <colgroup>
@@ -65,7 +65,7 @@ To understand how to work with Persistent Chat, it is important to become famili
 </tr>
 <tr class="even">
 <td><p><a href="chat-rooms.md">Chat rooms</a></p></td>
-<td><p>Learn about the Microsoft Lync Server 2013 Persistent Chat room feature as it is implemented in Lync 2013 SDK.</p></td>
+<td><p>Learn about the Microsoft Lync Server 2013 Persistent Chat room feature as it's implemented in Lync 2013 SDK.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="room-manager.md">Room manager</a></p></td>

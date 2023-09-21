@@ -162,7 +162,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <tr class="even">
 <td><p><a href="deviceclippingeventratio-element-sdn-interface-2-1-1.md">DeviceClippingEventRatio</a></p></td>
 <td><p>Not defined</p></td>
-<td><p>Percentage of sessions the DeviceClipping event was fired when a speaker clips the microphone, causing the remote listener receives clipping-induced distortions. It is important to avoid the microphone clipping.</p></td>
+<td><p>Percentage of sessions the DeviceClipping event was fired when a speaker clips the microphone, causing the remote listener receives clipping-induced distortions. It's important to avoid the microphone clipping.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deviceechoeventratio-element-sdn-interface-2-1-1.md">DeviceEchoEventRatio</a></p></td>
@@ -177,7 +177,7 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 <tr class="odd">
 <td><p><a href="devicenearendtoechoratioeventratio-element-sdn-interface-2-1-1.md">DeviceNearEndToEchoRatioEventRatio</a></p></td>
 <td><p>Not defined</p></td>
-<td><p>Percentage of sessions the DeviceNearEndToEcho event was fired when the user speech is too low compared to the echo being captured which impacts the users experience because it limits how easy it is to interrupt a user. The situation can be improved by reducing speaker volume or moving the microphone closer to the speaker.</p></td>
+<td><p>Percentage of sessions the DeviceNearEndToEcho event was fired when the user speech is too low compared to the echo being captured which impacts the users experience because it limits how easy it's to interrupt a user. The situation can be improved by reducing speaker volume or moving the microphone closer to the speaker.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="devicerendernotfunctioningeventratio-element-sdn-interface-2-1-1.md">DeviceRenderNotFunctioningEventRatio</a></p></td>
