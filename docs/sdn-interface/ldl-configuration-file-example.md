@@ -1,4 +1,4 @@
-﻿---
+---
 title: LDL configuration file example
 TOCTitle: LDL configuration file example
 ms:assetid: 6c325272-f444-4b8e-a9ac-80ebec5e2bff
@@ -8,6 +8,7 @@ ms.date: 02/16/2015
 mtps_version: v=office.15
 dev_langs:
 - xml
+description: Explore an example of the LDL configuration file for Lync 2010/2013 and Lync Server 2010/2013 at Microsoft's official site.
 ---
 
 # LDL configuration file example

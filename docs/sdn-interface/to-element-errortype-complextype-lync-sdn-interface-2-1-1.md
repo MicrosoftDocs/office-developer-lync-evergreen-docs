@@ -1,4 +1,4 @@
-﻿---
+---
 title: To element (ErrorType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: To element (ErrorType complexType)
 ms:assetid: 71dee509-11cc-0289-e61b-bc14bac70966
@@ -8,6 +8,7 @@ ms.date: 02/16/2015
 mtps_version: v=office.15
 dev_langs:
 - xml
+description: Explore the Lync SDN Interface 2.1.1 ErrorType complexType. Learn about its elements, attributes, and the role it plays in ended SIP calls.
 ---
 
 # To element (ErrorType complexType) 
