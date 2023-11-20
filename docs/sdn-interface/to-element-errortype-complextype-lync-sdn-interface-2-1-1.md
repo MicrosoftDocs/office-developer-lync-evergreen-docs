@@ -8,6 +8,8 @@ ms.date: 02/16/2015
 mtps_version: v=office.15
 dev_langs:
 - xml
+
+
 ---
 
 # To element (ErrorType complexType) 
@@ -38,6 +40,7 @@ Endpoint involved in the ended SIP call.
 </tr>
 </tbody>
 </table>
+
 
 
 ## Definition
@@ -77,6 +80,8 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </tr>
 </tbody>
 </table>
+
+
 
 
 ### Child elements
@@ -162,6 +167,8 @@ If the schema defines specific requirements, such as sequence, minOccurs, maxOcc
 </tr>
 </tbody>
 </table>
+
+
 
 
 ### Attributes
