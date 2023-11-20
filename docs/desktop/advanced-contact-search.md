@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ937269(v=office.15)
 ms:contentKeyID: 50877088
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Master advanced contact search with Microsoft Lync 2013 SDK. Learn to create a custom search feature for Lync 2013 users and distribution groups.
 ---
 
 # Advanced contact search
