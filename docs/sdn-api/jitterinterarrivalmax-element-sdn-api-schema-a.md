@@ -1,4 +1,4 @@
-﻿---
+---
 title: JitterInterArrivalMax element  (Lync SDN API Schema A)
 TOCTitle: JitterInterArrivalMax element
 ms:assetid: 7d51261a-c597-9db3-5683-2a101e892beb
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - xml
+description: Explore the JitterInterArrivalMax element in Lync 2013. Learn about its properties, metrics, and how it determines call quality on Microsoft's official site.
 ---
 
 # JitterInterArrivalMax element 

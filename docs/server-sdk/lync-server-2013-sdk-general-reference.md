@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync Server 2013 SDK general reference
 TOCTitle: Lync Server 2013 SDK general reference
 ms:assetid: 4b981db9-fa3a-4bc1-98bc-ba0aee7827b6
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn439057(v=office.15)
 ms:contentKeyID: 57096210
 ms.date: 02/11/2016
 mtps_version: v=office.15
+description: Explore the comprehensive guide on Microsoft Lync Server 2013 SDK. Learn to build, deploy, and test server-side SIP applications effectively.
 ---
 
 # Lync Server 2013 SDK general reference

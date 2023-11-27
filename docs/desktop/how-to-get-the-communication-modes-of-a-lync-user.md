@@ -9,6 +9,7 @@ mtps_version: v=office.15
 dev_langs:
 - csharp
 - xaml
+description: Discover how to use Microsoft Lync 2013 SDK to identify the communication modes a Lync user can utilize in conversations. Learn prerequisites and steps.
 ---
 
 # How to: Get the communication modes of a Lync user
