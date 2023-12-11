@@ -1,4 +1,4 @@
-﻿---
+---
 title: Publishing presence category instances
 TOCTitle: Publishing presence category instances
 ms:assetid: 182b7fe0-2f86-4427-822a-09382956228a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn454632(v=office.15)
 ms:contentKeyID: 57093176
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Learn how to publish presence category instances in Microsoft Lync Server 2013. Understand grammar-based and grammar-free publications, and how to modify presence data.
 ---
 
 # Publishing presence category instances

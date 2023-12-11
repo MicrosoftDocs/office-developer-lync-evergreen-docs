@@ -1,4 +1,4 @@
-﻿---
+---
 title: RoundTrip element  (Lync SDN API Schema A)
 TOCTitle: RoundTrip element
 ms:assetid: a6cb4bf8-c2eb-4dd7-8d8b-df707c476aac
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - xml
+description: Learn about the RoundTrip element in Lync 2013's SDN API Schema A. Understand its properties, attributes, and role in determining network propagation time.
 ---
 
 # RoundTrip element 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Getting ready to install Lync SDN Interface 2.1.1
 TOCTitle: Getting ready to install Lync SDN Interface 2.1.1
 ms:assetid: c5b5083a-a25e-4409-a496-2616bb2b15a2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn785199(v=office.15)
 ms:contentKeyID: 62952683
 ms.date: 02/16/2015
 mtps_version: v=office.15
+description: Learn how to successfully install Lync SDN Interface 2.1.1 with this comprehensive guide from Microsoft. Includes prerequisites and step-by-step instructions.
 ---
 
 # Getting ready to install Lync SDN Interface 2.1.1
