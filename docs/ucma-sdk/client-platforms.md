@@ -1,4 +1,4 @@
-﻿---
+---
 title: Client platforms
 TOCTitle: Client platforms
 ms:assetid: 10b3cb99-b1ab-4a21-97e4-b6106781b25b
@@ -8,6 +8,7 @@ ms.date: 07/25/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Explore Microsoft's guide on client platforms for Lync 2013. Learn about its characteristics, usage, and how it aids in application testing and development.
 ---
 
 # Client platforms

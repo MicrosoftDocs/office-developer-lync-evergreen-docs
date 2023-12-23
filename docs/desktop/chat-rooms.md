@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ933172(v=office.15)
 ms:contentKeyID: 50877309
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Explore Microsoft Lync 2013 SDK's Persistent Chat feature. Learn about followed chat rooms, room types, and how to interact with different chat rooms.
 ---
 
 # Chat rooms
