@@ -1,4 +1,4 @@
-﻿---
+---
 title: Troubleshooting media connectivity issues
 TOCTitle: Troubleshooting media connectivity issues
 ms:assetid: 4476d182-c84a-4ecc-be1a-a8291b21c995
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn466064(v=office.15)
 ms:contentKeyID: 57103057
 ms.date: 07/25/2014
 mtps_version: v=office.15
+description: Learn to troubleshoot media connectivity issues with Microsoft Lync 2013 using Unified Communications Managed API 4.0. Detailed guide available.
 ---
 
 # Troubleshooting media connectivity issues
