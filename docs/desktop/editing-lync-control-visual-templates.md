@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ945567(v=office.15)
 ms:contentKeyID: 51541381
 ms.date: 07/24/2014
 mtps_version: v=office.15
+description: Learn to customize Microsoft Lync 2013 Controls' visual templates for a unique application appearance. Get fine-grained control over layout and design.
 ---
 
 # Editing Lync Control visual templates
