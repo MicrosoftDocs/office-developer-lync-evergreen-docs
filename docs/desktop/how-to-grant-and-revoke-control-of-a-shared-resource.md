@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 dev_langs:
 - csharp
+description: Master Microsoft Lync 2013 SDK with this comprehensive guide on granting and revoking control of shared resources in a Lync 2013 conversation.
 ---
 
 # How to: Grant and revoke control of a shared resource

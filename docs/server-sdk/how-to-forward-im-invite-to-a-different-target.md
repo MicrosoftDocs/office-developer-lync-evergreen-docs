@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Forward IM invite to a different target'
 TOCTitle: 'How to: Forward IM invite to a different target'
 ms:assetid: 81d489bf-1e20-41fa-853d-d10541a6b654
@@ -8,6 +8,7 @@ ms.date: 02/11/2016
 mtps_version: v=office.15
 dev_langs:
 - xml
+description: Learn how to forward IM invites to a different target using a script application in Microsoft Lync Server 2013. Ideal for team collaboration and customer support.
 ---
 
 # How to: Forward IM invite to a different target

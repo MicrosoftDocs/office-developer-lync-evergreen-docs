@@ -1,4 +1,4 @@
-﻿---
+---
 title: URI element (QualityEndPointType complexType) (Lync SDN Interface 2.1.1)
 TOCTitle: URI element (QualityEndPointType complexType)
 ms:assetid: 8d675777-1770-d8f1-9888-5dad34f91e61
@@ -8,6 +8,7 @@ ms.date: 02/16/2015
 mtps_version: v=office.15
 dev_langs:
 - xml
+description: Explore the QualityEndPointType complexType in Lync SDN Interface 2.1.1. Learn about SIP URI, element info, and media stream sources.
 ---
 
 # URI element (QualityEndPointType complexType) 

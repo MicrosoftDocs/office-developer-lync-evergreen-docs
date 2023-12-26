@@ -1,4 +1,4 @@
-﻿---
+---
 title: UCMA 4.0 object model
 TOCTitle: UCMA 4.0 object model
 ms:assetid: 8a0bef0f-7819-45bd-b601-cdc2544009b5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn465975(v=office.15)
 ms:contentKeyID: 57102675
 ms.date: 07/25/2014
 mtps_version: v=office.15
+description: Explore the UCMA 4.0 object model on Microsoft's official site. Learn about its components, controls, and how it supports instant messaging and audio communication.
 ---
 
 # UCMA 4.0 object model
