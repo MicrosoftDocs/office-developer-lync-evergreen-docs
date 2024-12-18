@@ -34,7 +34,7 @@ Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+> [!VIDEO ae5a6f4d-7a73-44ed-9226-afbbae1e9512]
 
 <a name="GetStarted"></a> 
 ## What are Lync Controls?
