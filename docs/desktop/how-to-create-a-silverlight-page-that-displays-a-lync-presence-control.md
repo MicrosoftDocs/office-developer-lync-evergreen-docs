@@ -21,7 +21,7 @@ Watch the video: Add Presence to a WPF Application
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/04c69a9d-11bc-4750-b1aa-238bc8c7f5de]
+> [!VIDEO 81e43a6b-5731-4820-b117-1815128bd35f]
 
 
 <table>
