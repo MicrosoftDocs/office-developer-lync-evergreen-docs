@@ -26,21 +26,21 @@ Watch the video: Lync Contextual Data Part 1: Send Data With An IM Message
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/f1447b18-a319-4252-9ee1-39694128bdd4]
+> [!VIDEO c885a22c-97b1-4390-bca1-9e00eef3b20a]
 
 <div class="caption">
 Watch the video: Lync Contextual Data Part 2: Methods and Events
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/820fb295-e1f8-4c44-a31d-cf2a28d272ee]
+> [!VIDEO cb770efb-d59b-40be-8197-cb0d3902e29c]
 
 <div class="caption">
 Watch the video: Lync Contextual Data Part 3: Passing an Image File
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/b6aaf29e-4c59-491f-a947-a88e1f791204]
+> [!VIDEO bdf25087-4f9b-4198-888f-09cb1da67258]
 
 
 ## Prerequisites
