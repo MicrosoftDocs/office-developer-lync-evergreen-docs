@@ -24,7 +24,7 @@ Watch the video: Share PowerPoint slides in online meetings
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/07b2a385-8f2a-4745-abda-243d2a5dc26d]
+> [!VIDEO c31b9841-ccaf-4d24-b43f-32903c496b6c]
 
 
 ## PowerPoint sharing overview
