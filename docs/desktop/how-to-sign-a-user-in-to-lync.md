@@ -30,14 +30,14 @@ Watch the video: Sign In to Lync with UI Suppressed
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/5d247b33-af17-45f6-ad7e-9be9f9f7e5cd]
+> [!VIDEO c6446290-6f76-496a-a084-4516d5787a39]
 
 <div class="caption">
 Watch the video: Sign In to Lync
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/8a417ed0-bcab-4da7-b033-d1e2cdb784df]
+> [!VIDEO d2f112f1-d522-4201-aff7-1fba88963148]
 
 
 ## Prerequisites
