@@ -22,14 +22,14 @@ Watch the video: Localizing Lync Control Applications
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/8ce8874e-1f52-4954-94e8-6a190e7f27c9]
+> [!VIDEO 8145c2e0-efd9-43df-a7bd-1c3b3c23e42c]
 
 <div class="caption">
 Watch the video: Add Lync Controls to a Web Application
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/c3d4ed0f-b3c8-43c4-af53-36425f014575]
+> [!VIDEO ae5a6f4d-7a73-44ed-9226-afbbae1e9512]
 
 <table>
 <tbody>
