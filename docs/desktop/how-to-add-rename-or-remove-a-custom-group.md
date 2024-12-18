@@ -26,7 +26,7 @@ Watch the video: Add, rename, and delete custom groups in Lync
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/a5835343-787b-4041-9afc-bea073a748da]
+> [!VIDEO 671ab13f-4a33-448f-8e54-871cda6bf8be]
 
 
 ## Custom group overview
