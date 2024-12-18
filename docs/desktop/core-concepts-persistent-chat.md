@@ -22,7 +22,7 @@ Watch the video: What’s new with the Lync 2013 Persistent Chat API
 </div>
 <br />
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/2e129dbc-529c-4e43-a7aa-70ce9249b338]
+> [!VIDEO 6dbcd16b-3832-4562-a551-62cf105bd61e]
 
 
 ## Persistent Chat overview
