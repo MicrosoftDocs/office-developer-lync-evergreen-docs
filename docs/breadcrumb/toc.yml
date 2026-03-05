@@ -1,3 +1,12 @@
-- name: Docs
+- name: Learn
   tocHref: /
   topicHref: /
+  items:
+  - name: Previous Versions
+    tocHref: /previous-versions/
+    topicHref: /previous-versions/
+    items:
+    - name: Lync 2013
+      tocHref: /previous-versions/lync/lync-2013
+      topicHref: /previous-versions/lync/lync-2013
+      items:
